@@ -23,21 +23,16 @@ jobs:
       with:
         node-version: '18'
 
-    # --- FIX 1: Correctly move all HTML files ---
     - name: Organize Web Files
       run: |
         mkdir -p www
-        # Move all .html files into the www folder
         mv *.html www/
-        
-        # Try to move css/js folders, but don't fail if they don't exist
         mv css www/ || true
         mv js www/ || true
 
     - name: Create package.json
       run: npm init -y
 
-    # Install Capacitor AND the Asset Generator tool
     - name: Install Dependencies
       run: |
         npm install @capacitor/core@5 @capacitor/cli@5 @capacitor/android@5
@@ -55,20 +50,23 @@ jobs:
     - name: Add Android Platform
       run: npx cap add android
 
-    # --- FIX 2: Use your ghani.png file ---
+    # --- NEW STEP TO FORCE THE APP NAME ---
+    - name: Set Custom App Name
+      run: |
+        mkdir -p android/app/src/main/res/values
+        echo '<resources>
+          <string name="app_name">Ghani</string>
+          <string name="title_activity_main">Ghani</string>
+          <string name="package_name">com.mystore.app</string>
+          <string name="custom_url_scheme">com.mystore.app</string>
+        </resources>' > android/app/src/main/res/values/strings.xml
+
     - name: Generate App Icons
       run: |
-        # 1. Create the assets folder structure Capacitor expects
         mkdir -p assets
-        
-        # 2. Copy your ghani.png to be the source for icon and splash screen
         cp ghani.png assets/icon.png
         cp ghani.png assets/splash.png
-        
-        # 3. Run the generator tool
         npx capacitor-assets generate --android
-        
-        # 4. Sync these new assets into the Android project
         npx cap sync android
 
     - name: Build Debug APK
