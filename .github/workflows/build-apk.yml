@@ -1,0 +1,84 @@
+name: Build Android APK (Custom Icon)
+
+on:
+  push:
+    branches: [ "main" ]
+
+jobs:
+  build-android:
+    runs-on: ubuntu-latest
+
+    steps:
+    - name: Checkout code
+      uses: actions/checkout@v4
+
+    - name: Set up JDK 17
+      uses: actions/setup-java@v4
+      with:
+        java-version: '17'
+        distribution: 'temurin'
+
+    - name: Set up Node.js
+      uses: actions/setup-node@v4
+      with:
+        node-version: '18'
+
+    # --- FIX 1: Correctly move all HTML files ---
+    - name: Organize Web Files
+      run: |
+        mkdir -p www
+        # Move all .html files into the www folder
+        mv *.html www/
+        
+        # Try to move css/js folders, but don't fail if they don't exist
+        mv css www/ || true
+        mv js www/ || true
+
+    - name: Create package.json
+      run: npm init -y
+
+    # Install Capacitor AND the Asset Generator tool
+    - name: Install Dependencies
+      run: |
+        npm install @capacitor/core@5 @capacitor/cli@5 @capacitor/android@5
+        npm install @capacitor/assets --save-dev
+
+    - name: Create Capacitor Config
+      run: |
+        echo '{
+          "appId": "com.mystore.app",
+          "appName": "Ghani",
+          "webDir": "www",
+          "bundledWebRuntime": false
+        }' > capacitor.config.json
+
+    - name: Add Android Platform
+      run: npx cap add android
+
+    # --- FIX 2: Use your ghani.png file ---
+    - name: Generate App Icons
+      run: |
+        # 1. Create the assets folder structure Capacitor expects
+        mkdir -p assets
+        
+        # 2. Copy your ghani.png to be the source for icon and splash screen
+        cp ghani.png assets/icon.png
+        cp ghani.png assets/splash.png
+        
+        # 3. Run the generator tool
+        npx capacitor-assets generate --android
+        
+        # 4. Sync these new assets into the Android project
+        npx cap sync android
+
+    - name: Build Debug APK
+      run: |
+        cd android
+        chmod +x gradlew
+        ./gradlew assembleDebug
+
+    - name: Upload APK as Artifact
+      uses: actions/upload-artifact@v4
+      with:
+        name: app-debug.apk
+        path: android/app/build/outputs/apk/debug/app-debug.apk

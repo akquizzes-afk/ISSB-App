@@ -1,0 +1,1171 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>WAT Test - Psychological Assessment</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <script src="https://cdn.jsdelivr.net/npm/canvas-confetti@1.5.1/dist/confetti.browser.min.js"></script>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        }
+        
+        :root {
+            --primary: #0a1929;
+            --secondary: #0f2e1f;
+            --accent: #10b981;
+            --accent-dark: #059669;
+            --text: #e2e8f0;
+            --text-light: #94a3b8;
+            --card-bg: #152635;
+            --header-bg: rgba(10, 25, 41, 0.95);
+        }
+        
+        body {
+            background: linear-gradient(135deg, var(--primary) 0%, #0a1a14 100%);
+            color: var(--text);
+            line-height: 1.5;
+            min-height: 100vh;
+            padding: 0;
+        }
+        
+        /* Sticky Header */
+        .sticky-header {
+            position: sticky;
+            top: 0;
+            left: 0;
+            right: 0;
+            background: var(--header-bg);
+            backdrop-filter: blur(10px);
+            padding: 12px 20px;
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            border-bottom: 1px solid rgba(16, 185, 129, 0.2);
+            z-index: 1000;
+            box-shadow: 0 4px 20px rgba(0, 0, 0, 0.2);
+        }
+        
+        .header-left {
+            display: flex;
+            align-items: center;
+            gap: 12px;
+        }
+        
+        .app-icon {
+            width: 40px;
+            height: 40px;
+            background: linear-gradient(135deg, var(--accent) 0%, var(--accent-dark) 100%);
+            border-radius: 12px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            box-shadow: 0 4px 12px rgba(16, 185, 129, 0.3);
+        }
+        
+        .app-icon i {
+            font-size: 1.4rem;
+            color: white;
+        }
+        
+        .header-title {
+            font-size: 1.2rem;
+            font-weight: 600;
+            color: var(--text);
+        }
+        
+        .settings-icon {
+            width: 40px;
+            height: 40px;
+            border-radius: 50%;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            background: rgba(16, 185, 129, 0.1);
+            color: var(--accent);
+            cursor: pointer;
+            transition: all 0.3s ease;
+        }
+        
+        .settings-icon:hover {
+            background: rgba(16, 185, 129, 0.2);
+            transform: rotate(30deg);
+        }
+        
+        .container {
+            max-width: 100%;
+            margin: 0 auto;
+            padding: 20px;
+            padding-top: 80px; /* Space for sticky header */
+        }
+        
+        .card {
+            background: var(--card-bg);
+            border-radius: 14px;
+            overflow: hidden;
+            box-shadow: 0 6px 18px rgba(0, 0, 0, 0.25);
+            transition: all 0.3s ease;
+            border: 1px solid rgba(16, 185, 129, 0.1);
+            position: relative;
+            max-width: 600px;
+            margin: 0 auto;
+        }
+        
+        .card::before {
+            content: '';
+            position: absolute;
+            top: 0;
+            left: 0;
+            right: 0;
+            height: 4px;
+            background: linear-gradient(90deg, var(--accent) 0%, var(--accent-dark) 100%);
+            transform: scaleX(1);
+        }
+        
+        .card-header {
+            padding: 20px;
+            background: linear-gradient(135deg, rgba(16, 185, 129, 0.15) 0%, rgba(5, 150, 105, 0.1) 100%);
+            color: var(--accent);
+            display: flex;
+            align-items: center;
+            gap: 10px;
+        }
+        
+        .card-header i {
+            font-size: 1.4rem;
+        }
+        
+        .card-header h2 {
+            font-size: 1.2rem;
+            margin: 0;
+            font-weight: 600;
+        }
+        
+        .card-body {
+            padding: 25px;
+        }
+        
+        .instructions-list {
+            margin-bottom: 25px;
+        }
+        
+        .instruction-item {
+            display: flex;
+            align-items: flex-start;
+            gap: 12px;
+            margin-bottom: 15px;
+            padding: 10px;
+            border-radius: 8px;
+            background: rgba(255, 255, 255, 0.03);
+        }
+        
+        .instruction-number {
+            background: var(--accent);
+            color: white;
+            width: 24px;
+            height: 24px;
+            border-radius: 50%;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            font-size: 0.8rem;
+            font-weight: bold;
+            flex-shrink: 0;
+        }
+        
+        .instruction-text {
+            color: var(--text-light);
+            font-size: 0.9rem;
+            line-height: 1.5;
+        }
+        
+        .btn {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            gap: 8px;
+            background: linear-gradient(135deg, var(--accent) 0%, var(--accent-dark) 100%);
+            color: white;
+            padding: 12px 20px;
+            border: none;
+            border-radius: 10px;
+            font-size: 0.9rem;
+            font-weight: 600;
+            cursor: pointer;
+            transition: all 0.3s ease;
+            text-align: center;
+            width: 100%;
+            box-shadow: 0 4px 12px rgba(16, 185, 129, 0.3);
+        }
+        
+        .btn:hover {
+            transform: translateY(-2px);
+            box-shadow: 0 6px 16px rgba(16, 185, 129, 0.4);
+        }
+        
+        .btn:active {
+            transform: translateY(0);
+        }
+        
+        /* Test View Styles */
+        #testView {
+            display: none;
+            text-align: center;
+        }
+        
+        .word-display {
+            font-size: 2.5rem;
+            font-weight: 700;
+            color: var(--accent);
+            margin: 40px 0;
+            min-height: 60px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        }
+        
+        .test-info {
+            display: flex;
+            justify-content:
+            space-between;
+            margin-top: 30px;
+            color: var(--text-light);
+            font-size: 0.9rem;
+            align-items: baseline;
+        }
+        
+        .timer {
+            font-weight: 600;
+            color: var(--accent);
+        }
+        
+        /* Completion View Styles */
+        #completionView {
+            display: none;
+            text-align: center;
+            padding: 40px 20px;
+        }
+        
+        .completion-icon {
+            font-size: 4rem;
+            color: var(--accent);
+            margin-bottom: 20px;
+        }
+        
+        .completion-title {
+            font-size: 2rem;
+            font-weight: 700;
+            margin-bottom: 15px;
+            color: var(--text);
+        }
+        
+        .completion-subtitle {
+            font-size: 1.1rem;
+            color: var(--text-light);
+            margin-bottom: 30px;
+        }
+        
+        .action-buttons {
+            display: flex;
+            gap: 15px;
+            margin-top: 30px;
+        }
+        
+        .btn-secondary {
+            background: rgba(255, 255, 255, 0.1);
+            color: var(--text);
+        }
+        
+        .btn-secondary:hover {
+            background: rgba(255, 255, 255, 0.15);
+        }
+        
+        /* Progress Bar */
+        .progress-container {
+            width: 100%;
+            height: 6px;
+            background: rgba(255, 255, 255, 0.1);
+            border-radius: 3px;
+            margin: 20px 0;
+            overflow: hidden;
+        }
+        
+        .progress-bar {
+            height: 100%;
+            background: linear-gradient(90deg, var(--accent) 0%, var(--accent-dark) 100%);
+            width: 0%;
+            transition: width 0.3s ease;
+        }
+        
+        /* Settings Popup Styles */
+        .popup-overlay {
+            position: fixed;
+            top: 0;
+            left: 0;
+            right: 0;
+            bottom: 0;
+            background: rgba(0, 0, 0, 0.7);
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            z-index: 2000;
+            opacity: 0;
+            visibility: hidden;
+            transition: all 0.3s ease;
+        }
+        
+        .popup-overlay.active {
+            opacity: 1;
+            visibility: visible;
+        }
+        
+        .popup {
+            background: var(--card-bg);
+            border-radius: 14px;
+            width: 90%;
+            max-width: 500px;
+            max-height: 80vh;
+            overflow: hidden;
+            box-shadow: 0 20px 50px rgba(0, 0, 0, 0.5);
+            transform: scale(0.9);
+            transition: transform 0.3s ease;
+        }
+        
+        .popup-overlay.active .popup {
+            transform: scale(1);
+        }
+        
+        .popup-header {
+            padding: 20px;
+            background: linear-gradient(135deg, var(--accent) 0%, var(--accent-dark) 100%);
+            color: white;
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+        }
+        
+        .popup-header h3 {
+            font-size: 1.2rem;
+            font-weight: 600;
+        }
+        
+        .close-popup {
+            background: none;
+            border: none;
+            color: white;
+            font-size: 1.2rem;
+            cursor: pointer;
+            width: 30px;
+            height: 30px;
+            border-radius: 50%;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            transition: background 0.3s ease;
+        }
+        
+        .close-popup:hover {
+            background: rgba(255, 255, 255, 0.2);
+        }
+        
+        .popup-body {
+            padding: 25px;
+        }
+        
+        .input-group {
+            margin-bottom: 20px;
+        }
+        
+        .input-group label {
+            display: block;
+            margin-bottom: 8px;
+            color: var(--text-light);
+            font-size: 0.9rem;
+        }
+        
+        .word-input {
+            width: 100%;
+            background: rgba(255, 255, 255, 0.05);
+            border: 1px solid rgba(255, 255, 255, 0.1);
+            border-radius: 8px;
+            padding: 12px 15px;
+            color: var(--text);
+            font-size: 0.9rem;
+            resize: vertical;
+            min-height: 120px;
+        }
+        
+        .word-input:focus {
+            outline: none;
+            border-color: var(--accent);
+        }
+        
+        .word-preview {
+            margin-top: 15px;
+            padding: 15px;
+            background: rgba(255, 255, 255, 0.03);
+            border-radius: 8px;
+            max-height: 150px;
+            overflow-y: auto;
+        }
+        
+        .word-preview h4 {
+            font-size: 0.9rem;
+            margin-bottom: 10px;
+            color: var(--text-light);
+        }
+        
+        .preview-words {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 8px;
+        }
+        
+        .preview-word {
+            background: rgba(16, 185, 129, 0.2);
+            color: var(--accent);
+            padding: 4px 8px;
+            border-radius: 4px;
+            font-size: 0.8rem;
+        }
+        
+        .word-count {
+            margin-top: 10px;
+            font-size: 0.8rem;
+            color: var(--text-light);
+            text-align: right;
+        }
+        
+        .popup-footer {
+            display: flex;
+            gap: 10px;
+            margin-top: 20px;
+        }
+        
+        .btn-full {
+            flex: 1;
+            min-width: 0;
+        }
+        
+        btn-secondary {
+    background: rgba(255, 255, 255, 0.1);
+    color: var(--text);
+    border: 1px solid rgba(255, 255, 255, 0.2);
+}
+
+.btn-secondary:hover {
+    background: rgba(255, 255, 255, 0.15);
+    transform: translateY(-2px);
+    box-shadow: 0 4px 12px rgba(255, 255, 255, 0.1);
+}
+
+/* Ensure buttons have consistent height and alignment */
+.popup-footer .btn {
+    height: 44px; /* Consistent height */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 0.9rem;
+    padding: 12px 16px;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+
+        .notification {
+            position: fixed;
+            bottom: 20px;
+            left: 50%;
+            transform: translateX(-50%);
+            background: var(--accent);
+            color: white;
+            padding: 12px 20px;
+            border-radius: 8px;
+            box-shadow: 0 4px 12px rgba(16, 185, 129, 0.3);
+            z-index: 3000;
+            opacity: 0;
+            visibility: hidden;
+            transition: all 0.3s ease;
+        }
+        
+        .notification.show {
+            opacity: 1;
+            visibility: visible;
+        }
+        
+        *{
+            -webkit-tap-highlight-color: transparent;
+        }
+    </style>
+</head>
+<body>
+    <!-- Sticky Header -->
+    <div class="sticky-header">
+        <div class="header-left">
+            <div class="app-icon">
+                <i class="fas fa-comment-dots"></i>
+            </div>
+            <div class="header-title">WAT Test</div>
+        </div>
+        <div class="settings-icon" id="settingsBtn">
+            <i class="fas fa-cog"></i>
+        </div>
+    </div>
+
+    <div class="container">
+        <!-- Instructions View -->
+        <div id="instructionsView">
+            <div class="card">
+                <div class="card-header">
+                    <i class="fas fa-info-circle"></i>
+                    <h2>WAT Test Instructions</h2>
+                </div>
+                <div class="card-body">
+                    <div class="instructions-list">
+                        <div class="instruction-item">
+                            <div class="instruction-number">1</div>
+                            <div class="instruction-text">You will be shown 100 words one by one, each for 8 seconds.</div>
+                        </div>
+                        <div class="instruction-item">
+                            <div class="instruction-number">2</div>
+                            <div class="instruction-text">For each word, write down the first thought or association that comes to your mind.</div>
+                        </div>
+                        <div class="instruction-item">
+                            <div class="instruction-number">3</div>
+                            <div class="instruction-text">Do not overthink your responses. Go with your first instinct.</div>
+                        </div>
+                        <div class="instruction-item">
+                            <div class="instruction-number">4</div>
+                            <div class="instruction-text">There are no right or wrong answers. Be honest with your responses.</div>
+                        </div>
+                        <div class="instruction-item">
+                            <div class="instruction-number">5</div>
+                            <div class="instruction-text">Make sure you have paper and pen ready before starting the test.</div>
+                        </div>
+                        <div class="instruction-item">
+                            <div class="instruction-number">6</div>
+                            <div class="instruction-text">The test will automatically progress to the next word after 8 seconds.</div>
+                        </div>
+                        <div class="instruction-item">
+                            <div class="instruction-number">7</div>
+                            <div class="instruction-text">Once started, the test cannot be paused. Make sure you have 15 minutes of uninterrupted time.</div>
+                        </div>
+                    </div>
+                    <button id="continueBtn" class="btn">
+                        <i class="fas fa-play-circle"></i>
+                        Start Test
+                    </button>
+                </div>
+            </div>
+        </div>
+
+        <!-- Test View -->
+        <div id="testView">
+            <div class="card">
+                <div class="card-header">
+                    <i class="fas fa-comment-dots"></i>
+                    <h2>Word Association Test</h2>
+                </div>
+                <div class="card-body">
+                    <div class="word-display" id="currentWord">Ready?</div>
+                    <div class="progress-container">
+                        <div class="progress-bar" id="progressBar"></div>
+                    </div>
+                    <div class="test-info">
+                        <div class="word-count">Word: <span id="wordCount">0</span>/100</div>
+                        <div class="timer">Time: <span id="timerDisplay">8</span>s</div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Completion View -->
+        <div id="completionView">
+            <div class="card">
+                <div class="card-body">
+                    <div class="completion-icon">
+                        <i class="fas fa-trophy"></i>
+                    </div>
+                    <h2 class="completion-title">Congratulations 🎉</h2>
+                    <p class="completion-subtitle">You successfully completed the WAT Test</p>
+                    <div class="action-buttons">
+                        <button id="retryBtn" class="btn btn-secondary">
+                            <i class="fas fa-redo"></i>
+                            Retry Test
+                        </button>
+                        <button id="homeBtn" class="btn">
+                            <i class="fas fa-home"></i>
+                            Back to Home
+                        </button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Settings Popup -->
+    <div class="popup-overlay" id="settingsPopup">
+        <div class="popup">
+            <div class="popup-header">
+                <h3>Edit Words</h3>
+                <button class="close-popup" id="closePopup">
+                    <i class="fas fa-times"></i>
+                </button>
+            </div>
+            <div class="popup-body">
+                <div class="input-group">
+                    <label for="wordInput">Enter words (space separated):</label>
+                    <textarea class="word-input" id="wordInput" placeholder="Enter words separated by spaces, e.g. Water Fire Love Hate Peace"></textarea>
+                    <div class="word-count" id="wordCountInfo">Words: 0</div>
+                </div>
+                
+                <div class="word-preview">
+                    <h4>Preview:</h4>
+                    <div class="preview-words" id="wordPreview">
+                        <!-- Words will appear here as user types -->
+                    </div>
+                </div>
+                
+                <div class="popup-footer">
+                    <button class="btn btn-secondary btn-full" id="resetWordsBtn">
+                        <i class="fas fa-undo"></i>
+                        Reset to Default
+                    </button>
+                    <button class="btn btn-full" id="saveWordsBtn">
+                        <i class="fas fa-save"></i>
+                        Save Words
+                    </button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Notification -->
+    <div class="notification" id="notification">
+        Words saved successfully!
+    </div>
+
+<script>
+    // Local Storage Configuration
+    const STORAGE_KEYS = {
+        WORDS: 'wat_words'
+    };
+
+    // Default word list
+    const DEFAULT_WORDS = [
+        "Water", "Fire", "Love", "Hate", "Peace", "War", "Light", "Dark", "Happy", "Sad",
+        "Fast", "Slow", "Big", "Small", "Hot", "Cold", "Soft", "Hard", "Sweet", "Bitter",
+        "Friend", "Enemy", "Life", "Death", "Success", "Failure", "Rich", "Poor", "Strong", "Weak",
+        "Brave", "Fear", "Truth", "Lie", "Beauty", "Ugly", "Clean", "Dirty", "New", "Old",
+        "Young", "Old", "Good", "Bad", "Right", "Wrong", "Easy", "Difficult", "Simple", "Complex",
+        "Open", "Closed", "Full", "Empty", "Win", "Lose", "Give", "Take", "Buy", "Sell",
+        "Start", "End", "First", "Last", "Day", "Night", "Sun", "Moon", "Sky", "Earth",
+        "Sea", "Land", "Mountain", "Valley", "Forest", "Desert", "City", "Village", "Home", "Away",
+        "Inside", "Outside", "Up", "Down", "Left", "Right", "Forward", "Backward", "High", "Low",
+        "Deep", "Shallow", "Long", "Short", "Wide", "Narrow", "Heavy", "Light", "Loud", "Quiet",
+        "Bright", "Dim", "Smooth", "Rough", "Dry", "Wet", "Hard", "Soft", "Sharp", "Dull"
+    ];
+
+    // Test configuration
+    const TEST_CONFIG = {
+        totalWords: 100,
+        wordDuration: 8000 // 8 seconds
+    };
+
+    // Sound Management
+    const SoundManager = {
+        audioContext: null,
+        isAudioEnabled: true,
+        masterVolume: 1,
+        
+        init() {
+            // Create audio context (will be resumed on user interaction)
+            this.audioContext = new (window.AudioContext || window.webkitAudioContext)();
+            
+            // Check if audio is supported and enabled
+            this.isAudioEnabled = !!(this.audioContext && window.AudioContext);
+            
+            if (!this.isAudioEnabled) {
+                console.warn('Web Audio API not supported. Sound effects disabled.');
+            }
+        },
+        
+        // Play transition sound when word changes
+        playTransitionSound() {
+            if (!this.isAudioEnabled || !this.audioContext) return;
+            
+            try {
+                // Resume audio context if suspended (required for autoplay policies)
+                if (this.audioContext.state === 'suspended') {
+                    this.audioContext.resume();
+                }
+                
+                // Create oscillator for sound
+                const oscillator = this.audioContext.createOscillator();
+                const gainNode = this.audioContext.createGain();
+                
+                oscillator.connect(gainNode);
+                gainNode.connect(this.audioContext.destination);
+                
+                // Configure sound
+                oscillator.type = 'sine';
+                oscillator.frequency.setValueAtTime(800, this.audioContext.currentTime);
+                oscillator.frequency.exponentialRampToValueAtTime(400, this.audioContext.currentTime + 0.1);
+                
+                // Configure volume envelope
+                gainNode.gain.setValueAtTime(this.masterVolume , this.audioContext.currentTime);
+                gainNode.gain.exponentialRampToValueAtTime(0.01, this.audioContext.currentTime + 0.1);
+                
+                // Play sound
+                oscillator.start(this.audioContext.currentTime);
+                oscillator.stop(this.audioContext.currentTime + 0.1);
+                
+            } catch (error) {
+                console.warn('Could not play sound:', error);
+                this.isAudioEnabled = false;
+            }
+        },
+        
+        // Play completion sound
+        playCompletionSound() {
+            if (!this.isAudioEnabled || !this.audioContext) return;
+            
+            try {
+                if (this.audioContext.state === 'suspended') {
+                    this.audioContext.resume();
+                }
+                
+                const oscillator = this.audioContext.createOscillator();
+                const gainNode = this.audioContext.createGain();
+                
+                oscillator.connect(gainNode);
+                gainNode.connect(this.audioContext.destination);
+                
+                // Victory sound - ascending tones
+                const now = this.audioContext.currentTime;
+                oscillator.type = 'sine';
+                oscillator.frequency.setValueAtTime(523.25, now); // C5
+                oscillator.frequency.setValueAtTime(659.25, now + 0.1); // E5
+                oscillator.frequency.setValueAtTime(783.99, now + 0.2); // G5
+                oscillator.frequency.setValueAtTime(1046.50, now + 0.3); // C6
+                
+                gainNode.gain.setValueAtTime(0, now);
+                gainNode.gain.linearRampToValueAtTime(0.3, now + 0.05);
+                gainNode.gain.exponentialRampToValueAtTime(0.01, now + 0.4);
+                
+                oscillator.start(now);
+                oscillator.stop(now + 0.4);
+                
+            } catch (error) {
+                console.warn('Could not play completion sound:', error);
+            }
+        },
+        
+            // Set volume level (0.0 to 1.0)
+    setVolume(level) {
+        this.masterVolume = Math.max(0, Math.min(1, level)); // Clamp between 0 and 1
+    },
+        
+        // Toggle sound on/off
+        toggleSound() {
+            this.isAudioEnabled = !this.isAudioEnabled;
+            return this.isAudioEnabled;
+        }
+    };
+
+    // Local Storage Utility Functions
+    const Storage = {
+        // Initialize storage with default values if empty
+        init() {
+            if (!this.getWords() || this.getWords().length === 0) {
+                this.setWords(DEFAULT_WORDS);
+            }
+        },
+
+        // Word list management
+        getWords() {
+            try {
+                const words = localStorage.getItem(STORAGE_KEYS.WORDS);
+                return words ? JSON.parse(words) : null;
+            } catch (error) {
+                console.error('Error reading words from localStorage:', error);
+                return null;
+            }
+        },
+
+        setWords(words) {
+            try {
+                localStorage.setItem(STORAGE_KEYS.WORDS, JSON.stringify(words));
+                return true;
+            } catch (error) {
+                console.error('Error saving words to localStorage:', error);
+                return false;
+            }
+        },
+
+        // Reset to defaults
+        resetToDefaults() {
+            this.setWords(DEFAULT_WORDS);
+        }
+    };
+
+    // Word Management System
+    const WordManager = {
+        // Get all available words (localStorage + default)
+        getAllAvailableWords() {
+            const storedWords = Storage.getWords() || [];
+            const allWords = [...new Set([...storedWords, ...DEFAULT_WORDS])]; // Remove duplicates
+            return allWords;
+        },
+
+        // Generate random word list for the test
+        generateWordList(totalWordsNeeded) {
+            const allWords = this.getAllAvailableWords();
+            
+            // If we have enough words, shuffle and take what we need
+            if (allWords.length >= totalWordsNeeded) {
+                return this.shuffleArray([...allWords]).slice(0, totalWordsNeeded);
+            }
+            
+            // If we don't have enough words, we'll repeat some
+            const shuffled = this.shuffleArray([...allWords]);
+            const result = [];
+            
+            while (result.length < totalWordsNeeded) {
+                // Add all shuffled words
+                result.push(...shuffled);
+                
+                // If we still don't have enough, reshuffle and continue
+                if (result.length < totalWordsNeeded) {
+                    this.shuffleArray(shuffled);
+                }
+            }
+            
+            // Return exactly the number of words needed
+            return result.slice(0, totalWordsNeeded);
+        },
+
+        // Fisher-Yates shuffle algorithm
+        shuffleArray(array) {
+            const newArray = [...array];
+            for (let i = newArray.length - 1; i > 0; i--) {
+                const j = Math.floor(Math.random() * (i + 1));
+                [newArray[i], newArray[j]] = [newArray[j], newArray[i]];
+            }
+            return newArray;
+        },
+
+        // Get word sources info (for debugging)
+        getWordSourcesInfo() {
+            const storedWords = Storage.getWords() || [];
+            const uniqueStored = storedWords.filter(word => !DEFAULT_WORDS.includes(word));
+            
+            return {
+                totalStored: storedWords.length,
+                uniqueStored: uniqueStored.length,
+                totalDefault: DEFAULT_WORDS.length,
+                totalCombined: this.getAllAvailableWords().length
+            };
+        }
+    };
+
+    document.addEventListener('DOMContentLoaded', function() {
+        // Initialize storage and sound
+        Storage.init();
+        SoundManager.init();
+
+        // DOM Elements
+        const instructionsView = document.getElementById('instructionsView');
+        const testView = document.getElementById('testView');
+        const completionView = document.getElementById('completionView');
+        const continueBtn = document.getElementById('continueBtn');
+        const retryBtn = document.getElementById('retryBtn');
+        const homeBtn = document.getElementById('homeBtn');
+        const currentWord = document.getElementById('currentWord');
+        const wordCount = document.getElementById('wordCount');
+        const timerDisplay = document.getElementById('timerDisplay');
+        const progressBar = document.getElementById('progressBar');
+        
+        // Settings Popup Elements
+        const settingsBtn = document.getElementById('settingsBtn');
+        const settingsPopup = document.getElementById('settingsPopup');
+        const closePopup = document.getElementById('closePopup');
+        const wordInput = document.getElementById('wordInput');
+        const wordPreview = document.getElementById('wordPreview');
+        const wordCountInfo = document.getElementById('wordCountInfo');
+        const saveWordsBtn = document.getElementById('saveWordsBtn');
+        const resetWordsBtn = document.getElementById('resetWordsBtn');
+        const notification = document.getElementById('notification');
+        
+        // Test variables
+        let currentWordIndex = 0;
+        let timerInterval;
+        let timeLeft = TEST_CONFIG.wordDuration / 1000;
+        let wordList = [];
+        let isTestRunning = false;
+        
+        // Initialize test - ALWAYS SUCCEEDS NOW!
+        function initTest() {
+            currentWordIndex = 0;
+            timeLeft = TEST_CONFIG.wordDuration / 1000;
+            isTestRunning = true;
+            
+            // Generate word list dynamically
+            wordList = WordManager.generateWordList(TEST_CONFIG.totalWords);
+            
+            // Debug info
+            const sources = WordManager.getWordSourcesInfo();
+            console.log('Word Sources:', sources);
+            console.log('Generated word list:', wordList.length, 'words');
+            
+            updateProgressBar();
+            return true; // Always returns true now!
+        }
+        
+        // Start the word timer
+        function startWordTimer() {
+            clearInterval(timerInterval);
+            
+            // Play transition sound when word changes (except for first word)
+            if (currentWordIndex > 0) {
+                SoundManager.playTransitionSound();
+            }
+            
+            // Update word display with fade animation
+            currentWord.style.opacity = '0';
+            setTimeout(() => {
+                currentWord.textContent = wordList[currentWordIndex];
+                currentWord.style.opacity = '1';
+                currentWord.style.transform = 'scale(1.05)';
+                setTimeout(() => {
+                    currentWord.style.transform = 'scale(1)';
+                }, 200);
+            }, 150);
+            
+            wordCount.textContent = currentWordIndex + 1;
+            
+            timeLeft = TEST_CONFIG.wordDuration / 1000;
+            timerDisplay.textContent = timeLeft;
+            
+            timerInterval = setInterval(() => {
+                timeLeft--;
+                timerDisplay.textContent = timeLeft;
+                
+                updateProgressBar();
+                
+                if (timeLeft <= 0) {
+                    clearInterval(timerInterval);
+                    nextWord();
+                }
+            }, 1000);
+        }
+        
+        // Move to next word
+        function nextWord() {
+            currentWordIndex++;
+            
+            if (currentWordIndex < TEST_CONFIG.totalWords) {
+                startWordTimer();
+            } else {
+                showCompletion();
+            }
+        }
+        
+        // Update progress bar
+        function updateProgressBar() {
+            const progress = ((TEST_CONFIG.wordDuration / 1000 - timeLeft) / (TEST_CONFIG.wordDuration / 1000)) * 100;
+            progressBar.style.width = `${progress}%`;
+        }
+        
+        // Show completion view with confetti
+        function showCompletion() {
+            isTestRunning = false;
+            testView.style.display = 'none';
+            completionView.style.display = 'block';
+            
+            // Play completion sound
+            SoundManager.playCompletionSound();
+            
+            // Confetti effects
+            confetti({
+                particleCount: 150,
+                spread: 70,
+                origin: { y: 0.6 }
+            });
+            
+            setTimeout(() => confetti({
+                particleCount: 100,
+                angle: 60,
+                spread: 55,
+                origin: { x: 0 }
+            }), 250);
+            
+            setTimeout(() => confetti({
+                particleCount: 100,
+                angle: 120,
+                spread: 55,
+                origin: { x: 1 }
+            }), 400);
+        }
+        
+        // Show notification
+        function showNotification(message) {
+            notification.textContent = message;
+            notification.classList.add('show');
+            setTimeout(() => {
+                notification.classList.remove('show');
+            }, 3000);
+        }
+        
+        // Update word preview
+        function updateWordPreview() {
+            const text = wordInput.value.trim();
+            const words = text ? text.split(/\s+/) : [];
+            
+            wordPreview.innerHTML = '';
+            wordCountInfo.textContent = `Words: ${words.length}`;
+            
+            // Show first 20 words in preview
+            words.slice(0, 20).forEach(word => {
+                if (word) {
+                    const wordElement = document.createElement('span');
+                    wordElement.className = 'preview-word';
+                    wordElement.textContent = word;
+                    wordPreview.appendChild(wordElement);
+                }
+            });
+            
+            if (words.length > 20) {
+                const moreElement = document.createElement('span');
+                moreElement.className = 'preview-word';
+                moreElement.textContent = `+${words.length - 20} more`;
+                wordPreview.appendChild(moreElement);
+            }
+        }
+        
+        // Load current words into the input
+        function loadCurrentWords() {
+            const words = Storage.getWords() || DEFAULT_WORDS;
+            wordInput.value = words.join(' ');
+            updateWordPreview();
+        }
+        
+        // Event Listeners
+        continueBtn.addEventListener('click', function() {
+            instructionsView.style.display = 'none';
+            testView.style.display = 'block';
+            
+            // Resume audio context on first user interaction (required for autoplay)
+            if (SoundManager.audioContext && SoundManager.audioContext.state === 'suspended') {
+                SoundManager.audioContext.resume();
+            }
+            
+            // Initialize test (always succeeds now)
+            initTest();
+            
+            // Start the test
+            startWordTimer();
+        });
+        
+        retryBtn.addEventListener('click', function() {
+            completionView.style.display = 'none';
+            testView.style.display = 'block';
+            
+            // Reinitialize test with new random words
+            initTest();
+            startWordTimer();
+        });
+        
+        homeBtn.addEventListener('click', function() {
+            // In a real app, this would navigate back to the home page
+            window.location.href = 'index.html';
+        });
+        
+        // Settings popup functionality
+        settingsBtn.addEventListener('click', function() {
+            loadCurrentWords();
+            settingsPopup.classList.add('active');
+        });
+        
+        closePopup.addEventListener('click', function() {
+            settingsPopup.classList.remove('active');
+        });
+        
+        // Close popup when clicking outside
+        settingsPopup.addEventListener('click', function(e) {
+            if (e.target === settingsPopup) {
+                settingsPopup.classList.remove('active');
+            }
+        });
+        
+        // Update preview as user types
+        wordInput.addEventListener('input', updateWordPreview);
+        
+        // Save words
+        saveWordsBtn.addEventListener('click', function() {
+            const text = wordInput.value.trim();
+            if (!text) {
+                alert('Please enter at least one word');
+                return;
+            }
+            
+            const words = text.split(/\s+/).filter(word => word.length > 0);
+            
+            if (Storage.setWords(words)) {
+                showNotification('Words saved successfully!');
+                setTimeout(() => {
+                    settingsPopup.classList.remove('active');
+                }, 1500);
+            } else {
+                alert('Error saving words. Please try again.');
+            }
+        });
+        
+        // Reset to default words
+        resetWordsBtn.addEventListener('click', function() {
+            if (confirm('Reset to default word list? This will replace your current words.')) {
+                Storage.resetToDefaults();
+                loadCurrentWords();
+                showNotification('Default words restored!');
+            }
+        });
+        
+        // Add sound toggle functionality to settings icon (long press)
+        let settingsPressTimer;
+        settingsBtn.addEventListener('mousedown', function() {
+            settingsPressTimer = setTimeout(() => {
+                const newState = SoundManager.toggleSound();
+                showNotification(newState ? 'Sound enabled 🔊' : 'Sound disabled 🔇');
+            }, 1000);
+        });
+        
+        settingsBtn.addEventListener('mouseup', function() {
+            clearTimeout(settingsPressTimer);
+        });
+        
+        settingsBtn.addEventListener('mouseleave', function() {
+            clearTimeout(settingsPressTimer);
+        });
+        
+        // Touch events for mobile
+        settingsBtn.addEventListener('touchstart', function() {
+            settingsPressTimer = setTimeout(() => {
+                const newState = SoundManager.toggleSound();
+                showNotification(newState ? 'Sound enabled 🔊' : 'Sound disabled 🔇');
+            }, 1000);
+        });
+        
+        settingsBtn.addEventListener('touchend', function() {
+            clearTimeout(settingsPressTimer);
+        });
+        
+        // Debug info
+        console.log('Current words in storage:', (Storage.getWords() || []).length);
+        console.log('Word sources info:', WordManager.getWordSourcesInfo());
+        console.log('Audio enabled:', SoundManager.isAudioEnabled);
+    });
+</script>

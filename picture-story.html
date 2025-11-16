@@ -1,0 +1,1416 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Picture Story Test - Psychological Assessment</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <script src="https://cdn.jsdelivr.net/npm/canvas-confetti@1.5.1/dist/confetti.browser.min.js"></script>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        }
+        
+        :root {
+            --primary: #0a1929;
+            --secondary: #0f2e1f;
+            --accent: #10b981;
+            --accent-dark: #059669;
+            --text: #e2e8f0;
+            --text-light: #94a3b8;
+            --card-bg: #152635;
+            --header-bg: rgba(10, 25, 41, 0.95);
+        }
+        
+        body {
+            background: linear-gradient(135deg, var(--primary) 0%, #0a1a14 100%);
+            color: var(--text);
+            line-height: 1.5;
+            min-height: 100vh;
+            padding: 0;
+        }
+        
+        /* Sticky Header */
+        .sticky-header {
+            position: sticky;
+            top: 0;
+            left: 0;
+            right: 0;
+            background: var(--header-bg);
+            backdrop-filter: blur(10px);
+            padding: 12px 20px;
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            border-bottom: 1px solid rgba(16, 185, 129, 0.2);
+            z-index: 1000;
+            box-shadow: 0 4px 20px rgba(0, 0, 0, 0.2);
+        }
+        
+        .header-left {
+            display: flex;
+            align-items: center;
+            gap: 12px;
+        }
+        
+        .app-icon {
+            width: 40px;
+            height: 40px;
+            background: linear-gradient(135deg, var(--accent) 0%, var(--accent-dark) 100%);
+            border-radius: 12px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            box-shadow: 0 4px 12px rgba(16, 185, 129, 0.3);
+        }
+        
+        .app-icon i {
+            font-size: 1.4rem;
+            color: white;
+        }
+        
+        .header-title {
+            font-size: 1.2rem;
+            font-weight: 600;
+            color: var(--text);
+        }
+        
+        .settings-icon {
+            width: 40px;
+            height: 40px;
+            border-radius: 50%;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            background: rgba(16, 185, 129, 0.1);
+            color: var(--accent);
+            cursor: pointer;
+            transition: all 0.3s ease;
+        }
+        
+        .settings-icon:hover {
+            background: rgba(16, 185, 129, 0.2);
+            transform: rotate(30deg);
+        }
+        
+        .container {
+            max-width: 100%;
+            margin: 0 auto;
+            padding: 20px;
+            padding-top: 80px; /* Space for sticky header */
+        }
+        
+        .card {
+            background: var(--card-bg);
+            border-radius: 14px;
+            overflow: hidden;
+            box-shadow: 0 6px 18px rgba(0, 0, 0, 0.25);
+            transition: all 0.3s ease;
+            border: 1px solid rgba(16, 185, 129, 0.1);
+            position: relative;
+            max-width: 600px;
+            margin: 0 auto;
+        }
+        
+        .card::before {
+            content: '';
+            position: absolute;
+            top: 0;
+            left: 0;
+            right: 0;
+            height: 4px;
+            background: linear-gradient(90deg, var(--accent) 0%, var(--accent-dark) 100%);
+            transform: scaleX(1);
+        }
+        
+        .card-header {
+            padding: 20px;
+            background: linear-gradient(135deg, rgba(16, 185, 129, 0.15) 0%, rgba(5, 150, 105, 0.1) 100%);
+            color: var(--accent);
+            display: flex;
+            align-items: center;
+            gap: 10px;
+        }
+        
+        .card-header i {
+            font-size: 1.4rem;
+        }
+        
+        .card-header h2 {
+            font-size: 1.2rem;
+            margin: 0;
+            font-weight: 600;
+        }
+        
+        .card-body {
+            padding: 25px;
+        }
+        
+        .instructions-list {
+            margin-bottom: 25px;
+        }
+        
+        .instruction-item {
+            display: flex;
+            align-items: flex-start;
+            gap: 12px;
+            margin-bottom: 15px;
+            padding: 10px;
+            border-radius: 8px;
+            background: rgba(255, 255, 255, 0.03);
+        }
+        
+        .instruction-number {
+            background: var(--accent);
+            color: white;
+            width: 24px;
+            height: 24px;
+            border-radius: 50%;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            font-size: 0.8rem;
+            font-weight: bold;
+            flex-shrink: 0;
+        }
+        
+        .instruction-text {
+            color: var(--text-light);
+            font-size: 0.9rem;
+            line-height: 1.5;
+        }
+        
+        .btn {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            gap: 8px;
+            background: linear-gradient(135deg, var(--accent) 0%, var(--accent-dark) 100%);
+            color: white;
+            padding: 12px 20px;
+            border: none;
+            border-radius: 10px;
+            font-size: 0.9rem;
+            font-weight: 600;
+            cursor: pointer;
+            transition: all 0.3s ease;
+            text-align: center;
+            width: 100%;
+            box-shadow: 0 4px 12px rgba(16, 185, 129, 0.3);
+        }
+        
+        .btn:hover {
+            transform: translateY(-2px);
+            box-shadow: 0 6px 16px rgba(16, 185, 129, 0.4);
+        }
+        
+        .btn:active {
+            transform: translateY(0);
+        }
+        
+        /* Test View Styles */
+        #testView {
+            display: none;
+            text-align: center;
+        }
+        
+        .image-display-container {
+            margin: 20px 0;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            min-height: 300px;
+            background: rgba(255, 255, 255, 0.02);
+            border-radius: 10px;
+            border: 1px solid rgba(255, 255, 255, 0.05);
+            overflow: hidden;
+            position: relative;
+        }
+        
+        .image-display {
+            max-width: 100%;
+            max-height: 400px;
+            object-fit: contain;
+            border-radius: 8px;
+        }
+        
+        .writing-phase {
+            font-size: 2rem;
+            font-weight: 700;
+            color: var(--accent);
+            margin: 40px 0;
+            min-height: 60px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        }
+        
+        .test-info {
+            display: flex;
+            justify-content: space-between;
+            margin-top: 30px;
+            color: var(--text-light);
+            font-size: 0.9rem;
+        }
+        
+        .timer {
+            font-weight: 600;
+            color: var(--accent);
+        }
+        
+        .phase-info {
+            font-weight: 600;
+            color: var(--accent);
+        }
+        
+        /* Completion View Styles */
+        #completionView {
+            display: none;
+            text-align: center;
+            padding: 40px 20px;
+        }
+        
+        .completion-icon {
+            font-size: 4rem;
+            color: var(--accent);
+            margin-bottom: 20px;
+        }
+        
+        .completion-title {
+            font-size: 2rem;
+            font-weight: 700;
+            margin-bottom: 15px;
+            color: var(--text);
+        }
+        
+        .completion-subtitle {
+            font-size: 1.1rem;
+            color: var(--text-light);
+            margin-bottom: 30px;
+        }
+        
+        .action-buttons {
+            display: flex;
+            gap: 15px;
+            margin-top: 30px;
+        }
+        
+        .btn-secondary {
+            background: rgba(255, 255, 255, 0.1);
+            color: var(--text);
+        }
+        
+        .btn-secondary:hover {
+            background: rgba(255, 255, 255, 0.15);
+        }
+        
+        /* Progress Bar */
+        .progress-container {
+            width: 100%;
+            height: 6px;
+            background: rgba(255, 255, 255, 0.1);
+            border-radius: 3px;
+            margin: 20px 0;
+            overflow: hidden;
+        }
+        
+        .progress-bar {
+            height: 100%;
+            background: linear-gradient(90deg, var(--accent) 0%, var(--accent-dark) 100%);
+            width: 0%;
+            transition: width 0.3s ease;
+        }
+        
+        /* Settings Popup Styles */
+        .popup-overlay {
+            position: fixed;
+            top: 0;
+            left: 0;
+            right: 0;
+            bottom: 0;
+            background: rgba(0, 0, 0, 0.7);
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            z-index: 2000;
+            opacity: 0;
+            visibility: hidden;
+            transition: all 0.3s ease;
+        }
+        
+        .popup-overlay.active {
+            opacity: 1;
+            visibility: visible;
+        }
+        
+        .popup {
+            background: var(--card-bg);
+            border-radius: 14px;
+            width: 90%;
+            max-width: 500px;
+            max-height: 80vh;
+            overflow: hidden;
+            box-shadow: 0 20px 50px rgba(0, 0, 0, 0.5);
+            transform: scale(0.9);
+            transition: transform 0.3s ease;
+        }
+        
+        .popup-overlay.active .popup {
+            transform: scale(1);
+        }
+        
+        .popup-header {
+            padding: 20px;
+            background: linear-gradient(135deg, var(--accent) 0%, var(--accent-dark) 100%);
+            color: white;
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+        }
+        
+        .popup-header h3 {
+            font-size: 1.2rem;
+            font-weight: 600;
+        }
+        
+        .close-popup {
+            background: none;
+            border: none;
+            color: white;
+            font-size: 1.2rem;
+            cursor: pointer;
+            width: 30px;
+            height: 30px;
+            border-radius: 50%;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            transition: background 0.3s ease;
+        }
+        
+        .close-popup:hover {
+            background: rgba(255, 255, 255, 0.2);
+        }
+        
+        .popup-body {
+            padding: 25px;
+            max-height: 60vh;
+            overflow-y: auto;
+        }
+        
+        .input-group {
+            margin-bottom: 20px;
+        }
+        
+        .input-group label {
+            display: block;
+            margin-bottom: 8px;
+            color: var(--text-light);
+            font-size: 0.9rem;
+        }
+        
+        /* Custom File Upload */
+        .file-upload-container {
+            position: relative;
+            margin-bottom: 15px;
+        }
+        
+        .file-upload-label {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            gap: 10px;
+            padding: 30px 20px;
+            border: 2px dashed rgba(16, 185, 129, 0.3);
+            border-radius: 10px;
+            background: rgba(16, 185, 129, 0.05);
+            cursor: pointer;
+            transition: all 0.3s ease;
+            text-align: center;
+        }
+        
+        .file-upload-label:hover {
+            border-color: var(--accent);
+            background: rgba(16, 185, 129, 0.1);
+        }
+        
+        .file-upload-label i {
+            font-size: 2rem;
+            color: var(--accent);
+        }
+        
+        .file-upload-label span {
+            color: var(--text);
+            font-weight: 500;
+        }
+        
+        .file-upload-label p {
+            color: var(--text-light);
+            font-size: 0.8rem;
+        }
+        
+        .file-input {
+            position: absolute;
+            width: 0.1px;
+            height: 0.1px;
+            opacity: 0;
+            overflow: hidden;
+            z-index: -1;
+        }
+        
+        .image-preview {
+            margin-top: 15px;
+            text-align: center;
+        }
+        
+        .preview-image {
+            max-width: 100%;
+            max-height: 150px;
+            object-fit: contain;
+            border-radius: 8px;
+            border: 1px solid rgba(255, 255, 255, 0.1);
+        }
+        
+        .images-list {
+            margin-top: 20px;
+        }
+        
+        .images-list h4 {
+            font-size: 1rem;
+            margin-bottom: 10px;
+            color: var(--text-light);
+        }
+        
+        .images-grid {
+            display: grid;
+            grid-template-columns: repeat(2, 1fr);
+            gap: 10px;
+        }
+        
+        .image-item {
+            position: relative;
+            border-radius: 8px;
+            overflow: hidden;
+            border: 1px solid rgba(255, 255, 255, 0.1);
+        }
+        
+        .image-item img {
+            width: 100%;
+            height: 120px;
+            object-fit: cover;
+            display: block;
+        }
+        
+        .image-overlay {
+            position: absolute;
+            top: 0;
+            left: 0;
+            right: 0;
+            bottom: 0;
+            background: rgba(0, 0, 0, 0.7);
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            opacity: 0;
+            transition: opacity 0.3s ease;
+        }
+        
+        .image-item:hover .image-overlay {
+            opacity: 1;
+        }
+        
+        .image-actions {
+            display: flex;
+            gap: 5px;
+        }
+        
+        .btn-small {
+            padding: 6px 10px;
+            font-size: 0.7rem;
+            width: auto;
+        }
+        
+        .btn-danger {
+            background: #dc3545;
+        }
+        
+        .btn-danger:hover {
+            background: #c82333;
+        }
+        
+        .no-images-message {
+            text-align: center;
+            color: var(--text-light);
+            font-style: italic;
+            padding: 20px;
+            grid-column: 1 / -1;
+        }
+        
+        .popup-footer {
+            display: flex;
+            gap: 12px;
+            margin-top: 20px;
+        }
+        
+        .btn-full {
+            flex: 1;
+            min-width: 0;
+        }
+        
+        .notification {
+            position: fixed;
+            bottom: 20px;
+            left: 50%;
+            transform: translateX(-50%);
+            background: var(--accent);
+            color: white;
+            padding: 12px 20px;
+            border-radius: 8px;
+            box-shadow: 0 4px 12px rgba(16, 185, 129, 0.3);
+            z-index: 3000;
+            opacity: 0;
+            visibility: hidden;
+            transition: all 0.3s ease;
+        }
+        
+        .notification.show {
+            opacity: 1;
+            visibility: visible;
+        }
+        
+        /* No Images Message in Test View */
+        .no-images-test {
+            text-align: center;
+            padding: 40px 20px;
+            color: var(--text-light);
+        }
+        
+        .no-images-test i {
+            font-size: 3rem;
+            margin-bottom: 15px;
+            color: var(--accent);
+        }
+        
+        .no-images-test h3 {
+            font-size: 1.4rem;
+            margin-bottom: 10px;
+            color: var(--text);
+        }
+        
+        @media (max-width: 480px) {
+            .popup-footer {
+                flex-direction: column;
+                gap: 10px;
+            }
+            
+            .popup-footer .btn {
+                height: 48px;
+            }
+            
+            .images-grid {
+                grid-template-columns: 1fr;
+            }
+            
+            .writing-phase {
+                font-size: 1.8rem;
+            }
+            
+            .image-display-container {
+                min-height: 250px;
+            }
+            
+            .image-display {
+                max-height: 300px;
+            }
+        }
+    </style>
+</head>
+<body>
+    <!-- Sticky Header -->
+    <div class="sticky-header">
+        <div class="header-left">
+            <div class="app-icon">
+                <i class="fas fa-images"></i>
+            </div>
+            <div class="header-title">Picture Story Test</div>
+        </div>
+        <div class="settings-icon" id="settingsBtn">
+            <i class="fas fa-cog"></i>
+        </div>
+    </div>
+
+    <div class="container">
+        <!-- Instructions View -->
+        <div id="instructionsView">
+            <div class="card">
+                <div class="card-header">
+                    <i class="fas fa-info-circle"></i>
+                    <h2>Picture Story Test Instructions</h2>
+                </div>
+                <div class="card-body">
+                    <div class="instructions-list">
+                        <div class="instruction-item">
+                            <div class="instruction-number">1</div>
+                            <div class="instruction-text">You will be shown 4 images, each for 30 seconds.</div>
+                        </div>
+                        <div class="instruction-item">
+                            <div class="instruction-number">2</div>
+                            <div class="instruction-text">After each image, you'll have 3 minutes and 20 seconds to write a story based on what you saw.</div>
+                        </div>
+                        <div class="instruction-item">
+                            <div class="instruction-number">3</div>
+                            <div class="instruction-text">Look at each image carefully and try to understand what's happening in the scene.</div>
+                        </div>
+                        <div class="instruction-item">
+                            <div class="instruction-number">4</div>
+                            <div class="instruction-text">When writing your story, be creative and include details about the characters, setting, and plot.</div>
+                        </div>
+                        <div class="instruction-item">
+                            <div class="instruction-number">5</div>
+                            <div class="instruction-text">Describe what might have happened before the scene, what's happening now, and what might happen next.</div>
+                        </div>
+                        <div class="instruction-item">
+                            <div class="instruction-number">6</div>
+                            <div class="instruction-text">There are no right or wrong answers. Write what comes naturally to your mind.</div>
+                        </div>
+                        <div class="instruction-item">
+                            <div class="instruction-number">7</div>
+                            <div class="instruction-text">Make sure you have paper and pen ready before starting the test.</div>
+                        </div>
+                        <div class="instruction-item">
+                            <div class="instruction-number">8</div>
+                            <div class="instruction-text">Once started, the test cannot be paused. Make sure you have 16 minutes of uninterrupted time.</div>
+                        </div>
+                    </div>
+                   <button id="continueBtn" class="btn">
+                        <i class="fas fa-play-circle"></i>
+                        Start Test
+                    </button>
+                </div>
+            </div>
+        </div>
+
+        <!-- Test View -->
+        <div id="testView">
+            <div class="card">
+                <div class="card-header">
+                    <i class="fas fa-images"></i>
+                    <h2>Picture Story Test</h2>
+                </div>
+                <div class="card-body">
+                    <!-- Displayed when no images are available -->
+                    <div id="noImagesMessage" class="no-images-test" style="display: none;">
+                        <i class="fas fa-images"></i>
+                        <h3>No Images Available</h3>
+                        <p>Add images by clicking the settings button above</p>
+                    </div>
+                    
+                    <!-- Image Display Phase -->
+                    <div id="imagePhase" style="display: none;">
+                        <div class="image-display-container">
+                            <img class="image-display" id="imageDisplay" src="" alt="Story Image">
+                        </div>
+                        <div class="progress-container">
+                            <div class="progress-bar" id="progressBar"></div>
+                        </div>
+                        <div class="test-info">
+                            <div class="image-count">Image: <span id="imageCount">0</span>/4</div>
+                            <div class="phase-info">Viewing Phase</div>
+                            <div class="timer">Time: <span id="timerDisplay">30</span>s</div>
+                        </div>
+                    </div>
+                    
+                    <!-- Writing Phase -->
+                    <div id="writingPhase" style="display: none;">
+                        <div class="writing-phase" id="writingDisplay">
+                            Write Story Now
+                        </div>
+                        <div class="progress-container">
+                            <div class="progress-bar" id="writingProgressBar"></div>
+                        </div>
+                        <div class="test-info">
+                            <div class="image-count">Image: <span id="writingImageCount">0</span>/4</div>
+                            <div class="phase-info">Writing Phase</div>
+                            <div class="timer">Time: <span id="writingTimerDisplay">3:20</span></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Completion View -->
+        <div id="completionView">
+            <div class="card">
+                <div class="card-body">
+                    <div class="completion-icon">
+                        <i class="fas fa-trophy"></i>
+                    </div>
+                    <h2 class="completion-title">Congratulations 🎉</h2>
+                    <p class="completion-subtitle">You successfully completed the Picture Story Test</p>
+                    <div class="action-buttons">
+                        <button id="retryBtn" class="btn btn-secondary">
+                            <i class="fas fa-redo"></i>
+                            Retry Test
+                        </button>
+                        <button id="homeBtn" class="btn">
+                            <i class="fas fa-home"></i>
+                            Back to Home
+                        </button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Settings Popup -->
+    <div class="popup-overlay" id="settingsPopup">
+        <div class="popup">
+            <div class="popup-header">
+                <h3>Manage Images</h3>
+                <button class="close-popup" id="closePopup">
+                    <i class="fas fa-times"></i>
+                </button>
+            </div>
+            <div class="popup-body">
+                <div class="input-group">
+                    <label>Upload an image:</label>
+                    <div class="file-upload-container">
+                        <label for="imageInput" class="file-upload-label">
+                            <i class="fas fa-cloud-upload-alt"></i>
+                            <span>Click to Upload Image</span>
+                            <p>JPG, PNG, or GIF (Max 5MB)</p>
+                        </label>
+                        <input type="file" id="imageInput" class="file-input" accept="image/*">
+                    </div>
+                    <div class="image-preview" id="imagePreview" style="display: none;">
+                        <img class="preview-image" id="previewImage" src="" alt="Preview">
+                    </div>
+                </div>
+                
+                <div class="popup-footer">
+                    <button class="btn btn-secondary btn-full" id="clearImagesBtn">
+                        <i class="fas fa-trash"></i>
+                        Clear All Images
+                    </button>
+                    <button class="btn btn-full" id="addImageBtn">
+                        <i class="fas fa-plus"></i>
+                        Add Image
+                    </button>
+                </div>
+                
+                <div class="images-list">
+                    <h4>Saved Images:</h4>
+                    <div class="images-grid" id="imagesContainer">
+                        <!-- Saved images will appear here -->
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Notification -->
+    <div class="notification" id="notification">
+        Image added successfully!
+    </div>
+
+<script>
+        // Local Storage Configuration
+        const STORAGE_KEYS = {
+            IMAGES: 'picture_story_images'
+        };
+
+        // Test configuration
+        const TEST_CONFIG = {
+            totalImages: 4,
+            imageViewDuration: 30000, // 30 seconds
+            writingDuration: 200000   // 3 minutes 20 seconds (200 seconds)
+        };
+
+        // Sound Management
+        const SoundManager = {
+            audioContext: null,
+            isAudioEnabled: true,
+            masterVolume: 0.8,
+            
+            init() {
+                this.audioContext = new (window.AudioContext || window.webkitAudioContext)();
+                this.isAudioEnabled = !!(this.audioContext && window.AudioContext);
+                
+                if (!this.isAudioEnabled) {
+                    console.warn('Web Audio API not supported. Sound effects disabled.');
+                }
+            },
+            
+            // Play transition sound when phase changes
+            playTransitionSound() {
+                if (!this.isAudioEnabled || !this.audioContext) return;
+                
+                try {
+                    if (this.audioContext.state === 'suspended') {
+                        this.audioContext.resume();
+                    }
+                    
+                    const oscillator = this.audioContext.createOscillator();
+                    const gainNode = this.audioContext.createGain();
+                    
+                    oscillator.connect(gainNode);
+                    gainNode.connect(this.audioContext.destination);
+                    
+                    oscillator.type = 'sine';
+                    oscillator.frequency.setValueAtTime(800, this.audioContext.currentTime);
+                    oscillator.frequency.exponentialRampToValueAtTime(400, this.audioContext.currentTime + 0.1);
+                    
+                    gainNode.gain.setValueAtTime(this.masterVolume, this.audioContext.currentTime);
+                    gainNode.gain.exponentialRampToValueAtTime(0.01, this.audioContext.currentTime + 0.1);
+                    
+                    oscillator.start(this.audioContext.currentTime);
+                    oscillator.stop(this.audioContext.currentTime + 0.1);
+                    
+                } catch (error) {
+                    console.warn('Could not play sound:', error);
+                    this.isAudioEnabled = false;
+                }
+            },
+            
+            // Play completion sound
+            playCompletionSound() {
+                if (!this.isAudioEnabled || !this.audioContext) return;
+                
+                try {
+                    if (this.audioContext.state === 'suspended') {
+                        this.audioContext.resume();
+                    }
+                    
+                    const oscillator = this.audioContext.createOscillator();
+                    const gainNode = this.audioContext.createGain();
+                    
+                    oscillator.connect(gainNode);
+                    gainNode.connect(this.audioContext.destination);
+                    
+                    const now = this.audioContext.currentTime;
+                    oscillator.type = 'sine';
+                    oscillator.frequency.setValueAtTime(523.25, now);
+                    oscillator.frequency.setValueAtTime(659.25, now + 0.1);
+                    oscillator.frequency.setValueAtTime(783.99, now + 0.2);
+                    oscillator.frequency.setValueAtTime(1046.50, now + 0.3);
+                    
+                    gainNode.gain.setValueAtTime(0, now);
+                    gainNode.gain.linearRampToValueAtTime(this.masterVolume, now + 0.05);
+                    gainNode.gain.exponentialRampToValueAtTime(0.01, now + 0.4);
+                    
+                    oscillator.start(now);
+                    oscillator.stop(now + 0.4);
+                    
+                } catch (error) {
+                    console.warn('Could not play completion sound:', error);
+                }
+            },
+            
+            // Set volume level (0.0 to 1.0)
+            setVolume(level) {
+                this.masterVolume = Math.max(0, Math.min(1, level));
+            },
+            
+            // Toggle sound on/off
+            toggleSound() {
+                this.isAudioEnabled = !this.isAudioEnabled;
+                return this.isAudioEnabled;
+            }
+        };
+
+        // Local Storage Utility Functions
+        const Storage = {
+            // Initialize storage
+            init() {
+                if (!this.getImages() || this.getImages().length === 0) {
+                    this.setImages([]);
+                }
+            },
+
+            // Image list management
+            getImages() {
+                try {
+                    const images = localStorage.getItem(STORAGE_KEYS.IMAGES);
+                    return images ? JSON.parse(images) : null;
+                } catch (error) {
+                    console.error('Error reading images from localStorage:', error);
+                    return null;
+                }
+            },
+
+            setImages(images) {
+                try {
+                    localStorage.setItem(STORAGE_KEYS.IMAGES, JSON.stringify(images));
+                    return true;
+                } catch (error) {
+                    console.error('Error saving images to localStorage:', error);
+                    return false;
+                }
+            },
+
+            // Add an image
+            addImage(imageData) {
+                const images = this.getImages() || [];
+                images.push(imageData);
+                return this.setImages(images);
+            },
+
+            // Remove an image by index
+            removeImage(index) {
+                const images = this.getImages() || [];
+                if (index >= 0 && index < images.length) {
+                    images.splice(index, 1);
+                    return this.setImages(images);
+                }
+                return false;
+            },
+
+            // Clear all images
+            clearImages() {
+                return this.setImages([]);
+            }
+        };
+
+        // Image Management System
+        const ImageManager = {
+            // Get all available images
+            getImages() {
+                return Storage.getImages() || [];
+            },
+
+            // Generate random image list for the test
+            generateImageList(totalImagesNeeded) {
+                const allImages = this.getImages();
+                
+                // If we don't have enough images, return what we have
+                if (allImages.length < totalImagesNeeded) {
+                    return allImages;
+                }
+                
+                // Shuffle and take what we need
+                return this.shuffleArray([...allImages]).slice(0, totalImagesNeeded);
+            },
+
+            // Fisher-Yates shuffle algorithm
+            shuffleArray(array) {
+                const newArray = [...array];
+                for (let i = newArray.length - 1; i > 0; i--) {
+                    const j = Math.floor(Math.random() * (i + 1));
+                    [newArray[i], newArray[j]] = [newArray[j], newArray[i]];
+                }
+                return newArray;
+            }
+        };
+
+        document.addEventListener('DOMContentLoaded', function() {
+            // Initialize storage and sound
+            Storage.init();
+            SoundManager.init();
+
+            // DOM Elements
+            const instructionsView = document.getElementById('instructionsView');
+            const testView = document.getElementById('testView');
+            const completionView = document.getElementById('completionView');
+            const continueBtn = document.getElementById('continueBtn');
+            const retryBtn = document.getElementById('retryBtn');
+            const homeBtn = document.getElementById('homeBtn');
+            const noImagesMessage = document.getElementById('noImagesMessage');
+            const imagePhase = document.getElementById('imagePhase');
+            const writingPhase = document.getElementById('writingPhase');
+            const imageDisplay = document.getElementById('imageDisplay');
+            const imageCount = document.getElementById('imageCount');
+            const writingImageCount = document.getElementById('writingImageCount');
+            const timerDisplay = document.getElementById('timerDisplay');
+            const writingTimerDisplay = document.getElementById('writingTimerDisplay');
+            const progressBar = document.getElementById('progressBar');
+            const writingProgressBar = document.getElementById('writingProgressBar');
+            
+            // Settings Popup Elements
+            const settingsBtn = document.getElementById('settingsBtn');
+            const settingsPopup = document.getElementById('settingsPopup');
+            const closePopup = document.getElementById('closePopup');
+            const imageInput = document.getElementById('imageInput');
+            const imagePreview = document.getElementById('imagePreview');
+            const previewImage = document.getElementById('previewImage');
+            const imagesContainer = document.getElementById('imagesContainer');
+            const addImageBtn = document.getElementById('addImageBtn');
+            const clearImagesBtn = document.getElementById('clearImagesBtn');
+            const notification = document.getElementById('notification');
+            
+            // Test variables
+            let currentImageIndex = 0;
+            let imageTimerInterval;
+            let writingTimerInterval;
+            let timeLeft = TEST_CONFIG.imageViewDuration / 1000;
+            let writingTimeLeft = TEST_CONFIG.writingDuration / 1000;
+            let imageList = [];
+            let isTestRunning = false;
+            let currentPhase = 'image'; // 'image' or 'writing'
+            let currentImageData = null;
+            
+            // Format time for display (mm:ss)
+            function formatTime(seconds) {
+                const mins = Math.floor(seconds / 60);
+                const secs = seconds % 60;
+                return `${mins}:${secs < 10 ? '0' : ''}${secs}`;
+            }
+            
+            // Initialize test
+            function initTest() {
+                currentImageIndex = 0;
+                timeLeft = TEST_CONFIG.imageViewDuration / 1000;
+                writingTimeLeft = TEST_CONFIG.writingDuration / 1000;
+                isTestRunning = true;
+                
+                // Generate image list
+                imageList = ImageManager.generateImageList(TEST_CONFIG.totalImages);
+                
+                // Check if we have at least one image
+                if (imageList.length === 0) {
+                    showNoImagesMessage();
+                    return false;
+                }
+                
+                // Hide no images message and show first image
+                noImagesMessage.style.display = 'none';
+                imagePhase.style.display = 'block';
+                writingPhase.style.display = 'none';
+                
+                updateProgressBar();
+                return true;
+            }
+            
+            // Show no images message
+            function showNoImagesMessage() {
+                imagePhase.style.display = 'none';
+                writingPhase.style.display = 'none';
+                noImagesMessage.style.display = 'block';
+            }
+            
+            // Start the image viewing phase
+            function startImagePhase() {
+                clearInterval(imageTimerInterval);
+                clearInterval(writingTimerInterval);
+                
+                // Play transition sound when phase changes (except for first image)
+                if (currentImageIndex > 0 || currentPhase === 'writing') {
+                    SoundManager.playTransitionSound();
+                }
+                
+                // Update UI for image phase
+                imagePhase.style.display = 'block';
+                writingPhase.style.display = 'none';
+                currentPhase = 'image';
+                
+                // Update image display
+                imageDisplay.src = imageList[currentImageIndex];
+                imageCount.textContent = currentImageIndex + 1;
+                writingImageCount.textContent = currentImageIndex + 1;
+                
+                timeLeft = TEST_CONFIG.imageViewDuration / 1000;
+                timerDisplay.textContent = timeLeft;
+                
+                imageTimerInterval = setInterval(() => {
+                    timeLeft--;
+                    timerDisplay.textContent = timeLeft;
+                    
+                    updateProgressBar();
+                    
+                    if (timeLeft <= 0) {
+                        clearInterval(imageTimerInterval);
+                        startWritingPhase();
+                    }
+                }, 1000);
+            }
+            
+            // Start the writing phase
+            function startWritingPhase() {
+                clearInterval(imageTimerInterval);
+                clearInterval(writingTimerInterval);
+                
+                // Play transition sound
+                SoundManager.playTransitionSound();
+                
+                // Update UI for writing phase
+                imagePhase.style.display = 'none';
+                writingPhase.style.display = 'block';
+                currentPhase = 'writing';
+                
+                writingTimeLeft = TEST_CONFIG.writingDuration / 1000;
+                writingTimerDisplay.textContent = formatTime(writingTimeLeft);
+                
+                writingTimerInterval = setInterval(() => {
+                    writingTimeLeft--;
+                    writingTimerDisplay.textContent = formatTime(writingTimeLeft);
+                    
+                    updateWritingProgressBar();
+                    
+                    if (writingTimeLeft <= 0) {
+                        clearInterval(writingTimerInterval);
+                        nextImage();
+                    }
+                }, 1000);
+            }
+            
+            // Move to next image or complete test
+            function nextImage() {
+                currentImageIndex++;
+                
+                if (currentImageIndex < TEST_CONFIG.totalImages && currentImageIndex < imageList.length) {
+                    startImagePhase();
+                } else {
+                    showCompletion();
+                }
+            }
+            
+            // Update progress bar for image phase
+            function updateProgressBar() {
+                const progress = ((TEST_CONFIG.imageViewDuration / 1000 - timeLeft) / (TEST_CONFIG.imageViewDuration / 1000)) * 100;
+                progressBar.style.width = `${progress}%`;
+            }
+            
+            // Update progress bar for writing phase
+            function updateWritingProgressBar() {
+                const progress = ((TEST_CONFIG.writingDuration / 1000 - writingTimeLeft) / (TEST_CONFIG.writingDuration / 1000)) * 100;
+                writingProgressBar.style.width = `${progress}%`;
+            }
+            
+            // Show completion view with confetti
+            function showCompletion() {
+                isTestRunning = false;
+                testView.style.display = 'none';
+                completionView.style.display = 'block';
+                       // Play completion sound
+                SoundManager.playCompletionSound();
+                
+                // Confetti effects
+                confetti({
+                    particleCount: 150,
+                    spread: 70,
+                    origin: { y: 0.6 }
+                });
+                
+                setTimeout(() => confetti({
+                    particleCount: 100,
+                    angle: 60,
+                    spread: 55,
+                    origin: { x: 0 }
+                }), 250);
+                
+                setTimeout(() => confetti({
+                    particleCount: 100,
+                    angle: 120,
+                    spread: 55,
+                    origin: { x: 1 }
+                }), 400);
+            }
+            
+            // Show notification
+            function showNotification(message) {
+                notification.textContent = message;
+                notification.classList.add('show');
+                setTimeout(() => {
+                    notification.classList.remove('show');
+                }, 3000);
+            }
+            
+            // Load and display saved images
+            function loadImages() {
+                const images = ImageManager.getImages();
+                imagesContainer.innerHTML = '';
+                
+                if (images.length === 0) {
+                    imagesContainer.innerHTML = '<div class="no-images-message">No images saved yet</div>';
+                    return;
+                }
+                
+                images.forEach((imageData, index) => {
+                    const imageElement = document.createElement('div');
+                    imageElement.className = 'image-item';
+                    
+                    imageElement.innerHTML = `
+                        <img src="${imageData}" alt="Saved Image ${index + 1}">
+                        <div class="image-overlay">
+                            <div class="image-actions">
+                                <button class="btn btn-danger btn-small delete-image" data-index="${index}">
+                                    <i class="fas fa-trash"></i> Delete
+                                </button>
+                            </div>
+                        </div>
+                    `;
+                    
+                    imagesContainer.appendChild(imageElement);
+                });
+                
+                // Add event listeners to delete buttons
+                document.querySelectorAll('.delete-image').forEach(button => {
+                    button.addEventListener('click', function() {
+                        const index = parseInt(this.getAttribute('data-index'));
+                        if (Storage.removeImage(index)) {
+                            loadImages();
+                            showNotification('Image deleted successfully!');
+                        } else {
+                            alert('Error deleting image. Please try again.');
+                        }
+                    });
+                });
+            }
+            
+            // Handle image upload and preview
+            imageInput.addEventListener('change', function(e) {
+                const file = e.target.files[0];
+                if (!file) return;
+                
+                // Check file size (max 5MB)
+                if (file.size > 5 * 1024 * 1024) {
+                    alert('File size must be less than 5MB');
+                    return;
+                }
+                
+                // Check file type
+                if (!file.type.match('image.*')) {
+                    alert('Please select an image file (JPG, PNG, GIF)');
+                    return;
+                }
+                
+                const reader = new FileReader();
+                
+                reader.onload = function(e) {
+                    previewImage.src = e.target.result;
+                    imagePreview.style.display = 'block';
+                    currentImageData = e.target.result;
+                };
+                
+                reader.readAsDataURL(file);
+            });
+            
+            // Event Listeners
+            continueBtn.addEventListener('click', function() {
+                instructionsView.style.display = 'none';
+                testView.style.display = 'block';
+                
+                // Resume audio context on first user interaction
+                if (SoundManager.audioContext && SoundManager.audioContext.state === 'suspended') {
+                    SoundManager.audioContext.resume();
+                }
+                
+                // Initialize test
+                if (initTest()) {
+                    // Start the test with first image
+                    startImagePhase();
+                }
+            });
+            
+            retryBtn.addEventListener('click', function() {
+                completionView.style.display = 'none';
+                testView.style.display = 'block';
+                
+                // Reinitialize test with new random images
+                if (initTest()) {
+                    startImagePhase();
+                }
+            });
+            
+            homeBtn.addEventListener('click', function() {
+                // In a real app, this would navigate back to the home page
+                window.location.href = 'index.html';
+            });
+            
+            // Settings popup functionality
+            settingsBtn.addEventListener('click', function() {
+                loadImages();
+                settingsPopup.classList.add('active');
+            });
+            
+            closePopup.addEventListener('click', function() {
+                settingsPopup.classList.remove('active');
+                // Reset file input and preview
+                imageInput.value = '';
+                imagePreview.style.display = 'none';
+                currentImageData = null;
+            });
+            
+            // Close popup when clicking outside
+            settingsPopup.addEventListener('click', function(e) {
+                if (e.target === settingsPopup) {
+                    settingsPopup.classList.remove('active');
+                    // Reset file input and preview
+                    imageInput.value = '';
+                    imagePreview.style.display = 'none';
+                    currentImageData = null;
+                }
+            });
+            
+            // Add image
+            addImageBtn.addEventListener('click', function() {
+                if (!currentImageData) {
+                    alert('Please select an image first');
+                    return;
+                }
+                
+                if (Storage.addImage(currentImageData)) {
+                    imageInput.value = '';
+                    imagePreview.style.display = 'none';
+                    currentImageData = null;
+                    loadImages();
+                    showNotification('Image added successfully!');
+                } else {
+                    alert('Error saving image. Please try again.');
+                }
+            });
+            
+            // Clear all images
+            clearImagesBtn.addEventListener('click', function() {
+                if (confirm('Clear all images? This action cannot be undone.')) {
+                    if (Storage.clearImages()) {
+                        loadImages();
+                        showNotification('All images cleared!');
+                    } else {
+                        alert('Error clearing images. Please try again.');
+                    }
+                }
+            });
+            
+            // Add sound toggle functionality to settings icon (long press)
+            let settingsPressTimer;
+            settingsBtn.addEventListener('mousedown', function() {
+                settingsPressTimer = setTimeout(() => {
+                    const newState = SoundManager.toggleSound();
+                    showNotification(newState ? 'Sound enabled 🔊' : 'Sound disabled 🔇');
+                }, 1000);
+            });
+            
+            settingsBtn.addEventListener('mouseup', function() {
+                clearTimeout(settingsPressTimer);
+            });
+            
+            settingsBtn.addEventListener('mouseleave', function() {
+                clearTimeout(settingsPressTimer);
+            });
+            
+            // Touch events for mobile
+            settingsBtn.addEventListener('touchstart', function() {
+                settingsPressTimer = setTimeout(() => {
+                    const newState = SoundManager.toggleSound();
+                    showNotification(newState ? 'Sound enabled 🔊' : 'Sound disabled 🔇');
+                }, 1000);
+            });
+            
+            settingsBtn.addEventListener('touchend', function() {
+                clearTimeout(settingsPressTimer);
+            });
+            
+            // Initialize images display
+            loadImages();
+            
+            // Debug info
+            console.log('Current images in storage:', (Storage.getImages() || []).length);
+            console.log('Audio enabled:', SoundManager.isAudioEnabled);
+        });
+    </script>
+</body>
+</html>
