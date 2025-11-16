@@ -7,16 +7,14 @@ const { App } = window.Capacitor.Plugins;
 // Add a listener for the native 'backButton' event
 App.addListener('backButton', () => {
     
-    // Check if the browser history has any pages to go back to.
-    // 'window.history.length > 1' means we are not on the first page (index.html).
-    if (window.history.length > 1) {
-        
-        // If we are on 'wat-test.html', this will go back to 'index.html'.
-        window.history.back();
-        
+    // Get the current file name from the URL
+    const currentPage = window.location.pathname.split("/").pop();
+
+    // If we're *not* on index.html, always navigate back to it
+    if (currentPage !== "index.html") {
+        window.location.href = "index.html";
     } else {
-        
-        // If we are on 'index.html' (history length is 1), exit the app.
+        // Otherwise, exit the app
         App.exitApp();
     }
 });
