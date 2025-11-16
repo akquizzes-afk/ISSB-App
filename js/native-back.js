@@ -1,9 +1,8 @@
-// Robust back button handler with Capacitor readiness check
+// APK-optimized back button handler
 function initializeBackButton() {
     // Check if Capacitor is available
     if (!window.Capacitor || !window.Capacitor.Plugins || !window.Capacitor.Plugins.App) {
-        console.warn('Capacitor App plugin not available yet, retrying...');
-        setTimeout(initializeBackButton, 100);
+        console.log('Capacitor not available (running in browser) - back button disabled');
         return;
     }
 
@@ -12,34 +11,50 @@ function initializeBackButton() {
     console.log('Capacitor App plugin found, initializing back button...');
     
     App.addListener('backButton', () => {
-        console.log('Back button pressed - Current URL:', window.location.href);
+        console.log('Back button pressed!');
         
-        // Simple and reliable page detection
-        const currentUrl = window.location.href.toLowerCase();
+        // Method 1: Check current file name directly
+        const currentPath = window.location.pathname;
+        const currentHref = window.location.href;
+        let currentFile = '';
         
-        // Check if we're on any test page (not index.html)
-        const isTestPage = currentUrl.includes('wat-test') || 
-                          currentUrl.includes('picture-story') ||
-                          currentUrl.includes('pointer-story') || 
-                          currentUrl.includes('srt-test');
+        // Extract filename from path
+        if (currentPath) {
+            currentFile = currentPath.split('/').pop() || '';
+        }
         
-        if (isTestPage) {
-            console.log('On test page - navigating to index.html');
-            window.location.href = 'index.html';
+        console.log('Current file:', currentFile);
+        console.log('Full href:', currentHref);
+        
+        // Check if we're on index.html (main page)
+        const isIndexPage = 
+            currentFile === 'index.html' ||
+            currentFile === '' ||
+            currentPath.endsWith('/') ||
+            currentHref.endsWith('/') ||
+            currentHref.includes('/index.html') ||
+            !currentFile;
+        
+        console.log('Is index page:', isIndexPage);
+        
+        if (!isIndexPage) {
+            console.log('Not on index - navigating back to index.html');
+            // Use multiple navigation methods to ensure it works
+            try {
+                window.location.href = 'index.html';
+            } catch (e) {
+                window.location.replace('index.html');
+            }
         } else {
-            console.log('On main page - exiting app');
+            console.log('On index page - exiting app');
             App.exitApp();
         }
     });
-    
-    console.log('Back button handler registered successfully');
 }
 
-// Wait for DOM and Capacitor to be ready
-document.addEventListener('DOMContentLoaded', function() {
-    console.log('DOM loaded, initializing back button...');
+// Initialize when ready
+if (document.readyState === 'loading') {
+    document.addEventListener('DOMContentLoaded', initializeBackButton);
+} else {
     initializeBackButton();
-});
-
-// Also try initializing after a delay in case DOMContentLoaded already fired
-setTimeout(initializeBackButton, 500);
+}
