@@ -7,6 +7,11 @@ on:
 jobs:
   build-android:
     runs-on: ubuntu-latest
+    
+    # --- FIX 1: Set the subfolder all steps run in ---
+    defaults:
+      run:
+        working-directory: ./ISSB-App
 
     steps:
     - name: Checkout code
@@ -23,6 +28,7 @@ jobs:
       with:
         node-version: '18'
 
+    # --- FIX 2: Correctly move all your HTML files ---
     - name: Organize Web Files
       run: |
         mkdir -p www
@@ -38,6 +44,7 @@ jobs:
         npm install @capacitor/core@5 @capacitor/cli@5 @capacitor/android@5
         npm install @capacitor/assets --save-dev
 
+    # --- FIX 3 (Part A): Set App Name in Config ---
     - name: Create Capacitor Config
       run: |
         echo '{
@@ -50,7 +57,7 @@ jobs:
     - name: Add Android Platform
       run: npx cap add android
 
-    # --- NEW STEP TO FORCE THE APP NAME ---
+    # --- FIX 3 (Part B): Force App Name in Android ---
     - name: Set Custom App Name
       run: |
         mkdir -p android/app/src/main/res/values
@@ -61,6 +68,7 @@ jobs:
           <string name="custom_url_scheme">com.mystore.app</string>
         </resources>' > android/app/src/main/res/values/strings.xml
 
+    # --- FIX 4: Use your home-screen.png for icons ---
     - name: Generate App Icons
       run: |
         mkdir -p assets
@@ -74,9 +82,15 @@ jobs:
         cd android
         chmod +x gradlew
         ./gradlew assembleDebug
+        
+    # --- FIX 5 (Part A): Rename the APK file ---
+    - name: Rename APK
+      run: |
+        mv android/app/build/outputs/apk/debug/app-debug.apk android/app/build/outputs/apk/debug/Ghani.apk
 
+    # --- FIX 5 (Part B): Upload the renamed APK ---
     - name: Upload APK as Artifact
       uses: actions/upload-artifact@v4
       with:
         name: Ghani.apk
-        path: android/app/build/outputs/apk/debug/app-debug.apk
+        path: ISSB-App/android/app/build/outputs/apk/debug/Ghani.apk
