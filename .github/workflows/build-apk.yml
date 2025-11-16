@@ -24,6 +24,15 @@ jobs:
       uses: actions/setup-node@v4
       with:
         node-version: '18'
+        
+        
+
+    - name: Show What Files The Build Sees
+      run: ls -R
+
+    - name: Organize Web Files
+      run: |
+
 
     - name: Organize Web Files
       run: |
