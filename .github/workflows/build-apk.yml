@@ -64,8 +64,8 @@ jobs:
     - name: Generate App Icons
       run: |
         mkdir -p assets
-        cp ghani.png assets/icon.png
-        cp ghani.png assets/splash.png
+        cp home-screen.png assets/icon.png
+        cp home-screen.png assets/splash.png
         npx capacitor-assets generate --android
         npx cap sync android
 
@@ -78,5 +78,5 @@ jobs:
     - name: Upload APK as Artifact
       uses: actions/upload-artifact@v4
       with:
-        name: app-debug.apk
+        name: Ghani.apk
         path: android/app/build/outputs/apk/debug/app-debug.apk
