@@ -31,6 +31,7 @@ jobs:
         mv *.html www/
         mv css www/ || true
         mv js www/ || true
+        mv *.png www/ || true
 
     - name: Create package.json
       run: npm init -y
