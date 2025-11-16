@@ -29,9 +29,9 @@ jobs:
       run: |
         mkdir -p www
         mv *.html www/
-        mv css www/ || true
-        mv js www/ || true
-        mv ghani.png www/ || true
+        mv css www/
+        mv js www/
+        mv ghani.png www/
 
     - name: Create package.json
       run: npm init -y
