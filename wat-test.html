@@ -621,9 +621,9 @@
             </div>
             <div class="popup-body">
                 <div class="input-group">
-                    <label for="wordInput">Enter words (space separated):</label>
+                    <label for="wordInput">Enter custom words (space separated):</label>
                     <textarea class="word-input" id="wordInput" placeholder="Enter words separated by spaces, e.g. Water Fire Love Hate Peace"></textarea>
-                    <div class="word-count" id="wordCountInfo">Words: 0</div>
+                    <div class="word-count" id="wordCountInfo">Custom Words: 0</div>
                 </div>
                 
                 <div class="word-preview">
@@ -635,8 +635,8 @@
                 
                 <div class="popup-footer">
                     <button class="btn btn-secondary btn-full" id="resetWordsBtn">
-                        <i class="fas fa-undo"></i>
-                        Reset to Default
+                        <i class="fas fa-trash"></i>
+                        Clear All
                     </button>
                     <button class="btn btn-full" id="saveWordsBtn">
                         <i class="fas fa-save"></i>
@@ -785,7 +785,7 @@
         // Initialize storage with default values if empty
         init() {
             if (!this.getWords() || this.getWords().length === 0) {
-                this.setWords(DEFAULT_WORDS);
+                this.setWords([]); // Start with empty array for custom words
             }
         },
 
@@ -810,46 +810,48 @@
             }
         },
 
-        // Reset to defaults
-        resetToDefaults() {
-            this.setWords(DEFAULT_WORDS);
+        // Clear all custom words
+        clearCustomWords() {
+            this.setWords([]);
         }
     };
 
     // Word Management System
     const WordManager = {
-        // Get all available words (localStorage + default)
-        getAllAvailableWords() {
-            const storedWords = Storage.getWords() || [];
-            const allWords = [...new Set([...storedWords, ...DEFAULT_WORDS])]; // Remove duplicates
-            return allWords;
-        },
-
-        // Generate random word list for the test
+        // Generate random word list for the test - USE CUSTOM WORDS FIRST, THEN DEFAULTS
         generateWordList(totalWordsNeeded) {
-            const allWords = this.getAllAvailableWords();
+            const customWords = Storage.getWords() || [];
+            let wordList = [];
             
-            // If we have enough words, shuffle and take what we need
-            if (allWords.length >= totalWordsNeeded) {
-                return this.shuffleArray([...allWords]).slice(0, totalWordsNeeded);
+            // Use custom words first
+            if (customWords.length > 0) {
+                const shuffledCustom = this.shuffleArray([...customWords]);
+                wordList.push(...shuffledCustom);
             }
             
-            // If we don't have enough words, we'll repeat some
-            const shuffled = this.shuffleArray([...allWords]);
-            const result = [];
+            // If we need more words, add from default words
+            if (wordList.length < totalWordsNeeded) {
+                const remainingNeeded = totalWordsNeeded - wordList.length;
+                const shuffledDefault = this.shuffleArray([...DEFAULT_WORDS]);
+                wordList.push(...shuffledDefault.slice(0, remainingNeeded));
+            }
             
-            while (result.length < totalWordsNeeded) {
-                // Add all shuffled words
-                result.push(...shuffled);
+            // If we still don't have enough (unlikely), repeat the process
+            if (wordList.length < totalWordsNeeded) {
+                const remaining = totalWordsNeeded - wordList.length;
+                const allWords = [...customWords, ...DEFAULT_WORDS];
+                const shuffledAll = this.shuffleArray([...allWords]);
                 
-                // If we still don't have enough, reshuffle and continue
-                if (result.length < totalWordsNeeded) {
-                    this.shuffleArray(shuffled);
+                let index = 0;
+                while (wordList.length < totalWordsNeeded && index < shuffledAll.length) {
+                    if (!wordList.includes(shuffledAll[index])) {
+                        wordList.push(shuffledAll[index]);
+                    }
+                    index++;
                 }
             }
             
-            // Return exactly the number of words needed
-            return result.slice(0, totalWordsNeeded);
+            return wordList.slice(0, totalWordsNeeded);
         },
 
         // Fisher-Yates shuffle algorithm
@@ -864,14 +866,12 @@
 
         // Get word sources info (for debugging)
         getWordSourcesInfo() {
-            const storedWords = Storage.getWords() || [];
-            const uniqueStored = storedWords.filter(word => !DEFAULT_WORDS.includes(word));
+            const customWords = Storage.getWords() || [];
             
             return {
-                totalStored: storedWords.length,
-                uniqueStored: uniqueStored.length,
+                totalCustom: customWords.length,
                 totalDefault: DEFAULT_WORDS.length,
-                totalCombined: this.getAllAvailableWords().length
+                priority: 'CUSTOM_FIRST'
             };
         }
     };
@@ -904,6 +904,9 @@
         const resetWordsBtn = document.getElementById('resetWordsBtn');
         const notification = document.getElementById('notification');
         
+        // Update reset button text and icon
+        resetWordsBtn.innerHTML = '<i class="fas fa-trash"></i> Clear All';
+        
         // Test variables
         let currentWordIndex = 0;
         let timerInterval;
@@ -911,13 +914,13 @@
         let wordList = [];
         let isTestRunning = false;
         
-        // Initialize test - ALWAYS SUCCEEDS NOW!
+        // Initialize test
         function initTest() {
             currentWordIndex = 0;
             timeLeft = TEST_CONFIG.wordDuration / 1000;
             isTestRunning = true;
             
-            // Generate word list dynamically
+            // Generate word list with custom words first
             wordList = WordManager.generateWordList(TEST_CONFIG.totalWords);
             
             // Debug info
@@ -926,7 +929,7 @@
             console.log('Generated word list:', wordList.length, 'words');
             
             updateProgressBar();
-            return true; // Always returns true now!
+            return true;
         }
         
         // Start the word timer
@@ -1030,7 +1033,7 @@
             const words = text ? text.split(/\s+/) : [];
             
             wordPreview.innerHTML = '';
-            wordCountInfo.textContent = `Words: ${words.length}`;
+            wordCountInfo.textContent = `Custom Words: ${words.length}`;
             
             // Show first 20 words in preview
             words.slice(0, 20).forEach(word => {
@@ -1050,10 +1053,10 @@
             }
         }
         
-        // Load current words into the input
+        // Load current custom words into the input (only custom words, not hardcoded)
         function loadCurrentWords() {
-            const words = Storage.getWords() || DEFAULT_WORDS;
-            wordInput.value = words.join(' ');
+            const customWords = Storage.getWords() || [];
+            wordInput.value = customWords.join(' ');
             updateWordPreview();
         }
         
@@ -1067,7 +1070,7 @@
                 SoundManager.audioContext.resume();
             }
             
-            // Initialize test (always succeeds now)
+            // Initialize test
             initTest();
             
             // Start the test
@@ -1111,15 +1114,10 @@
         // Save words
         saveWordsBtn.addEventListener('click', function() {
             const text = wordInput.value.trim();
-            if (!text) {
-                alert('Please enter at least one word');
-                return;
-            }
-            
-            const words = text.split(/\s+/).filter(word => word.length > 0);
+            const words = text ? text.split(/\s+/).filter(word => word.length > 0) : [];
             
             if (Storage.setWords(words)) {
-                showNotification('Words saved successfully!');
+                showNotification('Custom words saved successfully!');
                 setTimeout(() => {
                     settingsPopup.classList.remove('active');
                 }, 1500);
@@ -1128,12 +1126,12 @@
             }
         });
         
-        // Reset to default words
+        // Clear custom words
         resetWordsBtn.addEventListener('click', function() {
-            if (confirm('Reset to default word list? This will replace your current words.')) {
-                Storage.resetToDefaults();
+            if (confirm('Are you sure you want to clear ALL custom words? This action cannot be undone.')) {
+                Storage.clearCustomWords();
                 loadCurrentWords();
-                showNotification('Default words restored!');
+                showNotification('All custom words cleared!');
             }
         });
         
@@ -1166,8 +1164,8 @@
             clearTimeout(settingsPressTimer);
         });
         
-        // Debug info
-        console.log('Current words in storage:', (Storage.getWords() || []).length);
+  // Debug info
+        console.log('Current custom words in storage:', (Storage.getWords() || []).length);
         console.log('Word sources info:', WordManager.getWordSourcesInfo());
         console.log('Audio enabled:', SoundManager.isAudioEnabled);
     });
