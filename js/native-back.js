@@ -9,47 +9,56 @@ function debugLog(message) {
 function attachBackButtonHandler() {
     debugLog('Attempting to attach listener...');
     
-    // Check if the Capacitor App plugin is available
-    if (window.Capacitor && window.Capacitor.Plugins && window.Capacitor.Plugins.App) {
-        
-        debugLog('Capacitor App plugin FOUND');
-        const { App } = window.Capacitor.Plugins;
-        
-        // Remove any old listeners to prevent duplicates
-        App.removeAllListeners('backButton');
-
-        // Add the new listener
-        App.addListener('backButton', function() {
-            // Read the variable AT THE MOMENT of the click
-            const currentPage = window.currentPage || 'index.html';
-            
-            debugLog('BACK BUTTON: Pressed. Page: ' + currentPage);
-
-            if (currentPage !== 'index.html') {
-                debugLog('Navigating to index.html');
-                window.location.href = 'index.html';
-            } else {
-                debugLog('Exiting app');
-                App.exitApp();
-            }
-        });
-
-        debugLog('Back button listener ATTACHED');
-
-    } else {
-        debugLog('App plugin NOT found. Retrying in 250ms...');
-        // If the plugin isn't ready, wait 250ms and try again
-        setTimeout(attachBackButtonHandler, 250); 
+    // --- NEW, MORE DETAILED CHECK ---
+    if (!window.Capacitor) {
+        debugLog('Capacitor: [NOT FOUND]. Retrying...');
+        setTimeout(attachBackButtonHandler, 500);
+        return;
     }
+    
+    if (!window.Capacitor.Plugins) {
+        debugLog('Capacitor.Plugins: [NOT FOUND]. Retrying...');
+        setTimeout(attachBackButtonHandler, 500);
+        return;
+    }
+
+    if (!window.Capacitor.Plugins.App) {
+        debugLog('Capacitor.Plugins.App: [NOT FOUND].');
+        
+        // Log all available plugins so we can see what IS loading
+        const availablePlugins = Object.keys(window.Capacitor.Plugins);
+        debugLog('Available plugins: [' + availablePlugins.join(', ') + ']');
+        debugLog('Retrying...');
+        setTimeout(attachBackButtonHandler, 500);
+        return;
+    }
+    
+    // --- END NEW CHECK ---
+
+    debugLog('Capacitor App plugin FOUND');
+    const { App } = window.Capacitor.Plugins;
+    
+    App.removeAllListeners('backButton');
+    App.addListener('backButton', function() {
+        const currentPage = window.currentPage || 'index.html';
+        debugLog('BACK BUTTON: Pressed. Page: ' + currentPage);
+
+        if (currentPage !== 'index.html') {
+            debugLog('Navigating to index.html');
+            window.location.href = 'index.html';
+        } else {
+            debugLog('Exiting app');
+            App.exitApp();
+        }
+    });
+
+    debugLog('Back button listener ATTACHED');
 }
 
-// --- THIS IS THE KEY ---
-// Don't run immediately. Wait for the 'load' event.
-// This waits for all scripts, images, etc., to finish loading.
+// Wait for the 'load' event
 window.addEventListener('load', () => {
     debugLog('Window "load" event fired. Starting attach...');
     attachBackButtonHandler();
 });
 
-// Initial log to show the script file itself was loaded
 debugLog('native-back.js: Script file parsed');
