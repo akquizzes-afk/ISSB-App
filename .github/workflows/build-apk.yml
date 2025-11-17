@@ -46,7 +46,7 @@ jobs:
 
     - name: Install Dependencies
       run: |
-        npm install @capacitor/core@5 @capacitor/cli@5 @capacitor/android@5
+        npm install @capacitor/core@5 @capacitor/cli@5 @capacitor/android@5 @capacitor/app@5
         npm install @capacitor/assets --save-dev
 
     - name: Create Capacitor Config
