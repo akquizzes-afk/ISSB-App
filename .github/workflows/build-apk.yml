@@ -8,7 +8,10 @@ jobs:
   build-android:
     runs-on: ubuntu-latest
     
-    # NO "defaults" section here. We run in the main folder.
+    # Define version numbers here
+    env:
+      APP_VERSION_NAME: "1.1"  # Your public-facing version
+      APP_VERSION_CODE: 2       # Must be an integer, and must increase with each new version
 
     steps:
     - name: Checkout code
@@ -55,11 +58,17 @@ jobs:
     - name: Add Android Platform
       run: npx cap add android
 
+    # --- SET APP VERSION ---
+    - name: Set App Version
+      run: |
+        echo "Setting app version to $APP_VERSION_NAME ($APP_VERSION_CODE)"
+        sed -i 's/versionName "1.0"/versionName "'"$APP_VERSION_NAME"'"/' android/app/build.gradle
+        sed -i 's/versionCode 1/versionCode '"$APP_VERSION_CODE"'/' android/app/build.gradle
+
     # --- ADD NOTIFICATION PERMISSIONS ---
     - name: Add Notification Permissions
       run: |
         sed -i '/<application/i \    <uses-permission android:name="android.permission.POST_NOTIFICATIONS" \/>\n    <uses-permission android:name="android.permission.SCHEDULE_EXACT_ALARM" android:maxSdkVersion="32" \/>' android/app/src/main/AndroidManifest.xml
-    # --- END NOTIFICATION PERMISSIONS ---
 
     - name: Set Custom App Name
       run: |
