@@ -25,14 +25,8 @@ jobs:
       with:
         node-version: '18'
         
-        
-
     - name: Show What Files The Build Sees
       run: ls -R
-
-    - name: Organize Web Files
-      run: |
-
 
     - name: Organize Web Files
       run: |
@@ -46,7 +40,7 @@ jobs:
 
     - name: Install Dependencies
       run: |
-        npm install @capacitor/core@5 @capacitor/cli@5 @capacitor/android@5 @capacitor/app@5
+        npm install @capacitor/core@5 @capacitor/cli@5 @capacitor/android@5 @capacitor/app@5 @capacitor/local-notifications@5
         npm install @capacitor/assets --save-dev
 
     - name: Create Capacitor Config
@@ -60,6 +54,12 @@ jobs:
 
     - name: Add Android Platform
       run: npx cap add android
+
+    # --- ADD NOTIFICATION PERMISSIONS ---
+    - name: Add Notification Permissions
+      run: |
+        sed -i '/<application/i \    <uses-permission android:name="android.permission.POST_NOTIFICATIONS" \/>\n    <uses-permission android:name="android.permission.SCHEDULE_EXACT_ALARM" android:maxSdkVersion="32" \/>' android/app/src/main/AndroidManifest.xml
+    # --- END NOTIFICATION PERMISSIONS ---
 
     - name: Set Custom App Name
       run: |
@@ -89,7 +89,6 @@ jobs:
       run: |
         mv android/app/build/outputs/apk/debug/app-debug.apk android/app/build/outputs/apk/debug/Ghani.apk
 
-    # --- UPDATED PATH (removed the extra ISSB-App/) ---
     - name: Upload APK as Artifact
       uses: actions/upload-artifact@v4
       with:
