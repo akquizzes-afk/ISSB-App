@@ -1008,8 +1008,14 @@
             return;
         }
 
-        // Clear existing notifications
-        await LocalNotifications.cancel({ notifications: [] }); // Clear all
+        // ✅ FIXED: Properly clear existing notifications
+        const pending = await LocalNotifications.getPending();
+        if (pending.notifications && pending.notifications.length > 0) {
+            await LocalNotifications.cancel({ 
+                notifications: pending.notifications 
+            });
+            console.log(`Cleared ${pending.notifications.length} existing notifications`);
+        }
 
         // Get user selections
         const hour = document.getElementById('notify-hour').value;
@@ -1027,7 +1033,6 @@
 
         // Schedule notifications
         const notificationsToSchedule = [];
-        const now = new Date();
 
         dayCheckboxes.forEach(checkbox => {
             const dayOfWeek = parseInt(checkbox.value); // 0-6 (Sunday=0)
@@ -1044,8 +1049,8 @@
                 actionTypeId: 'TAKE_TEST_ACTION',
                 schedule: {
                     at: nextDate,
-                    repeats: true, // This should make it repeat weekly
-                    every: 'week' // Explicitly set weekly repetition
+                    repeats: true,
+                    every: 'week'
                 }
             });
         });
@@ -1065,12 +1070,12 @@
         
     } catch (error) {
         console.error('Error scheduling notifications:', error);
-        alert('Error setting up notifications. Please try again.');
+        alert('Error setting up notifications: ' + error.message);
         return false;
     }
 }
 
-// Helper function to calculate next occurrence of a weekday
+// ✅ FIXED: Remove dead code from getNextWeekday function
 function getNextWeekday(dayOfWeek, hour, minute) {
     const now = new Date();
     const result = new Date();
@@ -1086,10 +1091,7 @@ function getNextWeekday(dayOfWeek, hour, minute) {
     
     result.setDate(now.getDate() + daysUntilNext);
     
-    // If the time is in the past today, schedule for next week
-    if (result < now && daysUntilNext === 0) {
-        result.setDate(result.getDate() + 7);
-    }
+    // Removed the dead code block that would never execute
     
     return result;
 }
