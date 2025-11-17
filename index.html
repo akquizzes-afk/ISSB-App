@@ -993,73 +993,106 @@
         }
 
         async function saveNotificationSchedule() {
-            if (!window.Capacitor?.Plugins?.LocalNotifications) {
-                alert('Notifications not supported in this environment');
-                return;
-            }
+    if (!window.Capacitor?.Plugins?.LocalNotifications) {
+        alert('Notifications not supported in this environment');
+        return;
+    }
 
-            const { LocalNotifications } = window.Capacitor.Plugins;
+    const { LocalNotifications } = window.Capacitor.Plugins;
 
-            try {
-                // Request permissions
-                const permission = await LocalNotifications.requestPermissions();
-                if (permission.display !== 'granted') {
-                    alert('Notification permission denied. Please enable notifications in your device settings.');
-                    return;
-                }
-
-                // Clear existing notifications
-                await LocalNotifications.cancel({ notifications: [{ id: 1 }, { id: 2 }, { id: 3 }, { id: 4 }, { id: 5 }, { id: 6 }, { id: 7 }] });
-
-                // Get user selections
-                const hour = document.getElementById('notify-hour').value;
-                const minute = document.getElementById('notify-minute').value;
-                const period = document.getElementById('notify-period').value;
-                
-                const { hour: hour24, minute: minute24 } = convertTo24Hour(hour, minute, period);
-                
-                const dayCheckboxes = document.querySelectorAll('.day-checkbox:checked');
-                
-                if (dayCheckboxes.length === 0) {
-                    alert('Please select at least one day for reminders');
-                    return;
-                }
-
-                // Schedule notifications
-                const notificationsToSchedule = [];
-
-                dayCheckboxes.forEach(checkbox => {
-                    const day = parseInt(checkbox.value);
-                    
-                    notificationsToSchedule.push({
-                        id: day + 1, // Use day + 1 as ID (1-7)
-                        title: "🧠 It's Test Time!",
-                        body: "Your daily reminder to take a psychological test. Tap to start!",
-                        smallIcon: 'res://mipmap/ic_launcher',
-                        largeIcon: 'res://mipmap/ic_launcher',
-                        actionTypeId: 'TAKE_TEST_ACTION',
-                        schedule: {
-                            on: {
-                                weekday: day,
-                                hour: hour24,
-                                minute: minute24
-                            },
-                            repeats: true
-                        }
-                    });
-                });
-
-                await LocalNotifications.schedule({ notifications: notificationsToSchedule });
-                
-                console.log(`Scheduled ${notificationsToSchedule.length} notifications`);
-                return true;
-                
-            } catch (error) {
-                console.error('Error scheduling notifications:', error);
-                alert('Error setting up notifications. Please try again.');
-                return false;
-            }
+    try {
+        // Request permissions
+        const permission = await LocalNotifications.requestPermissions();
+        if (permission.display !== 'granted') {
+            alert('Notification permission denied. Please enable notifications in your device settings.');
+            return;
         }
+
+        // Clear existing notifications
+        await LocalNotifications.cancel({ notifications: [] }); // Clear all
+
+        // Get user selections
+        const hour = document.getElementById('notify-hour').value;
+        const minute = document.getElementById('notify-minute').value;
+        const period = document.getElementById('notify-period').value;
+        
+        const { hour: hour24, minute: minute24 } = convertTo24Hour(hour, minute, period);
+        
+        const dayCheckboxes = document.querySelectorAll('.day-checkbox:checked');
+        
+        if (dayCheckboxes.length === 0) {
+            alert('Please select at least one day for reminders');
+            return;
+        }
+
+        // Schedule notifications
+        const notificationsToSchedule = [];
+        const now = new Date();
+
+        dayCheckboxes.forEach(checkbox => {
+            const dayOfWeek = parseInt(checkbox.value); // 0-6 (Sunday=0)
+            
+            // Calculate next occurrence of this day
+            const nextDate = getNextWeekday(dayOfWeek, hour24, minute24);
+            
+            notificationsToSchedule.push({
+                id: dayOfWeek + 100, // Use 100+ to avoid conflicts
+                title: "🧠 It's Test Time!",
+                body: "Your daily reminder to take a psychological test. Tap to start!",
+                smallIcon: 'res://mipmap/ic_launcher',
+                largeIcon: 'res://mipmap/ic_launcher',
+                actionTypeId: 'TAKE_TEST_ACTION',
+                schedule: {
+                    at: nextDate,
+                    repeats: true, // This should make it repeat weekly
+                    every: 'week' // Explicitly set weekly repetition
+                }
+            });
+        });
+
+        await LocalNotifications.schedule({ notifications: notificationsToSchedule });
+        
+        console.log(`Scheduled ${notificationsToSchedule.length} notifications for:`, 
+            notificationsToSchedule.map(n => n.schedule.at));
+        
+        // Show success message with next notification time
+        const nextNotification = notificationsToSchedule[0];
+        const nextTime = new Date(nextNotification.schedule.at).toLocaleString();
+        notificationStatus.innerHTML = `<i class="fas fa-check-circle"></i> Notifications scheduled! Next: ${nextTime}`;
+        notificationStatus.classList.remove('hidden');
+        
+        return true;
+        
+    } catch (error) {
+        console.error('Error scheduling notifications:', error);
+        alert('Error setting up notifications. Please try again.');
+        return false;
+    }
+}
+
+// Helper function to calculate next occurrence of a weekday
+function getNextWeekday(dayOfWeek, hour, minute) {
+    const now = new Date();
+    const result = new Date();
+    
+    // Set the time
+    result.setHours(hour, minute, 0, 0);
+    
+    // Calculate days until next occurrence
+    let daysUntilNext = dayOfWeek - now.getDay();
+    if (daysUntilNext < 0 || (daysUntilNext === 0 && result < now)) {
+        daysUntilNext += 7;
+    }
+    
+    result.setDate(now.getDate() + daysUntilNext);
+    
+    // If the time is in the past today, schedule for next week
+    if (result < now && daysUntilNext === 0) {
+        result.setDate(result.getDate() + 7);
+    }
+    
+    return result;
+}
 
         async function testNotification() {
             if (!window.Capacitor?.Plugins?.LocalNotifications) {
