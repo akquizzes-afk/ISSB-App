@@ -65,10 +65,10 @@ jobs:
         sed -i 's/versionName "1.0"/versionName "'"$APP_VERSION_NAME"'"/' android/app/build.gradle
         sed -i 's/versionCode 1/versionCode '"$APP_VERSION_CODE"'/' android/app/build.gradle
 
-    # --- ADD NOTIFICATION PERMISSIONS ---
+    # --- ENHANCED NOTIFICATION PERMISSIONS ---
     - name: Add Notification Permissions
       run: |
-        sed -i '/<application/i \    <uses-permission android:name="android.permission.POST_NOTIFICATIONS" \/>\n    <uses-permission android:name="android.permission.SCHEDULE_EXACT_ALARM" android:maxSdkVersion="32" \/>' android/app/src/main/AndroidManifest.xml
+        sed -i '/<application/i \    <uses-permission android:name="android.permission.POST_NOTIFICATIONS" \/>\n    <uses-permission android:name="android.permission.SCHEDULE_EXACT_ALARM" android:maxSdkVersion="32" \/>\n    <uses-permission android:name="android.permission.USE_EXACT_ALARM" \/>\n    <uses-permission android:name="android.permission.WAKE_LOCK" \/>' android/app/src/main/AndroidManifest.xml
 
     - name: Set Custom App Name
       run: |
@@ -83,8 +83,9 @@ jobs:
     - name: Generate App Icons
       run: |
         mkdir -p assets
-        cp home-screen.png assets/icon.png
-        cp home-screen.png assets/splash.png
+        # Use ghani.png from www folder since we moved it there
+        cp www/ghani.png assets/icon.png
+        cp www/ghani.png assets/splash.png
         npx capacitor-assets generate --android
         npx cap sync android
 
