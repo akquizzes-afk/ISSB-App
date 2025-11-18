@@ -865,7 +865,8 @@
             }
         });
         
-        // Initialize notification system
+        // Initialize notification system FIRST
+        await initializeNotifications();
         await initializeNotificationSystem();
         
         // Load saved schedule when opening popup
@@ -891,8 +892,6 @@
             const success = await saveNotificationSchedule();
             if (success) {
                 notificationStatus.classList.remove('hidden');
-                
-                // Hide status after 3 seconds
                 setTimeout(() => {
                     notificationStatus.classList.add('hidden');
                 }, 3000);
@@ -990,10 +989,35 @@
             }
         }
         console.log('No saved schedule found, using defaults');
-        return false; // No saved schedule
+        return false;
     }
 
-    // Notification System
+    // 1. Initialize notification channel (CRITICAL FIX)
+    async function initializeNotifications() {
+        if (!window.Capacitor?.Plugins?.LocalNotifications) {
+            console.log('LocalNotifications plugin not available');
+            return;
+        }
+
+        const { LocalNotifications } = window.Capacitor.Plugins;
+
+        try {
+            // Create a High Importance Channel (Required for Android Sound/Popup)
+            await LocalNotifications.createChannel({
+                id: 'reminder_channel',
+                name: 'Daily Reminders',
+                description: 'Reminders to take your test',
+                importance: 5, // 5 = High (makes sound and pops up)
+                visibility: 1,
+                vibration: true
+            });
+            console.log('Notification channel created successfully');
+        } catch (error) {
+            console.error('Error creating notification channel:', error);
+        }
+    }
+
+    // 2. Main Notification System
     async function initializeNotificationSystem() {
         if (!window.Capacitor || !window.Capacitor.Plugins?.LocalNotifications) {
             console.log('LocalNotifications plugin not available');
@@ -1027,10 +1051,8 @@
             // Listen for notification actions
             LocalNotifications.addListener('localNotificationActionPerformed', (action) => {
                 if (action.actionId === 'start') {
-                    // User clicked "Start Test" - redirect to WAT test
                     window.location.href = 'wat-test.html';
                 }
-                // If they click 'dismiss', the notification just closes
             });
 
             console.log('Notification system initialized successfully');
@@ -1039,6 +1061,7 @@
         }
     }
 
+    // 3. Fixed Notification Scheduling Function
     async function saveNotificationSchedule() {
         if (!window.Capacitor?.Plugins?.LocalNotifications) {
             alert('Notifications not supported in this environment');
@@ -1055,7 +1078,7 @@
                 return false;
             }
 
-            // ✅ FIXED: Properly clear existing notifications
+            // Clear existing notifications
             const pending = await LocalNotifications.getPending();
             if (pending.notifications && pending.notifications.length > 0) {
                 await LocalNotifications.cancel({ 
@@ -1078,19 +1101,20 @@
                 return false;
             }
 
-            // Schedule notifications with better persistence
+            // Schedule notifications with exact timing
             const notificationsToSchedule = [];
 
             dayCheckboxes.forEach(checkbox => {
-                const dayOfWeek = parseInt(checkbox.value); // 0-6 (Sunday=0)
+                const dayOfWeek = parseInt(checkbox.value);
                 
-                // Calculate next occurrence of this day
+                // Calculate next occurrence
                 const nextDate = getNextWeekday(dayOfWeek, hour24, minute24);
                 
                 notificationsToSchedule.push({
-                    id: dayOfWeek + 100, // Use 100+ to avoid conflicts
+                    id: dayOfWeek + 100,
                     title: "🧠 It's Test Time!",
                     body: "Your daily reminder to take a psychological test. Tap to start!",
+                    channelId: 'reminder_channel', // CRITICAL: Use the channel we created
                     smallIcon: 'res://mipmap/ic_launcher',
                     largeIcon: 'res://mipmap/ic_launcher',
                     actionTypeId: 'TAKE_TEST_ACTION',
@@ -1098,28 +1122,27 @@
                         at: nextDate,
                         repeats: true,
                         every: 'week',
-                        allowWhileIdle: true // Important for Doze mode
+                        allowWhileIdle: true
                     },
-                    // Additional properties for better reliability
-                    autoCancel: false,
-                    wakeup: true
+                    autoCancel: false
                 });
             });
 
             await LocalNotifications.schedule({ notifications: notificationsToSchedule });
             
-            // ✅ Save schedule to localStorage for persistence
+            // Save schedule to localStorage
             saveScheduleToStorage(hour, minute, period, dayCheckboxes);
             
-            console.log(`Scheduled ${notificationsToSchedule.length} persistent notifications for:`, 
-                notificationsToSchedule.map(n => n.schedule.at));
+            console.log(`Scheduled ${notificationsToSchedule.length} notifications`);
             
-            // Show success message with next notification time
-            const nextNotification = notificationsToSchedule[0];
-            const nextTime = new Date(nextNotification.schedule.at).toLocaleString();
+            // Show success
+            const nextTime = new Date(notificationsToSchedule[0].schedule.at).toLocaleString();
             const notificationStatus = document.getElementById('notificationStatus');
             notificationStatus.innerHTML = `<i class="fas fa-check-circle"></i> Notifications scheduled! Next: ${nextTime}`;
             notificationStatus.classList.remove('hidden');
+            
+            // Check battery optimization
+            setTimeout(() => checkBatteryOptimization(), 1000);
             
             return true;
             
@@ -1135,18 +1158,48 @@
         const now = new Date();
         const result = new Date();
         
-        // Set the time
+        // Set the exact time
         result.setHours(hour, minute, 0, 0);
         
         // Calculate days until next occurrence
         let daysUntilNext = dayOfWeek - now.getDay();
-        if (daysUntilNext < 0 || (daysUntilNext === 0 && result < now)) {
+        if (daysUntilNext < 0 || (daysUntilNext === 0 && result <= now)) {
             daysUntilNext += 7;
         }
         
         result.setDate(now.getDate() + daysUntilNext);
         
+        // Double-check we're not scheduling in the past
+        if (result <= now) {
+            result.setDate(result.getDate() + 7);
+        }
+        
+        console.log(`Scheduled: ${result.toString()}, Day: ${getDayName(dayOfWeek)}, Time: ${hour}:${minute.toString().padStart(2, '0')}`);
         return result;
+    }
+
+    // Helper function to get day name
+    function getDayName(dayNumber) {
+        const days = ['Sunday', 'Monday', 'Tuesday', 'Wednesday', 'Thursday', 'Friday', 'Saturday'];
+        return days[dayNumber];
+    }
+
+    // Check battery optimization
+    async function checkBatteryOptimization() {
+        if (window.Capacitor?.Plugins?.Device) {
+            const { Device } = window.Capacitor.Plugins;
+            try {
+                const info = await Device.getInfo();
+                console.log('Device info:', info);
+                
+                // Alert user about battery optimization
+                if (confirm('For reliable notifications, please make sure "Ghani" is excluded from battery optimization in your device settings. Would you like to see instructions?')) {
+                    alert('Go to: Settings > Apps > Ghani > Battery > Battery optimization > Select "Don\'t optimize"');
+                }
+            } catch (error) {
+                console.log('Could not get device info');
+            }
+        }
     }
 
     async function testNotification() {
@@ -1163,10 +1216,11 @@
                     id: 999,
                     title: "🧠 It's Test Time!",
                     body: "This is a test of your reminder system! The real notifications will appear at your scheduled times.",
+                    channelId: 'reminder_channel',
                     smallIcon: 'res://mipmap/ic_launcher',
                     largeIcon: 'res://mipmap/ic_launcher',
                     actionTypeId: 'TAKE_TEST_ACTION',
-                    schedule: { at: new Date(Date.now() + 1000) } // Show in 1 second
+                    schedule: { at: new Date(Date.now() + 1000) }
                 }]
             });
         } catch (error) {
@@ -1175,7 +1229,7 @@
         }
     }
 
-    // Debug function to check scheduled notifications
+    // Debug function
     async function checkScheduledNotifications() {
         if (!window.Capacitor?.Plugins?.LocalNotifications) {
             console.log('Notifications not available');
@@ -1192,7 +1246,6 @@
         }
     }
 
-    // Make debug function available globally
     window.checkScheduledNotifications = checkScheduledNotifications;
 </script>
     
