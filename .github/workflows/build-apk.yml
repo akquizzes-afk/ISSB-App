@@ -66,12 +66,6 @@ jobs:
         sed -i 's/versionName "1.0"/versionName "'"$APP_VERSION_NAME"'"/' android/app/build.gradle
         sed -i 's/versionCode 1/versionCode '"$APP_VERSION_CODE"'/' android/app/build.gradle
 
-    # 🔥 FIXED: Removed the 'Ghost' BootReceiver.
-    # Only adding Permissions. The Plugin handles the Receiver automatically.
-    - name: Add Notification Permissions
-      run: |
-        sed -i '/<application/i \    <uses-permission android:name="android.permission.POST_NOTIFICATIONS" \/>\n    <uses-permission android:name="android.permission.VIBRATE" \/>\n    <uses-permission android:name="android.permission.SCHEDULE_EXACT_ALARM" \/>\n    <uses-permission android:name="android.permission.RECEIVE_BOOT_COMPLETED" \/>\n    <uses-permission android:name="android.permission.WAKE_LOCK" \/>' android/app/src/main/AndroidManifest.xml
-
     - name: Set Custom App Name
       run: |
         mkdir -p android/app/src/main/res/values
@@ -82,6 +76,7 @@ jobs:
           <string name="custom_url_scheme">com.mystore.app</string>
         </resources>' > android/app/src/main/res/values/strings.xml
 
+    # 1. Generate Icons & Sync FIRST
     - name: Generate App Icons
       run: |
         mkdir -p assets
@@ -89,6 +84,12 @@ jobs:
         cp home-screen.png assets/splash.png
         npx capacitor-assets generate --android
         npx cap sync android
+
+    # 2. Inject Permissions AFTER Sync (So they don't get deleted)
+    # 🔥 Added USE_FULL_SCREEN_INTENT here
+    - name: Add Notification Permissions
+      run: |
+        sed -i '/<application/i \    <uses-permission android:name="android.permission.POST_NOTIFICATIONS" \/>\n    <uses-permission android:name="android.permission.VIBRATE" \/>\n    <uses-permission android:name="android.permission.SCHEDULE_EXACT_ALARM" \/>\n    <uses-permission android:name="android.permission.RECEIVE_BOOT_COMPLETED" \/>\n    <uses-permission android:name="android.permission.USE_FULL_SCREEN_INTENT" \/>\n    <uses-permission android:name="android.permission.WAKE_LOCK" \/>' android/app/src/main/AndroidManifest.xml
 
     - name: Build Debug APK
       run: |
@@ -105,4 +106,3 @@ jobs:
       with:
         name: Ghani.apk
         path: android/app/build/outputs/apk/debug/Ghani.apk
-
