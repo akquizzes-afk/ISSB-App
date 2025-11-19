@@ -506,29 +506,48 @@ async function testNotification() {
 }
 
 // Check battery optimization
+// Fixed battery optimization check
 async function checkBatteryOptimization() {
     debugLog('Checking battery optimization...');
     
-    if (window.Capacitor?.Plugins?.Device) {
-        const { Device } = window.Capacitor.Plugins;
+    // Add timeout protection
+    const timeoutPromise = new Promise((resolve) => {
+        setTimeout(() => resolve({ timedOut: true }), 3000);
+    });
+    
+    const deviceInfoPromise = new Promise(async (resolve) => {
         try {
-            const info = await Device.getInfo();
-            debugLog('Device info', info);
-            
-            // Only show this once per session
-            if (!sessionStorage.getItem('battery_optimization_shown')) {
-                setTimeout(() => {
-                    if (confirm('For reliable notifications when app is closed, please disable battery optimization for Ghani. Show instructions?')) {
-                        alert('Go to: Settings > Apps > Ghani > Battery > Battery optimization > Select "Don\'t optimize"');
-                    }
-                    sessionStorage.setItem('battery_optimization_shown', 'true');
-                }, 2000);
+            if (window.Capacitor?.Plugins?.Device) {
+                const { Device } = window.Capacitor.Plugins;
+                const info = await Device.getInfo();
+                resolve({ success: true, info });
+            } else {
+                resolve({ success: false, error: 'Device plugin not available' });
             }
         } catch (error) {
-            debugLog('Could not get device info', error);
+            resolve({ success: false, error });
         }
+    });
+    
+    // Race between device info and timeout
+    const result = await Promise.race([deviceInfoPromise, timeoutPromise]);
+    
+    if (result.timedOut) {
+        debugError('Device.getInfo() timed out after 3 seconds');
+    } else if (result.success) {
+        debugLog('Device info', result.info);
     } else {
-        debugLog('Device plugin not available for battery optimization check');
+        debugError('Device info failed', result.error);
+    }
+    
+    // Show battery optimization instructions regardless
+    if (!sessionStorage.getItem('battery_optimization_shown')) {
+        setTimeout(() => {
+            if (confirm('For reliable notifications when app is closed, please disable battery optimization for Ghani. Show instructions?')) {
+                alert('Go to: Settings > Apps > Ghani > Battery > Battery optimization > Select "Don\'t optimize"');
+            }
+            sessionStorage.setItem('battery_optimization_shown', 'true');
+        }, 1000);
     }
 }
 
