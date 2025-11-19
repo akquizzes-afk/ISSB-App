@@ -41,9 +41,10 @@ jobs:
     - name: Create package.json
       run: npm init -y
 
+    # 🔥 CRITICAL FIX: Add Device Plugin
     - name: Install Dependencies
       run: |
-        npm install @capacitor/core@5 @capacitor/cli@5 @capacitor/android@5 @capacitor/app@5 @capacitor/local-notifications@5
+        npm install @capacitor/core@5 @capacitor/cli@5 @capacitor/android@5 @capacitor/app@5 @capacitor/local-notifications@5 @capacitor/device@5
         npm install @capacitor/assets --save-dev
 
     - name: Create Capacitor Config
@@ -65,10 +66,15 @@ jobs:
         sed -i 's/versionName "1.0"/versionName "'"$APP_VERSION_NAME"'"/' android/app/build.gradle
         sed -i 's/versionCode 1/versionCode '"$APP_VERSION_CODE"'/' android/app/build.gradle
 
-    # --- CRITICAL NOTIFICATION PERMISSIONS FIX ---
+    # 🔥 ENHANCED NOTIFICATION PERMISSIONS
     - name: Add Notification Permissions
       run: |
-        sed -i '/<application/i \    <uses-permission android:name="android.permission.POST_NOTIFICATIONS" \/>\n    <uses-permission android:name="android.permission.VIBRATE" \/>\n    <uses-permission android:name="android.permission.SCHEDULE_EXACT_ALARM" \/>\n    <uses-permission android:name="android.permission.RECEIVE_BOOT_COMPLETED" \/>' android/app/src/main/AndroidManifest.xml
+        sed -i '/<application/i \    <uses-permission android:name="android.permission.POST_NOTIFICATIONS" \/>\n    <uses-permission android:name="android.permission.VIBRATE" \/>\n    <uses-permission android:name="android.permission.SCHEDULE_EXACT_ALARM" \/>\n    <uses-permission android:name="android.permission.RECEIVE_BOOT_COMPLETED" \/>\n    <uses-permission android:name="android.permission.WAKE_LOCK" \/>\n    <uses-permission android:name="android.permission.USE_EXACT_ALARM" \/>' android/app/src/main/AndroidManifest.xml
+
+    # 🔥 ADD BOOT RECEIVER FOR NOTIFICATION PERSISTENCE
+    - name: Add Boot Completed Receiver
+      run: |
+        sed -i '/<\/application>/i \    <receiver android:name="com.getcapacitor.BootReceiver" android:enabled="true" android:exported="true">\n        <intent-filter>\n            <action android:name="android.intent.action.BOOT_COMPLETED" \/>\n            <action android:name="android.intent.action.QUICKBOOT_POWERON" \/>\n            <action android:name="com.htc.intent.action.QUICKBOOT_POWERON" \/>\n        <\/intent-filter>\n    <\/receiver>' android/app/src/main/AndroidManifest.xml
 
     - name: Set Custom App Name
       run: |
