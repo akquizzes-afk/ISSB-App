@@ -8,10 +8,9 @@ jobs:
   build-android:
     runs-on: ubuntu-latest
     
-    # Define version numbers here
     env:
-      APP_VERSION_NAME: "1.1"  # Your public-facing version
-      APP_VERSION_CODE: 2       # Must be an integer, and must increase with each new version
+      APP_VERSION_NAME: "1.1"
+      APP_VERSION_CODE: 2
 
     steps:
     - name: Checkout code
@@ -28,9 +27,6 @@ jobs:
       with:
         node-version: '18'
         
-    - name: Show What Files The Build Sees
-      run: ls -R
-
     - name: Organize Web Files
       run: |
         mkdir -p www
@@ -41,7 +37,6 @@ jobs:
     - name: Create package.json
       run: npm init -y
 
-    # 🔥 CRITICAL FIX: Add Device Plugin
     - name: Install Dependencies
       run: |
         npm install @capacitor/core@5 @capacitor/cli@5 @capacitor/android@5 @capacitor/app@5 @capacitor/local-notifications@5 @capacitor/device@5
@@ -53,28 +48,29 @@ jobs:
           "appId": "com.mystore.app",
           "appName": "Ghani",
           "webDir": "www",
-          "bundledWebRuntime": false
+          "bundledWebRuntime": false,
+          "plugins": {
+            "LocalNotifications": {
+              "smallIcon": "ic_launcher",
+              "iconColor": "#10b981",
+              "sound": "beep.wav"
+            }
+          }
         }' > capacitor.config.json
 
     - name: Add Android Platform
       run: npx cap add android
 
-    # --- SET APP VERSION ---
     - name: Set App Version
       run: |
-        echo "Setting app version to $APP_VERSION_NAME ($APP_VERSION_CODE)"
         sed -i 's/versionName "1.0"/versionName "'"$APP_VERSION_NAME"'"/' android/app/build.gradle
         sed -i 's/versionCode 1/versionCode '"$APP_VERSION_CODE"'/' android/app/build.gradle
 
-    # 🔥 ENHANCED NOTIFICATION PERMISSIONS
+    # 🔥 FIXED: Removed the 'Ghost' BootReceiver.
+    # Only adding Permissions. The Plugin handles the Receiver automatically.
     - name: Add Notification Permissions
       run: |
-        sed -i '/<application/i \    <uses-permission android:name="android.permission.POST_NOTIFICATIONS" \/>\n    <uses-permission android:name="android.permission.VIBRATE" \/>\n    <uses-permission android:name="android.permission.SCHEDULE_EXACT_ALARM" \/>\n    <uses-permission android:name="android.permission.RECEIVE_BOOT_COMPLETED" \/>\n    <uses-permission android:name="android.permission.WAKE_LOCK" \/>\n    <uses-permission android:name="android.permission.USE_EXACT_ALARM" \/>' android/app/src/main/AndroidManifest.xml
-
-    # 🔥 ADD BOOT RECEIVER FOR NOTIFICATION PERSISTENCE
-    - name: Add Boot Completed Receiver
-      run: |
-        sed -i '/<\/application>/i \    <receiver android:name="com.getcapacitor.BootReceiver" android:enabled="true" android:exported="true">\n        <intent-filter>\n            <action android:name="android.intent.action.BOOT_COMPLETED" \/>\n            <action android:name="android.intent.action.QUICKBOOT_POWERON" \/>\n            <action android:name="com.htc.intent.action.QUICKBOOT_POWERON" \/>\n        <\/intent-filter>\n    <\/receiver>' android/app/src/main/AndroidManifest.xml
+        sed -i '/<application/i \    <uses-permission android:name="android.permission.POST_NOTIFICATIONS" \/>\n    <uses-permission android:name="android.permission.VIBRATE" \/>\n    <uses-permission android:name="android.permission.SCHEDULE_EXACT_ALARM" \/>\n    <uses-permission android:name="android.permission.RECEIVE_BOOT_COMPLETED" \/>\n    <uses-permission android:name="android.permission.WAKE_LOCK" \/>' android/app/src/main/AndroidManifest.xml
 
     - name: Set Custom App Name
       run: |
@@ -109,3 +105,4 @@ jobs:
       with:
         name: Ghani.apk
         path: android/app/build/outputs/apk/debug/Ghani.apk
+
