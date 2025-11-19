@@ -600,6 +600,111 @@
     *{ 
         -webkit-tap-highlight-color: transparent;
     }
+    
+    
+/* Notification Debug Panel - Enhanced */
+.debug-panel {
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    width: 400px;
+    height: 250px; /* Slightly taller for readability */
+    
+    /* Glassmorphism & Theme */
+    background: rgba(10, 25, 41, 0.85);
+    backdrop-filter: blur(10px);
+    -webkit-backdrop-filter: blur(10px);
+    border: 1px solid rgba(16, 185, 129, 0.3);
+    box-shadow: 0 8px 32px rgba(0, 0, 0, 0.5);
+    
+    border-radius: 12px;
+    padding: 16px;
+    font-family: 'Fira Code', 'Consolas', monospace;
+    font-size: 12px;
+    line-height: 1.5;
+    color: #34d399; /* Softer, readable green */
+    
+    overflow-y: auto;
+    z-index: 10000;
+    display: none;
+    transition: opacity 0.3s ease;
+}
+
+/* Custom Scrollbar for the Panel */
+.debug-panel::-webkit-scrollbar {
+    width: 6px;
+}
+.debug-panel::-webkit-scrollbar-track {
+    background: rgba(0, 0, 0, 0.2);
+    border-radius: 4px;
+}
+.debug-panel::-webkit-scrollbar-thumb {
+    background: #10b981;
+    border-radius: 4px;
+}
+.debug-panel::-webkit-scrollbar-thumb:hover {
+    background: #059669;
+}
+
+/* Debug Toggle Button */
+.debug-toggle {
+    position: fixed;
+    bottom: 20px;
+    right: 440px; /* Adjusted to match panel margin + width */
+    
+    background: #10b981;
+    color: #022c22; /* Dark text on green for contrast */
+    border: none;
+    border-radius: 50%;
+    width: 45px;
+    height: 45px;
+    
+    cursor: pointer;
+    z-index: 10001;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+    box-shadow: 0 4px 12px rgba(16, 185, 129, 0.4);
+    transition: all 0.2s cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.debug-toggle:hover {
+    transform: scale(1.1) rotate(90deg); /* Nice interaction feedback */
+    box-shadow: 0 0 20px rgba(16, 185, 129, 0.6);
+    background: #34d399;
+}
+
+.debug-toggle:active {
+    transform: scale(0.95);
+}
+/* --- Mobile Responsiveness --- */
+@media (max-width: 600px) {
+    .debug-panel {
+        /* Center the panel */
+        width: 90%;             /* Fit within phone width */
+        left: 50%;              /* Move to middle */
+        right: auto;            /* Ignore the 'right' property */
+        bottom: 80px;           /* Sit above the toggle button */
+        transform: translateX(-50%); /* Perfect centering alignment */
+    }
+
+    .debug-toggle {
+        /* Center the button */
+        left: 50%;
+        right: auto;
+        bottom: 20px;
+        transform: translateX(-50%); /* Center the button */
+    }
+
+    /* Fix Hover Animation for Mobile Centering */
+    .debug-toggle:hover {
+        /* We must keep the X-centering while scaling/rotating */
+        transform: translateX(-50%) scale(1.1) rotate(90deg);
+    }
+}
+
+
     </style>
     <script src="capacitor.js"></script>
     <script src="js/native-back.js"></script>
@@ -640,6 +745,10 @@
     </div>
 
     <div class="container">
+
+
+<!-- Import Notification System -->
+
         <!-- Updated page header with split text -->
         <div class="page-header">
     <div class="welcome-text">
@@ -799,11 +908,15 @@
             </div>
         </div>
     </div>
+            <!-- Debug Panel -->
+<button class="debug-toggle" onclick="toggleDebugPanel()">🔥🔥🔥</button>
+<div class="debug-panel" id="notificationDebug">
+    <div style="color: #94a3b8; text-align: center; margin-bottom: 5px;">Notification Debug</div>
+</div>
 <script>
     // User Name Management
     const USER_NAME_KEY = 'ghani_user_name';
     const HAS_VISITED_KEY = 'ghani_has_visited';
-    const NOTIFICATION_SCHEDULE_KEY = 'ghani_notification_schedule';
 
     // Initialize app when DOM loads
     document.addEventListener('DOMContentLoaded', async function() {
@@ -865,13 +978,19 @@
             }
         });
         
-        // Initialize notification system FIRST
-        await initializeNotifications();
-        await initializeNotificationSystem();
+        // Initialize external notification system
+        if (window.notificationSystem) {
+            const initResults = await window.notificationSystem.initializeCompleteNotificationSystem();
+            console.log('External notification system initialized:', initResults);
+        } else {
+            console.error('Notification system not found. Make sure notification.js is loaded.');
+        }
         
         // Load saved schedule when opening popup
         notificationSettingsBtn.addEventListener('click', function() {
-            loadScheduleFromStorage();
+            if (window.notificationSystem) {
+                window.notificationSystem.loadScheduleFromStorage();
+            }
             notificationPopup.classList.add('active');
         });
         
@@ -887,20 +1006,28 @@
             }
         });
         
-        // Save notification schedule
+        // Save notification schedule using external system
         saveNotificationBtn.addEventListener('click', async function() {
-            const success = await saveNotificationSchedule();
-            if (success) {
-                notificationStatus.classList.remove('hidden');
-                setTimeout(() => {
-                    notificationStatus.classList.add('hidden');
-                }, 3000);
+            if (window.notificationSystem) {
+                const success = await window.notificationSystem.saveNotificationSchedule();
+                if (success) {
+                    notificationStatus.classList.remove('hidden');
+                    setTimeout(() => {
+                        notificationStatus.classList.add('hidden');
+                    }, 3000);
+                }
+            } else {
+                alert('Notification system not available');
             }
         });
         
-        // Test notification
+        // Test notification using external system
         testNotificationBtn.addEventListener('click', async function() {
-            await testNotification();
+            if (window.notificationSystem) {
+                await window.notificationSystem.testNotification();
+            } else {
+                alert('Notification system not available');
+            }
         });
         
         // Add subtle animation to cards on load
@@ -936,321 +1063,23 @@
         }
     }
 
-    // Convert 12-hour time to 24-hour time
-    function convertTo24Hour(hour, minute, period) {
-        let hour24 = parseInt(hour);
-        
-        if (period === 'PM' && hour24 !== 12) {
-            hour24 += 12;
-        } else if (period === 'AM' && hour24 === 12) {
-            hour24 = 0;
-        }
-        
-        return { hour: hour24, minute: parseInt(minute) };
+// Debug panel toggle function
+function toggleDebugPanel() {
+    const panel = document.getElementById('notificationDebug');
+    if (panel) {
+        // Fixed: Now toggles between 'block' and 'none'
+        panel.style.display = panel.style.display === 'none' ? 'block' : 'none';
     }
+}
 
-    // Save schedule to localStorage
-    function saveScheduleToStorage(hour, minute, period, dayCheckboxes) {
-        const scheduleData = {
-            hour: hour,
-            minute: minute,
-            period: period,
-            days: Array.from(dayCheckboxes).map(checkbox => checkbox.value)
-        };
-        localStorage.setItem(NOTIFICATION_SCHEDULE_KEY, JSON.stringify(scheduleData));
-        console.log('Schedule saved to storage:', scheduleData);
-    }
+// Make toggle function globally available
+window.toggleDebugPanel = toggleDebugPanel;
 
-    // Load schedule from localStorage and populate the form
-    function loadScheduleFromStorage() {
-        const savedSchedule = localStorage.getItem(NOTIFICATION_SCHEDULE_KEY);
-        if (savedSchedule) {
-            try {
-                const schedule = JSON.parse(savedSchedule);
-                
-                // Set time inputs
-                if (schedule.hour) document.getElementById('notify-hour').value = schedule.hour;
-                if (schedule.minute) document.getElementById('notify-minute').value = schedule.minute;
-                if (schedule.period) document.getElementById('notify-period').value = schedule.period;
-                
-                // Set day checkboxes
-                if (schedule.days && schedule.days.length > 0) {
-                    const allDayCheckboxes = document.querySelectorAll('.day-checkbox');
-                    allDayCheckboxes.forEach(checkbox => {
-                        checkbox.checked = schedule.days.includes(checkbox.value);
-                    });
-                }
-                
-                console.log('Loaded schedule from storage:', schedule);
-                return true;
-            } catch (error) {
-                console.error('Error parsing saved schedule:', error);
-                return false;
-            }
-        }
-        console.log('No saved schedule found, using defaults');
-        return false;
-    }
-
-    // 1. Initialize notification channel (CRITICAL FIX)
-    async function initializeNotifications() {
-        if (!window.Capacitor?.Plugins?.LocalNotifications) {
-            console.log('LocalNotifications plugin not available');
-            return;
-        }
-
-        const { LocalNotifications } = window.Capacitor.Plugins;
-
-        try {
-            // Create a High Importance Channel (Required for Android Sound/Popup)
-            await LocalNotifications.createChannel({
-                id: 'reminder_channel',
-                name: 'Daily Reminders',
-                description: 'Reminders to take your test',
-                importance: 5, // 5 = High (makes sound and pops up)
-                visibility: 1,
-                vibration: true
-            });
-            console.log('Notification channel created successfully');
-        } catch (error) {
-            console.error('Error creating notification channel:', error);
-        }
-    }
-
-    // 2. Main Notification System
-    async function initializeNotificationSystem() {
-        if (!window.Capacitor || !window.Capacitor.Plugins?.LocalNotifications) {
-            console.log('LocalNotifications plugin not available');
-            return;
-        }
-
-        const { LocalNotifications } = window.Capacitor.Plugins;
-
-        try {
-            // Register action types for the "Start Test" button
-            await LocalNotifications.registerActionTypes({
-                types: [
-                    {
-                        id: 'TAKE_TEST_ACTION',
-                        actions: [
-                            {
-                                id: 'start',
-                                title: 'Start Test',
-                                foreground: true
-                            },
-                            {
-                                id: 'dismiss',
-                                title: 'Dismiss',
-                                destructive: true
-                            }
-                        ]
-                    }
-                ]
-            });
-
-            // Listen for notification actions
-            LocalNotifications.addListener('localNotificationActionPerformed', (action) => {
-                if (action.actionId === 'start') {
-                    window.location.href = 'wat-test.html';
-                }
-            });
-
-            console.log('Notification system initialized successfully');
-        } catch (error) {
-            console.error('Error initializing notification system:', error);
-        }
-    }
-
-    // 3. Fixed Notification Scheduling Function
-    async function saveNotificationSchedule() {
-        if (!window.Capacitor?.Plugins?.LocalNotifications) {
-            alert('Notifications not supported in this environment');
-            return false;
-        }
-
-        const { LocalNotifications } = window.Capacitor.Plugins;
-
-        try {
-            // Request permissions
-            const permission = await LocalNotifications.requestPermissions();
-            if (permission.display !== 'granted') {
-                alert('Notification permission denied. Please enable notifications in your device settings.');
-                return false;
-            }
-
-            // Clear existing notifications
-            const pending = await LocalNotifications.getPending();
-            if (pending.notifications && pending.notifications.length > 0) {
-                await LocalNotifications.cancel({ 
-                    notifications: pending.notifications 
-                });
-                console.log(`Cleared ${pending.notifications.length} existing notifications`);
-            }
-
-            // Get user selections
-            const hour = document.getElementById('notify-hour').value;
-            const minute = document.getElementById('notify-minute').value;
-            const period = document.getElementById('notify-period').value;
-            
-            const { hour: hour24, minute: minute24 } = convertTo24Hour(hour, minute, period);
-            
-            const dayCheckboxes = document.querySelectorAll('.day-checkbox:checked');
-            
-            if (dayCheckboxes.length === 0) {
-                alert('Please select at least one day for reminders');
-                return false;
-            }
-
-            // Schedule notifications with exact timing
-            const notificationsToSchedule = [];
-
-            dayCheckboxes.forEach(checkbox => {
-                const dayOfWeek = parseInt(checkbox.value);
-                
-                // Calculate next occurrence
-                const nextDate = getNextWeekday(dayOfWeek, hour24, minute24);
-                
-                notificationsToSchedule.push({
-                    id: dayOfWeek + 100,
-                    title: "🧠 It's Test Time!",
-                    body: "Your daily reminder to take a psychological test. Tap to start!",
-                    channelId: 'reminder_channel', // CRITICAL: Use the channel we created
-                    smallIcon: 'res://mipmap/ic_launcher',
-                    largeIcon: 'res://mipmap/ic_launcher',
-                    actionTypeId: 'TAKE_TEST_ACTION',
-                    schedule: {
-                        at: nextDate,
-                        repeats: true,
-                        every: 'week',
-                        allowWhileIdle: true
-                    },
-                    autoCancel: false
-                });
-            });
-
-            await LocalNotifications.schedule({ notifications: notificationsToSchedule });
-            
-            // Save schedule to localStorage
-            saveScheduleToStorage(hour, minute, period, dayCheckboxes);
-            
-            console.log(`Scheduled ${notificationsToSchedule.length} notifications`);
-            
-            // Show success
-            const nextTime = new Date(notificationsToSchedule[0].schedule.at).toLocaleString();
-            const notificationStatus = document.getElementById('notificationStatus');
-            notificationStatus.innerHTML = `<i class="fas fa-check-circle"></i> Notifications scheduled! Next: ${nextTime}`;
-            notificationStatus.classList.remove('hidden');
-            
-            // Check battery optimization
-            setTimeout(() => checkBatteryOptimization(), 1000);
-            
-            return true;
-            
-        } catch (error) {
-            console.error('Error scheduling notifications:', error);
-            alert('Error setting up notifications: ' + error.message);
-            return false;
-        }
-    }
-
-    // Helper function to calculate next occurrence of a weekday
-    function getNextWeekday(dayOfWeek, hour, minute) {
-        const now = new Date();
-        const result = new Date();
-        
-        // Set the exact time
-        result.setHours(hour, minute, 0, 0);
-        
-        // Calculate days until next occurrence
-        let daysUntilNext = dayOfWeek - now.getDay();
-        if (daysUntilNext < 0 || (daysUntilNext === 0 && result <= now)) {
-            daysUntilNext += 7;
-        }
-        
-        result.setDate(now.getDate() + daysUntilNext);
-        
-        // Double-check we're not scheduling in the past
-        if (result <= now) {
-            result.setDate(result.getDate() + 7);
-        }
-        
-        console.log(`Scheduled: ${result.toString()}, Day: ${getDayName(dayOfWeek)}, Time: ${hour}:${minute.toString().padStart(2, '0')}`);
-        return result;
-    }
-
-    // Helper function to get day name
-    function getDayName(dayNumber) {
-        const days = ['Sunday', 'Monday', 'Tuesday', 'Wednesday', 'Thursday', 'Friday', 'Saturday'];
-        return days[dayNumber];
-    }
-
-    // Check battery optimization
-    async function checkBatteryOptimization() {
-        if (window.Capacitor?.Plugins?.Device) {
-            const { Device } = window.Capacitor.Plugins;
-            try {
-                const info = await Device.getInfo();
-                console.log('Device info:', info);
-                
-                // Alert user about battery optimization
-                if (confirm('For reliable notifications, please make sure "Ghani" is excluded from battery optimization in your device settings. Would you like to see instructions?')) {
-                    alert('Go to: Settings > Apps > Ghani > Battery > Battery optimization > Select "Don\'t optimize"');
-                }
-            } catch (error) {
-                console.log('Could not get device info');
-            }
-        }
-    }
-
-    async function testNotification() {
-        if (!window.Capacitor?.Plugins?.LocalNotifications) {
-            alert('Notifications not supported in this environment');
-            return;
-        }
-
-        const { LocalNotifications } = window.Capacitor.Plugins;
-
-        try {
-            await LocalNotifications.schedule({
-                notifications: [{
-                    id: 999,
-                    title: "🧠 It's Test Time!",
-                    body: "This is a test of your reminder system! The real notifications will appear at your scheduled times.",
-                    channelId: 'reminder_channel',
-                    smallIcon: 'res://mipmap/ic_launcher',
-                    largeIcon: 'res://mipmap/ic_launcher',
-                    actionTypeId: 'TAKE_TEST_ACTION',
-                    schedule: { at: new Date(Date.now() + 1000) }
-                }]
-            });
-        } catch (error) {
-            console.error('Error showing test notification:', error);
-            alert('Error showing test notification');
-        }
-    }
-
-    // Debug function
-    async function checkScheduledNotifications() {
-        if (!window.Capacitor?.Plugins?.LocalNotifications) {
-            console.log('Notifications not available');
-            return;
-        }
-        
-        const { LocalNotifications } = window.Capacitor.Plugins;
-        try {
-            const pending = await LocalNotifications.getPending();
-            console.log('Currently scheduled notifications:', pending.notifications);
-            return pending;
-        } catch (error) {
-            console.error('Error checking pending notifications:', error);
-        }
-    }
-
-    window.checkScheduledNotifications = checkScheduledNotifications;
 </script>
     
     <script>
         window.currentPage = 'index.html';
     </script>
+    <script src="js/notification.js"></script>
 </body>
 </html>
