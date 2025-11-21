@@ -1,0 +1,722 @@
+[
+  {
+    "question": "I prefer to act spontaneously rather than planning everything in advance",
+    "options": ["Strongly Agree", "Agree", "Somewhat Agree", "Neutral", "Somewhat Disagree", "Disagree", "Strongly Disagree"]
+  },
+  {
+    "question": "The thought of being left alone in relationships makes me anxious",
+    "options": ["Strongly Agree", "Agree", "Somewhat Agree", "Neutral", "Somewhat Disagree", "Disagree", "Strongly Disagree"]
+  },
+  {
+    "question": "My relationships tend to be very passionate but often unstable",
+    "options": ["Strongly Agree", "Agree", "Somewhat Agree", "Neutral", "Somewhat Disagree", "Disagree", "Strongly Disagree"]
+  },
+  {
+    "question": "I avoid jobs that require frequent social interaction due to fear of criticism",
+    "options": ["Strongly Agree", "Agree", "Somewhat Agree", "Neutral", "Somewhat Disagree", "Disagree", "Strongly Disagree"]
+  },
+  {
+    "question": "I enjoy solitary activities more than group activities",
+    "options": ["Strongly Agree", "Agree", "Somewhat Agree", "Neutral", "Somewhat Disagree", "Disagree", "Strongly Disagree"]
+  },
+  {
+    "question": "I hesitate to form relationships unless I'm certain I'll be accepted",
+    "options": ["Strongly Agree", "Agree", "Somewhat Agree", "Neutral", "Somewhat Disagree", "Disagree", "Strongly Disagree"]
+  },
+  {
+    "question": "I often suspect my partner of being unfaithful without concrete evidence",
+    "options": ["Strongly Agree", "Agree", "Somewhat Agree", "Neutral", "Somewhat Disagree", "Disagree", "Strongly Disagree"]
+  },
+  {
+    "question": "The idea of having to fend for myself worries me",
+    "options": ["Strongly Agree", "Agree", "Somewhat Agree", "Neutral", "Somewhat Disagree", "Disagree", "Strongly Disagree"]
+  },
+  {
+    "question": "I find it difficult to understand and share others' feelings",
+    "options": ["Strongly Agree", "Agree", "Somewhat Agree", "Neutral", "Somewhat Disagree", "Disagree", "Strongly Disagree"]
+  },
+  {
+    "question": "I don't mind getting into arguments and conflicts with others",
+    "options": ["Strongly Agree", "Agree", "Somewhat Agree", "Neutral", "Somewhat Disagree", "Disagree", "Strongly Disagree"]
+  },
+  {
+    "question": "I often feel envious of others and believe they feel the same about me",
+    "options": ["Strongly Agree", "Agree", "Somewhat Agree", "Neutral", "Somewhat Disagree", "Disagree", "Strongly Disagree"]
+  },
+  {
+    "question": "I struggle to control my anger most of the time",
+    "options": ["Strongly Agree", "Agree", "Somewhat Agree", "Neutral", "Somewhat Disagree", "Disagree", "Strongly Disagree"]
+  },
+  {
+    "question": "I avoid confrontational conversations whenever possible",
+    "options": ["Strongly Agree", "Agree", "Somewhat Agree", "Neutral", "Somewhat Disagree", "Disagree", "Strongly Disagree"]
+  },
+  {
+    "question": "I believe ordinary events often have special meanings meant for me",
+    "options": ["Strongly Agree", "Agree", "Somewhat Agree", "Neutral", "Somewhat Disagree", "Disagree", "Strongly Disagree"]
+  },
+  {
+    "question": "Others describe my beliefs as unusual or preoccupied with supernatural",
+    "options": ["Strongly Agree", "Agree", "Somewhat Agree", "Neutral", "Somewhat Disagree", "Disagree", "Strongly Disagree"]
+  },
+  {
+    "question": "I express my emotions dramatically regardless of the situation",
+    "options": ["Strongly Agree", "Agree", "Somewhat Agree", "Neutral", "Somewhat Disagree", "Disagree", "Strongly Disagree"]
+  },
+  {
+    "question": "I'm easily influenced by other people's opinions",
+    "options": ["Strongly Agree", "Agree", "Somewhat Agree", "Neutral", "Somewhat Disagree", "Disagree", "Strongly Disagree"]
+  },
+  {
+    "question": "I don't care much about social norms and others see me as eccentric",
+    "options": ["Strongly Agree", "Agree", "Somewhat Agree", "Neutral", "Somewhat Disagree", "Disagree", "Strongly Disagree"]
+  },
+  {
+    "question": "I enjoy criticizing others when given the opportunity",
+    "options": ["Strongly Agree", "Agree", "Somewhat Agree", "Neutral", "Somewhat Disagree", "Disagree", "Strongly Disagree"]
+  },
+  {
+    "question": "I have a very high opinion of myself",
+    "options": ["Strongly Agree", "Agree", "Somewhat Agree", "Neutral", "Somewhat Disagree", "Disagree", "Strongly Disagree"]
+  },
+  {
+    "question": "I know how to capture people's attention effectively",
+    "options": ["Strongly Agree", "Agree", "Somewhat Agree", "Neutral", "Somewhat Disagree", "Disagree", "Strongly Disagree"]
+  },
+  {
+    "question": "I prefer spending most of my time at home",
+    "options": ["Strongly Agree", "Agree", "Somewhat Agree", "Neutral", "Somewhat Disagree", "Disagree", "Strongly Disagree"]
+  },
+  {
+    "question": "I like to have specific plans when going out",
+    "options": ["Strongly Agree", "Agree", "Somewhat Agree", "Neutral", "Somewhat Disagree", "Disagree", "Strongly Disagree"]
+  },
+  {
+    "question": "I avoid public speaking whenever possible",
+    "options": ["Strongly Agree", "Agree", "Somewhat Agree", "Neutral", "Somewhat Disagree", "Disagree", "Strongly Disagree"]
+  },
+  {
+    "question": "I work better in groups than alone",
+    "options": ["Strongly Agree", "Agree", "Somewhat Agree", "Neutral", "Somewhat Disagree", "Disagree", "Strongly Disagree"]
+  },
+  {
+    "question": "I prefer working with objects rather than dealing with people's problems",
+    "options": ["Strongly Agree", "Agree", "Somewhat Agree", "Neutral", "Somewhat Disagree", "Disagree", "Strongly Disagree"]
+  },
+  {
+    "question": "I prefer tests with open-ended questions over multiple choice",
+    "options": ["Strongly Agree", "Agree", "Somewhat Agree", "Neutral", "Somewhat Disagree", "Disagree", "Strongly Disagree"]
+  },
+  {
+    "question": "I prioritize logical thinking in my decision-making",
+    "options": ["Strongly Agree", "Agree", "Somewhat Agree", "Neutral", "Somewhat Disagree", "Disagree", "Strongly Disagree"]
+  },
+  {
+    "question": "I enjoy improvising rather than following strict plans",
+    "options": ["Strongly Agree", "Agree", "Somewhat Agree", "Neutral", "Somewhat Disagree", "Disagree", "Strongly Disagree"]
+  },
+  {
+    "question": "I believe morality should be based on fairness and justice",
+    "options": ["Strongly Agree", "Agree", "Somewhat Agree", "Neutral", "Somewhat Disagree", "Disagree", "Strongly Disagree"]
+  },
+  {
+    "question": "I prefer relying on my memory rather than written notes",
+    "options": ["Strongly Agree", "Agree", "Somewhat Agree", "Neutral", "Somewhat Disagree", "Disagree", "Strongly Disagree"]
+  },
+  {
+    "question": "I generally accept things as they are without questioning",
+    "options": ["Strongly Agree", "Agree", "Somewhat Agree", "Neutral", "Somewhat Disagree", "Disagree", "Strongly Disagree"]
+  },
+  {
+    "question": "I tend to put off tasks until the last minute",
+    "options": ["Strongly Agree", "Agree", "Somewhat Agree", "Neutral", "Somewhat Disagree", "Disagree", "Strongly Disagree"]
+  },
+  {
+    "question": "I feel uncomfortable with strong emotional expressions",
+    "options": ["Strongly Agree", "Agree", "Somewhat Agree", "Neutral", "Somewhat Disagree", "Disagree", "Strongly Disagree"]
+  },
+  {
+    "question": "I get bored when I'm by myself for too long",
+    "options": ["Strongly Agree", "Agree", "Somewhat Agree", "Neutral", "Somewhat Disagree", "Disagree", "Strongly Disagree"]
+  },
+  {
+    "question": "I tend to talk more than I listen in conversations",
+    "options": ["Strongly Agree", "Agree", "Somewhat Agree", "Neutral", "Somewhat Disagree", "Disagree", "Strongly Disagree"]
+  },
+  {
+    "question": "I make decisions based on logic rather than emotions",
+    "options": ["Strongly Agree", "Agree", "Somewhat Agree", "Neutral", "Somewhat Disagree", "Disagree", "Strongly Disagree"]
+  },
+  {
+    "question": "I enjoy dedicating myself completely to my work",
+    "options": ["Strongly Agree", "Agree", "Somewhat Agree", "Neutral", "Somewhat Disagree", "Disagree", "Strongly Disagree"]
+  },
+  {
+    "question": "I prefer concrete facts over theoretical concepts",
+    "options": ["Strongly Agree", "Agree", "Somewhat Agree", "Neutral", "Somewhat Disagree", "Disagree", "Strongly Disagree"]
+  },
+  {
+    "question": "I consider myself emotionally resilient",
+    "options": ["Strongly Agree", "Agree", "Somewhat Agree", "Neutral", "Somewhat Disagree", "Disagree", "Strongly Disagree"]
+  },
+  {
+    "question": "My life often feels chaotic and disorganized",
+    "options": ["Strongly Agree", "Agree", "Somewhat Agree", "Neutral", "Somewhat Disagree", "Disagree", "Strongly Disagree"]
+  },
+  {
+    "question": "I need to feel loved by others to be happy",
+    "options": ["Strongly Agree", "Agree", "Somewhat Agree", "Neutral", "Somewhat Disagree", "Disagree", "Strongly Disagree"]
+  },
+  {
+    "question": "I find it difficult to raise my voice at people",
+    "options": ["Strongly Agree", "Agree", "Somewhat Agree", "Neutral", "Somewhat Disagree", "Disagree", "Strongly Disagree"]
+  },
+  {
+    "question": "I often make plans at the last moment",
+    "options": ["Strongly Agree", "Agree", "Somewhat Agree", "Neutral", "Somewhat Disagree", "Disagree", "Strongly Disagree"]
+  },
+  {
+    "question": "I'm more energetic than relaxed in my approach to life",
+    "options": ["Strongly Agree", "Agree", "Somewhat Agree", "Neutral", "Somewhat Disagree", "Disagree", "Strongly Disagree"]
+  },
+  {
+    "question": "I prefer sharing personal interpretations rather than factual descriptions",
+    "options": ["Strongly Agree", "Agree", "Somewhat Agree", "Neutral", "Somewhat Disagree", "Disagree", "Strongly Disagree"]
+  },
+  {
+    "question": "I keep my living space tidy and organized",
+    "options": ["Strongly Agree", "Agree", "Somewhat Agree", "Neutral", "Somewhat Disagree", "Disagree", "Strongly Disagree"]
+  },
+  {
+    "question": "Social gatherings exhaust me quickly",
+    "options": ["Strongly Agree", "Agree", "Somewhat Agree", "Neutral", "Somewhat Disagree", "Disagree", "Strongly Disagree"]
+  },
+  {
+    "question": "I tend to believe what people tell me without suspicion",
+    "options": ["Strongly Agree", "Agree", "Somewhat Agree", "Neutral", "Somewhat Disagree", "Disagree", "Strongly Disagree"]
+  },
+  {
+    "question": "I'm curious about understanding the reasons behind things",
+    "options": ["Strongly Agree", "Agree", "Somewhat Agree", "Neutral", "Somewhat Disagree", "Disagree", "Strongly Disagree"]
+  },
+  {
+    "question": "I prefer keeping my options open rather than committing early",
+    "options": ["Strongly Agree", "Agree", "Somewhat Agree", "Neutral", "Somewhat Disagree", "Disagree", "Strongly Disagree"]
+  },
+  {
+    "question": "I enjoy performing in front of an audience",
+    "options": ["Strongly Agree", "Agree", "Somewhat Agree", "Neutral", "Somewhat Disagree", "Disagree", "Strongly Disagree"]
+  },
+  {
+    "question": "I work most effectively when I'm alone",
+    "options": ["Strongly Agree", "Agree", "Somewhat Agree", "Neutral", "Somewhat Disagree", "Disagree", "Strongly Disagree"]
+  },
+  {
+    "question": "I prefer multiple-choice tests over essay exams",
+    "options": ["Strongly Agree", "Agree", "Somewhat Agree", "Neutral", "Somewhat Disagree", "Disagree", "Strongly Disagree"]
+  },
+  {
+    "question": "I think logical thinking is sometimes overemphasized",
+    "options": ["Strongly Agree", "Agree", "Somewhat Agree", "Neutral", "Somewhat Disagree", "Disagree", "Strongly Disagree"]
+  },
+  {
+    "question": "I experience relatively stable emotions without extreme highs and lows",
+    "options": ["Strongly Agree", "Agree", "Somewhat Agree", "Neutral", "Somewhat Disagree", "Disagree", "Strongly Disagree"]
+  },
+  {
+    "question": "I'm hesitant to try unfamiliar foods",
+    "options": ["Strongly Agree", "Agree", "Somewhat Agree", "Neutral", "Somewhat Disagree", "Disagree", "Strongly Disagree"]
+  },
+  {
+    "question": "I have little interest in abstract theoretical discussions",
+    "options": ["Strongly Agree", "Agree", "Somewhat Agree", "Neutral", "Somewhat Disagree", "Disagree", "Strongly Disagree"]
+  },
+  {
+    "question": "I believe we should have strict punishment for criminal behavior",
+    "options": ["Strongly Agree", "Agree", "Somewhat Agree", "Neutral", "Somewhat Disagree", "Disagree", "Strongly Disagree"]
+  },
+  {
+    "question": "I'm generally suspicious of people's intentions",
+    "options": ["Strongly Agree", "Agree", "Somewhat Agree", "Neutral", "Somewhat Disagree", "Disagree", "Strongly Disagree"]
+  },
+  {
+    "question": "I make decisions quickly without overthinking",
+    "options": ["Strongly Agree", "Agree", "Somewhat Agree", "Neutral", "Somewhat Disagree", "Disagree", "Strongly Disagree"]
+  },
+  {
+    "question": "Fear of rejection prevents me from pursuing certain opportunities",
+    "options": ["Strongly Agree", "Agree", "Somewhat Agree", "Neutral", "Somewhat Disagree", "Disagree", "Strongly Disagree"]
+  },
+  {
+    "question": "My romantic relationships are characterized by intense emotions",
+    "options": ["Strongly Agree", "Agree", "Somewhat Agree", "Neutral", "Somewhat Disagree", "Disagree", "Strongly Disagree"]
+  },
+  {
+    "question": "I feel uncomfortable in positions that require constant social engagement",
+    "options": ["Strongly Agree", "Agree", "Somewhat Agree", "Neutral", "Somewhat Disagree", "Disagree", "Strongly Disagree"]
+  },
+  {
+    "question": "I find satisfaction in spending time by myself",
+    "options": ["Strongly Agree", "Agree", "Somewhat Agree", "Neutral", "Somewhat Disagree", "Disagree", "Strongly Disagree"]
+  },
+  {
+    "question": "I'm cautious about forming new relationships",
+    "options": ["Strongly Agree", "Agree", "Somewhat Agree", "Neutral", "Somewhat Disagree", "Disagree", "Strongly Disagree"]
+  },
+  {
+    "question": "I often doubt my partner's loyalty without clear reasons",
+    "options": ["Strongly Agree", "Agree", "Somewhat Agree", "Neutral", "Somewhat Disagree", "Disagree", "Strongly Disagree"]
+  },
+  {
+    "question": "The prospect of independence frightens me",
+    "options": ["Strongly Agree", "Agree", "Somewhat Agree", "Neutral", "Somewhat Disagree", "Disagree", "Strongly Disagree"]
+  },
+  {
+    "question": "I struggle to empathize with others' emotional experiences",
+    "options": ["Strongly Agree", "Agree", "Somewhat Agree", "Neutral", "Somewhat Disagree", "Disagree", "Strongly Disagree"]
+  },
+  {
+    "question": "I don't avoid conflicts and arguments when they arise",
+    "options": ["Strongly Agree", "Agree", "Somewhat Agree", "Neutral", "Somewhat Disagree", "Disagree", "Strongly Disagree"]
+  },
+  {
+    "question": "I frequently compare myself to others and feel envious",
+    "options": ["Strongly Agree", "Agree", "Somewhat Agree", "Neutral", "Somewhat Disagree", "Disagree", "Strongly Disagree"]
+  },
+  {
+    "question": "My anger often feels overwhelming and hard to manage",
+    "options": ["Strongly Agree", "Agree", "Somewhat Agree", "Neutral", "Somewhat Disagree", "Disagree", "Strongly Disagree"]
+  },
+  {
+    "question": "I prefer to avoid difficult conversations",
+    "options": ["Strongly Agree", "Agree", "Somewhat Agree", "Neutral", "Somewhat Disagree", "Disagree", "Strongly Disagree"]
+  },
+  {
+    "question": "I find hidden meanings in everyday occurrences",
+    "options": ["Strongly Agree", "Agree", "Somewhat Agree", "Neutral", "Somewhat Disagree", "Disagree", "Strongly Disagree"]
+  },
+  {
+    "question": "People consider my interest in supernatural phenomena unusual",
+    "options": ["Strongly Agree", "Agree", "Somewhat Agree", "Neutral", "Somewhat Disagree", "Disagree", "Strongly Disagree"]
+  },
+  {
+    "question": "I express my feelings in an exaggerated manner",
+    "options": ["Strongly Agree", "Agree", "Somewhat Agree", "Neutral", "Somewhat Disagree", "Disagree", "Strongly Disagree"]
+  },
+  {
+    "question": "I'm susceptible to being swayed by others' viewpoints",
+    "options": ["Strongly Agree", "Agree", "Somewhat Agree", "Neutral", "Somewhat Disagree", "Disagree", "Strongly Disagree"]
+  },
+  {
+    "question": "Social conventions don't interest me and I'm seen as different",
+    "options": ["Strongly Agree", "Agree", "Somewhat Agree", "Neutral", "Somewhat Disagree", "Disagree", "Strongly Disagree"]
+  },
+  {
+    "question": "I take pleasure in pointing out others' flaws",
+    "options": ["Strongly Agree", "Agree", "Somewhat Agree", "Neutral", "Somewhat Disagree", "Disagree", "Strongly Disagree"]
+  },
+  {
+    "question": "I have an inflated sense of self-importance",
+    "options": ["Strongly Agree", "Agree", "Somewhat Agree", "Neutral", "Somewhat Disagree", "Disagree", "Strongly Disagree"]
+  },
+  {
+    "question": "I'm skilled at drawing attention to myself",
+    "options": ["Strongly Agree", "Agree", "Somewhat Agree", "Neutral", "Somewhat Disagree", "Disagree", "Strongly Disagree"]
+  },
+  {
+    "question": "I'd rather stay home than go out socializing",
+    "options": ["Strongly Agree", "Agree", "Somewhat Agree", "Neutral", "Somewhat Disagree", "Disagree", "Strongly Disagree"]
+  },
+  {
+    "question": "I feel more comfortable with detailed plans for outings",
+    "options": ["Strongly Agree", "Agree", "Somewhat Agree", "Neutral", "Somewhat Disagree", "Disagree", "Strongly Disagree"]
+  },
+  {
+    "question": "I try to avoid situations that require speaking to large groups",
+    "options": ["Strongly Agree", "Agree", "Somewhat Agree", "Neutral", "Somewhat Disagree", "Disagree", "Strongly Disagree"]
+  },
+  {
+    "question": "I'm more productive when collaborating with others",
+    "options": ["Strongly Agree", "Agree", "Somewhat Agree", "Neutral", "Somewhat Disagree", "Disagree", "Strongly Disagree"]
+  },
+  {
+    "question": "I prefer technical tasks over interpersonal ones",
+    "options": ["Strongly Agree", "Agree", "Somewhat Agree", "Neutral", "Somewhat Disagree", "Disagree", "Strongly Disagree"]
+  },
+  {
+    "question": "I enjoy writing essays more than taking objective tests",
+    "options": ["Strongly Agree", "Agree", "Somewhat Agree", "Neutral", "Somewhat Disagree", "Disagree", "Strongly Disagree"]
+  },
+  {
+    "question": "Rational analysis guides my choices more than feelings",
+    "options": ["Strongly Agree", "Agree", "Somewhat Agree", "Neutral", "Somewhat Disagree", "Disagree", "Strongly Disagree"]
+  },
+  {
+    "question": "I prefer going with the flow rather than sticking to schedules",
+    "options": ["Strongly Agree", "Agree", "Somewhat Agree", "Neutral", "Somewhat Disagree", "Disagree", "Strongly Disagree"]
+  },
+  {
+    "question": "Fairness is the most important principle in ethical decisions",
+    "options": ["Strongly Agree", "Agree", "Somewhat Agree", "Neutral", "Somewhat Disagree", "Disagree", "Strongly Disagree"]
+  },
+  {
+    "question": "I trust my memory more than external records",
+    "options": ["Strongly Agree", "Agree", "Somewhat Agree", "Neutral", "Somewhat Disagree", "Disagree", "Strongly Disagree"]
+  },
+  {
+    "question": "I rarely challenge the way things are",
+    "options": ["Strongly Agree", "Agree", "Somewhat Agree", "Neutral", "Somewhat Disagree", "Disagree", "Strongly Disagree"]
+  },
+  {
+    "question": "I frequently delay starting tasks",
+    "options": ["Strongly Agree", "Agree", "Somewhat Agree", "Neutral", "Somewhat Disagree", "Disagree", "Strongly Disagree"]
+  },
+  {
+    "question": "Strong emotions make me uncomfortable",
+    "options": ["Strongly Agree", "Agree", "Somewhat Agree", "Neutral", "Somewhat Disagree", "Disagree", "Strongly Disagree"]
+  },
+  {
+    "question": "I dislike spending extended periods alone",
+    "options": ["Strongly Agree", "Agree", "Somewhat Agree", "Neutral", "Somewhat Disagree", "Disagree", "Strongly Disagree"]
+  },
+  {
+    "question": "In conversations, I usually dominate the talking",
+    "options": ["Strongly Agree", "Agree", "Somewhat Agree", "Neutral", "Somewhat Disagree", "Disagree", "Strongly Disagree"]
+  },
+    {
+    "question": "I prioritize rational thinking over emotional considerations",
+    "options": ["Strongly Agree", "Agree", "Somewhat Agree", "Neutral", "Somewhat Disagree", "Disagree", "Strongly Disagree"]
+  },
+  {
+    "question": "I find great satisfaction in immersing myself in work",
+    "options": ["Strongly Agree", "Agree", "Somewhat Agree", "Neutral", "Somewhat Disagree", "Disagree", "Strongly Disagree"]
+  },
+  {
+    "question": "I value practical information over abstract ideas",
+    "options": ["Strongly Agree", "Agree", "Somewhat Agree", "Neutral", "Somewhat Disagree", "Disagree", "Strongly Disagree"]
+  },
+  {
+    "question": "I'm not easily affected by criticism",
+    "options": ["Strongly Agree", "Agree", "Somewhat Agree", "Neutral", "Somewhat Disagree", "Disagree", "Strongly Disagree"]
+  },
+  {
+    "question": "My life tends to be disorderly and unpredictable",
+    "options": ["Strongly Agree", "Agree", "Somewhat Agree", "Neutral", "Somewhat Disagree", "Disagree", "Strongly Disagree"]
+  },
+  {
+    "question": "Feeling loved is essential for my wellbeing",
+    "options": ["Strongly Agree", "Agree", "Somewhat Agree", "Neutral", "Somewhat Disagree", "Disagree", "Strongly Disagree"]
+  },
+  {
+    "question": "I find it challenging to express anger toward others",
+    "options": ["Strongly Agree", "Agree", "Somewhat Agree", "Neutral", "Somewhat Disagree", "Disagree", "Strongly Disagree"]
+  },
+  {
+    "question": "I typically make arrangements at the eleventh hour",
+    "options": ["Strongly Agree", "Agree", "Somewhat Agree", "Neutral", "Somewhat Disagree", "Disagree", "Strongly Disagree"]
+  },
+  {
+    "question": "I approach life with high energy rather than calmness",
+    "options": ["Strongly Agree", "Agree", "Somewhat Agree", "Neutral", "Somewhat Disagree", "Disagree", "Strongly Disagree"]
+  },
+  {
+    "question": "I focus on personal significance rather than objective facts",
+    "options": ["Strongly Agree", "Agree", "Somewhat Agree", "Neutral", "Somewhat Disagree", "Disagree", "Strongly Disagree"]
+  },
+  {
+    "question": "I maintain an orderly and clean environment",
+    "options": ["Strongly Agree", "Agree", "Somewhat Agree", "Neutral", "Somewhat Disagree", "Disagree", "Strongly Disagree"]
+  },
+  {
+    "question": "Parties and social events drain my energy rapidly",
+    "options": ["Strongly Agree", "Agree", "Somewhat Agree", "Neutral", "Somewhat Disagree", "Disagree", "Strongly Disagree"]
+  },
+  {
+    "question": "I generally take people at their word without doubting",
+    "options": ["Strongly Agree", "Agree", "Somewhat Agree", "Neutral", "Somewhat Disagree", "Disagree", "Strongly Disagree"]
+  },
+  {
+    "question": "I'm driven to understand the underlying causes of phenomena",
+    "options": ["Strongly Agree", "Agree", "Somewhat Agree", "Neutral", "Somewhat Disagree", "Disagree", "Strongly Disagree"]
+  },
+  {
+    "question": "I like maintaining flexibility rather than making firm commitments",
+    "options": ["Strongly Agree", "Agree", "Somewhat Agree", "Neutral", "Somewhat Disagree", "Disagree", "Strongly Disagree"]
+  },
+  {
+    "question": "I feel comfortable being the center of attention",
+    "options": ["Strongly Agree", "Agree", "Somewhat Agree", "Neutral", "Somewhat Disagree", "Disagree", "Strongly Disagree"]
+  },
+  {
+    "question": "I accomplish my best work in solitude",
+    "options": ["Strongly Agree", "Agree", "Somewhat Agree", "Neutral", "Somewhat Disagree", "Disagree", "Strongly Disagree"]
+  },
+  {
+    "question": "I prefer objective tests with clear right and wrong answers",
+    "options": ["Strongly Agree", "Agree", "Somewhat Agree", "Neutral", "Somewhat Disagree", "Disagree", "Strongly Disagree"]
+  },
+  {
+    "question": "I believe rationality is sometimes given too much importance",
+    "options": ["Strongly Agree", "Agree", "Somewhat Agree", "Neutral", "Somewhat Disagree", "Disagree", "Strongly Disagree"]
+  },
+  {
+    "question": "My emotional state remains fairly consistent",
+    "options": ["Strongly Agree", "Agree", "Somewhat Agree", "Neutral", "Somewhat Disagree", "Disagree", "Strongly Disagree"]
+  },
+  {
+    "question": "I'm reluctant to experiment with new cuisines",
+    "options": ["Strongly Agree", "Agree", "Somewhat Agree", "Neutral", "Somewhat Disagree", "Disagree", "Strongly Disagree"]
+  },
+  {
+    "question": "Abstract philosophical debates don't interest me",
+    "options": ["Strongly Agree", "Agree", "Somewhat Agree", "Neutral", "Somewhat Disagree", "Disagree", "Strongly Disagree"]
+  },
+  {
+    "question": "I support harsh penalties for lawbreakers",
+    "options": ["Strongly Agree", "Agree", "Somewhat Agree", "Neutral", "Somewhat Disagree", "Disagree", "Strongly Disagree"]
+  },
+  {
+    "question": "I tend to be wary of strangers' motives",
+    "options": ["Strongly Agree", "Agree", "Somewhat Agree", "Neutral", "Somewhat Disagree", "Disagree", "Strongly Disagree"]
+  },
+  {
+    "question": "I act on impulse rather than careful consideration",
+    "options": ["Strongly Agree", "Agree", "Somewhat Agree", "Neutral", "Somewhat Disagree", "Disagree", "Strongly Disagree"]
+  },
+  {
+    "question": "The possibility of abandonment causes me significant distress",
+    "options": ["Strongly Agree", "Agree", "Somewhat Agree", "Neutral", "Somewhat Disagree", "Disagree", "Strongly Disagree"]
+  },
+  {
+    "question": "My relationships are marked by emotional intensity and instability",
+    "options": ["Strongly Agree", "Agree", "Somewhat Agree", "Neutral", "Somewhat Disagree", "Disagree", "Strongly Disagree"]
+  },
+  {
+    "question": "I shy away from careers involving extensive people interaction",
+    "options": ["Strongly Agree", "Agree", "Somewhat Agree", "Neutral", "Somewhat Disagree", "Disagree", "Strongly Disagree"]
+  },
+  {
+    "question": "I derive pleasure from solitary pursuits",
+    "options": ["Strongly Agree", "Agree", "Somewhat Agree", "Neutral", "Somewhat Disagree", "Disagree", "Strongly Disagree"]
+  },
+  {
+    "question": "I'm reluctant to engage unless assured of acceptance",
+    "options": ["Strongly Agree", "Agree", "Somewhat Agree", "Neutral", "Somewhat Disagree", "Disagree", "Strongly Disagree"]
+  },
+  {
+    "question": "I frequently question my partner's faithfulness",
+    "options": ["Strongly Agree", "Agree", "Somewhat Agree", "Neutral", "Somewhat Disagree", "Disagree", "Strongly Disagree"]
+  },
+  {
+    "question": "The thought of self-reliance makes me anxious",
+    "options": ["Strongly Agree", "Agree", "Somewhat Agree", "Neutral", "Somewhat Disagree", "Disagree", "Strongly Disagree"]
+  },
+  {
+    "question": "I have difficulty recognizing and responding to others' emotions",
+    "options": ["Strongly Agree", "Agree", "Somewhat Agree", "Neutral", "Somewhat Disagree", "Disagree", "Strongly Disagree"]
+  },
+  {
+    "question": "I don't shy away from verbal confrontations",
+    "options": ["Strongly Agree", "Agree", "Somewhat Agree", "Neutral", "Somewhat Disagree", "Disagree", "Strongly Disagree"]
+  },
+  {
+    "question": "I often feel jealous of others' achievements",
+    "options": ["Strongly Agree", "Agree", "Somewhat Agree", "Neutral", "Somewhat Disagree", "Disagree", "Strongly Disagree"]
+  },
+  {
+    "question": "My temper is difficult to control",
+    "options": ["Strongly Agree", "Agree", "Somewhat Agree", "Neutral", "Somewhat Disagree", "Disagree", "Strongly Disagree"]
+  },
+  {
+    "question": "I avoid difficult discussions whenever possible",
+    "options": ["Strongly Agree", "Agree", "Somewhat Agree", "Neutral", "Somewhat Disagree", "Disagree", "Strongly Disagree"]
+  },
+  {
+    "question": "I perceive special significance in random events",
+    "options": ["Strongly Agree", "Agree", "Somewhat Agree", "Neutral", "Somewhat Disagree", "Disagree", "Strongly Disagree"]
+  },
+  {
+    "question": "Others find my fascination with the paranormal strange",
+    "options": ["Strongly Agree", "Agree", "Somewhat Agree", "Neutral", "Somewhat Disagree", "Disagree", "Strongly Disagree"]
+  },
+  {
+    "question": "I display emotions in an theatrical way",
+    "options": ["Strongly Agree", "Agree", "Somewhat Agree", "Neutral", "Somewhat Disagree", "Disagree", "Strongly Disagree"]
+  },
+  {
+    "question": "I'm easily persuaded by others' arguments",
+    "options": ["Strongly Agree", "Agree", "Somewhat Agree", "Neutral", "Somewhat Disagree", "Disagree", "Strongly Disagree"]
+  },
+  {
+    "question": "Social expectations don't concern me and I'm viewed as odd",
+    "options": ["Strongly Agree", "Agree", "Somewhat Agree", "Neutral", "Somewhat Disagree", "Disagree", "Strongly Disagree"]
+  },
+  {
+    "question": "I enjoy finding fault in others",
+    "options": ["Strongly Agree", "Agree", "Somewhat Agree", "Neutral", "Somewhat Disagree", "Disagree", "Strongly Disagree"]
+  },
+  {
+    "question": "I have an exaggerated sense of my own worth",
+    "options": ["Strongly Agree", "Agree", "Somewhat Agree", "Neutral", "Somewhat Disagree", "Disagree", "Strongly Disagree"]
+  },
+  {
+    "question": "I'm good at making myself the focus of attention",
+    "options": ["Strongly Agree", "Agree", "Somewhat Agree", "Neutral", "Somewhat Disagree", "Disagree", "Strongly Disagree"]
+  },
+  {
+    "question": "I prefer home life over going out",
+    "options": ["Strongly Agree", "Agree", "Somewhat Agree", "Neutral", "Somewhat Disagree", "Disagree", "Strongly Disagree"]
+  },
+  {
+    "question": "I like having structured plans for social activities",
+    "options": ["Strongly Agree", "Agree", "Somewhat Agree", "Neutral", "Somewhat Disagree", "Disagree", "Strongly Disagree"]
+  },
+  {
+    "question": "I avoid opportunities that require addressing crowds",
+    "options": ["Strongly Agree", "Agree", "Somewhat Agree", "Neutral", "Somewhat Disagree", "Disagree", "Strongly Disagree"]
+  },
+  {
+    "question": "I achieve better results when working in teams",
+    "options": ["Strongly Agree", "Agree", "Somewhat Agree", "Neutral", "Somewhat Disagree", "Disagree", "Strongly Disagree"]
+  },
+  {
+    "question": "I prefer mechanical tasks over people-oriented work",
+    "options": ["Strongly Agree", "Agree", "Somewhat Agree", "Neutral", "Somewhat Disagree", "Disagree", "Strongly Disagree"]
+  },
+  {
+    "question": "I enjoy subjective tests that allow personal expression",
+    "options": ["Strongly Agree", "Agree", "Somewhat Agree", "Neutral", "Somewhat Disagree", "Disagree", "Strongly Disagree"]
+  },
+  {
+    "question": "I base decisions on analytical reasoning",
+    "options": ["Strongly Agree", "Agree", "Somewhat Agree", "Neutral", "Somewhat Disagree", "Disagree", "Strongly Disagree"]
+  },
+  {
+    "question": "I prefer adapting spontaneously to circumstances",
+    "options": ["Strongly Agree", "Agree", "Somewhat Agree", "Neutral", "Somewhat Disagree", "Disagree", "Strongly Disagree"]
+  },
+  {
+    "question": "Justice is the foundation of my moral compass",
+    "options": ["Strongly Agree", "Agree", "Somewhat Agree", "Neutral", "Somewhat Disagree", "Disagree", "Strongly Disagree"]
+  },
+  {
+    "question": "I rely on my memory rather than written reminders",
+    "options": ["Strongly Agree", "Agree", "Somewhat Agree", "Neutral", "Somewhat Disagree", "Disagree", "Strongly Disagree"]
+  },
+  {
+    "question": "I typically don't question established ways",
+    "options": ["Strongly Agree", "Agree", "Somewhat Agree", "Neutral", "Somewhat Disagree", "Disagree", "Strongly Disagree"]
+  },
+  {
+    "question": "I often postpone tasks until deadlines approach",
+    "options": ["Strongly Agree", "Agree", "Somewhat Agree", "Neutral", "Somewhat Disagree", "Disagree", "Strongly Disagree"]
+  },
+  {
+    "question": "Intense emotional displays make me uneasy",
+    "options": ["Strongly Agree", "Agree", "Somewhat Agree", "Neutral", "Somewhat Disagree", "Disagree", "Strongly Disagree"]
+  },
+  {
+    "question": "I feel restless when spending too much time alone",
+    "options": ["Strongly Agree", "Agree", "Somewhat Agree", "Neutral", "Somewhat Disagree", "Disagree", "Strongly Disagree"]
+  },
+  {
+    "question": "I tend to speak more than I listen during discussions",
+    "options": ["Strongly Agree", "Agree", "Somewhat Agree", "Neutral", "Somewhat Disagree", "Disagree", "Strongly Disagree"]
+  },
+  {
+    "question": "I prioritize logical analysis over emotional responses",
+    "options": ["Strongly Agree", "Agree", "Somewhat Agree", "Neutral", "Somewhat Disagree", "Disagree", "Strongly Disagree"]
+  },
+  {
+    "question": "I find fulfillment in completely dedicating myself to work",
+    "options": ["Strongly Agree", "Agree", "Somewhat Agree", "Neutral", "Somewhat Disagree", "Disagree", "Strongly Disagree"]
+  },
+  {
+    "question": "I prefer tangible data over theoretical speculation",
+    "options": ["Strongly Agree", "Agree", "Somewhat Agree", "Neutral", "Somewhat Disagree", "Disagree", "Strongly Disagree"]
+  },
+  {
+    "question": "Criticism doesn't easily affect me",
+    "options": ["Strongly Agree", "Agree", "Somewhat Agree", "Neutral", "Somewhat Disagree", "Disagree", "Strongly Disagree"]
+  },
+   {
+    "question": "My life often feels unstructured and chaotic",
+    "options": ["Strongly Agree", "Agree", "Somewhat Agree", "Neutral", "Somewhat Disagree", "Disagree", "Strongly Disagree"]
+  },
+  {
+    "question": "Being loved is crucial to my happiness",
+    "options": ["Strongly Agree", "Agree", "Somewhat Agree", "Neutral", "Somewhat Disagree", "Disagree", "Strongly Disagree"]
+  },
+  {
+    "question": "I find it hard to show anger toward others",
+    "options": ["Strongly Agree", "Agree", "Somewhat Agree", "Neutral", "Somewhat Disagree", "Disagree", "Strongly Disagree"]
+  },
+  {
+    "question": "I usually wait until the last minute to make plans",
+    "options": ["Strongly Agree", "Agree", "Somewhat Agree", "Neutral", "Somewhat Disagree", "Disagree", "Strongly Disagree"]
+  },
+  {
+    "question": "I approach life with vigor rather than tranquility",
+    "options": ["Strongly Agree", "Agree", "Somewhat Agree", "Neutral", "Somewhat Disagree", "Disagree", "Strongly Disagree"]
+  },
+  {
+    "question": "I emphasize personal meaning over factual accuracy",
+    "options": ["Strongly Agree", "Agree", "Somewhat Agree", "Neutral", "Somewhat Disagree", "Disagree", "Strongly Disagree"]
+  },
+  {
+    "question": "I keep my surroundings neat and organized",
+    "options": ["Strongly Agree", "Agree", "Somewhat Agree", "Neutral", "Somewhat Disagree", "Disagree", "Strongly Disagree"]
+  },
+  {
+    "question": "Social interactions quickly tire me out",
+    "options": ["Strongly Agree", "Agree", "Somewhat Agree", "Neutral", "Somewhat Disagree", "Disagree", "Strongly Disagree"]
+  },
+  {
+    "question": "I tend to accept what people say without questioning",
+    "options": ["Strongly Agree", "Agree", "Somewhat Agree", "Neutral", "Somewhat Disagree", "Disagree", "Strongly Disagree"]
+  },
+  {
+    "question": "I'm interested in discovering why things happen",
+    "options": ["Strongly Agree", "Agree", "Somewhat Agree", "Neutral", "Somewhat Disagree", "Disagree", "Strongly Disagree"]
+  },
+  {
+    "question": "I prefer maintaining flexibility in my decisions",
+    "options": ["Strongly Agree", "Agree", "Somewhat Agree", "Neutral", "Somewhat Disagree", "Disagree", "Strongly Disagree"]
+  },
+  {
+    "question": "I enjoy being in the spotlight",
+    "options": ["Strongly Agree", "Agree", "Somewhat Agree", "Neutral", "Somewhat Disagree", "Disagree", "Strongly Disagree"]
+  },
+  {
+    "question": "I produce my best work when working independently",
+    "options": ["Strongly Agree", "Agree", "Somewhat Agree", "Neutral", "Somewhat Disagree", "Disagree", "Strongly Disagree"]
+  },
+  {
+    "question": "I prefer exams with definite answers",
+    "options": ["Strongly Agree", "Agree", "Somewhat Agree", "Neutral", "Somewhat Disagree", "Disagree", "Strongly Disagree"]
+  },
+  {
+    "question": "I think logical reasoning is sometimes overvalued",
+    "options": ["Strongly Agree", "Agree", "Somewhat Agree", "Neutral", "Somewhat Disagree", "Disagree", "Strongly Disagree"]
+  },
+  {
+    "question": "My emotions remain relatively stable over time",
+    "options": ["Strongly Agree", "Agree", "Somewhat Agree", "Neutral", "Somewhat Disagree", "Disagree", "Strongly Disagree"]
+  },
+  {
+    "question": "I'm cautious about trying unfamiliar foods",
+    "options": ["Strongly Agree", "Agree", "Somewhat Agree", "Neutral", "Somewhat Disagree", "Disagree", "Strongly Disagree"]
+  },
+  {
+    "question": "Theoretical arguments don't hold much appeal for me",
+    "options": ["Strongly Agree", "Agree", "Somewhat Agree", "Neutral", "Somewhat Disagree", "Disagree", "Strongly Disagree"]
+  },
+  {
+    "question": "I believe in strict consequences for criminal behavior",
+    "options": ["Strongly Agree", "Agree", "Somewhat Agree", "Neutral", "Somewhat Disagree", "Disagree", "Strongly Disagree"]
+  },
+  {
+    "question": "I'm generally distrustful of people's intentions",
+    "options": ["Strongly Agree", "Agree", "Somewhat Agree", "Neutral", "Somewhat Disagree", "Disagree", "Strongly Disagree"]
+  }
+]

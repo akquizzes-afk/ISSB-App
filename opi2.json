@@ -1,0 +1,346 @@
+[
+  {
+    "question": "How often do you feel energetic and ready to start your day?",
+    "options": ["Always", "Frequently", "Sometimes", "Rarely", "Never"]
+  },
+  {
+    "question": "Do you enjoy trying new foods and cuisines?",
+    "options": ["Yes, absolutely", "Yes, sometimes", "Neutral", "Not really", "No, not at all"]
+  },
+  {
+    "question": "How comfortable are you with public speaking?",
+    "options": ["Very comfortable", "Comfortable", "Neutral", "Uncomfortable", "Very uncomfortable"]
+  },
+  {
+    "question": "Do you prefer working alone or in a team?",
+    "options": ["Always alone", "Mostly alone", "No preference", "Mostly in team", "Always in team"]
+  },
+  {
+    "question": "How often do you feel stressed or anxious?",
+    "options": ["Very often", "Often", "Occasionally", "Rarely", "Never"]
+  },
+  {
+    "question": "Do you consider yourself an organized person?",
+    "options": ["Yes, extremely", "Yes, somewhat", "Neutral", "Not really", "No, not at all"]
+  },
+  {
+    "question": "How much do you enjoy social gatherings and parties?",
+    "options": ["I love them", "I enjoy them", "Neutral", "I dislike them", "I hate them"]
+  },
+  {
+    "question": "Do you prefer planning things in advance or being spontaneous?",
+    "options": ["Always plan", "Usually plan", "No preference", "Usually spontaneous", "Always spontaneous"]
+  },
+  {
+    "question": "How often do you exercise or engage in physical activity?",
+    "options": ["Daily", "Several times weekly", "Weekly", "Occasionally", "Never"]
+  },
+  {
+    "question": "Do you enjoy reading books in your free time?",
+    "options": ["Yes, very much", "Yes, somewhat", "Neutral", "Not really", "No, not at all"]
+  },
+  {
+    "question": "How comfortable are you with taking risks?",
+    "options": ["Very comfortable", "Comfortable", "Neutral", "Uncomfortable", "Very uncomfortable"]
+  },
+  {
+    "question": "Do you prefer city life or country life?",
+    "options": ["Definitely city", "Prefer city", "No preference", "Prefer country", "Definitely country"]
+  },
+  {
+    "question": "How often do you help others without expecting anything in return?",
+    "options": ["Very often", "Often", "Sometimes", "Rarely", "Never"]
+  },
+  {
+    "question": "Do you enjoy learning new skills?",
+    "options": ["Yes, very much", "Yes, somewhat", "Neutral", "Not really", "No, not at all"]
+  },
+  {
+    "question": "How important is financial stability to you?",
+    "options": ["Extremely important", "Very important", "Moderately important", "Slightly important", "Not important"]
+  },
+  {
+    "question": "Do you prefer mornings or evenings?",
+    "options": ["Definitely mornings", "Prefer mornings", "No preference", "Prefer evenings", "Definitely evenings"]
+  },
+  {
+    "question": "How often do you feel grateful for what you have?",
+    "options": ["Always", "Frequently", "Sometimes", "Rarely", "Never"]
+  },
+  {
+    "question": "Do you enjoy outdoor activities and nature?",
+    "options": ["Yes, very much", "Yes, somewhat", "Neutral", "Not really", "No, not at all"]
+  },
+  {
+    "question": "How comfortable are you with expressing your emotions?",
+    "options": ["Very comfortable", "Comfortable", "Neutral", "Uncomfortable", "Very uncomfortable"]
+  },
+  {
+    "question": "Do you prefer cats or dogs as pets?",
+    "options": ["Definitely cats", "Prefer cats", "No preference", "Prefer dogs", "Definitely dogs"]
+  },
+  {
+    "question": "How often do you try to learn from your mistakes?",
+    "options": ["Always", "Frequently", "Sometimes", "Rarely", "Never"]
+  },
+  {
+    "question": "Do you enjoy cooking for yourself or others?",
+    "options": ["Yes, very much", "Yes, somewhat", "Neutral", "Not really", "No, not at all"]
+  },
+  {
+    "question": "How important is career success to your happiness?",
+    "options": ["Extremely important", "Very important", "Moderately important", "Slightly important", "Not important"]
+  },
+  {
+    "question": "Do you prefer summer or winter season?",
+    "options": ["Definitely summer", "Prefer summer", "No preference", "Prefer winter", "Definitely winter"]
+  },
+  {
+    "question": "How often do you set goals for yourself?",
+    "options": ["Very often", "Often", "Sometimes", "Rarely", "Never"]
+  },
+  {
+    "question": "Do you enjoy watching movies or TV shows?",
+    "options": ["Yes, very much", "Yes, somewhat", "Neutral", "Not really", "No, not at all"]
+  },
+  {
+    "question": "How comfortable are you with technology and gadgets?",
+    "options": ["Very comfortable", "Comfortable", "Neutral", "Uncomfortable", "Very uncomfortable"]
+  },
+  {
+    "question": "Do you prefer sweet or savory foods?",
+    "options": ["Definitely sweet", "Prefer sweet", "No preference", "Prefer savory", "Definitely savory"]
+  },
+  {
+    "question": "How often do you meditate or practice mindfulness?",
+    "options": ["Daily", "Several times weekly", "Weekly", "Occasionally", "Never"]
+  },
+  {
+    "question": "Do you enjoy traveling to new places?",
+    "options": ["Yes, very much", "Yes, somewhat", "Neutral", "Not really", "No, not at all"]
+  },
+  {
+    "question": "How important is family to you?",
+    "options": ["Extremely important", "Very important", "Moderately important", "Slightly important", "Not important"]
+  },
+  {
+    "question": "Do you prefer coffee or tea?",
+    "options": ["Definitely coffee", "Prefer coffee", "No preference", "Prefer tea", "Definitely tea"]
+  },
+  {
+    "question": "How often do you try to improve yourself?",
+    "options": ["Always", "Frequently", "Sometimes", "Rarely", "Never"]
+  },
+  {
+    "question": "Do you enjoy listening to music?",
+    "options": ["Yes, very much", "Yes, somewhat", "Neutral", "Not really", "No, not at all"]
+  },
+  {
+    "question": "How comfortable are you with change and uncertainty?",
+    "options": ["Very comfortable", "Comfortable", "Neutral", "Uncomfortable", "Very uncomfortable"]
+  },
+  {
+    "question": "Do you prefer beaches or mountains?",
+    "options": ["Definitely beaches", "Prefer beaches", "No preference", "Prefer mountains", "Definitely mountains"]
+  },
+  {
+    "question": "How often do you volunteer or help in your community?",
+    "options": ["Very often", "Often", "Sometimes", "Rarely", "Never"]
+  },
+  {
+    "question": "Do you enjoy artistic activities like painting or drawing?",
+    "options": ["Yes, very much", "Yes, somewhat", "Neutral", "Not really", "No, not at all"]
+  },
+  {
+    "question": "How important is physical appearance to you?",
+    "options": ["Extremely important", "Very important", "Moderately important", "Slightly important", "Not important"]
+  },
+  {
+    "question": "Do you prefer fiction or non-fiction books?",
+    "options": ["Definitely fiction", "Prefer fiction", "No preference", "Prefer non-fiction", "Definitely non-fiction"]
+  },
+  {
+    "question": "How often do you feel optimistic about the future?",
+    "options": ["Always", "Frequently", "Sometimes", "Rarely", "Never"]
+  },
+  {
+    "question": "Do you enjoy playing sports or physical games?",
+    "options": ["Yes, very much", "Yes, somewhat", "Neutral", "Not really", "No, not at all"]
+  },
+  {
+    "question": "How comfortable are you with public transportation?",
+    "options": ["Very comfortable", "Comfortable", "Neutral", "Uncomfortable", "Very uncomfortable"]
+  },
+  {
+    "question": "Do you prefer action movies or romantic comedies?",
+    "options": ["Definitely action", "Prefer action", "No preference", "Prefer romantic", "Definitely romantic"]
+  },
+  {
+    "question": "How often do you practice gratitude?",
+    "options": ["Daily", "Several times weekly", "Weekly", "Occasionally", "Never"]
+  },
+  {
+    "question": "Do you enjoy solving puzzles or brain teasers?",
+    "options": ["Yes, very much", "Yes, somewhat", "Neutral", "Not really", "No, not at all"]
+  },
+  {
+    "question": "How important is spiritual or religious practice to you?",
+    "options": ["Extremely important", "Very important", "Moderately important", "Slightly important", "Not important"]
+  },
+  {
+    "question": "Do you prefer hot weather or cold weather?",
+    "options": ["Definitely hot", "Prefer hot", "No preference", "Prefer cold", "Definitely cold"]
+  },
+  {
+    "question": "How often do you take initiative in group situations?",
+    "options": ["Always", "Frequently", "Sometimes", "Rarely", "Never"]
+  },
+  {
+    "question": "Do you enjoy gardening or plant care?",
+    "options": ["Yes, very much", "Yes, somewhat", "Neutral", "Not really", "No, not at all"]
+  },
+  {
+    "question": "How comfortable are you with giving presentations?",
+    "options": ["Very comfortable", "Comfortable", "Neutral", "Uncomfortable", "Very uncomfortable"]
+  },
+  {
+    "question": "Do you prefer digital books or physical books?",
+    "options": ["Definitely digital", "Prefer digital", "No preference", "Prefer physical", "Definitely physical"]
+  },
+  {
+    "question": "How often do you feel satisfied with your life?",
+    "options": ["Always", "Frequently", "Sometimes", "Rarely", "Never"]
+  },
+  {
+    "question": "Do you enjoy DIY projects or home improvement?",
+    "options": ["Yes, very much", "Yes, somewhat", "Neutral", "Not really", "No, not at all"]
+  },
+  {
+    "question": "How important is environmental conservation to you?",
+    "options": ["Extremely important", "Very important", "Moderately important", "Slightly important", "Not important"]
+  },
+  {
+    "question": "Do you prefer sunrise or sunset?",
+    "options": ["Definitely sunrise", "Prefer sunrise", "No preference", "Prefer sunset", "Definitely sunset"]
+  },
+  {
+    "question": "How often do you try new hobbies or activities?",
+    "options": ["Very often", "Often", "Sometimes", "Rarely", "Never"]
+  },
+  {
+    "question": "Do you enjoy writing or journaling?",
+    "options": ["Yes, very much", "Yes, somewhat", "Neutral", "Not really", "No, not at all"]
+  },
+  {
+    "question": "How comfortable are you with networking and meeting new people?",
+    "options": ["Very comfortable", "Comfortable", "Neutral", "Uncomfortable", "Very uncomfortable"]
+  },
+  {
+    "question": "Do you prefer modern architecture or historical buildings?",
+    "options": ["Definitely modern", "Prefer modern", "No preference", "Prefer historical", "Definitely historical"]
+  },
+  {
+    "question": "How often do you feel motivated to exercise?",
+    "options": ["Always", "Frequently", "Sometimes", "Rarely", "Never"]
+  },
+  {
+    "question": "Do you enjoy photography?",
+    "options": ["Yes, very much", "Yes, somewhat", "Neutral", "Not really", "No, not at all"]
+  },
+  {
+    "question": "How important is personal growth to you?",
+    "options": ["Extremely important", "Very important", "Moderately important", "Slightly important", "Not important"]
+  },
+  {
+    "question": "Do you prefer rainy days or sunny days?",
+    "options": ["Definitely rainy", "Prefer rainy", "No preference", "Prefer sunny", "Definitely sunny"]
+  },
+  {
+    "question": "How often do you reflect on your personal values?",
+    "options": ["Very often", "Often", "Sometimes", "Rarely", "Never"]
+  },
+  {
+    "question": "Do you enjoy dancing?",
+    "options": ["Yes, very much", "Yes, somewhat", "Neutral", "Not really", "No, not at all"]
+  },
+  {
+    "question": "How comfortable are you with financial planning?",
+    "options": ["Very comfortable", "Comfortable", "Neutral", "Uncomfortable", "Very uncomfortable"]
+  },
+  {
+    "question": "Do you prefer comedy shows or drama series?",
+    "options": ["Definitely comedy", "Prefer comedy", "No preference", "Prefer drama", "Definitely drama"]
+  },
+  {
+    "question": "How often do you feel creative and inspired?",
+    "options": ["Always", "Frequently", "Sometimes", "Rarely", "Never"]
+  },
+  {
+    "question": "Do you enjoy stargazing or astronomy?",
+    "options": ["Yes, very much", "Yes, somewhat", "Neutral", "Not really", "No, not at all"]
+  },
+  {
+    "question": "How important is work-life balance to you?",
+    "options": ["Extremely important", "Very important", "Moderately important", "Slightly important", "Not important"]
+  },
+  {
+    "question": "Do you prefer city parks or wilderness areas?",
+    "options": ["Definitely city parks", "Prefer city parks", "No preference", "Prefer wilderness", "Definitely wilderness"]
+  },
+  {
+    "question": "How often do you practice self-care activities?",
+    "options": ["Daily", "Several times weekly", "Weekly", "Occasionally", "Never"]
+  },
+  {
+    "question": "Do you enjoy board games or card games?",
+    "options": ["Yes, very much", "Yes, somewhat", "Neutral", "Not really", "No, not at all"]
+  },
+  {
+    "question": "How comfortable are you with public performances?",
+    "options": ["Very comfortable", "Comfortable", "Neutral", "Uncomfortable", "Very uncomfortable"]
+  },
+  {
+    "question": "Do you prefer texting or phone calls?",
+    "options": ["Definitely texting", "Prefer texting", "No preference", "Prefer calls", "Definitely calls"]
+  },
+  {
+    "question": "How often do you feel proud of your accomplishments?",
+    "options": ["Always", "Frequently", "Sometimes", "Rarely", "Never"]
+  },
+  {
+    "question": "Do you enjoy learning about different cultures?",
+    "options": ["Yes, very much", "Yes, somewhat", "Neutral", "Not really", "No, not at all"]
+  },
+  {
+    "question": "How important is maintaining old friendships to you?",
+    "options": ["Extremely important", "Very important", "Moderately important", "Slightly important", "Not important"]
+  },
+  {
+    "question": "Do you prefer cooking at home or eating out?",
+    "options": ["Definitely home cooking", "Prefer home cooking", "No preference", "Prefer eating out", "Definitely eating out"]
+  },
+  {
+    "question": "How often do you feel content with your current situation?",
+    "options": ["Always", "Frequently", "Sometimes", "Rarely", "Never"]
+  },
+  {
+    "question": "Do you enjoy watching documentaries?",
+    "options": ["Yes, very much", "Yes, somewhat", "Neutral", "Not really", "No, not at all"]
+  },
+  {
+    "question": "How comfortable are you with making big life decisions?",
+    "options": ["Very comfortable", "Comfortable", "Neutral", "Uncomfortable", "Very uncomfortable"]
+  },
+  {
+    "question": "Do you prefer listening to podcasts or reading articles?",
+    "options": ["Definitely podcasts", "Prefer podcasts", "No preference", "Prefer articles", "Definitely articles"]
+  },
+  {
+    "question": "How often do you feel excited about learning new things?",
+    "options": ["Always", "Frequently", "Sometimes", "Rarely", "Never"]
+  },
+  {
+    "question": "Do you enjoy mentoring or teaching others?",
+    "options": ["Yes, very much", "Yes, somewhat", "Neutral", "Not really", "No, not at all"]
+  }
+]
