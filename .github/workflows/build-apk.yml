@@ -31,6 +31,7 @@ jobs:
       run: |
         mkdir -p www
         mv *.html www/
+        mv *.json www/
         mv js www/
         mv ghani.png www/
 
