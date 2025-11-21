@@ -78,7 +78,7 @@ jobs:
         cp home-screen.png assets/splash.png
         npx capacitor-assets generate --android
         npx cap sync android
-z 
+        
     - name: Build Debug APK
       run: |
         cd android
