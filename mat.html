@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>OPI Test - Psychological Assessment</title>
+    <title>MAT Test - Mental Ability Assessment</title>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
     <script src="https://cdn.jsdelivr.net/npm/canvas-confetti@1.5.1/dist/confetti.browser.min.js"></script>
 <style>
@@ -19,6 +19,8 @@
             --secondary: #0f2e1f;
             --accent: #10b981;
             --accent-dark: #059669;
+            --success: #10b981;
+            --error: #ef4444;
             --text: #e2e8f0;
             --text-light: #94a3b8;
             --card-bg: #152635;
@@ -45,7 +47,7 @@
             display: flex;
             align-items: center;
             justify-content: space-between;
-            border-bottom: 1px solid rgba(16, 185, 129, 0.2);
+            border-bottom: 1px solid rgba(59, 130, 246, 0.2);
             z-index: 1000;
             box-shadow: 0 4px 20px rgba(0, 0, 0, 0.2);
         }
@@ -64,7 +66,7 @@
             display: flex;
             align-items: center;
             justify-content: center;
-            box-shadow: 0 4px 12px rgba(16, 185, 129, 0.3);
+            box-shadow: 0 4px 12px rgba(59, 130, 246, 0.3);
         }
         
         .app-icon i {
@@ -85,14 +87,14 @@
             display: flex;
             align-items: center;
             justify-content: center;
-            background: rgba(16, 185, 129, 0.1);
+            background: rgba(59, 130, 246, 0.1);
             color: var(--accent);
             cursor: pointer;
             transition: all 0.3s ease;
         }
         
         .settings-icon:hover {
-            background: rgba(16, 185, 129, 0.2);
+            background: rgba(59, 130, 246, 0.2);
             transform: rotate(30deg);
         }
         
@@ -100,7 +102,7 @@
             max-width: 100%;
             margin: 0 auto;
             padding: 20px;
-            padding-top: 30px; /* Space for sticky header */
+            padding-top: 30px;
         }
         
         .card {
@@ -109,7 +111,7 @@
             overflow: hidden;
             box-shadow: 0 6px 18px rgba(0, 0, 0, 0.25);
             transition: all 0.3s ease;
-            border: 1px solid rgba(16, 185, 129, 0.1);
+            border: 1px solid rgba(59, 130, 246, 0.1);
             position: relative;
             max-width: 600px;
             margin: 0 auto 20px;
@@ -128,7 +130,7 @@
         
         .card-header {
             padding: 20px;
-            background: linear-gradient(135deg, rgba(16, 185, 129, 0.15) 0%, rgba(5, 150, 105, 0.1) 100%);
+            background: linear-gradient(135deg, rgba(59, 130, 246, 0.15) 0%, rgba(29, 78, 216, 0.1) 100%);
             color: var(--accent);
             display: flex;
             align-items: center;
@@ -199,27 +201,24 @@
             transition: all 0.3s ease;
             text-align: center;
             width: 100%;
-            box-shadow: 0 4px 12px rgba(16, 185, 129, 0.3);
+            box-shadow: 0 4px 12px rgba(59, 130, 246, 0.3);
         }
         
         .btn:hover {
             transform: translateY(-2px);
-            box-shadow: 0 6px 16px rgba(16, 185, 129, 0.4);
+            box-shadow: 0 6px 16px rgba(59, 130, 246, 0.4);
         }
         
         .btn:active {
             transform: translateY(0);
         }
         
-        /* Test View Styles - MOBILE OPTIMIZED */
+        /* Test View Styles */
         #testView {
             display: none;
         }
         
         .question-display {
-            font-size: 1.1rem;
-            font-weight: 600;
-            color: var(--text);
             margin: 15px 0;
             min-height: 50px;
             display: flex;
@@ -228,6 +227,25 @@
             text-align: center;
             line-height: 1.3;
             padding: 0 5px;
+        }
+        
+        .question-image-container {
+            width: 100%;
+            max-height: 300px;
+            overflow: hidden;
+            border-radius: 10px;
+            margin-bottom: 20px;
+            border: 2px solid rgba(255, 255, 255, 0.1);
+            background: rgba(0, 0, 0, 0.2);
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        }
+        
+        .question-image {
+            max-width: 100%;
+            max-height: 280px;
+            object-fit: contain;
         }
         
         .test-info {
@@ -253,8 +271,15 @@
         
         .completion-icon {
             font-size: 4rem;
-            color: var(--accent);
             margin-bottom: 20px;
+        }
+        
+        .completion-icon.success {
+            color: var(--success);
+        }
+        
+        .completion-icon.fail {
+            color: var(--error);
         }
         
         .completion-title {
@@ -267,7 +292,70 @@
         .completion-subtitle {
             font-size: 1.1rem;
             color: var(--text-light);
-            margin-bottom: 30px;
+            margin-bottom: 15px;
+        }
+        
+        .score-display {
+            font-size: 3rem;
+            font-weight: 800;
+            margin: 20px 0;
+            color: var(--accent);
+        }
+        
+        .score-details {
+            background: rgba(255, 255, 255, 0.05);
+            border-radius: 10px;
+            padding: 15px;
+            margin: 20px 0;
+            text-align: left;
+        }
+        
+        .score-item {
+            display: flex;
+            justify-content: space-between;
+            padding: 8px 0;
+            border-bottom: 1px solid rgba(255, 255, 255, 0.1);
+        }
+        
+        .score-item:last-child {
+            border-bottom: none;
+        }
+        
+        .score-label {
+            color: var(--text-light);
+        }
+        
+        .score-value {
+            font-weight: 600;
+            color: var(--text);
+        }
+        
+        .score-value.correct {
+            color: var(--success);
+        }
+        
+        .score-value.incorrect {
+            color: var(--error);
+        }
+        
+        .result-message {
+            font-size: 1.2rem;
+            font-weight: 600;
+            margin: 20px 0;
+            padding: 12px;
+            border-radius: 8px;
+        }
+        
+        .result-message.pass {
+            background: rgba(16, 185, 129, 0.1);
+            color: var(--success);
+            border: 1px solid rgba(16, 185, 129, 0.3);
+        }
+        
+        .result-message.fail {
+            background: rgba(239, 68, 68, 0.1);
+            color: var(--error);
+            border: 1px solid rgba(239, 68, 68, 0.3);
         }
         
         .action-buttons {
@@ -302,7 +390,7 @@
             transition: width 0.3s ease;
         }
         
-        /* OPI Test Selection Styles */
+        /* MAT Test Selection Styles */
         .test-selection {
             display: grid;
             grid-template-columns: 1fr;
@@ -316,7 +404,7 @@
             overflow: hidden;
             box-shadow: 0 6px 18px rgba(0, 0, 0, 0.25);
             transition: all 0.3s ease;
-            border: 1px solid rgba(16, 185, 129, 0.1);
+            border: 1px solid rgba(59, 130, 246, 0.1);
             position: relative;
         }
         
@@ -333,7 +421,7 @@
         
         .test-card-header {
             padding: 20px;
-            background: linear-gradient(135deg, rgba(16, 185, 129, 0.15) 0%, rgba(5, 150, 105, 0.1) 100%);
+            background: linear-gradient(135deg, rgba(59, 130, 246, 0.15) 0%, rgba(29, 78, 216, 0.1) 100%);
             color: var(--accent);
             display: flex;
             align-items: center;
@@ -355,13 +443,21 @@
         
         .test-details p {
             margin-bottom: 8px;
+            display: flex;
+            align-items: center;
+            gap: 8px;
+        }
+        
+        .test-details i {
+            width: 16px;
+            color: var(--accent);
         }
         
         .test-actions {
             padding: 20px;
         }
         
-        /* Options Styles - MOBILE OPTIMIZED */
+        /* Options Styles */
         .options-container {
             margin: 20px 0;
             max-height: 220px;
@@ -401,7 +497,7 @@
         }
         
         .option-item.selected {
-            background: rgba(16, 185, 129, 0.1);
+            background: rgba(59, 130, 246, 0.1);
             border-color: var(--accent);
         }
         
@@ -435,7 +531,7 @@
             line-height: 1.3;
         }
         
-        /* Navigation Buttons - MOBILE OPTIMIZED */
+        /* Navigation Buttons */
         .navigation-buttons {
             display: flex;
             justify-content: space-between;
@@ -484,7 +580,7 @@
             color: white;
             padding: 12px 20px;
             border-radius: 8px;
-            box-shadow: 0 4px 12px rgba(16, 185, 129, 0.3);
+            box-shadow: 0 4px 12px rgba(59, 130, 246, 0.3);
             z-index: 3000;
             opacity: 0;
             visibility: hidden;
@@ -506,9 +602,9 @@
     <div class="sticky-header">
         <div class="header-left">
             <div class="app-icon">
-                <i class="fas fa-question-circle"></i>
+                <i class="fas fa-brain"></i>
             </div>
-            <div class="header-title">OPI Test</div>
+            <div class="header-title">MAT Test</div>
         </div>
     </div>
 
@@ -518,33 +614,33 @@
             <div class="card">
                 <div class="card-header">
                     <i class="fas fa-info-circle"></i>
-                    <h2>OPI Test Instructions</h2>
+                    <h2>MAT Test Instructions</h2>
                 </div>
                 <div class="card-body">
                     <div class="instructions-list">
                         <div class="instruction-item">
                             <div class="instruction-number">1</div>
-                            <div class="instruction-text">There are two OPI tests available - OPI Test 1 and OPI Test 2.</div>
+                            <div class="instruction-text">There are multiple MAT tests available, starting with MAT Test 1.</div>
                         </div>
                         <div class="instruction-item">
                             <div class="instruction-number">2</div>
-                            <div class="instruction-text">OPI Test 1 contains 150 questions with a time limit of 25 minutes.</div>
+                            <div class="instruction-text">MAT Test 1 contains 50 questions with a time limit of 15 </div>
                         </div>
                         <div class="instruction-item">
                             <div class="instruction-number">3</div>
-                            <div class="instruction-text">OPI Test 2 contains 85 questions with a time limit of 15 minutes.</div>
+                            <div class="instruction-text">Each question will display an image or pattern that you need to analyze.</div>
                         </div>
                         <div class="instruction-item">
                             <div class="instruction-number">4</div>
-                            <div class="instruction-text">For each question, select the option that best represents your opinion.</div>
+                            <div class="instruction-text">Select the correct option from the multiple-choice answers provided.</div>
                         </div>
                         <div class="instruction-item">
                             <div class="instruction-number">5</div>
-                            <div class="instruction-text">There are no right or wrong answers. Be honest with your responses.</div>
+                            <div class="instruction-text">There is only one correct answer for each question.</div>
                         </div>
                         <div class="instruction-item">
                             <div class="instruction-number">6</div>
-                            <div class="instruction-text">You can navigate between questions using the Previous and Next buttons.</div>
+                            <div class="instruction-text">You need to score at least 20 marks (out of 50) to pass the test.</div>
                         </div>
                         <div class="instruction-item">
                             <div class="instruction-number">7</div>
@@ -559,47 +655,50 @@
             </div>
         </div>
 
-        <!-- Test Selection View -->
+    <!-- Test Selection View -->
         <div id="testSelectionView" style="display: none;">
             <div class="card">
                 <div class="card-header">
                     <i class="fas fa-tasks"></i>
-                    <h2>Select OPI Test</h2>
+                    <h2>Select MAT Test</h2>
                 </div>
                 <div class="card-body">
                     <div class="test-selection">
                         <div class="test-card">
                             <div class="test-card-header">
-                                <h3>OPI Test 1</h3>
-                                <span class="timer">25 min</span>
+                                <h3>MAT Test 1</h3>
+                                <span class="timer">15 min</span>
                             </div>
                             <div class="test-details">
-                                <p><i class="fas fa-question-circle"></i> 150 Questions</p>
-                                <p><i class="fas fa-clock"></i> 25 Minutes Time Limit</p>
-                                <p><i class="fas fa-list-ol"></i> 7-Point Response Scale</p>
+                                <p><i class="fas fa-question-circle"></i> 50 Questions</p>
+                                <p><i class="fas fa-clock"></i> 15 Minutes Time Limit</p>
+                                <p><i class="fas fa-brain"></i> Image-based Questions</p>
+                                <p><i class="fas fa-check-circle"></i> Correct/Wrong Answers</p>
+                                <p><i class="fas fa-chart-bar"></i> Passing Score: 20/50</p>
                             </div>
                             <div class="test-actions">
                                 <button id="startTest1" class="btn">
                                     <i class="fas fa-play-circle"></i>
-                                    Start OPI Test 1
+                                    Start MAT Test 1
                                 </button>
                             </div>
                         </div>
                         
-                        <div class="test-card">
+                        <!-- Additional MAT tests can be added here in the future -->
+                        <div class="test-card" style="opacity: 0.7;">
                             <div class="test-card-header">
-                                <h3>OPI Test 2</h3>
-                                <span class="timer">15 min</span>
+                                <h3>MAT Test 2</h3>
+                                <span class="timer">Coming Soon</span>
                             </div>
                             <div class="test-details">
-                                <p><i class="fas fa-question-circle"></i> 85 Questions</p>
-                                <p><i class="fas fa-clock"></i> 15 Minutes Time Limit</p>
-                                <p><i class="fas fa-list-ol"></i> 5-Point Response Scale</p>
+                                <p><i class="fas fa-question-circle"></i> More questions</p>
+                                <p><i class="fas fa-clock"></i> Advanced patterns</p>
+                                <p><i class="fas fa-lock"></i> Available soon</p>
                             </div>
                             <div class="test-actions">
-                                <button id="startTest2" class="btn">
-                                    <i class="fas fa-play-circle"></i>
-                                    Start OPI Test 2
+                                <button class="btn" disabled>
+                                    <i class="fas fa-lock"></i>
+                                    Coming Soon
                                 </button>
                             </div>
                         </div>
@@ -612,11 +711,15 @@
         <div id="testView">
             <div class="card">
                 <div class="card-header">
-                    <i class="fas fa-question-circle"></i>
-                    <h2 id="testTitle">OPI Test</h2>
+                    <i class="fas fa-brain"></i>
+                    <h2 id="testTitle">MAT Test</h2>
                 </div>
                 <div class="card-body">
-                    <div class="question-display" id="currentQuestion">Loading question...</div>
+                    <div class="question-display">
+                        <div class="question-image-container">
+                            <img id="questionImage" class="question-image" src="" alt="MAT Question">
+                        </div>
+                    </div>
                     
                     <div class="options-container" id="optionsContainer">
                         <!-- Options will be dynamically inserted here -->
@@ -631,7 +734,7 @@
                         <div class="timer">Time: <span id="timerDisplay">00:00</span></div>
                     </div>
                     
-<div class="navigation-buttons">
+                    <div class="navigation-buttons">
                         <button id="prevBtn" class="nav-btn">
                             <i class="fas fa-arrow-left"></i>
                             Previous
@@ -649,11 +752,40 @@
         <div id="completionView">
             <div class="card">
                 <div class="card-body">
-                    <div class="completion-icon">
+                    <div class="completion-icon success" id="resultIcon">
                         <i class="fas fa-trophy"></i>
                     </div>
-                    <h2 class="completion-title">Congratulations 🎉</h2>
-                    <p class="completion-subtitle">You successfully completed the OPI Test</p>
+                    <h2 class="completion-title">Test Complete!</h2>
+                    
+                    <div class="score-display" id="finalScore">0/50</div>
+                    
+                    <div class="result-message pass" id="resultMessage">
+                        Congratulations! You passed the test.
+                    </div>
+                    
+                    <div class="score-details">
+                        <div class="score-item">
+                            <span class="score-label">Total Questions:</span>
+                            <span class="score-value" id="totalQuestionsResult">50</span>
+                        </div>
+                        <div class="score-item">
+                            <span class="score-label">Correct Answers:</span>
+                            <span class="score-value correct" id="correctAnswers">0</span>
+                        </div>
+                        <div class="score-item">
+                            <span class="score-label">Wrong Answers:</span>
+                            <span class="score-value incorrect" id="wrongAnswers">0</span>
+                        </div>
+                        <div class="score-item">
+                            <span class="score-label">Passing Score:</span>
+                            <span class="score-value">20/50</span>
+                        </div>
+                        <div class="score-item">
+                            <span class="score-label">Time Taken:</span>
+                            <span class="score-value" id="timeTaken">00:00</span>
+                        </div>
+                    </div>
+                    
                     <div class="action-buttons">
                         <button id="retryBtn" class="btn btn-secondary">
                             <i class="fas fa-redo"></i>
@@ -678,39 +810,12 @@
     // Test configuration
     const TEST_CONFIG = {
         test1: {
-            totalQuestions: 150,
-            timeLimit: 25 * 60 * 1000, // 25 minutes in milliseconds
-            jsonFile: 'opi/opi1.json',
-            title: 'OPI Test 1',
-            optionsCount: 7
-        },
-        test2: {
-            totalQuestions: 85,
-            timeLimit: 15 * 60 * 1000, // 15 minutes in milliseconds
-            jsonFile: 'opi/opi2.json',
-            title: 'OPI Test 2',
-            optionsCount: 5
+            totalQuestions: 50,
+            timeLimit: 15 * 60 * 1000, // 30 minutes in milliseconds
+            jsonFile: 'mat/mat1.json',
+            title: 'MAT Test 1',
+            passingScore: 20
         }
-    };
-
-    // Default options for OPI tests
-    const DEFAULT_OPTIONS = {
-        7: [
-            "Strongly Agree",
-            "Agree",
-            "Somewhat Agree",
-            "Neutral",
-            "Somewhat Disagree",
-            "Disagree",
-            "Strongly Disagree"
-        ],
-        5: [
-            "Strongly Agree",
-            "Agree",
-            "Neutral",
-            "Disagree",
-            "Strongly Disagree"
-        ]
     };
 
     document.addEventListener('DOMContentLoaded', function() {
@@ -721,10 +826,9 @@
         const completionView = document.getElementById('completionView');
         const continueBtn = document.getElementById('continueBtn');
         const startTest1Btn = document.getElementById('startTest1');
-        const startTest2Btn = document.getElementById('startTest2');
         const retryBtn = document.getElementById('retryBtn');
         const homeBtn = document.getElementById('homeBtn');
-        const currentQuestion = document.getElementById('currentQuestion');
+        const questionImage = document.getElementById('questionImage');
         const optionsContainer = document.getElementById('optionsContainer');
         const questionCount = document.getElementById('questionCount');
         const totalQuestions = document.getElementById('totalQuestions');
@@ -735,11 +839,21 @@
         const testTitle = document.getElementById('testTitle');
         const notification = document.getElementById('notification');
         
+        // Results elements
+        const finalScore = document.getElementById('finalScore');
+        const resultMessage = document.getElementById('resultMessage');
+        const resultIcon = document.getElementById('resultIcon');
+        const totalQuestionsResult = document.getElementById('totalQuestionsResult');
+        const correctAnswers = document.getElementById('correctAnswers');
+        const wrongAnswers = document.getElementById('wrongAnswers');
+        const timeTaken = document.getElementById('timeTaken');
+        
         // Test variables
         let currentTest = null;
         let currentQuestionIndex = 0;
         let timerInterval;
         let timeLeft = 0;
+        let testStartTime = 0;
         let questions = [];
         let userAnswers = [];
         let isTestRunning = false;
@@ -760,6 +874,12 @@
             return `${mins.toString().padStart(2, '0')}:${secs.toString().padStart(2, '0')}`;
         }
         
+        // Calculate time taken
+        function getTimeTaken() {
+            const timeElapsed = (currentTest.timeLimit / 1000) - timeLeft;
+            return formatTime(timeElapsed);
+        }
+        
         // Scroll to top of page
         function scrollToTop() {
             window.scrollTo({
@@ -775,15 +895,24 @@
                 if (!response.ok) {
                     throw new Error(`Failed to load ${testConfig.jsonFile}`);
                 }
-                questions = await response.json();
+                const data = await response.json();
                 
-                // If we don't have enough questions, create some dummy ones
+                // Check if data has the expected structure
+                if (data.questions && Array.isArray(data.questions)) {
+                    questions = data.questions;
+                } else {
+                    // Fallback to old structure
+                    questions = data;
+                }
+                
+                    // If we don't have enough questions, create some dummy ones
                 if (questions.length < testConfig.totalQuestions) {
                     const needed = testConfig.totalQuestions - questions.length;
                     for (let i = 0; i < needed; i++) {
                         questions.push({
-                            question: `Sample question ${i + 1}?`,
-                            options: DEFAULT_OPTIONS[testConfig.optionsCount]
+                            image: `images/question_${i + 1}.jpg`,
+                            options: [`Option A`, `Option B`, `Option C`, `Option D`],
+                            correct: Math.floor(Math.random() * 4)
                         });
                     }
                 }
@@ -799,15 +928,16 @@
                 questions = [];
                 for (let i = 0; i < testConfig.totalQuestions; i++) {
                     questions.push({
-                        question: `Sample question ${i + 1}?`,
-                        options: DEFAULT_OPTIONS[testConfig.optionsCount]
+                        image: `images/question_${i + 1}.jpg`,
+                        options: [`Option A`, `Option B`, `Option C`, `Option D`],
+                        correct: Math.floor(Math.random() * 4)
                     });
                 }
                 
                 // Initialize user answers array
                 userAnswers = new Array(questions.length).fill(null);
                 
-                showNotification('Using sample questions. Check if JSON files exist.');
+                showNotification('Using sample questions. Check if JSON file exists.');
                 return true;
             }
         }
@@ -817,6 +947,7 @@
             currentTest = testConfig;
             currentQuestionIndex = 0;
             timeLeft = testConfig.timeLimit / 1000; // Convert to seconds
+            testStartTime = Date.now();
             isTestRunning = true;
             
             // Load questions
@@ -859,6 +990,7 @@
                 // Check if time is up
                 if (timeLeft <= 0) {
                     clearInterval(timerInterval);
+                    calculateResults();
                     showCompletion();
                 }
             }, 1000);
@@ -866,8 +998,13 @@
         
         // Update the current question display
         function updateQuestion() {
-            // Update question text
-            currentQuestion.textContent = questions[currentQuestionIndex].question;
+            const question = questions[currentQuestionIndex];
+            
+            // Update question image
+            if (question.image) {
+                questionImage.src = question.image;
+                questionImage.alt = `MAT Question ${currentQuestionIndex + 1}`;
+            }
             
             // Update question counter
             questionCount.textContent = currentQuestionIndex + 1;
@@ -876,8 +1013,7 @@
             optionsContainer.innerHTML = '';
             
             // Create option elements
-            const options = questions[currentQuestionIndex].options;
-            options.forEach((option, index) => {
+            question.options.forEach((option, index) => {
                 const optionElement = document.createElement('div');
                 optionElement.className = `option-item ${userAnswers[currentQuestionIndex] === index ? 'selected' : ''}`;
                 optionElement.dataset.optionIndex = index;
@@ -902,6 +1038,14 @@
         function selectOption(optionIndex) {
             userAnswers[currentQuestionIndex] = optionIndex;
             updateQuestion();
+            
+            // Auto-advance to next question after selection (optional)
+            // Uncomment below if you want auto-advance
+            // setTimeout(() => {
+            //     if (currentQuestionIndex < questions.length - 1) {
+            //         nextQuestion();
+            //     }
+            // }, 300);
         }
         
         // Check if current question is answered
@@ -925,6 +1069,7 @@
                 setTimeout(scrollToTop, 100);
             } else {
                 // If we're on the last question and user clicks Next, complete the test
+                calculateResults();
                 showCompletion();
             }
         }
@@ -954,19 +1099,57 @@
             }
         }
         
-        // Update progress bar - FIXED: Now shows actual completion percentage
+        // Update progress bar
         function updateProgressBar() {
             if (currentTest) {
-                // Calculate progress based on questions answered and time elapsed
                 const questionProgress = ((currentQuestionIndex + 1) / questions.length) * 100;
-                
-                // If test is completed by answering all questions, show 100%
-                if (currentQuestionIndex === questions.length - 1 && isCurrentQuestionAnswered()) {
-                    progressBar.style.width = '100%';
+                progressBar.style.width = `${questionProgress}%`;
+            }
+        }
+        
+        // Calculate test results
+        function calculateResults() {
+            let correctCount = 0;
+            let wrongCount = 0;
+            
+            for (let i = 0; i < questions.length; i++) {
+                if (userAnswers[i] !== null) {
+                    if (userAnswers[i] === questions[i].correct) {
+                        correctCount++;
+                    } else {
+                        wrongCount++;
+                    }
                 } else {
-                    progressBar.style.width = `${questionProgress}%`;
+                    // Unanswered questions count as wrong
+                    wrongCount++;
                 }
             }
+            
+            const score = correctCount;
+            const total = questions.length;
+            const passed = score >= currentTest.passingScore;
+            
+            // Update results display
+            finalScore.textContent = `${score}/${total}`;
+            totalQuestionsResult.textContent = total;
+            correctAnswers.textContent = correctCount;
+            wrongAnswers.textContent = wrongCount;
+            timeTaken.textContent = getTimeTaken();
+            
+            // Update result message and icon
+            if (passed) {
+                resultMessage.textContent = `Congratulations! You passed the test with ${score}/${total} score.`;
+                resultMessage.className = 'result-message pass';
+                resultIcon.className = 'completion-icon success';
+                resultIcon.innerHTML = '<i class="fas fa-trophy"></i>';
+            } else {
+                resultMessage.textContent = `You scored ${score}/${total}. You need at least ${currentTest.passingScore} to pass. Try again!`;
+                resultMessage.className = 'result-message fail';
+                resultIcon.className = 'completion-icon fail';
+                resultIcon.innerHTML = '<i class="fas fa-redo"></i>';
+            }
+            
+            return { score, total, passed, correctCount, wrongCount };
         }
         
         // Show completion view with confetti
@@ -976,29 +1159,33 @@
             testView.style.display = 'none';
             completionView.style.display = 'block';
             
+            const results = calculateResults();
+            
             // Scroll to top
             setTimeout(scrollToTop, 100);
             
-            // Confetti effects
-            confetti({
-                particleCount: 150,
-                spread: 70,
-                origin: { y: 0.6 }
-            });
-            
-            setTimeout(() => confetti({
-                particleCount: 100,
-                angle: 60,
-                spread: 55,
-                origin: { x: 0 }
-            }), 250);
-            
-            setTimeout(() => confetti({
-                particleCount: 100,
-                angle: 120,
-                spread: 55,
-                origin: { x: 1 }
-            }), 400);
+            // Confetti effects only for passing
+            if (results.passed) {
+                confetti({
+                    particleCount: 150,
+                    spread: 70,
+                    origin: { y: 0.6 }
+                });
+                
+                setTimeout(() => confetti({
+                    particleCount: 100,
+                    angle: 60,
+                    spread: 55,
+                    origin: { x: 0 }
+                }), 250);
+                
+                setTimeout(() => confetti({
+                    particleCount: 100,
+                    angle: 120,
+                    spread: 55,
+                    origin: { x: 1 }
+                }), 400);
+            }
         }
         
         // Event Listeners
@@ -1020,17 +1207,6 @@
             }
         });
         
-        startTest2Btn.addEventListener('click', async function() {
-            testSelectionView.style.display = 'none';
-            testView.style.display = 'block';
-            
-            const initialized = await initTest(TEST_CONFIG.test2);
-            if (!initialized) {
-                testSelectionView.style.display = 'block';
-                testView.style.display = 'none';
-            }
-        });
-        
         retryBtn.addEventListener('click', function() {
             completionView.style.display = 'none';
             testView.style.display = 'block';
@@ -1042,8 +1218,10 @@
         });
         
         homeBtn.addEventListener('click', function() {
-            // In a real app, this would navigate back to the home page
-            window.location.href = 'index.html';
+            completionView.style.display = 'none';
+            instructionsView.style.display = 'block';
+            // Scroll to top
+            setTimeout(scrollToTop, 100);
         });
         
         prevBtn.addEventListener('click', prevQuestion);
@@ -1057,7 +1235,7 @@
                 prevQuestion();
             } else if (e.key === 'ArrowRight') {
                 nextQuestion();
-            } else if (e.key >= '1' && e.key <= '7') {
+            } else if (e.key >= '1' && e.key <= '4') {
                 const optionIndex = parseInt(e.key) - 1;
                 if (optionIndex < questions[currentQuestionIndex].options.length) {
                     selectOption(optionIndex);
@@ -1067,7 +1245,7 @@
     });
 </script>
   <script>
-        window.currentPage = 'opi.html';
+        window.currentPage = 'mat.html';
     </script>
 </body>
 </html>
