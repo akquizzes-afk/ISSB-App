@@ -43,49 +43,49 @@ function attachBackButtonHandler() {
         const currentPage = window.currentPage || 'index.html';
         debugLog('BACK BUTTON: Pressed. Page: ' + currentPage);
 
-        // Define COMPLETE navigation hierarchy
+        // Define COMPLETE navigation hierarchy with ABSOLUTE paths
         const navigationMap = {
             // Home page
             'index.html': 'exit',
             
             // Root test pages (direct from home)
-            'wat-test.html': 'index.html',
-            'picture-story.html': 'index.html',
-            'pointer-story.html': 'index.html',
-            'srt-test.html': 'index.html',
-            'opi.html': 'index.html',
-            'mat.html': 'index.html',
+            'wat-test.html': '/index.html',
+            'picture-story.html': '/index.html',
+            'pointer-story.html': '/index.html',
+            'srt-test.html': '/index.html',
+            'opi.html': '/index.html',
+            'mat.html': '/index.html',
             
             // Initial tests hub
-            'initials/initial-tests.html': 'index.html',
+            'initials/initial-tests.html': '/index.html',
             
             // Academic tests section
-            'initials/academic-tests.html': 'initials/initial-tests.html',
-            'initials/academic-tests/test1/test1.html': 'initials/academic-tests.html',
-            'initials/academic-tests/test2/test2.html': 'initials/academic-tests.html',
-            'initials/academic-tests/test3/test3.html': 'initials/academic-tests.html',
-            'initials/academic-tests/test4/test4.html': 'initials/academic-tests.html',
-            'initials/academic-tests/test5/test5.html': 'initials/academic-tests.html',
-            'initials/academic-tests/test6/test6.html': 'initials/academic-tests.html',
-            'initials/academic-tests/test7/test7.html': 'initials/academic-tests.html',
-            'initials/academic-tests/test8/test8.html': 'initials/academic-tests.html',
-            'initials/academic-tests/test9/test9.html': 'initials/academic-tests.html',
-            'initials/academic-tests/test10/test10.html': 'initials/academic-tests.html',
-            'initials/academic-tests/test11/test11.html': 'initials/academic-tests.html',
-            'initials/academic-tests/test12/test12.html': 'initials/academic-tests.html',
-            'initials/academic-tests/test13/test13.html': 'initials/academic-tests.html',
+            'initials/academic-tests.html': '/initials/initial-tests.html',
+            'initials/academic-tests/test1/test1.html': '/initials/academic-tests.html',
+            'initials/academic-tests/test2/test2.html': '/initials/academic-tests.html',
+            'initials/academic-tests/test3/test3.html': '/initials/academic-tests.html',
+            'initials/academic-tests/test4/test4.html': '/initials/academic-tests.html',
+            'initials/academic-tests/test5/test5.html': '/initials/academic-tests.html',
+            'initials/academic-tests/test6/test6.html': '/initials/academic-tests.html',
+            'initials/academic-tests/test7/test7.html': '/initials/academic-tests.html',
+            'initials/academic-tests/test8/test8.html': '/initials/academic-tests.html',
+            'initials/academic-tests/test9/test9.html': '/initials/academic-tests.html',
+            'initials/academic-tests/test10/test10.html': '/initials/academic-tests.html',
+            'initials/academic-tests/test11/test11.html': '/initials/academic-tests.html',
+            'initials/academic-tests/test12/test12.html': '/initials/academic-tests.html',
+            'initials/academic-tests/test13/test13.html': '/initials/academic-tests.html',
             
             // Verbal tests section
-            'initials/verbal-tests.html': 'initials/initial-tests.html',
-            'initials/verbal-tests/test1/test1.html': 'initials/verbal-tests.html',
-            'initials/verbal-tests/test2/test2.html': 'initials/verbal-tests.html',
-            'initials/verbal-tests/test3/test3.html': 'initials/verbal-tests.html',
-            'initials/verbal-tests/test4/test4.html': 'initials/verbal-tests.html',
-            'initials/verbal-tests/test5/test5.html': 'initials/verbal-tests.html',
-            'initials/verbal-tests/test6/test6.html': 'initials/verbal-tests.html',
+            'initials/verbal-tests.html': '/initials/initial-tests.html',
+            'initials/verbal-tests/test1/test1.html': '/initials/verbal-tests.html',
+            'initials/verbal-tests/test2/test2.html': '/initials/verbal-tests.html',
+            'initials/verbal-tests/test3/test3.html': '/initials/verbal-tests.html',
+            'initials/verbal-tests/test4/test4.html': '/initials/verbal-tests.html',
+            'initials/verbal-tests/test5/test5.html': '/initials/verbal-tests.html',
+            'initials/verbal-tests/test6/test6.html': '/initials/verbal-tests.html',
             
             // Coming Soon pages
-            'coming-soon.html': 'initials/initial-tests.html'
+            'coming-soon.html': '/initials/initial-tests.html'
         };
 
         // Check for exact match first
@@ -93,8 +93,9 @@ function attachBackButtonHandler() {
             debugLog('Exiting app');
             App.exitApp();
         } else if (navigationMap[currentPage]) {
-            debugLog('Navigating to: ' + navigationMap[currentPage]);
-            window.location.href = navigationMap[currentPage];
+            const targetPage = navigationMap[currentPage];
+            debugLog('Navigating to: ' + targetPage);
+            window.location.href = targetPage;
         } else {
             // Check for partial matches (for any other test pages you might add)
             const pagePath = currentPage;
@@ -102,22 +103,22 @@ function attachBackButtonHandler() {
             // Check if it's an academic test
             if (pagePath.includes('/academic-tests/test') && pagePath.includes('.html')) {
                 debugLog('Generic academic test detected, navigating to academic-tests.html');
-                window.location.href = 'initials/academic-tests.html';
+                window.location.href = '/initials/academic-tests.html';
             }
             // Check if it's a verbal test
             else if (pagePath.includes('/verbal-tests/test') && pagePath.includes('.html')) {
                 debugLog('Generic verbal test detected, navigating to verbal-tests.html');
-                window.location.href = 'initials/verbal-tests.html';
+                window.location.href = '/initials/verbal-tests.html';
             }
             // Check if it's in initials folder
             else if (pagePath.includes('initials/')) {
                 debugLog('Initial test detected, navigating to initial-tests.html');
-                window.location.href = 'initials/initial-tests.html';
+                window.location.href = '/initials/initial-tests.html';
             }
             // Default fallback
             else if (currentPage !== 'index.html') {
                 debugLog('Navigating to index.html');
-                window.location.href = 'index.html';
+                window.location.href = '/index.html';
             } else {
                 debugLog('Exiting app');
                 App.exitApp();
