@@ -1,0 +1,254 @@
+[
+  {
+    "question": "What is the total area of Pakistan according to the latest data in the notes?",
+    "options": ["796,096 sq km", "770,969 sq km", "881,913 sq km", "803,940 sq km"],
+    "correctAnswer": 1
+  },
+  {
+    "question": "Which pass connects Gilgit with Abbottabad?",
+    "options": ["Khyber Pass", "Babusar Pass", "Bolan Pass", "Lowari Pass"],
+    "correctAnswer": 1
+  },
+  {
+    "question": "The second largest river of Africa is the:",
+    "options": ["Nile", "Zambezi", "Congo River", "Niger"],
+    "correctAnswer": 2
+  },
+  {
+    "question": "Who was the first woman in the Pakistan Air Force?",
+    "options": ["Marium Mukhtiar", "Ayesha Farooq", "Shukriya Khanum", "Saba Khan"],
+    "correctAnswer": 1
+  },
+  {
+    "question": "In which city is the Nishtar Hospital located?",
+    "options": ["Multan", "Lahore", "Faisalabad", "Sialkot"],
+    "correctAnswer": 0
+  },
+  {
+    "question": "What is the capital of Belarus?",
+    "options": ["Minsk", "Kiev", "Riga", "Vilnius"],
+    "correctAnswer": 0
+  },
+  {
+    "question": "The deepest point on earth is known as:",
+    "options": ["Dead Sea", "Benthic Zone", "Lake Baikal", "Marina Trench"],
+    "correctAnswer": 3
+  },
+  {
+    "question": "Which Sahabi suggested digging a trench in the Battle of Khandaq?",
+    "options": ["Hazrat Salman Farsi (RA)", "Hazrat Ali (RA)", "Hazrat Abu Bakr (RA)", "Hazrat Umar (RA)"],
+    "correctAnswer": 0
+  },
+  {
+    "question": "The 2018 general elections in Pakistan were the:",
+    "options": ["10th", "11th", "12th", "13th"],
+    "correctAnswer": 2
+  },
+  {
+    "question": "Who founded the Scientific Society in 1864?",
+    "options": ["Allama Iqbal", "Sir Syed Ahmed Khan", "Maulana Shaukat Ali", "Nawab Mohsin-ul-Mulk"],
+    "correctAnswer": 1
+  },
+  {
+    "question": "The partition of Bengal was annulled in which year?",
+    "options": ["1905", "1909", "1911", "1913"],
+    "correctAnswer": 2
+  },
+  {
+    "question": "Who was the founder of the USSR?",
+    "options": ["Joseph Stalin", "Leon Trotsky", "Mikhail Gorbachev", "Vladimir Lenin"],
+    "correctAnswer": 3
+  },
+  {
+    "question": "In which city is the Shahjahan Mosque located?",
+    "options": ["Thatta", "Lahore", "Multan", "Karachi"],
+    "correctAnswer": 0
+  },
+  {
+    "question": "What is the title of Hazrat Moosa (AS)?",
+    "options": ["Zabihullah", "Kaleemullah", "Ruhullah", "Khalilullah"],
+    "correctAnswer": 1
+  },
+  {
+    "question": "The total coastline of Pakistan is:",
+    "options": ["850 KM", "990 KM", "1046 KM", "1200 KM"],
+    "correctAnswer": 2
+  },
+  {
+    "question": "Who was the first commander-in-chief of the Pakistan Army?",
+    "options": ["Ayub Khan", "Musa Khan", "Yahya Khan", "Sir Frank Messervy"],
+    "correctAnswer": 3
+  },
+  {
+    "question": "Which country is the second largest continent in the world?",
+    "options": ["Africa", "Asia", "Europe", "North America"],
+    "correctAnswer": 0
+  },
+  {
+    "question": "In which year was the OIC established?",
+    "options": ["1965", "1969", "1971", "1974"],
+    "correctAnswer": 1
+  },
+  {
+    "question": "Which pass connects Quetta with Sibi?",
+    "options": ["Khyber Pass", "Lowari Pass", "Bolan Pass", "Babusar Pass"],
+    "correctAnswer": 2
+  },
+  {
+    "question": "Who wrote 'Sohni Mahiwal'?",
+    "options": ["Waris Shah", "Bulleh Shah", "Hashim Shah", "Fazal Shah"],
+    "correctAnswer": 3
+  },
+  {
+    "question": "What is the capital of Algeria?",
+    "options": ["Algiers", "Tirana", "Sofia", "Bogota"],
+    "correctAnswer": 0
+  },
+  {
+    "question": "The deepest lake in the world is:",
+    "options": ["Caspian Sea", "Lake Baikal", "Lake Superior", "Lake Victoria"],
+    "correctAnswer": 1
+  },
+  {
+    "question": "Which is the smallest continent in the world?",
+    "options": ["Europe", "Antarctica", "Australia", "South America"],
+    "correctAnswer": 2
+  },
+  {
+    "question": "In which city is the Data Ganj Bakhsh Darbar situated?",
+    "options": ["Multan", "Islamabad", "Karachi", "Lahore"],
+    "correctAnswer": 3
+  },
+  {
+    "question": "Who was the leader of the kuffar in the Battle of Badr?",
+    "options": ["Abu Jahl", "Abu Sufyan", "Abu Lahab", "Utbah"],
+    "correctAnswer": 0
+  },
+  {
+    "question": "What is the currency of Egypt?",
+    "options": ["Dinar", "Pound", "Riyal", "Dirham"],
+    "correctAnswer": 1
+  },
+  {
+    "question": "Who was the first president of the Muslim League?",
+    "options": ["Quaid-e-Azam", "Liaquat Ali Khan", "Sir Aga Khan", "Nawab Salimullah"],
+    "correctAnswer": 2
+  },
+  {
+    "question": "What is the height of Mount Everest as per the notes?",
+    "options": ["8848m", "8850m", "8800m", "8849m"],
+    "correctAnswer": 3
+  },
+  {
+    "question": "Which city is known as the 'Manchester of Pakistan'?",
+    "options": ["Faisalabad", "Lahore", "Sialkot", "Gujranwala"],
+    "correctAnswer": 0
+  },
+  {
+    "question": "In which year did the Cripps Mission visit India?",
+    "options": ["1940", "1942", "1944", "1946"],
+    "correctAnswer": 1
+  },
+  {
+    "question": "Which is the 3rd surah of the Holy Quran?",
+    "options": ["Al-Baqarah", "An-Nisa", "Al-Imran", "Al-Ma'idah"],
+    "correctAnswer": 2
+  },
+  {
+    "question": "How many months in a year have 31 days?",
+    "options": ["5", "6", "8", "7"],
+    "correctAnswer": 3
+  },
+  {
+    "question": "Who was the first Foreign Minister of Pakistan?",
+    "options": ["Zafarullah Khan", "Liaquat Ali Khan", "H.S. Suhrawardy", "I.I. Chundrigar"],
+    "correctAnswer": 0
+  },
+  {
+    "question": "In which city is the National College of Arts located?",
+    "options": ["Karachi", "Lahore", "Islamabad", "Peshawar"],
+    "correctAnswer": 1
+  },
+  {
+    "question": "What is the currency of Russia?",
+    "options": ["Euro", "Dollar", "Rouble", "Pound"],
+    "correctAnswer": 2
+  },
+  {
+    "question": "In which year did the Battle of Uhud take place?",
+    "options": ["2 Hijri", "4 Hijri", "5 Hijri", "3 Hijri"],
+    "correctAnswer": 3
+  },
+  {
+    "question": "Which is the largest ocean in the world?",
+    "options": ["Pacific Ocean", "Atlantic Ocean", "Indian Ocean", "Arctic Ocean"],
+    "correctAnswer": 0
+  },
+  {
+    "question": "The Panama Canal joins which two oceans?",
+    "options": ["Indian and Atlantic", "Pacific and Atlantic", "Arctic and Atlantic", "Indian and Pacific"],
+    "correctAnswer": 1
+  },
+  {
+    "question": "What is the title of Hazrat Moosa (AS)?",
+    "options": ["Ruhullah", "Zabihullah", "Kaleemullah", "Khalilullah"],
+    "correctAnswer": 2
+  },
+  {
+    "question": "Who was the author of the book 'Raja Gidh'?",
+    "options": ["Ashfaq Ahmed", "Qurratulain Hyder", "Umera Ahmed", "Bano Qudsia"],
+    "correctAnswer": 3
+  },
+  {
+    "question": "Who invented the solar cell?",
+    "options": ["Charles", "Einstein", "Edison", "Tesla"],
+    "correctAnswer": 0
+  },
+  {
+    "question": "What is the capital of Venezuela?",
+    "options": ["Bogota", "Caracas", "Quito", "Lima"],
+    "correctAnswer": 1
+  },
+  {
+    "question": "Who was the founder of the Indian National Congress?",
+    "options": ["Lord Curzon", "Lord Minto", "Allan Octavian Hume", "Lord Mountbatten"],
+    "correctAnswer": 2
+  },
+  {
+    "question": "Which province of China touches Pakistan?",
+    "options": ["Tibet", "Yunnan", "Sichuan", "Xinjiang"],
+    "correctAnswer": 3
+  },
+  {
+    "question": "What is the 5th pillar of Islam?",
+    "options": ["Hajj", "Zakat", "Namaz", "Fasting"],
+    "correctAnswer": 0
+  },
+  {
+    "question": "Diphtheria is a disease affecting which part?",
+    "options": ["Liver", "Lungs/Throat", "Heart", "Kidneys"],
+    "correctAnswer": 1
+  },
+  {
+    "question": "What is the real name of Imam Bukhari?",
+    "options": ["Muslim bin Hajjaj", "Ahmed bin Hanbal", "Abu Abdullah Muhammad", "Malik bin Anas"],
+    "correctAnswer": 2
+  },
+  {
+    "question": "Who wrote 'Sunan-e-Abu Dawood'?",
+    "options": ["Imam Bukhari", "Imam Tirmidhi", "Imam Nasai", "Abu Dawood"],
+    "correctAnswer": 3
+  },
+  {
+    "question": "Hazrat Ayesha (RA) was the daughter of which Sahabi?",
+    "options": ["Hazrat Abu Bakr", "Hazrat Umar", "Hazrat Usman", "Hazrat Ali"],
+    "correctAnswer": 0
+  },
+  {
+    "question": "The 'Year of Grief' (Aam-ul-Huzn) refers to which year?",
+    "options": ["8th Nabvi", "10th Nabvi", "12th Nabvi", "11th Nabvi"],
+    "correctAnswer": 1
+  }
+]
+
+

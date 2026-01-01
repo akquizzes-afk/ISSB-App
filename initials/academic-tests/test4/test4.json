@@ -1,0 +1,252 @@
+[
+  {
+    "question": "Which country is known as the Land of Thousand Lakes?",
+    "options": ["Norway", "Finland", "Sweden", "Canada"],
+    "correctAnswer": 1
+  },
+  {
+    "question": "Who was the king of Iran at the time of the Battle of Qadsiya?",
+    "options": ["Rustam", "Khosrow", "Yezdigard III", "Hormizd"],
+    "correctAnswer": 0
+  },
+  {
+    "question": "What is the length of the River Nile in miles?",
+    "options": ["3500 miles", "4130 miles", "4500 miles", "4160 miles"],
+    "correctAnswer": 3
+  },
+  {
+    "question": "In which city is the shrine of Mian Mir located?",
+    "options": ["Multan", "Islamabad", "Lahore", "Kasur"],
+    "correctAnswer": 2
+  },
+  {
+    "question": "The second largest river in Africa is the:",
+    "options": ["Zambezi", "Congo River", "Niger", "Limpopo"],
+    "correctAnswer": 1
+  },
+  {
+    "question": "Who was the first woman pilot in the Pakistan Air Force?",
+    "options": ["Ayesha Farooq", "Marium Mukhtiar", "Shukriya Khanum", "Saba Khan"],
+    "correctAnswer": 0
+  },
+  {
+    "question": "What is the title of Hazrat Moosa (AS)?",
+    "options": ["Ruhullah", "Zabihullah", "Khalilullah", "Kaleemullah"],
+    "correctAnswer": 3
+  },
+  {
+    "question": "The 1906 Simla Deputation met with which Viceroy?",
+    "options": ["Lord Curzon", "Lord Minto", "Lord Irwin", "Lord Mountbatten"],
+    "correctAnswer": 1
+  },
+  {
+    "question": "In which city is the Nishtar Hospital located?",
+    "options": ["Faisalabad", "Lahore", "Multan", "Sahiwal"],
+    "correctAnswer": 2
+  },
+  {
+    "question": "What is the height of Mount Everest according to the provided notes?",
+    "options": ["8849m", "8848m", "8611m", "8126m"],
+    "correctAnswer": 0
+  },
+  {
+    "question": "Who is the author of the book 'Raja Gidh'?",
+    "options": ["Ashfaq Ahmed", "Fatima Surayya Bajia", "Qurratulain Hyder", "Bano Qudsia"],
+    "correctAnswer": 3
+  },
+  {
+    "question": "Which pass connects Quetta with Sibi?",
+    "options": ["Khyber Pass", "Bolan Pass", "Gomal Pass", "Tochi Pass"],
+    "correctAnswer": 1
+  },
+  {
+    "question": "What is the percentage of Nitrogen in the air?",
+    "options": ["21.00%", "0.03%", "78.09%", "0.93%"],
+    "correctAnswer": 2
+  },
+  {
+    "question": "Who founded the Scientific Society in 1864?",
+    "options": ["Sir Syed Ahmed Khan", "Allama Iqbal", "Maulana Shaukat Ali", "Nawab Mohsin-ul-Mulk"],
+    "correctAnswer": 0
+  },
+  {
+    "question": "The Luckow Pact was signed in which year?",
+    "options": ["1913", "1919", "1911", "1916"],
+    "correctAnswer": 3
+  },
+  {
+    "question": "What is the capital of Belarus?",
+    "options": ["Kiev", "Minsk", "Riga", "Vilnius"],
+    "correctAnswer": 1
+  },
+  {
+    "question": "Zul-Nurain is the title of which Sahabi?",
+    "options": ["Hazrat Abu Bakr (RA)", "Hazrat Umar (RA)", "Hazrat Usman Ghani (RA)", "Hazrat Ali (RA)"],
+    "correctAnswer": 2
+  },
+  {
+    "question": "In which province is the Thal Desert located?",
+    "options": ["Punjab", "Sindh", "Balochistan", "KPK"],
+    "correctAnswer": 0
+  },
+  {
+    "question": "Who was the youngest recipient of the Nishan-e-Haider?",
+    "options": ["Major Aziz Bhatti", "Rashid Minhas", "Captain Sher Khan", "Lalak Jan"],
+    "correctAnswer": 1
+  },
+  {
+    "question": "What is the total number of districts in Punjab?",
+    "options": ["32", "28", "36", "30"],
+    "correctAnswer": 2
+  },
+  {
+    "question": "The Sixth largest river in the world is the:",
+    "options": ["Huang He", "Amazon", "Nile", "Yangtze"],
+    "correctAnswer": 0
+  },
+  {
+    "question": "What is the total number of districts in Sindh?",
+    "options": ["26", "32", "25", "28"],
+    "correctAnswer": 3
+  },
+  {
+    "question": "Who was the first muazzin of Islam?",
+    "options": ["Hazrat Bilal (RA)", "Hazrat Abu Bakr (RA)", "Hazrat Ali (RA)", "Hazrat Umar (RA)"],
+    "correctAnswer": 0
+  },
+  {
+    "question": "The 'Year of Grief' refers to which year of Nabuwat?",
+    "options": ["8th", "10th", "11th", "12th"],
+    "correctAnswer": 1
+  },
+  {
+    "question": "Which Sahabi suggested digging a trench in the Battle of Khandaq?",
+    "options": ["Hazrat Ali (RA)", "Hazrat Abu Bakr (RA)", "Hazrat Salman Farsi (RA)", "Hazrat Umar (RA)"],
+    "correctAnswer": 2
+  },
+  {
+    "question": "Who was the founder of the USSR?",
+    "options": ["Joseph Stalin", "Vladimir Lenin", "Leon Trotsky", "Mikhail Gorbachev"],
+    "correctAnswer": 1
+  },
+  {
+    "question": "What is the range of the Nasr missile?",
+    "options": ["100km", "150km", "70km", "200km"],
+    "correctAnswer": 2
+  },
+  {
+    "question": "Who was the president of Cuba during the Missile Crisis?",
+    "options": ["Fidel Castro", "Che Guevara", "Raul Castro", "Osvaldo Dorticos Torrado"],
+    "correctAnswer": 3
+  },
+  {
+    "question": "Which country has the largest democracy in the world?",
+    "options": ["India", "USA", "China", "Brazil"],
+    "correctAnswer": 0
+  },
+  {
+    "question": "In which city is the National College of Arts located?",
+    "options": ["Karachi", "Lahore", "Islamabad", "Peshawar"],
+    "correctAnswer": 1
+  },
+  {
+    "question": "The land area of Pakistan mentioned in the notes is:",
+    "options": ["796,096 sq km", "881,913 sq km", "770,969 sq km", "803,940 sq km"],
+    "correctAnswer": 2
+  },
+  {
+    "question": "Who served the Holy Prophet (PBUH) for 10 years?",
+    "options": ["Hazrat Anas bin Malik", "Hazrat Zaid bin Harith", "Hazrat Abu Hurairah", "Hazrat Bilal"],
+    "correctAnswer": 0
+  },
+  {
+    "question": "The Khilafat Movement lasted during which years?",
+    "options": ["1914-1918", "1919-1923", "1924-1928", "1930-1934"],
+    "correctAnswer": 1
+  },
+  {
+    "question": "In which year did the partition of Bengal take place?",
+    "options": ["1906", "1911", "1905", "1909"],
+    "correctAnswer": 2
+  },
+  {
+    "question": "Who was the first commander-in-chief of the Pakistan Army?",
+    "options": ["Ayub Khan", "Musa Khan", "Yahya Khan", "Sir Frank Messervy"],
+    "correctAnswer": 3
+  },
+  {
+    "question": "What is the capital of Bhutan?",
+    "options": ["Thimphu", "Paro", "Punakha", "Phuntsholing"],
+    "correctAnswer": 0
+  },
+  {
+    "question": "What is the currency of Russia?",
+    "options": ["Rial", "Rouble", "Dinar", "Euro"],
+    "correctAnswer": 1
+  },
+  {
+    "question": "In which year was the OIC established?",
+    "options": ["1965", "1971", "1969", "1974"],
+    "correctAnswer": 2
+  },
+  {
+    "question": "Who wrote 'Sohni Mahiwal'?",
+    "options": ["Waris Shah", "Bulleh Shah", "Hashim Shah", "Fazal Shah"],
+    "correctAnswer": 3
+  },
+  {
+    "question": "The Indus Water Treaty was signed in which year?",
+    "options": ["1960", "1958", "1962", "1965"],
+    "correctAnswer": 0
+  },
+  {
+    "question": "Which pass connects Gilgit with Abbottabad?",
+    "options": ["Khyber Pass", "Babusar Pass", "Bolan Pass", "Lowari Pass"],
+    "correctAnswer": 1
+  },
+  {
+    "question": "What is the national juice of Pakistan?",
+    "options": ["Orange Juice", "Mango Juice", "Sugarcane Juice", "Apple Juice"],
+    "correctAnswer": 2
+  },
+  {
+    "question": "In which city is the Rawal Dam situated?",
+    "options": ["Rawalpindi", "Lahore", "Peshawar", "Islamabad"],
+    "correctAnswer": 3
+  },
+  {
+    "question": "Who was the first president of the Muslim League?",
+    "options": ["Sir Aga Khan", "Liaquat Ali Khan", "Quaid-e-Azam", "Nawab Salimullah"],
+    "correctAnswer": 0
+  },
+  {
+    "question": "The First radio station of Pakistan was opened in which city?",
+    "options": ["Lahore", "Karachi", "Peshawar", "Quetta"],
+    "correctAnswer": 1
+  },
+  {
+    "question": "How many months in a year have 31 days?",
+    "options": ["5", "6", "7", "8"],
+    "correctAnswer": 2
+  },
+  {
+    "question": "The deepest point on Earth is:",
+    "options": ["Dead Sea", "Caspian Sea", "Lake Baikal", "Mariana Trench"],
+    "correctAnswer": 3
+  },
+  {
+    "question": "In which year was NATO established?",
+    "options": ["1949", "1945", "1951", "1947"],
+    "correctAnswer": 0
+  },
+  {
+    "question": "What is the capital of Argentina?",
+    "options": ["Santiago", "Buenos Aires", "Lima", "Bogota"],
+    "correctAnswer": 1
+  },
+  {
+    "question": "Which surah of the Quran is called 'Al-Imran'?",
+    "options": ["1st", "2nd", "3rd", "4th"],
+    "correctAnswer": 2
+  }
+]

@@ -1,0 +1,1396 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Verbal Tests - Psychological Assessment</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <script src="https://cdn.jsdelivr.net/npm/canvas-confetti@1.5.1/dist/confetti.browser.min.js"></script>
+<style>
+    * {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    }
+    
+    :root {
+        --primary: #0a1929;
+        --secondary: #0f2e1f;
+        --accent: #10b981;
+        --accent-dark: #059669;
+        --text: #e2e8f0;
+        --text-light: #94a3b8;
+        --card-bg: #152635;
+        --header-bg: rgba(10, 25, 41, 0.95);
+        --success: #10b981;
+        --danger: #ef4444;
+        --warning: #f59e0b;
+    }
+    
+    body {
+        background: linear-gradient(135deg, var(--primary) 0%, #0a1a14 100%);
+        color: var(--text);
+        line-height: 1.5;
+        min-height: 100vh;
+        padding: 0;
+    }
+    
+    /* Sticky Header */
+    .sticky-header {
+        position: sticky;
+        top: 0;
+        left: 0;
+        right: 0;
+        background: var(--header-bg);
+        backdrop-filter: blur(10px);
+        padding: 12px 20px;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        border-bottom: 1px solid rgba(16, 185, 129, 0.2);
+        z-index: 1000;
+        box-shadow: 0 4px 20px rgba(0, 0, 0, 0.2);
+    }
+    
+    .header-left {
+        display: flex;
+        align-items: center;
+        gap: 12px;
+    }
+    
+    .app-icon {
+        width: 40px;
+        height: 40px;
+        background: linear-gradient(135deg, var(--accent) 0%, var(--accent-dark) 100%);
+        border-radius: 12px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        box-shadow: 0 4px 12px rgba(16, 185, 129, 0.3);
+    }
+    
+    .app-icon i {
+        font-size: 1.4rem;
+        color: white;
+    }
+    
+    .header-title {
+        font-size: 1.2rem;
+        font-weight: 600;
+        color: var(--text);
+    }
+    
+    .container {
+        max-width: 100%;
+        margin: 0 auto;
+        padding: 20px;
+        padding-top: 30px; /* Space for sticky header */
+    }
+    
+    .card {
+        background: var(--card-bg);
+        border-radius: 14px;
+        overflow: hidden;
+        box-shadow: 0 6px 18px rgba(0, 0, 0, 0.25);
+        transition: all 0.3s ease;
+        border: 1px solid rgba(16, 185, 129, 0.1);
+        position: relative;
+        max-width: 600px;
+        margin: 0 auto 20px;
+    }
+    
+    .card::before {
+        content: '';
+        position: absolute;
+        top: 0;
+        left: 0;
+        right: 0;
+        height: 4px;
+        background: linear-gradient(90deg, var(--accent) 0%, var(--accent-dark) 100%);
+        transform: scaleX(1);
+    }
+    
+    .card-header {
+        padding: 20px;
+        background: linear-gradient(135deg, rgba(16, 185, 129, 0.15) 0%, rgba(5, 150, 105, 0.1) 100%);
+        color: var(--accent);
+        display: flex;
+        align-items: center;
+        gap: 10px;
+    }
+    
+    .card-header i {
+        font-size: 1.4rem;
+    }
+    
+    .card-header h2 {
+        font-size: 1.2rem;
+        margin: 0;
+        font-weight: 600;
+    }
+    
+    .card-body {
+        padding: 25px;
+    }
+    
+    .instructions-list {
+        margin-bottom: 25px;
+    }
+    
+    .instruction-item {
+        display: flex;
+        align-items: flex-start;
+        gap: 12px;
+        margin-bottom: 15px;
+        padding: 10px;
+        border-radius: 8px;
+        background: rgba(255, 255, 255, 0.03);
+    }
+    
+    .instruction-number {
+        background: var(--accent);
+        color: white;
+        width: 24px;
+        height: 24px;
+        border-radius: 50%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        font-size: 0.8rem;
+        font-weight: bold;
+        flex-shrink: 0;
+    }
+    
+    .instruction-text {
+        color: var(--text-light);
+        font-size: 0.9rem;
+        line-height: 1.5;
+    }
+    
+    .btn {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        gap: 8px;
+        background: linear-gradient(135deg, var(--accent) 0%, var(--accent-dark) 100%);
+        color: white;
+        padding: 12px 20px;
+        border: none;
+        border-radius: 10px;
+        font-size: 0.9rem;
+        font-weight: 600;
+        cursor: pointer;
+        transition: all 0.3s ease;
+        text-align: center;
+        width: 100%;
+        box-shadow: 0 4px 12px rgba(16, 185, 129, 0.3);
+    }
+    
+    .btn:hover {
+        transform: translateY(-2px);
+        box-shadow: 0 6px 16px rgba(16, 185, 129, 0.4);
+    }
+    
+    .btn:active {
+        transform: translateY(0);
+    }
+    
+    /* Test View Styles */
+    #testView {
+        display: none;
+    }
+    
+    .question-display {
+        font-size: 1.1rem;
+        font-weight: 600;
+        color: var(--text);
+        margin: 15px 0;
+        min-height: 50px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        text-align: center;
+        line-height: 1.3;
+        padding: 0 5px;
+    }
+    
+    .test-info {
+        display: flex;
+        justify-content: space-between;
+        margin-top: 20px;
+        color: var(--text-light);
+        font-size: 0.85rem;
+        align-items: baseline;
+    }
+    
+    .timer {
+        font-weight: 600;
+        color: var(--accent);
+    }
+    
+    /* Completion View Styles - MOBILE FIRST DESIGN */
+    #completionView {
+        display: none;
+        text-align: center;
+    }
+    
+    .completion-icon-wrapper {
+        position: relative;
+        width: 60px;
+        height: 60px;
+        margin: 0 auto 20px;
+    }
+    
+    .completion-icon-bg {
+        position: absolute;
+        width: 100%;
+        height: 100%;
+        background: linear-gradient(135deg, rgba(16, 185, 129, 0.15) 0%, rgba(5, 150, 105, 0.1) 100%);
+        border-radius: 50%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        animation: pulse 2s infinite;
+    }
+    
+    @keyframes pulse {
+        0% { transform: scale(1); }
+        50% { transform: scale(1.05); }
+        100% { transform: scale(1); }
+    }
+    
+    .completion-icon {
+        font-size: 1.8rem;
+        color: var(--accent);
+    }
+    
+    .completion-title {
+        font-size: 1.5rem;
+        font-weight: 700;
+        margin-bottom: 8px;
+        color: var(--text);
+    }
+    
+    .completion-subtitle {
+        font-size: 0.95rem;
+        color: var(--text-light);
+        margin-bottom: 25px;
+        line-height: 1.4;
+    }
+    
+    /* Results Summary - Mobile Optimized */
+    .results-summary {
+        margin: 0 0 25px 0;
+        padding: 20px;
+        background: rgba(255, 255, 255, 0.03);
+        border-radius: 12px;
+        border: 1px solid rgba(16, 185, 129, 0.15);
+    }
+    
+    .results-grid {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        gap: 15px;
+        margin-bottom: 20px;
+    }
+    
+    .result-card {
+        text-align: center;
+        padding: 16px 12px;
+        background: rgba(255, 255, 255, 0.02);
+        border-radius: 10px;
+        border: 1px solid rgba(255, 255, 255, 0.05);
+        transition: all 0.3s ease;
+    }
+    
+    .result-card:hover {
+        transform: translateY(-2px);
+        border-color: rgba(16, 185, 129, 0.3);
+        box-shadow: 0 6px 15px rgba(0, 0, 0, 0.15);
+    }
+    
+    .result-value {
+        font-size: 1.3rem;
+        font-weight: 700;
+        margin-bottom: 4px;
+        line-height: 1;
+    }
+    
+    .result-label {
+        font-size: 0.75rem;
+        color: var(--text-light);
+        text-transform: uppercase;
+        letter-spacing: 0.5px;
+    }
+    
+    .correct-card .result-value {
+        color: var(--accent);
+    }
+    
+    .score-card .result-value {
+        color: var(--accent);
+    }
+    
+    .score-card.failed .result-value {
+        color: var(--danger);
+    }
+    
+    /* Status Banner */
+    .status-banner {
+        padding: 14px;
+        border-radius: 10px;
+        margin: 18px 0;
+        background: linear-gradient(135deg, rgba(16, 185, 129, 0.1) 0%, rgba(5, 150, 105, 0.05) 100%);
+        border: 1px solid rgba(16, 185, 129, 0.2);
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        gap: 10px;
+    }
+    
+    .status-banner.failed {
+        background: linear-gradient(135deg, rgba(239, 68, 68, 0.1) 0%, rgba(220, 38, 38, 0.05) 100%);
+        border: 1px solid rgba(239, 68, 68, 0.2);
+    }
+    
+    .status-icon {
+        font-size: 1.2rem;
+    }
+    
+    .status-text {
+        font-size: 0.95rem;
+        font-weight: 600;
+    }
+    
+    .status-subtext {
+        font-size: 0.8rem;
+        color: var(--text-light);
+        margin-top: 4px;
+        line-height: 1.3;
+    }
+    
+    /* Performance Meter */
+    .performance-meter {
+        margin: 20px 0;
+    }
+    
+    .meter-header {
+        display: flex;
+        justify-content: space-between;
+        margin-bottom: 8px;
+        font-size: 0.8rem;
+        color: var(--text-light);
+    }
+    
+    .meter-bar {
+        height: 5px;
+        background: rgba(255, 255, 255, 0.1);
+        border-radius: 3px;
+        overflow: hidden;
+        margin-bottom: 8px;
+    }
+    
+    .meter-fill {
+        height: 100%;
+        background: linear-gradient(90deg, var(--accent) 0%, var(--accent-dark) 100%);
+        border-radius: 3px;
+        width: 0%;
+        transition: width 1s ease;
+    }
+    
+    .meter-fill.failed {
+        background: linear-gradient(90deg, var(--danger) 0%, #dc2626 100%);
+    }
+    
+    .meter-labels {
+        display: flex;
+        justify-content: space-between;
+        font-size: 0.7rem;
+        color: var(--text-light);
+    }
+    
+    /* Action Buttons - Mobile Optimized */
+    .action-buttons {
+        display: flex;
+        gap: 12px;
+        margin-top: 25px;
+    }
+    
+    .btn-secondary {
+        background: rgba(255, 255, 255, 0.1);
+        color: var(--text);
+        border: 1px solid rgba(255, 255, 255, 0.2);
+    }
+    
+    .btn-secondary:hover {
+        background: rgba(255, 255, 255, 0.15);
+        border-color: rgba(255, 255, 255, 0.3);
+    }
+    
+    /* Progress Bar */
+    .progress-container {
+        width: 100%;
+        height: 5px;
+        background: rgba(255, 255, 255, 0.1);
+        border-radius: 3px;
+        margin: 15px 0;
+        overflow: hidden;
+    }
+    
+    .progress-bar {
+        height: 100%;
+        background: linear-gradient(90deg, var(--accent) 0%, var(--accent-dark) 100%);
+        width: 0%;
+        transition: width 0.3s ease;
+    }
+    
+    /* Options Styles */
+    .options-container {
+        margin: 20px 0;
+        max-height: 220px;
+        overflow-y: auto;
+        padding-right: 5px;
+    }
+    
+    .options-container::-webkit-scrollbar {
+        width: 4px;
+    }
+    
+    .options-container::-webkit-scrollbar-track {
+        background: rgba(255, 255, 255, 0.05);
+        border-radius: 2px;
+    }
+    
+    .options-container::-webkit-scrollbar-thumb {
+        background: var(--accent);
+        border-radius: 2px;
+    }
+    
+    .option-item {
+        display: flex;
+        align-items: center;
+        gap: 10px;
+        margin-bottom: 10px;
+        padding: 12px;
+        border-radius: 8px;
+        background: rgba(255, 255, 255, 0.03);
+        cursor: pointer;
+        transition: all 0.2s ease;
+        border: 1px solid transparent;
+    }
+    
+    .option-item:hover {
+        background: rgba(255, 255, 255, 0.06);
+    }
+    
+    .option-item.selected {
+        background: rgba(16, 185, 129, 0.1);
+        border-color: var(--accent);
+    }
+    
+    .option-radio {
+        width: 18px;
+        height: 18px;
+        border-radius: 50%;
+        border: 2px solid var(--text-light);
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-shrink: 0;
+    }
+    
+    .option-item.selected .option-radio {
+        border-color: var(--accent);
+        background: var(--accent);
+    }
+    
+    .option-item.selected .option-radio::after {
+        content: '';
+        width: 6px;
+        height: 6px;
+        border-radius: 50%;
+        background: white;
+    }
+    
+    .option-text {
+        color: var(--text);
+        font-size: 0.9rem;
+        line-height: 1.3;
+    }
+    
+    /* Navigation Buttons */
+    .navigation-buttons {
+        display: flex;
+        justify-content: space-between;
+        margin-top: 20px;
+        gap: 10px;
+    }
+    
+    .nav-btn {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        gap: 6px;
+        background: rgba(255, 255, 255, 0.1);
+        color: var(--text);
+        padding: 10px 15px;
+        border: none;
+        border-radius: 8px;
+        font-size: 0.85rem;
+        font-weight: 600;
+        cursor: pointer;
+        transition: all 0.3s ease;
+        text-align: center;
+        box-shadow: 0 3px 8px rgba(0, 0, 0, 0.2);
+        flex: 1;
+    }
+    
+    .nav-btn:hover {
+        transform: translateY(-2px);
+        box-shadow: 0 6px 16px rgba(0, 0, 0, 0.3);
+        background: rgba(255, 255, 255, 0.15);
+    }
+    
+    .nav-btn:disabled {
+        opacity: 0.5;
+        cursor: not-allowed;
+        transform: none;
+        box-shadow: none;
+    }
+    
+    .notification {
+        position: fixed;
+        bottom: 20px;
+        left: 50%;
+        transform: translateX(-50%);
+        background: var(--accent);
+        color: white;
+        padding: 12px 20px;
+        border-radius: 8px;
+        box-shadow: 0 4px 12px rgba(16, 185, 129, 0.3);
+        z-index: 3000;
+        opacity: 0;
+        visibility: hidden;
+        transition: all 0.3s ease;
+    }
+    
+    .notification.show {
+        opacity: 1;
+        visibility: visible;
+    }
+    
+    *{
+        -webkit-tap-highlight-color: transparent;
+    }
+    
+    /* Mobile Responsive Styles - OPTIMIZED FOR SMALL SCREENS */
+    @media (max-width: 768px) {
+        .container {
+            padding: 15px;
+            padding-top: 20px;
+        }
+        
+        .card-body {
+            padding: 20px;
+        }
+        
+        .completion-title {
+            font-size: 1.4rem;
+        }
+        
+        .completion-subtitle {
+            font-size: 0.9rem;
+        }
+        
+        .results-grid {
+            grid-template-columns: repeat(2, 1fr);
+            gap: 12px;
+        }
+        
+        .result-card {
+            padding: 14px 10px;
+        }
+        
+        .result-value {
+            font-size: 1.2rem;
+        }
+        
+        .result-label {
+            font-size: 0.7rem;
+        }
+        
+        .action-buttons {
+            flex-direction: column;
+            gap: 10px;
+        }
+        
+        .btn, .btn-secondary {
+            padding: 12px 16px;
+            font-size: 0.9rem;
+            border-radius: 8px;
+        }
+        
+        .completion-icon-wrapper {
+            width: 50px;
+            height: 50px;
+            margin-bottom: 15px;
+        }
+        
+        .completion-icon {
+            font-size: 1.5rem;
+        }
+        
+        .status-banner {
+            padding: 12px;
+            margin: 15px 0;
+        }
+        
+        .status-icon {
+            font-size: 1rem;
+        }
+        
+        .status-text {
+            font-size: 0.9rem;
+        }
+        
+        .status-subtext {
+            font-size: 0.75rem;
+        }
+        
+        .question-display {
+            font-size: 1.05rem;
+            min-height: 60px;
+        }
+        
+        .options-container {
+            max-height: 250px;
+        }
+        
+        .option-item {
+            min-height: 50px;
+            padding: 12px 10px;
+        }
+        
+        .navigation-buttons {
+            gap: 8px;
+        }
+        
+        .nav-btn {
+            padding: 10px 12px;
+            min-height: 42px;
+            font-size: 0.85rem;
+        }
+    }
+    
+    @media (max-width: 480px) {
+        .card-header {
+            padding: 16px;
+        }
+        
+        .card-body {
+            padding: 18px 16px;
+        }
+        
+        .results-summary {
+            padding: 16px;
+            margin-bottom: 20px;
+        }
+        
+        .completion-title {
+            font-size: 1.3rem;
+        }
+        
+        .completion-subtitle {
+            font-size: 0.85rem;
+            margin-bottom: 20px;
+        }
+        
+        .results-grid {
+            grid-template-columns: 1fr;
+            gap: 10px;
+        }
+        
+        .meter-header {
+            font-size: 0.75rem;
+        }
+        
+        .meter-labels {
+            font-size: 0.65rem;
+        }
+        
+        .btn, .btn-secondary {
+            padding: 14px 16px;
+            font-size: 0.9rem;
+            min-height: 44px;
+        }
+    }
+    
+    @media (max-width: 360px) {
+        .container {
+            padding: 12px;
+            padding-top: 15px;
+        }
+        
+        .card-body {
+            padding: 16px 14px;
+        }
+        
+        .completion-title {
+            font-size: 1.2rem;
+        }
+        
+        .result-value {
+            font-size: 1.1rem;
+        }
+        
+        .btn, .btn-secondary {
+            padding: 12px 14px;
+            font-size: 0.85rem;
+        }
+        
+        .nav-btn {
+            padding: 8px 10px;
+            font-size: 0.8rem;
+        }
+        
+        .option-text {
+            font-size: 0.85rem;
+        }
+    }
+</style>
+</head>
+<body>
+    <!-- Sticky Header -->
+    <div class="sticky-header">
+        <div class="header-left">
+            <div class="app-icon">
+                <i class="fas fa-graduation-cap"></i>
+            </div>
+            <div class="header-title">Academic Tests</div>
+        </div>
+    </div>
+
+    <div class="container">
+<!-- Instructions View -->
+        <div id="instructionsView">
+            <div class="card">
+                <div class="card-header">
+                    <i class="fas fa-info-circle"></i>
+                    <h2>Academic Tests Instructions</h2>
+                </div>
+                <div class="card-body">
+                    <div class="instructions-list">
+                        <div class="instruction-item">
+                            <div class="instruction-number">1</div>
+                            <div class="instruction-text">This test contains 50 multiple-choice questions to assess your academic knowledge.</div>
+                        </div>
+                        <div class="instruction-item">
+                            <div class="instruction-number">2</div>
+                            <div class="instruction-text">You have 30 minutes to complete the entire test.</div>
+                        </div>
+                        <div class="instruction-item">
+                            <div class="instruction-number">3</div>
+                            <div class="instruction-text">Read each question carefully and select the best answer from the options provided.</div>
+                        </div>
+                        <div class="instruction-item">
+                            <div class="instruction-number">4</div>
+                            <div class="instruction-text">Each question has 4 or 5 possible answers. Choose the one that is most correct.</div>
+                        </div>
+                        <div class="instruction-item">
+                            <div class="instruction-number">5</div>
+                            <div class="instruction-text">You must answer the current question before proceeding to the next one.</div>
+                        </div>
+                        <div class="instruction-item">
+                            <div class="instruction-number">6</div>
+                            <div class="instruction-text">Use the Previous and Next buttons to navigate between questions.</div>
+                        </div>
+                        <div class="instruction-item">
+                            <div class="instruction-number">7</div>
+                            <div class="instruction-text">Once started, the test cannot be paused. Ensure you have uninterrupted time.</div>
+                        </div>
+                        <div class="instruction-item">
+                            <div class="instruction-number">8</div>
+                            <div class="instruction-text">Your answers will be saved automatically as you progress through the test.</div>
+                        </div>
+                    </div>
+                    <button id="startTestBtn" class="btn">
+                        <i class="fas fa-play-circle"></i>
+                        Start Academic Test
+                    </button>
+                </div>
+            </div>
+        </div>
+
+        <!-- Test View -->
+        <div id="testView">
+            <div class="card">
+                <div class="card-header">
+                    <i class="fas fa-graduation-cap"></i>
+                    <h2>Academic Test</h2>
+                </div>
+                <div class="card-body">
+                    <div class="question-display" id="currentQuestion">Loading question...</div>
+                    
+                    <div class="options-container" id="optionsContainer">
+                        <!-- Options will be dynamically inserted here -->
+                    </div>
+                    
+                    <div class="progress-container">
+                        <div class="progress-bar" id="progressBar"></div>
+                    </div>
+                    
+                    <div class="test-info">
+                        <div class="question-count">Question: <span id="questionCount">0</span>/<span id="totalQuestions">0</span></div>
+                        <div class="timer">Time: <span id="timerDisplay">30:00</span></div>
+                    </div>
+                    
+                    <div class="navigation-buttons">
+                        <button id="prevBtn" class="nav-btn">
+                            <i class="fas fa-arrow-left"></i>
+                            Previous
+                        </button>
+                        <button id="nextBtn" class="nav-btn">
+                            Next
+                            <i class="fas fa-arrow-right"></i>
+                        </button>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Completion View - MODERN REDESIGN -->
+        <div id="completionView">
+            <div class="card">
+                <div class="card-body">
+                    <div class="completion-icon-wrapper">
+                        <div class="completion-icon-bg">
+                            <div class="completion-icon" id="completionIcon">
+                                <i class="fas fa-trophy"></i>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <h2 class="completion-title" id="completionTitle">Test Completed! 🎉</h2>
+                    <p class="completion-subtitle" id="completionSubtitle">You have successfully completed the academic Test</p>
+                    
+                    <!-- Results will be inserted here by JavaScript -->
+                    <div id="resultsContainer"></div>
+                    
+                    <div class="action-buttons">
+                        <button id="retryBtn" class="btn btn-secondary">
+                            <i class="fas fa-redo"></i>
+                            Retry Test
+                        </button>
+                        <button id="homeBtn" class="btn">
+                            <i class="fas fa-home"></i>
+                            Back to Tests
+                        </button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Notification -->
+    <div class="notification" id="notification">
+        Test completed successfully!
+    </div>
+
+    <script>
+        // Test configuration
+        const TEST_CONFIG = {
+            totalQuestions: 84,
+            timeLimit: 30 * 60 * 1000, // 30 minutes in milliseconds
+            jsonFile: 'test2.json', // Will be in same folder as HTML file
+            title: 'Academic Test',
+            passingPercentage: 50 // 50% required to pass
+        };
+
+        document.addEventListener('DOMContentLoaded', function() {
+            // DOM Elements
+            const instructionsView = document.getElementById('instructionsView');
+            const testView = document.getElementById('testView');
+            const completionView = document.getElementById('completionView');
+            const startTestBtn = document.getElementById('startTestBtn');
+            const retryBtn = document.getElementById('retryBtn');
+            const homeBtn = document.getElementById('homeBtn');
+            const currentQuestion = document.getElementById('currentQuestion');
+            const optionsContainer = document.getElementById('optionsContainer');
+            const questionCount = document.getElementById('questionCount');
+            const totalQuestions = document.getElementById('totalQuestions');
+            const timerDisplay = document.getElementById('timerDisplay');
+            const progressBar = document.getElementById('progressBar');
+            const prevBtn = document.getElementById('prevBtn');
+            const nextBtn = document.getElementById('nextBtn');
+            const notification = document.getElementById('notification');
+            const completionTitle = document.getElementById('completionTitle');
+            const completionSubtitle = document.getElementById('completionSubtitle');
+            const completionIcon = document.getElementById('completionIcon');
+            const resultsContainer = document.getElementById('resultsContainer');
+            
+            // Test variables
+            let currentQuestionIndex = 0;
+            let timerInterval;
+            let timeLeft = 0;
+            let questions = [];
+            let userAnswers = [];
+            let isTestRunning = false;
+            let questionOrder = []; // Store the randomized order
+            
+            // Mobile detection
+            const isMobile = /iPhone|iPad|iPod|Android|webOS|BlackBerry|Windows Phone/i.test(navigator.userAgent);
+            
+            // Show notification
+            function showNotification(message) {
+                notification.textContent = message;
+                notification.classList.add('show');
+                setTimeout(() => {
+                    notification.classList.remove('show');
+                }, 3000);
+            }
+               // Format time as MM:SS
+            function formatTime(seconds) {
+                const mins = Math.floor(seconds / 60);
+                const secs = seconds % 60;
+                return `${mins.toString().padStart(2, '0')}:${secs.toString().padStart(2, '0')}`;
+            }
+            
+            // Scroll to top of page
+            function scrollToTop() {
+                window.scrollTo({
+                    top: 0,
+                    behavior: 'smooth'
+                });
+            }
+            
+            // Fisher-Yates shuffle algorithm to randomize array
+            function shuffleArray(array) {
+                const shuffled = [...array];
+                for (let i = shuffled.length - 1; i > 0; i--) {
+                    const j = Math.floor(Math.random() * (i + 1));
+                    [shuffled[i], shuffled[j]] = [shuffled[j], shuffled[i]];
+                }
+                return shuffled;
+            }
+            
+            // Load questions from JSON file and randomize them
+            async function loadQuestions() {
+                try {
+                    const response = await fetch(TEST_CONFIG.jsonFile);
+                    if (!response.ok) {
+                        throw new Error(`Failed to load ${TEST_CONFIG.jsonFile}`);
+                    }
+                    const allQuestions = await response.json();
+                    
+                    // Validate we have enough questions
+                    if (allQuestions.length < TEST_CONFIG.totalQuestions) {
+                        console.warn(`Only ${allQuestions.length} questions found, expected ${TEST_CONFIG.totalQuestions}`);
+                    }
+                    
+                    // Select the required number of questions (or all if fewer)
+                    const questionsToUse = allQuestions.slice(0, Math.min(TEST_CONFIG.totalQuestions, allQuestions.length));
+                    
+                    // Create randomized order
+                    questionOrder = shuffleArray([...Array(questionsToUse.length).keys()]);
+                    
+                    // Apply randomized order to questions
+                    questions = questionOrder.map(index => questionsToUse[index]);
+                    
+                    // Initialize user answers array
+                    userAnswers = new Array(questions.length).fill(null);
+                    
+                    return true;
+                } catch (error) {
+                    console.error('Error loading questions:', error);
+                    
+                    // Create sample questions if loading fails
+                    const sampleQuestions = [];
+                    for (let i = 0; i < TEST_CONFIG.totalQuestions; i++) {
+                        const hasFiveOptions = Math.random() > 0.5;
+                        sampleQuestions.push({
+                            question: `Sample Academic Question ${i + 1}: Choose the word that best completes the sentence?`,
+                            options: hasFiveOptions 
+                                ? ['Option A', 'Option B', 'Option C', 'Option D', 'Option E']
+                                : ['Option A', 'Option B', 'Option C', 'Option D'],
+                            correctAnswer: 0
+                        });
+                    }
+                    
+                    // Randomize sample questions
+                    questionOrder = shuffleArray([...Array(sampleQuestions.length).keys()]);
+                    questions = questionOrder.map(index => sampleQuestions[index]);
+                    
+                    // Initialize user answers array
+                    userAnswers = new Array(questions.length).fill(null);
+                    
+                    showNotification('Using sample questions. JSON file not found.');
+                    return true;
+                }
+            }
+            
+            // Calculate score and results
+            function calculateResults() {
+                let correctCount = 0;
+                
+                for (let i = 0; i < questions.length; i++) {
+                    if (userAnswers[i] === questions[i].correctAnswer) {
+                        correctCount++;
+                    }
+                }
+                
+                const percentage = (correctCount / questions.length) * 100;
+                const passed = percentage >= TEST_CONFIG.passingPercentage;
+                
+                return {
+                    totalQuestions: questions.length,
+                    answeredQuestions: userAnswers.filter(answer => answer !== null).length,
+                    correctCount: correctCount,
+                    percentage: percentage.toFixed(1),
+                    passed: passed
+                };
+            }
+            
+            // Initialize test
+            async function initTest() {
+                currentQuestionIndex = 0;
+                timeLeft = TEST_CONFIG.timeLimit / 1000;
+                isTestRunning = true;
+                
+                // Load and randomize questions
+                const loaded = await loadQuestions();
+                if (!loaded) {
+                    showNotification('Error loading questions. Please try again.');
+                    return false;
+                }
+                
+                // Update UI
+                totalQuestions.textContent = questions.length;
+                timerDisplay.textContent = formatTime(timeLeft);
+                
+                updateProgressBar();
+                updateQuestion();
+                updateNavigationButtons();
+                
+                // Start timer
+                startTimer();
+                
+                // Scroll to top
+                setTimeout(scrollToTop, 100);
+                
+                return true;
+            }
+            
+            // Start the timer
+            function startTimer() {
+                clearInterval(timerInterval);
+                
+                timerInterval = setInterval(() => {
+                    timeLeft--;
+                    timerDisplay.textContent = formatTime(timeLeft);
+                    
+                    // Update progress bar every second
+                    updateProgressBar();
+                    
+                    // Check if time is up
+                    if (timeLeft <= 0) {
+                        clearInterval(timerInterval);
+                        showCompletion();
+                    }
+                }, 1000);
+            }
+            
+            // Update the current question display
+            function updateQuestion() {
+                // Update question text
+                currentQuestion.textContent = questions[currentQuestionIndex].question;
+                
+                // Update question counter
+                questionCount.textContent = currentQuestionIndex + 1;
+                
+                // Clear options container
+                optionsContainer.innerHTML = '';
+                
+                // Create option elements
+                const options = questions[currentQuestionIndex].options;
+                options.forEach((option, index) => {
+                    const optionElement = document.createElement('div');
+                    optionElement.className = `option-item ${userAnswers[currentQuestionIndex] === index ? 'selected' : ''}`;
+                    optionElement.dataset.optionIndex = index;
+                    
+                    optionElement.innerHTML = `
+                        <div class="option-radio"></div>
+                        <div class="option-text">${option}</div>
+                    `;
+                    
+                    optionElement.addEventListener('click', () => {
+                        selectOption(index);
+                    });
+                    
+                    optionsContainer.appendChild(optionElement);
+                });
+                
+                // Update navigation buttons
+                updateNavigationButtons();
+            }
+            
+            // Select an option
+            function selectOption(optionIndex) {
+                userAnswers[currentQuestionIndex] = optionIndex;
+                updateQuestion();
+            }
+            
+            // Check if current question is answered
+            function isCurrentQuestionAnswered() {
+                return userAnswers[currentQuestionIndex] !== null;
+            }
+            
+            // Move to next question
+            function nextQuestion() {
+                // Only proceed if current question is answered
+                if (!isCurrentQuestionAnswered()) {
+                    showNotification('Please select an answer before proceeding');
+                    
+                    // Mobile vibration feedback
+                    if (isMobile && navigator.vibrate) {
+                        navigator.vibrate(50);
+                    }
+                    
+                    return;
+                }
+                
+                if (currentQuestionIndex < questions.length - 1) {
+                    currentQuestionIndex++;
+                    updateQuestion();
+                    updateNavigationButtons();
+                    
+                    // Scroll behavior
+                    if (isMobile) {
+                        setTimeout(() => {
+                            currentQuestion.scrollIntoView({ behavior: 'smooth', block: 'start' });
+                        }, 50);
+                    } else {
+                        setTimeout(scrollToTop, 100);
+                    }
+                } else {
+                    showCompletion();
+                }
+            }
+              // Move to previous question
+            function prevQuestion() {
+                if (currentQuestionIndex > 0) {
+                    currentQuestionIndex--;
+                    updateQuestion();
+                    updateNavigationButtons();
+                    
+                    // Scroll behavior
+                    if (isMobile) {
+                        setTimeout(() => {
+                            currentQuestion.scrollIntoView({ behavior: 'smooth', block: 'start' });
+                        }, 50);
+                    } else {
+                        setTimeout(scrollToTop, 100);
+                    }
+                }
+            }
+            
+            // Update navigation buttons state
+            function updateNavigationButtons() {
+                prevBtn.disabled = currentQuestionIndex === 0;
+                
+                // Disable next button if current question is not answered
+                nextBtn.disabled = !isCurrentQuestionAnswered();
+                
+                if (currentQuestionIndex === questions.length - 1) {
+                    nextBtn.innerHTML = 'Finish <i class="fas fa-flag-checkered"></i>';
+                } else {
+                    nextBtn.innerHTML = 'Next <i class="fas fa-arrow-right"></i>';
+                }
+            }
+            
+            // Update progress bar
+            function updateProgressBar() {
+                const answeredCount = userAnswers.filter(answer => answer !== null).length;
+                const progress = (answeredCount / questions.length) * 100;
+                progressBar.style.width = `${progress}%`;
+            }
+            
+            // Create modern results HTML
+            function createResultsHTML(results) {
+                const passed = results.passed;
+                
+                return `
+                    <div class="results-summary">
+                        <div class="results-grid">
+                            <div class="result-card correct-card">
+                                <div class="result-value">${results.correctCount}/${results.totalQuestions}</div>
+                                <div class="result-label">Correct Answers</div>
+                            </div>
+                            <div class="result-card score-card ${passed ? '' : 'failed'}">
+                                <div class="result-value">${results.percentage}%</div>
+                                <div class="result-label">Score</div>
+                            </div>
+                        </div>
+                        
+                        <div class="status-banner ${passed ? '' : 'failed'}">
+                            <div class="status-icon">
+                                <i class="fas fa-${passed ? 'trophy' : 'redo'}"></i>
+                            </div>
+                            <div>
+                                <div class="status-text">${passed ? 'Test PASSED!' : 'Test FAILED'}</div>
+                                <div class="status-subtext">
+                                    ${passed ? 
+                                        `🎉 You scored above the ${TEST_CONFIG.passingPercentage}% requirement` : 
+                                        `📉 You need at least ${TEST_CONFIG.passingPercentage}% to pass`
+                                    }
+                                </div>
+                            </div>
+                        </div>
+                        
+                        <div class="performance-meter">
+                            <div class="meter-header">
+                                <span>Performance</span>
+                                <span>${results.percentage}%</span>
+                            </div>
+                            <div class="meter-bar">
+                                <div class="meter-fill ${passed ? '' : 'failed'}" style="width: ${results.percentage}%"></div>
+                            </div>
+                            <div class="meter-labels">
+                                <span>0%</span>
+                                <span>${TEST_CONFIG.passingPercentage}% to pass</span>
+                                <span>100%</span>
+                            </div>
+                        </div>
+                        
+                        <div class="result-details" style="margin-top: 20px; padding: 15px; background: rgba(255,255,255,0.02); border-radius: 10px;">
+                            <div style="display: flex; justify-content: space-between; margin-bottom: 10px; font-size: 0.9rem;">
+                                <span style="color: var(--text-light);">Questions Answered:</span>
+                                <span style="color: var(--text); font-weight: 600;">${results.answeredQuestions}/${results.totalQuestions}</span>
+                            </div>
+                            <div style="display: flex; justify-content: space-between; font-size: 0.9rem;">
+                                <span style="color: var(--text-light);">Passing Score:</span>
+                                <span style="color: ${passed ? 'var(--success)' : 'var(--danger)'}; font-weight: 600;">${TEST_CONFIG.passingPercentage}%</span>
+                            </div>
+                        </div>
+                    </div>
+                `;
+            }
+            
+            // Show completion view with results
+            function showCompletion() {
+                isTestRunning = false;
+                clearInterval(timerInterval);
+                testView.style.display = 'none';
+                completionView.style.display = 'block';
+                
+                // Calculate results
+                const results = calculateResults();
+                
+                // Update completion view
+                if (results.passed) {
+                    completionTitle.textContent = 'Congratulations!';
+                    completionSubtitle.textContent = 'You passed the Verbal Test';
+                    completionIcon.innerHTML = '<i class="fas fa-trophy"></i>';
+                    
+                    // Show confetti
+                    confetti({
+                        particleCount: isMobile ? 100 : 150,
+                        spread: isMobile ? 60 : 70,
+                        origin: { y: 0.6 }
+                    });
+                    
+                    setTimeout(() => confetti({
+                        particleCount: 80,
+                        angle: 60,
+                        spread: 55,
+                        origin: { x: 0 }
+                    }), 250);
+                    
+                    setTimeout(() => confetti({
+                        particleCount: 80,
+                        angle: 120,
+                        spread: 55,
+                        origin: { x: 1 }
+                    }), 400);
+                } else {
+                    completionTitle.textContent = 'Test Completed';
+                    completionSubtitle.textContent = 'Keep practicing to improve!';
+                    completionIcon.innerHTML = '<i class="fas fa-redo"></i>';
+                }
+                
+                // Insert results HTML
+                resultsContainer.innerHTML = createResultsHTML(results);
+                
+                // Animate the performance meter
+                setTimeout(() => {
+                    const meterFill = document.querySelector('.meter-fill');
+                    if (meterFill) {
+                        // Already set width via style attribute, just trigger animation
+                        meterFill.style.transition = 'width 1s ease';
+                    }
+                }, 100);
+                
+                // Scroll to top
+                setTimeout(scrollToTop, 100);
+            }
+            
+            // Event Listeners
+            startTestBtn.addEventListener('click', async function() {
+                instructionsView.style.display = 'none';
+                testView.style.display = 'block';
+                
+                const initialized = await initTest();
+                if (!initialized) {
+                    instructionsView.style.display = 'block';
+                    testView.style.display = 'none';
+                }
+            });
+            
+            retryBtn.addEventListener('click', function() {
+                completionView.style.display = 'none';
+                testView.style.display = 'block';
+                
+                // Reset completion view
+                completionTitle.textContent = 'Test Completed! 🎉';
+                completionSubtitle.textContent = 'You have successfully completed the Academic Test';
+                completionIcon.innerHTML = '<i class="fas fa-trophy"></i>';
+                
+                // Clear results
+                resultsContainer.innerHTML = '';
+                
+                // Reinitialize test
+                initTest();
+            });
+            
+            homeBtn.addEventListener('click', function() {
+                window.location.href = '../academic-tests.html';
+            });
+            
+            prevBtn.addEventListener('click', prevQuestion);
+            nextBtn.addEventListener('click', nextQuestion);
+            
+            // Keyboard navigation
+            document.addEventListener('keydown', function(e) {
+                if (!isTestRunning) return;
+                
+                if (e.key === 'ArrowLeft') {
+                    prevQuestion();
+                } else if (e.key === 'ArrowRight') {
+                    nextQuestion();
+                } else if (e.key >= '1' && e.key <= '5') {
+                    const optionIndex = parseInt(e.key) - 1;
+                    if (optionIndex < questions[currentQuestionIndex].options.length) {
+                        selectOption(optionIndex);
+                    }
+                }
+            });
+            
+            // Touch optimizations
+            document.addEventListener('touchstart', function() {}, {passive: true});
+        });
+    </script>
+    <script>
+    window.currentPage = 'initials/academic-tests/test2/test2.html';
+</script>
+</body>
+</html>

@@ -1,0 +1,252 @@
+[
+{
+"question": "Who won the 1999 Cricket World Cup?",
+"options": ["Pakistan", "Australia", "South Africa", "India"],
+"correctAnswer": 1
+},
+{
+"question": "At what age did the Prophet (PBUH)'s mother pass away?",
+"options": ["4 years", "8 years", "6 years", "10 years"],
+"correctAnswer": 2
+},
+{
+"question": "What is the currency of Cuba?",
+"options": ["Cuban Peso", "Dollar", "Euro", "Riyal"],
+"correctAnswer": 0
+},
+{
+"question": "Which is the largest lake in the world?",
+"options": ["Lake Superior", "Lake Victoria", "Caspian Sea", "Lake Baikal"],
+"correctAnswer": 2
+},
+{
+"question": "According to the 1962 Constitution, who elects the President?",
+"options": ["National Assembly", "Basic Democracies", "Senate", "Direct Vote"],
+"correctAnswer": 1
+},
+{
+"question": "What is the currency of Sri Lanka?",
+"options": ["Taka", "Rupiah", "Dollar", "Rupee"],
+"correctAnswer": 3
+},
+{
+"question": "What is the capital of Albania?",
+"options": ["Tirana", "Sofia", "Athens", "Rome"],
+"correctAnswer": 0
+},
+{
+"question": "What is the capital of Bulgaria?",
+"options": ["Tirana", "Budapest", "Sofia", "Prague"],
+"correctAnswer": 2
+},
+{
+"question": "What is the national game of Canada?",
+"options": ["Cricket", "Ice Hockey", "Baseball", "Soccer"],
+"correctAnswer": 1
+},
+{
+"question": "What is the number of the current American President (at notes time)?",
+"options": ["44", "45", "47", "46"],
+"correctAnswer": 3
+},
+{
+"question": "Which is the biggest tower in Pakistan?",
+"options": ["MCB Tower", "Bahria Icon Tower", "Ocean Tower", "Centaurus"],
+"correctAnswer": 1
+},
+{
+"question": "What is the currency of Bosnia?",
+"options": ["Bosnia-Herzegovina Convertible Mark", "Euro", "Dinar", "Dollar"],
+"correctAnswer": 0
+},
+{
+"question": "What is the capital of Algeria?",
+"options": ["Constantine", "Annaba", "Algiers", "Oran"],
+"correctAnswer": 2
+},
+{
+"question": "When was the Shimla Conference held?",
+"options": ["1942", "1945", "1944", "1946"],
+"correctAnswer": 1
+},
+{
+"question": "Who was the first President of the Muslim League?",
+"options": ["Quaid-e-Azam", "Liaquat Ali Khan", "Nawab Waqar-ul-Mulk", "Sir Aga Khan"],
+"correctAnswer": 3
+},
+{
+"question": "Which is the deepest lake in the world?",
+"options": ["Lake Baikal", "Caspian Sea", "Lake Superior", "Lake Tanganyika"],
+"correctAnswer": 0
+},
+{
+"question": "Where is Shahi Qila located?",
+"options": ["Karachi", "Peshawar", "Multan", "Lahore"],
+"correctAnswer": 3
+},
+{
+"question": "Who was the President of Pakistan (at the time of notes)?",
+"options": ["Mamnoon Hussain", "Arif Alvi", "Asif Zardari", "Pervez Musharraf"],
+"correctAnswer": 1
+},
+{
+"question": "In which year was the OIC established?",
+"options": ["1965", "1971", "1969", "1974"],
+"correctAnswer": 2
+},
+{
+"question": "What is the total number of members in the EU?",
+"options": ["25", "27", "26", "28"],
+"correctAnswer": 1
+},
+{
+"question": "Who is the President of France (at the time of notes)?",
+"options": ["Emmanuel Macron", "Francois Hollande", "Nicolas Sarkozy", "Jacques Chirac"],
+"correctAnswer": 0
+},
+{
+"question": "Which is famous in coffee production?",
+"options": ["India", "Brazil", "Vietnam", "Colombia"],
+"correctAnswer": 1
+},
+{
+"question": "What was the relationship of Umm-e-Kulsoom with the Prophet (PBUH)?",
+"options": ["Wife", "Sister", "Aunt", "Daughter"],
+"correctAnswer": 3
+},
+{
+"question": "What is the name of the world's shortest river?",
+"options": ["Nile", "Roe River", "Amazon", "Thames"],
+"correctAnswer": 1
+},
+{
+"question": "Hazrat Khalid bin Waleed accepted Islam in which Hijri?",
+"options": ["5 Hijri", "7 Hijri", "6 Hijri", "8 Hijri"],
+"correctAnswer": 2
+},
+{
+"question": "Who was the leader of the kuffar in the Battle of Badr?",
+"options": ["Abu Sufyan", "Abu Jahl", "Abu Lahab", "Utbah"],
+"correctAnswer": 1
+},
+{
+"question": "Which is the world's second largest continent?",
+"options": ["Africa", "Asia", "North America", "Europe"],
+"correctAnswer": 0
+},
+{
+"question": "Which is Pakistan's highest glacier?",
+"options": ["Biafo", "Baltoro", "Siachen", "Batura"],
+"correctAnswer": 2
+},
+{
+"question": "What is the total number of Nishan-e-Haider recipients?",
+"options": ["9", "10", "12", "11"],
+"correctAnswer": 3
+},
+{
+"question": "Where is the headquarters of Human Rights?",
+"options": ["New York", "Geneva", "Paris", "London"],
+"correctAnswer": 1
+},
+{
+"question": "Where is the headquarters of NATO?",
+"options": ["Brussels", "Washington", "London", "Berlin"],
+"correctAnswer": 0
+},
+{
+"question": "Who was the President of the Arab League (at the time)?",
+"options": ["Nabil Elaraby", "Ahmed Abdul Gheit", "Amr Moussa", "Mahmoud Riad"],
+"correctAnswer": 1
+},
+{
+"question": "South Asian Aviation was found in which year?",
+"options": ["1995", "2000", "1998", "2005"],
+"correctAnswer": 2
+},
+{
+"question": "Where did Pakistan play its first test match?",
+"options": ["Karachi", "London", "Mumbai", "Delhi"],
+"correctAnswer": 3
+},
+{
+"question": "Liaquat Ali Khan is also called what title?",
+"options": ["Shaheed-e-Millat", "Quaid-e-Millat", "Baba-e-Qaum", "Madar-e-Millat"],
+"correctAnswer": 0
+},
+{
+"question": "Youm-e-Taqbeer is celebrated on which date?",
+"options": ["23 March", "14 August", "28 May", "6 September"],
+"correctAnswer": 2
+},
+{
+"question": "Who took care of the Prophet (PBUH) in his childhood (foster mother)?",
+"options": ["Hazrat Aminah", "Hazrat Halima", "Hazrat Shifa", "Hazrat Fatima"],
+"correctAnswer": 1
+},
+{
+"question": "What does the word 'Tanzil' mean?",
+"options": ["Rising up", "Moving fast", "Light", "Sending down"],
+"correctAnswer": 3
+},
+{
+"question": "What does 'Zakat' mean?",
+"options": ["To purify/cleanse", "To give", "To pray", "To hide"],
+"correctAnswer": 0
+},
+{
+"question": "On which side of Pakistan is Iran located?",
+"options": ["East", "West", "North", "South"],
+"correctAnswer": 1
+},
+{
+"question": "Hijri calendar started at which AD year?",
+"options": ["571 AD", "610 AD", "622 AD", "632 AD"],
+"correctAnswer": 2
+},
+{
+"question": "What is the currency of Egypt?",
+"options": ["Dinar", "Dirham", "Pound", "Riyal"],
+"correctAnswer": 2
+},
+{
+"question": "Who was the first Prime Minister of Pakistan?",
+"options": ["Nazimuddin", "Liaquat Ali Khan", "Bogra", "Suhrawardy"],
+"correctAnswer": 1
+},
+{
+"question": "What is the coastline of Pakistan?",
+"options": ["800 KM", "950 KM", "1046 KM", "1100 KM"],
+"correctAnswer": 2
+},
+{
+"question": "To which country did the Prophet (PBUH) send Hazrat Muadh as governor?",
+"options": ["Yemen", "Syria", "Iraq", "Egypt"],
+"correctAnswer": 0
+},
+{
+"question": "What does the word 'Badr' mean?",
+"options": ["Sun", "Full Moon", "Star", "Cloud"],
+"correctAnswer": 1
+},
+{
+"question": "What does NFC stand for in Pakistan?",
+"options": ["National Food Corporation", "National Finance Council", "New Finance Center", "National Finance Commission"],
+"correctAnswer": 3
+},
+{
+"question": "When did Quaid-e-Azam join the Indian National Congress?",
+"options": ["1900", "1906", "1913", "1920"],
+"correctAnswer": 1
+},
+{
+"question": "How many obligations (Faraiz) are there in Hajj?",
+"options": ["2", "4", "3", "5"],
+"correctAnswer": 2
+},
+{
+"question": "Where is the headquarters of the IAEA located?",
+"options": ["Vienna", "Geneva", "New York", "Paris"],
+"correctAnswer": 0
+}
+]

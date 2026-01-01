@@ -1,0 +1,422 @@
+[
+  {
+    "question": "Nib is to Pen as Blade is to ___",
+    "options": ["Razor", "Knife", "Steel", "Shapner"],
+    "correctAnswer": 1
+  },
+  {
+    "question": "1 4 10 22 46 ___",
+    "options": ["85", "94", "98", "80"],
+    "correctAnswer": 1
+  },
+  {
+    "question": "Which word is out of list?",
+    "options": ["Ugly", "Foolish", "Selfish", "Dishonest"],
+    "correctAnswer": 0
+  },
+  {
+    "question": "A C F J O ___",
+    "options": ["S", "V", "U", "T"],
+    "correctAnswer": 2
+  },
+  {
+    "question": "1 2 4 8 32 ___",
+    "options": ["64", "96", "56", "80", "48"],
+    "correctAnswer": 0
+  },
+  {
+    "question": "3 9 14 18 21 23 ___",
+    "options": ["28", "26", "24", "27", "25"],
+    "correctAnswer": 2
+  },
+  {
+    "question": "8 10 14 28 30 34 ___",
+    "options": ["75", "73", "68", "72", "71"],
+    "correctAnswer": 2
+  },
+  {
+    "question": "C H L O Q ___",
+    "options": ["R", "S", "T", "X", "Y"],
+    "correctAnswer": 0
+  },
+  {
+    "question": "B D E G H ___",
+    "options": ["O", "I", "F", "J", "K"],
+    "correctAnswer": 3
+  },
+  {
+    "question": "Which word does not belong to the list?",
+    "options": ["Ton", "Ounce", "Pound", "Stone"],
+    "correctAnswer": 3
+  },
+  {
+    "question": "Which choice supplies the answer in the following? If BME = DOG then MLC = ?",
+    "options": ["ONE", "EYE", "TWO", "THREE"],
+    "correctAnswer": 0
+  },
+  {
+    "question": "Sweeper is to Sweep as Washerman is to ______",
+    "options": ["Cloth", "Wash", "Water", "Machine"],
+    "correctAnswer": 1
+  },
+  {
+    "question": "5 7 9 ______",
+    "options": ["11", "15", "12", "17", "21"],
+    "correctAnswer": 0
+  },
+  {
+    "question": "Which one is different from the rest?",
+    "options": ["Advocate", "Judge", "Justice", "Pleader", "Cook"],
+    "correctAnswer": 4
+  },
+  {
+    "question": "2413 2420 2434 2462 2518 ______",
+    "options": ["2630", "2631", "2830", "2635", "2730"],
+    "correctAnswer": 0
+  },
+  {
+    "question": "3 8 14 21 29 38 ______",
+    "options": ["49", "48", "50", "65"],
+    "correctAnswer": 1
+  },
+  {
+    "question": "If LACK = 9381 and CALK = 8391 then CKAL = ?",
+    "options": ["8913", "3819", "8319", "8193", "8139"],
+    "correctAnswer": 4
+  },
+  {
+    "question": "Write the numbers of the two words which have the same relationship as Bird and Cage from:",
+    "options": ["Stable", "Judge", "Horse", "Prisoner", "Court"],
+    "correctAnswer": 0
+  },
+  {
+    "question": "In a class of 60 male and 35 female students 80% class failed in chemistry, 30% in English then which one is true?",
+    "options": ["Only Female are failed", "No Male is failed", "Only Male are failed", "Both students are failed"],
+    "correctAnswer": 3
+  },
+  {
+    "question": "7 49 343 _____",
+    "options": ["14807", "2410", "16807", "16708"],
+    "correctAnswer": 2
+  },
+  {
+    "question": "Which word does not belong to the list?",
+    "options": ["Plate", "Sugar", "Knife", "Dish", "Spoon"],
+    "correctAnswer": 1
+  },
+  {
+    "question": "8 10 6 difference of two _____",
+    "options": ["10", "5", "15", "25"],
+    "correctAnswer": 1
+  },
+  {
+    "question": "Point out the word which is different from others in the group:",
+    "options": ["Dutiful", "Cheerful", "Beautiful", "Handful", "Careful"],
+    "correctAnswer": 3
+  },
+  {
+    "question": "Saw is to Seed as Reap is to ______",
+    "options": ["Crop", "Sunshine", "Rain", "Grain"],
+    "correctAnswer": 0
+  },
+  {
+    "question": "43-1 53-2 74-3 ______",
+    "options": ["84-5", "84-6", "84-4", "83-3"],
+    "correctAnswer": 2
+  },
+  {
+    "question": "3 21 4 22 5 ______",
+    "options": ["23", "10", "6", "24"],
+    "correctAnswer": 0
+  },
+  {
+    "question": "T S R T S R T S ______",
+    "options": ["S", "T", "R", "V", "W"],
+    "correctAnswer": 2
+  },
+  {
+    "question": "2048 1024 512 256 128 64 ______",
+    "options": ["32", "26", "36", "24", "72"],
+    "correctAnswer": 0
+  },
+  {
+    "question": "80 40 20 10 5 5/2 ______",
+    "options": ["5/4", "1/2", "2", "5/8", "2/3"],
+    "correctAnswer": 0
+  },
+  {
+    "question": "Book is to Read as Notebook is to ______",
+    "options": ["Pen", "Write", "Pencil", "Cover"],
+    "correctAnswer": 1
+  },
+  {
+    "question": "Which word does not belong to the list?",
+    "options": ["Mile", "Inch", "Foot", "Yard", "Acre"],
+    "correctAnswer": 4
+  },
+  {
+    "question": "6 7 9 12 16 21 27 34 ___",
+    "options": ["42", "47", "50", "43", "49"],
+    "correctAnswer": 0
+  },
+  {
+    "question": "G F E D ___",
+    "options": ["E", "F", "B", "G", "C"],
+    "correctAnswer": 4
+  },
+  {
+    "question": "Tight is to Loose as Hard is to ___",
+    "options": ["Stone", "Soft", "Difficult", "Carbon"],
+    "correctAnswer": 1
+  },
+  {
+    "question": "If Step is coded as 5631 then Pets is coded as ___",
+    "options": ["3167", "1365", "5163", "5316"],
+    "correctAnswer": 1
+  },
+  {
+    "question": "Which pair of numbers does not belong to this group?",
+    "options": ["16-10", "112-104", "1227-1222", "967-964", "2516-2509"],
+    "correctAnswer": 3
+  },
+  {
+    "question": "Clear is to Foggy as Day is to ___",
+    "options": ["Evening", "Night", "Noon", "Morning"],
+    "correctAnswer": 1
+  },
+  {
+    "question": "11 21 40 77 150 ____",
+    "options": ["294", "295", "290", "395"],
+    "correctAnswer": 1
+  },
+  {
+    "question": "Quran is to Muslim as Bible is to _____",
+    "options": ["Hindu", "Jew", "Sikh", "Christian"],
+    "correctAnswer": 3
+  },
+  {
+    "question": "Listen is to Hear as Look is to _____",
+    "options": ["Watch", "See", "Observe", "Notice"],
+    "correctAnswer": 1
+  },
+  {
+    "question": "Write the middle letter: B C D E F G H",
+    "options": ["D", "E", "C", "F"],
+    "correctAnswer": 1
+  },
+  {
+    "question": "Write number of the pair which is dissimilar to the others in the following:",
+    "options": ["Glass and Milk", "Bottle and Wine", "Radio and Transistor", "Pen and Ink"],
+    "correctAnswer": 2
+  },
+  {
+    "question": "7 11 16 22 26 31 ___",
+    "options": ["32", "34", "36", "37", "39"],
+    "correctAnswer": 3
+  },
+  {
+    "question": "What is the odd term out here?",
+    "options": ["Foot", "Yard", "Centimeter", "Meter", "Square Yard"],
+    "correctAnswer": 4
+  },
+  {
+    "question": "Which one is out of list?",
+    "options": ["Cow", "Goat", "Sheep", "Horse", "Buffalo"],
+    "correctAnswer": 3
+  },
+  {
+    "question": "2 7 24 77 ___",
+    "options": ["144", "236", "238", "99", "77"],
+    "correctAnswer": 2
+  },
+  {
+    "question": "27 25 26 24 25 23 24 22 ___",
+    "options": ["22, 21", "24, 23", "23, 21", "20, 21"],
+    "correctAnswer": 2
+  },
+  {
+    "question": "Lahore is to Punjab as Karachi is to ___",
+    "options": ["KP", "Balochistan", "Sindh", "City"],
+    "correctAnswer": 2
+  },
+  {
+    "question": "Light is to Eye as Sound is to ___",
+    "options": ["Foot", "Ear", "Arm", "Leg"],
+    "correctAnswer": 1
+  },
+  {
+    "question": "If 7+2-1 = H and 22+6-5=W then 11+6-2=?",
+    "options": ["N", "P", "O", "M"],
+    "correctAnswer": 2
+  },
+  {
+    "question": "We wear clothes. (Quote the serial number)",
+    "options": ["To be fashionable", "To keep warm", "To look nice", "because it as a custom to do"],
+    "correctAnswer": 2
+  },
+  {
+    "question": "Which one is different from the rest?",
+    "options": ["December", "Monday", "March", "May"],
+    "correctAnswer": 1
+  },
+  {
+    "question": "If second of the following number is added to the shortest number and divided by the third number then the answer will be: 2 14 4",
+    "options": ["4", "2", "6", "8", "10"],
+    "correctAnswer": 0
+  },
+  {
+    "question": "Rupee is to Pakistan as Yen is to ______",
+    "options": ["Korea", "China", "Japan", "Iran"],
+    "correctAnswer": 2
+  },
+  {
+    "question": "AB DEF HIJK MINOPQ ______",
+    "options": ["STUVXW", "STUVWX", "STUVXZ", "SUTVXW"],
+    "correctAnswer": 1
+  },
+  {
+    "question": "6 11 12 11 18 11 24 11 ___",
+    "options": ["30", "34", "45", "40"],
+    "correctAnswer": 0
+  },
+  {
+    "question": "1/16 1/4 1/2 2 4 16 ___",
+    "options": ["48", "32", "64", "24", "80"],
+    "correctAnswer": 1
+  },
+  {
+    "question": "Adnan was 21 years old in 1945, how old will be he in 1965?",
+    "options": ["41", "43", "65", "45"],
+    "correctAnswer": 0
+  },
+  {
+    "question": "Steel is to Karachi as Hosiery is to ______",
+    "options": ["Hyderabad", "Lahore", "Multan", "Faisalabad"],
+    "correctAnswer": 3
+  },
+  {
+    "question": "Sweep is to Broom as Wash is to ______",
+    "options": ["Soap", "Tub", "Water", "Powder"],
+    "correctAnswer": 0
+  },
+  {
+    "question": "Laughter is to Joy as Tears are to ______",
+    "options": ["Sadness", "Anger", "Happiness", "Sorrow"],
+    "correctAnswer": 3
+  },
+  {
+    "question": "Insert the missing number: 7 14 12 4 12 9 6 24 ?",
+    "options": ["20", "22", "18", "24"],
+    "correctAnswer": 0
+  },
+  {
+    "question": "Pond is to Ocean as Shallow is to ______",
+    "options": ["High", "Deep", "Spot", "Space"],
+    "correctAnswer": 1
+  },
+  {
+    "question": "Knowledge is to Learned as Wealth is to ______",
+    "options": ["Rich", "Spend", "Happy", "Poor"],
+    "correctAnswer": 0
+  },
+  {
+    "question": "Fish is to Water as Animal is to ______",
+    "options": ["Jungle", "Zoo", "Forest", "Land"],
+    "correctAnswer": 3
+  },
+  {
+    "question": "B D G K P ______",
+    "options": ["R", "S", "V", "E"],
+    "correctAnswer": 2
+  },
+  {
+    "question": "Find the odd-man out?",
+    "options": ["Trip", "Pair", "Peer", "Rips"],
+    "correctAnswer": 1
+  },
+  {
+    "question": "King is to Queen as Raja is to ______",
+    "options": ["Princess", "Rani", "Empress", "Woman"],
+    "correctAnswer": 1
+  },
+  {
+    "question": "2 4 12 48 240 ______",
+    "options": ["1440", "1442", "2400", "1220"],
+    "correctAnswer": 0
+  },
+  {
+    "question": "Curse is to Bless as Deny is to ______",
+    "options": ["Permit", "Approval", "Admit", "Refuse"],
+    "correctAnswer": 2
+  },
+  {
+    "question": "R O L I ______",
+    "options": ["G", "D", "F", "E"],
+    "correctAnswer": 2
+  },
+  {
+    "question": "Find the odd-man out.",
+    "options": ["Socrates", "Handel", "Bethoven", "Mozart"],
+    "correctAnswer": 0
+  },
+  {
+    "question": "Insert the missing number. 17 19 ___ 20 15",
+    "options": ["15", "16", "17", "19"],
+    "correctAnswer": 1
+  },
+  {
+    "question": "Find the odd man out?",
+    "options": ["Oslo", "Cairo", "New York", "Madrid"],
+    "correctAnswer": 3
+  },
+  {
+    "question": "D H L P T ___",
+    "options": ["Y", "X", "W", "N"],
+    "correctAnswer": 1
+  },
+  {
+    "question": "Foul is to Hen as Cub is to ___",
+    "options": ["Dog", "Goat", "Lion", "Cat"],
+    "correctAnswer": 2
+  },
+  {
+    "question": "If Murshid is smaller than Azhar, but taller than Aqeel. Who is the tallest of the three?",
+    "options": ["Aqeel", "Murshid", "Azhar"],
+    "correctAnswer": 2
+  },
+  {
+    "question": "6 9 7 10 8 11 ___",
+    "options": ["13", "19", "14", "9"],
+    "correctAnswer": 3
+  },
+  {
+    "question": "Which one is different from the rest?",
+    "options": ["Tiger", "Horse", "Potato", "Sheep"],
+    "correctAnswer": 2
+  },
+  {
+    "question": "F J N R ___",
+    "options": ["U", "X", "W", "V"],
+    "correctAnswer": 3
+  },
+  {
+    "question": "Find the odd man out.",
+    "options": ["Lahore", "Rawalpindi", "Multan", "Sukkur"],
+    "correctAnswer": 3
+  },
+  {
+    "question": "8 12 10 16 12 ___",
+    "options": ["15", "25", "20", "18"],
+    "correctAnswer": 2
+  },
+  {
+    "question": "Find the odd man out.",
+    "options": ["Junk", "Packet", "Rickshaw", "Dhow"],
+    "correctAnswer": 2
+  },
+  {
+    "question": "Find the odd man out.",
+    "options": ["837", "422", "549", "612"],
+    "correctAnswer": 1
+  }
+]

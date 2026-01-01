@@ -1,0 +1,252 @@
+[
+{
+"question": "Who was the army chief at the time of the 1965 war?",
+"options": ["Ayub Khan", "Muhammad Musa", "Yahya Khan", "Tikka Khan"],
+"correctAnswer": 1
+},
+{
+"question": "Who was the first governor of Pakistan?",
+"options": ["Liaquat Ali Khan", "Khawaja Nazimuddin", "Ghulam Muhammad", "Quaid-e-Azam"],
+"correctAnswer": 3
+},
+{
+"question": "Why do we send children to school?",
+"options": ["For grooming", "For playing", "For eating", "For time pass"],
+"correctAnswer": 0
+},
+{
+"question": "Who is the speaker of the Punjab assembly?",
+"options": ["Chaudhry Pervaiz Elahi", "Hamza Shahbaz", "Rana Mashood", "Murad Raas"],
+"correctAnswer": 0
+},
+{
+"question": "Why do we boil milk?",
+"options": ["To make it sweet", "To change color", "To kill germs", "To increase volume"],
+"correctAnswer": 2
+},
+{
+"question": "Who wrote the book Kashf-ul-Mahjoob?",
+"options": ["Baba Farid", "Data Ganj Bakhsh", "Bulleh Shah", "Warish Shah"],
+"correctAnswer": 1
+},
+{
+"question": "Who wrote the book Al-Abida wa al-Nahaya?",
+"options": ["Ibn Khaldun", "Ibn Kathir", "Imam Bukhari", "Al-Tabari"],
+"correctAnswer": 1
+},
+{
+"question": "When was Ghazwa Khyber fought?",
+"options": ["5 Hijri", "6 Hijri", "8 Hijri", "7 Hijri"],
+"correctAnswer": 3
+},
+{
+"question": "Who invented the bulb?",
+"options": ["Nikola Tesla", "Graham Bell", "Thomas Edison", "Albert Einstein"],
+"correctAnswer": 2
+},
+{
+"question": "Who invented the X-ray?",
+"options": ["Wilhelm Roentgen", "Marie Curie", "Isaac Newton", "Niels Bohr"],
+"correctAnswer": 0
+},
+{
+"question": "Where is the Navy headquarters located?",
+"options": ["Karachi", "Lahore", "Islamabad", "Rawalpindi"],
+"correctAnswer": 2
+},
+{
+"question": "Who received the Nishan-e-Haider in 1999?",
+"options": ["Captain Karnal Sher Khan", "Major Aziz Bhatti", "Rashid Minhas", "Sawars Muhammad Hussain"],
+"correctAnswer": 0
+},
+{
+"question": "Who first built the Khana Kaba?",
+"options": ["Hazrat Ibrahim AS", "Hazrat Ismail AS", "Hazrat Adam AS", "Hazrat Muhammad PBUH"],
+"correctAnswer": 2
+},
+{
+"question": "How many Rukus are in the Holy Quran?",
+"options": ["540", "558", "560", "666"],
+"correctAnswer": 1
+},
+{
+"question": "When did the Cripps Mission take place?",
+"options": ["1940", "1942", "1945", "1946"],
+"correctAnswer": 1
+},
+{
+"question": "How many Madni Surahs are in the Quran?",
+"options": ["20", "86", "114", "28"],
+"correctAnswer": 3
+},
+{
+"question": "Which country is known as the Land of the Rising Sun?",
+"options": ["China", "Japan", "Norway", "Australia"],
+"correctAnswer": 1
+},
+{
+"question": "Which city is known as the Manchester of Pakistan?",
+"options": ["Lahore", "Sialkot", "Faisalabad", "Karachi"],
+"correctAnswer": 2
+},
+{
+"question": "When did the Battle of Badr occur?",
+"options": ["1 Hijri", "3 Hijri", "4 Hijri", "2 Hijri"],
+"correctAnswer": 3
+},
+{
+"question": "Who was the commander of the kuffar in the Battle of Uhud?",
+"options": ["Abu Sufyan", "Abu Jahl", "Abu Lahab", "Utbah"],
+"correctAnswer": 0
+},
+{
+"question": "Who received the Nishan-e-Haider at the youngest age?",
+"options": ["Major Shabbir Sharif", "Rashid Minhas", "Captain Sarwar Shaheed", "Lalak Jan"],
+"correctAnswer": 1
+},
+{
+"question": "Who said 'No power on earth can undo Pakistan'?",
+"options": ["Allama Iqbal", "Liaquat Ali Khan", "Quaid-e-Azam", "Fatima Jinnah"],
+"correctAnswer": 2
+},
+{
+"question": "What is the title of Muhammad (PBUH) in the Quran regarding mercy?",
+"options": ["Khatam-un-Nabiyyin", "Rahmat-ul-Alameen", "Al-Amin", "As-Sadiq"],
+"correctAnswer": 1
+},
+{
+"question": "In which year did Pakistan join the OIC?",
+"options": ["1947", "1969", "1965", "1971"],
+"correctAnswer": 1
+},
+{
+"question": "Thimphu is the capital of which country?",
+"options": ["Bhutan", "Nepal", "Thailand", "Vietnam"],
+"correctAnswer": 0
+},
+{
+"question": "What is the title of Hazrat Umar (RA)?",
+"options": ["Siddiq", "Ghani", "Asadullah", "Al-Farooq"],
+"correctAnswer": 3
+},
+{
+"question": "Who was the first test match captain of Pakistan?",
+"options": ["Hanif Mohammad", "Abdul Hafeez Kardar", "Imran Khan", "Fazal Mahmood"],
+"correctAnswer": 1
+},
+{
+"question": "Who has made the most test runs for Pakistan?",
+"options": ["Younis Khan", "Inzamam-ul-Haq", "Javed Miandad", "Mohammad Yousuf"],
+"correctAnswer": 0
+},
+{
+"question": "In which city is Harappa located?",
+"options": ["Larkana", "Sahiwal", "Multan", "Taxila"],
+"correctAnswer": 1
+},
+{
+"question": "Yuan is the currency of which country?",
+"options": ["China", "Japan", "South Korea", "Thailand"],
+"correctAnswer": 0
+},
+{
+"question": "How many daughters did the Prophet Muhammad (PBUH) have?",
+"options": ["Two", "Three", "Four", "Five"],
+"correctAnswer": 2
+},
+{
+"question": "Who is the Speaker of the National Assembly (at the time of notes)?",
+"options": ["Fahmida Mirza", "Ayaz Sadiq", "Raja Pervaiz Ashraf", "Asad Qaiser"],
+"correctAnswer": 3
+},
+{
+"question": "When did the Prophet (PBUH) perform the first Umrah?",
+"options": ["5 Hijri", "7 Hijri", "6 Hijri", "8 Hijri"],
+"correctAnswer": 1
+},
+{
+"question": "Pakistan can be divided into how many geographical divisions?",
+"options": ["3", "4", "6", "5"],
+"correctAnswer": 3
+},
+{
+"question": "On which river is Warsak Dam built?",
+"options": ["Indus River", "Kabul River", "Jhelum River", "Chenab River"],
+"correctAnswer": 1
+},
+{
+"question": "Who was the first President of the Constituent Assembly of Pakistan?",
+"options": ["Quaid-e-Azam", "Liaquat Ali Khan", "Iskander Mirza", "Ayub Khan"],
+"correctAnswer": 0
+},
+{
+"question": "Babusar Pass connects Gilgit with which city?",
+"options": ["Abbottabad", "Chitral", "Skardu", "Peshawar"],
+"correctAnswer": 0
+},
+{
+"question": "What is 90% of 90?",
+"options": ["72", "80", "81", "90"],
+"correctAnswer": 2
+},
+{
+"question": "When did Pakistan become an Islamic Republic?",
+"options": ["14 August 1947", "12 March 1949", "14 August 1973", "23 March 1956"],
+"correctAnswer": 3
+},
+{
+"question": "When was the PTI founded?",
+"options": ["1992", "1994", "1996", "1998"],
+"correctAnswer": 2
+},
+{
+"question": "What is the name of the Pakistan-India border line?",
+"options": ["Durand Line", "McMahon Line", "Redcliff Line", "Line of Control"],
+"correctAnswer": 2
+},
+{
+"question": "When was the UNO founded?",
+"options": ["24 October 1945", "14 August 1945", "1 January 1946", "24 October 1946"],
+"correctAnswer": 0
+},
+{
+"question": "Who was the Federal Health Minister (at the time of notes)?",
+"options": ["Zafar Mirza", "Faisal Sultan", "Aamer Mehmood Kiani", "Abdul Qadir Patel"],
+"correctAnswer": 1
+},
+{
+"question": "When was the WHO founded?",
+"options": ["7 April 1945", "10 December 1948", "7 April 1948", "24 October 1945"],
+"correctAnswer": 2
+},
+{
+"question": "What is the old name of Madina?",
+"options": ["Tayyaba", "Yathrib", "Quba", "Badr"],
+"correctAnswer": 1
+},
+{
+"question": "Khyber Pass joins Pakistan with which country?",
+"options": ["Afghanistan", "China", "India", "Iran"],
+"correctAnswer": 0
+},
+{
+"question": "The 1962 Constitution of Pakistan was of which type?",
+"options": ["Parliamentary", "Monarchy", "Unitary", "Presidential"],
+"correctAnswer": 3
+},
+{
+"question": "What is the second largest export of Pakistan?",
+"options": ["Cotton", "Leather", "Rice", "Sports Goods"],
+"correctAnswer": 2
+},
+{
+"question": "Which is the largest exporting crop of Brazil?",
+"options": ["Coffee", "Sugar", "Corn", "Soybean"],
+"correctAnswer": 3
+},
+{
+"question": "In which year did the Chauri Chaura incident occur?",
+"options": ["1922", "1919", "1920", "1924"],
+"correctAnswer": 0
+}
+]

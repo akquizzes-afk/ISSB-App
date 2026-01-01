@@ -1,0 +1,253 @@
+[
+  {
+    "question": "Who founded the Scientific Society in 1864?",
+    "options": ["Sir Syed Ahmed Khan", "Allama Iqbal", "Maulana Shaukat Ali", "Nawab Mohsin-ul-Mulk"],
+    "correctAnswer": 0
+  },
+  {
+    "question": "In which year did the Jallianwala Bagh tragedy occur?",
+    "options": ["1916", "1919", "1920", "1922"],
+    "correctAnswer": 1
+  },
+  {
+    "question": "Who was the Viceroy of India during the Simla Deputation in 1906?",
+    "options": ["Lord Curzon", "Lord Irwin", "Lord Minto", "Lord Chelmsford"],
+    "correctAnswer": 2
+  },
+  {
+    "question": "In which year was the Lucknow Pact signed?",
+    "options": ["1913", "1914", "1915", "1916"],
+    "correctAnswer": 3
+  },
+  {
+    "question": "Who wrote 'Khutbat-e-Ahmadiya' in reply to William Muir?",
+    "options": ["Sir Syed Ahmed Khan", "Maulana Altaf Hussain Hali", "Shibli Nomani", "Sir Sultan Muhammad Shah"],
+    "correctAnswer": 0
+  },
+  {
+    "question": "When was the Partition of Bengal annulled?",
+    "options": ["1905", "1911", "1912", "1913"],
+    "correctAnswer": 1
+  },
+  {
+    "question": "In which year did Quaid-e-Azam present his Fourteen Points?",
+    "options": ["1927", "1928", "1929", "1930"],
+    "correctAnswer": 2
+  },
+  {
+    "question": "Which movement was started between 1919 and 1923?",
+    "options": ["Quit India Movement", "Civil Disobedience", "Aligarh Movement", "Khilafat Movement"],
+    "correctAnswer": 3
+  },
+  {
+    "question": "When was the Lahore Resolution passed?",
+    "options": ["1940", "1939", "1941", "1942"],
+    "correctAnswer": 0
+  },
+  {
+    "question": "In which year did the Wavell Plan take place?",
+    "options": ["1942", "1945", "1944", "1946"],
+    "correctAnswer": 1
+  },
+  {
+    "question": "When was the 3rd June Plan announced?",
+    "options": ["1946", "1945", "1947", "1948"],
+    "correctAnswer": 2
+  },
+  {
+    "question": "How many districts are there in Punjab according to the notes?",
+    "options": ["28", "32", "30", "36"],
+    "correctAnswer": 3
+  },
+  {
+    "question": "How many districts are in Khyber Pakhtunkhwa (KPK)?",
+    "options": ["26", "28", "30", "32"],
+    "correctAnswer": 0
+  },
+  {
+    "question": "What is the total number of districts in Balochistan?",
+    "options": ["28", "32", "30", "34"],
+    "correctAnswer": 1
+  },
+  {
+    "question": "How many divisions are there in Sindh?",
+    "options": ["3", "4", "5", "6"],
+    "correctAnswer": 2
+  },
+  {
+    "question": "What is the total number of districts in Pakistan as per the document?",
+    "options": ["110", "120", "130", "124"],
+    "correctAnswer": 3
+  },
+  {
+    "question": "Who was the mother of Hazrat Ismail (AS)?",
+    "options": ["Hazrat Hajirah (RA)", "Hazrat Sara", "Hazrat Maryam", "Hazrat Aminah"],
+    "correctAnswer": 0
+  },
+  {
+    "question": "Who wrote 'Sohni Mahiwal'?",
+    "options": ["Waris Shah", "Fazal Shah", "Bulleh Shah", "Hashim Shah"],
+    "correctAnswer": 1
+  },
+  {
+    "question": "Who martyred Hazrat Hamza (RA) in the Battle of Uhud?",
+    "options": ["Abu Sufyan", "Hind bint Utbah", "Wahshi", "Abu Jahl"],
+    "correctAnswer": 2
+  },
+  {
+    "question": "What is the name of the highest military award of the Netherlands?",
+    "options": ["Victoria Cross", "Iron Cross", "Legion of Honour", "Military Order of William"],
+    "correctAnswer": 3
+  },
+  {
+    "question": "Where is the Gulf of Riga located?",
+    "options": ["Baltic Sea", "Red Sea", "Black Sea", "Caspian Sea"],
+    "correctAnswer": 0
+  },
+  {
+    "question": "Hiba Khatoon was a famous poet of which language?",
+    "options": ["Punjabi", "Kashmiri", "Pashto", "Sindhi"],
+    "correctAnswer": 1
+  },
+  {
+    "question": "What is the capital of Belarus?",
+    "options": ["Kiev", "Tirana", "Minsk", "Sofia"],
+    "correctAnswer": 2
+  },
+  {
+    "question": "Which hill is situated in the Chaghi district?",
+    "options": ["Kirthar Hill", "Sulaiman Hill", "Margalla Hill", "Ras Koh Hill"],
+    "correctAnswer": 3
+  },
+  {
+    "question": "What is the height of the Ras Koh hills?",
+    "options": ["3010m", "2500m", "2800m", "3500m"],
+    "correctAnswer": 0
+  },
+  {
+    "question": "The port of Rotterdam is situated in which country?",
+    "options": ["Germany", "Netherlands", "Belgium", "France"],
+    "correctAnswer": 1
+  },
+  {
+    "question": "What is the length of the CPEC route from Kashgar to Gwadar?",
+    "options": ["2000 KM", "2500 KM", "3000 KM", "3500 KM"],
+    "correctAnswer": 2
+  },
+  {
+    "question": "What is the range of the Nasr missile?",
+    "options": ["50 KM", "60 KM", "80 KM", "70 KM"],
+    "correctAnswer": 3
+  },
+  {
+    "question": "Which title is associated with Hazrat Usman Ghani (RA)?",
+    "options": ["Zul-Nurain", "Saifullah", "Siddiq", "Asadullah"],
+    "correctAnswer": 0
+  },
+  {
+    "question": "Who is titled 'Zabihullah'?",
+    "options": ["Hazrat Ishaq (AS)", "Hazrat Ismail (AS)", "Hazrat Ibrahim (AS)", "Hazrat Idrees (AS)"],
+    "correctAnswer": 1
+  },
+  {
+    "question": "Who was titled the 'Desert Fox'?",
+    "options": ["General Montgomery", "General Patton", "General Erwin Rommel", "General Eisenhower"],
+    "correctAnswer": 2
+  },
+  {
+    "question": "Who built the Masjid-e-Zarar to harm Muslims?",
+    "options": ["Abu Sufyan", "Abu Jahl", "Abu Lahab", "Abu Amir"],
+    "correctAnswer": 3
+  },
+  {
+    "question": "In which month and year was Malala Yousafzai awarded the Nobel Peace Prize?",
+    "options": ["October 2014", "October 2013", "December 2014", "December 2013"],
+    "correctAnswer": 0
+  },
+  {
+    "question": "How many sides does a pentagon have?",
+    "options": ["4", "5", "6", "8"],
+    "correctAnswer": 1
+  },
+  {
+    "question": "What is another name for the peak K2?",
+    "options": ["Broad Peak", "Nanga Parbat", "Godwin Austin", "Mount Everest"],
+    "correctAnswer": 2
+  },
+  {
+    "question": "Who was the main opponent of Ayub Khan in the presidential elections?",
+    "options": ["Liaquat Ali Khan", "Zulfiqar Ali Bhutto", "Mujib-ur-Rehman", "Fatima Jinnah"],
+    "correctAnswer": 3
+  },
+  {
+    "question": "Where is the Chashma Nuclear Electric Plant located?",
+    "options": ["Chashma and Kundian", "Multan and Muzaffargarh", "Karachi and Hub", "Lahore and Sheikhupura"],
+    "correctAnswer": 0
+  },
+  {
+    "question": "Which Sahabi served the Holy Prophet (PBUH) for ten years?",
+    "options": ["Hazrat Zaid bin Haris", "Hazrat Anas bin Malik", "Hazrat Abu Hurairah", "Hazrat Bilal"],
+    "correctAnswer": 1
+  },
+  {
+    "question": "What is the Upper House of the Parliament of Pakistan called?",
+    "options": ["National Assembly", "Provincial Assembly", "Senate", "Basic Democracies"],
+    "correctAnswer": 2
+  },
+  {
+    "question": "What was the relationship of Hazrat Safiyah (RA) with the Holy Prophet (PBUH)?",
+    "options": ["Daughter", "Sister", "Aunt", "Wife"],
+    "correctAnswer": 3
+  },
+  {
+    "question": "Which is the highest battlefield in the world?",
+    "options": ["Siachen Glacier", "Karakoram", "Baltoro", "Biafo"],
+    "correctAnswer": 0
+  },
+  {
+    "question": "The movement of people from one place to another for settlement is called:",
+    "options": ["Travel", "Migration", "Tourism", "Exploration"],
+    "correctAnswer": 1
+  },
+  {
+    "question": "How many copies of the Holy Quran were made during the era of Hazrat Usman (RA)?",
+    "options": ["5", "3", "7", "9"],
+    "correctAnswer": 2
+  },
+  {
+    "question": "How many members were in the first Constituent Assembly of Pakistan?",
+    "options": ["50", "100", "80", "69"],
+    "correctAnswer": 3
+  },
+  {
+    "question": "The 2018 general elections in Pakistan were which number of elections?",
+    "options": ["11th", "10th", "12th", "13th"],
+    "correctAnswer": 0
+  },
+  {
+    "question": "On which date did the Quit India Movement begin?",
+    "options": ["14 August 1942", "9 August 1942", "23 March 1942", "1 January 1942"],
+    "correctAnswer": 1
+  },
+  {
+    "question": "From which country is the current Secretary General of the UN?",
+    "options": ["USA", "Germany", "Portugal", "France"],
+    "correctAnswer": 2
+  },
+  {
+    "question": "Where is the Black Mountain located?",
+    "options": ["South Dakota, USA", "Alps, Europe", "Himalayas, Asia", "North America (Dakota)"],
+    "correctAnswer": 3
+  },
+  {
+    "question": "Who was the founder of democracy in Pakistan?",
+    "options": ["Muhammad Ali Jinnah", "Liaquat Ali Khan", "Allama Iqbal", "Ayub Khan"],
+    "correctAnswer": 0
+  },
+  {
+    "question": "Where is the Nari Bolan Dam located?",
+    "options": ["Sindh", "Balochistan", "Punjab", "KPK"],
+    "correctAnswer": 1
+  }
+]
+

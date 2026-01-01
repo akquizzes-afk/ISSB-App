@@ -1,0 +1,426 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Coming Soon - Academic Test</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <script src="https://cdn.jsdelivr.net/npm/canvas-confetti@1.5.1/dist/confetti.browser.min.js"></script>
+<style>
+    * {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    }
+    
+    :root {
+        --primary: #0a1929;
+        --secondary: #0f2e1f;
+        --accent: #10b981;
+        --accent-dark: #059669;
+        --text: #e2e8f0;
+        --text-light: #94a3b8;
+        --card-bg: #152635;
+        --header-bg: rgba(10, 25, 41, 0.95);
+    }
+    
+    body {
+        background: linear-gradient(135deg, var(--primary) 0%, #0a1a14 100%);
+        color: var(--text);
+        line-height: 1.5;
+        min-height: 100vh;
+        padding: 0;
+        position: relative;
+        overflow-x: hidden;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+    
+    .ripple {
+        position: absolute;
+        border-radius: 50%;
+        background: rgba(16, 185, 129, 0.4);
+        transform: scale(0);
+        animation: ripple 0.6s linear;
+        pointer-events: none;
+        z-index: 9999;
+    }
+    
+    @keyframes ripple {
+        to {
+            transform: scale(1.5);
+            opacity: 0;
+        }
+    }
+    
+    .container {
+        max-width: 100%;
+        margin: 0 auto;
+        padding: 20px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        min-height: 100vh;
+    }
+    
+    .page-header {
+        text-align: center;
+        padding: 10px 0;
+        color: white;
+        margin-bottom: 40px;
+        position: relative;
+        overflow: hidden;
+        width: 100%;
+    }
+    
+    .page-title {
+        font-size: 1.8rem;
+        font-weight: 700;
+        margin-top: 20px;
+        margin-bottom: 8px;
+        line-height: 1.2;
+        background: linear-gradient(135deg, #10b981 0%, #22c55e 25%, #16a34a 50%, #15803d 75%, #166534 100%);
+        background-size: 300% 300%;
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
+        background-clip: text;
+        animation: gradientMotion 3s ease infinite;
+    }
+
+    .page-subtitle {
+        font-size: 0.9rem;
+        font-weight: 500;
+        opacity: 0.7;
+        max-width: 90%;
+        margin: 0 auto;
+        line-height: 1.4;
+    }
+
+    @keyframes gradientMotion {
+        0% {
+            background-position: 0% 50%;
+        }
+        50% {
+            background-position: 100% 50%;
+        }
+        100% {
+            background-position: 0% 50%;
+        }
+    }
+    
+    /* COMING SOON CARD DESIGN */
+    .coming-soon-card {
+        background: var(--card-bg);
+        border-radius: 20px;
+        overflow: hidden;
+        box-shadow: 0 15px 35px rgba(0, 0, 0, 0.35);
+        transition: all 0.4s ease;
+        border: 2px solid rgba(16, 185, 129, 0.2);
+        position: relative;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        padding: 50px 40px;
+        text-align: center;
+        max-width: 400px;
+        width: 90%;
+        margin: 0 auto;
+    }
+    
+    .coming-soon-card::before {
+        content: '';
+        position: absolute;
+        top: 0;
+        left: 0;
+        right: 0;
+        height: 6px;
+        background: linear-gradient(90deg, var(--accent) 0%, var(--accent-dark) 100%);
+        transform: scaleX(1);
+    }
+    
+    .coming-soon-card:hover {
+        transform: translateY(-8px);
+        box-shadow: 0 20px 40px rgba(0, 0, 0, 0.45);
+        border-color: rgba(16, 185, 129, 0.35);
+    }
+    
+    .lock-icon {
+        width: 80px;
+        height: 80px;
+        background: linear-gradient(135deg, rgba(16, 185, 129, 0.15) 0%, rgba(5, 150, 105, 0.1) 100%);
+        border-radius: 50%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        margin-bottom: 30px;
+        color: var(--accent);
+        font-size: 2.5rem;
+        animation: pulse 2s infinite;
+    }
+    
+    @keyframes pulse {
+        0% {
+            box-shadow: 0 0 0 0 rgba(16, 185, 129, 0.4);
+        }
+        70% {
+            box-shadow: 0 0 0 15px rgba(16, 185, 129, 0);
+        }
+        100% {
+            box-shadow: 0 0 0 0 rgba(16, 185, 129, 0);
+        }
+    }
+    
+    .coming-soon-title {
+        font-size: 1.8rem;
+        font-weight: 700;
+        color: var(--text);
+        margin-bottom: 15px;
+        background: linear-gradient(135deg, #10b981 0%, #22c55e 100%);
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
+        background-clip: text;
+    }
+    
+    .coming-soon-message {
+        font-size: 1rem;
+        color: var(--text-light);
+        line-height: 1.6;
+        margin-bottom: 25px;
+        max-width: 300px;
+    }
+    
+    .test-info {
+        background: rgba(16, 185, 129, 0.1);
+        border-radius: 12px;
+        padding: 20px;
+        margin-top: 20px;
+        width: 100%;
+        border: 1px solid rgba(16, 185, 129, 0.15);
+    }
+    
+    .test-name {
+        font-size: 1.1rem;
+        font-weight: 600;
+        color: var(--accent);
+        margin-bottom: 10px;
+    }
+    
+    .test-stats {
+        display: flex;
+        justify-content: center;
+        gap: 25px;
+        margin-top: 10px;
+    }
+    
+    .test-stat {
+        display: flex;
+        align-items: center;
+        gap: 8px;
+        font-size: 0.85rem;
+        color: var(--text-light);
+    }
+    
+    .test-stat i {
+        font-size: 0.9rem;
+        color: var(--accent);
+    }
+    
+    .back-btn {
+        position: fixed;
+        top: 20px;
+        left: 20px;
+        background: rgba(16, 185, 129, 0.2);
+        color: var(--accent);
+        width: 40px;
+        height: 40px;
+        border-radius: 50%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        font-size: 1.2rem;
+        cursor: pointer;
+        z-index: 100;
+        border: 1px solid rgba(16, 185, 129, 0.3);
+        transition: all 0.3s ease;
+        text-decoration: none;
+    }
+    
+    .back-btn:hover {
+        background: rgba(16, 185, 129, 0.3);
+        transform: scale(1.1);
+    }
+    
+    footer {
+        text-align: center;
+        margin-top: 50px;
+        padding: 20px;
+        color: var(--text-light);
+        font-size: 0.75rem;
+        border-top: 1px solid rgba(255, 255, 255, 0.05);
+        width: 100%;
+    }
+    
+    @media (min-width: 768px) {
+        .page-title {
+            font-size: 2.2rem;
+        }
+        
+        .page-subtitle {
+            font-size: 1rem;
+            max-width: 70%;
+        }
+        
+        .coming-soon-card {
+            padding: 60px 50px;
+            max-width: 450px;
+        }
+        
+        .lock-icon {
+            width: 100px;
+            height: 100px;
+            font-size: 3rem;
+        }
+        
+        .coming-soon-title {
+            font-size: 2rem;
+        }
+        
+        .coming-soon-message {
+            font-size: 1.1rem;
+        }
+    }
+    
+    @media (max-width: 480px) {
+        .container {
+            padding: 20px 15px;
+        }
+        
+        .page-title {
+            font-size: 1.5rem;
+        }
+        
+        .coming-soon-card {
+            padding: 40px 25px;
+        }
+        
+        .lock-icon {
+            width: 70px;
+            height: 70px;
+            font-size: 2rem;
+        }
+        
+        .coming-soon-title {
+            font-size: 1.5rem;
+        }
+        
+        .coming-soon-message {
+            font-size: 0.95rem;
+        }
+        
+        .test-stats {
+            flex-direction: column;
+            gap: 12px;
+            align-items: center;
+        }
+    }
+
+    *{ 
+        -webkit-tap-highlight-color: transparent;
+    }
+</style>
+</head>
+<body>
+
+<!-- Back Button -->
+<a href="initial-tests.html" class="back-btn">
+    <i class="fas fa-arrow-left"></i>
+</a>
+
+    <!-- Coming Soon Card -->
+    <div class="coming-soon-card">
+        <div class="lock-icon">
+            <i class="fas fa-lock"></i>
+        </div>
+        
+        <div class="coming-soon-title">Coming Soon...</div>
+        
+        <p class="coming-soon-message">
+            This page is coming soon! Hang tight ❤️
+        </p>
+        </div>
+    </div>
+        
+    <footer>
+        <p>&copy; Developed by Ghani with💚</p>
+    </footer>
+</div>
+
+<script>
+    // Initialize when DOM loads
+    document.addEventListener('DOMContentLoaded', function() {
+        
+        // Add subtle animation to card on load
+        const card = document.querySelector('.coming-soon-card');
+        card.style.opacity = '0';
+        card.style.transform = 'translateY(30px)';
+        
+        setTimeout(() => {
+            card.style.transition = 'opacity 0.8s ease, transform 0.8s ease';
+            card.style.opacity = '1';
+            card.style.transform = 'translateY(0)';
+        }, 300);
+        
+        // Add click effect to card
+        card.addEventListener('click', function() {
+            this.style.transform = 'scale(0.98)';
+            setTimeout(() => {
+                this.style.transform = '';
+            }, 150);
+        });
+
+        // Simple Ripple Effect
+        document.addEventListener('click', function(e) {
+            // Create ripple element
+            const ripple = document.createElement('div');
+            ripple.className = 'ripple';
+            
+            // Set position and size
+            const size = 100;
+            const x = e.pageX - size / 2;
+            const y = e.pageY - size / 2;
+            
+            ripple.style.width = size + 'px';
+            ripple.style.height = size + 'px';
+            ripple.style.left = x + 'px';
+            ripple.style.top = y + 'px';
+            
+            // Add to body
+            document.body.appendChild(ripple);
+            
+            // Remove after animation
+            setTimeout(() => {
+                ripple.remove();
+            }, 600);
+        });
+        
+        // Subtle confetti on load
+        setTimeout(() => {
+            confetti({
+                particleCount: 30,
+                spread: 60,
+                origin: { y: 0.6, x: 0.5 },
+                colors: ['#10b981', '#059669', '#047857']
+            });
+        }, 1000);
+    });
+</script>
+<script>
+    window.currentPage = 'coming-soon.html';
+</script>
+
+</body>
+</html>

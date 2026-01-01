@@ -1,0 +1,252 @@
+[
+  {
+    "question": "What is the meaning of the word 'Zakat'?",
+    "options": ["To purify and cleanse", "To give away wealth", "To help the poor", "To pray regularly"],
+    "correctAnswer": 0
+  },
+  {
+    "question": "In which city is the Shahi Qila (Royal Fort) located?",
+    "options": ["Karachi", "Lahore", "Peshawar", "Multan"],
+    "correctAnswer": 1
+  },
+  {
+    "question": "Who was the founder of the Pakistan Tehreek-e-Insaf (PTI)?",
+    "options": ["Shah Mahmood Qureishi", "Asad Umar", "Imran Khan", "Jahangir Tareen"],
+    "correctAnswer": 2
+  },
+  {
+    "question": "Which pass connects Pakistan with Afghanistan?",
+    "options": ["Bolan Pass", "Gomal Pass", "Babusar Pass", "Khyber Pass"],
+    "correctAnswer": 3
+  },
+  {
+    "question": "Who was the first President of the Constituent Assembly of Pakistan?",
+    "options": ["Quaid-e-Azam", "Liaquat Ali Khan", "Iskander Mirza", "Khawaja Nazimuddin"],
+    "correctAnswer": 0
+  },
+  {
+    "question": "What is the old name of the city of Faisalabad?",
+    "options": ["Montgomery", "Lyallpur", "Sandeepur", "Khanewal"],
+    "correctAnswer": 1
+  },
+  {
+    "question": "Which is the largest man-made lake in Pakistan?",
+    "options": ["Manchar Lake", "Hanna Lake", "Keenjhar Lake", "Saif-ul-Malook"],
+    "correctAnswer": 2
+  },
+  {
+    "question": "How many permanent members are in the UN Security Council?",
+    "options": ["10", "15", "20", "5"],
+    "correctAnswer": 3
+  },
+  {
+    "question": "What is the name of the parliament of Japan?",
+    "options": ["The Diet", "The Duma", "The Congress", "The Knesset"],
+    "correctAnswer": 0
+  },
+  {
+    "question": "Which city is known as the 'Manchester of Pakistan'?",
+    "options": ["Lahore", "Faisalabad", "Sialkot", "Gujranwala"],
+    "correctAnswer": 1
+  },
+  {
+    "question": "What is the title of Hazrat Khalid bin Waleed (RA)?",
+    "options": ["Asadullah", "Siddiq", "Saifullah", "Al-Farooq"],
+    "correctAnswer": 2
+  },
+  {
+    "question": "In which year did the Battle of Badr take place?",
+    "options": ["1 Hijri", "3 Hijri", "4 Hijri", "2 Hijri"],
+    "correctAnswer": 3
+  },
+  {
+    "question": "Who was the leader of the Kuffar in the Battle of Uhud?",
+    "options": ["Abu Sufyan", "Abu Jahl", "Abu Lahab", "Utbah bin Rabi'ah"],
+    "correctAnswer": 0
+  },
+  {
+    "question": "What is the currency of Indonesia?",
+    "options": ["Rial", "Rupiah", "Dinar", "Dollar"],
+    "correctAnswer": 1
+  },
+  {
+    "question": "In which city is the Harappa archaeological site located?",
+    "options": ["Larkana", "Taxila", "Sahiwal", "Mohenjo-Daro"],
+    "correctAnswer": 2
+  },
+  {
+    "question": "Who was the army chief during the 1965 war?",
+    "options": ["Ayub Khan", "Yahya Khan", "Tikka Khan", "Muhammad Musa"],
+    "correctAnswer": 3
+  },
+  {
+    "question": "What is the name of the Pakistan-India border line?",
+    "options": ["Redcliff Line", "Durand Line", "McMahon Line", "Line of Control"],
+    "correctAnswer": 0
+  },
+  {
+    "question": "When was the first Martial Law imposed in Pakistan?",
+    "options": ["1956", "1958", "1969", "1977"],
+    "correctAnswer": 1
+  },
+  {
+    "question": "Which country is the second largest continent in the world by area?",
+    "options": ["Asia", "North America", "Africa", "Europe"],
+    "correctAnswer": 2
+  },
+  {
+    "question": "Who was the first Prime Minister of Pakistan?",
+    "options": ["Quaid-e-Azam", "I.I. Chundrigar", "Feroz Khan Noon", "Liaquat Ali Khan"],
+    "correctAnswer": 3
+  },
+  {
+    "question": "What is the length of the coastline of Pakistan?",
+    "options": ["1046 KM", "850 KM", "1200 KM", "990 KM"],
+    "correctAnswer": 0
+  },
+  {
+    "question": "In which year did the British annex Sindh?",
+    "options": ["1839", "1843", "1849", "1857"],
+    "correctAnswer": 1
+  },
+  {
+    "question": "Who is the author of the book 'Kashf-ul-Mahjoob'?",
+    "options": ["Data Ganj Baksh", "Bulleh Shah", "Waris Shah", "Fazal Shah"],
+    "correctAnswer": 0
+  },
+  {
+    "question": "What is the currency of Egypt?",
+    "options": ["Dinar", "Riyal", "Pound", "Dirham"],
+    "correctAnswer": 2
+  },
+  {
+    "question": "Who was the first President of the Muslim League?",
+    "options": ["Sir Aga Khan", "Nawab Salimullah", "Liaquat Ali Khan", "Quaid-e-Azam"],
+    "correctAnswer": 0
+  },
+  {
+    "question": "What is the height of K2 (Godwin Austen)?",
+    "options": ["8848m", "8611m", "8126m", "8000m"],
+    "correctAnswer": 1
+  },
+  {
+    "question": "In which year was the first constitution of Pakistan enacted?",
+    "options": ["1947", "1950", "1956", "1962"],
+    "correctAnswer": 2
+  },
+  {
+    "question": "Which Sahabi is known as 'Zul-Nurain'?",
+    "options": ["Hazrat Abu Bakr", "Hazrat Umar", "Hazrat Ali", "Hazrat Usman"],
+    "correctAnswer": 3
+  },
+  {
+    "question": "What is the capital of Algeria?",
+    "options": ["Algiers", "Tirana", "Sofia", "Bogota"],
+    "correctAnswer": 0
+  },
+  {
+    "question": "Which is the smallest continent in the world?",
+    "options": ["Europe", "Australia", "Antarctica", "South America"],
+    "correctAnswer": 1
+  },
+  {
+    "question": "What is the capital of Bulgaria?",
+    "options": ["Tirana", "Budapest", "Sofia", "Prague"],
+    "correctAnswer": 2
+  },
+  {
+    "question": "In which year did the Chauri Chaura incident occur?",
+    "options": ["1919", "1920", "1924", "1922"],
+    "correctAnswer": 3
+  },
+  {
+    "question": "Who was the first Governor General of Pakistan?",
+    "options": ["Quaid-e-Azam", "Liaquat Ali Khan", "Khawaja Nazimuddin", "Ghulam Muhammad"],
+    "correctAnswer": 0
+  },
+  {
+    "question": "What is the currency of Cuba?",
+    "options": ["Dollar", "Cuban Peso", "Euro", "Riyal"],
+    "correctAnswer": 1
+  },
+  {
+    "question": "In which city is the Data Ganj Bakhsh Darbar located?",
+    "options": ["Multan", "Karachi", "Lahore", "Islamabad"],
+    "correctAnswer": 2
+  },
+  {
+    "question": "Which river is the longest in the world?",
+    "options": ["Amazon", "Yangtze", "Mississippi", "Nile"],
+    "correctAnswer": 3
+  },
+  {
+    "question": "What is the national flower of Pakistan?",
+    "options": ["Jasmine", "Rose", "Tulip", "Lily"],
+    "correctAnswer": 0
+  },
+  {
+    "question": "Who was the commander of the Kuffar in the Battle of Badr?",
+    "options": ["Abu Sufyan", "Abu Jahl", "Abu Lahab", "Utbah"],
+    "correctAnswer": 1
+  },
+  {
+    "question": "What is the total number of Surahs in the Holy Quran?",
+    "options": ["110", "112", "114", "116"],
+    "correctAnswer": 2
+  },
+  {
+    "question": "In which year was the UNO (United Nations Organization) formed?",
+    "options": ["1944", "1946", "1947", "1945"],
+    "correctAnswer": 3
+  },
+  {
+    "question": "Which country is known as the 'Land of Prophets'?",
+    "options": ["Palestine", "Saudi Arabia", "Iraq", "Egypt"],
+    "correctAnswer": 0
+  },
+  {
+    "question": "Who was the first Foreign Minister of Pakistan?",
+    "options": ["Liaquat Ali Khan", "Zafarullah Khan", "Feroz Khan Noon", "Z.A. Bhutto"],
+    "correctAnswer": 1
+  },
+  {
+    "question": "What is the currency of Australia?",
+    "options": ["Pound", "Euro", "Australian Dollar", "Yen"],
+    "correctAnswer": 2
+  },
+  {
+    "question": "In which city is the Nishtar Hospital situated?",
+    "options": ["Lahore", "Faisalabad", "Sialkot", "Multan"],
+    "correctAnswer": 3
+  },
+  {
+    "question": "What is the result of 90% of 90?",
+    "options": ["81", "72", "90", "80"],
+    "correctAnswer": 0
+  },
+  {
+    "question": "Which pass connects Gilgit with Abbottabad?",
+    "options": ["Khyber Pass", "Babusar Pass", "Bolan Pass", "Lowari Pass"],
+    "correctAnswer": 1
+  },
+  {
+    "question": "In which year did Pakistan join the OIC?",
+    "options": ["1947", "1965", "1969", "1971"],
+    "correctAnswer": 2
+  },
+  {
+    "question": "Who was the first Test match captain of Pakistan?",
+    "options": ["Hanif Mohammad", "Imran Khan", "Javed Miandad", "Abdul Hafeez Kardar"],
+    "correctAnswer": 3
+  },
+  {
+    "question": "What is the currency of China?",
+    "options": ["Yuan", "Yen", "Won", "Baht"],
+    "correctAnswer": 0
+  },
+  {
+    "question": "In which year was the OIC established?",
+    "options": ["1970", "1969", "1968", "1967"],
+    "correctAnswer": 1
+  }
+]

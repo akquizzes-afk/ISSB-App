@@ -1,0 +1,252 @@
+[
+{
+"question": "Which angel is also known as Ruhool Qudus?",
+"options": ["Hazrat Israfil", "Hazrat Jibrael AS", "Hazrat Mikael", "Hazrat Izrael"],
+"correctAnswer": 1
+},
+{
+"question": "How many permanent members are in the UN Security Council?",
+"options": ["10", "5", "15", "20"],
+"correctAnswer": 1
+},
+{
+"question": "When did the British annex Sindh?",
+"options": ["1839", "1849", "1843", "1857"],
+"correctAnswer": 2
+},
+{
+"question": "Where is the Shahjahan Mosque located?",
+"options": ["Thatta", "Lahore", "Multan", "Karachi"],
+"correctAnswer": 0
+},
+{
+"question": "Which city of Pakistan is the most populated?",
+"options": ["Lahore", "Faisalabad", "Rawalpindi", "Karachi"],
+"correctAnswer": 3
+},
+{
+"question": "Where is Keenjhar Lake located?",
+"options": ["Larkana", "Thatta Sindh", "Sujawal", "Badin"],
+"correctAnswer": 1
+},
+{
+"question": "Which dam did India build on the Indus River in Jammu Kashmir?",
+"options": ["Baglihar Dam", "Diamer Bhasha Dam", "Kishanganga Dam", "Salal Dam"],
+"correctAnswer": 1
+},
+{
+"question": "Warsak Dam was built with the help of which country?",
+"options": ["Canada", "USA", "China", "UK"],
+"correctAnswer": 0
+},
+{
+"question": "What is the name of the 3rd Surah of the Quran?",
+"options": ["Al-Baqarah", "An-Nisa", "Al-Imran", "Al-Maidah"],
+"correctAnswer": 2
+},
+{
+"question": "In which nabvi year did Namaz become farz?",
+"options": ["8th", "9th", "11th", "10th"],
+"correctAnswer": 3
+},
+{
+"question": "What is the name of the parliament of Japan?",
+"options": ["Congress", "Diet", "Duma", "Knesset"],
+"correctAnswer": 1
+},
+{
+"question": "Which is the largest city of Balochistan area-wise?",
+"options": ["Quetta", "Chaghi", "Gwadar", "Kalat"],
+"correctAnswer": 1
+},
+{
+"question": "Which is the smallest continent in the world?",
+"options": ["Australia", "Europe", "Antarctica", "South America"],
+"correctAnswer": 0
+},
+{
+"question": "Darling is the name of what?",
+"options": ["Mountain", "River", "Desert", "Lake"],
+"correctAnswer": 1
+},
+{
+"question": "The last verse of the Quran is in which Surah?",
+"options": ["Al-Falaq", "Al-Nas", "Al-Ikhlas", "Al-Kauthar"],
+"correctAnswer": 1
+},
+{
+"question": "Multan is famous for being what?",
+"options": ["Land of flowers", "Land of saints", "Land of rivers", "Land of mountains"],
+"correctAnswer": 1
+},
+{
+"question": "Palestine is often referred to as the Land of what?",
+"options": ["Peace", "War", "Prophets", "Olive Trees"],
+"correctAnswer": 2
+},
+{
+"question": "Bulleh Shah was a poet of which language?",
+"options": ["Sindhi", "Punjabi", "Pashto", "Balochi"],
+"correctAnswer": 1
+},
+{
+"question": "Where is Lake Constance located?",
+"options": ["Germany", "France", "Italy", "Austria"],
+"correctAnswer": 0
+},
+{
+"question": "East and West Pakistan was divided after how many years of independence?",
+"options": ["14 years", "24 years", "20 years", "30 years"],
+"correctAnswer": 1
+},
+{
+"question": "In which year was Israel formed?",
+"options": ["1947", "1948", "1949", "1950"],
+"correctAnswer": 1
+},
+{
+"question": "Who was the 2nd Khalifa of Islam?",
+"options": ["Hazrat Abu Bakr", "Hazrat Usman", "Hazrat Ali", "Hazrat Umar"],
+"correctAnswer": 3
+},
+{
+"question": "What is the 2nd pillar of Islam?",
+"options": ["Zakat", "Namaz/Salat", "Fast", "Hajj"],
+"correctAnswer": 1
+},
+{
+"question": "In which Ghazwa was Hazrat Hamza (RA) martyred?",
+"options": ["Badr", "Khandaq", "Uhud", "Khyber"],
+"correctAnswer": 2
+},
+{
+"question": "In which Ghazwa was Abu Jahl killed?",
+"options": ["Badr", "Uhud", "Hunayn", "Tabuk"],
+"correctAnswer": 0
+},
+{
+"question": "Jahangir Khan is the player of which sport?",
+"options": ["Cricket", "Squash", "Hockey", "Football"],
+"correctAnswer": 1
+},
+{
+"question": "Which is the third largest river in the world?",
+"options": ["Yangtze River", "Nile", "Amazon", "Mississippi"],
+"correctAnswer": 0
+},
+{
+"question": "How many months in a year have 31 days?",
+"options": ["5", "6", "8", "7"],
+"correctAnswer": 3
+},
+{
+"question": "Which Surahs are called Muazatain?",
+"options": ["Al-Falaq and Al-Nas", "Al-Baqarah and Al-Imran", "Al-Fatihah and Al-Nas", "Al-Ikhlas and Al-Kauthar"],
+"correctAnswer": 0
+},
+{
+"question": "Which sea is the border of Turkey?",
+"options": ["Red Sea", "Caspian Sea", "Black Sea", "Dead Sea"],
+"correctAnswer": 2
+},
+{
+"question": "Which province is called Babul Islam?",
+"options": ["Punjab", "Sindh", "KPK", "Balochistan"],
+"correctAnswer": 1
+},
+{
+"question": "Who said that 'Friends Not Masters'?",
+"options": ["Ayub Khan", "Zulfiqar Ali Bhutto", "Yahya Khan", "Pervez Musharraf"],
+"correctAnswer": 0
+},
+{
+"question": "What is the result of 2 + 2 / 2?",
+"options": ["2", "3", "4", "1"],
+"correctAnswer": 1
+},
+{
+"question": "Which is the highest pass of Pakistan?",
+"options": ["Khyber Pass", "Bolan Pass", "Khunjerab Pass", "Lowari Pass"],
+"correctAnswer": 2
+},
+{
+"question": "How many Surahs are in the Quran?",
+"options": ["110", "112", "114", "116"],
+"correctAnswer": 2
+},
+{
+"question": "Where is the international aviation authority HQ located?",
+"options": ["Montreal Canada", "Geneva", "Paris", "New York"],
+"correctAnswer": 0
+},
+{
+"question": "In which year were the Olympics cancelled due to war?",
+"options": ["1912", "1914", "1916", "1918"],
+"correctAnswer": 1
+},
+{
+"question": "What is the capital of Colombia?",
+"options": ["Quito", "Bogota", "Lima", "Caracas"],
+"correctAnswer": 1
+},
+{
+"question": "Which gas is on the nuclear surface of the sun?",
+"options": ["Helium", "Oxygen", "Nitrogen", "Hydrogen"],
+"correctAnswer": 3
+},
+{
+"question": "Who is Sardar-ul-Ansaar?",
+"options": ["Hazrat Saad bin Muadh", "Hazrat Muhammad PBUH", "Hazrat Bilal", "Hazrat Hamza"],
+"correctAnswer": 1
+},
+{
+"question": "Which country is called the Cradle of Islam?",
+"options": ["Iraq", "Egypt", "Saudi Arabia", "Jordan"],
+"correctAnswer": 2
+},
+{
+"question": "Year of grief is which nabvi year?",
+"options": ["8th", "9th", "10th", "11th"],
+"correctAnswer": 2
+},
+{
+"question": "In which Surah does Allah swear on time?",
+"options": ["Surah Al-Asr", "Surah Al-Shams", "Surah Al-Fajr", "Surah Al-Duha"],
+"correctAnswer": 1
+},
+{
+"question": "Who was the first foreign minister of Pakistan?",
+"options": ["Zafarullah", "Liaquat Ali Khan", "H.S. Suhrawardy", "I.I. Chundrigar"],
+"correctAnswer": 0
+},
+{
+"question": "Who was the first muazin of Islam?",
+"options": ["Hazrat Abu Bakr", "Hazrat Ali", "Hazrat Bilal RA", "Hazrat Umar"],
+"correctAnswer": 2
+},
+{
+"question": "Who was the first Mughal empire founder?",
+"options": ["Akbar", "Humayun", "Aurangzeb", "Zaheer-ud-din Babar"],
+"correctAnswer": 3
+},
+{
+"question": "What is the Gwadar to Karachi coastal highway length?",
+"options": ["653 KM", "500 KM", "700 KM", "850 KM"],
+"correctAnswer": 0
+},
+{
+"question": "Which Prophet built a boat first?",
+"options": ["Hazrat Adam", "Hazrat Noah", "Hazrat Ibrahim", "Hazrat Musa"],
+"correctAnswer": 1
+},
+{
+"question": "Against whom did Babar fight the first Panipat war?",
+"options": ["Sher Shah Suri", "Prithviraj Chauhan", "Ibrahim Lodhi", "Hemu"],
+"correctAnswer": 2
+},
+{
+"question": "When did Quaid-e-Azam join the Muslim League?",
+"options": ["1906", "1911", "1913", "1920"],
+"correctAnswer": 2
+}
+]

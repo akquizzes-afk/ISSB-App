@@ -1,0 +1,253 @@
+[
+  {
+    "question": "What is the real name of Imam Bukhari?",
+    "options": ["Abu Abdullah Muhammad", "Muslim bin Hajjaj", "Ahmed bin Hanbal", "Malik bin Anas"],
+    "correctAnswer": 0
+  },
+  {
+    "question": "Who wrote 'Sunan-e-Abu Dawood'?",
+    "options": ["Imam Bukhari", "Abu Dawood", "Imam Tirmidhi", "Imam Nasai"],
+    "correctAnswer": 1
+  },
+  {
+    "question": "What does 'Pakistan' mean?",
+    "options": ["Land of Rivers", "Land of Mountains", "Land of Pure People", "Land of Flowers"],
+    "correctAnswer": 2
+  },
+  {
+    "question": "In which province is the Thal Desert located?",
+    "options": ["Sindh", "Balochistan", "KPK", "Punjab"],
+    "correctAnswer": 3
+  },
+  {
+    "question": "Blind dolphins are found in which river of Pakistan?",
+    "options": ["Indus River", "Chenab", "Jhelum", "Ravi"],
+    "correctAnswer": 0
+  },
+  {
+    "question": "Which highest military award of Switzerland is mentioned?",
+    "options": ["No honor system", "Swiss Medal", "Order of the Alps", "Victoria Cross"],
+    "correctAnswer": 1
+  },
+  {
+    "question": "What is the capital of Bahrain?",
+    "options": ["Muscat", "Doha", "Manama", "Kuwait City"],
+    "correctAnswer": 2
+  },
+  {
+    "question": "In which year was the WTO established?",
+    "options": ["1945", "1991", "1985", "1995"],
+    "correctAnswer": 3
+  },
+  {
+    "question": "Who was the first wife of the Holy Prophet (PBUH)?",
+    "options": ["Hazrat Khadija (RA)", "Hazrat Ayesha (RA)", "Hazrat Hafsa (RA)", "Hazrat Sawda (RA)"],
+    "correctAnswer": 0
+  },
+  {
+    "question": "In which mountain range is the Kirthar range located?",
+    "options": ["Himalayas", "Sulaiman Mountain", "Karakoram", "Hindu Kush"],
+    "correctAnswer": 1
+  },
+  {
+    "question": "What is the cube root of unity?",
+    "options": ["0", "-1", "1", "2"],
+    "correctAnswer": 2
+  },
+  {
+    "question": "Where is the Bay of Biscay located?",
+    "options": ["USA/Canada", "UK/Norway", "Italy/Greece", "France/Spain"],
+    "correctAnswer": 3
+  },
+  {
+    "question": "What is the sacred place of Sikhism in Pakistan?",
+    "options": ["Nankana Sahib", "Taxila", "Katas Raj", "Multan"],
+    "correctAnswer": 0
+  },
+  {
+    "question": "What was the religion of Najashi before he accepted Islam?",
+    "options": ["Pagan", "Christianity", "Jewish", "Zoroastrian"],
+    "correctAnswer": 1
+  },
+  {
+    "question": "In which city did the Jallianwala Bagh tragedy take place?",
+    "options": ["Lahore", "Delhi", "Amritsar", "Ludhiana"],
+    "correctAnswer": 2
+  },
+  {
+    "question": "Which country is considered a Baltic country?",
+    "options": ["France", "Spain", "Germany", "Latvia"],
+    "correctAnswer": 3
+  },
+  {
+    "question": "Which party did Jinnah join before the Muslim League?",
+    "options": ["Indian National Congress", "Unionist Party", "Khilafat Party", "Swaraj Party"],
+    "correctAnswer": 0
+  },
+  {
+    "question": "In which year did the War of Independence occur?",
+    "options": ["1885", "1857", "1947", "1905"],
+    "correctAnswer": 1
+  },
+  {
+    "question": "Light year is a unit of what?",
+    "options": ["Time", "Speed", "Distance", "Mass"],
+    "correctAnswer": 2
+  },
+  {
+    "question": "In which year was the partition of Bengal annulled?",
+    "options": ["1905", "1906", "1909", "1911"],
+    "correctAnswer": 3
+  },
+  {
+    "question": "What does the Minto-Morley Reform (1909) refer to?",
+    "options": ["Indian Councils Act", "Montague Act", "Nehru Report", "Lucknow Pact"],
+    "correctAnswer": 0
+  },
+  {
+    "question": "In which year was the Nehru Report presented?",
+    "options": ["1927", "1928", "1929", "1930"],
+    "correctAnswer": 1
+  },
+  {
+    "question": "In which year did the Cripps Mission visit India?",
+    "options": ["1940", "1941", "1942", "1943"],
+    "correctAnswer": 2
+  },
+  {
+    "question": "What is the capital of Indonesia?",
+    "options": ["Bangkok", "Hanoi", "Kuala Lumpur", "Jakarta"],
+    "correctAnswer": 3
+  },
+  {
+    "question": "What is the currency of Indonesia?",
+    "options": ["Indonesian Rupiah", "Yuan", "Yen", "Baht"],
+    "correctAnswer": 0
+  },
+  {
+    "question": "In which year did Pakistan become a world champion in hockey?",
+    "options": ["1992", "1995", "1990", "1994"],
+    "correctAnswer": 1
+  },
+  {
+    "question": "Who wrote 'Sohni Mahiwal'?",
+    "options": ["Waris Shah", "Bulleh Shah", "Fazal Shah", "Hashim Shah"],
+    "correctAnswer": 2
+  },
+  {
+    "question": "Who is the author of 'Kashaf al-Mahjoob'?",
+    "options": ["Baba Farid", "Warish Shah", "Data Ganj Bakhsh", "Hazrat Ali bin Usman"],
+    "correctAnswer": 3
+  },
+  {
+    "question": "Where is the NATO headquarters situated?",
+    "options": ["Brussels", "Paris", "London", "Washington"],
+    "correctAnswer": 0
+  },
+  {
+    "question": "Which wife of the Holy Prophet (PBUH) was the daughter of Hazrat Umar (RA)?",
+    "options": ["Hazrat Ayesha (RA)", "Hazrat Hafsa (RA)", "Hazrat Khadija (RA)", "Hazrat Sawda (RA)"],
+    "correctAnswer": 1
+  },
+  {
+    "question": "What is the old name of Faisalabad?",
+    "options": ["Montgomery", "Sahiwal", "Lyallpur", "Khanewal"],
+    "correctAnswer": 2
+  },
+  {
+    "question": "Who gave the idea of SAARC?",
+    "options": ["Benazir Bhutto", "Indira Gandhi", "Sheikh Mujib", "Zia-ur-Rehman"],
+    "correctAnswer": 3
+  },
+  {
+    "question": "How many books are in the 'Sihah-e-Sitta'?",
+    "options": ["6", "4", "5", "7"],
+    "correctAnswer": 0
+  },
+  {
+    "question": "The x-axis is also known by which name in geometry?",
+    "options": ["Ordinate", "Abscissa", "Origin", "Tangent"],
+    "correctAnswer": 1
+  },
+  {
+    "question": "In which year did Namaz become farz?",
+    "options": ["8 Nabvi", "9 Nabvi", "10 Nabvi", "11 Nabvi"],
+    "correctAnswer": 2
+  },
+  {
+    "question": "Where is the Kala Bagh Dam located?",
+    "options": ["Sindh", "Balochistan", "KPK", "Punjab"],
+    "correctAnswer": 3
+  },
+  {
+    "question": "In which year did the 'Sulah-e-Hudaibiya' take place?",
+    "options": ["6 Hijri", "5 Hijri", "7 Hijri", "8 Hijri"],
+    "correctAnswer": 0
+  },
+  {
+    "question": "What type of government was established by the 1962 Constitution?",
+    "options": ["Parliamentary", "Presidential", "Monarchy", "Unitary"],
+    "correctAnswer": 1
+  },
+  {
+    "question": "In which city is the shrine of Mian Mir located?",
+    "options": ["Multan", "Sahiwal", "Lahore", "Kasur"],
+    "correctAnswer": 2
+  },
+  {
+    "question": "Which three rivers were given to Pakistan in the 1960 Treaty?",
+    "options": ["Ravi, Sutlej, Beas", "Indus, Chenab, Ravi", "Jhelum, Ravi, Chenab", "Indus, Jhelum, Chenab"],
+    "correctAnswer": 3
+  },
+  {
+    "question": "What is the currency of Sri Lanka?",
+    "options": ["Sri Lankan Rupee", "Taka", "Rupiah", "Dollar"],
+    "correctAnswer": 0
+  },
+  {
+    "question": "The 1940 Resolution is also known by what name?",
+    "options": ["Delhi Resolution", "Pakistan Resolution", "Lucknow Resolution", "Simla Resolution"],
+    "correctAnswer": 1
+  },
+  {
+    "question": "Which province of Pakistan borders China?",
+    "options": ["Sindh", "Balochistan", "Gilgit-Baltistan", "KPK"],
+    "correctAnswer": 2
+  },
+  {
+    "question": "What is the capital of Belarus?",
+    "options": ["Kiev", "Tirana", "Sofia", "Minsk"],
+    "correctAnswer": 3
+  },
+  {
+    "question": "Which is the smallest ocean in the world?",
+    "options": ["Arctic Ocean", "Indian Ocean", "Southern Ocean", "Atlantic Ocean"],
+    "correctAnswer": 0
+  },
+  {
+    "question": "In which year was the Lucknow Pact signed?",
+    "options": ["1913", "1916", "1919", "1924"],
+    "correctAnswer": 1
+  },
+  {
+    "question": "What is the length of the River Nile in kilometers?",
+    "options": ["5500", "6000", "6650", "7000"],
+    "correctAnswer": 2
+  },
+  {
+    "question": "The 1962 Constitution of Pakistan was of which type?",
+    "options": ["Parliamentary", "Monarchy", "Unitary", "Presidential"],
+    "correctAnswer": 3
+  },
+  {
+    "question": "Which country is the largest in coffee production?",
+    "options": ["Brazil", "Vietnam", "Colombia", "Ethiopia"],
+    "correctAnswer": 0
+  },
+  {
+    "question": "In which year was the OIC established?",
+    "options": ["1965", "1969", "1971", "1974"],
+    "correctAnswer": 1
+  }
+]
+

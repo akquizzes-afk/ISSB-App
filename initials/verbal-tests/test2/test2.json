@@ -1,0 +1,452 @@
+[
+  {
+    "question": "Monday is to February as Friday is to ______",
+    "options": ["May", "July", "June", "March"],
+    "correctAnswer": 2
+  },
+  {
+    "question": "Gun is to Soldier as ______ is to Blacksmith.",
+    "options": ["Hammer", "Plane", "Nail", "Spaceship"],
+    "correctAnswer": 0
+  },
+  {
+    "question": "Which one is different from the rest?",
+    "options": ["CE", "EG", "AC", "GI", "II"],
+    "correctAnswer": 4
+  },
+  {
+    "question": "Which one is different from the rest?",
+    "options": ["AD", "IL", "QS", "MP", "EH"],
+    "correctAnswer": 2
+  },
+  {
+    "question": "What is the next number in the following series: 4 8 24 96 ___",
+    "options": ["408", "556", "804", "664", "480"],
+    "correctAnswer": 4
+  },
+  {
+    "question": "What will come next in the following series: 17 3 51 19 3 ___",
+    "options": ["3", "57", "48", "75"],
+    "correctAnswer": 1
+  },
+  {
+    "question": "Which one is out of list?",
+    "options": ["Mare", "Fox", "Lass", "Hen"],
+    "correctAnswer": 2
+  },
+  {
+    "question": "What will come next in the following series: A C E ___",
+    "options": ["H", "I", "G", "K"],
+    "correctAnswer": 2
+  },
+  {
+    "question": "Which one is different from the rest?",
+    "options": ["May", "November", "Friday", "August"],
+    "correctAnswer": 2
+  },
+  {
+    "question": "Which one is out of list?",
+    "options": ["Lahore", "Punjab", "Pakistan", "Kabul"],
+    "correctAnswer": 3
+  },
+  {
+    "question": "What will come next in the following series: 8 2 1/2 1/8 ___",
+    "options": ["1/16", "1/64", "1/32", "1/18"],
+    "correctAnswer": 2
+  },
+  {
+    "question": "Which one is different from the rest?",
+    "options": ["Spaceship", "Ship", "Aircraft", "Cycle"],
+    "correctAnswer": 3
+  },
+  {
+    "question": "Which one is different from the rest?",
+    "options": ["DG", "HK", "AC", "LO"],
+    "correctAnswer": 2
+  },
+  {
+    "question": "INK is to PEN as ______ is to Pencil.",
+    "options": ["Lead", "Notebook", "Book", "Knife"],
+    "correctAnswer": 0
+  },
+  {
+    "question": "If Fellow is coded as 465531 then Ellow is coded as",
+    "options": ["13565", "65531", "35651", "16535"],
+    "correctAnswer": 1
+  },
+  {
+    "question": "What will come next in the following series: E,V E,W E,X E,Y ____",
+    "options": ["E,Z", "E,P", "E,W", "E,Q"],
+    "correctAnswer": 0
+  },
+  {
+    "question": "Which one is different from the rest?",
+    "options": ["Mother", "Uncle", "Brother", "Son"],
+    "correctAnswer": 1
+  },
+  {
+    "question": "What letter comes alphabetically in order in the word Drawing?",
+    "options": ["D", "W", "A", "G"],
+    "correctAnswer": 3
+  },
+  {
+    "question": "Which word does not belong to the list?",
+    "options": ["Tiger", "Wolf", "Lamb", "Leopard"],
+    "correctAnswer": 2
+  },
+  {
+    "question": "Which number is out of list?",
+    "options": ["8", "4", "7", "12"],
+    "correctAnswer": 2
+  },
+  {
+    "question": "Bird is to Cage as Prisoner is to ______",
+    "options": ["Pigeon", "Lockup", "Cell", "Lock"],
+    "correctAnswer": 2
+  },
+  {
+    "question": "Which word does not belong to the list?",
+    "options": ["Handful", "Beautiful", "Careful", "Dutiful", "Cheerful"],
+    "correctAnswer": 0
+  },
+  {
+    "question": "Which word is out of list?",
+    "options": ["Liquid", "Oil", "Water", "Petrol"],
+    "correctAnswer": 0
+  },
+  {
+    "question": "Which word is out of list?",
+    "options": ["String", "Guitar", "Piano", "Banjo"],
+    "correctAnswer": 0
+  },
+  {
+    "question": "What will come next in the following series: BY CX DW EV FU ___",
+    "options": ["GT", "TG", "GO", "TS"],
+    "correctAnswer": 0
+  },
+  {
+    "question": "A is father of B but is not A's son, what is relationship of B to A?",
+    "options": ["Uncle", "Cousin", "Father", "Daughter"],
+    "correctAnswer": 3
+  },
+  {
+    "question": "Essence is to Flower as ______ is to Oven.",
+    "options": ["Heat", "Vapour", "Steam", "Ice"],
+    "correctAnswer": 0
+  },
+  {
+    "question": "My mother is sister of your brother. What relation am I to you?",
+    "options": ["Cousin", "Nephew", "Brother", "Uncle"],
+    "correctAnswer": 1
+  },
+  {
+    "question": "Which one is out of list?",
+    "options": ["Buffalo", "Goat", "Sheep", "Cow", "Horse"],
+    "correctAnswer": 4
+  },
+  {
+    "question": "What will come next? 16 12 28 8 4 ____",
+    "options": ["12", "4", "2", "40"],
+    "correctAnswer": 0
+  },
+  {
+    "question": "Write next number: 62 31 34 17 20 ____",
+    "options": ["9", "8", "10", "6"],
+    "correctAnswer": 2
+  },
+  {
+    "question": "Which word is out of list?",
+    "options": ["Radius", "Arc", "Diameter", "Circumference", "Diagonal"],
+    "correctAnswer": 4
+  },
+  {
+    "question": "If Sunday dawned three days before Yesterday what day will dawn two days after Tomorrow?",
+    "options": ["Sunday", "Monday", "Saturday", "Tuesday"],
+    "correctAnswer": 3
+  },
+  {
+    "question": "Spot out the stranger in the following:",
+    "options": ["Godly", "Holy", "Pious", "Atheist"],
+    "correctAnswer": 3
+  },
+  {
+    "question": "What number comes next in the series: 13 15 17 19 21 ___",
+    "options": ["23", "24", "26", "20"],
+    "correctAnswer": 0
+  },
+  {
+    "question": "Fly is to Aeroplane as Sail is to _____",
+    "options": ["Ship", "Cabin", "Ocean", "Sea"],
+    "correctAnswer": 0
+  },
+  {
+    "question": "Write next two numbers: 5 3 6 4 7 5 8 6 ___",
+    "options": ["9,7", "9,5", "8,10", "7,5"],
+    "correctAnswer": 0
+  },
+  {
+    "question": "Finger is to Elbow as Toe is to _____",
+    "options": ["Ankle", "Arm", "Knee", "Foot"],
+    "correctAnswer": 2
+  },
+  {
+    "question": "Meat is to Vegetarian as _____ is to Teetotaller.",
+    "options": ["Mutton", "Liquor", "Vegetable", "Fruit"],
+    "correctAnswer": 1
+  },
+  {
+    "question": "If Box is coded as CDPQYZ, how would you write Coat in code?",
+    "options": ["PQDEBCUV", "UVDEPQBC", "BCPQDEUV", "DEPQBCUV"],
+    "correctAnswer": 3
+  },
+  {
+    "question": "What will come next in the following series: 10 20 30 40 50 ___",
+    "options": ["85", "55", "90", "60", "80"],
+    "correctAnswer": 3
+  },
+  {
+    "question": "20 25 23 28 26 31 29 34 ___",
+    "options": ["43", "32", "30", "33", "31"],
+    "correctAnswer": 1
+  },
+  {
+    "question": "E G X F X H J X I X K M X L X ___",
+    "options": ["M", "N", "O", "P"],
+    "correctAnswer": 1
+  },
+  {
+    "question": "Which word is out of list?",
+    "options": ["Failure", "Student", "Examination", "Cure"],
+    "correctAnswer": 3
+  },
+  {
+    "question": "4 12 36 108 ___",
+    "options": ["224", "124", "324", "424"],
+    "correctAnswer": 2
+  },
+  {
+    "question": "17 35 72 147 ___",
+    "options": ["298", "294", "198", "892"],
+    "correctAnswer": 0
+  },
+  {
+    "question": "Wag is to Dullard as Idiot is to ______",
+    "options": ["Clever", "Healthy", "Heartly", "Foolish"],
+    "correctAnswer": 2
+  },
+  {
+    "question": "Free is to Imprison as Forgive is to ______",
+    "options": ["Accuse", "Punish", "Accept", "Condemn"],
+    "correctAnswer": 1
+  },
+  {
+    "question": "Which word is out of list?",
+    "options": ["Fad", "Hat", "Far", "Kit"],
+    "correctAnswer": 3
+  },
+  {
+    "question": "10 50 250 1250 ______",
+    "options": ["6250", "2500", "5169", "5012", "3750"],
+    "correctAnswer": 0
+  },
+  {
+    "question": "Which one is different from the rest?",
+    "options": ["Yellow", "Red", "Blue", "Chair", "Green"],
+    "correctAnswer": 3
+  },
+  {
+    "question": "Single is to Double as One is to ______",
+    "options": ["Two", "Three", "Ten", "Twice", "Zero"],
+    "correctAnswer": 0
+  },
+  {
+    "question": "17 23 30 38 ______",
+    "options": ["45", "47", "48", "46"],
+    "correctAnswer": 2
+  },
+  {
+    "question": "64 32 16 8 4 2 __",
+    "options": ["1/2", "1", "1/4", "1/8"],
+    "correctAnswer": 1
+  },
+  {
+    "question": "5 9 17 33 ___",
+    "options": ["66", "74", "71", "114", "65"],
+    "correctAnswer": 1
+  },
+  {
+    "question": "2 90 4 80 6 70 8 60 ___",
+    "options": ["10,12", "10,50", "12,52", "50,10", "12,50"],
+    "correctAnswer": 1
+  },
+  {
+    "question": "11 8 16 17 14 28 ___",
+    "options": ["20", "29", "30", "32"],
+    "correctAnswer": 1
+  },
+  {
+    "question": "1 10 19 28 ___",
+    "options": ["24", "37", "26", "28", "25"],
+    "correctAnswer": 1
+  },
+  {
+    "question": "120 108 97 87 78 ___",
+    "options": ["70", "45", "85", "80"],
+    "correctAnswer": 0
+  },
+  {
+    "question": "Book is to Title as Man is to ___",
+    "options": ["Girl", "Sir", "Woman", "Name"],
+    "correctAnswer": 3
+  },
+  {
+    "question": "49 48 45 40 33 24 ___",
+    "options": ["23", "13", "33", "25"],
+    "correctAnswer": 1
+  },
+  {
+    "question": "Saw is to Seed as Reap is to ______",
+    "options": ["Sunshine", "Grain", "Rain", "Crop"],
+    "correctAnswer": 3
+  },
+  {
+    "question": "Fish is to Swimming as Snake is to ______",
+    "options": ["Puppy", "Creeping", "Crawling", "Jump"],
+    "correctAnswer": 2
+  },
+  {
+    "question": "Which word does not belong to the list?",
+    "options": ["Necktie", "Coat", "Shirt", "Trousers", "Boot"],
+    "correctAnswer": 0
+  },
+  {
+    "question": "3 4 10 11 17 18 ___",
+    "options": ["25", "24", "19", "20"],
+    "correctAnswer": 1
+  },
+  {
+    "question": "8 7 6 5 4 3 ___",
+    "options": ["2", "1", "0", "None of these"],
+    "correctAnswer": 0
+  },
+  {
+    "question": "Light is to Eye as Sound is to ______",
+    "options": ["Ear", "Foot", "Leg", "Hand"],
+    "correctAnswer": 0
+  },
+  {
+    "question": "Girls wear glasses because:",
+    "options": ["They want to show off", "They have to go outside", "They want to look smart", "They have poor eyesight"],
+    "correctAnswer": 2
+  },
+  {
+    "question": "Which one is different from the rest?",
+    "options": ["Sure", "Vague", "True", "Certain"],
+    "correctAnswer": 1
+  },
+  {
+    "question": "1 4 9 16 25 36 ___",
+    "options": ["39", "46", "49", "45"],
+    "correctAnswer": 2
+  },
+  {
+    "question": "Which one of the following is different from the rest?",
+    "options": ["Five", "Twenty", "Two", "Four"],
+    "correctAnswer": 1
+  },
+  {
+    "question": "If Step is coded as 3165 then Pets is coded as ___",
+    "options": ["3165", "1635", "5613", "3156"],
+    "correctAnswer": 2
+  },
+  {
+    "question": "Looking on a portrait, a man said, that man's father is my father's son, I have no brother and sister. What is He to Me?",
+    "options": ["Uncle", "Own Picture", "Cousin", "Brother"],
+    "correctAnswer": 1
+  },
+  {
+    "question": "4 6 8 10 12 ___",
+    "options": ["22", "16", "14", "10"],
+    "correctAnswer": 2
+  },
+  {
+    "question": "B D G K P ___",
+    "options": ["E", "R", "V", "S"],
+    "correctAnswer": 2
+  },
+  {
+    "question": "If Sheep is to Wool as Cat is to ______",
+    "options": ["Bitch", "Fur", "Camel", "Dog"],
+    "correctAnswer": 1
+  },
+  {
+    "question": "2 9 14 21 26 ______",
+    "options": ["38", "31", "28", "33"],
+    "correctAnswer": 3
+  },
+  {
+    "question": "53 48 50 45 47 ______",
+    "options": ["54", "39", "76", "69", "42"],
+    "correctAnswer": 4
+  },
+  {
+    "question": "If 1800 O'clock is to 6 O'clock then 1400 O'clock is to ______ O'clock.",
+    "options": ["3", "7", "2", "4"],
+    "correctAnswer": 2
+  },
+  {
+    "question": "Saw is to Cut as Iron is to ______",
+    "options": ["Hard", "Metal", "Press", "Oven"],
+    "correctAnswer": 2
+  },
+  {
+    "question": "Which one is different from the rest?",
+    "options": ["Sword", "Fork", "Dagger", "Knife"],
+    "correctAnswer": 1
+  },
+  {
+    "question": "Bulb is to Current as Lamp is to ______",
+    "options": ["Oil", "Fuel", "Light", "Table"],
+    "correctAnswer": 0
+  },
+  {
+    "question": "Which one is different from the rest?",
+    "options": ["CE", "EG", "JJ", "GI", "AC"],
+    "correctAnswer": 2
+  },
+  {
+    "question": "What number comes next in the series: 4³-9/8 24 19¹⁰-3/10 ?",
+    "options": ["40", "46", "48", "44", "42"],
+    "correctAnswer": 4
+  },
+  {
+    "question": "If Shoe is to Foot then Helmet is to ______",
+    "options": ["Steel", "Baseball", "Head", "Combat", "Heavy"],
+    "correctAnswer": 2
+  },
+  {
+    "question": "2 6 12 36 72 216 ___",
+    "options": ["648", "403", "376", "432", "288"],
+    "correctAnswer": 3
+  },
+  {
+    "question": "20 33 46 ___",
+    "options": ["52", "56", "59", "49"],
+    "correctAnswer": 2
+  },
+  {
+    "question": "10 18 20 21 30 ___",
+    "options": ["24", "40", "41", "31"],
+    "correctAnswer": 0
+  },
+  {
+    "question": "7 8 6 7 5 6 ___",
+    "options": ["3", "4", "8", "5", "2"],
+    "correctAnswer": 1
+  },
+  {
+    "question": "Hot is to Burn and Cold is to ___",
+    "options": ["Freeze", "Oven", "Stream", "Iron"],
+    "correctAnswer": 0
+  }
+]

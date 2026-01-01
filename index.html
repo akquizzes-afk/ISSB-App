@@ -425,6 +425,94 @@
             flex: 1;
         }
 
+        /* Prayer Popup Styles */
+        .prayer-popup-overlay {
+            position: fixed;
+            top: 0;
+            left: 0;
+            right: 0;
+            bottom: 0;
+            background: rgba(10, 25, 41, 0.95);
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            z-index: 3000;
+            opacity: 0;
+            visibility: hidden;
+            transition: all 0.5s ease;
+        }
+        
+        .prayer-popup-overlay.active {
+            opacity: 1;
+            visibility: visible;
+        }
+        
+        .prayer-popup {
+            background: var(--card-bg);
+            border-radius: 20px;
+            width: 90%;
+            max-width: 400px;
+            overflow: hidden;
+            box-shadow: 0 25px 60px rgba(0, 0, 0, 0.6);
+            transform: scale(0.8) translateY(20px);
+            transition: all 0.5s ease;
+            border: 2px solid rgba(16, 185, 129, 0.3);
+        }
+        
+        .prayer-popup-overlay.active .prayer-popup {
+            transform: scale(1) translateY(0);
+        }
+        
+        .prayer-popup-header {
+            padding: 30px 25px 20px;
+            background: linear-gradient(135deg, var(--accent) 0%, var(--accent-dark) 100%);
+            color: white;
+            text-align: center;
+            position: relative;
+            overflow: hidden;
+        }
+        
+        .prayer-popup-header::before {
+            content: '';
+            position: absolute;
+            top: 0;
+            left: 0;
+            right: 0;
+            bottom: 0;
+            background: url("data:image/svg+xml,%3Csvg width='100' height='100' viewBox='0 0 100 100' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath d='M11 18c3.866 0 7-3.134 7-7s-3.134-7-7-7-7 3.134-7 7 3.134 7 7 7zm48 25c3.866 0 7-3.134 7-7s-3.134-7-7-7-7 3.134-7 7 3.134 7 7 7zm-43-7c1.657 0 3-1.343 3-3s-1.343-3-3-3-3 1.343-3 3 1.343 3 3 3zm63 31c1.657 0 3-1.343 3-3s-1.343-3-3-3-3 1.343-3 3 1.343 3 3 3zM34 90c1.657 0 3-1.343 3-3s-1.343-3-3-3-3 1.343-3 3 1.343 3 3 3zm56-76c1.657 0 3-1.343 3-3s-1.343-3-3-3-3 1.343-3 3 1.343 3 3 3zM12 86c2.21 0 4-1.79 4-4s-1.79-4-4-4-4 1.79-4 4 1.79 4 4 4zm28-65c2.21 0 4-1.79 4-4s-1.79-4-4-4-4 1.79-4 4 1.79 4 4 4zm23-11c2.76 0 5-2.24 5-5s-2.24-5-5-5-5 2.24-5 5 2.24 5 5 5zm-6 60c2.21 0 4-1.79 4-4s-1.79-4-4-4-4 1.79-4 4 1.79 4 4 4zm29 22c2.76 0 5-2.24 5-5s-2.24-5-5-5-5 2.24-5 5 2.24 5 5 5zM32 63c2.76 0 5-2.24 5-5s-2.24-5-5-5-5 2.24-5 5 2.24 5 5 5zm57-13c2.76 0 5-2.24 5-5s-2.24-5-5-5-5 2.24-5 5 2.24 5 5 5zm-9-21c1.105 0 2-.895 2-2s-.895-2-2-2-2 .895-2 2 .895 2 2 2zM60 91c1.105 0 2-.895 2-2s-.895-2-2-2-2 .895-2 2 .895 2 2 2zM35 41c1.105 0 2-.895 2-2s-.895-2-2-2-2 .895-2 2 .895 2 2 2zM12 60c1.105 0 2-.895 2-2s-.895-2-2-2-2 .895-2 2 .895 2 2 2z' fill='%23ffffff' fill-opacity='0.1' fill-rule='evenodd'/%3E%3C/svg%3E");
+            opacity: 0.3;
+        }
+        
+        .prayer-popup-header h3 {
+            font-size: 1.5rem;
+            font-weight: 700;
+            margin-bottom: 8px;
+            position: relative;
+        }
+        
+        .prayer-popup-header p {
+            font-size: 0.9rem;
+            opacity: 0.9;
+            position: relative;
+        }
+        
+        .prayer-popup-body {
+            padding: 25px;
+        }
+        
+        .prayer-message {
+            color: var(--text-light);
+            font-size: 1rem;
+            line-height: 1.6;
+            margin-bottom: 25px;
+            text-align: center;
+        }
+
+        .prayer-popup-footer {
+            display: flex;
+            gap: 12px;
+        }
+
         *{ 
             -webkit-tap-highlight-color: transparent;
         }
@@ -447,6 +535,25 @@
                 <div class="welcome-popup-footer">
                     <button class="btn btn-full" id="saveUserNameBtn">
                         <i class="fas fa-heart"></i> Let's Start!
+                    </button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Prayer Popup (Shows after welcome popup on first visit) -->
+    <div class="prayer-popup-overlay" id="prayerPopup">
+        <div class="prayer-popup">
+            <div class="prayer-popup-header">
+                <h3>Pray for Me 🤲🏻📿</h3>
+            </div>
+            <div class="prayer-popup-body">
+                <div class="prayer-message">
+                    <p>Assalamualaikum Gentlemen! I am Ghani, the developer of this app. This is a free and open source app. I do need your prayers a lot. Please pray for me. Your prayers mean the world to me. 🫀🙏</p>
+                </div>
+                <div class="prayer-popup-footer">
+                    <button class="btn btn-full" id="prayerBtn">
+                        <i class="fas fa-heart"></i> May God Bless You ❤️
                     </button>
                 </div>
             </div>
@@ -477,8 +584,21 @@
     </div>
 </div>
 
-        <div class="cards-container">
+      <div class="cards-container">
             <!-- Your existing cards (WAT Test, Picture Story, etc.) -->
+            <div class="card">
+                <div class="card-header">
+                    <i class="fas fa-computer"></i>
+                    <h2>Initial Tests</h2>
+                </div>
+                <div class="card-body">
+                    <p>The Initial tests are taken before ISSB to check the candidates IQ and academic eligibility for ISSB. Total 3 tests are taken.</p>
+                    <a href="initials/initial-tests.html" class="btn">
+                        <i class="fas fa-play-circle"></i>
+                        Open Tests
+                    </a>
+                </div>
+            </div>
             <div class="card">
                 <div class="card-header">
                     <i class="fas fa-comment-dots"></i>
@@ -572,17 +692,21 @@
     // User Name Management
     const USER_NAME_KEY = 'ghani_user_name';
     const HAS_VISITED_KEY = 'ghani_has_visited';
-
-    // Initialize app when DOM loads
+    const PRAYER_SHOWN_KEY = 'ghani_prayer_shown';
+    
+     // Initialize app when DOM loads
     document.addEventListener('DOMContentLoaded', function() {
         // Check if this is first visit
         const hasVisited = localStorage.getItem(HAS_VISITED_KEY);
         const userName = localStorage.getItem(USER_NAME_KEY);
+        const prayerShown = localStorage.getItem(PRAYER_SHOWN_KEY);
         
         // DOM Elements
         const welcomePopup = document.getElementById('welcomePopup');
+        const prayerPopup = document.getElementById('prayerPopup');
         const userNameInput = document.getElementById('userNameInput');
         const saveUserNameBtn = document.getElementById('saveUserNameBtn');
+        const prayerBtn = document.getElementById('prayerBtn');
         const userNameWithExclamation = document.getElementById('userNameWithExclamation');
         
         // Show welcome popup on first visit
@@ -594,6 +718,13 @@
         } else {
             // Update welcome message with user's name
             updateWelcomeMessage(userName);
+            
+            // Show prayer popup if not shown before
+            if (!prayerShown) {
+                setTimeout(() => {
+                    prayerPopup.classList.add('active');
+                }, 500);
+            }
         }
         
         // Save user name
@@ -605,14 +736,10 @@
                 updateWelcomeMessage(name);
                 welcomePopup.classList.remove('active');
                 
-                // Add celebration effect
-                if (window.confetti) {
-                    confetti({
-                        particleCount: 100,
-                        spread: 70,
-                        origin: { y: 0.6 }
-                    });
-                }
+                // Show prayer popup after welcome popup
+                setTimeout(() => {
+                    prayerPopup.classList.add('active');
+                }, 300);
             } else {
                 userNameInput.focus();
                 userNameInput.placeholder = "Please enter your name...";
@@ -626,7 +753,40 @@
             }
         });
         
-              // Add subtle animation to cards on load
+        // Prayer button click handler
+        prayerBtn.addEventListener('click', function() {
+            // Mark prayer as shown
+            localStorage.setItem(PRAYER_SHOWN_KEY, 'true');
+            
+            // Close prayer popup
+            prayerPopup.classList.remove('active');
+            
+            // Show confetti
+            if (window.confetti) {
+                confetti({
+                    particleCount: 150,
+                    spread: 70,
+                    origin: { y: 0.6 }
+                });
+                
+                // Additional confetti
+                setTimeout(() => confetti({
+                    particleCount: 100,
+                    angle: 60,
+                    spread: 55,
+                    origin: { x: 0 }
+                }), 250);
+                
+                setTimeout(() => confetti({
+                    particleCount: 100,
+                    angle: 120,
+                    spread: 55,
+                    origin: { x: 1 }
+                }), 400);
+            }
+        });
+        
+        // Add subtle animation to cards on load
         const cards = document.querySelectorAll('.card');
         cards.forEach((card, index) => {
             card.style.opacity = '0';

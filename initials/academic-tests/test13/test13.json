@@ -1,0 +1,252 @@
+[
+  {
+    "question": "Which is the largest state in the USA by area?",
+    "options": ["Alaska", "Texas", "California", "Montana"],
+    "correctAnswer": 0
+  },
+  {
+    "question": "Who was the primary architect of the Indian Constitution?",
+    "options": ["Mahatma Gandhi", "B.R. Ambedkar", "Jawaharlal Nehru", "Sardar Patel"],
+    "correctAnswer": 1
+  },
+  {
+    "question": "Which is the deepest part of the Atlantic Ocean?",
+    "options": ["Mariana Trench", "Java Trench", "Puerto Rico Trench", "South Sandwich Trench"],
+    "correctAnswer": 2
+  },
+  {
+    "question": "Who was the first woman to win a Nobel Prize in two different fields?",
+    "options": ["Mother Teresa", "Gerty Cori", "Irène Joliot-Curie", "Marie Curie"],
+    "correctAnswer": 3
+  },
+  {
+    "question": "What is the capital of Kenya?",
+    "options": ["Nairobi", "Mombasa", "Kisumu", "Nakuru"],
+    "correctAnswer": 0
+  },
+  {
+    "question": "Who was the first president of South Africa after apartheid?",
+    "options": ["F.W. de Klerk", "Nelson Mandela", "Thabo Mbeki", "Jacob Zuma"],
+    "correctAnswer": 1
+  },
+  {
+    "question": "Which is the largest island in the world?",
+    "options": ["Borneo", "New Guinea", "Greenland", "Madagascar"],
+    "correctAnswer": 2
+  },
+  {
+    "question": "Who was the founder of the Mongol Empire?",
+    "options": ["Kublai Khan", "Tamerlane", "Batu Khan", "Genghis Khan"],
+    "correctAnswer": 3
+  },
+  {
+    "question": "What is the capital of Finland?",
+    "options": ["Helsinki", "Tampere", "Turku", "Oulu"],
+    "correctAnswer": 0
+  },
+  {
+    "question": "Who was the first woman prime minister of the United Kingdom?",
+    "options": ["Theresa May", "Margaret Thatcher", "Liz Truss", "Angela Merkel"],
+    "correctAnswer": 1
+  },
+  {
+    "question": "Which is the longest river in Europe?",
+    "options": ["Danube", "Rhine", "Volga", "Elbe"],
+    "correctAnswer": 2
+  },
+  {
+    "question": "Who was the first president of independent India?",
+    "options": ["Jawaharlal Nehru", "Sarvepalli Radhakrishnan", "Zakir Husain", "Rajendra Prasad"],
+    "correctAnswer": 3
+  },
+  {
+    "question": "What is the capital of Austria?",
+    "options": ["Vienna", "Salzburg", "Graz", "Innsbruck"],
+    "correctAnswer": 0
+  },
+  {
+    "question": "Who was the first person to circumnavigate the globe?",
+    "options": ["Christopher Columbus", "Ferdinand Magellan", "Vasco da Gama", "James Cook"],
+    "correctAnswer": 1
+  },
+  {
+    "question": "Which is the highest waterfall in the world?",
+    "options": ["Niagara Falls", "Victoria Falls", "Angel Falls", "Iguazu Falls"],
+    "correctAnswer": 2
+  },
+  {
+    "question": "Who was the first man to reach the North Pole?",
+    "options": ["Roald Amundsen", "Robert Falcon Scott", "Ernest Shackleton", "Robert Peary"],
+    "correctAnswer": 3
+  },
+  {
+    "question": "What is the capital of Poland?",
+    "options": ["Warsaw", "Kraków", "Gdańsk", "Wrocław"],
+    "correctAnswer": 0
+  },
+  {
+    "question": "Who was the first president of the Philippines?",
+    "options": ["Manuel Quezon", "Emilio Aguinaldo", "José Laurel", "Sergio Osmeña"],
+    "correctAnswer": 1
+  },
+  {
+    "question": "Which is the largest lake in Africa?",
+    "options": ["Lake Tanganyika", "Lake Malawi", "Lake Victoria", "Lake Chad"],
+    "correctAnswer": 2
+  },
+  {
+    "question": "Who was the first woman to win the Nobel Peace Prize?",
+    "options": ["Malala Yousafzai", "Mother Teresa", "Shirin Ebadi", "Bertha von Suttner"],
+    "correctAnswer": 3
+  },
+  {
+    "question": "What is the capital of Greece?",
+    "options": ["Athens", "Thessaloniki", "Patras", "Heraklion"],
+    "correctAnswer": 0
+  },
+  {
+    "question": "Who was the first president of Israel?",
+    "options": ["David Ben-Gurion", "Chaim Weizmann", "Yitzhak Ben-Zvi", "Zalman Shazar"],
+    "correctAnswer": 1
+  },
+  {
+    "question": "Which is the largest canyon in the world?",
+    "options": ["Capertee Valley", "Fish River Canyon", "Grand Canyon", "Kali Gandaki Gorge"],
+    "correctAnswer": 2
+  },
+  {
+    "question": "Who was the first person to reach the summit of Mount Everest?",
+    "options": ["George Mallory", "Reinhold Messner", "Andrew Irvine", "Sir Edmund Hillary"],
+    "correctAnswer": 3
+  },
+  {
+    "question": "What is the capital of Hungary?",
+    "options": ["Budapest", "Debrecen", "Szeged", "Miskolc"],
+    "correctAnswer": 0
+  },
+  {
+    "question": "Who was the first president of Indonesia?",
+    "options": ["Suharto", "Sukarno", "Habibie", "Wahid"],
+    "correctAnswer": 1
+  },
+  {
+    "question": "Which is the largest archipelago in the world?",
+    "options": ["Japan", "Philippines", "Indonesia", "Maldives"],
+    "correctAnswer": 2
+  },
+  {
+    "question": "Who was the first person to reach the bottom of the Mariana Trench?",
+    "options": ["James Cameron", "Jacques Piccard", "Don Walsh", "Both B and C"],
+    "correctAnswer": 3
+  },
+  {
+    "question": "What is the capital of Denmark?",
+    "options": ["Copenhagen", "Aarhus", "Odense", "Aalborg"],
+    "correctAnswer": 0
+  },
+  {
+    "question": "Who was the first president of Singapore?",
+    "options": ["Lee Kuan Yew", "Yusof bin Ishak", "Benjamin Sheares", "Chengara Veetil Devan Nair"],
+    "correctAnswer": 1
+  },
+  {
+    "question": "Which is the largest peninsula in the world?",
+    "options": ["Indochina", "Indian Peninsula", "Arabian Peninsula", "Iberian Peninsula"],
+    "correctAnswer": 2
+  },
+  {
+    "question": "Who was the first person to break the sound barrier?",
+    "options": ["Neil Armstrong", "Buzz Aldrin", "John Glenn", "Chuck Yeager"],
+    "correctAnswer": 3
+  },
+  {
+    "question": "What is the capital of Belgium?",
+    "options": ["Brussels", "Antwerp", "Ghent", "Bruges"],
+    "correctAnswer": 0
+  },
+  {
+    "question": "Who was the first president of Turkey?",
+    "options": ["Ismet Inönü", "Mustafa Kemal Atatürk", "Celal Bayar", "Adnan Menderes"],
+    "correctAnswer": 1
+  },
+  {
+    "question": "Which is the largest bay in the world by area?",
+    "options": ["Bay of Bengal", "Hudson Bay", "Gulf of Mexico", "Bay of Biscay"],
+    "correctAnswer": 2
+  },
+  {
+    "question": "Who was the first woman in space?",
+    "options": ["Sally Ride", "Svetlana Savitskaya", "Mae Jemison", "Valentina Tereshkova"],
+    "correctAnswer": 3
+  },
+  {
+    "question": "What is the capital of Sweden?",
+    "options": ["Stockholm", "Gothenburg", "Malmö", "Uppsala"],
+    "correctAnswer": 0
+  },
+  {
+    "question": "Who was the first president of independent Pakistan?",
+    "options": ["Liaquat Ali Khan", "Iskander Mirza", "Ayub Khan", "Yahya Khan"],
+    "correctAnswer": 1
+  },
+  {
+    "question": "Which is the largest country in South America by area?",
+    "options": ["Argentina", "Peru", "Brazil", "Colombia"],
+    "correctAnswer": 2
+  },
+  {
+    "question": "Who was the first man to fly across the English Channel?",
+    "options": ["Orville Wright", "Wilbur Wright", "Charles Lindbergh", "Louis Blériot"],
+    "correctAnswer": 3
+  },
+  {
+    "question": "What is the capital of the Czech Republic?",
+    "options": ["Prague", "Brno", "Ostrava", "Plzeň"],
+    "correctAnswer": 0
+  },
+  {
+    "question": "Who was the first president of modern Egypt?",
+    "options": ["Anwar Sadat", "Mohamed Naguib", "Gamal Abdel Nasser", "Hosni Mubarak"],
+    "correctAnswer": 1
+  },
+  {
+    "question": "Which is the largest country in Africa by area?",
+    "options": ["Sudan", "Democratic Republic of the Congo", "Algeria", "Libya"],
+    "correctAnswer": 2
+  },
+  {
+    "question": "Who was the first woman to win the Nobel Prize in Literature?",
+    "options": ["Pearl S. Buck", "Gabriela Mistral", "Sigrid Undset", "Selma Lagerlöf"],
+    "correctAnswer": 3
+  },
+  {
+    "question": "What is the capital of Ireland?",
+    "options": ["Dublin", "Cork", "Galway", "Limerick"],
+    "correctAnswer": 0
+  },
+  {
+    "question": "Who was the first president of independent Bangladesh?",
+    "options": ["Tajuddin Ahmad", "Sheikh Mujibur Rahman", "Ziaur Rahman", "Hussain Muhammad Ershad"],
+    "correctAnswer": 1
+  },
+  {
+    "question": "Which is the largest country in North America by area?",
+    "options": ["USA", "Mexico", "Canada", "Greenland"],
+    "correctAnswer": 2
+  },
+  {
+    "question": "Who was the first person to reach the summit of K2?",
+    "options": ["Reinhold Messner", "Ardito Desio", "Walter Bonatti", "Achille Compagnoni and Lino Lacedelli"],
+    "correctAnswer": 3
+  },
+  {
+    "question": "What is the capital of Romania?",
+    "options": ["Bucharest", "Cluj-Napoca", "Timișoara", "Iași"],
+    "correctAnswer": 0
+  },
+  {
+    "question": "Who was the first president of the Russian Federation?",
+    "options": ["Mikhail Gorbachev", "Boris Yeltsin", "Vladimir Putin", "Dmitry Medvedev"],
+    "correctAnswer": 1
+  }
+]

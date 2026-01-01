@@ -1,0 +1,252 @@
+[
+  {
+    "question": "Who was the chief of army staff during the 1965 war?",
+    "options": ["Ayub Khan", "Yahya Khan", "General Muhammad Musa", "Gul Hassan"],
+    "correctAnswer": 2
+  },
+  {
+    "question": "Which city is known as the 'Manchester of Pakistan'?",
+    "options": ["Sialkot", "Faisalabad", "Lahore", "Karachi"],
+    "correctAnswer": 1
+  },
+  {
+    "question": "What is the length of the Pakistan-India border line (Radcliffe Line)?",
+    "options": ["2000 KM", "3323 KM", "1610 KM", "2400 KM"],
+    "correctAnswer": 1
+  },
+  {
+    "question": "How many districts are there in Punjab according to the recent file?",
+    "options": ["36", "32", "28", "40"],
+    "correctAnswer": 0
+  },
+  {
+    "question": "Which pass connects Gilgit with Abbottabad?",
+    "options": ["Khyber Pass", "Bolan Pass", "Lowari Pass", "Babusar Pass"],
+    "correctAnswer": 3
+  },
+  {
+    "question": "Who was the first governor of Pakistan?",
+    "options": ["Liaquat Ali Khan", "Quaid-e-Azam", "Iskander Mirza", "Khawaja Nazimuddin"],
+    "correctAnswer": 1
+  },
+  {
+    "question": "Why do we boil milk?",
+    "options": ["To kill germs", "To increase volume", "To make it sweet", "To change color"],
+    "correctAnswer": 0
+  },
+  {
+    "question": "In which year did the Cripps Mission take place?",
+    "options": ["1940", "1945", "1942", "1946"],
+    "correctAnswer": 2
+  },
+  {
+    "question": "Which country is known as the 'Land of the Rising Sun'?",
+    "options": ["Norway", "China", "Australia", "Japan"],
+    "correctAnswer": 3
+  },
+  {
+    "question": "When was the PTI (Pakistan Tehreek-e-Insaf) founded?",
+    "options": ["25 April 1996", "14 August 1992", "23 March 1994", "10 October 1998"],
+    "correctAnswer": 0
+  },
+  {
+    "question": "The second largest export of Pakistan is:",
+    "options": ["Cotton", "Rice", "Sports Goods", "Leather"],
+    "correctAnswer": 1
+  },
+  {
+    "question": "Who was the first president of the Muslim League?",
+    "options": ["Sir Aga Khan", "Liaquat Ali Khan", "Quaid-e-Azam", "Nawab Salimullah"],
+    "correctAnswer": 0
+  },
+  {
+    "question": "Which is the deepest lake in the world?",
+    "options": ["Caspian Sea", "Lake Baikal", "Lake Superior", "Lake Victoria"],
+    "correctAnswer": 1
+  },
+  {
+    "question": "In which city is the Shahi Qila located?",
+    "options": ["Multan", "Karachi", "Lahore", "Islamabad"],
+    "correctAnswer": 2
+  },
+  {
+    "question": "Which country is famous for coffee production?",
+    "options": ["Vietnam", "Colombia", "Ethiopia", "Brazil"],
+    "correctAnswer": 3
+  },
+  {
+    "question": "What was the relationship of Umm-e-Kulsoom with the Holy Prophet (PBUH)?",
+    "options": ["Daughter", "Wife", "Sister", "Aunt"],
+    "correctAnswer": 0
+  },
+  {
+    "question": "Which is the world's shortest river?",
+    "options": ["Nile", "Roe River", "Amazon", "Thames"],
+    "correctAnswer": 1
+  },
+  {
+    "question": "In which side of Pakistan is Iran located?",
+    "options": ["North", "South", "West", "East"],
+    "correctAnswer": 2
+  },
+  {
+    "question": "When did the Hijri calendar start (AD year)?",
+    "options": ["571 AD", "610 AD", "632 AD", "622 AD"],
+    "correctAnswer": 3
+  },
+  {
+    "question": "What is the currency of Egypt?",
+    "options": ["Pound", "Dinar", "Riyal", "Dirham"],
+    "correctAnswer": 0
+  },
+  {
+    "question": "How many Madni Surahs are there in the Holy Quran?",
+    "options": ["20", "28", "86", "114"],
+    "correctAnswer": 1
+  },
+  {
+    "question": "What does NFC stand for in the context of Pakistan?",
+    "options": ["National Food Council", "National Finance Center", "National Finance Commission", "New Federal Council"],
+    "correctAnswer": 2
+  },
+  {
+    "question": "Where is the headquarters of the IAEA located?",
+    "options": ["Geneva", "Paris", "New York", "Vienna"],
+    "correctAnswer": 3
+  },
+  {
+    "question": "Which angel is known as Ruh-ul-Qudus?",
+    "options": ["Hazrat Jibrael (AS)", "Hazrat Mikael (AS)", "Hazrat Israfil (AS)", "Hazrat Izraeel (AS)"],
+    "correctAnswer": 0
+  },
+  {
+    "question": "In which city is the Keenjhar Lake located?",
+    "options": ["Hyderabad", "Thatta", "Sukkur", "Larkana"],
+    "correctAnswer": 1
+  },
+  {
+    "question": "The 3rd surah of the Holy Quran is:",
+    "options": ["Al-Baqarah", "An-Nisa", "Al-Imran", "Al-Ma'idah"],
+    "correctAnswer": 2
+  },
+  {
+    "question": "Which city is known as the 'Land of Saints'?",
+    "options": ["Lahore", "Sialkot", "Peshawar", "Multan"],
+    "correctAnswer": 3
+  },
+  {
+    "question": "Who was the 2nd Khalifa of Islam?",
+    "options": ["Hazrat Umar", "Hazrat Abu Bakr", "Hazrat Usman", "Hazrat Ali"],
+    "correctAnswer": 0
+  },
+  {
+    "question": "In which Ghazwa was Hazrat Hamza (RA) martyred?",
+    "options": ["Badr", "Uhud", "Khandaq", "Khyber"],
+    "correctAnswer": 1
+  },
+  {
+    "question": "Which province is called 'Babul Islam'?",
+    "options": ["Punjab", "Balochistan", "Sindh", "KPK"],
+    "correctAnswer": 2
+  },
+  {
+    "question": "Who is the author of 'Friends Not Masters'?",
+    "options": ["Z.A. Bhutto", "Liaquat Ali Khan", "Yahya Khan", "Ayub Khan"],
+    "correctAnswer": 3
+  },
+  {
+    "question": "What is the result of 2 + 2 / 2?",
+    "options": ["3", "2", "4", "1"],
+    "correctAnswer": 0
+  },
+  {
+    "question": "Which is the highest pass of Pakistan?",
+    "options": ["Bolan Pass", "Khunjerab Pass", "Khyber Pass", "Lowari Pass"],
+    "correctAnswer": 1
+  },
+  {
+    "question": "Which country is called the 'Cradle of Islam'?",
+    "options": ["Iraq", "Jordan", "Saudi Arabia", "Egypt"],
+    "correctAnswer": 2
+  },
+  {
+    "question": "Who was the first muazzin of Islam?",
+    "options": ["Hazrat Abu Bakr", "Hazrat Ali", "Hazrat Umar", "Hazrat Bilal (RA)"],
+    "correctAnswer": 3
+  },
+  {
+    "question": "In which surah did the first revelation occur?",
+    "options": ["Surah Al-Alaq", "Surah Al-Fatiha", "Surah Al-Baqarah", "Surah Al-Muddathir"],
+    "correctAnswer": 0
+  },
+  {
+    "question": "What is the national flower of Pakistan?",
+    "options": ["Rose", "Jasmine", "Tulip", "Lily"],
+    "correctAnswer": 1
+  },
+  {
+    "question": "The coastline length of Pakistan is:",
+    "options": ["800 KM", "1200 KM", "1046 KM", "950 KM"],
+    "correctAnswer": 2
+  },
+  {
+    "question": "Who was the first test match captain of Pakistan?",
+    "options": ["Hanif Mohammad", "Imran Khan", "Javed Miandad", "Abdul Hafeez Kardar"],
+    "correctAnswer": 3
+  },
+  {
+    "question": "Which is the largest city in Balochistan (area-wise)?",
+    "options": ["Chaghi", "Quetta", "Gwadar", "Kalat"],
+    "correctAnswer": 0
+  },
+  {
+    "question": "When was the Partition of Bengal annulled?",
+    "options": ["1905", "1911", "1912", "1913"],
+    "correctAnswer": 1
+  },
+  {
+    "question": "Who was the founder of the Indian National Congress?",
+    "options": ["Lord Minto", "Lord Curzon", "A.O. Hume", "Lord Irwin"],
+    "correctAnswer": 2
+  },
+  {
+    "question": "In which year did the Jallianwala Bagh tragedy occur?",
+    "options": ["1916", "1920", "1922", "1919"],
+    "correctAnswer": 3
+  },
+  {
+    "question": "When was the Nehru Report presented?",
+    "options": ["1928", "1927", "1929", "1930"],
+    "correctAnswer": 0
+  },
+  {
+    "question": "When was the Lahore Resolution passed?",
+    "options": ["1939", "1940", "1941", "1942"],
+    "correctAnswer": 1
+  },
+  {
+    "question": "Who was the mother of Hazrat Ismail (AS)?",
+    "options": ["Hazrat Sara", "Hazrat Maryam", "Hazrat Hajirah (RA)", "Hazrat Aminah"],
+    "correctAnswer": 2
+  },
+  {
+    "question": "In which year was the Simla Deputation?",
+    "options": ["1905", "1909", "1911", "1906"],
+    "correctAnswer": 3
+  },
+  {
+    "question": "Who wrote 'Khutbat-e-Ahmadiya'?",
+    "options": ["Sir Syed Ahmed Khan", "Shibli Nomani", "Altaf Hussain Hali", "Nawab Mohsin-ul-Mulk"],
+    "correctAnswer": 0
+  },
+  {
+    "question": "When was the 3rd June Plan announced?",
+    "options": ["1946", "1947", "1945", "1948"],
+    "correctAnswer": 1
+  },
+  {
+    "question": "How many districts are there in KPK?",
+    "options": ["20", "28", "26", "32"],
+    "correctAnswer": 2
+  }
+]

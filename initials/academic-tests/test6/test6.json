@@ -1,0 +1,252 @@
+[
+  {
+    "question": "What is the capital of Albania?",
+    "options": ["Tirana", "Sofia", "Athens", "Rome"],
+    "correctAnswer": 0
+  },
+  {
+    "question": "Who was the president of the Muslim League when it was founded?",
+    "options": ["Quaid-e-Azam", "Sir Aga Khan", "Nawab Salimullah", "Waqar-ul-Mulk"],
+    "correctAnswer": 1
+  },
+  {
+    "question": "Which city is known as the 'City of Flowers' in Pakistan?",
+    "options": ["Lahore", "Karachi", "Peshawar", "Islamabad"],
+    "correctAnswer": 2
+  },
+  {
+    "question": "In which city is the Shahjahan Mosque located?",
+    "options": ["Lahore", "Multan", "Sukkur", "Thatta"],
+    "correctAnswer": 3
+  },
+  {
+    "question": "Who was the youngest recipient of the Nishan-e-Haider?",
+    "options": ["Rashid Minhas", "Major Aziz Bhatti", "Captain Sher Khan", "Lalak Jan"],
+    "correctAnswer": 0
+  },
+  {
+    "question": "What is the total number of districts in Balochistan?",
+    "options": ["26", "32", "30", "28"],
+    "correctAnswer": 1
+  },
+  {
+    "question": "Which Sahabi was the first man to embrace Islam?",
+    "options": ["Hazrat Ali", "Hazrat Umar", "Hazrat Abu Bakr", "Hazrat Usman"],
+    "correctAnswer": 2
+  },
+  {
+    "question": "What is the height of the Ras Koh hills?",
+    "options": ["2500m", "2800m", "3000m", "3010m"],
+    "correctAnswer": 3
+  },
+  {
+    "question": "Who wrote the book 'Al-Abida wa al-Nahaya'?",
+    "options": ["Ibn Kathir", "Ibn Khaldun", "Al-Tabari", "Imam Bukhari"],
+    "correctAnswer": 0
+  },
+  {
+    "question": "Which country is the largest exporter of Soybeans?",
+    "options": ["USA", "Brazil", "Argentina", "China"],
+    "correctAnswer": 1
+  },
+  {
+    "question": "In which year did the Cripps Mission visit India?",
+    "options": ["1940", "1941", "1942", "1943"],
+    "correctAnswer": 2
+  },
+  {
+    "question": "Which surah is known as the 3rd surah of the Quran?",
+    "options": ["Al-Baqarah", "An-Nisa", "Al-Ma'idah", "Al-Imran"],
+    "correctAnswer": 3
+  },
+  {
+    "question": "What is the result of the calculation 2 + 2 / 2?",
+    "options": ["3", "2", "4", "1"],
+    "correctAnswer": 0
+  },
+  {
+    "question": "In which year did Hazrat Khalid bin Waleed accept Islam?",
+    "options": ["6 Hijri", "8 Hijri", "7 Hijri", "5 Hijri"],
+    "correctAnswer": 1
+  },
+  {
+    "question": "Which river is the deepest in the world?",
+    "options": ["Nile", "Amazon", "Congo River", "Yangtze"],
+    "correctAnswer": 2
+  },
+  {
+    "question": "What is the capital of Venezuela?",
+    "options": ["Bogota", "Lima", "Quito", "Caracas"],
+    "correctAnswer": 3
+  },
+  {
+    "question": "Who was the founder of the Indian National Congress?",
+    "options": ["A.O. Hume", "Lord Minto", "Lord Curzon", "Lord Mountbatten"],
+    "correctAnswer": 0
+  },
+  {
+    "question": "In which year did the partition of Bengal occur?",
+    "options": ["1906", "1905", "1911", "1909"],
+    "correctAnswer": 1
+  },
+  {
+    "question": "Which pass connects Gilgit with Abbottabad?",
+    "options": ["Khyber Pass", "Bolan Pass", "Babusar Pass", "Lowari Pass"],
+    "correctAnswer": 2
+  },
+  {
+    "question": "How many months in a year have 31 days?",
+    "options": ["5", "6", "8", "7"],
+    "correctAnswer": 3
+  },
+  {
+    "question": "Who was the first Foreign Minister of Pakistan?",
+    "options": ["Zafarullah Khan", "Liaquat Ali Khan", "Nazimuddin", "Z.A. Bhutto"],
+    "correctAnswer": 0
+  },
+  {
+    "question": "In which city is the National College of Arts located?",
+    "options": ["Karachi", "Lahore", "Islamabad", "Peshawar"],
+    "correctAnswer": 1
+  },
+  {
+    "question": "Which country is known as the 'Land of Thousand Lakes'?",
+    "options": ["Norway", "Canada", "Finland", "Sweden"],
+    "correctAnswer": 2
+  },
+  {
+    "question": "What is the currency of Russia?",
+    "options": ["Euro", "Dollar", "Pound", "Rouble"],
+    "correctAnswer": 3
+  },
+  {
+    "question": "In which year did the Battle of Uhud take place?",
+    "options": ["3 Hijri", "2 Hijri", "4 Hijri", "5 Hijri"],
+    "correctAnswer": 0
+  },
+  {
+    "question": "Which is the largest ocean in the world?",
+    "options": ["Atlantic", "Pacific", "Indian", "Arctic"],
+    "correctAnswer": 1
+  },
+  {
+    "question": "Who was the architect of the Panama Canal?",
+    "options": ["USA", "UK", "France", "China"],
+    "correctAnswer": 2
+  },
+  {
+    "question": "In which city is the shrine of Mian Mir located?",
+    "options": ["Multan", "Sialkot", "Karachi", "Lahore"],
+    "correctAnswer": 3
+  },
+  {
+    "question": "What is the meaning of the word 'Tanzil'?",
+    "options": ["Sending down", "Rising up", "Spreading", "Purifying"],
+    "correctAnswer": 0
+  },
+  {
+    "question": "Who was the king of Iran during the Battle of Qadsiya?",
+    "options": ["Khosrow", "Rustam", "Hormizd", "Yezdigard"],
+    "correctAnswer": 1
+  },
+  {
+    "question": "What is the total number of districts in Punjab?",
+    "options": ["30", "32", "36", "34"],
+    "correctAnswer": 2
+  },
+  {
+    "question": "Which pass connects Quetta with Sibi?",
+    "options": ["Khyber Pass", "Gomal Pass", "Tochi Pass", "Bolan Pass"],
+    "correctAnswer": 3
+  },
+  {
+    "question": "Who wrote the book 'Raja Gidh'?",
+    "options": ["Bano Qudsia", "Ashfaq Ahmed", "Qurratulain Hyder", "Fatima Surayya"],
+    "correctAnswer": 0
+  },
+  {
+    "question": "In which year did the Simla Conference take place?",
+    "options": ["1944", "1945", "1946", "1947"],
+    "correctAnswer": 1
+  },
+  {
+    "question": "Which country is the second largest in terms of area?",
+    "options": ["Russia", "China", "Canada", "USA"],
+    "correctAnswer": 2
+  },
+  {
+    "question": "Who was the first test captain of the Pakistan cricket team?",
+    "options": ["Hanif Mohammad", "Imran Khan", "Javed Miandad", "Abdul Hafeez Kardar"],
+    "correctAnswer": 3
+  },
+  {
+    "question": "What is the capital of Belarus?",
+    "options": ["Minsk", "Kiev", "Riga", "Vilnius"],
+    "correctAnswer": 0
+  },
+  {
+    "question": "In which year did the Lucknow Pact take place?",
+    "options": ["1913", "1916", "1919", "1911"],
+    "correctAnswer": 1
+  },
+  {
+    "question": "What is the title of Hazrat Moosa (AS)?",
+    "options": ["Zabihullah", "Ruhullah", "Kaleemullah", "Khalilullah"],
+    "correctAnswer": 2
+  },
+  {
+    "question": "Which country is the largest exporter of Coffee?",
+    "options": ["Vietnam", "Colombia", "Ethiopia", "Brazil"],
+    "correctAnswer": 3
+  },
+  {
+    "question": "Who founded the Scientific Society in 1864?",
+    "options": ["Sir Syed Ahmed Khan", "Allama Iqbal", "Maulana Shaukat Ali", "Nawab Mohsin-ul-Mulk"],
+    "correctAnswer": 0
+  },
+  {
+    "question": "In which year did the Jallianwala Bagh tragedy occur?",
+    "options": ["1916", "1919", "1920", "1922"],
+    "correctAnswer": 1
+  },
+  {
+    "question": "Which surah is known as the 'Last Verse' surah?",
+    "options": ["Al-Falaq", "Al-Ikhlas", "Al-Nas", "Al-Kauthar"],
+    "correctAnswer": 2
+  },
+  {
+    "question": "Who was the commander of the Kuffar in the Battle of Uhud?",
+    "options": ["Abu Jahl", "Abu Lahab", "Utbah", "Abu Sufyan"],
+    "correctAnswer": 3
+  },
+  {
+    "question": "What is the percentage of Nitrogen in the atmosphere?",
+    "options": ["78.09%", "21%", "0.93%", "0.03%"],
+    "correctAnswer": 0
+  },
+  {
+    "question": "In which year was the OIC established?",
+    "options": ["1965", "1969", "1971", "1974"],
+    "correctAnswer": 1
+  },
+  {
+    "question": "Which is the highest battle field in the world?",
+    "options": ["Kashmir", "Karakoram", "Siachen Glacier", "Himalayas"],
+    "correctAnswer": 2
+  },
+  {
+    "question": "Who was the first Muazin of Islam?",
+    "options": ["Hazrat Abu Bakr", "Hazrat Ali", "Hazrat Umar", "Hazrat Bilal RA"],
+    "correctAnswer": 3
+  },
+  {
+    "question": "What is the capital of Bhutan?",
+    "options": ["Thimphu", "Paro", "Punakha", "Phuntsholing"],
+    "correctAnswer": 0
+  },
+  {
+    "question": "In which year did the partition of Bengal take place?",
+    "options": ["1906", "1905", "1911", "1909"],
+    "correctAnswer": 1
+  }
+]

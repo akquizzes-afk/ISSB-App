@@ -1,0 +1,252 @@
+[
+  {
+    "question": "Which surah is called 'Al-Sab' al-Mathani'?",
+    "options": ["Surah Al-Fatiha", "Surah Al-Baqarah", "Surah Al-Imran", "Surah Ya-Sin"],
+    "correctAnswer": 0
+  },
+  {
+    "question": "In which city is the Minar-e-Pakistan located?",
+    "options": ["Karachi", "Lahore", "Islamabad", "Peshawar"],
+    "correctAnswer": 1
+  },
+  {
+    "question": "Who was the first president of the USA?",
+    "options": ["Thomas Jefferson", "Abraham Lincoln", "George Washington", "John Adams"],
+    "correctAnswer": 2
+  },
+  {
+    "question": "Which is the largest desert in the world (including polar regions)?",
+    "options": ["Sahara", "Gobi", "Arabian", "Antarctic Desert"],
+    "correctAnswer": 3
+  },
+  {
+    "question": "What is the capital of Canada?",
+    "options": ["Ottawa", "Toronto", "Vancouver", "Montreal"],
+    "correctAnswer": 0
+  },
+  {
+    "question": "Who was the inventor of the telephone?",
+    "options": ["Thomas Edison", "Alexander Graham Bell", "Nikola Tesla", "James Watt"],
+    "correctAnswer": 1
+  },
+  {
+    "question": "Which gas is used in fire extinguishers?",
+    "options": ["Oxygen", "Nitrogen", "Carbon Dioxide", "Hydrogen"],
+    "correctAnswer": 2
+  },
+  {
+    "question": "Who wrote the national anthem of Pakistan?",
+    "options": ["Allama Iqbal", "Faiz Ahmed Faiz", "Josh Malihabadi", "Hafeez Jalandhari"],
+    "correctAnswer": 3
+  },
+  {
+    "question": "Which is the longest river in Asia?",
+    "options": ["Yangtze River", "Indus River", "Ganges", "Mekong"],
+    "correctAnswer": 0
+  },
+  {
+    "question": "In which year did the French Revolution begin?",
+    "options": ["1776", "1789", "1815", "1848"],
+    "correctAnswer": 1
+  },
+  {
+    "question": "What is the chemical symbol for Gold?",
+    "options": ["Ag", "Fe", "Au", "Pb"],
+    "correctAnswer": 2
+  },
+  {
+    "question": "Which planet is known as the 'Red Planet'?",
+    "options": ["Venus", "Jupiter", "Saturn", "Mars"],
+    "correctAnswer": 3
+  },
+  {
+    "question": "Who was the architect of the Taj Mahal?",
+    "options": ["Ustad Ahmad Lahori", "Shah Jahan", "Mirza Ghiyas", "Babar"],
+    "correctAnswer": 0
+  },
+  {
+    "question": "Which organ of the body is affected by Jaundice?",
+    "options": ["Lungs", "Liver", "Heart", "Kidneys"],
+    "correctAnswer": 1
+  },
+  {
+    "question": "Who was the founder of the Aligarh Movement?",
+    "options": ["Maulana Shaukat Ali", "Allama Iqbal", "Sir Syed Ahmed Khan", "Waqar-ul-Mulk"],
+    "correctAnswer": 2
+  },
+  {
+    "question": "In which year was the first Nobel Prize awarded?",
+    "options": ["1895", "1905", "1910", "1901"],
+    "correctAnswer": 3
+  },
+  {
+    "question": "What is the capital of Kazakhstan?",
+    "options": ["Astana", "Almaty", "Tashkent", "Bishkek"],
+    "correctAnswer": 0
+  },
+  {
+    "question": "Who was the first woman prime minister of a Muslim country?",
+    "options": ["Sheikh Hasina", "Benazir Bhutto", "Khaleda Zia", "Tansu Ciller"],
+    "correctAnswer": 1
+  },
+  {
+    "question": "Which is the largest gland in the human body?",
+    "options": ["Thyroid", "Pancreas", "Liver", "Adrenal"],
+    "correctAnswer": 2
+  },
+  {
+    "question": "Who wrote the book 'A Brief History of Time'?",
+    "options": ["Isaac Newton", "Albert Einstein", "Richard Feynman", "Stephen Hawking"],
+    "correctAnswer": 3
+  },
+  {
+    "question": "What is the capital of Switzerland?",
+    "options": ["Bern", "Zurich", "Geneva", "Lucerne"],
+    "correctAnswer": 0
+  },
+  {
+    "question": "Who was the first man to step on the moon?",
+    "options": ["Buzz Aldrin", "Neil Armstrong", "Yuri Gagarin", "John Glenn"],
+    "correctAnswer": 1
+  },
+  {
+    "question": "Which is the most widely spoken language in the world?",
+    "options": ["Spanish", "English", "Mandarin Chinese", "Hindi"],
+    "correctAnswer": 2
+  },
+  {
+    "question": "Who was the commander-in-chief during the Battle of Uhud?",
+    "options": ["Hazrat Khalid", "Hazrat Hamza", "Hazrat Abu Bakr", "Holy Prophet (PBUH)"],
+    "correctAnswer": 3
+  },
+  {
+    "question": "What is the boiling point of water at sea level?",
+    "options": ["100°C", "90°C", "110°C", "120°C"],
+    "correctAnswer": 0
+  },
+  {
+    "question": "Who was the mentor of Allama Iqbal?",
+    "options": ["Sir Syed", "Maulana Shibli Nomani", "Nawab Mohsin", "Mir Hassan"],
+    "correctAnswer": 1
+  },
+  {
+    "question": "Which is the largest bird in the world?",
+    "options": ["Eagle", "Albatross", "Ostrich", "Emu"],
+    "correctAnswer": 2
+  },
+  {
+    "question": "Who wrote the play 'Hamlet'?",
+    "options": ["Christopher Marlowe", "Ben Jonson", "John Milton", "William Shakespeare"],
+    "correctAnswer": 3
+  },
+  {
+    "question": "What is the currency of Japan?",
+    "options": ["Yen", "Yuan", "Won", "Baht"],
+    "correctAnswer": 0
+  },
+  {
+    "question": "Who was the first Caliph of Islam?",
+    "options": ["Hazrat Umar", "Hazrat Abu Bakr", "Hazrat Usman", "Hazrat Ali"],
+    "correctAnswer": 1
+  },
+  {
+    "question": "Which city is known as the 'City of Lights' in Pakistan?",
+    "options": ["Lahore", "Islamabad", "Karachi", "Peshawar"],
+    "correctAnswer": 2
+  },
+  {
+    "question": "Who was the founder of Microsoft?",
+    "options": ["Steve Jobs", "Mark Zuckerberg", "Jeff Bezos", "Bill Gates"],
+    "correctAnswer": 3
+  },
+  {
+    "question": "What is the capital of South Africa?",
+    "options": ["Pretoria", "Cape Town", "Johannesburg", "Durban"],
+    "correctAnswer": 0
+  },
+  {
+    "question": "Which is the hardest natural substance on earth?",
+    "options": ["Graphite", "Diamond", "Quartz", "Topaz"],
+    "correctAnswer": 1
+  },
+  {
+    "question": "Who was the author of the 'Discovery of India'?",
+    "options": ["Mahatma Gandhi", "Sardar Patel", "Jawaharlal Nehru", "Subhas Chandra Bose"],
+    "correctAnswer": 2
+  },
+  {
+    "question": "Which planet is known as the 'Blue Planet'?",
+    "options": ["Mars", "Venus", "Neptune", "Earth"],
+    "correctAnswer": 3
+  },
+  {
+    "question": "What is the capital of Malaysia?",
+    "options": ["Kuala Lumpur", "Jakarta", "Singapore", "Bangkok"],
+    "correctAnswer": 0
+  },
+  {
+    "question": "Who was the leader of the Muslims in the Battle of Badr?",
+    "options": ["Hazrat Ali", "Holy Prophet (PBUH)", "Hazrat Khalid", "Hazrat Umar"],
+    "correctAnswer": 1
+  },
+  {
+    "question": "Which country won the first FIFA World Cup in 1930?",
+    "options": ["Brazil", "Argentina", "Uruguay", "Italy"],
+    "correctAnswer": 2
+  },
+  {
+    "question": "Who was the first woman to win a Nobel Prize?",
+    "options": ["Mother Teresa", "Jane Addams", "Malala Yousafzai", "Marie Curie"],
+    "correctAnswer": 3
+  },
+  {
+    "question": "What is the capital of New Zealand?",
+    "options": ["Wellington", "Auckland", "Christchurch", "Hamilton"],
+    "correctAnswer": 0
+  },
+  {
+    "question": "Who was the first man to reach the South Pole?",
+    "options": ["Robert Falcon Scott", "Roald Amundsen", "Ernest Shackleton", "Richard Byrd"],
+    "correctAnswer": 1
+  },
+  {
+    "question": "Which is the smallest country in the world by area?",
+    "options": ["Monaco", "Nauru", "Vatican City", "San Marino"],
+    "correctAnswer": 2
+  },
+  {
+    "question": "Who wrote the novel 'War and Peace'?",
+    "options": ["Fyodor Dostoevsky", "Anton Chekhov", "Vladimir Nabokov", "Leo Tolstoy"],
+    "correctAnswer": 3
+  },
+  {
+    "question": "What is the capital of Norway?",
+    "options": ["Oslo", "Stockholm", "Helsinki", "Copenhagen"],
+    "correctAnswer": 0
+  },
+  {
+    "question": "Who was the first woman to fly solo across the Atlantic?",
+    "options": ["Bessie Coleman", "Amelia Earhart", "Amy Johnson", "Jacqueline Cochran"],
+    "correctAnswer": 1
+  },
+  {
+    "question": "Which is the longest mountain range in the world?",
+    "options": ["Himalayas", "Rockies", "Andes", "Alps"],
+    "correctAnswer": 2
+  },
+  {
+    "question": "Who was the first president of the Republic of China?",
+    "options": ["Mao Zedong", "Chiang Kai-shek", "Deng Xiaoping", "Sun Yat-sen"],
+    "correctAnswer": 3
+  },
+  {
+    "question": "What is the capital of Portugal?",
+    "options": ["Lisbon", "Madrid", "Rome", "Athens"],
+    "correctAnswer": 0
+  },
+  {
+    "question": "Who was the first human in space?",
+    "options": ["Alan Shepard", "Yuri Gagarin", "John Glenn", "Valentina Tereshkova"],
+    "correctAnswer": 1
+  }
+]

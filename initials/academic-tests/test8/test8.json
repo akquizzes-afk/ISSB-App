@@ -1,0 +1,253 @@
+[
+  {
+    "question": "Which was the national language according to the 1956 Constitution?",
+    "options": ["Urdu and Pashto", "Urdu and Sindhi", "Urdu and Bengali", "English and Urdu"],
+    "correctAnswer": 2
+  },
+  {
+    "question": "In which district are the Khewra salt mines located?",
+    "options": ["Sahiwal", "Chakwal", "Jhelum", "Khushab"],
+    "correctAnswer": 2
+  },
+  {
+    "question": "Jinnah Barrage is built on which river?",
+    "options": ["Chenab", "Jhelum", "Ravi", "Indus River"],
+    "correctAnswer": 3
+  },
+  {
+    "question": "Which country is known as the Land of Thousand Lakes?",
+    "options": ["Finland", "Norway", "Sweden", "Canada"],
+    "correctAnswer": 0
+  },
+  {
+    "question": "The Danube River is located in which continent?",
+    "options": ["Africa", "Europe", "Asia", "South America"],
+    "correctAnswer": 1
+  },
+  {
+    "question": "Which organization is not a part of the UNO?",
+    "options": ["WHO", "UNESCO", "OIC", "UNICEF"],
+    "correctAnswer": 2
+  },
+  {
+    "question": "Who was the leader of the Muslims in the Battle of Tabook?",
+    "options": ["Hazrat Ali (RA)", "Hazrat Abu Bakr (RA)", "Hazrat Umar (RA)", "Holy Prophet (PBUH)"],
+    "correctAnswer": 3
+  },
+  {
+    "question": "Who was the king of Iran during the Battle of Qadsiya?",
+    "options": ["Rustam", "Khosrow", "Hormizd", "Yezdigard"],
+    "correctAnswer": 0
+  },
+  {
+    "question": "In which year did the Muslim League celebrate 'Youm-e-Nijat'?",
+    "options": ["1937", "1939", "1940", "1942"],
+    "correctAnswer": 1
+  },
+  {
+    "question": "Who won the Nobel Peace Prize in 2015?",
+    "options": ["Malala Yousafzai", "Barack Obama", "Tunisian National Dialogue Quartet", "Kailash Satyarthi"],
+    "correctAnswer": 2
+  },
+  {
+    "question": "On how many camels is Zakat applicable?",
+    "options": ["2", "3", "10", "5"],
+    "correctAnswer": 3
+  },
+  {
+    "question": "The Huang He river is located in which country?",
+    "options": ["China", "Japan", "Korea", "Vietnam"],
+    "correctAnswer": 0
+  },
+  {
+    "question": "Which is the largest ocean in the world?",
+    "options": ["Atlantic", "Pacific Ocean", "Indian", "Arctic"],
+    "correctAnswer": 1
+  },
+  {
+    "question": "The Panama Canal joins the Pacific Ocean with which other ocean?",
+    "options": ["Indian Ocean", "Arctic Ocean", "Atlantic Ocean", "Southern Ocean"],
+    "correctAnswer": 2
+  },
+  {
+    "question": "What is the length of the River Nile in miles?",
+    "options": ["4000", "5000", "3500", "4160"],
+    "correctAnswer": 3
+  },
+  {
+    "question": "Who was the first woman pilot in the Pakistan Air Force?",
+    "options": ["Ayesha Farooq", "Marium Mukhtiar", "Shukriya Khanum", "Saba Khan"],
+    "correctAnswer": 0
+  },
+  {
+    "question": "The president of Pakistan is elected by which body?",
+    "options": ["National Assembly", "Joint National Assembly", "Senate", "Public Vote"],
+    "correctAnswer": 1
+  },
+  {
+    "question": "What was the relationship of Hazrat Hamza (RA) with the Holy Prophet (PBUH)?",
+    "options": ["Brother", "Father", "Maternal Uncle", "Cousin"],
+    "correctAnswer": 2
+  },
+  {
+    "question": "In which city is the Badshahi Mosque situated?",
+    "options": ["Karachi", "Islamabad", "Multan", "Lahore"],
+    "correctAnswer": 3
+  },
+  {
+    "question": "Which is the longest river in Asia?",
+    "options": ["Yangtze", "Indus", "Ganges", "Mekong"],
+    "correctAnswer": 0
+  },
+  {
+    "question": "Yellow Sea is famous as a source of what?",
+    "options": ["Pearls", "Fishing", "Oil", "Natural Gas"],
+    "correctAnswer": 1
+  },
+  {
+    "question": "Abdul Qadir was a famous player of which sport?",
+    "options": ["Hockey", "Squash", "Cricket", "Football"],
+    "correctAnswer": 2
+  },
+  {
+    "question": "Whose name was Israel in Islamic history?",
+    "options": ["Hazrat Ishaq (AS)", "Hazrat Ibrahim (AS)", "Hazrat Ismail (AS)", "Hazrat Yaqoob (AS)"],
+    "correctAnswer": 3
+  },
+  {
+    "question": "When did the British first enter India?",
+    "options": ["Aug 24 1608", "Aug 24 1600", "Aug 24 1612", "Aug 24 1620"],
+    "correctAnswer": 0
+  },
+  {
+    "question": "Who invented the solar cell?",
+    "options": ["Einstein", "Charles", "Edison", "Tesla"],
+    "correctAnswer": 1
+  },
+  {
+    "question": "Who accompanied the Holy Prophet (PBUH) during the migration to Madina?",
+    "options": ["Hazrat Ali (RA)", "Hazrat Umar (RA)", "Hazrat Abu Bakr (RA)", "Hazrat Usman (RA)"],
+    "correctAnswer": 2
+  },
+  {
+    "question": "What is the capital of Venezuela?",
+    "options": ["Bogota", "Quito", "Lima", "Caracas"],
+    "correctAnswer": 3
+  },
+  {
+    "question": "Who is the supreme commander of the Armed Forces of Pakistan?",
+    "options": ["President", "Prime Minister", "Army Chief", "Defense Minister"],
+    "correctAnswer": 0
+  },
+  {
+    "question": "Where is the headquarters of OPEC located?",
+    "options": ["Geneva", "Vienna", "New York", "London"],
+    "correctAnswer": 1
+  },
+  {
+    "question": "What is the length of the Indus River mentioned in the notes?",
+    "options": ["2000 KM", "2500 KM", "2900 KM", "3200 KM"],
+    "correctAnswer": 2
+  },
+  {
+    "question": "Who is the author of the book 'Raja Gidh'?",
+    "options": ["Ashfaq Ahmed", "Qurratulain Hyder", "Umera Ahmed", "Bano Qudsia"],
+    "correctAnswer": 3
+  },
+  {
+    "question": "What is the capital of France?",
+    "options": ["Paris", "Lyon", "Marseille", "Nice"],
+    "correctAnswer": 0
+  },
+  {
+    "question": "In which city were the 14 points presented by Jinnah?",
+    "options": ["Karachi", "Delhi", "Lahore", "Calcutta"],
+    "correctAnswer": 1
+  },
+  {
+    "question": "Which is the deepest point on Earth?",
+    "options": ["Dead Sea", "Benthic Zone", "Marina Trench", "Lake Baikal"],
+    "correctAnswer": 2
+  },
+  {
+    "question": "Who invented the nursing profession?",
+    "options": ["Marie Curie", "Mother Teresa", "Elizabeth Blackwell", "Florence Nightingale"],
+    "correctAnswer": 3
+  },
+  {
+    "question": "Where is the OIC headquarters located?",
+    "options": ["Jeddah", "Mecca", "Riyadh", "Cairo"],
+    "correctAnswer": 0
+  },
+  {
+    "question": "Which is the hottest city in Pakistan?",
+    "options": ["Multan", "Jacobabad", "Sukkur", "Sibi"],
+    "correctAnswer": 1
+  },
+  {
+    "question": "What is the height of Mount Everest as per the notes?",
+    "options": ["8848m", "8850m", "8849m", "8800m"],
+    "correctAnswer": 2
+  },
+  {
+    "question": "Which area separates Pakistan from Central Asia?",
+    "options": ["Khyber Pass", "Bolan Pass", "Chitral", "Wakhan"],
+    "correctAnswer": 3
+  },
+  {
+    "question": "Who was the son-in-law of the Holy Prophet (PBUH)?",
+    "options": ["Hazrat Ali (RA)", "Hazrat Abu Bakr (RA)", "Hazrat Umar (RA)", "Hazrat Zaid (RA)"],
+    "correctAnswer": 0
+  },
+  {
+    "question": "Which country started the Asian Games in 1951?",
+    "options": ["China", "India", "Japan", "South Korea"],
+    "correctAnswer": 1
+  },
+  {
+    "question": "Where is the Cholistan Desert located?",
+    "options": ["Sahiwal", "Multan", "Bahawalpur", "D.G. Khan"],
+    "correctAnswer": 2
+  },
+  {
+    "question": "Who is the 'Ameer-ul-Momineen' mentioned in the notes?",
+    "options": ["Hazrat Ali (RA)", "Hazrat Umar (RA)", "Hazrat Abu Bakr (RA)", "Hazrat Hamza (RA)"],
+    "correctAnswer": 3
+  },
+  {
+    "question": "Where is the headquarters of IAEA located?",
+    "options": ["Vienna", "Geneva", "New York", "Paris"],
+    "correctAnswer": 0
+  },
+  {
+    "question": "What is the capital of Venezuela?",
+    "options": ["Bogota", "Caracas", "Quito", "Lima"],
+    "correctAnswer": 1
+  },
+  {
+    "question": "Who was the founder of the Indian National Congress?",
+    "options": ["Lord Curzon", "Lord Minto", "Allan Octavian Hume", "Lord Mountbatten"],
+    "correctAnswer": 2
+  },
+  {
+    "question": "Which province of China touches Pakistan's border?",
+    "options": ["Tibet", "Yunnan", "Sichuan", "Xinjiang"],
+    "correctAnswer": 3
+  },
+  {
+    "question": "Peshawar is known as the city of:",
+    "options": ["Flowers", "Rivers", "Saints", "Mountains"],
+    "correctAnswer": 0
+  },
+  {
+    "question": "What is the 5th pillar of Islam?",
+    "options": ["Zakat", "Hajj", "Fasting", "Prayer"],
+    "correctAnswer": 1
+  },
+  {
+    "question": "How many obligations (Faraiz) are there in Hajj?",
+    "options": ["2", "4", "3", "5"],
+    "correctAnswer": 2
+  }
+]
+

@@ -1,0 +1,452 @@
+[
+  {
+    "question": "Which one of the following is different from the rest:",
+    "options": ["Town", "Village", "Township", "City", "Heaven"],
+    "correctAnswer": 4
+  },
+  {
+    "question": "3 8 15 24 ___",
+    "options": ["32", "34", "36", "35"],
+    "correctAnswer": 3
+  },
+  {
+    "question": "Which one is different from the rest?",
+    "options": ["Fat", "Great", "High", "Big", "Small"],
+    "correctAnswer": 1
+  },
+  {
+    "question": "19 9 29 8 39 ___",
+    "options": ["7", "4", "49", "40"],
+    "correctAnswer": 0
+  },
+  {
+    "question": "11 12 14 15 ___",
+    "options": ["11", "16", "17", "12"],
+    "correctAnswer": 2
+  },
+  {
+    "question": "Which one is different from the rest?",
+    "options": ["LO", "HK", "AC", "DG"],
+    "correctAnswer": 2
+  },
+  {
+    "question": "3 4 6 7 9 10 ___",
+    "options": ["12", "8", "14", "11"],
+    "correctAnswer": 0
+  },
+  {
+    "question": "7 49 6 36 5 ______",
+    "options": ["25", "4", "23", "15"],
+    "correctAnswer": 0
+  },
+  {
+    "question": "Which one is different from the rest?",
+    "options": ["Spaceship", "Relationship", "Kinship", "Friendship"],
+    "correctAnswer": 0
+  },
+  {
+    "question": "2 4 16 256 16 ___",
+    "options": ["256", "16", "2", "4"],
+    "correctAnswer": 3
+  },
+  {
+    "question": "Which word does not belong to the list?",
+    "options": ["Car", "Train", "Bus", "Tram", "Ship"],
+    "correctAnswer": 4
+  },
+  {
+    "question": "Which word does not belong to the list?",
+    "options": ["Mason", "Blacksmith", "Tailor", "Professor"],
+    "correctAnswer": 3
+  },
+  {
+    "question": "One Third of One Half is ______",
+    "options": ["1/3", "1/8", "1/6", "2/3"],
+    "correctAnswer": 2
+  },
+  {
+    "question": "8 8 16 9 9 18 10 10 ?",
+    "options": ["22", "20", "19", "10"],
+    "correctAnswer": 1
+  },
+  {
+    "question": "9 24 39 54 69 84 99 114 ___",
+    "options": ["132", "128", "124", "131", "129"],
+    "correctAnswer": 4
+  },
+  {
+    "question": "111 115 120 126 ___",
+    "options": ["130", "128", "133", "136"],
+    "correctAnswer": 2
+  },
+  {
+    "question": "5 6 8 9 11 ___ 14",
+    "options": ["10", "14", "13", "12"],
+    "correctAnswer": 3
+  },
+  {
+    "question": "Which one is different from the rest?",
+    "options": ["Judge", "Advocate", "Cook", "Pleader", "Magistrate"],
+    "correctAnswer": 2
+  },
+  {
+    "question": "3 4 10 11 17 18 ___",
+    "options": ["25", "24", "19", "20"],
+    "correctAnswer": 1
+  },
+  {
+    "question": "2 5 10 17 ___",
+    "options": ["25", "23", "26", "21"],
+    "correctAnswer": 2
+  },
+  {
+    "question": "7 6 18 54 162 486 ___",
+    "options": ["972", "496", "1485", "1458"],
+    "correctAnswer": 3
+  },
+  {
+    "question": "0 5 12 21 ___",
+    "options": ["32", "33", "31", "24"],
+    "correctAnswer": 0
+  },
+  {
+    "question": "If Brush is to Painting as Pencil is to ___",
+    "options": ["Notebook", "Sketch", "Map", "Drawing"],
+    "correctAnswer": 3
+  },
+  {
+    "question": "29 23 18 14 11 ___",
+    "options": ["13", "6", "19", "9", "10"],
+    "correctAnswer": 3
+  },
+  {
+    "question": "101 105 111 119 ___",
+    "options": ["15", "125", "25", "129", "135"],
+    "correctAnswer": 3
+  },
+  {
+    "question": "A railway station always has:",
+    "options": ["A Train", "A Railway", "A Platform", "A Station Master"],
+    "correctAnswer": 1
+  },
+  {
+    "question": "234 342 423 ___",
+    "options": ["234", "523", "432", "342"],
+    "correctAnswer": 0
+  },
+  {
+    "question": "Book is to Title as Man is to ___",
+    "options": ["Girl", "Woman", "Sir", "Name"],
+    "correctAnswer": 3
+  },
+  {
+    "question": "Man is to Woman as Boy is to ______",
+    "options": ["Father", "Brother", "Girl", "Daughter"],
+    "correctAnswer": 2
+  },
+  {
+    "question": "3 has the same ratio to 15x as 5x has to ______",
+    "options": ["25x²", "25xy", "25", "25x"],
+    "correctAnswer": 0
+  },
+  {
+    "question": "Son is to Father as Nephew is to ______",
+    "options": ["Aunt", "Cousin", "Brother", "Uncle"],
+    "correctAnswer": 3
+  },
+  {
+    "question": "What letter comes alphabetically in order in the letter, Mother?",
+    "options": ["E", "R", "M", "H"],
+    "correctAnswer": 0
+  },
+  {
+    "question": "Which of the following is different from the rest?",
+    "options": ["Locate", "Invention", "Discover", "Find"],
+    "correctAnswer": 1
+  },
+  {
+    "question": "9 24 39 54 69 84 99 ___",
+    "options": ["114", "106", "124", "109"],
+    "correctAnswer": 0
+  },
+  {
+    "question": "Which one of the following is different from the rest?",
+    "options": ["Sword", "Fork", "Knife", "Dagger"],
+    "correctAnswer": 1
+  },
+  {
+    "question": "6 7 9 12 16 21 27 34 __",
+    "options": ["50", "49", "42", "60"],
+    "correctAnswer": 2
+  },
+  {
+    "question": "Which one is different from the rest?",
+    "options": ["Triangle", "Square", "Rectangle", "Circle"],
+    "correctAnswer": 3
+  },
+  {
+    "question": "If A is smaller than B, but taller than C and D, who is the tallest of the three?",
+    "options": ["B", "D", "C", "A"],
+    "correctAnswer": 0
+  },
+  {
+    "question": "If Box is to 3 then Boxer is to ___",
+    "options": ["9", "7", "3", "5"],
+    "correctAnswer": 3
+  },
+  {
+    "question": "Which one of the following is different from the rest?",
+    "options": ["Adult", "Child", "Infant", "Baby", "Newborn"],
+    "correctAnswer": 0
+  },
+  {
+    "question": "If ACNPNPJL means Book, what does GINPOSRTDF mean?",
+    "options": ["House", "Hand", "Horse", "Hero"],
+    "correctAnswer": 2
+  },
+  {
+    "question": "Which one is different from the rest?",
+    "options": ["MP", "EH", "AD", "QS"],
+    "correctAnswer": 3
+  },
+  {
+    "question": "A is to E as C is to ___",
+    "options": ["G", "F", "H", "J"],
+    "correctAnswer": 0
+  },
+  {
+    "question": "Laugh is to Gay as Weep is to ___",
+    "options": ["Pleasant", "Weep", "Sad", "Gloomy"],
+    "correctAnswer": 2
+  },
+  {
+    "question": "11 77 539 ___",
+    "options": ["3778", "1078", "3773", "3377"],
+    "correctAnswer": 2
+  },
+  {
+    "question": "2 8 32 128 ___",
+    "options": ["521", "228", "512", "384"],
+    "correctAnswer": 2
+  },
+  {
+    "question": "Which one is different from the rest?",
+    "options": ["Lahore", "Kabul", "Beijing", "Dhaka"],
+    "correctAnswer": 0
+  },
+  {
+    "question": "Which one is different from the rest?",
+    "options": ["Split", "Gap", "Divide", "Separation", "Union"],
+    "correctAnswer": 4
+  },
+  {
+    "question": "Which one is different from the rest?",
+    "options": ["Sun", "Mars", "Earth", "Ocean"],
+    "correctAnswer": 3
+  },
+  {
+    "question": "Which one is different from the rest?",
+    "options": ["Potato", "Rat", "Tiger", "Sheep", "Horse"],
+    "correctAnswer": 0
+  },
+  {
+    "question": "If FACE is coded as 6135 then ACE is coded as ______",
+    "options": ["357", "657", "135", "176"],
+    "correctAnswer": 2
+  },
+  {
+    "question": "What letter comes alphabetically in the word Fluctuation?",
+    "options": ["N", "U", "F", "I"],
+    "correctAnswer": 3
+  },
+  {
+    "question": "If A=2, B=4, C=6 and so on then what word the following number stand for: 8 10 10 32 ___",
+    "options": ["DEEP", "PEEP", "EPED", "EPPE"],
+    "correctAnswer": 0
+  },
+  {
+    "question": "Which one is different from the rest?",
+    "options": ["AD", "IL", "QS", "MP", "EH"],
+    "correctAnswer": 2
+  },
+  {
+    "question": "If Crate is to Excrete then Cute is to ______",
+    "options": ["Attractive", "Loving", "Smart", "Execute", "Charming"],
+    "correctAnswer": 3
+  },
+  {
+    "question": "63 3 44 0 91 ___",
+    "options": ["3", "1", "7", "9", "8"],
+    "correctAnswer": 4
+  },
+  {
+    "question": "Confess is to Deny as Release is to ______",
+    "options": ["Prisoner", "Arrest", "Jail", "Police Station"],
+    "correctAnswer": 1
+  },
+  {
+    "question": "If FET is to TEF then TAR is to ______",
+    "options": ["TAR", "RAT", "TRA", "ART"],
+    "correctAnswer": 1
+  },
+  {
+    "question": "Man is to Run as Bird is to ______",
+    "options": ["Run", "Walk", "Fly", "Weak"],
+    "correctAnswer": 2
+  },
+  {
+    "question": "Mountain is to High then Train is to ______",
+    "options": ["Tall", "Speed", "Length", "Small"],
+    "correctAnswer": 2
+  },
+  {
+    "question": "Which one is different from the rest?",
+    "options": ["September", "May", "March", "Tuesday"],
+    "correctAnswer": 3
+  },
+  {
+    "question": "18 13 9 6 __",
+    "options": ["8", "4", "2", "3"],
+    "correctAnswer": 1
+  },
+  {
+    "question": "10 70 11 67 13 64 16 61 ______",
+    "options": ["19,58", "20,58", "18,58", "58,20"],
+    "correctAnswer": 1
+  },
+  {
+    "question": "8 10 14 18 26 ___",
+    "options": ["32", "34", "36", "30"],
+    "correctAnswer": 1
+  },
+  {
+    "question": "Cars have Mirrors because ______",
+    "options": ["To see the cars which are ahead", "To see the girls in the cars", "To see the different sights", "To see the cars coming from behind"],
+    "correctAnswer": 3
+  },
+  {
+    "question": "Which one is different from the rest?",
+    "options": ["Carrot", "Mango", "Orange", "Melon"],
+    "correctAnswer": 0
+  },
+  {
+    "question": "Which word is out of list?",
+    "options": ["Lecture", "Gossip", "Oration", "Speech", "Sermon"],
+    "correctAnswer": 1
+  },
+  {
+    "question": "6 9 13 16 20 23 ______",
+    "options": ["26,29", "27,29", "27,30", "26,30"],
+    "correctAnswer": 2
+  },
+  {
+    "question": "6 7 9 12 16 21 27 34 ______",
+    "options": ["43", "47", "49", "42", "50"],
+    "correctAnswer": 3
+  },
+  {
+    "question": "20 25 23 28 26 31 29 34 ______",
+    "options": ["35", "32", "33", "30", "31"],
+    "correctAnswer": 1
+  },
+  {
+    "question": "Single is to Double as One is to ______",
+    "options": ["Twice", "Three", "Zero", "Two"],
+    "correctAnswer": 3
+  },
+  {
+    "question": "The opposite of Never is ____",
+    "options": ["Always", "Seldom", "Often", "Frequently", "Occasionally"],
+    "correctAnswer": 0
+  },
+  {
+    "question": "Pakistan is to Asia as United Kingdom is to ____",
+    "options": ["Europe", "Africa", "America", "England"],
+    "correctAnswer": 0
+  },
+  {
+    "question": "24 12 36 24 48 36 ___",
+    "options": ["50", "52", "58", "60"],
+    "correctAnswer": 3
+  },
+  {
+    "question": "Driver is to Car as _____ is to Airplane.",
+    "options": ["Navigator", "Pilot", "Fuel", "Load Master", "Aerodrome"],
+    "correctAnswer": 1
+  },
+  {
+    "question": "32 6 43 12 64 ___",
+    "options": ["32", "43", "28", "24"],
+    "correctAnswer": 3
+  },
+  {
+    "question": "9 5 8 5 7 5 __",
+    "options": ["6", "5", "7", "8"],
+    "correctAnswer": 0
+  },
+  {
+    "question": "If Yesterday was Monday, what day is after Tomorrow?",
+    "options": ["Monday", "Saturday", "Sunday", "Thursday"],
+    "correctAnswer": 3
+  },
+  {
+    "question": "A C F __",
+    "options": ["I", "K", "H", "J"],
+    "correctAnswer": 3
+  },
+  {
+    "question": "3 10 18 27 __",
+    "options": ["36", "35", "37", "32"],
+    "correctAnswer": 2
+  },
+  {
+    "question": "Skardu is to cold as Multan is to ___",
+    "options": ["Snow", "Hot", "Stream", "Ice"],
+    "correctAnswer": 1
+  },
+  {
+    "question": "Acre is to Kanal as Square is to ___",
+    "options": ["Karam", "Marla", "Mile", "Kanal", "Acre"],
+    "correctAnswer": 4
+  },
+  {
+    "question": "7 8 6 7 5 6 4 __",
+    "options": ["5", "6", "7", "8"],
+    "correctAnswer": 0
+  },
+  {
+    "question": "Heavy is to Light as Rough is to ___",
+    "options": ["Coarse", "Smooth", "Soft", "Wood"],
+    "correctAnswer": 1
+  },
+  {
+    "question": "10 18 15 23 20 28 ___",
+    "options": ["23", "24", "25", "30"],
+    "correctAnswer": 2
+  },
+  {
+    "question": "Which word does not belong to the list?",
+    "options": ["Tiger", "Lion", "Leopard", "Wolf", "Lamb"],
+    "correctAnswer": 4
+  },
+  {
+    "question": "10 11 13 16 20 ___",
+    "options": ["25", "24", "26", "30"],
+    "correctAnswer": 0
+  },
+  {
+    "question": "Which word is out of list?",
+    "options": ["Touch", "Shout", "Whisper", "Sing"],
+    "correctAnswer": 0
+  },
+  {
+    "question": "A is to E as C is to ___",
+    "options": ["I", "G", "F", "H"],
+    "correctAnswer": 1
+  },
+  {
+    "question": "1 2 4 8 16 ___",
+    "options": ["32", "34", "20", "24"],
+    "correctAnswer": 0
+  }
+]
