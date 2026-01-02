@@ -131,3 +131,4 @@ function attachBackButtonHandler() {
 attachBackButtonHandler();
 window.addEventListener('load', attachBackButtonHandler);
 debugLog('native-back.js loaded and initialized');
+//temporary comment 
