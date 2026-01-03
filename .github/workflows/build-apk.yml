@@ -37,6 +37,7 @@ jobs:
         mv images www/
         mv js www/
         mv ghani.png www/
+        mv developer.png www/
 
     - name: Create package.json
       run: npm init -y

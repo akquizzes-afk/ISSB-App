@@ -6,7 +6,7 @@
     <title>Psychological Tests</title>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
     <script src="https://cdn.jsdelivr.net/npm/canvas-confetti@1.5.1/dist/confetti.browser.min.js"></script>
-    <style>
+<style>
         * {
             margin: 0;
             padding: 0;
@@ -66,7 +66,7 @@
             align-items: center;
             justify-content: space-between;
             border-bottom: 1px solid rgba(16, 185, 129, 0.2);
-            z-index: 1000;
+            z-index: 2000;
             box-shadow: 0 4px 20px rgba(0, 0, 0, 0.2);
         }
         
@@ -94,6 +94,316 @@
             font-size: 1.2rem;
             font-weight: 600;
             color: var(--text);
+        }
+        
+        /* Hamburger Button - Updated with dark background */
+        .hamburger-btn {
+            background: rgba(15, 25, 40, 0.95);
+            border: 2px solid rgba(16, 185, 129, 0.3);
+            width: 44px;
+            height: 44px;
+            border-radius: 12px;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            cursor: pointer;
+            transition: all 0.3s ease;
+            box-shadow: 0 4px 12px rgba(0, 0, 0, 0.4);
+            position: relative;
+            overflow: hidden;
+            backdrop-filter: blur(10px);
+        }
+        
+        .hamburger-btn:hover {
+            transform: translateY(-2px);
+            box-shadow: 0 6px 16px rgba(0, 0, 0, 0.5);
+            border-color: rgba(16, 185, 129, 0.6);
+        }
+        
+        .hamburger-btn:active {
+            transform: translateY(0);
+        }
+        
+        .hamburger-btn::before {
+            content: '';
+            position: absolute;
+            top: 0;
+            left: -100%;
+            width: 100%;
+            height: 100%;
+            background: linear-gradient(90deg, transparent, rgba(16, 185, 129, 0.2), transparent);
+            transition: 0.5s;
+        }
+        
+        .hamburger-btn:hover::before {
+            left: 100%;
+        }
+        
+        .hamburger-btn span {
+            display: block;
+            width: 20px;
+            height: 2px;
+            background: var(--accent);
+            margin: 2px 0;
+            transition: all 0.3s ease;
+            border-radius: 2px;
+        }
+        
+        .hamburger-btn.active span:nth-child(1) {
+            transform: rotate(45deg) translate(5px, 5px);
+        }
+        
+        .hamburger-btn.active span:nth-child(2) {
+            opacity: 0;
+        }
+        
+        .hamburger-btn.active span:nth-child(3) {
+            transform: rotate(-45deg) translate(5px, -5px);
+        }
+        
+        /* Sidebar Overlay */
+        .sidebar-overlay {
+            position: fixed;
+            top: 0;
+            left: 0;
+            right: 0;
+            bottom: 0;
+            background: rgba(0, 0, 0, 0.7);
+            backdrop-filter: blur(4px);
+            z-index: 2999;
+            opacity: 0;
+            visibility: hidden;
+            transition: all 0.4s ease;
+        }
+        
+        .sidebar-overlay.active {
+            opacity: 1;
+            visibility: visible;
+        }
+        
+        /* Sidebar */
+        .sidebar {
+            position: fixed;
+            top: 0;
+            right: -320px;
+            width: 280px;
+            max-width: 85%;
+            height: 100vh;
+            background: linear-gradient(135deg, #0a1929 0%, #0a1a14 100%);
+            box-shadow: -10px 0 40px rgba(0, 0, 0, 0.5);
+            z-index: 3000;
+            overflow-y: auto;
+            overflow-x: hidden;
+            transition: right 0.4s cubic-bezier(0.25, 0.46, 0.45, 0.94);
+            display: flex;
+            flex-direction: column;
+            border-left: 1px solid rgba(16, 185, 129, 0.2);
+        }
+        
+        .sidebar.active {
+            right: 0;
+        }
+        
+        /* Profile Section - Fixed for mobile */
+        .sidebar-profile {
+            padding: 25px 15px 15px;
+            text-align: center;
+            background: linear-gradient(135deg, rgba(16, 185, 129, 0.08) 0%, rgba(5, 150, 105, 0.04) 100%);
+            border-bottom: 1px solid rgba(16, 185, 129, 0.1);
+            position: relative;
+            overflow: hidden;
+        }
+        
+        .sidebar-profile::before {
+            content: '';
+            position: absolute;
+            top: 0;
+            left: 0;
+            right: 0;
+            bottom: 0;
+            background: url("data:image/svg+xml,%3Csvg width='100' height='100' viewBox='0 0 100 100' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath d='M11 18c3.866 0 7-3.134 7-7s-3.134-7-7-7-7 3.134-7 7 3.134 7 7 7zm48 25c3.866 0 7-3.134 7-7s-3.134-7-7-7-7 3.134-7 7 3.134 7 7 7zm-43-7c1.657 0 3-1.343 3-3s-1.343-3-3-3-3 1.343-3 3 1.343 3 3 3zm63 31c1.657 0 3-1.343 3-3s-1.343-3-3-3-3 1.343-3 3 1.343 3 3 3zM34 90c1.657 0 3-1.343 3-3s-1.343-3-3-3-3 1.343-3 3 1.343 3 3 3zm56-76c1.657 0 3-1.343 3-3s-1.343-3-3-3-3 1.343-3 3 1.343 3 3 3zM12 86c2.21 0 4-1.79 4-4s-1.79-4-4-4-4 1.79-4 4 1.79 4 4 4zm28-65c2.21 0 4-1.79 4-4s-1.79-4-4-4-4 1.79-4 4 1.79 4 4 4zm23-11c2.76 0 5-2.24 5-5s-2.24-5-5-5-5 2.24-5 5 2.24 5 5 5zm-6 60c2.21 0 4-1.79 4-4s-1.79-4-4-4-4 1.79-4 4 1.79 4 4 4zm29 22c2.76 0 5-2.24 5-5s-2.24-5-5-5-5 2.24-5 5 2.24 5 5 5zM32 63c2.76 0 5-2.24 5-5s-2.24-5-5-5-5 2.24-5 5 2.24 5 5 5zm57-13c2.76 0 5-2.24 5-5s-2.24-5-5-5-5 2.24-5 5 2.24 5 5 5zm-9-21c1.105 0 2-.895 2-2s-.895-2-2-2-2 .895-2 2 .895 2 2 2zM60 91c1.105 0 2-.895 2-2s-.895-2-2-2-2 .895-2 2 .895 2 2 2zM35 41c1.105 0 2-.895 2-2s-.895-2-2-2-2 .895-2 2 .895 2 2 2zM12 60c1.105 0 2-.895 2-2s-.895-2-2-2-2 .895-2 2 .895 2 2 2z' fill='%23ffffff' fill-opacity='0.05' fill-rule='evenodd'/%3E%3C/svg%3E");
+            opacity: 0.3;
+        }
+        
+        /* Fixed Profile Image Display */
+        .profile-image {
+            width: 80px;
+            height: 80px;
+            border-radius: 50%;
+            margin: 0 auto 12px;
+            border: 3px solid var(--accent);
+            overflow: hidden;
+            box-shadow: 0 6px 18px rgba(16, 185, 129, 0.25);
+            position: relative;
+            z-index: 1;
+            transition: all 0.3s ease;
+            background: var(--card-bg);
+        }
+        
+        .profile-image:hover {
+            transform: scale(1.05);
+            box-shadow: 0 8px 22px rgba(16, 185, 129, 0.35);
+        }
+        
+        /* Fixed: Ensure image displays properly */
+        .profile-image img {
+            width: 100%;
+            height: 100%;
+            object-fit: cover;
+            display: block;
+        }
+        
+        .profile-name {
+            font-size: 1.3rem;
+            font-weight: 700;
+            margin-bottom: 4px;
+            color: white;
+            position: relative;
+            z-index: 1;
+            background: linear-gradient(135deg, #10b981 0%, #22c55e 100%);
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+            background-clip: text;
+        }
+        
+        .profile-title {
+            font-size: 0.85rem;
+            color: var(--text-light);
+            margin-bottom: 8px;
+            position: relative;
+            z-index: 1;
+            font-weight: 500;
+        }
+        
+        .profile-description {
+            font-size: 0.75rem;
+            color: var(--text);
+            line-height: 1.4;
+            position: relative;
+            z-index: 1;
+            opacity: 0.9;
+        }
+        
+        /* Sidebar Menu - Smaller for mobile */
+        .sidebar-menu {
+            padding: 10px 15px 8px; /* Reduced bottom padding */
+            flex-grow: 1;
+        }
+        
+        .menu-section {
+            margin-bottom: 8px; /* Reduced from 15px */
+        }
+        
+        .menu-section h3 {
+            font-size: 0.75rem;
+            color: var(--accent);
+            text-transform: uppercase;
+            letter-spacing: 0.5px;
+            margin-bottom: 6px; /* Reduced from 8px */
+            font-weight: 600;
+            display: flex;
+            align-items: center;
+            gap: 5px;
+        }
+        
+        .menu-section h3 i {
+            font-size: 0.8rem;
+        }
+        
+        /* Smaller menu items for mobile */
+        .menu-item {
+            display: flex;
+            align-items: center;
+            gap: 8px;
+            padding: 13px 17px; /* Reduced vertical padding */
+            margin-bottom: 0;
+            background: rgba(255, 255, 255, 0.03);
+            border-radius: 8px;
+            color: var(--text);
+            text-decoration: none;
+            transition: all 0.2s ease;
+            cursor: pointer;
+            border: 1px solid transparent;
+            font-size: 0.8rem;
+        }
+        
+        .menu-item:hover {
+            background: rgba(16, 185, 129, 0.08);
+            transform: translateX(3px);
+            border-color: rgba(16, 185, 129, 0.15);
+        }
+        
+        .menu-item i {
+            width: 16px;
+            text-align: center;
+            color: var(--accent);
+            font-size: 0.85rem;
+        }
+        
+        .menu-item span {
+            font-size: 0.8rem;
+        }
+        
+        .menu-item a {
+            font-size: 0.8rem;
+            color: var(--text);
+            text-decoration: none;
+        }
+            
+        /* Sidebar Footer - Only WhatsApp */
+        .sidebar-footer {
+            padding: 8px 15px 12px; /* Reduced top padding */
+            border-top: 1px solid rgba(255, 255, 255, 0.05);
+            background: rgba(0, 0, 0, 0.2);
+        }
+        
+        .sidebar-footer p {
+            color: var(--text-light);
+            font-size: 0.7rem;
+            text-align: center;
+            line-height: 1.3;
+            margin-bottom: 3px; /* Reduced from 10px */
+        }
+        
+        .contact-section {
+            margin-bottom: 5px; /* Reduced from 10px */
+        }
+        
+        /* WhatsApp Button Only - KEPT EXACTLY AS WAS */
+        .whatsapp-contact {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            gap: 8px;
+            background: linear-gradient(135deg, #25D366 0%, #128C7E 100%);
+            color: white;
+            padding: 9px 12px;
+            border: none;
+            border-radius: 8px;
+            font-size: 0.8rem;
+            font-weight: 600;
+            cursor: pointer;
+            transition: all 0.3s ease;
+            text-align: center;
+            width: 200px;
+            box-shadow: 0 4px 10px rgba(37, 211, 102, 0.25);
+            text-decoration: none;
+            margin-top: 8px;
+            margin: 0 auto;
+        }
+        
+        .whatsapp-contact:hover {
+            transform: translateY(-2px);
+            box-shadow: 0 6px 14px rgba(37, 211, 102, 0.35);
+        }
+        
+        .whatsapp-contact:active {
+            transform: translateY(0);
+        }
+        
+        .whatsapp-contact i {
+            font-size: 1rem;
         }
         
         .container {
@@ -143,11 +453,11 @@
         .user-name-with-exclamation {
             background: linear-gradient(
                 135deg, 
-                #ef4444 0%,     /* Red */
-                #f59e0b 25%,    /* Amber */
-                #F472B6 50%,    /* pink */
-                #3b82f6 75%,    /* Blue */
-                #8b5cf6 100%    /* Purple */
+                #ef4444 0%,
+                #f59e0b 25%,
+                #F472B6 50%,
+                #3b82f6 75%,
+                #8b5cf6 100%
             );
             background-size: 300% 300%;
             -webkit-background-clip: text;
@@ -301,20 +611,6 @@
             border-top: 1px solid rgba(255, 255, 255, 0.05);
         }
         
-        @media (min-width: 768px) {
-            .cards-container {
-                grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
-            }
-            
-            .welcome-text {
-                font-size: 2.2rem;
-            }
-            
-            .card-body p {
-                font-size: 0.85rem;
-            }
-        }
-
         /* Welcome Popup Styles */
         .welcome-popup-overlay {
             position: fixed;
@@ -326,7 +622,7 @@
             display: flex;
             align-items: center;
             justify-content: center;
-            z-index: 3000;
+            z-index: 4000;
             opacity: 0;
             visibility: hidden;
             transition: all 0.5s ease;
@@ -353,7 +649,7 @@
             transform: scale(1) translateY(0);
         }
         
-        .welcome-popup-header {
+             .welcome-popup-header {
             padding: 30px 25px 20px;
             background: linear-gradient(135deg, var(--accent) 0%, var(--accent-dark) 100%);
             color: white;
@@ -436,7 +732,7 @@
             display: flex;
             align-items: center;
             justify-content: center;
-            z-index: 3000;
+            z-index: 4000;
             opacity: 0;
             visibility: hidden;
             transition: all 0.5s ease;
@@ -513,15 +809,70 @@
             gap: 12px;
         }
 
+        /* Scrollbar for sidebar */
+        .sidebar::-webkit-scrollbar {
+            width: 4px;
+        }
+        
+        .sidebar::-webkit-scrollbar-track {
+            background: rgba(0, 0, 0, 0.1);
+        }
+        
+        .sidebar::-webkit-scrollbar-thumb {
+            background: var(--accent);
+            border-radius: 2px;
+        }
+
         *{ 
             -webkit-tap-highlight-color: transparent;
         }
+        
+        @media (min-width: 768px) {
+            .cards-container {
+                grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+            }
+            
+            .welcome-text {
+                font-size: 2.2rem;
+            }
+            
+            .card-body p {
+                font-size: 0.85rem;
+            }
+            
+            .sidebar {
+                width: 320px;
+            }
+            
+            .profile-image {
+                width: 100px;
+                height: 100px;
+            }
+            
+            .profile-name {
+                font-size: 1.5rem;
+            }
+            
+            .menu-item {
+                padding: 10px 12px;
+                font-size: 0.85rem;
+            }
+            
+            .sidebar-menu {
+                padding: 12px 15px 10px;
+            }
+            
+            .menu-section {
+                margin-bottom: 10px;
+            }
+        }
     </style>
+     
     <script src="capacitor.js"></script>
     <script src="js/native-back.js"></script>
 </head>
 <body>
-    <!-- Welcome Popup (Shows on first visit) -->
+    <!-- Welcome Popup -->
     <div class="welcome-popup-overlay" id="welcomePopup">
         <div class="welcome-popup">
             <div class="welcome-popup-header">
@@ -541,7 +892,7 @@
         </div>
     </div>
 
-    <!-- Prayer Popup (Shows after welcome popup on first visit) -->
+    <!-- Prayer Popup -->
     <div class="prayer-popup-overlay" id="prayerPopup">
         <div class="prayer-popup">
             <div class="prayer-popup-header">
@@ -560,6 +911,67 @@
         </div>
     </div>
 
+    <!-- Sidebar Overlay -->
+    <div class="sidebar-overlay" id="sidebarOverlay"></div>
+
+<!-- Sidebar -->
+<div class="sidebar" id="sidebar">
+    <div class="sidebar-profile">
+        <div class="profile-image">
+            <img src="developer.png" alt="Ghani - Developer" onerror="this.style.display='none'; this.parentElement.style.background='linear-gradient(135deg, #10b981 0%, #059669 100%)'; this.parentElement.innerHTML='<span style=color:white;font-size:2rem>G</span>'">
+        </div>
+        <h2 class="profile-name">Fahad Ghani</h2>
+        <p class="profile-title">Full Stack Developer</p>
+    </div>
+    
+    <div class="sidebar-menu">
+        <div class="menu-section">
+            <h3><i class="fas fa-info-circle"></i> Information</h3>
+            <a href="about-developer.html" class="menu-item about-link">
+                <i class="fas fa-user"></i>
+                <span>About Developer</span>
+            </a>
+            <div class="menu-item">
+                <i class="fas fa-history"></i>
+                <span>Version: 2.0.0</span>
+            </div>
+        </div>
+        
+        <div class="menu-section">
+            <h3><i class="fas fa-map-marker-alt"></i> Location</h3>
+            <div class="menu-item">
+                <i class="fas fa-globe-asia"></i>
+                <span>Pakistan</span>
+            </div>
+            <div class="menu-item">
+                <i class="fas fa-city"></i>
+                <span>Pabbi, Peshawar, KPK</span>
+            </div>
+        </div>
+        
+<div class="menu-section contact-section">
+    <h3><i class="fas fa-envelope"></i> Contact</h3>
+    <a href="mailto:ghaniofficial385@gmail.com" class="menu-item">
+        <i class="fas fa-envelope"></i>
+        <span>ghaniofficial385@gmail.com</span>
+    </a>
+    <a href="whatsapp://send?phone=923108365191&text=Hello%20Fahad%2C%20I%20came%20across%20your%20portfolio%20and%20would%20like%20to%20discuss%20a%20potential%20project%20or%20collaboration%20with%20you."
+       class="menu-item">
+        <i class="fab fa-whatsapp"></i>
+        <span>+92310-8365191</span>
+    </a>
+</div>
+    </div>
+    
+    <div class="sidebar-footer">
+        <p>Made with 💚 by Ghani</p>
+        <p>Free & Open Source Project</p>
+        <a href="https://chat.whatsapp.com/J5h21N9d9QzGgUEn8DBCAF" class="whatsapp-contact" target="_blank">
+            <i class="fab fa-whatsapp"></i>
+            Join WhatsApp Group
+        </a>
+    </div>
+</div>
     <!-- Sticky Header -->
     <div class="sticky-header">
         <div class="header-left">
@@ -568,24 +980,29 @@
             </div>
             <div class="header-title"></div>
         </div>
+        
+        <!-- Hamburger Button -->
+        <button class="hamburger-btn" id="hamburgerBtn">
+            <span></span>
+            <span></span>
+            <span></span>
+        </button>
     </div>
 
     <div class="container">
-        <!-- Updated page header with split text -->
         <div class="page-header">
-    <div class="welcome-text">
-        <div class="welcome-line-1">
-            <span class="hey-text">Hey </span>
-            <span class="user-name-with-exclamation" id="userNameWithExclamation"></span>
+            <div class="welcome-text">
+                <div class="welcome-line-1">
+                    <span class="hey-text">Hey </span>
+                    <span class="user-name-with-exclamation" id="userNameWithExclamation"></span>
+                </div>
+                <div class="welcome-line-2">
+                    <span class="question-text">Which test would you do today?</span>
+                </div>
+            </div>
         </div>
-        <div class="welcome-line-2">
-            <span class="question-text">Which test would you do today?</span>
-        </div>
-    </div>
-</div>
-
-      <div class="cards-container">
-            <!-- Your existing cards (WAT Test, Picture Story, etc.) -->
+        
+        <div class="cards-container">
             <div class="card">
                 <div class="card-header">
                     <i class="fas fa-computer"></i>
@@ -612,7 +1029,6 @@
                     </a>
                 </div>
             </div>
-            
             <div class="card">
                 <div class="card-header">
                     <i class="fas fa-images"></i>
@@ -626,7 +1042,6 @@
                     </a>
                 </div>
             </div>
-            
             <div class="card">
                 <div class="card-header">
                     <i class="fas fa-pen"></i>
@@ -640,7 +1055,6 @@
                     </a>
                 </div>
             </div>
-            
             <div class="card">
                 <div class="card-header">
                     <i class="fas fa-exclamation-circle"></i>
@@ -654,7 +1068,7 @@
                     </a>
                 </div>
             </div>
-                        <div class="card">
+            <div class="card">
                 <div class="card-header">
                     <i class="fas fa-question-circle"></i>
                     <h2>OPI Test</h2>
@@ -667,8 +1081,7 @@
                     </a>
                 </div>
             </div>
-            
-             <div class="card">
+            <div class="card">
                 <div class="card-header">
                     <i class="fas fa-question-circle"></i>
                     <h2>MAT Test</h2>
@@ -688,162 +1101,225 @@
         </footer>
     </div>
 
-<script>
-    // User Name Management
-    const USER_NAME_KEY = 'ghani_user_name';
-    const HAS_VISITED_KEY = 'ghani_has_visited';
-    const PRAYER_SHOWN_KEY = 'ghani_prayer_shown';
-    
-     // Initialize app when DOM loads
-    document.addEventListener('DOMContentLoaded', function() {
-        // Check if this is first visit
-        const hasVisited = localStorage.getItem(HAS_VISITED_KEY);
-        const userName = localStorage.getItem(USER_NAME_KEY);
-        const prayerShown = localStorage.getItem(PRAYER_SHOWN_KEY);
+    <script>
+        // User Name Management
+        const USER_NAME_KEY = 'ghani_user_name';
+        const HAS_VISITED_KEY = 'ghani_has_visited';
+        const PRAYER_SHOWN_KEY = 'ghani_prayer_shown';
         
-        // DOM Elements
-        const welcomePopup = document.getElementById('welcomePopup');
-        const prayerPopup = document.getElementById('prayerPopup');
-        const userNameInput = document.getElementById('userNameInput');
-        const saveUserNameBtn = document.getElementById('saveUserNameBtn');
-        const prayerBtn = document.getElementById('prayerBtn');
-        const userNameWithExclamation = document.getElementById('userNameWithExclamation');
-        
-        // Show welcome popup on first visit
-        if (!hasVisited || !userName) {
-            setTimeout(() => {
-                welcomePopup.classList.add('active');
-                userNameInput.focus();
-            }, 500);
-        } else {
-            // Update welcome message with user's name
-            updateWelcomeMessage(userName);
+        // Initialize app when DOM loads
+        document.addEventListener('DOMContentLoaded', function() {
+            // Check if this is first visit
+            const hasVisited = localStorage.getItem(HAS_VISITED_KEY);
+            const userName = localStorage.getItem(USER_NAME_KEY);
+            const prayerShown = localStorage.getItem(PRAYER_SHOWN_KEY);
             
-            // Show prayer popup if not shown before
-            if (!prayerShown) {
-                setTimeout(() => {
-                    prayerPopup.classList.add('active');
-                }, 500);
-            }
-        }
-        
-        // Save user name
-        saveUserNameBtn.addEventListener('click', function() {
-            const name = userNameInput.value.trim();
-            if (name) {
-                localStorage.setItem(USER_NAME_KEY, name);
-                localStorage.setItem(HAS_VISITED_KEY, 'true');
-                updateWelcomeMessage(name);
-                welcomePopup.classList.remove('active');
+            // DOM Elements
+            const welcomePopup = document.getElementById('welcomePopup');
+            const prayerPopup = document.getElementById('prayerPopup');
+            const userNameInput = document.getElementById('userNameInput');
+            const saveUserNameBtn = document.getElementById('saveUserNameBtn');
+            const prayerBtn = document.getElementById('prayerBtn');
+            const userNameWithExclamation = document.getElementById('userNameWithExclamation');
+            const hamburgerBtn = document.getElementById('hamburgerBtn');
+            const sidebar = document.getElementById('sidebar');
+            const sidebarOverlay = document.getElementById('sidebarOverlay');
+            
+            // Sidebar State
+            let isSidebarOpen = false;
+            
+            // Toggle Sidebar Function
+            function toggleSidebar() {
+                isSidebarOpen = !isSidebarOpen;
                 
-                // Show prayer popup after welcome popup
-                setTimeout(() => {
-                    prayerPopup.classList.add('active');
-                }, 300);
-            } else {
-                userNameInput.focus();
-                userNameInput.placeholder = "Please enter your name...";
+                if (isSidebarOpen) {
+                    sidebar.classList.add('active');
+                    sidebarOverlay.classList.add('active');
+                    hamburgerBtn.classList.add('active');
+                    document.body.style.overflow = 'hidden'; // Prevent scrolling
+                } else {
+                    sidebar.classList.remove('active');
+                    sidebarOverlay.classList.remove('active');
+                    hamburgerBtn.classList.remove('active');
+                    document.body.style.overflow = ''; // Restore scrolling
+                }
             }
-        });
-        
-        // Allow Enter key to save name
-        userNameInput.addEventListener('keypress', function(e) {
-            if (e.key === 'Enter') {
-                saveUserNameBtn.click();
+            
+            // Close Sidebar Function
+            function closeSidebar() {
+                if (isSidebarOpen) {
+                    isSidebarOpen = false;
+                    sidebar.classList.remove('active');
+                    sidebarOverlay.classList.remove('active');
+                    hamburgerBtn.classList.remove('active');
+                    document.body.style.overflow = '';
+                }
             }
-        });
-        
-        // Prayer button click handler
-        prayerBtn.addEventListener('click', function() {
-            // Mark prayer as shown
-            localStorage.setItem(PRAYER_SHOWN_KEY, 'true');
             
-            // Close prayer popup
-            prayerPopup.classList.remove('active');
+            // Hamburger Button Click
+            hamburgerBtn.addEventListener('click', function(e) {
+                e.stopPropagation();
+                toggleSidebar();
+            });
             
-            // Show confetti
-            if (window.confetti) {
-                confetti({
-                    particleCount: 150,
-                    spread: 70,
-                    origin: { y: 0.6 }
+            // Overlay Click to Close
+            sidebarOverlay.addEventListener('click', closeSidebar);
+            
+            // Close sidebar when clicking on menu items (optional)
+            const menuItems = document.querySelectorAll('.menu-item');
+            menuItems.forEach(item => {
+                item.addEventListener('click', function() {
+                    // Add a small delay before closing for better UX
+                    setTimeout(closeSidebar, 200);
                 });
-                
-                // Additional confetti
-                setTimeout(() => confetti({
-                    particleCount: 100,
-                    angle: 60,
-                    spread: 55,
-                    origin: { x: 0 }
-                }), 250);
-                
-                setTimeout(() => confetti({
-                    particleCount: 100,
-                    angle: 120,
-                    spread: 55,
-                    origin: { x: 1 }
-                }), 400);
-            }
-        });
-        
-        // Add subtle animation to cards on load
-        const cards = document.querySelectorAll('.card');
-        cards.forEach((card, index) => {
-            card.style.opacity = '0';
-            card.style.transform = 'translateY(20px)';
+            });
             
-            setTimeout(() => {
-                card.style.transition = 'opacity 0.5s ease, transform 0.5s ease';
-                card.style.opacity = '1';
-                card.style.transform = 'translateY(0)';
-            }, 150 * index);
-        });
-        
-        // Add click effect to buttons
-        const buttons = document.querySelectorAll('.btn');
-        buttons.forEach(button => {
-            button.addEventListener('click', function() {
-                this.style.transform = 'scale(0.95)';
+            // Close sidebar with Escape key
+            document.addEventListener('keydown', function(e) {
+                if (e.key === 'Escape' && isSidebarOpen) {
+                    closeSidebar();
+                }
+            });
+            
+            // Show welcome popup on first visit
+            if (!hasVisited || !userName) {
                 setTimeout(() => {
-                    this.style.transform = '';
-                }, 150);
+                    welcomePopup.classList.add('active');
+                    userNameInput.focus();
+                }, 500);
+            } else {
+                // Update welcome message with user's name
+                updateWelcomeMessage(userName);
+                
+                // Show prayer popup if not shown before
+                if (!prayerShown) {
+                    setTimeout(() => {
+                        prayerPopup.classList.add('active');
+                    }, 500);
+                }
+            }
+            
+            // Save user name
+            saveUserNameBtn.addEventListener('click', function() {
+                const name = userNameInput.value.trim();
+                if (name) {
+                    localStorage.setItem(USER_NAME_KEY, name);
+                    localStorage.setItem(HAS_VISITED_KEY, 'true');
+                    updateWelcomeMessage(name);
+                    welcomePopup.classList.remove('active');
+                    
+                    // Show prayer popup after welcome popup
+                    setTimeout(() => {
+                        prayerPopup.classList.add('active');
+                    }, 300);
+                } else {
+                    userNameInput.focus();
+                    userNameInput.placeholder = "Please enter your name...";
+                }
+            });
+                // Allow Enter key to save name
+            userNameInput.addEventListener('keypress', function(e) {
+                if (e.key === 'Enter') {
+                    saveUserNameBtn.click();
+                }
+            });
+            
+            // Prayer button click handler
+            prayerBtn.addEventListener('click', function() {
+                // Mark prayer as shown
+                localStorage.setItem(PRAYER_SHOWN_KEY, 'true');
+                
+                // Close prayer popup
+                prayerPopup.classList.remove('active');
+                
+                // Show confetti
+                if (window.confetti) {
+                    confetti({
+                        particleCount: 150,
+                        spread: 70,
+                        origin: { y: 0.6 }
+                    });
+                    
+                    // Additional confetti
+                    setTimeout(() => confetti({
+                        particleCount: 100,
+                        angle: 60,
+                        spread: 55,
+                        origin: { x: 0 }
+                    }), 250);
+                    
+                    setTimeout(() => confetti({
+                        particleCount: 100,
+                        angle: 120,
+                        spread: 55,
+                        origin: { x: 1 }
+                    }), 400);
+                }
+            });
+            
+            // Add subtle animation to cards on load
+            const cards = document.querySelectorAll('.card');
+            cards.forEach((card, index) => {
+                card.style.opacity = '0';
+                card.style.transform = 'translateY(20px)';
+                
+                setTimeout(() => {
+                    card.style.transition = 'opacity 0.5s ease, transform 0.5s ease';
+                    card.style.opacity = '1';
+                    card.style.transform = 'translateY(0)';
+                }, 150 * index);
+            });
+            
+            // Add click effect to buttons
+            const buttons = document.querySelectorAll('.btn');
+            buttons.forEach(button => {
+                button.addEventListener('click', function() {
+                    this.style.transform = 'scale(0.95)';
+                    setTimeout(() => {
+                        this.style.transform = '';
+                    }, 150);
+                });
+            });
+            
+            // Simple Ripple Effect
+            document.addEventListener('click', function(e) {
+                // Don't create ripple if clicking on hamburger or within sidebar
+                if (e.target.closest('.hamburger-btn') || e.target.closest('.sidebar') || isSidebarOpen) {
+                    return;
+                }
+                
+                // Create ripple element
+                const ripple = document.createElement('div');
+                ripple.className = 'ripple';
+                
+                // Set position and size
+                const size = 100;
+                const x = e.pageX - size / 2;
+                const y = e.pageY - size / 2;
+                
+                ripple.style.width = size + 'px';
+                ripple.style.height = size + 'px';
+                ripple.style.left = x + 'px';
+                ripple.style.top = y + 'px';
+                
+                // Add to body
+                document.body.appendChild(ripple);
+                
+                // Remove after animation
+                setTimeout(() => {
+                    ripple.remove();
+                }, 600);
             });
         });
-
-        // Simple Ripple Effect
-        document.addEventListener('click', function(e) {
-            // Create ripple element
-            const ripple = document.createElement('div');
-            ripple.className = 'ripple';
-            
-            // Set position and size
-            const size = 100;
-            const x = e.pageX - size / 2;
-            const y = e.pageY - size / 2;
-            
-            ripple.style.width = size + 'px';
-            ripple.style.height = size + 'px';
-            ripple.style.left = x + 'px';
-            ripple.style.top = y + 'px';
-            
-            // Add to body
-            document.body.appendChild(ripple);
-            
-            // Remove after animation
-            setTimeout(() => {
-                ripple.remove();
-            }, 600);
-        });
-    });
-
-    // Update welcome message with user's name including exclamation mark
-    function updateWelcomeMessage(userName) {
-        const userNameWithExclamation = document.getElementById('userNameWithExclamation');
-        if (userNameWithExclamation) {
-            userNameWithExclamation.textContent = userName + "!";
+        
+        // Update welcome message with user's name including exclamation mark
+        function updateWelcomeMessage(userName) {
+            const userNameWithExclamation = document.getElementById('userNameWithExclamation');
+            if (userNameWithExclamation) {
+                userNameWithExclamation.textContent = userName + "!";
+            }
         }
-    }
-</script>
+    </script>
     
     <script>
         window.currentPage = 'index.html';

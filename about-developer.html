@@ -1,0 +1,740 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>About Developer | Ghani</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        }
+        
+        :root {
+            --primary: #0a1929;
+            --secondary: #0f2e1f;
+            --accent: #10b981;
+            --accent-dark: #059669;
+            --text: #e2e8f0;
+            --text-light: #94a3b8;
+            --card-bg: #152635;
+            --header-bg: rgba(10, 25, 41, 0.95);
+        }
+        
+        body {
+            background: linear-gradient(135deg, var(--primary) 0%, #0a1a14 100%);
+            color: var(--text);
+            line-height: 1.5;
+            min-height: 100vh;
+            padding: 0;
+            position: relative;
+            overflow-x: hidden;
+        }
+        
+        /* Simple Ripple Effect */
+        .ripple {
+            position: absolute;
+            border-radius: 50%;
+            background: rgba(16, 185, 129, 0.4);
+            transform: scale(0);
+            animation: ripple 0.6s linear;
+            pointer-events: none;
+            z-index: 9999;
+        }
+        
+        @keyframes ripple {
+            to {
+                transform: scale(1.5);
+                opacity: 0;
+            }
+        }
+
+        .header-left {
+            display: flex;
+            align-items: center;
+            gap: 12px;
+        }
+        
+        .app-icon {
+            width: 40px;
+            height: 40px;
+            border-radius: 12px;
+            box-shadow: 0 4px 12px rgba(16, 185, 129, 0.3);
+        }
+        
+        .app-icon img {
+            width: 100%;
+            height: 100%;
+            border-radius: 12px;
+            object-fit: cover;
+        }
+        
+        .header-title {
+            font-size: 1.2rem;
+            font-weight: 600;
+            color: var(--text);
+        }
+        
+        /* Back Button - Original Style */
+        .back-btn {
+            position: fixed;
+            top: 20px;
+            left: 20px;
+            background: rgba(16, 185, 129, 0.2);
+            color: var(--accent);
+            width: 40px;
+            height: 40px;
+            border-radius: 50%;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            font-size: 1.2rem;
+            cursor: pointer;
+            z-index: 100;
+            border: 1px solid rgba(16, 185, 129, 0.3);
+            transition: all 0.3s ease;
+            text-decoration: none;
+            backdrop-filter: blur(5px);
+        }
+        
+        .back-btn:hover {
+            background: rgba(16, 185, 129, 0.3);
+            transform: scale(1.1);
+        }
+        
+        /* Main Container */
+        .container {
+            max-width: 100%;
+            margin: 0 auto;
+            padding: 20px;
+            padding-top: 80px;
+        }
+        
+        /* Page Header */
+        .page-header {
+            text-align: center;
+            padding: 15px 0 25px;
+            color: white;
+            position: relative;
+            overflow: hidden;
+        }
+        
+        .page-header h1 {
+            font-size: 1.8rem;
+            font-weight: 700;
+            margin-bottom: 8px;
+            background: linear-gradient(135deg, #10b981 0%, #22c55e 100%);
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+            background-clip: text;
+        }
+        
+        .page-header p {
+            font-size: 0.95rem;
+            color: var(--text-light);
+            max-width: 300px;
+            margin: 0 auto;
+        }
+        
+        /* Developer Profile Card */
+        .dev-profile-card {
+            background: var(--card-bg);
+            border-radius: 16px;
+            overflow: hidden;
+            box-shadow: 0 8px 25px rgba(0, 0, 0, 0.3);
+            margin-bottom: 25px;
+            border: 1px solid rgba(16, 185, 129, 0.1);
+            position: relative;
+        }
+        
+        .dev-profile-card::before {
+            content: '';
+            position: absolute;
+            top: 0;
+            left: 0;
+            right: 0;
+            height: 4px;
+            background: linear-gradient(90deg, var(--accent) 0%, var(--accent-dark) 100%);
+        }
+        
+        .dev-profile-header {
+            padding: 25px 20px;
+            background: linear-gradient(135deg, rgba(16, 185, 129, 0.1) 0%, rgba(5, 150, 105, 0.05) 100%);
+            text-align: center;
+            position: relative;
+            overflow: hidden;
+        }
+        
+        .dev-profile-header::before {
+            content: '';
+            position: absolute;
+            top: 0;
+            left: 0;
+            right: 0;
+            bottom: 0;
+            background: url("data:image/svg+xml,%3Csvg width='100' height='100' viewBox='0 0 100 100' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath d='M11 18c3.866 0 7-3.134 7-7s-3.134-7-7-7-7 3.134-7 7 3.134 7 7 7zm48 25c3.866 0 7-3.134 7-7s-3.134-7-7-7-7 3.134-7 7 3.134 7 7 7zm-43-7c1.657 0 3-1.343 3-3s-1.343-3-3-3-3 1.343-3 3 1.343 3 3 3zm63 31c1.657 0 3-1.343 3-3s-1.343-3-3-3-3 1.343-3 3 1.343 3 3 3zM34 90c1.657 0 3-1.343 3-3s-1.343-3-3-3-3 1.343-3 3 1.343 3 3 3zm56-76c1.657 0 3-1.343 3-3s-1.343-3-3-3-3 1.343-3 3 1.343 3 3 3zM12 86c2.21 0 4-1.79 4-4s-1.79-4-4-4-4 1.79-4 4 1.79 4 4 4zm28-65c2.21 0 4-1.79 4-4s-1.79-4-4-4-4 1.79-4 4 1.79 4 4 4zm23-11c2.76 0 5-2.24 5-5s-2.24-5-5-5-5 2.24-5 5 2.24 5 5 5zm-6 60c2.21 0 4-1.79 4-4s-1.79-4-4-4-4 1.79-4 4 1.79 4 4 4zm29 22c2.76 0 5-2.24 5-5s-2.24-5-5-5-5 2.24-5 5 2.24 5 5 5zM32 63c2.76 0 5-2.24 5-5s-2.24-5-5-5-5 2.24-5 5 2.24 5 5 5zm57-13c2.76 0 5-2.24 5-5s-2.24-5-5-5-5 2.24-5 5 2.24 5 5 5zm-9-21c1.105 0 2-.895 2-2s-.895-2-2-2-2 .895-2 2 .895 2 2 2zM60 91c1.105 0 2-.895 2-2s-.895-2-2-2-2 .895-2 2 .895 2 2 2zM35 41c1.105 0 2-.895 2-2s-.895-2-2-2-2 .895-2 2 .895 2 2 2zM12 60c1.105 0 2-.895 2-2s-.895-2-2-2-2 .895-2 2 .895 2 2 2z' fill='%23ffffff' fill-opacity='0.05' fill-rule='evenodd'/%3E%3C/svg%3E");
+            opacity: 0.3;
+        }
+        
+        /* Profile Image */
+        .dev-profile-image {
+            width: 120px;
+            height: 120px;
+            border-radius: 50%;
+            margin: 0 auto 15px;
+            border: 4px solid var(--accent);
+            overflow: hidden;
+            box-shadow: 0 8px 25px rgba(16, 185, 129, 0.25);
+            position: relative;
+            z-index: 1;
+            transition: all 0.4s ease;
+        }
+        
+        .dev-profile-image:hover {
+            transform: scale(1.05);
+            box-shadow: 0 12px 30px rgba(16, 185, 129, 0.4);
+        }
+        
+        .dev-profile-image img {
+            width: 100%;
+            height: 100%;
+            object-fit: cover;
+            display: block;
+        }
+        
+        .dev-name {
+            font-size: 1.6rem;
+            font-weight: 700;
+            margin-bottom: 5px;
+            color: white;
+            position: relative;
+            z-index: 1;
+            background: linear-gradient(135deg, #10b981 0%, #22c55e 100%);
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+            background-clip: text;
+        }
+        
+        .dev-title {
+            font-size: 1rem;
+            color: var(--text-light);
+            margin-bottom: 10px;
+            position: relative;
+            z-index: 1;
+            font-weight: 500;
+        }
+        
+        .dev-location {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            gap: 6px;
+            font-size: 0.85rem;
+            color: var(--accent);
+            position: relative;
+            z-index: 1;
+        }
+        
+        /* Profile Content */
+        .dev-profile-content {
+            padding: 25px 20px;
+        }
+        
+        .content-section {
+            margin-bottom: 25px;
+        }
+        
+        .content-section h3 {
+            font-size: 1.1rem;
+            color: var(--accent);
+            margin-bottom: 12px;
+            display: flex;
+            align-items: center;
+            gap: 8px;
+            font-weight: 600;
+        }
+        
+        .content-section h3 i {
+            font-size: 1.1rem;
+        }
+        
+        .content-section p {
+            font-size: 0.9rem;
+            color: var(--text);
+            line-height: 1.6;
+            margin-bottom: 10px;
+        }
+        
+        /* Skills Section */
+        .skills-grid {
+            display: grid;
+            grid-template-columns: repeat(2, 1fr);
+            gap: 10px;
+            margin-top: 10px;
+        }
+        
+        .skill-item {
+            background: rgba(16, 185, 129, 0.08);
+            border: 1px solid rgba(16, 185, 129, 0.15);
+            border-radius: 8px;
+            padding: 8px 12px;
+            font-size: 0.8rem;
+            color: var(--text);
+            text-align: center;
+            transition: all 0.3s ease;
+        }
+        
+        .skill-item:hover {
+            background: rgba(16, 185, 129, 0.15);
+            transform: translateY(-2px);
+        }
+        
+        /* Open for Projects Section - Matching UI */
+        .projects-section {
+            background: linear-gradient(135deg, rgba(16, 185, 129, 0.15) 0%, rgba(5, 150, 105, 0.1) 100%);
+            border-radius: 12px;
+            padding: 20px;
+            margin: 20px 0;
+            border: 1px solid rgba(16, 185, 129, 0.2);
+            position: relative;
+            overflow: hidden;
+        }
+        
+        .projects-section::before {
+            content: '';
+            position: absolute;
+            top: 0;
+            left: 0;
+            right: 0;
+            height: 3px;
+            background: linear-gradient(90deg, var(--accent) 0%, var(--accent-dark) 100%);
+        }
+        
+        .projects-section h4 {
+            font-size: 1rem;
+            color: var(--accent);
+            margin-bottom: 10px;
+            display: flex;
+            align-items: center;
+            gap: 8px;
+            font-weight: 600;
+        }
+        
+        .projects-section p {
+            font-size: 0.9rem;
+            color: var(--text);
+            line-height: 1.5;
+            margin-bottom: 15px;
+        }
+        
+        .project-types {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 8px;
+            margin-top: 10px;
+        }
+        
+        .project-type {
+            background: rgba(16, 185, 129, 0.1);
+            border: 1px solid rgba(16, 185, 129, 0.2);
+            border-radius: 20px;
+            padding: 6px 12px;
+            font-size: 0.75rem;
+            color: var(--accent);
+        }
+        
+        /* Contact Info */
+        .contact-info {
+            display: flex;
+            flex-direction: column;
+            gap: 12px;
+            margin-top: 10px;
+        }
+        
+        .contact-item {
+            display: flex;
+            align-items: center;
+            gap: 10px;
+            padding: 10px 12px;
+            background: rgba(255, 255, 255, 0.04);
+            border-radius: 10px;
+            border: 1px solid rgba(255, 255, 255, 0.05);
+            transition: all 0.3s ease;
+        }
+        
+        .contact-item:hover {
+            background: rgba(16, 185, 129, 0.08);
+            transform: translateX(5px);
+        }
+        
+        .contact-item i {
+            width: 20px;
+            text-align: center;
+            color: var(--accent);
+            font-size: 1.1rem;
+        }
+        
+        .contact-item span {
+            font-size: 0.9rem;
+            color: var(--text);
+        }
+        
+        /* WhatsApp Button */
+        .whatsapp-btn {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            gap: 8px;
+            background: linear-gradient(135deg, #25D366 0%, #128C7E 100%);
+            color: white;
+            padding: 12px 20px;
+            border: none;
+            border-radius: 10px;
+            font-size: 0.9rem;
+            font-weight: 600;
+            cursor: pointer;
+            transition: all 0.3s ease;
+            text-align: center;
+            width: 100%;
+            box-shadow: 0 4px 12px rgba(37, 211, 102, 0.3);
+            text-decoration: none;
+            margin-top: 20px;
+        }
+        
+        .whatsapp-btn:hover {
+            transform: translateY(-2px);
+            box-shadow: 0 6px 16px rgba(37, 211, 102, 0.4);
+        }
+        
+        .whatsapp-btn:active {
+            transform: translateY(0);
+        }
+        
+        .whatsapp-btn i {
+            font-size: 1.2rem;
+        }
+        
+        /* Mission Statement */
+        .mission-box {
+            background: linear-gradient(135deg, rgba(16, 185, 129, 0.1) 0%, rgba(5, 150, 105, 0.05) 100%);
+            border-radius: 12px;
+            padding: 20px;
+            margin-top: 20px;
+            border: 1px solid rgba(16, 185, 129, 0.15);
+            position: relative;
+            overflow: hidden;
+        }
+        
+        .mission-box::before {
+            content: '';
+            position: absolute;
+            top: 0;
+            left: 0;
+            right: 0;
+            height: 3px;
+            background: linear-gradient(90deg, var(--accent) 0%, var(--accent-dark) 100%);
+        }
+        
+        .mission-box h4 {
+            font-size: 1rem;
+            color: var(--accent);
+            margin-bottom: 10px;
+            display: flex;
+            align-items: center;
+            gap: 8px;
+        }
+        
+        .mission-box p {
+            font-size: 0.9rem;
+            color: var(--text);
+            line-height: 1.5;
+        }
+        
+        /* Back to Home Button */
+        .back-home-btn {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            gap: 8px;
+            background: linear-gradient(135deg, var(--accent) 0%, var(--accent-dark) 100%);
+            color: white;
+            padding: 12px 20px;
+            border: none;
+            border-radius: 10px;
+            font-size: 0.9rem;
+            font-weight: 600;
+            cursor: pointer;
+            transition: all 0.3s ease;
+            text-align: center;
+            width: 100%;
+            box-shadow: 0 4px 12px rgba(16, 185, 129, 0.3);
+            text-decoration: none;
+            margin-top: 20px;
+        }
+        
+        .back-home-btn:hover {
+            transform: translateY(-2px);
+            box-shadow: 0 6px 16px rgba(16, 185, 129, 0.4);
+        }
+        
+        .back-home-btn:active {
+            transform: translateY(0);
+        }
+        
+        /* Footer */
+        footer {
+            text-align: center;
+            margin-top: 40px;
+            padding: 20px;
+            color: var(--text-light);
+            font-size: 0.75rem;
+            border-top: 1px solid rgba(255, 255, 255, 0.05);
+        }
+        
+        /* Responsive Design */
+        @media (min-width: 768px) {
+            .container {
+                max-width: 700px;
+                padding: 30px 20px;
+                padding-top: 90px;
+            }
+            
+            .page-header h1 {
+                font-size: 2.2rem;
+            }
+            
+            .dev-profile-image {
+                width: 140px;
+                height: 140px;
+            }
+            
+            .dev-name {
+                font-size: 1.8rem;
+            }
+            
+            .skills-grid {
+                grid-template-columns: repeat(3, 1fr);
+            }
+            
+            .content-section p {
+                font-size: 0.95rem;
+            }
+            
+            .back-btn {
+                top: 30px;
+                left: 30px;
+            }
+        }
+        
+        @media (max-width: 480px) {
+            .dev-profile-image {
+                width: 100px;
+                height: 100px;
+            }
+            
+            .dev-name {
+                font-size: 1.4rem;
+            }
+            
+            .skills-grid {
+                grid-template-columns: repeat(2, 1fr);
+                gap: 8px;
+            }
+            
+            .skill-item {
+                font-size: 0.75rem;
+                padding: 6px 8px;
+            }
+            
+            .back-btn {
+                top: 15px;
+                left: 15px;
+            }
+        }
+        
+        *{ 
+            -webkit-tap-highlight-color: transparent;
+        }
+    </style>
+    <script src="capacitor.js"></script>
+    <script src="js/native-back.js"></script>
+</head>
+<body>
+    <!-- Back Button -->
+    <a href="index.html" class="back-btn" id="backBtn">
+        <i class="fas fa-arrow-left"></i>
+    </a>
+
+    <div class="container">
+        <!-- Page Header -->
+        <div class="page-header">
+            <h1>Meet The Developer</h1>
+            <p>Creator behind the ISSB Psychological Tests App</p>
+        </div>
+        
+        <!-- Developer Profile Card -->
+        <div class="dev-profile-card">
+            <div class="dev-profile-header">
+                <div class="dev-profile-image">
+                    <img src="developer.png" alt="Fahad Ghani - Developer" onerror="this.style.display='none'; this.parentElement.style.background='linear-gradient(135deg, #10b981 0%, #059669 100%)'; this.parentElement.innerHTML='<span style=color:white;font-size:2rem>G</span>'">
+                </div>
+                <h2 class="dev-name">Fahad Ghani</h2>
+                <p class="dev-title">Full Stack Developer & Educator</p>
+                <div class="dev-location">
+                    <i class="fas fa-map-marker-alt"></i>
+                    <span>Pabbi, Peshawar, Pakistan</span>
+                </div>
+            </div>
+            
+            <div class="dev-profile-content">
+                <!-- About Section -->
+                <div class="content-section">
+                    <h3><i class="fas fa-user-circle"></i> About Me</h3>
+                    <p>Hello! I'm Ghani, a passionate full-stack developer with a strong focus on creating educational tools that make a difference. My journey in software development started 1 year ago, and since then, I've dedicated myself to building applications that solve real-world problems.</p>
+                    <p>As a former student who went through the challenging ISSB selection process myself, I understand the struggles candidates face. This inspired me to create this comprehensive Psychological Tests App - a completely free resource to help aspiring candidates prepare effectively.</p>
+                </div>
+                
+                <!-- Open for Projects Section -->
+                <div class="projects-section">
+                    <h4><i class="fas fa-briefcase"></i> Open for New Projects!</h4>
+                    <p>I'm currently available for exciting new projects! Whether you need a mobile app, web application, or custom software solution, I'm ready to bring your ideas to life with clean code and beautiful design.</p>
+                    <div class="project-types">
+                        <span class="project-type">Web Development</span>
+                        <span class="project-type">Mobile Apps</span>
+                        <span class="project-type">UI/UX Design</span>
+                        <span class="project-type">Educational Tools</span>
+                    </div>
+                </div>
+                
+<!-- Skills Section -->
+                <div class="content-section">
+                    <h3><i class="fas fa-code"></i> Technical Expertise</h3>
+                    <div class="skills-grid">
+                        <div class="skill-item">HTML5/CSS3</div>
+                        <div class="skill-item">JavaScript</div>
+                        <div class="skill-item">React.js</div>
+                        <div class="skill-item">Node.js</div>
+                        <div class="skill-item">Mobile Development</div>
+                        <div class="skill-item">UI/UX Design</div>
+                    </div>
+                </div>
+                
+                <!-- Mission Section -->
+                <div class="mission-box">
+                    <h4><i class="fas fa-bullseye"></i> My Mission</h4>
+                    <p>To create accessible, high-quality educational tools that help students succeed in their ISSB journey without financial barriers. Every feature in this app is designed with the user's needs in mind, based on real feedback from candidates who have gone through the process.</p>
+                </div>
+                
+                <!-- Contact Section -->
+                <div class="content-section">
+                    <h3><i class="fas fa-envelope"></i> Get In Touch</h3>
+                    <div class="contact-info">
+                        <div class="contact-item">
+                            <i class="fas fa-envelope"></i>
+                            <span>ghaniofficial385@gmail.com</span>
+                        </div>
+                        <div class="contact-item">
+                            <i class="fas fa-globe"></i>
+                            <span>Open Source Developer</span>
+                        </div>
+                        <div class="contact-item">
+                            <i class="fas fa-heart"></i>
+                            <span>Passionate about Education Technology</span>
+                        </div>
+                        <div class="contact-item">
+                            <i class="fas fa-briefcase"></i>
+                            <span>Available for Freelance Projects</span>
+                        </div>
+                    </div>
+                    
+                    <!-- WhatsApp Button -->
+                    <a href="https://wa.me/923108365191" class="whatsapp-btn" target="_blank">
+                        <i class="fab fa-whatsapp"></i>
+                        Discuss Your Project
+                    </a>
+                </div>
+                
+                <!-- Back to Home Button -->
+                <a href="index.html" class="back-home-btn">
+                    <i class="fas fa-home"></i>
+                    Back to Home
+                </a>
+            </div>
+        </div>
+        
+        <footer>
+            <p>&copy; 2026 Developed by Ghani with 💚 | Free Educational Tool</p>
+            <p>All psychological tests are based on official ISSB guidelines</p>
+        </footer>
+    </div>
+
+    <script>
+        // Add tap bubble effect
+        document.addEventListener('click', function(e) {
+            // Don't create ripple if clicking on back button
+            if (e.target.closest('.back-btn')) {
+                return;
+            }
+            
+            // Create ripple element
+            const ripple = document.createElement('div');
+            ripple.className = 'ripple';
+            
+            // Set position and size
+            const size = 100;
+            const x = e.pageX - size / 2;
+            const y = e.pageY - size / 2;
+            
+            ripple.style.width = size + 'px';
+            ripple.style.height = size + 'px';
+            ripple.style.left = x + 'px';
+            ripple.style.top = y + 'px';
+            
+            // Add to body
+            document.body.appendChild(ripple);
+            
+            // Remove after animation
+            setTimeout(() => {
+                ripple.remove();
+            }, 600);
+        });
+          // Add click animation to buttons
+        const buttons = document.querySelectorAll('.whatsapp-btn, .back-home-btn, .skill-item, .contact-item');
+        buttons.forEach(button => {
+            button.addEventListener('click', function(e) {
+                this.style.transform = 'scale(0.95)';
+                setTimeout(() => {
+                    this.style.transform = '';
+                }, 150);
+            });
+        });
+        
+        // Add subtle animation to page elements on load
+        document.addEventListener('DOMContentLoaded', function() {
+            const elements = document.querySelectorAll('.dev-profile-card, .content-section, .mission-box, .projects-section');
+            elements.forEach((element, index) => {
+                element.style.opacity = '0';
+                element.style.transform = 'translateY(20px)';
+                
+                setTimeout(() => {
+                    element.style.transition = 'opacity 0.5s ease, transform 0.5s ease';
+                    element.style.opacity = '1';
+                    element.style.transform = 'translateY(0)';
+                }, 100 * index);
+            });
+        });
+        
+        // Back button functionality
+        document.getElementById('backBtn').addEventListener('click', function() {
+            window.history.back();
+        });
+    </script>
+    
+    <script>
+        window.currentPage = 'about-developer.html';
+    </script>
+</body>
+</html>
