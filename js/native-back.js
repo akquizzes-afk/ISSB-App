@@ -62,6 +62,13 @@ function attachBackButtonHandler() {
     '/initials/academic-tests/test11/test11.html': '/initials/academic-tests/academic-tests.html',
     '/initials/academic-tests/test12/test12.html': '/initials/academic-tests/academic-tests.html',
     '/initials/academic-tests/test13/test13.html': '/initials/academic-tests/academic-tests.html',
+        '/initials/academic-tests/test14/test14.html': '/initials/academic-tests/academic-tests.html',
+    '/initials/academic-tests/test15/test15.html': '/initials/academic-tests/academic-tests.html',
+    '/initials/academic-tests/test16/test16.html': '/initials/academic-tests/academic-tests.html',
+    '/initials/academic-tests/test17/test17.html': '/initials/academic-tests/academic-tests.html',
+        '/initials/academic-tests/test18/test18.html': '/initials/academic-tests/academic-tests.html',
+    '/initials/academic-tests/test19/test19.html': '/initials/academic-tests/academic-tests.html',
+    '/initials/academic-tests/test20/test20.html': '/initials/academic-tests/academic-tests.html',
     
     // Individual verbal tests (Must go back to the hub inside the folder)
     '/initials/verbal-tests/test1/test1.html': '/initials/verbal-tests/verbal-tests.html',
@@ -70,7 +77,10 @@ function attachBackButtonHandler() {
     '/initials/verbal-tests/test4/test4.html': '/initials/verbal-tests/verbal-tests.html',
     '/initials/verbal-tests/test5/test5.html': '/initials/verbal-tests/verbal-tests.html',
     '/initials/verbal-tests/test6/test6.html': '/initials/verbal-tests/verbal-tests.html',
-    
+        '/initials/verbal-tests/test7/test7.html': '/initials/verbal-tests/verbal-tests.html',
+    '/initials/verbal-tests/test8/test8.html': '/initials/verbal-tests/verbal-tests.html',
+    '/initials/verbal-tests/test9/test9.html': '/initials/verbal-tests/verbal-tests.html',
+    '/initials/verbal-tests/test10/test10.html': '/initials/verbal-tests/verbal-tests.html',
     // Coming Soon page
     '/coming-soon.html': '/initials/initial-tests.html'
 };

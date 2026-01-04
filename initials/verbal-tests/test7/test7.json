@@ -1,0 +1,422 @@
+[
+  {
+    "question": "What will come next in the following series: 16  12  28  8  4    ?",
+    "options": ["12", "40", "2", "4"],
+    "correctAnswer": 0
+  },
+  {
+    "question": "What will come next in the following series: 4  12  36  108    ?",
+    "options": ["324", "124", "424", "242"],
+    "correctAnswer": 0
+  },
+  {
+    "question": "What will come next in the following series: 62  31  34  17  20    ?",
+    "options": ["8", "9", "10", "6"],
+    "correctAnswer": 2
+  },
+  {
+    "question": "What will come next in the following series: 20  25  23  28  26  31  29  34    ?",
+    "options": ["31", "32", "33", "43"],
+    "correctAnswer": 0
+  },
+  {
+    "question": "What will come next in the following series: 13  15  17  19  21    ?",
+    "options": ["20", "26", "24", "23"],
+    "correctAnswer": 1
+  },
+  {
+    "question": "What will come next in the following series: 5  3  6  4  7  5  8  6    ,    ?",
+    "options": ["9,7", "8,10", "7,5", "9,5"],
+    "correctAnswer": 2
+  },
+  {
+    "question": "What will come next in the following series: 17  35  72  147    ?",
+    "options": ["294", "892", "198", "298"],
+    "correctAnswer": 0
+  },
+  {
+    "question": "What will come next in the following series: 10  50  250  1250    ?",
+    "options": ["3750", "5012", "5169", "6250"],
+    "correctAnswer": 3
+  },
+  {
+    "question": "What will come next in the following series: 49  48  45  40  33  34    ?",
+    "options": ["25", "13", "23", "33"],
+    "correctAnswer": 1
+  },
+  {
+    "question": "What will come next in the following series: 1  10  19  28    ?",
+    "options": ["26", "28", "24", "17"],
+    "correctAnswer": 0
+  },
+  {
+    "question": "What will come next in the following series: 5  9  17  34    ?",
+    "options": ["65", "114", "66", "71"],
+    "correctAnswer": 3
+  },
+  {
+    "question": "What will come next in the following series: 3  4  10  11  17  18    ?",
+    "options": ["24", "29", "25", "19"],
+    "correctAnswer": 1
+  },
+  {
+    "question": "What will come next in the following series: 17  23  30  38    ?",
+    "options": ["47", "48", "45", "46"],
+    "correctAnswer": 2
+  },
+  {
+    "question": "What will come next in the following series: 2  90  4  80  6  70  8  60    ,    ?",
+    "options": ["10,50", "50,10", "12,52", "10,12"],
+    "correctAnswer": 0
+  },
+  {
+    "question": "What will come next in the following series: 120  108  97  87  78    ?",
+    "options": ["70", "80", "45", "85"],
+    "correctAnswer": 3
+  },
+  {
+    "question": "What will come next in the following series: 11  8  16  17  14  28    ?",
+    "options": ["29", "32", "20", "30"],
+    "correctAnswer": 1
+  },
+  {
+    "question": "What will come next in the following series: 64  32  16  8  4  2    ?",
+    "options": ["1", "1/2", "¼", "1/8"],
+    "correctAnswer": 2
+  },
+  {
+    "question": "What will come next in the following series: 3  7  8  12  13  17    ?",
+    "options": ["18", "19", "21", "22"],
+    "correctAnswer": 0
+  },
+  {
+    "question": "What will come next in the following series: 1  100  2  50  4  25  8    ?",
+    "options": ["12.54", "16.125", "8.5016", "12.516"],
+    "correctAnswer": 1
+  },
+  {
+    "question": "What will come next in the following series: 2  6  12  36  72  216    ?",
+    "options": ["432", "376", "288", "648"],
+    "correctAnswer": 0
+  },
+  {
+    "question": "What will come next in the following series: 53  48  50  45  47    ?",
+    "options": ["39", "42", "69", "54"],
+    "correctAnswer": 1
+  },
+  {
+    "question": "What will come next in the following series: 25 50 100 125 ______?",
+    "options": ["150", "152", "225", "175"],
+    "correctAnswer": 3
+  },
+  {
+    "question": "What will come next in the following series: 2 9 14 21 26 ______?",
+    "options": ["33", "28", "31", "38"],
+    "correctAnswer": 0
+  },
+  {
+    "question": "What will come next in the following series: 20 33 46 ______?",
+    "options": ["59", "52", "49", "56"],
+    "correctAnswer": 2
+  },
+  {
+    "question": "What will come next in the following series: 40 35 25 20 15 ______?",
+    "options": ["10", "7.5", "5", "0"],
+    "correctAnswer": 1
+  },
+  {
+    "question": "What will come next in the following series: 111 115 120 126 ______?",
+    "options": ["133", "128", "130", "136"],
+    "correctAnswer": 0
+  },
+  {
+    "question": "What will come next in the following series: 101 105 111 119 ______?",
+    "options": ["129", "125", "121", "135"],
+    "correctAnswer": 3
+  },
+  {
+    "question": "What will come next in the following series: 2 4 16 256 6 ______?",
+    "options": ["16", "4", "2", "256"],
+    "correctAnswer": 2
+  },
+  {
+    "question": "What will come next in the following series: 11 12 14 15 ______?",
+    "options": ["17", "12", "11", "16"],
+    "correctAnswer": 3
+  },
+  {
+    "question": "What will come next in the following series: 7 49 6 36 5 ______?",
+    "options": ["25", "15", "23", "4"],
+    "correctAnswer": 1
+  },
+  {
+    "question": "What will come next in the following series: 8 8 16 9 9 18 10 10 ______?",
+    "options": ["20", "10", "22", "19"],
+    "correctAnswer": 2
+  },
+  {
+    "question": "What will come next in the following series: 3 4 6 7 9 10 ______?",
+    "options": ["12", "14", "11", "8"],
+    "correctAnswer": 3
+  },
+  {
+    "question": "What will come next in the following series: 0 5 12 21 ______?",
+    "options": ["32", "31", "33", "34"],
+    "correctAnswer": 0
+  },
+  {
+    "question": "What will come next in the following series: 19 9 29 8 39 ______?",
+    "options": ["7", "40", "49", "4"],
+    "correctAnswer": 2
+  },
+  {
+    "question": "What will come next in the following series: 3 8 15 24 ______?",
+    "options": ["35", "36", "34", "32"],
+    "correctAnswer": 1
+  },
+  {
+    "question": "What will come next in the following series: 2 5 10 17 ______?",
+    "options": ["26", "25", "23", "21"],
+    "correctAnswer": 0
+  },
+  {
+    "question": "What will come next in the following series: 11 77 539 ______?",
+    "options": ["3773", "3377", "1078", "3778"],
+    "correctAnswer": 1
+  },
+  {
+    "question": "What will come next in the following series: 234 342 423 ______?",
+    "options": ["432", "342", "234", "523"],
+    "correctAnswer": 3
+  },
+  {
+    "question": "What will come next in the following series: 9 24 39 54 69 84 99 ______?",
+    "options": ["114", "109", "124", "106"],
+    "correctAnswer": 0
+  },
+  {
+    "question": "What will come next in the following series: 18 13 9 6 ______?",
+    "options": ["4", "2", "8", "3"],
+    "correctAnswer": 2
+  },
+  {
+    "question": "What will come next in the following series: 63 3 44 0 91 ______?",
+    "options": ["8", "7", "3", "9"],
+    "correctAnswer": 1
+  },
+  {
+    "question": "What will come next in the following series: 8 10 14 18 26 ______?",
+    "options": ["34", "30", "32", "36"],
+    "correctAnswer": 0
+  },
+  {
+    "question": "What will come next in the following series: 10 70 11 67 13 64 16 61 ______?",
+    "options": ["20,58", "58,20", "19,58", "18,58"],
+    "correctAnswer": 1
+  },
+  {
+    "question": "What will come next in the following series: 10 18 1523 20 28 ______?",
+    "options": ["25", "24", "23", "30"],
+    "correctAnswer": 3
+  },
+  {
+    "question": "What will come next in the following series: 10 11 13 16 20 ______?",
+    "options": ["25", "26", "30", "24"],
+    "correctAnswer": 1
+  },
+  {
+    "question": "What will come next in the following series: 7 8 6 7 5 6 4 ______?",
+    "options": ["5", "7", "8", "6"],
+    "correctAnswer": 0
+  },
+  {
+    "question": "What will come next in the following series: 9 5 8 5 7 5 ______?",
+    "options": ["6", "5", "8", "7"],
+    "correctAnswer": 3
+  },
+  {
+    "question": "What will come next in the following series: 3 10 18 27 ______?",
+    "options": ["37", "36", "32", "35"],
+    "correctAnswer": 2
+  },
+  {
+    "question": "What will come next in the following series: 1 4 10 22 46 ______?",
+    "options": ["94", "80", "98", "85"],
+    "correctAnswer": 0
+  },
+  {
+    "question": "What will come next in the following series: 1 2 4 8 16 ______?",
+    "options": ["32", "20", "24", "34"],
+    "correctAnswer": 3
+  },
+  {
+    "question": "What will come next in the following series: 32 6 43 12 64 ______?",
+    "options": ["24", "43", "28", "32"],
+    "correctAnswer": 2
+  },
+  {
+    "question": "What will come next in the following series: 43-1 53-2 74-3 ______?",
+    "options": ["84-4", "83-3", "84-6", "84-5"],
+    "correctAnswer": 1
+  },
+  {
+    "question": "What will come next in the following series: 3 21 4 22 5 ______?",
+    "options": ["24", "23", "6", "10"],
+    "correctAnswer": 0
+  },
+  {
+    "question": "What will come next in the following series: 7 49 343 2410 ______?",
+    "options": ["16807", "14807", "14678", "16708"],
+    "correctAnswer": 3
+  },
+  {
+    "question": "What will come next in the following series: 2413 2420 2434 2462 2518 ______?",
+    "options": ["2630", "2631", "2635", "2830"],
+    "correctAnswer": 2
+  },
+  {
+    "question": "What will come next in the following series: 40 30 35 25 30 20 ______?",
+    "options": ["25", "19", "12", "36"],
+    "correctAnswer": 0
+  },
+  {
+    "question": "What will come next in the following series: 34 24 16 10 6 ______?",
+    "options": ["4", "5", "10", "3"],
+    "correctAnswer": 1
+  },
+  {
+    "question": "What will come next in the following series: 49 36 25 16 ______?",
+    "options": ["9", "6", "4", "11"],
+    "correctAnswer": 3
+  },
+  {
+    "question": "What will come next in the following series: 48 24 12 6 ______?",
+    "options": ["3", "15", "36", "24"],
+    "correctAnswer": 0
+  },
+  {
+    "question": "What will come next in the following series: 18 13 9 6 ______?",
+    "options": ["4", "2", "6", "7"],
+    "correctAnswer": 2
+  },
+  {
+    "question": "What will come next in the following series: 27 20 14 9 5 ______?",
+    "options": ["2", "5", "6", "4"],
+    "correctAnswer": 1
+  },
+  {
+    "question": "What will come next in the following series: 21 15 20 16 19 ______?",
+    "options": ["17", "24", "15", "35"],
+    "correctAnswer": 0
+  },
+  {
+    "question": "What will come next in the following series: 6561 81 9 ______?",
+    "options": ["3", "6", "15", "90"],
+    "correctAnswer": 3
+  },
+  {
+    "question": "What will come next in the following series: 3 6 18 72 ______?",
+    "options": ["360", "550", "80", "1210"],
+    "correctAnswer": 0
+  },
+  {
+    "question": "What will come next in the following series: 48 45 40 33 24 ______?",
+    "options": ["13", "1", "8", "11"],
+    "correctAnswer": 2
+  },
+  {
+    "question": "What will come next in the following series: 1 4 2 5 3 6 4 7 ______?",
+    "options": ["8", "5", "6", "7"],
+    "correctAnswer": 1
+  },
+  {
+    "question": "What will come next in the following series: 324 108 36 12 ______?",
+    "options": ["4", "2", "16", "3"],
+    "correctAnswer": 0
+  },
+  {
+    "question": "What will come next in the following series: 75 70 35 30 15 10 ______?",
+    "options": ["5", "1", "2", "4"],
+    "correctAnswer": 3
+  },
+  {
+    "question": "What will come next in the following series: 2 6 5 9 8 12 11 15 ______?",
+    "options": ["14", "18", "22", "20"],
+    "correctAnswer": 1
+  },
+  {
+    "question": "What will come next in the following series: 217 437 657 877 10 ______?",
+    "options": ["10", "7", "8", "9"],
+    "correctAnswer": 2
+  },
+  {
+    "question": "What will come next in the following series: 4 12 15 45 48 ______?",
+    "options": ["144", "147", "143", "145"],
+    "correctAnswer": 0
+  },
+  {
+    "question": "What will come next in the following series: 7 10 20 23 46 ______?",
+    "options": ["49", "48", "51", "50"],
+    "correctAnswer": 3
+  },
+  {
+    "question": "What will come next in the following series: 2 5 4 5 16 ______?",
+    "options": ["256", "6", "64", "5"],
+    "correctAnswer": 1
+  },
+  {
+    "question": "What will come next in the following series: 20 6 24 7 28 ______?",
+    "options": ["8,32", "9,36", "11,44", "10,40"],
+    "correctAnswer": 0
+  },
+  {
+    "question": "What will come next in the following series: 2 4 7 9 12 14 17 ______?",
+    "options": ["19", "21", "18", "22"],
+    "correctAnswer": 1
+  },
+  {
+    "question": "What will come next in the following series: 16 13 10 7 ______?",
+    "options": ["4", "5", "10", "3"],
+    "correctAnswer": 2
+  },
+  {
+    "question": "What will come next in the following series: 3 5 4 7 5 9 6 11 ______?",
+    "options": ["8", "15", "7", "13"],
+    "correctAnswer": 3
+  },
+  {
+    "question": "What will come next in the following series: 324 108 36 12 ______?",
+    "options": ["4", "16", "5", "2"],
+    "correctAnswer": 0
+  },
+  {
+    "question": "What will come next in the following series: 3 7 14 18 36 40 ______?",
+    "options": ["80", "60", "90", "75"],
+    "correctAnswer": 1
+  },
+  {
+    "question": "What will come next in the following series: 5 6 18 54 162 486 ______?",
+    "options": ["1458", "11", "496", "1556"],
+    "correctAnswer": 3
+  },
+  {
+    "question": "What will come next in the following series: 1/16 1/4 1/2 2 4 16 ______?",
+    "options": ["32", "64", "24", "48"],
+    "correctAnswer": 0
+  },
+  {
+    "question": "What will come next in the following series: 48 24 20 10 6 3 ______?",
+    "options": ["1", "2", "-2", "-1"],
+    "correctAnswer": 2
+  },
+  {
+    "question": "What will come next in the following series: 40 35 30 25 20 ______?",
+    "options": ["15", "5", "22", "45"],
+    "correctAnswer": 1
+  },
+  {
+    "question": "What will come next in the following series: 3.2 5.9 11.3 22.1 ______?",
+    "options": ["44.2", "36.9", "21.1", "47.3"],
+    "correctAnswer": 0
+  }
+]

@@ -77,10 +77,12 @@
         }
         
         .app-icon {
-            width: 40px;
-            height: 40px;
+            width: 45px;
+            height: 45px;
             border-radius: 12px;
-            box-shadow: 0 4px 12px rgba(16, 185, 129, 0.3);
+            border: 2px solid rgba(16, 185, 129, 0.3);
+            box-sizing: border-box;
+
         }
         
         .app-icon img {
@@ -111,6 +113,7 @@
             transition: all 0.3s ease;
             box-shadow: 0 4px 12px rgba(0, 0, 0, 0.4);
             position: relative;
+            z-index: 9999;
             overflow: hidden;
             backdrop-filter: blur(10px);
         }
@@ -933,7 +936,7 @@
             </a>
             <div class="menu-item">
                 <i class="fas fa-history"></i>
-                <span>Version: 2.0.0</span>
+                <span>Version: 2.2.0</span>
             </div>
         </div>
         

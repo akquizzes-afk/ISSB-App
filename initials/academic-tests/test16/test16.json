@@ -1,0 +1,253 @@
+[
+  {
+    "question": "Which Surah of the Holy Quran is referred to as the 'Heart of Quran'?",
+    "options": ["Surah Al-Baqra", "Surah Al-Fatiha", "Surah Yassin", "Surah Rehman", "Surah Nasr"],
+    "correctAnswer": 2
+  },
+  {
+    "question": "Who was the first Governor of the State Bank of Pakistan?",
+    "options": ["Zahid Hussain", "Quid-e-Azam", "Liaqat Ali Khan", "Zulfiqar Ali Bhutto", "Abdur Rasheed"],
+    "correctAnswer": 0
+  },
+  {
+    "question": "The largest desert located in Pakistan is known as:",
+    "options": ["Kharan", "Thal", "Thar", "Cholistan", "Nara"],
+    "correctAnswer": 2
+  },
+  {
+    "question": "What does the abbreviation 'ATM' stand for according to the technical list?",
+    "options": ["All Time Money", "Automated Teller Machine", "Automatic Transaction Mode", "Active Transfer Method", "Automated Token Management"],
+    "correctAnswer": 1
+  },
+  {
+    "question": "The highest peak of the Hindukush range is:",
+    "options": ["Nanga Parbat", "K2", "Broad Peak", "Tirich Mir", "Takht-e-Sulaiman"],
+    "correctAnswer": 3
+  },
+  {
+    "question": "Which Surah was the first to be revealed in the Holy Quran?",
+    "options": ["Surah Al-Alaq", "Surah Al-Fatiha", "Surah Ikhlas", "Surah Yassin", "Surah Nasr"],
+    "correctAnswer": 0
+  },
+  {
+    "question": "Pakistan opened its first embassy in which country?",
+    "options": ["Egypt", "Afghanistan", "Turkey", "Iran", "Saudi Arabia"],
+    "correctAnswer": 3
+  },
+  {
+    "question": "What is the total number of Rukus in the Holy Quran?",
+    "options": ["558", "6236", "313", "114", "14"],
+    "correctAnswer": 0
+  },
+  {
+    "question": "The abbreviation 'ISI' stands for:",
+    "options": ["International Security Intelligence", "Internal Services Intelligence", "Inter Services Intelligence", "Independent Security Institution", "Integrated Services Information"],
+    "correctAnswer": 2
+  },
+  {
+    "question": "In the Battle of Badar, what was the total number of Kuffar (Infidels)?",
+    "options": ["313", "1000", "500", "3000", "70"],
+    "correctAnswer": 1
+  },
+  {
+    "question": "The antonym of the word 'Ancient' is:",
+    "options": ["Old", "Distant", "Humble", "Modern", "Depart"],
+    "correctAnswer": 3
+  },
+  {
+    "question": "Which city is the coldest place in Pakistan?",
+    "options": ["Murree", "Skardu", "Ziarat", "Quetta", "Gilgit"],
+    "correctAnswer": 2
+  },
+  {
+    "question": "The largest artificial lake in Pakistan is:",
+    "options": ["Manchar Lake", "Keenjhar Lake", "Saiful Maluk", "Hanna Lake", "Rawal Lake"],
+    "correctAnswer": 1
+  },
+  {
+    "question": "Who was the first President of Azad Jammu & Kashmir?",
+    "options": ["Sardar Ibrahim Khan", "Sardar Abdul Qayyum", "Khurshid Hasan Khurshid", "Chaudhry Ghulam Abbas", "Sardar Muhammad Yaqoob"],
+    "correctAnswer": 0
+  },
+  {
+    "question": "What is the abbreviation 'VIRUS' in computer terminology?",
+    "options": ["Virtual Information Record Under System", "Vital Information Resources Under Siege", "Variable Input Resource Universal Software", "Verified Info Recovery Under Stress", "Video Integrated Result Using Serial"],
+    "correctAnswer": 1
+  },
+  {
+    "question": "The plural form of the word 'Crisis' is:",
+    "options": ["Crisises", "Crises", "Crisia", "Crisum", "Crisen"],
+    "correctAnswer": 1
+  },
+  {
+    "question": "Which Surah is known as the 'Bab-ul-Quran'?",
+    "options": ["Surah Yassin", "Surah Al-Baqra", "Surah Al-Fatiha", "Surah Nasr", "Surah Al-Alaq"],
+    "correctAnswer": 2
+  },
+  {
+    "question": "The first dry port of Pakistan was established in 1974 at:",
+    "options": ["Karachi", "Peshawar", "Faisalabad", "Sialkot", "Lahore"],
+    "correctAnswer": 4
+  },
+  {
+    "question": "What is the total length of the coastline of Pakistan according to the NW frontier context?",
+    "options": ["1046 KM", "771 KM", "200 Miles", "2912 KM", "595 KM"],
+    "correctAnswer": 0
+  },
+  {
+    "question": "The Battle of Uhad was fought in which Hijri year?",
+    "options": ["2 Hijri", "3 Hijri", "4 Hijri", "5 Hijri", "6 Hijri"],
+    "correctAnswer": 1
+  },
+  {
+    "question": "What is the antonym of 'Arrogant'?",
+    "options": ["Proud", "Bold", "Humble", "Loud", "Graceful"],
+    "correctAnswer": 2
+  },
+  {
+    "question": "The first Muslim Commander in Chief of the Pakistan Army was:",
+    "options": ["General Tikka Khan", "General Muhammad Sharif", "Ayub Khan", "Yahya Khan", "Zia-ul-Haq"],
+    "correctAnswer": 2
+  },
+  {
+    "question": "The abbreviation 'RAM' stands for:",
+    "options": ["Read Access Memory", "Random Access Memory", "Real Action Mode", "Rapid Access Module", "Run Active Memory"],
+    "correctAnswer": 1
+  },
+  {
+    "question": "Which country recognized Pakistan first after its independence?",
+    "options": ["Egypt", "Turkey", "Saudi Arabia", "Iran", "Jordan"],
+    "correctAnswer": 3
+  },
+  {
+    "question": "The largest district in Pakistan by area is:",
+    "options": ["Bahawalpur", "Khuzdar", "Chaghi", "Tharparkar", "Kalat"],
+    "correctAnswer": 1
+  },
+  {
+    "question": "What is the singular form of the word 'Data'?",
+    "options": ["Date", "Datum", "Datus", "Daton", "Datal"],
+    "correctAnswer": 1
+  },
+  {
+    "question": "The Battle of Badar took place on which date of Ramzan?",
+    "options": ["10th Ramzan", "15th Ramzan", "27th Ramzan", "17th Ramzan", "21st Ramzan"],
+    "correctAnswer": 3
+  },
+  {
+    "question": "The abbreviation 'GHQ' stands for:",
+    "options": ["General Head Quarters", "Government Head Quarters", "Global Head Quarters", "Grand High Quarters", "Garrison Head Quarters"],
+    "correctAnswer": 0
+  },
+  {
+    "question": "The largest industry in Pakistan is:",
+    "options": ["Sugar Industry", "Cement Industry", "Textile", "Steel Mills", "Chemical Industry"],
+    "correctAnswer": 2
+  },
+  {
+    "question": "Who was the founder of the All India Muslim League?",
+    "options": ["Quaid-e-Azam", "Sir Nawab Saleem Ullah Khan", "Allama Iqbal", "Sir Syed Ahmad Khan", "Liaqat Ali Khan"],
+    "correctAnswer": 1
+  },
+  {
+    "question": "In the Irregular Plural list, what is the plural of 'Nucleus'?",
+    "options": ["Nucleuses", "Nuclea", "Nuclei", "Nuclon", "Nucleis"],
+    "correctAnswer": 2
+  },
+  {
+    "question": "The first constructed barrage of Pakistan is:",
+    "options": ["Kotri Barrage", "Guddu Barrage", "Sukkur Barrage", "Taunsa Barrage", "Jinnah Barrage"],
+    "correctAnswer": 2
+  },
+  {
+    "question": "What is the antonym of 'Admire'?",
+    "options": ["Like", "Love", "Detest", "Support", "Praise"],
+    "correctAnswer": 2
+  },
+  {
+    "question": "The largest library in Pakistan is:",
+    "options": ["National Library, Karachi", "Punjab Public Library, Lahore", "Quaid-e-Azam Library", "Sindh Archives", "Dyal Singh Library"],
+    "correctAnswer": 1
+  },
+  {
+    "question": "The abbreviation 'OIC' stands for:",
+    "options": ["Organization of Islamic Conference", "Organization of Islamic Cooperation", "Office of Islamic Countries", "Overseas Islamic Committee", "Option A and B both"],
+    "correctAnswer": 4
+  },
+  {
+    "question": "The Battle of Khandaq (Trench) was fought in:",
+    "options": ["2 Hijri", "3 Hijri", "4 Hijri", "5 Hijri", "6 Hijri"],
+    "correctAnswer": 3
+  },
+  {
+    "question": "Which Surah is the longest in the Holy Quran?",
+    "options": ["Surah Al-Fatiha", "Surah Yassin", "Surah Al-Baqra", "Surah Ikhlas", "Surah Rehman"],
+    "correctAnswer": 2
+  },
+  {
+    "question": "Who was the first Lady Major General in the Pakistan Army?",
+    "options": ["Dr. Shahida Malik", "Vikarun Nisa Noor", "Benazir Bhutto", "Fatima Jinnah", "Asma Jahangir"],
+    "correctAnswer": 0
+  },
+  {
+    "question": "The tallest peak in the world (K2) has a height of:",
+    "options": ["8848 meters", "8611 meter", "8126 meter", "7500 meter", "8200 meter"],
+    "correctAnswer": 1
+  },
+  {
+    "question": "What is the abbreviation 'PAN' in a general context?",
+    "options": ["Public Area Network", "Primary Account Name", "Personal Access Number", "Permanent Account Number", "Private Agent Node"],
+    "correctAnswer": 3
+  },
+  {
+    "question": "Who coined the name 'Pakistan'?",
+    "options": ["Allama Iqbal", "Sir Syed Ahmad Khan", "Chaudhry Rehmat Ali", "Liaqat Ali Khan", "Quaid-e-Azam"],
+    "correctAnswer": 2
+  },
+  {
+    "question": "The seaport 'Abadan' is located in which country?",
+    "options": ["Iraq", "Saudi Arabia", "Iran", "Jordan", "Syria"],
+    "correctAnswer": 2
+  },
+  {
+    "question": "What is the antonym of 'Advance'?",
+    "options": ["Go", "Move", "Retreat", "Push", "Jump"],
+    "correctAnswer": 2
+  },
+  {
+    "question": "The largest mine in Pakistan is:",
+    "options": ["Coal Mine, Quetta", "Copper Mine, Saindak", "Salt Mines of Khewra", "Iron Mine, Kalabagh", "Gold Mine, Chaghi"],
+    "correctAnswer": 2
+  },
+  {
+    "question": "What is the abbreviation 'ISPR'?",
+    "options": ["Internal Service Public Records", "Inter Services Press Release", "Inter Services Public Relations", "Independent Security Public Report", "Integrated Service Public Response"],
+    "correctAnswer": 2
+  },
+  {
+    "question": "The first Chief Justice of Pakistan was:",
+    "options": ["Justice A.R. Cornelius", "Sir Abdur Rasheed", "Zahid Hussain", "Habibullah Khan", "Sardar Ibrahim Khan"],
+    "correctAnswer": 1
+  },
+  {
+    "question": "Which Surah is known as 'Zeenat-e-Quran'?",
+    "options": ["Surah Yassin", "Surah Al-Baqra", "Surah Rehman", "Surah Al-Fatiha", "Surah Nasr"],
+    "correctAnswer": 2
+  },
+  {
+    "question": "The largest jungle in Pakistan is:",
+    "options": ["Sajawal Jungle", "Lal Suhanra", "Changa Manga", "Ziarat Forest", "Juniper Forest"],
+    "correctAnswer": 2
+  },
+  {
+    "question": "The abbreviation 'ROM' stands for:",
+    "options": ["Run Only Memory", "Read Only Memory", "Random Only Mode", "Read Option Module", "Rapid Output Management"],
+    "correctAnswer": 1
+  },
+  {
+    "question": "The Tragedy of Karballah occurred in which Hijri year?",
+    "options": ["40 Hijri", "50 Hijri", "61 Hijri", "10 Hijri", "2 Hijri"],
+    "correctAnswer": 2
+  }
+]
+

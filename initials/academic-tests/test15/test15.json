@@ -1,0 +1,253 @@
+[
+  {
+    "question": "The first Prime Minister of Pakistan was:",
+    "options": ["Quaid-e-Azam", "Liaqat Ali Khan", "Sikandar Mirza", "Khawaja Nazimuddin", "Ayub Khan"],
+    "correctAnswer": 1
+  },
+  {
+    "question": "Surah Al-Fatiha is known as:",
+    "options": ["Heart of Quran", "Rooh-ul-Quran", "Bab-ul-Quran", "Zeenat-e-Quran", "Umm-ul-Kitab"],
+    "correctAnswer": 2
+  },
+  {
+    "question": "The largest dam in Pakistan is:",
+    "options": ["Mangla", "Warsak", "Tarbela", "Hub", "Gomal Zam"],
+    "correctAnswer": 2
+  },
+  {
+    "question": "What is the abbreviation for 'RAM'?",
+    "options": ["Read Access Memory", "Random Access Memory", "Real Access Memory", "Rapid Access Memory", "Random Available Memory"],
+    "correctAnswer": 1
+  },
+  {
+    "question": "Which city is known as the 'City of Mosques'?",
+    "options": ["Lahore", "Istanbul", "Dhaka", "Multan", "Cairo"],
+    "correctAnswer": 2
+  },
+  {
+    "question": "The first person to be martyred in the Battle of Badar was:",
+    "options": ["Hazrat Hamza (RA)", "Hazrat Maaz (RA)", "Muhajjah (Freed slave of Hazrat Umar)", "Hazrat Bilal (RA)", "Hazrat Musab bin Umair (RA)"],
+    "correctAnswer": 2
+  },
+  {
+    "question": "What is the antonym of the word 'Achieve'?",
+    "options": ["Gain", "Fail", "Hinder", "Reject", "Depart"],
+    "correctAnswer": 1
+  },
+  {
+    "question": "The news agency 'ABC News' belongs to which country?",
+    "options": ["USA", "UK", "Canada", "Australia", "New Zealand"],
+    "correctAnswer": 3
+  },
+  {
+    "question": "The largest canal in Pakistan is:",
+    "options": ["Indus Canal", "Lloyd Barrage Canal", "Upper Bari Doab", "Lower Bari Doab", "Thal Canal"],
+    "correctAnswer": 1
+  },
+  {
+    "question": "How many stages (Manzils) are there in the Holy Quran?",
+    "options": ["5", "7", "10", "14", "30"],
+    "correctAnswer": 1
+  },
+  {
+    "question": "The first dry port in Pakistan was established at:",
+    "options": ["Karachi", "Sialkot", "Lahore", "Peshawar", "Multan"],
+    "correctAnswer": 2
+  },
+  {
+    "question": "What is the abbreviation 'ISI'?",
+    "options": ["Inter Services Investigation", "Inter Services Intelligence", "Internal Security Intelligence", "Independent Services Intelligence", "International Security Intelligence"],
+    "correctAnswer": 1
+  },
+  {
+    "question": "The longest coast in Pakistan is of:",
+    "options": ["Sindh", "Punjab", "Baluchistan", "KPK", "Gwadar"],
+    "correctAnswer": 2
+  },
+  {
+    "question": "What is the plural of 'Criterion'?",
+    "options": ["Criterions", "Criteria", "Criterias", "Criterionas", "Criteres"],
+    "correctAnswer": 1
+  },
+  {
+    "question": "Who wrote the book 'Spirit of Islam'?",
+    "options": ["Sir Syed Ahmad Khan", "Allama Iqbal", "S. Ameer Ali", "Shah Waliullah", "Al Bairuni"],
+    "correctAnswer": 2
+  },
+  {
+    "question": "The first constructed barrage of Pakistan is:",
+    "options": ["Sukkur Barrage", "Kotri Barrage", "Guddu Barrage", "Taunsa Barrage", "Jinnah Barrage"],
+    "correctAnswer": 0
+  },
+  {
+    "question": "Which Surah of the Holy Quran was last to be revealed?",
+    "options": ["Surah Al-Baqra", "Surah Nasr", "Surah Al-Fatiha", "Surah An-Nas", "Surah Ikhlas"],
+    "correctAnswer": 1
+  },
+  {
+    "question": "In which US state is the highest mountain 'Mount McKinley' (Denali) located?",
+    "options": ["California", "Washington", "Texas", "Alaska", "Hawaii"],
+    "correctAnswer": 3
+  },
+  {
+    "question": "The word 'Muhammad' is discussed how many times in the Quran?",
+    "options": ["1 Time", "4 Times", "5 Times", "10 Times", "2 Times"],
+    "correctAnswer": 1
+  },
+  {
+    "question": "Who was the first President of Pakistan?",
+    "options": ["Quaid-e-Azam", "Liaqat Ali Khan", "Sikandar Mirza", "Ayub Khan", "Zulfiqar Ali Bhutto"],
+    "correctAnswer": 2
+  },
+  {
+    "question": "The news agency 'AFP' belongs to which country?",
+    "options": ["USA", "UK", "France", "Germany", "Italy"],
+    "correctAnswer": 2
+  },
+  {
+    "question": "What is the abbreviation 'NATO'?",
+    "options": ["North Atlantic Treaty Organization", "National Atlantic Treaty Organization", "North Asian Treaty Organization", "Northern Atlantic Trade Organization", "New Atlantic Treaty Organization"],
+    "correctAnswer": 0
+  },
+  {
+    "question": "The largest jungle in Pakistan is:",
+    "options": ["Thal", "Thar", "Changa Manga", "Mubarak", "Ziarat"],
+    "correctAnswer": 2
+  },
+  {
+    "question": "What is the antonym of 'Advance'?",
+    "options": ["Go", "Retreat", "Arrive", "Alert", "Humble"],
+    "correctAnswer": 1
+  },
+  {
+    "question": "The Battle of Uhad was fought in which Hijri year?",
+    "options": ["2 A.H", "3 A.H", "4 A.H", "5 A.H", "7 A.H"],
+    "correctAnswer": 1
+  },
+  {
+    "question": "Which city is known as the 'Switzerland of Pakistan'?",
+    "options": ["Murree", "Gilgit", "Swat", "Hunza", "Naran"],
+    "correctAnswer": 2
+  },
+  {
+    "question": "The word 'Allah' discussed how many times in the Quran?",
+    "options": ["2584 times", "6666 times", "6584 times", "1000 times", "500 times"],
+    "correctAnswer": 2
+  },
+  {
+    "question": "Who was the first Governor of Pakistan?",
+    "options": ["Liaqat Ali Khan", "Sikandar Mirza", "Quaid-e-Azam", "Ayub Khan", "Ghulam Muhammad"],
+    "correctAnswer": 2
+  },
+  {
+    "question": "The seaport 'Santos' is known as the:",
+    "options": ["Oil Port", "Gold Port", "Coffee Port", "Iron Port", "Diamond Port"],
+    "correctAnswer": 2
+  },
+  {
+    "question": "What is the abbreviation 'OIC'?",
+    "options": ["Organization of Islamic Cooperation", "Organization of Islamic Cultural", "Organization of International Cooperation", "Option A and B both", "None of these"],
+    "correctAnswer": 3
+  },
+  {
+    "question": "The largest railway platform in Pakistan is at:",
+    "options": ["Lahore", "Karachi", "Rohri", "Multan", "Rawalpindi"],
+    "correctAnswer": 2
+  },
+  {
+    "question": "What is the plural of 'Crisis'?",
+    "options": ["Crisises", "Crises", "Crisia", "Crisons", "Crise"],
+    "correctAnswer": 1
+  },
+  {
+    "question": "Who was the first woman Major General in Pakistan?",
+    "options": ["Dr. Shahida Malik", "Vikarun Nisa Noor", "Fatima Jinnah", "Benazir Bhutto", "Malala Yousafzai"],
+    "correctAnswer": 0
+  },
+  {
+    "question": "The highest peak of the Hindukush range is:",
+    "options": ["K2", "Nanga Parbat", "Tirich Mir", "Mount Everest", "Broad Peak"],
+    "correctAnswer": 2
+  },
+  {
+    "question": "Which planet is the hottest in the solar system?",
+    "options": ["Mercury", "Venus", "Mars", "Jupiter", "Saturn"],
+    "correctAnswer": 1
+  },
+  {
+    "question": "The news agency 'Reuter' belongs to which country?",
+    "options": ["USA", "UK", "France", "Germany", "Canada"],
+    "correctAnswer": 1
+  },
+  {
+    "question": "How many Rukus are there in the Holy Quran?",
+    "options": ["500", "558", "600", "786", "114"],
+    "correctAnswer": 1
+  },
+  {
+    "question": "The first state to join Pakistan in 1954 was:",
+    "options": ["Kalat", "Bahawalpur", "Swat", "Chitral", "Dir"],
+    "correctAnswer": 1
+  },
+  {
+    "question": "What is the abbreviation 'LCD'?",
+    "options": ["Liquid Crystal Display", "Liquid Compact Disk", "Light Crystal Display", "Liquid Cold Display", "Low Crystal Display"],
+    "correctAnswer": 0
+  },
+  {
+    "question": "The largest library in Pakistan is:",
+    "options": ["National Library", "Punjab Public Library", "Quaid-e-Azam Library", "Sindh Archives", "Dyal Singh Library"],
+    "correctAnswer": 1
+  },
+  {
+    "question": "What is the antonym of 'Alert'?",
+    "options": ["Awake", "Asleep", "Ready", "Comfort", "Alive"],
+    "correctAnswer": 1
+  },
+  {
+    "question": "The news agency 'Telam' belongs to:",
+    "options": ["Brazil", "Argentina", "Bolivia", "Chile", "Mexico"],
+    "correctAnswer": 1
+  },
+  {
+    "question": "Who was the first Hafiz of the Holy Quran?",
+    "options": ["Hazrat Abu Bakar (RA)", "Hazrat Usman (RA)", "Hazrat Ali (RA)", "Hazrat Umar (RA)", "Hazrat Zaid (RA)"],
+    "correctAnswer": 1
+  },
+  {
+    "question": "The largest nuclear reactor in Pakistan is:",
+    "options": ["CHASNUPP", "KANUPP", "Khushab", "Nilore", "Kahuta"],
+    "correctAnswer": 1
+  },
+  {
+    "question": "What is the abbreviation 'USB'?",
+    "options": ["Universal Serial Bus", "Universal Service Bus", "United Serial Bus", "Uniform Serial Bus", "Universal Sound Bus"],
+    "correctAnswer": 0
+  },
+  {
+    "question": "The 'Line of Control' is between:",
+    "options": ["Pakistan and India", "Azad Kashmir and Occupied Kashmir", "Pakistan and Afghanistan", "India and China", "Pakistan and China"],
+    "correctAnswer": 1
+  },
+  {
+    "question": "Who was the first lady federal minister in Pakistan?",
+    "options": ["Benazir Bhutto", "Vikarun Nisa Noor", "Fatima Jinnah", "Fehmida Mirza", "Sherry Rehman"],
+    "correctAnswer": 1
+  },
+  {
+    "question": "The largest oil field in Pakistan is:",
+    "options": ["Tut", "Dhurnal Oil Field", "Meyal", "Qadirpur", "Sui"],
+    "correctAnswer": 1
+  },
+  {
+    "question": "Which news agency is the oldest in the world (implied from UK source)?",
+    "options": ["APP", "AFP", "Reuters", "Xinhua", "UPI"],
+    "correctAnswer": 2
+  },
+  {
+    "question": "How many Madni Surahs are in the Holy Quran?",
+    "options": ["87", "28", "27", "114", "30"],
+    "correctAnswer": 2
+  }
+]
+

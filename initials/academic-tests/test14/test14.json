@@ -1,0 +1,253 @@
+[
+  {
+    "question": "Which Surah of the Holy Quran is known as the 'Heart of Quran'?",
+    "options": ["Surah Al-Fatiha", "Surah Rehman", "Surah Yassin", "Surah Al-Baqra", "Surah Nasr"],
+    "correctAnswer": 2
+  },
+  {
+    "question": "Who was the first Chief Justice of Pakistan?",
+    "options": ["Justice A.R. Cornelius", "Sir Abdur Rasheed", "Zahid Hussain", "Habibullah Khan", "Sir Muhammad Shafi"],
+    "correctAnswer": 1
+  },
+  {
+    "question": "The largest desert in Pakistan is:",
+    "options": ["Thal", "Cholistan", "Thar", "Kharan", "Nara"],
+    "correctAnswer": 2
+  },
+  {
+    "question": "What is the abbreviation for 'GPRS'?",
+    "options": ["General Pocket Radio Service", "General Packet Radio Service", "Global Packet Radio System", "General Power Radio Service", "Global Pocket Radio Service"],
+    "correctAnswer": 1
+  },
+  {
+    "question": "The Battle of Badar was fought in which Hijri year?",
+    "options": ["1 A.H", "3 A.H", "5 A.H", "2 A.H", "8 A.H"],
+    "correctAnswer": 3
+  },
+  {
+    "question": "What is the antonym of the word 'Arrogant'?",
+    "options": ["Proud", "Humble", "Detest", "Obscure", "Graceful"],
+    "correctAnswer": 1
+  },
+  {
+    "question": "The seaport 'Abadan' is located in which country?",
+    "options": ["Egypt", "Iraq", "Jordan", "Iran", "Syria"],
+    "correctAnswer": 3
+  },
+  {
+    "question": "Which Surah was the first to be revealed?",
+    "options": ["Surah Al-Fatiha", "Surah Al-Alaq", "Surah Nasr", "Surah Al-Baqra", "Surah Yassin"],
+    "correctAnswer": 1
+  },
+  {
+    "question": "Who was the first Captain of the Pakistan cricket team?",
+    "options": ["Imran Khan", "Javed Miandad", "Abdul Hafeez Kardar", "Hanif Mohammad", "Fazal Mahmood"],
+    "correctAnswer": 2
+  },
+  {
+    "question": "The 'Durand Line' is the boundary between Pakistan and:",
+    "options": ["India", "Iran", "China", "Afghanistan", "Tajikistan"],
+    "correctAnswer": 3
+  },
+  {
+    "question": "What is the plural of 'Radius'?",
+    "options": ["Radiuses", "Radii", "Radios", "Radia", "Radisons"],
+    "correctAnswer": 1
+  },
+  {
+    "question": "The news agency 'Xinhua' belongs to which country?",
+    "options": ["Japan", "China", "South Korea", "Vietnam", "Thailand"],
+    "correctAnswer": 1
+  },
+  {
+    "question": "Who started the Faraizi Movement?",
+    "options": ["Shah Waliullah", "Sir Syed Ahmad Khan", "Haji Shariat Ullah", "Dadhu Mian", "Syed Ahmad Shaheed"],
+    "correctAnswer": 2
+  },
+  {
+    "question": "In the context of Nouns, what gender is 'Computer'?",
+    "options": ["Masculine", "Feminine", "Common", "Neuter", "Collective"],
+    "correctAnswer": 3
+  },
+  {
+    "question": "What is the height of K2 (Mount Godwin-Austen)?",
+    "options": ["8126 meters", "8848 meters", "8611 meters", "7500 meters", "8432 meters"],
+    "correctAnswer": 2
+  },
+  {
+    "question": "The largest museum in Pakistan is located in:",
+    "options": ["Lahore", "Islamabad", "Peshawar", "Karachi", "Quetta"],
+    "correctAnswer": 3
+  },
+  {
+    "question": "Which Surah is known as 'Zeenat-e-Quran'?",
+    "options": ["Surah Yassin", "Surah Rehman", "Surah Al-Fatiha", "Surah Ikhlas", "Surah Mulk"],
+    "correctAnswer": 1
+  },
+  {
+    "question": "First Governor of the State Bank of Pakistan was:",
+    "options": ["Zahid Hussain", "Ghulam Muhammad", "Ch. Muhammad Ali", "Vikarun Nisa Noor", "Liaqat Ali Khan"],
+    "correctAnswer": 0
+  },
+  {
+    "question": "The abbreviation 'ISPR' stands for:",
+    "options": ["Inter Services Public Records", "Inter Services Press Relations", "Inter Services Public Relations", "Independent Services Public Relations", "International Services Public Relations"],
+    "correctAnswer": 2
+  },
+  {
+    "question": "How many verses (Ayats) are there in the Holy Quran?",
+    "options": ["6666", "6236", "5588", "6000", "7000"],
+    "correctAnswer": 1
+  },
+  {
+    "question": "The oldest news agency of Pakistan is:",
+    "options": ["PPI", "APP", "PNS", "AFP", "Reuters"],
+    "correctAnswer": 1
+  },
+  {
+    "question": "What is the antonym of 'Ancient'?",
+    "options": ["Old", "Distant", "Modern", "Hinder", "Reject"],
+    "correctAnswer": 2
+  },
+  {
+    "question": "The city 'Damascus' is located in:",
+    "options": ["Iraq", "Egypt", "Syria", "Lebanon", "Turkey"],
+    "correctAnswer": 2
+  },
+  {
+    "question": "First Muslim Commander in Chief of the Pakistan Army was:",
+    "options": ["General Tikka Khan", "Ayub Khan", "General Muhammad Sharif", "Yahya Khan", "Zia-ul-Haq"],
+    "correctAnswer": 1
+  },
+  {
+    "question": "Which country recognized Pakistan first after independence?",
+    "options": ["Egypt", "Saudi Arabia", "Turkey", "Iran", "Afghanistan"],
+    "correctAnswer": 3
+  },
+  {
+    "question": "What is the abbreviation for 'ATM'?",
+    "options": ["Any Time Money", "Automated Teller Machine", "Automatic Token Machine", "Automated Transaction Machine", "All Time Machine"],
+    "correctAnswer": 1
+  },
+  {
+    "question": "The largest artificial lake in Pakistan is:",
+    "options": ["Manchar", "Keenjhar", "Saiful Maluk", "Hanna", "Rawal"],
+    "correctAnswer": 1
+  },
+  {
+    "question": "Who is known as the 'Compiler of the Holy Quran'?",
+    "options": ["Hazrat Abu Bakar (RA)", "Hazrat Umar (RA)", "Hazrat Usman (RA)", "Hazrat Ali (RA)", "Hazrat Zaid bin Thabit (RA)"],
+    "correctAnswer": 2
+  },
+  {
+    "question": "What is the plural of 'Index'?",
+    "options": ["Indices", "Indexes", "Indicia", "A and B both", "None of these"],
+    "correctAnswer": 3
+  },
+  {
+    "question": "The news agency 'Bakhtar' is located in:",
+    "options": ["Iran", "Iraq", "Afghanistan", "Azerbaijan", "Albania"],
+    "correctAnswer": 2
+  },
+  {
+    "question": "The 'Radcliffe Line' is the boundary between:",
+    "options": ["Pakistan and Afghanistan", "Pakistan and Iran", "Pakistan and India", "India and China", "Pakistan and China"],
+    "correctAnswer": 2
+  },
+  {
+    "question": "Who presented the 'Nehru Report'?",
+    "options": ["Jawaharlal Nehru", "Motti Lal Nehru", "Mahatma Gandhi", "Subhash Chandra Bose", "Sardar Patel"],
+    "correctAnswer": 1
+  },
+  {
+    "question": "In English Grammar, 'staff' or 'team' is an example of which noun?",
+    "options": ["Proper Noun", "Material Noun", "Collective Noun", "Abstract Noun", "Countable Noun"],
+    "correctAnswer": 2
+  },
+  {
+    "question": "What is the title of Gabriel (AS)?",
+    "options": ["Rooh-ul-Qudus", "Rooh-ul-Ameen", "Saifullah", "Zun-noorain", "Khalilullah"],
+    "correctAnswer": 1
+  },
+  {
+    "question": "First woman university in Pakistan is located in:",
+    "options": ["Lahore", "Karachi", "Rawalpindi", "Islamabad", "Multan"],
+    "correctAnswer": 2
+  },
+  {
+    "question": "The largest industrial unit in Pakistan is:",
+    "options": ["Textile Industry", "Pakistan Steel Mills", "Heavy Mechanical Complex", "Sugar Industry", "Cement Industry"],
+    "correctAnswer": 1
+  },
+  {
+    "question": "Which month comes before Ramazan?",
+    "options": ["Rajab", "Sha'ban", "Shawwal", "Safar", "Muharram"],
+    "correctAnswer": 1
+  },
+  {
+    "question": "The abbreviation 'GHQ' stands for:",
+    "options": ["General Head Quarters", "Government Head Quarters", "Global Head Quarters", "Grand Head Quarters", "Garrison Head Quarters"],
+    "correctAnswer": 0
+  },
+  {
+    "question": "Where is the tomb of Babur located?",
+    "options": ["Delhi", "Agra", "Lahore", "Kabul", "Samarkand"],
+    "correctAnswer": 3
+  },
+  {
+    "question": "What is the antonym of 'Admire'?",
+    "options": ["Love", "Adore", "Detest", "Support", "Allow"],
+    "correctAnswer": 2
+  },
+  {
+    "question": "The news agency 'IRNA' belongs to which country?",
+    "options": ["Iraq", "Iran", "India", "Indonesia", "Ireland"],
+    "correctAnswer": 1
+  },
+  {
+    "question": "Who was the national artist of Pakistan?",
+    "options": ["Sadequain", "Anna Molka Ahmed", "Abdur Rahman Chughtai", "Abdul Rahim Nagori", "Faiz Ahmad Faiz"],
+    "correctAnswer": 2
+  },
+  {
+    "question": "The largest district of Baluchistan is:",
+    "options": ["Quetta", "Chaghi", "Khuzdar", "Gwadar", "Kalat"],
+    "correctAnswer": 2
+  },
+  {
+    "question": "What is the chemical name of laughing gas?",
+    "options": ["Nitric Oxide", "Nitrous Oxide", "Sodium Carbonate", "Methane", "Hydrogen"],
+    "correctAnswer": 1
+  },
+  {
+    "question": "How many Sajda-e-Tilawat are there in the Holy Quran?",
+    "options": ["10", "12", "14", "15", "7"],
+    "correctAnswer": 2
+  },
+  {
+    "question": "The 'McMahon Line' is the boundary between:",
+    "options": ["Pakistan and India", "India and China", "Pakistan and Afghanistan", "India and Bangladesh", "Pakistan and Iran"],
+    "correctAnswer": 1
+  },
+  {
+    "question": "Who coined the name 'Pakistan'?",
+    "options": ["Allama Iqbal", "Quaid-e-Azam", "Chaudhry Rehmat Ali", "Liaqat Ali Khan", "Sir Syed Ahmad Khan"],
+    "correctAnswer": 2
+  },
+  {
+    "question": "The smallest Surah of the Holy Quran is:",
+    "options": ["Surah Al-Alaq", "Surah Ikhlas", "Surah Al-Kausar", "Surah An-Nas", "Surah Al-Falaq"],
+    "correctAnswer": 2
+  },
+  {
+    "question": "Which planet has no natural satellite?",
+    "options": ["Mars", "Jupiter", "Venus", "Saturn", "Neptune"],
+    "correctAnswer": 2
+  },
+  {
+    "question": "The abbreviation 'WWW' stands for:",
+    "options": ["World Wide Web", "World Wild Web", "Web World Wide", "World Wide Wave", "Whole Wide Web"],
+    "correctAnswer": 0
+  }
+]
+

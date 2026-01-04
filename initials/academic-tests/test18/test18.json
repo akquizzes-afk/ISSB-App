@@ -1,0 +1,253 @@
+[
+  {
+    "question": "What was the original name of the famous musician Tansen at the court of Akbar?",
+    "options": ["Ramtanu Pande", "Mian Tansen", "Birbal Pande", "Tanu Sen", "Pande Maharaj"],
+    "correctAnswer": 0
+  },
+  {
+    "question": "The 'Arka' news agency belongs to which country?",
+    "options": ["Azerbaijan", "Armenia", "Albania", "Algeria", "Australia"],
+    "correctAnswer": 1
+  },
+  {
+    "question": "In the Battle of Uhad, how many Kuffar (infidels) participated?",
+    "options": ["1000", "500", "3000", "1500", "2000"],
+    "correctAnswer": 2
+  },
+  {
+    "question": "What is the antonym of the word 'Amateur'?",
+    "options": ["Beginner", "Novice", "Expert", "Professional", "Skilled"],
+    "correctAnswer": 3
+  },
+  {
+    "question": "Admiral Tariq Kamal Khan served as the Chief of Naval Staff during which period?",
+    "options": ["1975-1979", "1979-1983", "1986-1988", "1988-1991", "1983-1986"],
+    "correctAnswer": 4
+  },
+  {
+    "question": "What does the abbreviation 'AMOLED' stand for in display technology?",
+    "options": ["Active-matrix organic Light-emitting Diode", "Advanced Matrix Organic Light Emitting Device", "Auto Matrix Organic Low Energy Diode", "Active Memory Organic Light Electronic Diode", "Array Matrix Organic Light Efficient Device"],
+    "correctAnswer": 0
+  },
+  {
+    "question": "The seaport 'Valparaiso' is located in which country?",
+    "options": ["Syria", "Chile", "Croatia", "Nigeria", "Australia"],
+    "correctAnswer": 1
+  },
+  {
+    "question": "Which Mughal Emperor retreived his kingdom after 15 years in exile?",
+    "options": ["Babar", "Akbar", "Humayun", "Jahangir", "Aurangzeb"],
+    "correctAnswer": 2
+  },
+  {
+    "question": "What is the antonym of the word 'Awkward'?",
+    "options": ["Clumsy", "Difficult", "Strange", "Graceful", "Ugly"],
+    "correctAnswer": 3
+  },
+  {
+    "question": "The abbreviation 'FID' stands for what in the context of news agencies?",
+    "options": ["Federal Information Department", "Federation of International Data", "Financial Information Division", "Fast Intelligence Delivery", "First Information Report"],
+    "correctAnswer": 4
+  },
+  {
+    "question": "Who was the founder of the Jihad Movement mentioned in the document?",
+    "options": ["Sheikh Ahmed Shaheed", "Syed Ahmad Shaheed", "Haji Shariat Ullah", "Dadhu Mian", "Shah Waliullah"],
+    "correctAnswer": 0
+  },
+  {
+    "question": "The 'Belta' news agency is located in which country?",
+    "options": ["Belgium", "Belarus", "Benin", "Bulgaria", "Brazil"],
+    "correctAnswer": 1
+  },
+  {
+    "question": "How many Stages (Manzils) are there in the Holy Quran?",
+    "options": ["14", "30", "7", "558", "6236"],
+    "correctAnswer": 2
+  },
+  {
+    "question": "What is the antonym of the word 'Apparent'?",
+    "options": ["Clear", "Visible", "Common", "Obscure", "Modern"],
+    "correctAnswer": 3
+  },
+  {
+    "question": "The abbreviation 'GNP' stands for:",
+    "options": ["Gross National Productivity", "General National Product", "Global National Product", "Gross Net Product", "Gross National Product"],
+    "correctAnswer": 4
+  },
+  {
+    "question": "Which city is known as the 'City of Empires'?",
+    "options": ["New York", "London", "Tokyo", "Rome", "Paris"],
+    "correctAnswer": 0
+  },
+  {
+    "question": "The 'Novinite' news agency belongs to which country?",
+    "options": ["Albania", "Bulgaria", "Belgium", "Brazil", "Benin"],
+    "correctAnswer": 1
+  },
+  {
+    "question": "Which religious scholar translated the Quran into Persian as 'Fateh Rehman'?",
+    "options": ["Haji Shariat Ullah", "Syed Ahmad Shaheed", "Shah Wali Ullah", "Sheikh Ahmed", "Moulana M Ali Johar"],
+    "correctAnswer": 2
+  },
+  {
+    "question": "What is the antonym of 'Adjacent'?",
+    "options": ["Near", "Close", "Beside", "Distant", "Together"],
+    "correctAnswer": 3
+  },
+  {
+    "question": "The abbreviation 'SEATO' stands for:",
+    "options": ["South East Asian Trade Office", "Southern East Asian Treaty Org", "South East African Treaty Org", "Special East Asian Treaty Org", "South East Asian Treaty Organization"],
+    "correctAnswer": 4
+  },
+  {
+    "question": "In linear algebra, what is a matrix called if its transpose equals itself (A^T = A)?",
+    "options": ["Symmetric Matrix", "Skew-Symmetric Matrix", "Identity Matrix", "Inverse Matrix", "Square Matrix"],
+    "correctAnswer": 0
+  },
+  {
+    "question": "The 'Bakhtar' news agency is based in which country?",
+    "options": ["Iran", "Afghanistan", "Azerbaijan", "Armenia", "Australia"],
+    "correctAnswer": 1
+  },
+  {
+    "question": "Which city is the cleanest in the world according to the list?",
+    "options": ["Sweden", "Norway", "Iceland", "Mauritius", "France"],
+    "correctAnswer": 2
+  },
+  {
+    "question": "What is the antonym of 'Annoy'?",
+    "options": ["Bore", "Hate", "Defend", "Soothe", "Modern"],
+    "correctAnswer": 3
+  },
+  {
+    "question": "The abbreviation 'LPG' stands for:",
+    "options": ["Liquid Petroleum Gasoline", "Low Pressure Gas", "Liquid Propane Gas", "Local Petroleum Gas", "Liquefied Petroleum Gas"],
+    "correctAnswer": 4
+  },
+  {
+    "question": "Which Mughal Emperor built the Jam Masjid of Delhi?",
+    "options": ["Shahjehan", "Aurangzeb", "Jahangir", "Akbar", "Humayun"],
+    "correctAnswer": 0
+  },
+  {
+    "question": "The news agency 'Telam' is located in:",
+    "options": ["Bolivia", "Argentina", "Albania", "Algeria", "Armenia"],
+    "correctAnswer": 1
+  },
+  {
+    "question": "What is the capital of Northern Areas of Pakistan?",
+    "options": ["Skardu", "Hunza", "Gilgit", "Chitral", "Ziarat"],
+    "correctAnswer": 2
+  },
+  {
+    "question": "What is the antonym of 'Awake'?",
+    "options": ["Alert", "Alive", "Arrive", "Asleep", "Adore"],
+    "correctAnswer": 3
+  },
+  {
+    "question": "The abbreviation 'APN' in mobile settings stands for:",
+    "options": ["Advanced Point Node", "Application Power Name", "Automated Proxy Network", "Access Proxy Number", "Access Point Name"],
+    "correctAnswer": 4
+  },
+  {
+    "question": "Who was the first Chief Election Commissioner of Pakistan?",
+    "options": ["Khan F.M Khan", "Sir Abdur Rasheed", "Zahid Hussain", "Habibullah Khan", "Sardar Ibrahim Khan"],
+    "correctAnswer": 0
+  },
+  {
+    "question": "The 'Trend' news agency belongs to which country?",
+    "options": ["Armenia", "Azerbaijan", "Albania", "Australia", "Afghanistan"],
+    "correctAnswer": 1
+  },
+  {
+    "question": "Which city is known as the 'City of 7 Hills'?",
+    "options": ["Tokyo", "New York", "Rome (Italy)", "San Francisco", "London"],
+    "correctAnswer": 2
+  },
+  {
+    "question": "What is the antonym of 'Achieve'?",
+    "options": ["Win", "Gain", "Reach", "Fail", "Depart"],
+    "correctAnswer": 3
+  },
+  {
+    "question": "The abbreviation 'FIA' stands for:",
+    "options": ["Federal Investigation Association", "Financial Investigation Agency", "Federal Intelligence Agency", "Foreign Investigation Agency", "Federal Investigation Agency"],
+    "correctAnswer": 4
+  },
+  {
+    "question": "What is the area of the capital city Islamabad?",
+    "options": ["906 Sq.km", "800 Sq.km", "1000 Sq.km", "500 Sq.km", "750 Sq.km"],
+    "correctAnswer": 0
+  },
+  {
+    "question": "The news agency 'Agencia Globo' is located in:",
+    "options": ["Bulgaria", "Brazil", "Belgium", "Belarus", "Benin"],
+    "correctAnswer": 1
+  },
+  {
+    "question": "Which Pakistani city is famous for saints and the Nishtar hospital?",
+    "options": ["Lahore", "Karachi", "Multan", "Peshawar", "Quetta"],
+    "correctAnswer": 2
+  },
+  {
+    "question": "What is the antonym of 'Adore'?",
+    "options": ["Love", "Admire", "Detest", "Hate", "Both C and D"],
+    "correctAnswer": 3
+  },
+  {
+    "question": "The abbreviation 'WASA' stands for:",
+    "options": ["Water and Security Agency", "World Air Safety Authority", "Western Area Security Alliance", "Water and Sewerage Authority", "Water And Sanitation Authority"],
+    "correctAnswer": 4
+  },
+  {
+    "question": "In which Hijri year did the Battle of Hunain occur?",
+    "options": ["8 Hijri", "2 Hijri", "5 Hijri", "7 Hijri", "9 Hijri"],
+    "correctAnswer": 0
+  },
+  {
+    "question": "Where is the Mizzima News located?",
+    "options": ["Cambodia", "Miyanmar", "Finland", "Burundi", "Afghanistan"],
+    "correctAnswer": 1
+  },
+  {
+    "question": "What is the literal meaning of 'Tayammum'?",
+    "options": ["To pray", "To clean", "An aim or purpose", "To wash with water", "To hide"],
+    "correctAnswer": 2
+  },
+  {
+    "question": "What is the antonym of 'Affirm'?",
+    "options": ["Agree", "Accept", "Allow", "Deny", "Arrive"],
+    "correctAnswer": 3
+  },
+  {
+    "question": "The abbreviation 'MES' in military context stands for:",
+    "options": ["Military Emergency Service", "Medical Engineering Service", "Military Equipment System", "Maintenance Engineering Service", "Military Engineering Service"],
+    "correctAnswer": 4
+  },
+  {
+    "question": "Which Pakistani artist is considered the first significant modern Muslim artist from South Asia?",
+    "options": ["Abdur Rahman Chughtai", "Sadequain", "Anna Molka Ahmed", "Abdul Rahim Nagori", "Nagori Naqqash"],
+    "correctAnswer": 0
+  },
+  {
+    "question": "The 'Finnish News Agency' is located in which country?",
+    "options": ["Sweden", "Finland", "Norway", "Denmark", "Iceland"],
+    "correctAnswer": 1
+  },
+  {
+    "question": "Which city is known as the 'City of Eagles'?",
+    "options": ["Peshawar", "Karachi", "Sargodha", "Multan", "Lahore"],
+    "correctAnswer": 2
+  },
+  {
+    "question": "What is the antonym of 'Accident'?",
+    "options": ["Failure", "Intent", "Intent", "None of these", "Distant"],
+    "correctAnswer": 1
+  },
+  {
+    "question": "The abbreviation 'DSL' stands for:",
+    "options": ["Data System Line", "Digital System Link", "Direct Subscriber Line", "Digital Serial Link", "Digital Subscriber Line"],
+    "correctAnswer": 4
+  }
+]
+

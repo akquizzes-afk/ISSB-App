@@ -1,0 +1,253 @@
+[
+  {
+    "question": "Who was the first Governor of the State Bank of Pakistan?",
+    "options": ["Zahid Hussain", "Liaqat Ali Khan", "Ch. Muhammad Ali", "Vikarun Nisa Noor", "Habibullah Khan"],
+    "correctAnswer": 0
+  },
+  {
+    "question": "Which Surah of the Holy Quran is known as the 'Rooh-ul-Quran'?",
+    "options": ["Surah Al-Fatiha", "Surah Nasr", "Surah Al-Alaq", "Surah Yassin", "Surah Al-Baqra"],
+    "correctAnswer": 3
+  },
+  {
+    "question": "The largest dam in Pakistan is:",
+    "options": ["Mangla", "Warsak", "Tarbela", "Hub", "Gomal Zam"],
+    "correctAnswer": 2
+  },
+  {
+    "question": "What is the abbreviation for 'WI-FI'?",
+    "options": ["Wireless Fidelity", "Wireless Find", "Wired Fidelity", "Wide Fiber", "Web Fidelity"],
+    "correctAnswer": 0
+  },
+  {
+    "question": "The highest peak of the Sulaiman Range is:",
+    "options": ["Takht-e-Sulaiman", "Nanga Parbat", "Tirich Mir", "K2", "Mount Everest"],
+    "correctAnswer": 0
+  },
+  {
+    "question": "The first lady federal minister in Pakistan was:",
+    "options": ["Asma Jahangir", "Fatima Jinnah", "Vikarun Nisa Noor", "Benazir Bhutto", "Sherry Rehman"],
+    "correctAnswer": 2
+  },
+  {
+    "question": "Which country is located to the Northwest of Pakistan?",
+    "options": ["China", "India", "Iran", "Afghanistan", "Oman"],
+    "correctAnswer": 3
+  },
+  {
+    "question": "What is the abbreviation for 'SIM'?",
+    "options": ["Subscriber Identity module", "Single Identity Mode", "Serial Identity Module", "System Information Module", "Standard Input Mode"],
+    "correctAnswer": 0
+  },
+  {
+    "question": "In the Battle of Badar, how many Muslims were martyred?",
+    "options": ["70", "313", "14", "1000", "77"],
+    "correctAnswer": 2
+  },
+  {
+    "question": "The antonym of 'Achieve' is:",
+    "options": ["Fail", "Win", "Gain", "Succeed", "Push"],
+    "correctAnswer": 0
+  },
+  {
+    "question": "Which city is known as the hottest place in Pakistan?",
+    "options": ["Multan", "Karachi", "Jacobabad", "Sukkur", "Sibbi"],
+    "correctAnswer": 2
+  },
+  {
+    "question": "The largest lake in Pakistan (Natural) is:",
+    "options": ["Keenjhar Lake", "Saiful Maluk", "Manchar Lake", "Hanna Lake", "Kallar Kahar"],
+    "correctAnswer": 2
+  },
+  {
+    "question": "The abbreviation 'GPRS' stands for:",
+    "options": ["Global Packet Radio System", "General Packet Radio Service", "General Power Radio Service", "Global Pocket Radio Service", "General Position Radio System"],
+    "correctAnswer": 1
+  },
+  {
+    "question": "Who was the first Chief Justice of Pakistan?",
+    "options": ["Justice A.R. Cornelius", "Habibullah Khan", "Sir Abdur Rasheed", "Sardar Ibrahim Khan", "Zahid Hussain"],
+    "correctAnswer": 2
+  },
+  {
+    "question": "The plural of 'Medium' is:",
+    "options": ["Mediums", "Media", "Medion", "Medias", "Medum"],
+    "correctAnswer": 1
+  },
+  {
+    "question": "Who wrote the pamphlet 'Now or Never'?",
+    "options": ["Allama Iqbal", "Sir Syed Ahmad Khan", "Chaudhry Rehmat Ali", "Liaqat Ali Khan", "Quaid-e-Azam"],
+    "correctAnswer": 2
+  },
+  {
+    "question": "The abbreviation 'WASA' stands for:",
+    "options": ["Water And Sanitation Authority", "Water And Security Agency", "World Air Safety Association", "Wide Area System Agency", "Weather And Sea Authority"],
+    "correctAnswer": 0
+  },
+  {
+    "question": "The largest district of Punjab by area is:",
+    "options": ["Lahore", "Multan", "Bahawalpur", "Faisalabad", "Sialkot"],
+    "correctAnswer": 2
+  },
+  {
+    "question": "The Conquest of Makkah took place in:",
+    "options": ["2 Hijri", "6 Hijri", "8 Hijri", "10 Hijri", "1 Hijri"],
+    "correctAnswer": 2
+  },
+  {
+    "question": "The news agency 'Xinhua' is located in which country?",
+    "options": ["Japan", "South Korea", "China", "Vietnam", "Malaysia"],
+    "correctAnswer": 2
+  },
+  {
+    "question": "What is the antonym of 'Alert'?",
+    "options": ["Awake", "Asleep", "Ready", "Smart", "Alive"],
+    "correctAnswer": 1
+  },
+  {
+    "question": "The largest industrial unit in Pakistan is:",
+    "options": ["Textile Industry", "Pakistan Steel Mills", "Heavy Mechanical Complex", "Sugar Mills", "Cement Industry"],
+    "correctAnswer": 1
+  },
+  {
+    "question": "What is the abbreviation 'HDMI'?",
+    "options": ["High-Definition Multimedia Interface", "High-Definition Media Interface", "Home-Display Multimedia Interface", "Heavy-Duty Media Interface", "Hybrid-Digital Multimedia Interface"],
+    "correctAnswer": 0
+  },
+  {
+    "question": "The highest civil award of Pakistan is:",
+    "options": ["Sitara-e-Jurat", "Nishan Pakistan", "Pride of Performance", "Tamgha-e-Imtiaz", "Hilal-e-Pakistan"],
+    "correctAnswer": 1
+  },
+  {
+    "question": "The first constructed barrage of Pakistan is:",
+    "options": ["Guddu Barrage", "Kotri Barrage", "Sukkur Barrage", "Taunsa Barrage", "Jinnah Barrage"],
+    "correctAnswer": 2
+  },
+  {
+    "question": "What is the plural of 'Fungus'?",
+    "options": ["Funguses", "Fungi", "Fungia", "Fungon", "Fungis"],
+    "correctAnswer": 1
+  },
+  {
+    "question": "Who was the first Prime Minister of Pakistan?",
+    "options": ["Quaid-e-Azam", "Liaqat Ali Khan", "Iskander Mirza", "Ayub Khan", "Zulfiqar Ali Bhutto"],
+    "correctAnswer": 1
+  },
+  {
+    "question": "The abbreviation 'USB' stands for:",
+    "options": ["Universal Serial Bus", "Universal Service Bus", "United Serial Bus", "Uniform Serial Bus", "User Serial Bus"],
+    "correctAnswer": 0
+  },
+  {
+    "question": "The longest Motorway in Pakistan is:",
+    "options": ["M1", "M2", "Lahore-Islamabad", "M8", "M9"],
+    "correctAnswer": 3
+  },
+  {
+    "question": "The Battle of Badar is also named as:",
+    "options": ["Fateh Mobeen", "Yom-ul-Uhd", "Furqan", "Ghazwa-e-Tabuk", "Sulah Hudaibiah"],
+    "correctAnswer": 2
+  },
+  {
+    "question": "The news agency 'AFP' belongs to which country?",
+    "options": ["USA", "UK", "France", "Germany", "Italy"],
+    "correctAnswer": 2
+  },
+  {
+    "question": "What is the antonym of 'Arrive'?",
+    "options": ["Depart", "Come", "Stay", "Wait", "Jump"],
+    "correctAnswer": 0
+  },
+  {
+    "question": "The largest industry of Pakistan is:",
+    "options": ["Steel Mills", "Cement", "Textile", "Chemical", "Sugar"],
+    "correctAnswer": 2
+  },
+  {
+    "question": "What is the abbreviation 'RAM'?",
+    "options": ["Random Access Memory", "Read Access Memory", "Rapid Access Memory", "Run Access Memory", "Ready Access Memory"],
+    "correctAnswer": 0
+  },
+  {
+    "question": "Who was the first Chief Justice of Pakistan?",
+    "options": ["Justice A.R. Cornelius", "Zahid Hussain", "Sir Abdur Rasheed", "Ibrahim Khan", "Habibullah Khan"],
+    "correctAnswer": 2
+  },
+  {
+    "question": "The plural of 'Analysis' is:",
+    "options": ["Analyses", "Analysises", "Analysia", "Analysons", "Analysist"],
+    "correctAnswer": 0
+  },
+  {
+    "question": "Who was the founder of the Faraizi Movement?",
+    "options": ["Sir Syed Ahmad Khan", "Shah Waliullah", "Haji Shariat Ullah", "Dadhu Mian", "Syed Ahmad Shaheed"],
+    "correctAnswer": 2
+  },
+  {
+    "question": "The abbreviation 'WWW' stands for:",
+    "options": ["World Wide Web", "World Wide Wave", "World Wide Window", "World Web Wide", "Wireless World Web"],
+    "correctAnswer": 0
+  },
+  {
+    "question": "The first Governor of State Bank of Pakistan was:",
+    "options": ["Liaqat Ali Khan", "Habibullah Khan", "Zahid Hussain", "Quid-e-Azam", "Ayub Khan"],
+    "correctAnswer": 2
+  },
+  {
+    "question": "Which Surah is the smallest in the Holy Quran?",
+    "options": ["Surah Nasr", "Surah Ikhlas", "Surah Al-Falaq", "Surah e Kusar", "Surah An-Nas"],
+    "correctAnswer": 3
+  },
+  {
+    "question": "The news agency 'Associated Press of Pakistan' is abbreviated as:",
+    "options": ["PNA", "APP", "PPA", "APO", "PAP"],
+    "correctAnswer": 1
+  },
+  {
+    "question": "The antonym of 'Admire' is:",
+    "options": ["Praise", "Love", "Detest", "Support", "Allow"],
+    "correctAnswer": 2
+  },
+  {
+    "question": "The largest dam of Pakistan is:",
+    "options": ["Mangla", "Hub", "Tarbela", "Warsak", "Gomal Zam"],
+    "correctAnswer": 2
+  },
+  {
+    "question": "What is the abbreviation 'ISI'?",
+    "options": ["Inter Services Intelligence", "Internal Security Intelligence", "Independent Security Intelligence", "Inter Security Institution", "Internal Service Information"],
+    "correctAnswer": 0
+  },
+  {
+    "question": "Who was the first President of Pakistan?",
+    "options": ["Quaid-e-Azam", "Liaqat Ali Khan", "Iskander Mirza", "Sikandar Mirza", "Ayub Khan"],
+    "correctAnswer": 3
+  },
+  {
+    "question": "The plural of 'Cactus' is:",
+    "options": ["Cactuses", "Cactia", "Cacti", "Cacton", "Cactis"],
+    "correctAnswer": 2
+  },
+  {
+    "question": "Who wrote 'Nehru Report'?",
+    "options": ["Jawaharlal Nehru", "Gandhi", "Motti Lal Nehru", "Muhammad Ali Johar", "Quaid-e-Azam"],
+    "correctAnswer": 2
+  },
+  {
+    "question": "The abbreviation 'UNESCO' stands for:",
+    "options": ["United Nations Educational Scientific Cultural Organization", "United National Environment Scientific Cultural Organization", "Universal Nations Educational Scientific Cultural Organization", "United Nations Economic Scientific Cultural Organization", "United Nations Educational Social Cultural Organization"],
+    "correctAnswer": 0
+  },
+  {
+    "question": "The first Lady Major General in Pakistan was:",
+    "options": ["Fatima Jinnah", "Dr. Shahida Malik", "Benazir Bhutto", "Asma Jahangir", "Vikarun Nisa Noor"],
+    "correctAnswer": 1
+  },
+  {
+    "question": "Which Surah is known as the 'Rooh-ul-Quran'?",
+    "options": ["Surah Al-Fatiha", "Surah Al-Baqra", "Surah Yassin", "Surah Nasr", "Surah Al-Alaq"],
+    "correctAnswer": 2
+  }
+]
+
