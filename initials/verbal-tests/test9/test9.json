@@ -10,9 +10,9 @@
     "correctAnswer": 3
   },
   {
-    "question": "What will come next in the following series: 65536 256 16 14 ?",
+    "question": "What will come next in the following series: 65536 256 16 4 ?",
     "options": ["2", "8", "1", "0"],
-    "correctAnswer": 2
+    "correctAnswer": 0
   },
   {
     "question": "What will come next in the following series: 1 2 6 24 ?",
@@ -22,11 +22,11 @@
   {
     "question": "What will come next in the following series: 22 2 11 30 3 10 36 4 9 ?",
     "options": ["40", "12", "20", "10"],
-    "correctAnswer": 2
+    "correctAnswer": 0
   },
   {
-    "question": "What will come next in the following series: 17 36 53 60 ?",
-    "options": ["83", "71", "85", "18"],
+    "question": "What will come next in the following series: 17 36 53 68 ?",
+    "options": ["81", "71", "85", "18"],
     "correctAnswer": 0
   },
   {
@@ -180,9 +180,9 @@
     "correctAnswer": 2
   },
   {
-    "question": "What will come next in the following series: 25 26 28 29 21 ?",
-    "options": ["30", "32", "33", "22"],
-    "correctAnswer": 3
+    "question": "What will come next in the following series: 2, 12, 30, 56, 90, ?",
+    "options": ["121", "132", "114", "144"],
+    "correctAnswer": 1
   },
   {
     "question": "What will come next in the following series: 48 42 37 33 30 28 ?",
@@ -220,9 +220,9 @@
     "correctAnswer": 2
   },
   {
-    "question": "What will come next in the following series: 2 12 36 80 160 ?",
-    "options": ["136", "144", "136", "140"],
-    "correctAnswer": 1
+    "question": "What will come next in the following series: 2 12 36 80 150 ?",
+    "options": ["136", "225", "252", "140"],
+    "correctAnswer": 2
   },
   {
     "question": "What will come next in the following series: 1 4 3 16 5 36 7 64 9 ?",
@@ -260,9 +260,9 @@
     "correctAnswer": 2
   },
   {
-    "question": "What will come next in the following series: 1 3 7 15 61 121 ?",
-    "options": ["214", "238", "241", "240"],
-    "correctAnswer": 2
+    "question": "What will come next in the following series: 1 3 7 15 31 61 ?",
+    "options": ["214", "118", "241", "123"],
+    "correctAnswer": 3
   },
   {
     "question": "What will come next in the following series: 7 11 17 25 35 47 ?",
@@ -346,7 +346,7 @@
   },
   {
     "question": "Which word cannot be formed using the letters of the word 'REFORMATION'?",
-    "options": ["MOTION", "REFRAIN", "REFORM", "FORMAT"],
+    "options": ["MOTION", "REFRAIN", "REFORMED", "FORMAT"],
     "correctAnswer": 1
   },
   {

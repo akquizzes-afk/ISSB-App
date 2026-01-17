@@ -2,7 +2,7 @@
   {
     "question": "If Ali's current age is 6 years and Sara is twice Ali's age, what will Sara's age be when Ali is 12 years old?",
     "options": ["16", "22", "18", "20"],
-    "correctAnswer": 0
+    "correctAnswer": 2
   },
   {
     "question": "A boy is 4 years old and his sister is 3 times older than him. What will be his sister's age when the boy is 12 years old?",
@@ -12,7 +12,7 @@
   {
     "question": "If my current age is 12 years and my brother is twice my age, what will be our age ratio after 12 years?",
     "options": ["2:3", "3:4", "1:2", "2:5"],
-    "correctAnswer": 1
+    "correctAnswer": 0
   },
   {
     "question": "Ahmed is 6 years old and his sister is 3 times older than him. What will be his sister's age when Ahmed is 12 years old?",
@@ -252,7 +252,7 @@
   {
     "question": "Complete the series: H, F, D, ?",
     "options": ["C", "B", "A", "E"],
-    "correctAnswer": 0
+    "correctAnswer": 1
   },
   {
     "question": "Complete the series: J, H, F, D, ?",
@@ -262,7 +262,7 @@
   {
     "question": "How many months have 31 days?",
     "options": ["6", "7", "5", "8"],
-    "correctAnswer": 3
+    "correctAnswer": 1
   },
   {
     "question": "Leap year occurs every how many years?",

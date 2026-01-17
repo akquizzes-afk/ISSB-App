@@ -1,437 +1,437 @@
 [
-  {
-    "question": "Find the odd man out.",
-    "options": ["Playpen", "Bed", "Chair", "Table"],
-    "correctAnswer": 0
-  },
-  {
-    "question": "Find the odd man out.",
-    "options": ["Ant", "Bee", "Spider", "Moth"],
-    "correctAnswer": 1
-  },
-  {
-    "question": "BY CX DW EV FU ___",
-    "options": ["TG", "TS", "GO", "GT"],
-    "correctAnswer": 3
-  },
-  {
-    "question": "Which one is different from the rest?",
-    "options": ["Cook", "Judge", "Advocate", "Magistrate"],
-    "correctAnswer": 0
-  },
-  {
-    "question": "3 11 4 13 5 15 6 17 7 ___",
-    "options": ["21", "20", "19", "23"],
-    "correctAnswer": 2
-  },
-  {
-    "question": "2 4 7 11 16 ___",
-    "options": ["21 28", "22 28", "21 29", "22 29"],
-    "correctAnswer": 3
-  },
-  {
-    "question": "4 5 8 10 12 15 ___",
-    "options": ["20", "18", "17", "16"],
-    "correctAnswer": 3
-  },
-  {
-    "question": "3 4 5 6, 5 6 7 8, 7 8 9 10, ?",
-    "options": ["9 10 11 12", "11 12 13 14", "8 9 10 11", "10 11 12 13"],
-    "correctAnswer": 0
-  },
-  {
-    "question": "25 20 15 10 __",
-    "options": ["8", "5", "24", "9"],
-    "correctAnswer": 1
-  },
-  {
-    "question": "Which one is different from the rest?",
-    "options": ["Duck", "Cow", "Bull", "Mare"],
-    "correctAnswer": 2
-  },
-  {
-    "question": "A cake is cut so that, one piece, which is half of the cake, is twice as largest as the other piece. How many pieces are there?",
-    "options": ["3", "5", "2", "9"],
-    "correctAnswer": 0
-  },
-  {
-    "question": "3 6 9 12 15 __",
-    "options": ["24", "18", "27", "21"],
-    "correctAnswer": 1
-  },
-  {
-    "question": "A C F J O __",
-    "options": ["S", "T", "U", "V"],
-    "correctAnswer": 2
-  },
-  {
-    "question": "Cotton is to Quilt as ______ is to Blanket.",
-    "options": ["Wool", "Pillow", "Silk", "Softness"],
-    "correctAnswer": 0
-  },
-  {
-    "question": "Which letter is as far from L as far from J?",
-    "options": ["T", "P", "K", "U"],
-    "correctAnswer": 2
-  },
-  {
-    "question": "Cement is to Trowel as Paint is to ______",
-    "options": ["Brush", "Polish", "Color", "Tin Packet"],
-    "correctAnswer": 0
-  },
-  {
-    "question": "Find the odd man out.",
-    "options": ["Allama Iqbal", "Imran Khan", "Hasan Sardar", "Agib Javed"],
-    "correctAnswer": 0
-  },
-  {
-    "question": "4 7 9 11 14 15 19 ___",
-    "options": ["17", "5", "19", "9"],
-    "correctAnswer": 2
-  },
-  {
-    "question": "34 24 16 10 6 ___",
-    "options": ["7", "4", "3", "2"],
-    "correctAnswer": 1
-  },
-  {
-    "question": "Find the odd man out.",
-    "options": ["Student", "Professor", "Teacher", "Lecturer"],
-    "correctAnswer": 0
-  },
-  {
-    "question": "5, 3, 6, 4, 7, 5, 8, 6, 9, ___",
-    "options": ["7, 5", "8, 10", "7, 10", "9, 5"],
-    "correctAnswer": 2
-  },
-  {
-    "question": "Insert the missing number: 3 7 16 6 13 28 9 19 ?",
-    "options": ["30", "40", "35", "50"],
-    "correctAnswer": 1
-  },
-  {
-    "question": "Find the odd man out.",
-    "options": ["Rawalpindi", "Khushab", "Balochistan", "Quetta"],
-    "correctAnswer": 2
-  },
-  {
-    "question": "What is the missing letter? 8+3-4=G 2+12-2=L 22+4-3=W 13+1-10=?",
-    "options": ["D", "E", "F", "Q"],
-    "correctAnswer": 0
-  },
-  {
-    "question": "If Slight stands 426175, then Gist stands for ______",
-    "options": ["1645", "4516", "4561", "5416"],
-    "correctAnswer": 0
-  },
-  {
-    "question": "If 124351 stands for Newton, then 3512 stands for ______",
-    "options": ["Tone", "New", "Town", "Note"],
-    "correctAnswer": 0
-  },
-  {
-    "question": "Find the odd man out.",
-    "options": ["Lungs", "Blood", "Skin", "Bread"],
-    "correctAnswer": 3
-  },
-  {
-    "question": "What do all the books have?",
-    "options": ["Pages", "Pictures", "Verses", "Questions"],
-    "correctAnswer": 0
-  },
-  {
-    "question": "E J N Q ?",
-    "options": ["R", "K", "S", "F"],
-    "correctAnswer": 2
-  },
-  {
-    "question": "6 12 18 ___ 30",
-    "options": ["22", "28", "20", "24"],
-    "correctAnswer": 3
-  },
-  {
-    "question": "Which one is different from the rest?",
-    "options": ["Gap", "Split", "Union", "Divide"],
-    "correctAnswer": 2
-  },
-  {
-    "question": "Which one is different from the rest?",
-    "options": ["October", "April", "March", "Tuesday"],
-    "correctAnswer": 3
-  },
-  {
-    "question": "If Box is to 3 then Boxer is to ___",
-    "options": ["4", "5", "7", "8"],
-    "correctAnswer": 1
-  },
-  {
-    "question": "8 10 14 18 26 ___",
-    "options": ["32", "34", "36", "30"],
-    "correctAnswer": 0
-  },
-  {
-    "question": "Find the odd man out.",
-    "options": ["Lion", "Tiger", "Cow", "Leopard"],
-    "correctAnswer": 2
-  },
-  {
-    "question": "Divide the largest of following numbers by the difference of two small numbers, then the answer will be: 16 20 12",
-    "options": ["4", "10", "5", "2"],
-    "correctAnswer": 2
-  },
-  {
-    "question": "10 2 20 4 80 6 ?",
-    "options": ["800", "400", "480", "600"],
-    "correctAnswer": 2
-  },
-  {
-    "question": "Find the odd man out.",
-    "options": ["Rose", "Lily", "Tulip", "Turnip"],
-    "correctAnswer": 3
-  },
-  {
-    "question": "Find the odd man out.",
-    "options": ["Ravi", "Sutlej", "Indus", "Atlantic"],
-    "correctAnswer": 3
-  },
-  {
-    "question": "Which one is different from the rest?",
-    "options": ["Heaven", "Town", "City", "Village"],
-    "correctAnswer": 0
-  },
-  {
-    "question": "Which one is different from the rest?",
-    "options": ["ABC", "XYZ", "KMN", "RST"],
-    "correctAnswer": 2
-  },
-  {
-    "question": "Find the odd man out.",
-    "options": ["England", "Beijing", "Lahore", "Karachi"],
-    "correctAnswer": 0
-  },
-  {
-    "question": "5 7 4 6 3 ____",
-    "options": ["4", "2", "5", "7"],
-    "correctAnswer": 2
-  },
-  {
-    "question": "Find the odd man out.",
-    "options": ["ABC", "DEF", "GHI", "PMO"],
-    "correctAnswer": 3
-  },
-  {
-    "question": "0 7 26 ?",
-    "options": ["44", "53", "63", "37"],
-    "correctAnswer": 1
-  },
-  {
-    "question": "If DCF means BAD then ECV means _____",
-    "options": ["BAT", "RAT", "FAT", "CAT"],
-    "correctAnswer": 3
-  },
-  {
-    "question": "Sand is to Desert as Air is to _____",
-    "options": ["Sky", "Atmosphere", "Ocean", "Island"],
-    "correctAnswer": 1
-  },
-  {
-    "question": "381 378 373 366 ____",
-    "options": ["356", "358", "357", "360"],
-    "correctAnswer": 2
-  },
-  {
-    "question": "Which one is different from the rest?",
-    "options": ["Iron and Nail", "Wool and Stool", "Paper and Book", "Oil and Lamp"],
-    "correctAnswer": 3
-  },
-  {
-    "question": "Which is different from the rest?",
-    "options": ["Student and Teacher", "Book and Leaf", "Science and Laboratory", "Tailor and Cloth"],
-    "correctAnswer": 1
-  },
-  {
-    "question": "Accelerate is to Retard as Praise is to ______",
-    "options": ["Scold", "Glorify", "Applaud", "Commend"],
-    "correctAnswer": 0
-  },
-  {
-    "question": "Rush is to Reckless as Compulsory is to ______",
-    "options": ["Binding", "Voluntary", "Complete", "Optional"],
-    "correctAnswer": 0
-  },
-  {
-    "question": "State the number of pair which is different from others:",
-    "options": ["Air and Oxygen", "Geometry and Maths", "Teacher and Student", "Flower and Petal"],
-    "correctAnswer": 2
-  },
-  {
-    "question": "4 8 32 5 9 ______",
-    "options": ["42", "10", "45", "64"],
-    "correctAnswer": 2
-  },
-  {
-    "question": "A C F ___",
-    "options": ["H", "J", "K", "L"],
-    "correctAnswer": 1
-  },
-  {
-    "question": "Find the odd man out?",
-    "options": ["Cat", "Dog", "Snake", "Fox"],
-    "correctAnswer": 2
-  },
-  {
-    "question": "18 13 9 6 ___",
-    "options": ["4", "2", "3", "8"],
-    "correctAnswer": 0
-  },
-  {
-    "question": "Meter is to Distance as a Clock is to ___",
-    "options": ["An hour", "Time", "Watch", "Alarm"],
-    "correctAnswer": 1
-  },
-  {
-    "question": "Which one is different from the rest?",
-    "options": ["May", "April", "Friday", "November"],
-    "correctAnswer": 2
-  },
-  {
-    "question": "Will go is to Went as Tomorrow is to ___",
-    "options": ["Yesterday", "Today", "Leaving", "Motion"],
-    "correctAnswer": 3
-  },
-  {
-    "question": "3 12 6 24 12 48 ___",
-    "options": ["24", "42", "36", "40"],
-    "correctAnswer": 0
-  },
-  {
-    "question": "Gold is to Wood as ___ is to Carpenter.",
-    "options": ["Ornaments", "Blacksmith", "Goldsmith", "Fisher"],
-    "correctAnswer": 2
-  },
-  {
-    "question": "Find the odd man out.",
-    "options": ["AABBZZ", "BBCCZZ", "CCDDZZ", "DDEEYY"],
-    "correctAnswer": 3
-  },
-  {
-    "question": "2 8 5 11 ___ 8 11",
-    "options": ["14", "16", "18", "7"],
-    "correctAnswer": 0
-  },
-  {
-    "question": "A school always has:",
-    "options": ["Teacher", "Chair", "Classroom", "Desk"],
-    "correctAnswer": 0
-  },
-  {
-    "question": "8 10 14 28 30 34 ___",
-    "options": ["71", "72", "68", "74"],
-    "correctAnswer": 2
-  },
-  {
-    "question": "Insert the missing number: 4 7 6 8 4 8 6 5 ?",
-    "options": ["2", "6", "4", "14"],
-    "correctAnswer": 0
-  },
-  {
-    "question": "Handsome is to Beautiful as ___ is to She.",
-    "options": ["Man", "Smart", "He", "Charming"],
-    "correctAnswer": 2
-  },
-  {
-    "question": "0 3 8 15 ?",
-    "options": ["13", "24", "15", "8"],
-    "correctAnswer": 1
-  },
-  {
-    "question": "2 4 6 8 9 10 (Which is odd?)",
-    "options": ["4", "8", "9", "2"],
-    "correctAnswer": 2
-  },
-  {
-    "question": "Slow is to Fast as High is to ______",
-    "options": ["Light", "Heavy", "Low", "Top"],
-    "correctAnswer": 2
-  },
-  {
-    "question": "100 75 55 40 30 ___",
-    "options": ["20", "25", "10", "15"],
-    "correctAnswer": 1
-  },
-  {
-    "question": "A Railway Station always has:",
-    "options": ["Train", "A Station Master", "A Railway Line", "A Platform"],
-    "correctAnswer": 2
-  },
-  {
-    "question": "2 4 8 3 ___ 12",
-    "options": ["4", "9", "6", "4"],
-    "correctAnswer": 2
-  },
-  {
-    "question": "A/2, 4/C, E/6 ?",
-    "options": ["8/G", "6/C", "4/D", "7/G"],
-    "correctAnswer": 0
-  },
-  {
-    "question": "Find the odd man out.",
-    "options": ["Apple", "Mango", "Orange", "Turnip"],
-    "correctAnswer": 3
-  },
-  {
-    "question": "Find the odd man out.",
-    "options": ["42,84", "44,88", "34,68", "36,78"],
-    "correctAnswer": 3
-  },
-  {
-    "question": "Soap is to Dirt as Petrol is to ______",
-    "options": ["Car", "Tyre", "Clothes", "Grease"],
-    "correctAnswer": 3
-  },
-  {
-    "question": "What will come next? 435 534 328 62 26 54 ?",
-    "options": ["823/45", "527/28", "832/25", "438/26"],
-    "correctAnswer": 0
-  },
-  {
-    "question": "If 312 × 225 = 54, 127 × 407 = 110, 54 × 36 = 126, then 125 × 232 = ?",
-    "options": ["70", "82", "56", "116"],
-    "correctAnswer": 2
-  },
-  {
-    "question": "Listen is to Hear as Look is to ______",
-    "options": ["Watch", "Observe", "See", "Notice"],
-    "correctAnswer": 2
-  },
-  {
-    "question": "A Lake is to Land as ______ is to Ocean.",
-    "options": ["Water", "Island", "Ship", "Beach"],
-    "correctAnswer": 1
-  },
-  {
-    "question": "EOV E1W E2X E3Y ?",
-    "options": ["E4Z", "E4Q", "E4W", "E0P"],
-    "correctAnswer": 0
-  },
-  {
-    "question": "Z X U Q ?",
-    "options": ["Q", "L", "R", "P"],
-    "correctAnswer": 1
-  },
-  {
-    "question": "A Municipality is to City as ______ is to a state.",
-    "options": ["Mayor", "Governor", "Legislature", "Judiciary"],
-    "correctAnswer": 2
-  },
-  {
-    "question": "32 6 43 12 64 ___",
-    "options": ["43", "28", "24", "32"],
-    "correctAnswer": 2
-  },
-  {
-    "question": "42 21 84 42 92 ___",
-    "options": ["42", "46", "44", "48"],
-    "correctAnswer": 1
-  }
+{
+"question": "Find the odd man out.",
+"options": ["Playpen", "Bed", "Chair", "Table"],
+"correctAnswer": 0
+},
+{
+"question": "Find the odd man out.",
+"options": ["Ant", "Bee", "Spider", "Moth"],
+"correctAnswer": 2
+},
+{
+"question": "Complete the series: BY CX DW EV FU ___",
+"options": ["TG", "TS", "GO", "GT"],
+"correctAnswer": 3
+},
+{
+"question": "Which one is different from the rest?",
+"options": ["Cook", "Judge", "Advocate", "Magistrate"],
+"correctAnswer": 0
+},
+{
+"question": "What will come next in the following series: 3 11 4 13 5 15 6 17 7 ___",
+"options": ["21", "20", "19", "23"],
+"correctAnswer": 2
+},
+{
+"question": "What will come next in the following series: 2 4 7 11 16 ___",
+"options": ["21, 28", "22, 28", "21, 29", "22, 29"],
+"correctAnswer": 3
+},
+{
+"question": "What will come next in the following series: 4 5 8 10 12 15 ___",
+"options": ["20", "18", "17", "16"],
+"correctAnswer": 3
+},
+{
+"question": "What will come next in the following series: 3 4 5 6, 5 6 7 8, 7 8 9 10, ?",
+"options": ["9 10 11 12", "11 12 13 14", "8 9 10 11", "10 11 12 13"],
+"correctAnswer": 0
+},
+{
+"question": "What will come next in the following series: 25 20 15 10 __",
+"options": ["8", "5", "24", "9"],
+"correctAnswer": 1
+},
+{
+"question": "Which one is different from the rest?",
+"options": ["Duck", "Cow", "Bull", "Mare"],
+"correctAnswer": 0
+},
+{
+"question": "A cake is cut so that, one piece, which is half of the cake, is twice as large as the other pieces. If the remaining pieces are equal, how many pieces are there?",
+"options": ["3", "5", "2", "9"],
+"correctAnswer": 0
+},
+{
+"question": "What will come next in the following series: 3 6 9 12 15 __",
+"options": ["24", "18", "27", "21"],
+"correctAnswer": 1
+},
+{
+"question": "What will come next in the following series: A C F J O __",
+"options": ["S", "T", "U", "V"],
+"correctAnswer": 2
+},
+{
+"question": "Cotton is to Quilt as ______ is to Blanket.",
+"options": ["Wool", "Pillow", "Silk", "Softness"],
+"correctAnswer": 0
+},
+{
+"question": "Which letter is exactly in the middle of J and L?",
+"options": ["T", "P", "K", "U"],
+"correctAnswer": 2
+},
+{
+"question": "Cement is to Trowel as Paint is to ______",
+"options": ["Brush", "Polish", "Color", "Tin Packet"],
+"correctAnswer": 0
+},
+{
+"question": "Find the odd man out.",
+"options": ["Allama Iqbal", "Imran Khan", "Hasan Sardar", "Aqib Javed"],
+"correctAnswer": 0
+},
+{
+"question": "What will come next in the following series: 4 7 9 11 14 15 19 ___",
+"options": ["17", "5", "19", "9"],
+"correctAnswer": 2
+},
+{
+"question": "What will come next in the following series: 34 24 16 10 6 ___",
+"options": ["7", "4", "3", "2"],
+"correctAnswer": 1
+},
+{
+"question": "Find the odd man out.",
+"options": ["Student", "Professor", "Teacher", "Lecturer"],
+"correctAnswer": 0
+},
+{
+"question": "Complete the series: 5, 3, 6, 4, 7, 5, 8, 6, 9, ___",
+"options": ["7, 5", "8, 10", "7, 10", "9, 5"],
+"correctAnswer": 2
+},
+{
+"question": "Insert the missing number: 3 7 16, 6 13 28, 9 19 ?",
+"options": ["30", "40", "35", "50"],
+"correctAnswer": 1
+},
+{
+"question": "Find the odd man out.",
+"options": ["Rawalpindi", "Khushab", "Balochistan", "Quetta"],
+"correctAnswer": 2
+},
+{
+"question": "What is the missing letter? 8+3-4=G, 2+12-2=L, 22+4-3=W, 13+1-10=?",
+"options": ["D", "E", "F", "Q"],
+"correctAnswer": 0
+},
+{
+"question": "If Slight is coded as 426175, then Gist is coded as ______",
+"options": ["1645", "4516", "4561", "5416"],
+"correctAnswer": 0
+},
+{
+"question": "If 124351 stands for Newton, then 3512 stands for ______",
+"options": ["Tone", "New", "Town", "Note"],
+"correctAnswer": 0
+},
+{
+"question": "Find the odd man out.",
+"options": ["Lungs", "Blood", "Skin", "Bread"],
+"correctAnswer": 3
+},
+{
+"question": "What do all books fundamentally have?",
+"options": ["Pages", "Pictures", "Verses", "Questions"],
+"correctAnswer": 0
+},
+{
+"question": "What comes next in the following series: E J N Q ?",
+"options": ["R", "K", "S", "F"],
+"correctAnswer": 2
+},
+{
+"question": "What will come next in the following series: 6 12 18 ___ 30",
+"options": ["22", "28", "20", "24"],
+"correctAnswer": 3
+},
+{
+"question": "Which one is different from the rest?",
+"options": ["Gap", "Split", "Union", "Divide"],
+"correctAnswer": 2
+},
+{
+"question": "Which one is different from the rest?",
+"options": ["October", "April", "March", "Tuesday"],
+"correctAnswer": 3
+},
+{
+"question": "If Box is to 3 then Boxer is to ___",
+"options": ["4", "5", "7", "8"],
+"correctAnswer": 1
+},
+{
+"question": "What will come next in the following series: 8 10 14 18 26 ___",
+"options": ["32", "34", "36", "30"],
+"correctAnswer": 1
+},
+{
+"question": "Find the odd man out.",
+"options": ["Lion", "Tiger", "Cow", "Leopard"],
+"correctAnswer": 2
+},
+{
+"question": "Divide the largest of following numbers by the difference of the two smaller numbers: 16 20 12",
+"options": ["4", "10", "5", "2"],
+"correctAnswer": 2
+},
+{
+"question": "What will come next in the following series: 10 2 20 4 80 6 ?",
+"options": ["800", "400", "480", "600"],
+"correctAnswer": 2
+},
+{
+"question": "Find the odd man out.",
+"options": ["Rose", "Lily", "Tulip", "Turnip"],
+"correctAnswer": 3
+},
+{
+"question": "Find the odd man out.",
+"options": ["Ravi", "Sutlej", "Indus", "Atlantic"],
+"correctAnswer": 3
+},
+{
+"question": "Which one is different from the rest?",
+"options": ["Heaven", "Town", "City", "Village"],
+"correctAnswer": 0
+},
+{
+"question": "Which one is different from the rest?",
+"options": ["ABC", "XYZ", "KMN", "RST"],
+"correctAnswer": 2
+},
+{
+"question": "Find the odd man out.",
+"options": ["England", "Beijing", "Lahore", "Karachi"],
+"correctAnswer": 0
+},
+{
+"question": "What will come next in the following series: 5 7 4 6 3 ____",
+"options": ["4", "2", "5", "7"],
+"correctAnswer": 2
+},
+{
+"question": "Which one is different from the rest?",
+"options": ["ABC", "DEF", "GHI", "PMO"],
+"correctAnswer": 3
+},
+{
+"question": "What will come next in the following series: 0 7 26 ?",
+"options": ["44", "53", "63", "37"],
+"correctAnswer": 2
+},
+{
+"question": "If DCF means BAD then ECV means _____",
+"options": ["BAT", "RAT", "FAT", "CAT"],
+"correctAnswer": 3
+},
+{
+"question": "Sand is to Desert as Air is to _____",
+"options": ["Sky", "Atmosphere", "Ocean", "Island"],
+"correctAnswer": 1
+},
+{
+"question": "What will come next in the following series: 381 378 373 366 ____",
+"options": ["356", "358", "357", "360"],
+"correctAnswer": 2
+},
+{
+"question": "Which pair is different from the rest?",
+"options": ["Iron and Nail", "Wool and Stool", "Paper and Book", "Oil and Lamp"],
+"correctAnswer": 1
+},
+{
+"question": "Which is different from the rest?",
+"options": ["Student and Teacher", "Book and Leaf", "Science and Laboratory", "Tailor and Cloth"],
+"correctAnswer": 1
+},
+{
+"question": "Accelerate is to Retard as Praise is to ______",
+"options": ["Scold", "Glorify", "Applaud", "Commend"],
+"correctAnswer": 0
+},
+{
+"question": "Rush is to Reckless as Compulsory is to ______",
+"options": ["Binding", "Voluntary", "Complete", "Optional"],
+"correctAnswer": 0
+},
+{
+"question": "Identify the pair that is structured differently:",
+"options": ["Air and Oxygen", "Geometry and Maths", "Teacher and Student", "Flower and Petal"],
+"correctAnswer": 2
+},
+{
+"question": "Complete the logic: 4 8 32, 5 9 ______",
+"options": ["42", "10", "45", "64"],
+"correctAnswer": 2
+},
+{
+"question": "What comes next in the following series: A C F ___",
+"options": ["H", "J", "K", "L"],
+"correctAnswer": 1
+},
+{
+"question": "Find the odd man out.",
+"options": ["Cat", "Dog", "Snake", "Fox"],
+"correctAnswer": 2
+},
+{
+"question": "What will come next in the following series: 18 13 9 6 ___",
+"options": ["4", "2", "3", "8"],
+"correctAnswer": 0
+},
+{
+"question": "Meter is to Distance as Clock is to ___",
+"options": ["An hour", "Time", "Watch", "Alarm"],
+"correctAnswer": 1
+},
+{
+"question": "Which one is different from the rest?",
+"options": ["May", "April", "Friday", "November"],
+"correctAnswer": 2
+},
+{
+"question": "Will go is to Went as Tomorrow is to ___",
+"options": ["Yesterday", "Today", "Leaving", "Motion"],
+"correctAnswer": 0
+},
+{
+"question": "What will come next in the following series: 3 12 6 24 12 48 ___",
+"options": ["24", "42", "36", "40"],
+"correctAnswer": 0
+},
+{
+"question": "Gold is to Wood as Goldsmith is to ______.",
+"options": ["Ornaments", "Blacksmith", "Carpenter", "Fisher"],
+"correctAnswer": 2
+},
+{
+"question": "Find the odd man out.",
+"options": ["AABBZZ", "BBCCZZ", "CCDDZZ", "DDEEYY"],
+"correctAnswer": 3
+},
+{
+"question": "Complete the series: 2 8 5 11 ___ 8 11",
+"options": ["14", "16", "18", "7"],
+"correctAnswer": 0
+},
+{
+"question": "A school always has:",
+"options": ["Teacher", "Chair", "Classroom", "Desk"],
+"correctAnswer": 0
+},
+{
+"question": "What will come next in the following series: 8 10 14 28 30 34 ___",
+"options": ["71", "72", "68", "74"],
+"correctAnswer": 2
+},
+{
+"question": "Insert the missing number: 4 7 6 8 4 8 6 5 ?",
+"options": ["2", "6", "4", "14"],
+"correctAnswer": 0
+},
+{
+"question": "Handsome is to Beautiful as He is to ______.",
+"options": ["Man", "Smart", "She", "Charming"],
+"correctAnswer": 2
+},
+{
+"question": "What will come next in the following series: 0 3 8 15 ?",
+"options": ["13", "24", "15", "8"],
+"correctAnswer": 1
+},
+{
+"question": "Which number is the odd one out in this group: 2 4 6 8 9 10?",
+"options": ["4", "8", "9", "2"],
+"correctAnswer": 2
+},
+{
+"question": "Slow is to Fast as High is to ______",
+"options": ["Light", "Heavy", "Low", "Top"],
+"correctAnswer": 2
+},
+{
+"question": "What will come next in the following series: 100 75 55 40 30 ___",
+"options": ["20", "25", "10", "15"],
+"correctAnswer": 1
+},
+{
+"question": "A Railway Station always has:",
+"options": ["Train", "A Station Master", "A Railway Line", "A Platform"],
+"correctAnswer": 2
+},
+{
+"question": "Complete the logic: 2 4 8, 3 ___ 12",
+"options": ["4", "9", "6", "4"],
+"correctAnswer": 2
+},
+{
+"question": "Complete the pattern: A/2, 4/C, E/6, ?",
+"options": ["8/G", "6/C", "4/D", "7/G"],
+"correctAnswer": 0
+},
+{
+"question": "Find the odd man out.",
+"options": ["Apple", "Mango", "Orange", "Turnip"],
+"correctAnswer": 3
+},
+{
+"question": "Find the odd man out.",
+"options": ["42,84", "44,88", "34,68", "36,78"],
+"correctAnswer": 3
+},
+{
+"question": "Soap is to Dirt as Petrol is to ______",
+"options": ["Car", "Tyre", "Clothes", "Grease"],
+"correctAnswer": 3
+},
+{
+"question": "Find the pattern and complete it: 435 534, 328 823, 45 ______?",
+"options": ["54", "52", "83", "43"],
+"correctAnswer": 0
+},
+{
+"question": "If 312 × 225 = 54, 127 × 407 = 110, then 125 × 232 = ?",
+"options": ["70", "82", "56", "116"],
+"correctAnswer": 2
+},
+{
+"question": "Listen is to Hear as Look is to ",
+"options": ["Watch", "Observe", "See", "Notice"],
+"correctAnswer": 2
+},
+{
+"question": "A Lake is to Land as ______ is to Ocean.",
+"options": ["Water", "Island", "Ship", "Beach"],
+"correctAnswer": 1
+},
+{
+"question": "Complete the pattern: E0V, E1W, E2X, E3Y, ?",
+"options": ["E4Z", "E4Q", "E4W", "E0P"],
+"correctAnswer": 0
+},
+{
+"question": "What will come next in the following series: Z X U Q ?",
+"options": ["Q", "L", "R", "P"],
+"correctAnswer": 1
+},
+{
+"question": "A Municipality is to City as ______ is to a State.",
+"options": ["Mayor", "Governor", "Legislature", "Judiciary"],
+"correctAnswer": 2
+},
+{
+"question": "Identify the pattern: 32 (6), 43 (12), 64 ()?",
+"options": ["43", "28", "24", "32"],
+"correctAnswer": 2
+},
+{
+"question": "Complete the series: 42 (21), 84 (42), 92 ()?",
+"options": ["42", "46", "44", "48"],
+"correctAnswer": 1
+}
 ]

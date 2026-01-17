@@ -1,423 +1,422 @@
 [
-  {
-    "question": "What will come next in the following series: Y X W V ______?",
-    "options": ["W", "Z", "U", "O"],
-    "correctAnswer": 2
-  },
-  {
-    "question": "What will come next in the following series: NO______ OR______ TU?",
-    "options": ["S P", "T U", "P S", "U V"],
-    "correctAnswer": 2
-  },
-  {
-    "question": "What will come next in the following series: X W V ______ T?",
-    "options": ["Y", "U", "Z", "R"],
-    "correctAnswer": 1
-  },
-  {
-    "question": "What will come next in the following series: A Z B Y C ______?",
-    "options": ["X Y", "X C", "Y C", "X D"],
-    "correctAnswer": 0
-  },
-  {
-    "question": "What will come next in the following series: A C F J ______?",
-    "options": ["V", "U", "W", "O"],
-    "correctAnswer": 0
-  },
-  {
-    "question": "What will come next in the following series: W V U ______ S?",
-    "options": ["W", "T", "V", "R"],
-    "correctAnswer": 1
-  },
-  {
-    "question": "What will come next in the following series: AB C DE F GH I ______?",
-    "options": ["JK", "K", "MN", "J"],
-    "correctAnswer": 3
-  },
-  {
-    "question": "What will come next in the following series: ______ T U V W ?",
-    "options": ["V", "R", "S", "Q"],
-    "correctAnswer": 2
-  },
-  {
-    "question": "What will come next in the following series: C F J O ______?",
-    "options": ["U", "Q", "O", "N"],
-    "correctAnswer": 0
-  },
-  {
-    "question": "What will come next in the following series: F F G H H I ______?",
-    "options": ["JJ", "LK", "KL", "JK"],
-    "correctAnswer": 3
-  },
-  {
-    "question": "What will come next in the following series: A C F J ______?",
-    "options": ["N", "O", "M", "P"],
-    "correctAnswer": 0
-  },
-  {
-    "question": "What will come next in the following series: A B Z C D Y E F ______?",
-    "options": ["V", "W", "G", "X"],
-    "correctAnswer": 3
-  },
-  {
-    "question": "What will come next in the following series: A B C D D E F G ______?",
-    "options": ["H", "G", "K", "I"],
-    "correctAnswer": 3
-  },
-  {
-    "question": "What will come next in the following series: S T T U U V ______?",
-    "options": ["W", "V", "X", "U"],
-    "correctAnswer": 0
-  },
-  {
-    "question": "What will come next in the following series: K L M L M N M N ______?",
-    "options": ["D", "O", "P", "M"],
-    "correctAnswer": 1
-  },
-  {
-    "question": "What will come next in the following series: U T S T S R S R ______?",
-    "options": ["V", "R", "S", "Q"],
-    "correctAnswer": 3
-  },
-  {
-    "question": "What will come next in the following series: C E G E G I ______?",
-    "options": ["J", "K", "I", "G"],
-    "correctAnswer": 1
-  },
-  {
-    "question": "What will come next in the following series: S T U V T U V W U V ______?",
-    "options": ["X W", "W X", "X Y", "T U"],
-    "correctAnswer": 0
-  },
-  {
-    "question": "What will come next in the following series: EF FG GH HI ______?",
-    "options": ["II", "JK", "KI", "IJ"],
-    "correctAnswer": 3
-  },
-  {
-    "question": "What will come next in the following series: A Z B Y ______?",
-    "options": ["CX", "VS", "DT", "C X"],
-    "correctAnswer": 3
-  },
-  {
-    "question": "What will come next in the following series: B G L Q ______?",
-    "options": ["S", "R", "N", "V"],
-    "correctAnswer": 3
-  },
-  {
-    "question": "What will come next in the following series: C F I ______?",
-    "options": ["N", "L", "O", "M"],
-    "correctAnswer": 1
-  },
-  {
-    "question": "What will come next in the following series: O K H F ______?",
-    "options": ["D", "E", "F", "P"],
-    "correctAnswer": 0
-  },
-  {
-    "question": "What will come next in the following series: S P N ______?",
-    "options": ["M", "O", "V", "R"],
-    "correctAnswer": 0
-  },
-  {
-    "question": "What will come next in the following series: X W V U T ______?",
-    "options": ["R", "Q", "V", "S"],
-    "correctAnswer": 3
-  },
-  {
-    "question": "What will come next in the following series: B E H K ______?",
-    "options": ["P", "O", "N", "M"],
-    "correctAnswer": 2
-  },
-  {
-    "question": "What will come next in the following series: A X B W C V D ______?",
-    "options": ["T", "R", "U", "S"],
-    "correctAnswer": 2
-  },
-  {
-    "question": "What will come next in the following series: Z X U Q ______?",
-    "options": ["L", "P", "N", "M"],
-    "correctAnswer": 0
-  },
-  {
-    "question": "What will come next in the following series: A K B C L D E ______?",
-    "options": ["N", "O", "M", "P"],
-    "correctAnswer": 2
-  },
-  {
-    "question": "What will come next in the following series: AB EF IJ ______?",
-    "options": ["KL", "LM", "NK", "MN"],
-    "correctAnswer": 3
-  },
-  {
-    "question": "What will come next in the following series: J F H D ______?",
-    "options": ["E", "B", "A", "C"],
-    "correctAnswer": 1
-  },
-  {
-    "question": "What will come next in the following series: B D J N ______?",
-    "options": ["S", "R", "Q", "T"],
-    "correctAnswer": 1
-  },
-  {
-    "question": "What will come next in the following series: B E C F D ______?",
-    "options": ["G", "K", "J", "I"],
-    "correctAnswer": 0
-  },
-  {
-    "question": "What will come next in the following series: Z X V T ______?",
-    "options": ["Q", "S", "R", "P"],
-    "correctAnswer": 2
-  },
-  {
-    "question": "What will come next in the following series: Z A Y B X C ______?",
-    "options": ["W D", "V E", "V D", "V E"],
-    "correctAnswer": 0
-  },
-  {
-    "question": "What will come next in the following series: AZ CX EV ______?",
-    "options": ["GT", "HW", "FU", "AB"],
-    "correctAnswer": 0
-  },
-  {
-    "question": "What will come next in the following series: R N J F ______?",
-    "options": ["C", "B", "A", "D"],
-    "correctAnswer": 1
-  },
-  {
-    "question": "What will come next in the following series: A C F J ______?",
-    "options": ["N", "M", "P", "O"],
-    "correctAnswer": 3
-  },
-  {
-    "question": "What will come next in the following series: P ______ R SS T ______?",
-    "options": ["QRT", "QQU", "QUT", "PQU"],
-    "correctAnswer": 3
-  },
-  {
-    "question": "What will come next in the following series: Z ______ X W ______ U T S ?",
-    "options": ["VY", "WY", "CZ", "YV"],
-    "correctAnswer": 3
-  },
-  {
-    "question": "What will come next in the following series: P ______ Q RR SS TT ?",
-    "options": ["PQ", "RS", "QP", "QR"],
-    "correctAnswer": 0
-  },
-  {
-    "question": "What will come next in the following series: H M O Q ______?",
-    "options": ["J", "K", "R", "L"],
-    "correctAnswer": 2
-  },
-  {
-    "question": "What will come next in the following series: QQ ______ R S ______ T ______?",
-    "options": ["S T R", "R S T", "Q S T", "T R S"],
-    "correctAnswer": 1
-  },
-  {
-    "question": "What will come next in the following series: BC ______ DE WX ______?",
-    "options": ["YZFG", "ZYEG", "YZGF", "ZYGF"],
-    "correctAnswer": 0
-  },
-  {
-    "question": "What will come next in the following series: AB/A BC/B CD/C ______?",
-    "options": ["EF/E", "U/I", "DF/E", "DE/D"],
-    "correctAnswer": 3
-  },
-  {
-    "question": "What will come next in the following series: A B CC ______ E ______ G H II ?",
-    "options": ["DEF", "DFF", "DFE", "DEE"],
-    "correctAnswer": 3
-  },
-  {
-    "question": "What will come next in the following series: AC/B DF/E GI/H ______?",
-    "options": ["JK/L", "KJ/L", "JL/K", "LJ/K"],
-    "correctAnswer": 2
-  },
-  {
-    "question": "What will come next in the following series: AB/V ______ CD/W DE/V EF/U ?",
-    "options": ["DC/W", "BV/Z", "CB/V", "BC/X"],
-    "correctAnswer": 3
-  },
-  {
-    "question": "What will come next in the following series: A C E G ______?",
-    "options": ["K", "I", "M", "H"],
-    "correctAnswer": 1
-  },
-  {
-    "question": "What will come next in the following series: AB/m EF/o ______ MN/s ?",
-    "options": ["GH/p", "JK/n", "BC/i", "IJ/g"],
-    "correctAnswer": 1
-  },
-  {
-    "question": "What will come next in the following series: AE/a DF/c GG/e ______?",
-    "options": ["JL/h", "JL/f", "JK/g", "JH/g"],
-    "correctAnswer": 0
-  },
-  {
-    "question": "What will come next in the following series: AF/R GL/S ______ SX/U ?",
-    "options": ["MS/T", "NR/T", "MQ/T", "MR/T"],
-    "correctAnswer": 0
-  },
-  {
-    "question": "What will come next in the following series: AB/A BC/B CD/C ______?",
-    "options": ["EF/E", "DE/E", "CD/E", "DE/D"],
-    "correctAnswer": 3
-  },
-  {
-    "question": "What will come next in the following series: J Z I Y H ______?",
-    "options": ["X", "Z", "A", "U"],
-    "correctAnswer": 0
-  },
-  {
-    "question": "What will come next in the following series: A E I L P ______?",
-    "options": ["N", "T", "V", "W"],
-    "correctAnswer": 1
-  },
-  {
-    "question": "What will come next in the following series: A C E P D F ______?",
-    "options": ["J", "W", "H", "E"],
-    "correctAnswer": 0
-  },
-  {
-    "question": "What will come next in the following series: A Z B Y C ______?",
-    "options": ["X", "W", "Z", "Y"],
-    "correctAnswer": 0
-  },
-  {
-    "question": "What will come next in the following series: A Y B Z C W D ______?",
-    "options": ["W", "V", "X", "U"],
-    "correctAnswer": 2
-  },
-  {
-    "question": "What will come next in the following series: X V Y W T U R ______?",
-    "options": ["S", "W", "R", "U"],
-    "correctAnswer": 0
-  },
-  {
-    "question": "What will come next in the following series: Z Y X A B C W V U D E F T S R G H ______?",
-    "options": ["M", "R", "P", "I"],
-    "correctAnswer": 3
-  },
-  {
-    "question": "What will come next in the following series: P Q U R Q Q U R N Q U R ______?",
-    "options": ["N", "Z", "V", "R"],
-    "correctAnswer": 0
-  },
-  {
-    "question": "What will come next in the following series: A J E B I Q O Y U P A S ______?",
-    "options": ["Y", "W", "E", "K"],
-    "correctAnswer": 1
-  },
-  {
-    "question": "What will come next in the following series: B C D Y X W F G H U T S ______?",
-    "options": ["D", "J", "F", "C"],
-    "correctAnswer": 2
-  },
-  {
-    "question": "What will come next in the following series: ZA ZC ZF ZJ Z ______?",
-    "options": ["O", "Z", "I", "M"],
-    "correctAnswer": 0
-  },
-  {
-    "question": "What will come next in the following series: A C F J O ______?",
-    "options": ["U", "B", "V", "W"],
-    "correctAnswer": 0
-  },
-  {
-    "question": "What will come next in the following series: A B D E G H ______?",
-    "options": ["J", "W", "E", "U"],
-    "correctAnswer": 0
-  },
-  {
-    "question": "What will come next in the following series: W U S Q O ______?",
-    "options": ["O", "W", "M", "N"],
-    "correctAnswer": 2
-  },
-  {
-    "question": "What will come next in the following series: B E F G J K ______?",
-    "options": ["P", "N", "M", "O"],
-    "correctAnswer": 0
-  },
-  {
-    "question": "What will come next in the following series: AB DC EF HG ______?",
-    "options": ["IJ", "V", "W", "I"],
-    "correctAnswer": 0
-  },
-  {
-    "question": "What will come next in the following series: D F I M R ______?",
-    "options": ["X", "W", "V", "Y"],
-    "correctAnswer": 0
-  },
-  {
-    "question": "What will come next in the following series: B E I ______?",
-    "options": ["W", "N", "M", "Z"],
-    "correctAnswer": 2
-  },
-  {
-    "question": "What will come next in the following series: A B D G ______?",
-    "options": ["M", "L", "K", "N"],
-    "correctAnswer": 2
-  },
-  {
-    "question": "Meat is to Vegetarians as ______ is to Teetotaler?",
-    "options": ["Fruit", "Liquor", "Vegetable", "Mutton"],
-    "correctAnswer": 1
-  },
-  {
-    "question": "Wag is to Dullard as Idiot is to ______?",
-    "options": ["Foolish", "Heartly", "Healthy", "Clever"],
-    "correctAnswer": 3
-  },
-  {
-    "question": "Finger is to Elbow as Toe is to ______?",
-    "options": ["Knee", "Ankle", "Foot", "Arm"],
-    "correctAnswer": 1
-  },
-  {
-    "question": "Essence is to flower as ______ is to oven?",
-    "options": ["Steam", "Heat", "Vapour", "Ice"],
-    "correctAnswer": 1
-  },
-  {
-    "question": "Free is to Imprison as Forgive is to ______?",
-    "options": ["Punish", "Condemn", "Accuse", "Accept"],
-    "correctAnswer": 0
-  },
-  {
-    "question": "Fly is to Aeroplane as Sail is to ______?",
-    "options": ["Cabino", "Sea", "Ocean", "Ship"],
-    "correctAnswer": 3
-  },
-  {
-    "question": "Aircraft is to Air as Hovercraft is to ______?",
-    "options": ["Steam", "Sea", "Jungle", "Space"],
-    "correctAnswer": 1
-  },
-  {
-    "question": "House is to Human as Nest is to ______?",
-    "options": ["Elders", "Birds", "Animals", "Kids"],
-    "correctAnswer": 1
-  },
-  {
-    "question": "Water is to Flow as Air is to ______?",
-    "options": ["Blow", "Rage", "Drive", "Carry"],
-    "correctAnswer": 0
-  },
-  {
-    "question": "Train is to Truck as Car is to ______?",
-    "options": ["Wheels", "Jungle", "Road", "Oil"],
-    "correctAnswer": 2
-  },
-  {
-    "question": "Kitten is to Cat as Cub is to ______?",
-    "options": ["Leopard", "Goat", "Cow", "Dog"],
-    "correctAnswer": 0
-  },
-  {
-    "question": "Pension is to Retirement as Pay is to ______?",
-    "options": ["Employment", "Deployment", "Hardwork", "Old age"],
-    "correctAnswer": 0
-  }
+{
+"question": "What will come next in the following series: Y X W V ?",
+"options": ["W", "Z", "U", "O"],
+"correctAnswer": 2
+},
+{
+"question": "What will come next in the following series: NO PQ______ RS ______ TU?",
+"options": ["S P", "P Q", "P S", "U V"],
+"correctAnswer": 2
+},
+{
+"question": "What will come next in the following series: X W V ______ T?",
+"options": ["Y", "U", "Z", "R"],
+"correctAnswer": 1
+},
+{
+"question": "What will come next in the following series: A Z B Y C ______?",
+"options": ["X", "X C", "Y C", "X D"],
+"correctAnswer": 0
+},
+{
+"question": "What will come next in the following series: A C F J ______?",
+"options": ["O", "U", "W", "V"],
+"correctAnswer": 0
+},
+{
+"question": "What will come next in the following series: W V U ______ S?",
+"options": ["W", "T", "V", "R"],
+"correctAnswer": 1
+},
+{
+"question": "What will come next in the following series: AB C DE F GH I ______?",
+"options": ["JK", "K", "MN", "J"],
+"correctAnswer": 0
+},
+{
+"question": "What will come next in the following series: ______ T U V W ?",
+"options": ["V", "R", "S", "Q"],
+"correctAnswer": 2
+},
+{
+"question": "What will come next in the following series: C F J O ______?",
+"options": ["U", "Q", "O", "N"],
+"correctAnswer": 0
+},
+{
+"question": "What will come next in the following series: F F G H H I ______?",
+"options": ["JJ", "LK", "KL", "JJ"],
+"correctAnswer": 0
+},
+{
+"question": "What will come next in the following series: A C F J ______?",
+"options": ["O", "N", "M", "P"],
+"correctAnswer": 0
+},
+{
+"question": "What will come next in the following series: A B Z C D Y E F ______?",
+"options": ["V", "W", "G", "X"],
+"correctAnswer": 3
+},
+{
+"question": "What will come next in the following series: A B C D D E F G ______?",
+"options": ["H", "G", "K", "G"],
+"correctAnswer": 1
+},
+{
+"question": "What will come next in the following series: S T T U U V ______?",
+"options": ["V", "W", "X", "U"],
+"correctAnswer": 0
+},
+{
+"question": "What will come next in the following series: K L M L M N M N ______?",
+"options": ["D", "O", "P", "M"],
+"correctAnswer": 1
+},
+{
+"question": "What will come next in the following series: U T S T S R S R ______?",
+"options": ["V", "R", "S", "Q"],
+"correctAnswer": 3
+},
+{
+"question": "What will come next in the following series: C E G E G I ______?",
+"options": ["J", "G", "I", "K"],
+"correctAnswer": 1
+},
+{
+"question": "What will come next in the following series: S T U V T U V W U V ______?",
+"options": ["W X", "X W", "X Y", "T U"],
+"correctAnswer": 0
+},
+{
+"question": "What will come next in the following series: EF FG GH HI ______?",
+"options": ["II", "JK", "KI", "IJ"],
+"correctAnswer": 3
+},
+{
+"question": "What will come next in the following series: A Z B Y ______?",
+"options": ["CX", "VS", "DT", "C X"],
+"correctAnswer": 3
+},
+{
+"question": "What will come next in the following series: B G L Q ______?",
+"options": ["S", "R", "N", "V"],
+"correctAnswer": 3
+},
+{
+"question": "What will come next in the following series: C F I ______?",
+"options": ["N", "L", "O", "M"],
+"correctAnswer": 1
+},
+{
+"question": "What will come next in the following series: O K H F ______?",
+"options": ["E", "D", "F", "P"],
+"correctAnswer": 0
+},
+{
+"question": "What will come next in the following series: S P N ______?",
+"options": ["M", "O", "V", "R"],
+"correctAnswer": 0
+},
+{
+"question": "What will come next in the following series: X W V U T ______?",
+"options": ["R", "Q", "V", "S"],
+"correctAnswer": 3
+},
+{
+"question": "What will come next in the following series: B E H K ______?",
+"options": ["P", "O", "N", "M"],
+"correctAnswer": 2
+},
+{
+"question": "What will come next in the following series: A X B W C V D ______?",
+"options": ["T", "R", "U", "S"],
+"correctAnswer": 2
+},
+{
+"question": "What will come next in the following series: Z X U Q ______?",
+"options": ["L", "P", "N", "M"],
+"correctAnswer": 0
+},
+{
+"question": "What will come next in the following series: A K B C L D E ______?",
+"options": ["N", "O", "M", "P"],
+"correctAnswer": 2
+},
+{
+"question": "What will come next in the following series: AB EF IJ ______?",
+"options": ["KL", "LM", "NK", "MN"],
+"correctAnswer": 3
+},
+{
+"question": "What will come next in the following series: J F H D ______?",
+"options": ["E", "F", "A", "C"],
+"correctAnswer": 1
+},
+{
+"question": "What will come next in the following series: B D J N ______?",
+"options": ["S", "R", "Q", "T"],
+"correctAnswer": 1
+},
+{
+"question": "What will come next in the following series: B E C F D ______?",
+"options": ["G", "K", "J", "I"],
+"correctAnswer": 0
+},
+{
+"question": "What will come next in the following series: Z X V T ______?",
+"options": ["Q", "S", "R", "P"],
+"correctAnswer": 2
+},
+{
+"question": "What will come next in the following series: Z A Y B X C ______?",
+"options": ["W D", "V E", "V D", "V E"],
+"correctAnswer": 0
+},
+{
+"question": "What will come next in the following series: AZ CX EV ______?",
+"options": ["GT", "HW", "FU", "AB"],
+"correctAnswer": 0
+},
+{
+"question": "What will come next in the following series: R N J F ______?",
+"options": ["C", "B", "A", "D"],
+"correctAnswer": 1
+},
+{
+"question": "What will come next in the following series: A C F J ______?",
+"options": ["N", "M", "P", "O"],
+"correctAnswer": 3
+},
+{
+"question": "What will come next in the following series: P Q R S S T ______?",
+"options": ["U", "Q", "T", "V"],
+"correctAnswer": 0
+},
+{
+"question": "What will come next in the following series: Z Y X W V U T S ______?",
+"options": ["R", "Q", "P", "O"],
+"correctAnswer": 0
+},
+{
+"question": "What will come next in the following series: P P Q Q R R SS TT ______?",
+"options": ["UU", "RS", "QP", "QR"],
+"correctAnswer": 0
+},
+{
+"question": "What will come next in the following series: H M O Q ______?",
+"options": ["J", "K", "S", "L"],
+"correctAnswer": 2
+},
+{
+"question": "What will come next in the following series: Q Q R R S S T T ______?",
+"options": ["U U", "R S", "Q S", "T R"],
+"correctAnswer": 0
+},
+{
+"question": "What will come next in the following series: BC DE FG ______?",
+"options": ["HI", "ZY", "YZ", "GF"],
+"correctAnswer": 0
+},
+{
+"question": "What will come next in the following series: AB/A BC/B CD/C ______?",
+"options": ["EF/E", "U/I", "DF/E", "DE/D"],
+"correctAnswer": 3
+},
+{
+"question": "What will come next in the following series: A B CC DD E FF G H II ?",
+"options": ["DEF", "DFF", "DFE", "JJ"],
+"correctAnswer": 3
+},
+{
+"question": "What will come next in the following series: AC/B DF/E GI/H ______?",
+"options": ["JK/L", "KJ/L", "JL/K", "LJ/K"],
+"correctAnswer": 2
+},
+{
+"question": "What will come next in the following series: AB/V BC/X CD/W DE/V EF/U ?",
+"options": ["DC/W", "BV/Z", "CB/V", "BC/X"],
+"correctAnswer": 3
+},
+{
+"question": "What will come next in the following series: A C E G ______?",
+"options": ["K", "I", "M", "H"],
+"correctAnswer": 1
+},
+{
+"question": "What will come next in the following series: AB/m EF/o IJ/q MN/s ?",
+"options": ["GH/p", "IJ/q", "BC/i", "IJ/g"],
+"correctAnswer": 1
+},
+{
+"question": "What will come next in the following series: AE/a DF/c GG/e ______?",
+"options": ["JH/g", "JL/f", "JK/g", "JH/g"],
+"correctAnswer": 0
+},
+{
+"question": "What will come next in the following series: AF/R GL/S MR/T SX/U ?",
+"options": ["MR/T", "NR/T", "MQ/T", "MS/T"],
+"correctAnswer": 0
+},
+{
+"question": "What will come next in the following series: AB/A BC/B CD/C DE/D ?",
+"options": ["EF/E", "DE/E", "CD/E", "DE/D"],
+"correctAnswer": 3
+},
+{
+"question": "What will come next in the following series: J Z I Y H ______?",
+"options": ["X", "Z", "A", "U"],
+"correctAnswer": 0
+},
+{
+"question": "What will come next in the following series: A E I L P ______?",
+"options": ["N", "T", "V", "W"],
+"correctAnswer": 1
+},
+{
+"question": "What will come next in the following series: A C E P D F ______?",
+"options": ["H", "W", "J", "E"],
+"correctAnswer": 0
+},
+{
+"question": "What will come next in the following series: A Z B Y C ______?",
+"options": ["X", "W", "Z", "Y"],
+"correctAnswer": 0
+},
+{
+"question": "What will come next in the following series: A Y B Z C W D ______?",
+"options": ["W", "V", "X", "U"],
+"correctAnswer": 2
+},
+{
+"question": "What will come next in the following series: X V Y W T U R ______?",
+"options": ["S", "W", "R", "U"],
+"correctAnswer": 0
+},
+{
+"question": "What will come next in the following series: Z Y X A B C W V U D E F T S R ______?",
+"options": ["M", "R", "P", "G"],
+"correctAnswer": 3
+},
+{
+"question": "What will come next in the following series: P Q U R Q Q U R N Q U R ______?",
+"options": ["M", "Z", "V", "R"],
+"correctAnswer": 0
+},
+{
+"question": "What will come next in the following series: A J E B I Q O Y U P A S ______?",
+"options": ["Y", "W", "E", "K"],
+"correctAnswer": 1
+},
+{
+"question": "What will come next in the following series: B C D Y X W F G H U T S ______?",
+"options": ["D", "J", "I", "C"],
+"correctAnswer": 2
+},
+{
+"question": "What will come next in the following series: ZA ZC ZF ZJ Z ______?",
+"options": ["ZO", "Z", "I", "M"],
+"correctAnswer": 0
+},
+{
+"question": "What will come next in the following series: A C F J O ______?",
+"options": ["U", "B", "V", "W"],
+"correctAnswer": 0
+},
+{
+"question": "What will come next in the following series: A B D E G H ______?",
+"options": ["J", "W", "E", "U"],
+"correctAnswer": 0
+},
+{
+"question": "What will come next in the following series: W U S Q O ______?",
+"options": ["O", "W", "M", "N"],
+"correctAnswer": 2
+},
+{
+"question": "What will come next in the following series: B E F G J K ______?",
+"options": ["L", "N", "M", "O"],
+"correctAnswer": 0
+},
+{
+"question": "What will come next in the following series: AB DC EF HG ______?",
+"options": ["IJ", "V", "W", "I"],
+"correctAnswer": 0
+},
+{
+"question": "What will come next in the following series: D F I M R ______?",
+"options": ["X", "W", "V", "Y"],
+"correctAnswer": 0
+},
+{
+"question": "What will come next in the following series: B E I ______?",
+"options": ["W", "N", "M", "Z"],
+"correctAnswer": 1
+},
+{
+"question": "What will come next in the following series: A B D G ______?",
+"options": ["M", "L", "K", "N"],
+"correctAnswer": 2
+},
+{
+"question": "Meat is to Vegetarians as ______ is to Teetotaler?",
+"options": ["Fruit", "Liquor", "Vegetable", "Mutton"],
+"correctAnswer": 1
+},
+{
+"question": "Wag is to Dullard as Idiot is to ______?",
+"options": ["Foolish", "Heartly", "Healthy", "Clever"],
+"correctAnswer": 3
+},
+{
+"question": "Finger is to Elbow as Toe is to ______?",
+"options": ["Knee", "Ankle", "Foot", "Arm"],
+"correctAnswer": 1
+},
+{
+"question": "Essence is to flower as ______ is to oven?",
+"options": ["Steam", "Heat", "Vapour", "Ice"],
+"correctAnswer": 1
+},
+{
+"question": "Free is to Imprison as Forgive is to ______?",
+"options": ["Punish", "Condemn", "Accuse", "Accept"],
+"correctAnswer": 0
+},
+{
+"question": "Fly is to Aeroplane as Sail is to ______?",
+"options": ["Cabin", "Sea", "Ocean", "Ship"],
+"correctAnswer": 3
+},
+{
+"question": "Aircraft is to Air as Hovercraft is to ______?",
+"options": ["Steam", "Sea", "Jungle", "Space"],
+"correctAnswer": 1
+},
+{
+"question": "House is to Human as Nest is to ______?",
+"options": ["Elders", "Birds", "Animals", "Kids"],
+"correctAnswer": 1
+},
+{
+"question": "Water is to Flow as Air is to ______?",
+"options": ["Blow", "Rage", "Drive", "Carry"],
+"correctAnswer": 0
+},
+{
+"question": "Train is to Truck as Car is to ______?",
+"options": ["Wheels", "Jungle", "Road", "Oil"],
+"correctAnswer": 2
+},
+{
+"question": "Kitten is to Cat as Cub is to ______?",
+"options": ["Lion", "Goat", "Cow", "Dog"],
+"correctAnswer": 0
+},
+{
+"question": "Pension is to Retirement as Pay is to ______?",
+"options": ["Employment", "Deployment", "Hardwork", "Old age"],
+"correctAnswer": 0
+}
 ]
-
