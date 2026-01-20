@@ -1,0 +1,255 @@
+[
+  {
+    "question": "I suggest that you ___ the directions carefully.",
+    "options": ["read", "reads", "reading", "to read", "will read"],
+    "correctAnswer": 0
+  },
+  {
+    "question": "She ___ him for twenty years.",
+    "options": ["knows", "is knowing", "has known", "knew", "know"],
+    "correctAnswer": 2
+  },
+  {
+    "question": "When we arrived, the train ___ already.",
+    "options": ["left", "has left", "was leaving", "had left", "did leave"],
+    "correctAnswer": 3
+  },
+  {
+    "question": "It is I who ___ to blame.",
+    "options": ["is", "am", "are", "be", "was"],
+    "correctAnswer": 1
+  },
+  {
+    "question": "The cattle ___ grazing in the field.",
+    "options": ["is", "was", "has been", "are", "be"],
+    "correctAnswer": 3
+  },
+  {
+    "question": "He behaves as though he ___ the boss.",
+    "options": ["is", "was", "were", "has been", "will be"],
+    "correctAnswer": 2
+  },
+  {
+    "question": "___ he is rich, he is unhappy.",
+    "options": ["However", "Despite", "In spite of", "Although", "But"],
+    "correctAnswer": 3
+  },
+  {
+    "question": "Hardly had I slept ___ the phone rang.",
+    "options": ["than", "then", "after", "before", "when"],
+    "correctAnswer": 4
+  },
+  {
+    "question": "No sooner did I see him ___ he ran away.",
+    "options": ["when", "then", "than", "that", "after"],
+    "correctAnswer": 2
+  },
+  {
+    "question": "I made him ___ the work.",
+    "options": ["do", "to do", "doing", "done", "did"],
+    "correctAnswer": 0
+  },
+  {
+    "question": "The news ___ true.",
+    "options": ["are", "were", "have been", "seem", "is"],
+    "correctAnswer": 4
+  },
+  {
+    "question": "Politics ___ a dirty game.",
+    "options": ["is", "are", "were", "have been", "be"],
+    "correctAnswer": 0
+  },
+  {
+    "question": "He prevents me ___ going there.",
+    "options": ["to", "from", "of", "for", "with"],
+    "correctAnswer": 1
+  },
+  {
+    "question": "I am tired ___ walking.",
+    "options": ["with", "by", "from", "of", "in"],
+    "correctAnswer": 3
+  },
+  {
+    "question": "He is angry ___ me.",
+    "options": ["at", "on", "for", "with", "against"],
+    "correctAnswer": 3
+  },
+  {
+    "question": "This is the boy ___ I think scored the highest marks.",
+    "options": ["whom", "who", "which", "that", "whose"],
+    "correctAnswer": 1
+  },
+  {
+    "question": "One of the boys ___ absent.",
+    "options": ["are", "were", "have been", "is", "be"],
+    "correctAnswer": 3
+  },
+  {
+    "question": "More than one student ___ absent today.",
+    "options": ["is", "are", "were", "have been", "be"],
+    "correctAnswer": 0
+  },
+  {
+    "question": "She is the ___ of the two.",
+    "options": ["prettiest", "pretty", "more pretty", "most pretty", "prettier"],
+    "correctAnswer": 4
+  },
+  {
+    "question": "Choose the correct sentence.",
+    "options": ["I, you and he are friends.", "You, he and I are friends.", "He, I and you are friends.", "I, he and you are friends.", "You, I and he are friends."],
+    "correctAnswer": 1
+  },
+  {
+    "question": "If I ___ a bird, I would fly.",
+    "options": ["was", "am", "were", "have been", "had been"],
+    "correctAnswer": 2
+  },
+  {
+    "question": "He has no taste ___ music.",
+    "options": ["in", "of", "at", "for", "with"],
+    "correctAnswer": 3
+  },
+  {
+    "question": "I availed myself ___ the opportunity.",
+    "options": ["with", "of", "at", "from", "by"],
+    "correctAnswer": 1
+  },
+  {
+    "question": "The climate of this city is better than ___ of that city.",
+    "options": ["that", "those", "this", "these", "it"],
+    "correctAnswer": 0
+  },
+  {
+    "question": "The gentry ___ invited to the party.",
+    "options": ["is", "was", "has been", "are", "be"],
+    "correctAnswer": 3
+  },
+  {
+    "question": "He died ___ cholera.",
+    "options": ["from", "by", "of", "with", "through"],
+    "correctAnswer": 2
+  },
+  {
+    "question": "She is good ___ English.",
+    "options": ["in", "of", "on", "with", "at"],
+    "correctAnswer": 4
+  },
+  {
+    "question": "Open your book ___ page ten.",
+    "options": ["on", "at", "to", "in", "by"],
+    "correctAnswer": 1
+  },
+  {
+    "question": "Divide this apple ___ the four boys.",
+    "options": ["between", "among", "amid", "with", "to"],
+    "correctAnswer": 1
+  },
+  {
+    "question": "He is senior ___ me.",
+    "options": ["than", "from", "over", "against", "to"],
+    "correctAnswer": 4
+  },
+  {
+    "question": "She resembles ___ her mother.",
+    "options": ["to", "with", "no preposition", "of", "by"],
+    "correctAnswer": 2
+  },
+  {
+    "question": "We discussed ___ the matter.",
+    "options": ["about", "on", "over", "no preposition", "of"],
+    "correctAnswer": 3
+  },
+  {
+    "question": "I ordered ___ a cup of tea.",
+    "options": ["for", "no preposition", "of", "to", "in"],
+    "correctAnswer": 1
+  },
+  {
+    "question": "He entered ___ the room.",
+    "options": ["into", "in", "to", "at", "no preposition"],
+    "correctAnswer": 4
+  },
+  {
+    "question": "She married ___ a rich man.",
+    "options": ["with", "to", "no preposition", "of", "by"],
+    "correctAnswer": 2
+  },
+  {
+    "question": "Please sign ___ this paper.",
+    "options": ["on", "at", "over", "in", "no preposition"],
+    "correctAnswer": 0
+  },
+  {
+    "question": "I cannot cope ___ this work.",
+    "options": ["up with", "with", "up", "on", "in"],
+    "correctAnswer": 1
+  },
+  {
+    "question": "The train is bound ___ London.",
+    "options": ["to", "towards", "for", "at", "in"],
+    "correctAnswer": 2
+  },
+  {
+    "question": "He deal ___ rice.",
+    "options": ["with", "in", "at", "of", "on"],
+    "correctAnswer": 1
+  },
+  {
+    "question": "He deals ___ everyone politely.",
+    "options": ["with", "in", "at", "to", "by"],
+    "correctAnswer": 0
+  },
+  {
+    "question": "He is blind ___ one eye.",
+    "options": ["of", "in", "to", "with", "by"],
+    "correctAnswer": 0
+  },
+  {
+    "question": "He is blind ___ his son's faults.",
+    "options": ["of", "in", "at", "with", "to"],
+    "correctAnswer": 4
+  },
+  {
+    "question": "I prefer walking ___ cycling.",
+    "options": ["than", "from", "over", "against", "to"],
+    "correctAnswer": 4
+  },
+  {
+    "question": "He is addicted ___ gambling.",
+    "options": ["on", "at", "with", "in", "to"],
+    "correctAnswer": 4
+  },
+  {
+    "question": "You should abide ___ the rules.",
+    "options": ["by", "with", "to", "on", "at"],
+    "correctAnswer": 0
+  },
+  {
+    "question": "He is accused ___ theft.",
+    "options": ["with", "for", "of", "in", "to"],
+    "correctAnswer": 2
+  },
+  {
+    "question": "She was married ___ an early age.",
+    "options": ["on", "in", "of", "with", "at"],
+    "correctAnswer": 4
+  },
+  {
+    "question": "He has been ill ___ last Friday.",
+    "options": ["for", "from", "since", "on", "by"],
+    "correctAnswer": 2
+  },
+  {
+    "question": "They have lived here ___ ten years.",
+    "options": ["since", "from", "during", "while", "for"],
+    "correctAnswer": 4
+  },
+  {
+    "question": "The meeting was put ___ until next week.",
+    "options": ["off", "out", "away", "down", "up"],
+    "correctAnswer": 0
+  }
+]
+
+
+

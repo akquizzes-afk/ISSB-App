@@ -1,0 +1,252 @@
+[
+  {
+    "question": "Had I known about the scheduling conflict, I ___ the meeting earlier.",
+    "options": ["would reschedule", "will reschedule", "would have rescheduled", "had rescheduled", "rescheduled"],
+    "correctAnswer": 2
+  },
+  {
+    "question": "Choose the most grammatically correct sentence regarding the subjunctive mood.",
+    "options": ["If I was you, I would go.", "I wish I was taller.", "It is essential that he arrives on time.", "If he were to win, he would celebrate.", "I suggest that she goes now."],
+    "correctAnswer": 3
+  },
+  {
+    "question": "Hardly ___ the station when the train pulled out.",
+    "options": ["had I reached", "I had reached", "I reached", "did I reached", "have I reached"],
+    "correctAnswer": 0
+  },
+  {
+    "question": "The jury ___ unable to reach a unanimous decision.",
+    "options": ["is", "are", "was", "were", "has"],
+    "correctAnswer": 4
+  },
+  {
+    "question": "Which of these is a 'dangling modifier'?",
+    "options": ["Running to the bus, the rain started.", "He saw a dog walking home.", "I ate a cold bowl of cereal.", "Having finished the work, he left.", "The car was driven by him."],
+    "correctAnswer": 1
+  },
+  {
+    "question": "Not only ___ the house, but he also mowed the lawn.",
+    "options": ["he cleaned", "did he clean", "he cleans", "has he cleaned", "cleaned he"],
+    "correctAnswer": 1
+  },
+  {
+    "question": "Which word is an antonym for 'Ephemeral'?",
+    "options": ["Short-lived", "Fleeting", "Transient", "Eternal", "Brief"],
+    "correctAnswer": 3
+  },
+  {
+    "question": "Identify the gerund in the sentence: 'Swimming is my favorite hobby.'",
+    "options": ["Favorite", "Hobby", "My", "Is", "Swimming"],
+    "correctAnswer": 4
+  },
+  {
+    "question": "She is the woman ___ I told you about.",
+    "options": ["which", "who", "whom", "whose", "what"],
+    "correctAnswer": 2
+  },
+  {
+    "question": "By this time next year, I ___ my degree.",
+    "options": ["will finish", "will have finished", "finish", "am finishing", "have finished"],
+    "correctAnswer": 1
+  },
+  {
+    "question": "Identify the correct article: He is ___ honest man.",
+    "options": ["a", "an", "the", "some", "no article"],
+    "correctAnswer": 1
+  },
+  {
+    "question": "If she ___ more time, she would travel the world.",
+    "options": ["has", "have", "had", "will have", "having"],
+    "correctAnswer": 2
+  },
+  {
+    "question": "Neither the teacher nor the students ___ present.",
+    "options": ["was", "is", "were", "has been", "am"],
+    "correctAnswer": 2
+  },
+  {
+    "question": "The book, ___ was on the table, is mine.",
+    "options": ["who", "whom", "whose", "which", "that"],
+    "correctAnswer": 3
+  },
+  {
+    "question": "I look forward to ___ you soon.",
+    "options": ["see", "seeing", "saw", "be seeing", "seen"],
+    "correctAnswer": 1
+  },
+  {
+    "question": "Which sentence uses the correct parallel structure?",
+    "options": ["I like hiking, swimming, and to run.", "I like hiking, to swim, and running.", "I like to hike, swimming, and run.", "I like hiking, swimming, and running.", "I like hike, swim, and run."],
+    "correctAnswer": 3
+  },
+  {
+    "question": "Choose the correctly spelled word.",
+    "options": ["Accomodate", "Acommodate", "Accommodate", "Accomodat", "Acomodate"],
+    "correctAnswer": 2
+  },
+  {
+    "question": "He works ___ than his brother.",
+    "options": ["hard", "harder", "hardest", "more hard", "most hard"],
+    "correctAnswer": 1
+  },
+  {
+    "question": "Scarcely had I entered the room ___ the lights went out.",
+    "options": ["then", "than", "when", "that", "while"],
+    "correctAnswer": 2
+  },
+  {
+    "question": "Lest he ___ fail, he worked very hard.",
+    "options": ["should", "would", "might", "can", "will"],
+    "correctAnswer": 0
+  },
+  {
+    "question": "The report was ___ exhaustive that it covered every detail.",
+    "options": ["too", "such", "very", "so", "much"],
+    "correctAnswer": 3
+  },
+  {
+    "question": "We had better ___ now if we want to catch the train.",
+    "options": ["leaving", "left", "to leave", "leave", "be leaving"],
+    "correctAnswer": 3
+  },
+  {
+    "question": "He behaves as if he ___ a king.",
+    "options": ["was", "is", "were", "be", "has been"],
+    "correctAnswer": 2
+  },
+  {
+    "question": "You ___ better not be late tomorrow.",
+    "options": ["should", "must", "had", "would", "ought"],
+    "correctAnswer": 2
+  },
+  {
+    "question": "Which of these is a prepositional phrase?",
+    "options": ["Under the bridge", "He ran fast", "The red car", "She cried", "Because he was tired"],
+    "correctAnswer": 0
+  },
+  {
+    "question": "I would rather stay home than ___ out tonight.",
+    "options": ["go", "going", "to go", "went", "gone"],
+    "correctAnswer": 0
+  },
+  {
+    "question": "The news ___ very distressing.",
+    "options": ["are", "is", "were", "be", "being"],
+    "correctAnswer": 1
+  },
+  {
+    "question": "Identify the intransitive verb in the following options.",
+    "options": ["Eat", "Buy", "Sleep", "Make", "Give"],
+    "correctAnswer": 2
+  },
+  {
+    "question": "Each of the candidates ___ to fill out a form.",
+    "options": ["have", "has", "are", "were", "having"],
+    "correctAnswer": 1
+  },
+  {
+    "question": "The phenomena ___ observed during the eclipse.",
+    "options": ["was", "is", "were", "has been", "be"],
+    "correctAnswer": 2
+  },
+  {
+    "question": "The police ___ searching for the suspect.",
+    "options": ["is", "was", "are", "has", "be"],
+    "correctAnswer": 2
+  },
+  {
+    "question": "He has been ill ___ Monday.",
+    "options": ["for", "since", "from", "on", "by"],
+    "correctAnswer": 1
+  },
+  {
+    "question": "Wait here ___ I return.",
+    "options": ["unless", "until", "though", "since", "if"],
+    "correctAnswer": 1
+  },
+  {
+    "question": "No sooner had he arrived ___ he started complaining.",
+    "options": ["when", "then", "that", "than", "while"],
+    "correctAnswer": 3
+  },
+  {
+    "question": "The climate of Italy is like ___ of Greece.",
+    "options": ["that", "these", "this", "those", "such"],
+    "correctAnswer": 0
+  },
+  {
+    "question": "Choose the word with the correct prefix for 'Fortune'.",
+    "options": ["Infortune", "Unfortune", "Misfortune", "Disfortune", "Nonfortune"],
+    "correctAnswer": 2
+  },
+  {
+    "question": "I saw him ___ the street.",
+    "options": ["cross", "crossed", "acrossing", "be crossing", "to cross"],
+    "correctAnswer": 0
+  },
+  {
+    "question": "She is addicted ___ social media.",
+    "options": ["to", "on", "with", "at", "for"],
+    "correctAnswer": 0
+  },
+  {
+    "question": "The synonym of 'Benevolent' is:",
+    "options": ["Cruel", "Kind", "Greedy", "Strong", "Fast"],
+    "correctAnswer": 1
+  },
+  {
+    "question": "He is superior ___ me in rank.",
+    "options": ["than", "to", "from", "over", "by"],
+    "correctAnswer": 1
+  },
+  {
+    "question": "The word 'Alumnus' refers to:",
+    "options": ["Male graduate", "Female graduate", "Group of graduates", "School building", "Current student"],
+    "correctAnswer": 0
+  },
+  {
+    "question": "Which tense is used for a permanent truth?",
+    "options": ["Present continuous", "Past simple", "Present perfect", "Present simple", "Future simple"],
+    "correctAnswer": 3
+  },
+  {
+    "question": "Identify the correctly punctuated sentence.",
+    "options": ["Wait, dont go.", "Wait! Don't go.", "Wait don't go!", "Wait? don't go.", "Wait. dont go!"],
+    "correctAnswer": 1
+  },
+  {
+    "question": "What is the plural of 'Criterion'?",
+    "options": ["Criterions", "Criterias", "Criteria", "Criteriones", "Criteri"],
+    "correctAnswer": 2
+  },
+  {
+    "question": "I prefer tea ___ coffee.",
+    "options": ["than", "to", "over", "instead", "against"],
+    "correctAnswer": 1
+  },
+  {
+    "question": "Which of these is a collective noun?",
+    "options": ["Boy", "Water", "Fleet", "Happiness", "Stone"],
+    "correctAnswer": 2
+  },
+  {
+    "question": "The child died ___ cholera.",
+    "options": ["by", "of", "with", "from", "for"],
+    "correctAnswer": 1
+  },
+  {
+    "question": "He ___ the office before I arrived.",
+    "options": ["leaves", "has left", "had left", "was leaving", "will leave"],
+    "correctAnswer": 2
+  },
+  {
+    "question": "One should keep ___ promise.",
+    "options": ["his", "their", "her", "one's", "our"],
+    "correctAnswer": 3
+  },
+  {
+    "question": "He is afraid ___ dogs.",
+    "options": ["with", "of", "at", "from", "by"],
+    "correctAnswer": 1
+  }
+]

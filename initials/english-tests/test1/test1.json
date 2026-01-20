@@ -1,0 +1,253 @@
+[
+  {
+    "question": "I have ___ money to buy a car.",
+    "options": ["few", "little", "no", "any", "not"],
+    "correctAnswer": 2
+  },
+  {
+    "question": "The apples are ___.",
+    "options": ["sweetly", "sweet", "sweeten", "sweeting", "sweetestly"],
+    "correctAnswer": 1
+  },
+  {
+    "question": "He has been living here ___ ten years.",
+    "options": ["since", "for", "from", "during", "within"],
+    "correctAnswer": 1
+  },
+  {
+    "question": "She goes to school ___ bus.",
+    "options": ["on", "by", "in", "with", "at"],
+    "correctAnswer": 1
+  },
+  {
+    "question": "Which is the correct possessive form?",
+    "options": ["The childrens' books", "The children's books", "The childrens books", "The children books'", "The children book"],
+    "correctAnswer": 1
+  },
+  {
+    "question": "He is ___ tallest boy in the class.",
+    "options": ["a", "an", "the", "one", "some"],
+    "correctAnswer": 2
+  },
+  {
+    "question": "They ___ watching TV now.",
+    "options": ["is", "am", "are", "was", "were"],
+    "correctAnswer": 2
+  },
+  {
+    "question": "If it rains, we ___ stay inside.",
+    "options": ["will", "would", "shall have", "had", "be"],
+    "correctAnswer": 0
+  },
+  {
+    "question": "She ___ her homework yesterday.",
+    "options": ["do", "does", "did", "done", "doing"],
+    "correctAnswer": 2
+  },
+  {
+    "question": "We ___ lunch at 1 PM every day.",
+    "options": ["has", "have", "having", "had", "are having"],
+    "correctAnswer": 1
+  },
+  {
+    "question": "Choose the abstract noun.",
+    "options": ["Table", "Honesty", "Teacher", "London", "Apple"],
+    "correctAnswer": 1
+  },
+  {
+    "question": "You should refrain ___ smoking.",
+    "options": ["to", "from", "with", "by", "at"],
+    "correctAnswer": 1
+  },
+  {
+    "question": "I haven't seen him ___ a long time.",
+    "options": ["since", "from", "for", "until", "by"],
+    "correctAnswer": 2
+  },
+  {
+    "question": "The sun ___ in the East.",
+    "options": ["rise", "rises", "rising", "rose", "has risen"],
+    "correctAnswer": 1
+  },
+  {
+    "question": "Is there ___ milk in the fridge?",
+    "options": ["any", "some", "many", "few", "no"],
+    "correctAnswer": 0
+  },
+  {
+    "question": "Which of these is a reflexive pronoun?",
+    "options": ["He", "Him", "His", "Himself", "Who"],
+    "correctAnswer": 3
+  },
+  {
+    "question": "She ___ a song when I entered.",
+    "options": ["sing", "sings", "was singing", "sung", "is singing"],
+    "correctAnswer": 2
+  },
+  {
+    "question": "They have ___ to Lahore.",
+    "options": ["go", "went", "gone", "going", "goes"],
+    "correctAnswer": 2
+  },
+  {
+    "question": "The pen is ___ the table.",
+    "options": ["at", "on", "in", "to", "with"],
+    "correctAnswer": 1
+  },
+  {
+    "question": "He is not only brave ___ also kind.",
+    "options": ["and", "but", "so", "or", "too"],
+    "correctAnswer": 1
+  },
+  {
+    "question": "What is the past participle of 'Write'?",
+    "options": ["Write", "Wrote", "Written", "Writing", "Writes"],
+    "correctAnswer": 2
+  },
+  {
+    "question": "Bread and butter ___ my breakfast.",
+    "options": ["is", "are", "were", "be", "being"],
+    "correctAnswer": 0
+  },
+  {
+    "question": "Please ___ the door.",
+    "options": ["shut", "shuts", "shutting", "shuttled", "be shut"],
+    "correctAnswer": 0
+  },
+  {
+    "question": "Which word is an adjective?",
+    "options": ["Run", "Quickly", "Beautiful", "Happiness", "Slowly"],
+    "correctAnswer": 2
+  },
+  {
+    "question": "I ___ to the gym every morning.",
+    "options": ["go", "goes", "going", "gone", "went"],
+    "correctAnswer": 0
+  },
+  {
+    "question": "The plural of 'Sheep' is:",
+    "options": ["Sheeps", "Sheep", "Sheepes", "Ship", "Ships"],
+    "correctAnswer": 1
+  },
+  {
+    "question": "He ___ hard to pass the exam.",
+    "options": ["try", "trying", "tries", "trys", "has try"],
+    "correctAnswer": 2
+  },
+  {
+    "question": "You ___ wash your hands before eating.",
+    "options": ["might", "must", "could", "would", "shall"],
+    "correctAnswer": 1
+  },
+  {
+    "question": "They ___ playing football.",
+    "options": ["is", "am", "are", "was", "be"],
+    "correctAnswer": 2
+  },
+  {
+    "question": "The boy ___ stole the bike was caught.",
+    "options": ["which", "whom", "who", "whose", "what"],
+    "correctAnswer": 2
+  },
+  {
+    "question": "This is ___ book I was looking for.",
+    "options": ["a", "an", "the", "some", "any"],
+    "correctAnswer": 2
+  },
+  {
+    "question": "She is older ___ me.",
+    "options": ["then", "than", "to", "over", "from"],
+    "correctAnswer": 1
+  },
+  {
+    "question": "I ___ my keys yesterday.",
+    "options": ["lose", "lost", "losing", "has lost", "was losing"],
+    "correctAnswer": 1
+  },
+  {
+    "question": "We ___ be late if we don't hurry.",
+    "options": ["will", "would", "are", "be", "is"],
+    "correctAnswer": 0
+  },
+  {
+    "question": "Which of these is a conjunction?",
+    "options": ["Because", "Fast", "Green", "Very", "Hey"],
+    "correctAnswer": 0
+  },
+  {
+    "question": "He jumped ___ the river.",
+    "options": ["in", "into", "on", "at", "to"],
+    "correctAnswer": 1
+  },
+  {
+    "question": "She speaks English ___.",
+    "options": ["good", "well", "best", "betterly", "goodly"],
+    "correctAnswer": 1
+  },
+  {
+    "question": "What is the feminine of 'Horse'?",
+    "options": ["Cow", "Ewe", "Mare", "Doe", "Hen"],
+    "correctAnswer": 2
+  },
+  {
+    "question": "Do you like ___ coffee?",
+    "options": ["a", "the", "an", "no article", "some"],
+    "correctAnswer": 3
+  },
+  {
+    "question": "The cat is hiding ___ the bed.",
+    "options": ["under", "below", "down", "at", "to"],
+    "correctAnswer": 0
+  },
+  {
+    "question": "He ___ a new car last month.",
+    "options": ["buy", "buys", "bought", "buying", "has bought"],
+    "correctAnswer": 2
+  },
+  {
+    "question": "Can you ___ me a favor?",
+    "options": ["make", "do", "give", "take", "bring"],
+    "correctAnswer": 1
+  },
+  {
+    "question": "I have ___ friends in this city.",
+    "options": ["a little", "a few", "much", "any", "no"],
+    "correctAnswer": 1
+  },
+  {
+    "question": "This is the ___ movie I have ever seen.",
+    "options": ["bad", "worse", "worst", "baddest", "more bad"],
+    "correctAnswer": 2
+  },
+  {
+    "question": "I ___ finished the work yet.",
+    "options": ["haven't", "hasn't", "don't", "didn't", "not"],
+    "correctAnswer": 0
+  },
+  {
+    "question": "Listen! Someone ___.",
+    "options": ["cries", "is crying", "cried", "has cried", "crying"],
+    "correctAnswer": 1
+  },
+  {
+    "question": "Whose bag is this? It is ___.",
+    "options": ["my", "mine", "me", "I", "myself"],
+    "correctAnswer": 1
+  },
+  {
+    "question": "He is good ___ Mathematics.",
+    "options": ["in", "at", "with", "on", "for"],
+    "correctAnswer": 1
+  },
+  {
+    "question": "A group of lions is called a ___.",
+    "options": ["herd", "pack", "pride", "flock", "swarm"],
+    "correctAnswer": 2
+  },
+  {
+    "question": "If you heat ice, it ___.",
+    "options": ["melts", "melted", "will melt", "is melting", "has melted"],
+    "correctAnswer": 0
+  }
+]
+

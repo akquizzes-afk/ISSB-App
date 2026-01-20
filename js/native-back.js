@@ -42,11 +42,17 @@ function attachBackButtonHandler() {
     // Initial tests hub
     '/initials/initial-tests.html': '/index.html',
     
-    // --- FIXES START HERE ---
-    // Academic tests hub (It lives INSIDE academic-tests folder)[span_0](end_span)
+
+    // Academic tests hub (It lives INSIDE academic-tests folder)
     '/initials/academic-tests/academic-tests.html': '/initials/initial-tests.html',
-    // Verbal tests hub (It lives INSIDE verbal-tests folder)[span_1](end_span)
+    // Verbal tests hub (It lives INSIDE verbal-tests folder)
     '/initials/verbal-tests/verbal-tests.html': '/initials/initial-tests.html',
+    
+        // English tests hub (It lives INSIDE verbal-tests folder)
+    '/initials/english-tests/english-tests.html': '/initials/initial-tests.html',
+    
+            // Physics tests hub (It lives INSIDE verbal-tests folder)
+    '/initials/physics-tests/physics-tests.html': '/initials/initial-tests.html',
     
     // Individual academic tests (Must go back to the hub inside the folder)
     '/initials/academic-tests/test1/test1.html': '/initials/academic-tests/academic-tests.html',
@@ -81,6 +87,21 @@ function attachBackButtonHandler() {
     '/initials/verbal-tests/test8/test8.html': '/initials/verbal-tests/verbal-tests.html',
     '/initials/verbal-tests/test9/test9.html': '/initials/verbal-tests/verbal-tests.html',
     '/initials/verbal-tests/test10/test10.html': '/initials/verbal-tests/verbal-tests.html',
+    
+    // Individual english tests (Must go back to the hub inside the folder)
+'/initials/english-tests/test1/test1.html': '/initials/english-tests/english-tests.html',
+'/initials/english-tests/test2/test2.html': '/initials/english-tests/english-tests.html',
+'/initials/english-tests/test3/test3.html': '/initials/english-tests/english-tests.html',
+'/initials/english-tests/test4/test4.html': '/initials/english-tests/english-tests.html',
+'/initials/english-tests/test5/test5.html': '/initials/english-tests/english-tests.html',
+'/initials/english-tests/test6/test6.html': '/initials/english-tests/english-tests.html',
+
+// Individual physics tests (Must go back to the hub inside the folder)
+'/initials/physics-tests/test1/test1.html': '/initials/physics-tests/physics-tests.html',
+'/initials/physics-tests/test2/test2.html': '/initials/physics-tests/physics-tests.html',
+'/initials/physics-tests/test3/test3.html': '/initials/physics-tests/physics-tests.html',
+'/initials/physics-tests/test4/test4.html': '/initials/physics-tests/physics-tests.html',
+'/initials/physics-tests/test5/test5.html': '/initials/physics-tests/physics-tests.html',
     // Coming Soon page
     '/coming-soon.html': '/initials/initial-tests.html'
 };

@@ -1,0 +1,253 @@
+[
+  {
+    "question": "Which of these is a noun?",
+    "options": ["Run", "Blue", "Happiness", "Quickly", "Eat"],
+    "correctAnswer": 2
+  },
+  {
+    "question": "I am ___ to the market.",
+    "options": ["go", "went", "going", "gone", "goes"],
+    "correctAnswer": 2
+  },
+  {
+    "question": "He ___ two sisters.",
+    "options": ["have", "has", "is", "are", "am"],
+    "correctAnswer": 1
+  },
+  {
+    "question": "They ___ happy today.",
+    "options": ["is", "am", "was", "are", "be"],
+    "correctAnswer": 3
+  },
+  {
+    "question": "This is ___ apple.",
+    "options": ["a", "an", "the", "some", "any"],
+    "correctAnswer": 1
+  },
+  {
+    "question": "Where ___ you from?",
+    "options": ["is", "am", "are", "be", "been"],
+    "correctAnswer": 2
+  },
+  {
+    "question": "The sky is ___.",
+    "options": ["green", "red", "blue", "yellow", "black"],
+    "correctAnswer": 2
+  },
+  {
+    "question": "He ___ a book every night.",
+    "options": ["reads", "read", "reading", "is read", "has read"],
+    "correctAnswer": 0
+  },
+  {
+    "question": "We ___ football on Sundays.",
+    "options": ["plays", "play", "playing", "played", "will play"],
+    "correctAnswer": 1
+  },
+  {
+    "question": "Identify the pronoun.",
+    "options": ["Car", "She", "Fast", "Jump", "Under"],
+    "correctAnswer": 1
+  },
+  {
+    "question": "What is the plural of 'Child'?",
+    "options": ["Childs", "Childrens", "Childes", "Children", "Chil"],
+    "correctAnswer": 3
+  },
+  {
+    "question": "It is ___ today.",
+    "options": ["sunny", "sun", "sunned", "sunning", "sunnierly"],
+    "correctAnswer": 0
+  },
+  {
+    "question": "I like ___ oranges.",
+    "options": ["the", "a", "an", "no article", "this"],
+    "correctAnswer": 3
+  },
+  {
+    "question": "She ___ a doctor.",
+    "options": ["is", "am", "are", "be", "was been"],
+    "correctAnswer": 0
+  },
+  {
+    "question": "The opposite of 'Hot' is:",
+    "options": ["Warm", "Cold", "Cool", "Freezing", "Wet"],
+    "correctAnswer": 1
+  },
+  {
+    "question": "___ are you doing?",
+    "options": ["Who", "What", "When", "Why", "Where"],
+    "correctAnswer": 1
+  },
+  {
+    "question": "I live ___ London.",
+    "options": ["at", "on", "in", "to", "by"],
+    "correctAnswer": 2
+  },
+  {
+    "question": "Please give me ___ pen.",
+    "options": ["a", "an", "some", "any", "no"],
+    "correctAnswer": 0
+  },
+  {
+    "question": "They ___ to the park.",
+    "options": ["walks", "walk", "walking", "has walk", "is walk"],
+    "correctAnswer": 1
+  },
+  {
+    "question": "I ___ a student.",
+    "options": ["is", "am", "are", "be", "were"],
+    "correctAnswer": 1
+  },
+  {
+    "question": "The book is ___ the bag.",
+    "options": ["on", "under", "in", "at", "with"],
+    "correctAnswer": 2
+  },
+  {
+    "question": "How ___ are you?",
+    "options": ["old", "age", "years", "long", "big"],
+    "correctAnswer": 0
+  },
+  {
+    "question": "She ___ to music.",
+    "options": ["listen", "listens", "listening", "is listen", "was listen"],
+    "correctAnswer": 1
+  },
+  {
+    "question": "They ___ my friends.",
+    "options": ["is", "am", "are", "was", "be"],
+    "correctAnswer": 2
+  },
+  {
+    "question": "I have ___ umbrella.",
+    "options": ["a", "an", "the", "some", "no"],
+    "correctAnswer": 1
+  },
+  {
+    "question": "What ___ your name?",
+    "options": ["is", "am", "are", "be", "were"],
+    "correctAnswer": 0
+  },
+  {
+    "question": "He ___ to the office by car.",
+    "options": ["go", "goes", "going", "gone", "is go"],
+    "correctAnswer": 1
+  },
+  {
+    "question": "The opposite of 'Big' is:",
+    "options": ["Large", "Small", "Huge", "Long", "Short"],
+    "correctAnswer": 1
+  },
+  {
+    "question": "___ is she crying?",
+    "options": ["Who", "What", "Why", "When", "Where"],
+    "correctAnswer": 2
+  },
+  {
+    "question": "I ___ my dinner at 8 PM.",
+    "options": ["eat", "eats", "eating", "ate", "is eating"],
+    "correctAnswer": 0
+  },
+  {
+    "question": "This is ___ car.",
+    "options": ["my", "mine", "me", "I", "myself"],
+    "correctAnswer": 0
+  },
+  {
+    "question": "The birds are ___.",
+    "options": ["fly", "flying", "flies", "flew", "flown"],
+    "correctAnswer": 1
+  },
+  {
+    "question": "He ___ a new shirt.",
+    "options": ["want", "wants", "wanting", "is want", "has want"],
+    "correctAnswer": 1
+  },
+  {
+    "question": "It is ___ clock.",
+    "options": ["a", "an", "some", "any", "the"],
+    "correctAnswer": 0
+  },
+  {
+    "question": "We ___ in a house.",
+    "options": ["lives", "live", "living", "is live", "has live"],
+    "correctAnswer": 1
+  },
+  {
+    "question": "Identify the verb.",
+    "options": ["Table", "Fast", "Jump", "Yellow", "Quiet"],
+    "correctAnswer": 2
+  },
+  {
+    "question": "She ___ coffee.",
+    "options": ["like", "likes", "liking", "is like", "has like"],
+    "correctAnswer": 1
+  },
+  {
+    "question": "The flower is ___.",
+    "options": ["beauty", "beautiful", "beautifully", "beautify", "beauties"],
+    "correctAnswer": 1
+  },
+  {
+    "question": "___ is your birthday?",
+    "options": ["What", "Where", "When", "Who", "How"],
+    "correctAnswer": 2
+  },
+  {
+    "question": "I ___ see a bird.",
+    "options": ["can", "am", "is", "are", "be"],
+    "correctAnswer": 0
+  },
+  {
+    "question": "The plural of 'Foot' is:",
+    "options": ["Foots", "Feets", "Footes", "Feet", "Foot"],
+    "correctAnswer": 3
+  },
+  {
+    "question": "He is ___ honest.",
+    "options": ["a", "an", "the", "no article", "some"],
+    "correctAnswer": 3
+  },
+  {
+    "question": "They ___ lunch together.",
+    "options": ["has", "have", "is having", "having", "was having"],
+    "correctAnswer": 1
+  },
+  {
+    "question": "The car stopped ___ the light.",
+    "options": ["at", "on", "in", "to", "with"],
+    "correctAnswer": 0
+  },
+  {
+    "question": "She is ___ than her sister.",
+    "options": ["tall", "taller", "tallest", "more tall", "most tall"],
+    "correctAnswer": 1
+  },
+  {
+    "question": "I ___ help you.",
+    "options": ["will", "is", "am", "are", "be"],
+    "correctAnswer": 0
+  },
+  {
+    "question": "What is the opposite of 'Fast'?",
+    "options": ["Quick", "Slow", "Rapid", "Swift", "Hard"],
+    "correctAnswer": 1
+  },
+  {
+    "question": "Choose the correct spelling.",
+    "options": ["Recieve", "Receive", "Recive", "Receve", "Reseive"],
+    "correctAnswer": 1
+  },
+  {
+    "question": "A ___ of sheep.",
+    "options": ["pack", "herd", "flock", "pride", "swarm"],
+    "correctAnswer": 2
+  },
+  {
+    "question": "I ___ to school every day.",
+    "options": ["walk", "walks", "walking", "walked", "is walk"],
+    "correctAnswer": 0
+  }
+]
+

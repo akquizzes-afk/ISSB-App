@@ -1,0 +1,255 @@
+[
+  {
+    "question": "We look forward to ___ you at the party.",
+    "options": ["see", "saw", "seen", "seeing", "have seen"],
+    "correctAnswer": 3
+  },
+  {
+    "question": "Would you mind ___ the window?",
+    "options": ["open", "to open", "opening", "opened", "will open"],
+    "correctAnswer": 2
+  },
+  {
+    "question": "I am used to ___ alone.",
+    "options": ["live", "lived", "living", "have lived", "lives"],
+    "correctAnswer": 2
+  },
+  {
+    "question": "It is no use ___ over spilt milk.",
+    "options": ["cry", "to cry", "crying", "cried", "have cried"],
+    "correctAnswer": 2
+  },
+  {
+    "question": "He prevented me ___ doing it.",
+    "options": ["to", "from", "by", "with", "of"],
+    "correctAnswer": 1
+  },
+  {
+    "question": "He insisted ___ going there.",
+    "options": ["to", "on", "for", "with", "in"],
+    "correctAnswer": 1
+  },
+  {
+    "question": "I am fond ___ music.",
+    "options": ["of", "in", "at", "with", "on"],
+    "correctAnswer": 0
+  },
+  {
+    "question": "He is capable ___ doing this.",
+    "options": ["to", "in", "at", "of", "for"],
+    "correctAnswer": 3
+  },
+  {
+    "question": "She is good ___ painting.",
+    "options": ["in", "at", "on", "with", "of"],
+    "correctAnswer": 1
+  },
+  {
+    "question": "He succeeded ___ passing the exam.",
+    "options": ["to", "at", "on", "in", "of"],
+    "correctAnswer": 3
+  },
+  {
+    "question": "I refrained ___ telling him the truth.",
+    "options": ["to", "from", "of", "with", "by"],
+    "correctAnswer": 1
+  },
+  {
+    "question": "He is accused ___ murder.",
+    "options": ["with", "for", "of", "in", "on"],
+    "correctAnswer": 2
+  },
+  {
+    "question": "She is afraid ___ spiders.",
+    "options": ["with", "at", "from", "by", "of"],
+    "correctAnswer": 4
+  },
+  {
+    "question": "I am interested ___ learning French.",
+    "options": ["on", "at", "with", "of", "in"],
+    "correctAnswer": 4
+  },
+  {
+    "question": "He is famous ___ his honesty.",
+    "options": ["for", "of", "in", "at", "with"],
+    "correctAnswer": 0
+  },
+  {
+    "question": "She is married ___ a doctor.",
+    "options": ["with", "to", "by", "of", "for"],
+    "correctAnswer": 1
+  },
+  {
+    "question": "I am angry ___ his behavior.",
+    "options": ["on", "with", "at", "for", "to"],
+    "correctAnswer": 2
+  },
+  {
+    "question": "He is responsible ___ the loss.",
+    "options": ["to", "of", "at", "with", "for"],
+    "correctAnswer": 4
+  },
+  {
+    "question": "The book consists ___ ten chapters.",
+    "options": ["of", "in", "with", "from", "at"],
+    "correctAnswer": 0
+  },
+  {
+    "question": "He died ___ hunger.",
+    "options": ["from", "of", "by", "with", "for"],
+    "correctAnswer": 1
+  },
+  {
+    "question": "She is suffering ___ fever.",
+    "options": ["of", "with", "from", "by", "in"],
+    "correctAnswer": 2
+  },
+  {
+    "question": "I congratulate you ___ your success.",
+    "options": ["for", "on", "at", "in", "of"],
+    "correctAnswer": 1
+  },
+  {
+    "question": "He deals ___ sugar.",
+    "options": ["with", "at", "in", "of", "for"],
+    "correctAnswer": 2
+  },
+  {
+    "question": "I agree ___ you.",
+    "options": ["to", "at", "on", "with", "for"],
+    "correctAnswer": 3
+  },
+  {
+    "question": "He did not agree ___ my proposal.",
+    "options": ["with", "at", "on", "of", "to"],
+    "correctAnswer": 4
+  },
+  {
+    "question": "She is jealous ___ my success.",
+    "options": ["of", "from", "with", "at", "on"],
+    "correctAnswer": 0
+  },
+  {
+    "question": "He is ashamed ___ his conduct.",
+    "options": ["from", "at", "with", "on", "of"],
+    "correctAnswer": 4
+  },
+  {
+    "question": "I am proud ___ my country.",
+    "options": ["on", "at", "with", "of", "for"],
+    "correctAnswer": 3
+  },
+  {
+    "question": "He is confident ___ success.",
+    "options": ["of", "for", "in", "at", "with"],
+    "correctAnswer": 0
+  },
+  {
+    "question": "She is absorbed ___ her work.",
+    "options": ["at", "on", "with", "of", "in"],
+    "correctAnswer": 4
+  },
+  {
+    "question": "He is charged ___ theft.",
+    "options": ["of", "with", "for", "in", "at"],
+    "correctAnswer": 1
+  },
+  {
+    "question": "I am obliged ___ you.",
+    "options": ["with", "for", "to", "at", "on"],
+    "correctAnswer": 2
+  },
+  {
+    "question": "He is popular ___ the students.",
+    "options": ["among", "between", "with", "for", "to"],
+    "correctAnswer": 2
+  },
+  {
+    "question": "She is proficient ___ English.",
+    "options": ["at", "of", "on", "in", "with"],
+    "correctAnswer": 3
+  },
+  {
+    "question": "We should rely ___ our own efforts.",
+    "options": ["at", "with", "in", "of", "on"],
+    "correctAnswer": 4
+  },
+  {
+    "question": "He is addicted ___ drugs.",
+    "options": ["to", "on", "at", "with", "of"],
+    "correctAnswer": 0
+  },
+  {
+    "question": "I was surprised ___ his failure.",
+    "options": ["on", "with", "by", "of", "at"],
+    "correctAnswer": 4
+  },
+  {
+    "question": "He is lacking ___ manners.",
+    "options": ["of", "in", "at", "with", "on"],
+    "correctAnswer": 1
+  },
+  {
+    "question": "She is ignorant ___ the facts.",
+    "options": ["to", "at", "of", "with", "from"],
+    "correctAnswer": 2
+  },
+  {
+    "question": "I have no doubt ___ his ability.",
+    "options": ["for", "at", "in", "about", "on"],
+    "correctAnswer": 3
+  },
+  {
+    "question": "He is wanting ___ common sense.",
+    "options": ["of", "at", "with", "on", "in"],
+    "correctAnswer": 4
+  },
+  {
+    "question": "I am sick ___ this weather.",
+    "options": ["of", "from", "with", "at", "by"],
+    "correctAnswer": 0
+  },
+  {
+    "question": "He is suitable ___ the post.",
+    "options": ["to", "for", "of", "at", "with"],
+    "correctAnswer": 1
+  },
+  {
+    "question": "She is different ___ her sister.",
+    "options": ["to", "with", "from", "than", "of"],
+    "correctAnswer": 2
+  },
+  {
+    "question": "I am grateful ___ you for your help.",
+    "options": ["for", "with", "at", "to", "on"],
+    "correctAnswer": 3
+  },
+  {
+    "question": "He is eligible ___ the post.",
+    "options": ["to", "of", "at", "with", "for"],
+    "correctAnswer": 4
+  },
+  {
+    "question": "She is guilty ___ the crime.",
+    "options": ["of", "for", "with", "at", "in"],
+    "correctAnswer": 0
+  },
+  {
+    "question": "I am suspicious ___ his motives.",
+    "options": ["for", "of", "at", "with", "on"],
+    "correctAnswer": 1
+  },
+  {
+    "question": "He is true ___ his word.",
+    "options": ["for", "on", "to", "at", "with"],
+    "correctAnswer": 2
+  },
+  {
+    "question": "She is worthy ___ praise.",
+    "options": ["for", "at", "to", "of", "with"],
+    "correctAnswer": 3
+  }
+]
+
+
+
