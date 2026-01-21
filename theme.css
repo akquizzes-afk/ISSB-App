@@ -1,0 +1,257 @@
+/* theme.css - Fixed Light Mode with Visible Backdrops */
+
+/* =========================================
+   1. LIGHT MODE VARIABLES
+   ========================================= */
+body.light-mode {
+    /* Backgrounds */
+    --primary: #f8fafc;        /* Main background */
+    --secondary: #e2e8f0;      /* Secondary background */
+    --card-bg: #ffffff;        /* White cards */
+    --header-bg: rgba(255, 255, 255, 0.95); /* Glassmorphism header */
+    
+    /* Text Colors */
+    --text: #1e293b;           /* Dark Slate for headings */
+    --text-light: #64748b;     /* Muted Grey for subtitles */
+    
+    /* Accents */
+    --accent: #059669;          
+    --accent-dark: #047857;
+    
+    /* Helpers */
+    --border-color: #e2e8f0;   
+    --input-bg: #f1f5f9;       
+    --item-bg: #f1f5f9;        /* NEW: Distinct background for list items */
+}
+
+/* =========================================
+   2. GLOBAL BODY OVERRIDES
+   ========================================= */
+body.light-mode {
+    background: linear-gradient(135deg, #f0fdf4 0%, #f8fafc 100%) !important;
+}
+
+/* =========================================
+   3. SIDEBAR & NAVIGATION (FIXED BACKDROPS)
+   ========================================= */
+body.light-mode .sidebar {
+    background: #ffffff;
+    border-right: 1px solid var(--border-color);
+    box-shadow: 4px 0 20px rgba(0, 0, 0, 0.05);
+}
+
+/* Sidebar Profile Area */
+body.light-mode .sidebar-profile {
+    background: linear-gradient(180deg, #f8fafc 0%, #ffffff 100%);
+    border-bottom: 1px solid var(--border-color);
+}
+body.light-mode .profile-title {
+    color: var(--text-light);
+}
+
+/* Sidebar Menu Section Headers */
+body.light-mode .menu-section h3 {
+    color: var(--accent);
+}
+
+/* --- THE FIX: MENU ITEMS WITH BACKDROP --- */
+body.light-mode .menu-item {
+    background: var(--item-bg); /* Light Grey Backdrop */
+    color: var(--text);
+    border: 1px solid transparent; 
+    box-shadow: 0 1px 2px rgba(0,0,0,0.03); /* Subtle shadow for depth */
+}
+
+/* Links inside menu items */
+body.light-mode .menu-item a,
+body.light-mode a.menu-item {
+    color: var(--text);
+}
+
+/* Icons inside menu items */
+body.light-mode .menu-item i {
+    color: var(--accent);
+}
+
+/* Hover State */
+body.light-mode .menu-item:hover {
+    background: #e2e8f0; /* Darker grey on hover */
+    border-color: var(--border-color);
+    transform: translateX(3px);
+}
+body.light-mode .menu-item:hover a {
+    color: var(--text);
+}
+
+/* Sidebar Footer (Fixed Backdrop) */
+body.light-mode .sidebar-footer {
+    background: #f8fafc; /* Light grey block */
+    border-top: 1px solid var(--border-color);
+}
+body.light-mode .sidebar-footer p {
+    color: var(--text-light);
+}
+
+/* Hamburger & Back Buttons */
+body.light-mode .hamburger-btn,
+body.light-mode .back-btn {
+    background: #ffffff;
+    border: 1px solid var(--border-color);
+    box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+}
+body.light-mode .hamburger-btn span {
+    background: var(--accent);
+}
+
+/* Sticky Header */
+body.light-mode .sticky-header {
+    border-bottom: 1px solid var(--border-color);
+    background: rgba(255, 255, 255, 0.95);
+}
+
+/* =========================================
+   4. CARDS, INPUTS & CONTENT
+   ========================================= */
+body.light-mode .card,
+body.light-mode .test-card {
+    border: 1px solid var(--border-color);
+    box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.05);
+}
+
+body.light-mode .card-header,
+body.light-mode .test-card-header {
+    background: linear-gradient(to right, #f8fafc, #ffffff);
+    border-bottom: 1px solid var(--border-color);
+}
+
+/* Popups */
+body.light-mode .popup,
+body.light-mode .welcome-popup,
+body.light-mode .prayer-popup {
+    background: #ffffff;
+    border: 1px solid var(--border-color);
+    box-shadow: 0 25px 50px rgba(0, 0, 0, 0.15);
+}
+
+/* Inputs */
+body.light-mode input,
+body.light-mode textarea,
+body.light-mode .name-input,
+body.light-mode .word-input,
+body.light-mode .situation-input {
+    background: var(--item-bg); /* Matches menu items */
+    color: var(--text);
+    border: 1px solid var(--border-color);
+}
+body.light-mode input::placeholder,
+body.light-mode textarea::placeholder {
+    color: #94a3b8;
+}
+
+/* Buttons */
+body.light-mode .btn-secondary,
+body.light-mode .nav-btn {
+    background: #ffffff;
+    color: var(--text);
+    border: 1px solid var(--border-color);
+    box-shadow: 0 1px 2px rgba(0,0,0,0.05);
+}
+body.light-mode .btn-secondary:hover,
+body.light-mode .nav-btn:hover {
+    background: #f1f5f9;
+    border-color: var(--accent);
+}
+
+/* Option Selection Items */
+body.light-mode .option-item,
+body.light-mode .situation-item {
+    background: #ffffff;
+    border: 1px solid var(--border-color);
+}
+body.light-mode .option-item:hover {
+    background: #f8fafc;
+}
+body.light-mode .option-item.selected {
+    background: rgba(16, 185, 129, 0.1);
+    border-color: var(--accent);
+}
+
+/* Results & Stats */
+body.light-mode .results-summary {
+    background: #ffffff;
+    border: 1px solid var(--border-color);
+}
+body.light-mode .result-card {
+    background: var(--item-bg);
+    border: 1px solid var(--border-color);
+}
+body.light-mode .progress-container,
+body.light-mode .meter-bar {
+    background: #e2e8f0;
+}
+
+/* Subtitles/Text */
+body.light-mode .page-subtitle, 
+body.light-mode .instruction-text,
+body.light-mode .completion-subtitle,
+body.light-mode .no-images-test,
+body.light-mode .no-situations-test,
+body.light-mode .no-images-message,
+body.light-mode .no-situations-message {
+    color: var(--text-light);
+    opacity: 1;
+}
+
+/* =========================================
+   5. TOGGLE BUTTON (TOP LEFT SIDEBAR)
+   ========================================= */
+.sidebar-profile {
+    position: relative; 
+}
+
+.theme-btn-animated {
+    position: absolute;
+    top: 15px;
+    left: 15px; /* Positioned at Top-Left */
+    
+    width: 35px;
+    height: 35px;
+    border-radius: 50%;
+    
+    /* Default Dark Mode Look */
+    background: rgba(255, 255, 255, 0.1);
+    border: 1px solid rgba(16, 185, 129, 0.3);
+    color: var(--accent);
+    
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    z-index: 20;
+    transition: all 0.3s ease;
+    overflow: hidden;
+}
+
+.theme-btn-animated:hover {
+    transform: scale(1.1);
+    background: rgba(16, 185, 129, 0.15);
+}
+
+/* Light Mode Button Style */
+body.light-mode .theme-btn-animated {
+    background: #fff7ed;
+    border-color: #fcd34d;
+    color: #f59e0b;
+    box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+}
+
+/* Icon Animation */
+.icon-rotate {
+    animation: spin-icon 0.6s cubic-bezier(0.175, 0.885, 0.32, 1.275);
+}
+
+@keyframes spin-icon {
+    0% { transform: rotate(-180deg) scale(0.5); opacity: 0; }
+    50% { transform: scale(1.2); }
+    100% { transform: rotate(0deg) scale(1); opacity: 1; }
+}
