@@ -1,9 +1,10 @@
-/* theme.css - Fixed Light Mode with Visible Backdrops */
+/* theme.css - Fixed Light Mode (No Flash) */
 
 /* =========================================
    1. LIGHT MODE VARIABLES
    ========================================= */
-body.light-mode {
+/* CHANGED: using :root.light-mode ensures variables load instantly */
+:root.light-mode {
     /* Backgrounds */
     --primary: #f8fafc;        /* Main background */
     --secondary: #e2e8f0;      /* Secondary background */
@@ -21,41 +22,47 @@ body.light-mode {
     /* Helpers */
     --border-color: #e2e8f0;   
     --input-bg: #f1f5f9;       
-    --item-bg: #f1f5f9;        /* NEW: Distinct background for list items */
+    --item-bg: #f1f5f9;        /* Distinct background for list items */
 }
 
 /* =========================================
    2. GLOBAL BODY OVERRIDES
    ========================================= */
-body.light-mode {
+/* CHANGED: Target via html.light-mode to prevent flash */
+html.light-mode body {
     background: linear-gradient(135deg, #f0fdf4 0%, #f8fafc 100%) !important;
+    color: var(--text); /* Ensure text color updates immediately */
 }
 
 /* =========================================
    3. SIDEBAR & NAVIGATION (FIXED BACKDROPS)
    ========================================= */
-body.light-mode .sidebar {
+html.light-mode .sidebar {
     background: #ffffff;
     border-right: 1px solid var(--border-color);
     box-shadow: 4px 0 20px rgba(0, 0, 0, 0.05);
 }
 
 /* Sidebar Profile Area */
-body.light-mode .sidebar-profile {
+html.light-mode .sidebar-profile {
     background: linear-gradient(180deg, #f8fafc 0%, #ffffff 100%);
     border-bottom: 1px solid var(--border-color);
 }
-body.light-mode .profile-title {
+html.light-mode .profile-title {
     color: var(--text-light);
+}
+html.light-mode .profile-name {
+    /* Optional: Ensure profile name stands out in light mode */
+    text-shadow: none; 
 }
 
 /* Sidebar Menu Section Headers */
-body.light-mode .menu-section h3 {
+html.light-mode .menu-section h3 {
     color: var(--accent);
 }
 
-/* --- THE FIX: MENU ITEMS WITH BACKDROP --- */
-body.light-mode .menu-item {
+/* --- MENU ITEMS WITH BACKDROP --- */
+html.light-mode .menu-item {
     background: var(--item-bg); /* Light Grey Backdrop */
     color: var(--text);
     border: 1px solid transparent; 
@@ -63,141 +70,146 @@ body.light-mode .menu-item {
 }
 
 /* Links inside menu items */
-body.light-mode .menu-item a,
-body.light-mode a.menu-item {
+html.light-mode .menu-item a,
+html.light-mode a.menu-item {
     color: var(--text);
 }
 
 /* Icons inside menu items */
-body.light-mode .menu-item i {
+html.light-mode .menu-item i {
     color: var(--accent);
 }
 
 /* Hover State */
-body.light-mode .menu-item:hover {
+html.light-mode .menu-item:hover {
     background: #e2e8f0; /* Darker grey on hover */
     border-color: var(--border-color);
     transform: translateX(3px);
 }
-body.light-mode .menu-item:hover a {
+html.light-mode .menu-item:hover a {
     color: var(--text);
 }
 
 /* Sidebar Footer (Fixed Backdrop) */
-body.light-mode .sidebar-footer {
+html.light-mode .sidebar-footer {
     background: #f8fafc; /* Light grey block */
     border-top: 1px solid var(--border-color);
 }
-body.light-mode .sidebar-footer p {
+html.light-mode .sidebar-footer p {
     color: var(--text-light);
 }
 
 /* Hamburger & Back Buttons */
-body.light-mode .hamburger-btn,
-body.light-mode .back-btn {
+html.light-mode .hamburger-btn,
+html.light-mode .back-btn {
     background: #ffffff;
     border: 1px solid var(--border-color);
     box-shadow: 0 2px 5px rgba(0,0,0,0.05);
 }
-body.light-mode .hamburger-btn span {
+html.light-mode .hamburger-btn span {
     background: var(--accent);
 }
 
 /* Sticky Header */
-body.light-mode .sticky-header {
+html.light-mode .sticky-header {
     border-bottom: 1px solid var(--border-color);
     background: rgba(255, 255, 255, 0.95);
+}
+html.light-mode .header-title {
+    color: var(--text);
 }
 
 /* =========================================
    4. CARDS, INPUTS & CONTENT
    ========================================= */
-body.light-mode .card,
-body.light-mode .test-card {
+html.light-mode .card,
+html.light-mode .test-card {
     border: 1px solid var(--border-color);
     box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.05);
+    background: var(--card-bg);
 }
 
-body.light-mode .card-header,
-body.light-mode .test-card-header {
+html.light-mode .card-header,
+html.light-mode .test-card-header {
     background: linear-gradient(to right, #f8fafc, #ffffff);
     border-bottom: 1px solid var(--border-color);
 }
 
 /* Popups */
-body.light-mode .popup,
-body.light-mode .welcome-popup,
-body.light-mode .prayer-popup {
+html.light-mode .popup,
+html.light-mode .welcome-popup,
+html.light-mode .prayer-popup {
     background: #ffffff;
     border: 1px solid var(--border-color);
     box-shadow: 0 25px 50px rgba(0, 0, 0, 0.15);
 }
 
 /* Inputs */
-body.light-mode input,
-body.light-mode textarea,
-body.light-mode .name-input,
-body.light-mode .word-input,
-body.light-mode .situation-input {
+html.light-mode input,
+html.light-mode textarea,
+html.light-mode .name-input,
+html.light-mode .word-input,
+html.light-mode .situation-input {
     background: var(--item-bg); /* Matches menu items */
     color: var(--text);
     border: 1px solid var(--border-color);
 }
-body.light-mode input::placeholder,
-body.light-mode textarea::placeholder {
+html.light-mode input::placeholder,
+html.light-mode textarea::placeholder {
     color: #94a3b8;
 }
 
 /* Buttons */
-body.light-mode .btn-secondary,
-body.light-mode .nav-btn {
+html.light-mode .btn-secondary,
+html.light-mode .nav-btn {
     background: #ffffff;
     color: var(--text);
     border: 1px solid var(--border-color);
     box-shadow: 0 1px 2px rgba(0,0,0,0.05);
 }
-body.light-mode .btn-secondary:hover,
-body.light-mode .nav-btn:hover {
+html.light-mode .btn-secondary:hover,
+html.light-mode .nav-btn:hover {
     background: #f1f5f9;
     border-color: var(--accent);
 }
 
 /* Option Selection Items */
-body.light-mode .option-item,
-body.light-mode .situation-item {
+html.light-mode .option-item,
+html.light-mode .situation-item {
     background: #ffffff;
     border: 1px solid var(--border-color);
 }
-body.light-mode .option-item:hover {
+html.light-mode .option-item:hover {
     background: #f8fafc;
 }
-body.light-mode .option-item.selected {
+html.light-mode .option-item.selected {
     background: rgba(16, 185, 129, 0.1);
     border-color: var(--accent);
 }
 
 /* Results & Stats */
-body.light-mode .results-summary {
+html.light-mode .results-summary {
     background: #ffffff;
     border: 1px solid var(--border-color);
 }
-body.light-mode .result-card {
+html.light-mode .result-card {
     background: var(--item-bg);
     border: 1px solid var(--border-color);
 }
-body.light-mode .progress-container,
-body.light-mode .meter-bar {
+html.light-mode .progress-container,
+html.light-mode .meter-bar {
     background: #e2e8f0;
 }
 
 /* Subtitles/Text */
-body.light-mode .page-subtitle, 
-body.light-mode .instruction-text,
-body.light-mode .completion-subtitle,
-body.light-mode .no-images-test,
-body.light-mode .no-situations-test,
-body.light-mode .no-images-message,
-body.light-mode .no-situations-message {
+html.light-mode .page-subtitle, 
+html.light-mode .instruction-text,
+html.light-mode .completion-subtitle,
+html.light-mode .no-images-test,
+html.light-mode .no-situations-test,
+html.light-mode .no-images-message,
+html.light-mode .no-situations-message,
+html.light-mode .card-body p {
     color: var(--text-light);
     opacity: 1;
 }
@@ -238,7 +250,7 @@ body.light-mode .no-situations-message {
 }
 
 /* Light Mode Button Style */
-body.light-mode .theme-btn-animated {
+html.light-mode .theme-btn-animated {
     background: #fff7ed;
     border-color: #fcd34d;
     color: #f59e0b;
