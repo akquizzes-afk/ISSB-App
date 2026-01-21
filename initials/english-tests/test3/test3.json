@@ -49,205 +49,206 @@
     "options": ["Car", "She", "Fast", "Jump", "Under"],
     "correctAnswer": 1
   },
+
   {
-    "question": "What is the plural of 'Child'?",
-    "options": ["Childs", "Childrens", "Childes", "Children", "Chil"],
-    "correctAnswer": 3
-  },
-  {
-    "question": "It is ___ today.",
-    "options": ["sunny", "sun", "sunned", "sunning", "sunnierly"],
-    "correctAnswer": 0
-  },
-  {
-    "question": "I like ___ oranges.",
-    "options": ["the", "a", "an", "no article", "this"],
-    "correctAnswer": 3
-  },
-  {
-    "question": "She ___ a doctor.",
-    "options": ["is", "am", "are", "be", "was been"],
-    "correctAnswer": 0
-  },
-  {
-    "question": "The opposite of 'Hot' is:",
-    "options": ["Warm", "Cold", "Cool", "Freezing", "Wet"],
-    "correctAnswer": 1
-  },
-  {
-    "question": "___ are you doing?",
-    "options": ["Who", "What", "When", "Why", "Where"],
-    "correctAnswer": 1
-  },
-  {
-    "question": "I live ___ London.",
-    "options": ["at", "on", "in", "to", "by"],
+    "question": "I wish I ___ a king.",
+    "options": ["was", "am", "were", "have been", "will be"],
     "correctAnswer": 2
   },
   {
-    "question": "Please give me ___ pen.",
-    "options": ["a", "an", "some", "any", "no"],
+    "question": "Identify the error: 'He is more smarter than his brother.'",
+    "options": ["He is", "more smarter", "than", "his", "brother"],
+    "correctAnswer": 1
+  },
+  {
+    "question": "The rich ___ not always happy.",
+    "options": ["is", "are", "was", "has been", "be"],
+    "correctAnswer": 1
+  },
+  {
+    "question": "Choose the correct sentence.",
+    "options": ["My hairs are black.", "My hair is black.", "My hair are black.", "My hairs is black.", "The hair of mine are black."],
+    "correctAnswer": 1
+  },
+  {
+    "question": "He is angry ___ me.",
+    "options": ["at", "with", "on", "for", "to"],
+    "correctAnswer": 1
+  },
+  {
+    "question": "He is angry ___ my behavior.",
+    "options": ["at", "with", "on", "for", "to"],
     "correctAnswer": 0
   },
   {
-    "question": "They ___ to the park.",
-    "options": ["walks", "walk", "walking", "has walk", "is walk"],
-    "correctAnswer": 1
+    "question": "Choose the synonym of 'Candid'.",
+    "options": ["Frank", "Secretive", "Rude", "Shy", "Cunning"],
+    "correctAnswer": 0
   },
   {
-    "question": "I ___ a student.",
-    "options": ["is", "am", "are", "be", "were"],
-    "correctAnswer": 1
-  },
-  {
-    "question": "The book is ___ the bag.",
-    "options": ["on", "under", "in", "at", "with"],
+    "question": "If you ___ hard, you would have passed.",
+    "options": ["work", "worked", "had worked", "have worked", "will work"],
     "correctAnswer": 2
   },
   {
-    "question": "How ___ are you?",
-    "options": ["old", "age", "years", "long", "big"],
+    "question": "Identify the correct preposition: He is blind ___ one eye.",
+    "options": ["of", "in", "to", "with", "by"],
+    "correctAnswer": 1
+  },
+  {
+    "question": "Please open your book ___ page 50.",
+    "options": ["on", "at", "to", "in", "by"],
+    "correctAnswer": 1
+  },
+  {
+    "question": "The wages of sin ___ death.",
+    "options": ["is", "are", "were", "have been", "being"],
     "correctAnswer": 0
   },
   {
-    "question": "She ___ to music.",
-    "options": ["listen", "listens", "listening", "is listen", "was listen"],
-    "correctAnswer": 1
-  },
-  {
-    "question": "They ___ my friends.",
-    "options": ["is", "am", "are", "was", "be"],
-    "correctAnswer": 2
-  },
-  {
-    "question": "I have ___ umbrella.",
-    "options": ["a", "an", "the", "some", "no"],
-    "correctAnswer": 1
-  },
-  {
-    "question": "What ___ your name?",
-    "options": ["is", "am", "are", "be", "were"],
-    "correctAnswer": 0
-  },
-  {
-    "question": "He ___ to the office by car.",
-    "options": ["go", "goes", "going", "gone", "is go"],
-    "correctAnswer": 1
-  },
-  {
-    "question": "The opposite of 'Big' is:",
-    "options": ["Large", "Small", "Huge", "Long", "Short"],
-    "correctAnswer": 1
-  },
-  {
-    "question": "___ is she crying?",
-    "options": ["Who", "What", "Why", "When", "Where"],
-    "correctAnswer": 2
-  },
-  {
-    "question": "I ___ my dinner at 8 PM.",
-    "options": ["eat", "eats", "eating", "ate", "is eating"],
-    "correctAnswer": 0
-  },
-  {
-    "question": "This is ___ car.",
-    "options": ["my", "mine", "me", "I", "myself"],
-    "correctAnswer": 0
-  },
-  {
-    "question": "The birds are ___.",
-    "options": ["fly", "flying", "flies", "flew", "flown"],
-    "correctAnswer": 1
-  },
-  {
-    "question": "He ___ a new shirt.",
-    "options": ["want", "wants", "wanting", "is want", "has want"],
-    "correctAnswer": 1
-  },
-  {
-    "question": "It is ___ clock.",
-    "options": ["a", "an", "some", "any", "the"],
-    "correctAnswer": 0
-  },
-  {
-    "question": "We ___ in a house.",
-    "options": ["lives", "live", "living", "is live", "has live"],
-    "correctAnswer": 1
-  },
-  {
-    "question": "Identify the verb.",
-    "options": ["Table", "Fast", "Jump", "Yellow", "Quiet"],
-    "correctAnswer": 2
-  },
-  {
-    "question": "She ___ coffee.",
-    "options": ["like", "likes", "liking", "is like", "has like"],
-    "correctAnswer": 1
-  },
-  {
-    "question": "The flower is ___.",
-    "options": ["beauty", "beautiful", "beautifully", "beautify", "beauties"],
-    "correctAnswer": 1
-  },
-  {
-    "question": "___ is your birthday?",
-    "options": ["What", "Where", "When", "Who", "How"],
-    "correctAnswer": 2
-  },
-  {
-    "question": "I ___ see a bird.",
-    "options": ["can", "am", "is", "are", "be"],
-    "correctAnswer": 0
-  },
-  {
-    "question": "The plural of 'Foot' is:",
-    "options": ["Foots", "Feets", "Footes", "Feet", "Foot"],
-    "correctAnswer": 3
-  },
-  {
-    "question": "He is ___ honest.",
-    "options": ["a", "an", "the", "no article", "some"],
-    "correctAnswer": 3
-  },
-  {
-    "question": "They ___ lunch together.",
-    "options": ["has", "have", "is having", "having", "was having"],
-    "correctAnswer": 1
-  },
-  {
-    "question": "The car stopped ___ the light.",
-    "options": ["at", "on", "in", "to", "with"],
-    "correctAnswer": 0
-  },
-  {
-    "question": "She is ___ than her sister.",
-    "options": ["tall", "taller", "tallest", "more tall", "most tall"],
-    "correctAnswer": 1
-  },
-  {
-    "question": "I ___ help you.",
-    "options": ["will", "is", "am", "are", "be"],
-    "correctAnswer": 0
-  },
-  {
-    "question": "What is the opposite of 'Fast'?",
-    "options": ["Quick", "Slow", "Rapid", "Swift", "Hard"],
+    "question": "Politics ___ a dirty game.",
+    "options": ["are", "is", "were", "have been", "seem"],
     "correctAnswer": 1
   },
   {
     "question": "Choose the correct spelling.",
-    "options": ["Recieve", "Receive", "Recive", "Receve", "Reseive"],
+    "options": ["Lieutenant", "Leutenant", "Leiutenant", "Liutenant", "Lieutenent"],
+    "correctAnswer": 0
+  },
+  {
+    "question": "One word substitution: 'Government by the people.'",
+    "options": ["Autocracy", "Democracy", "Plutocracy", "Monarchy", "Oligarchy"],
     "correctAnswer": 1
   },
   {
-    "question": "A ___ of sheep.",
-    "options": ["pack", "herd", "flock", "pride", "swarm"],
+    "question": "Do not look down ___ the poor.",
+    "options": ["at", "on", "upon", "for", "with"],
     "correctAnswer": 2
   },
   {
-    "question": "I ___ to school every day.",
-    "options": ["walk", "walks", "walking", "walked", "is walk"],
+    "question": "I prefer walking ___ cycling.",
+    "options": ["than", "over", "to", "from", "instead of"],
+    "correctAnswer": 2
+  },
+  {
+    "question": "The furniture ___ old.",
+    "options": ["are", "is", "were", "have been", "be"],
+    "correctAnswer": 1
+  },
+  {
+    "question": "He was accused ___ theft.",
+    "options": ["for", "of", "with", "about", "in"],
+    "correctAnswer": 1
+  },
+  {
+    "question": "Identify the error: 'Return back the money immediately.'",
+    "options": ["Return", "back", "the money", "immediately", "No error"],
+    "correctAnswer": 1
+  },
+  {
+    "question": "She is married ___ a doctor.",
+    "options": ["with", "to", "by", "for", "of"],
+    "correctAnswer": 1
+  },
+  {
+    "question": "Antonym of 'Optimist' is:",
+    "options": ["Pessimist", "Realist", "Idealist", "Activist", "Pacifist"],
     "correctAnswer": 0
+  },
+  {
+    "question": "Every boy and every girl ___ given a prize.",
+    "options": ["was", "were", "are", "have been", "will"],
+    "correctAnswer": 0
+  },
+  {
+    "question": "Physics ___ my favorite subject.",
+    "options": ["are", "is", "were", "have been", "seem"],
+    "correctAnswer": 1
+  },
+  {
+    "question": "We ___ respect our elders.",
+    "options": ["may", "ought to", "might", "can", "dare"],
+    "correctAnswer": 1
+  },
+  {
+    "question": "He has been absent ___ last Friday.",
+    "options": ["for", "from", "since", "until", "by"],
+    "correctAnswer": 2
+  },
+  {
+    "question": "Identify the correct sentence.",
+    "options": ["One should keep his promises.", "One should keep one's promises.", "One should keep their promises.", "One should keep her promises.", "One must keep his promises."],
+    "correctAnswer": 1
+  },
+  {
+    "question": "The train ___ before we reached the station.",
+    "options": ["left", "has left", "had left", "was leaving", "will leave"],
+    "correctAnswer": 2
+  },
+  {
+    "question": "She is good ___ English.",
+    "options": ["in", "at", "on", "with", "for"],
+    "correctAnswer": 1
+  },
+  {
+    "question": "Choose the word with the same meaning as 'Prudent'.",
+    "options": ["Wise", "Foolish", "Impulsive", "Reckless", "Slow"],
+    "correctAnswer": 0
+  },
+  {
+    "question": "A pair of shoes ___ missing.",
+    "options": ["are", "is", "were", "have been", "be"],
+    "correctAnswer": 1
+  },
+  {
+    "question": "Fifty kilometers ___ a long distance.",
+    "options": ["is", "are", "were", "have been", "seem"],
+    "correctAnswer": 0
+  },
+  {
+    "question": "He is too weak ___ walk.",
+    "options": ["to", "that", "so", "for", "very"],
+    "correctAnswer": 0
+  },
+  {
+    "question": "Neither of the accusations ___ true.",
+    "options": ["is", "are", "were", "have been", "be"],
+    "correctAnswer": 0
+  },
+  {
+    "question": "The cost of all these items ___ risen.",
+    "options": ["has", "have", "are", "is", "were"],
+    "correctAnswer": 0
+  },
+  {
+    "question": "Slow and steady ___ the race.",
+    "options": ["win", "wins", "winning", "won", "have won"],
+    "correctAnswer": 1
+  },
+  {
+    "question": "One word substitution: 'A handwritten document.'",
+    "options": ["Script", "Manuscript", "Inscription", "Postscript", "Prescription"],
+    "correctAnswer": 1
+  },
+  {
+    "question": "The audience ___ requested to take their seats.",
+    "options": ["is", "are", "was", "has been", "will be"],
+    "correctAnswer": 1
+  },
+  {
+    "question": "I doubt ___ he will come.",
+    "options": ["that", "if", "whether", "what", "which"],
+    "correctAnswer": 1
+  },
+  {
+    "question": "Identify the error: 'No sooner had I reached the station when the train left.'",
+    "options": ["No sooner", "had I reached", "the station", "when", "the train left"],
+    "correctAnswer": 3
+  },
+  {
+    "question": "The cattle ___ grazing in the field.",
+    "options": ["is", "are", "was", "has been", "be"],
+    "correctAnswer": 1
   }
 ]
 

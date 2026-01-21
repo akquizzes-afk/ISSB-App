@@ -1,255 +1,252 @@
 [
   {
-    "question": "Scarcely had the ceremony begun ___ the rain started pouring down.",
-    "options": ["than", "then", "when", "after", "while"],
-    "correctAnswer": 2
+    "question": "Not only did he fail to report the incident, ___ denied knowing about it.",
+    "options": ["and he also", "but he also", "so he", "yet he", "nor he"],
+    "correctAnswer": 1
   },
   {
-    "question": "If I ___ you, I would have reconsidered the proposal.",
-    "options": ["was", "am", "were", "had been", "have been"],
-    "correctAnswer": 2
-  },
-  {
-    "question": "The committee ___ divided in their opinions regarding the new policy.",
-    "options": ["was", "is", "has been", "were", "are being"],
+    "question": "The jury ___ unable to reach a unanimous verdict, so they were dismissed.",
+    "options": ["was", "is", "has been", "were", "had been"],
     "correctAnswer": 3
   },
   {
-    "question": "It is high time he ___ responsibility for his actions.",
-    "options": ["take", "takes", "took", "taken", "will take"],
+    "question": "Choose the word synonymous with 'Obfuscate'.",
+    "options": ["Clarify", "Illuminate", "Confuse", "Expose", "Simplify"],
     "correctAnswer": 2
   },
   {
-    "question": "Not only ___ the project on time, but he also came in under budget.",
-    "options": ["did he finish", "he finished", "finished he", "he had finished", "does he finish"],
-    "correctAnswer": 0
-  },
-  {
-    "question": "She suggested that he ___ a specialist immediately.",
-    "options": ["sees", "saw", "see", "seen", "to see"],
-    "correctAnswer": 2
-  },
-  {
-    "question": "Neither of the two candidates ___ suitable for the position.",
-    "options": ["is", "are", "were", "have been", "be"],
-    "correctAnswer": 0
-  },
-  {
-    "question": "I would rather you ___ tomorrow instead of today.",
-    "options": ["came", "come", "coming", "will come", "have come"],
-    "correctAnswer": 0
-  },
-  {
-    "question": "Had he known about the traffic, he ___ earlier.",
-    "options": ["left", "would leave", "had left", "would have left", "was leaving"],
+    "question": "It is imperative that he ___ the documents immediately.",
+    "options": ["signs", "signed", "will sign", "sign", "must sign"],
     "correctAnswer": 3
   },
   {
-    "question": "The phenomena observed by the scientists ___ difficult to explain.",
-    "options": ["is", "was", "has been", "were", "appears"],
+    "question": "Identify the error: 'He is one of the best players that has ever played for the club.'",
+    "options": ["He is", "one of the", "best players", "that has", "ever played"],
     "correctAnswer": 3
   },
   {
-    "question": "She is one of those people who ___ never satisfied.",
+    "question": "___ you to change your mind, please let us know.",
+    "options": ["If", "Should", "Unless", "Had", "Were"],
+    "correctAnswer": 1
+  },
+  {
+    "question": "The phenomenons of nature ___ fascinating to observe.",
     "options": ["is", "was", "are", "has been", "be"],
     "correctAnswer": 2
   },
   {
-    "question": "By the time you arrive, we ___ the meeting.",
-    "options": ["will finish", "have finished", "are finishing", "finished", "will have finished"],
-    "correctAnswer": 4
-  },
-  {
-    "question": "Little ___ that he was being watched.",
-    "options": ["he knew", "did he know", "knew he", "he did know", "does he know"],
-    "correctAnswer": 1
-  },
-  {
-    "question": "The number of applicants ___ increasing every year.",
-    "options": ["are", "were", "have been", "is", "be"],
+    "question": "She has little patience, ___?",
+    "options": ["doesn't she", "has she", "hasn't she", "does she", "won't she"],
     "correctAnswer": 3
   },
   {
-    "question": "___ being poor, he is honest.",
-    "options": ["Despite", "In spite", "Although", "Even", "Though"],
-    "correctAnswer": 0
+    "question": "He is charged ___ murder.",
+    "options": ["of", "with", "for", "by", "on"],
+    "correctAnswer": 1
   },
   {
-    "question": "He speaks as if he ___ the owner of the company.",
-    "options": ["is", "was", "were", "has been", "had been"],
+    "question": "Choose the correct sentence.",
+    "options": ["I have resigned from my job.", "I have resigned my job.", "I resigned off my job.", "I am resign my job.", "I have resigned away my job."],
+    "correctAnswer": 1
+  },
+  {
+    "question": "The antonym of 'Prodigal' is:",
+    "options": ["Extravagant", "Wasteful", "Lavish", "Thrifty", "Generous"],
+    "correctAnswer": 3
+  },
+  {
+    "question": "Unless you ___ to the terms, we cannot proceed.",
+    "options": ["do not agree", "will agree", "agreed", "agree", "have agreed"],
+    "correctAnswer": 3
+  },
+  {
+    "question": "Scarcely had he entered the room ___ the phone rang.",
+    "options": ["then", "than", "when", "after", "while"],
     "correctAnswer": 2
   },
   {
-    "question": "The jury ___ unable to reach a verdict.",
-    "options": ["was", "is", "has been", "were", "are being"],
-    "correctAnswer": 3
+    "question": "He has a propensity ___ exaggeration.",
+    "options": ["for", "to", "of", "in", "with"],
+    "correctAnswer": 0
   },
   {
-    "question": "Hardly had I reached the station ___ the train left.",
-    "options": ["than", "then", "when", "after", "as"],
+    "question": "If I ___ a bird, I would fly to you.",
+    "options": ["was", "am", "were", "would be", "have been"],
     "correctAnswer": 2
   },
   {
-    "question": "Lest he ___ the way, he took a map.",
-    "options": ["should lose", "would lose", "loses", "might lose", "will lose"],
+    "question": "Select the correct spelling.",
+    "options": ["Maneuver", "Manuver", "Maneuever", "Manuever", "Manaver"],
     "correctAnswer": 0
   },
   {
-    "question": "No sooner had we arrived ___ the performance began.",
-    "options": ["when", "then", "after", "before", "than"],
-    "correctAnswer": 4
-  },
-  {
-    "question": "Either you or he ___ to blame.",
-    "options": ["are", "is", "were", "have been", "am"],
-    "correctAnswer": 1
-  },
-  {
-    "question": "Many a man ___ tried to climb that mountain.",
-    "options": ["have", "has", "are", "were", "having"],
-    "correctAnswer": 1
-  },
-  {
-    "question": "The rich ___ not always happy.",
-    "options": ["is", "was", "has been", "are", "be"],
-    "correctAnswer": 3
-  },
-  {
-    "question": "Ten miles ___ a long distance to walk.",
-    "options": ["is", "are", "were", "have been", "seem"],
-    "correctAnswer": 0
-  },
-  {
-    "question": "Bread and butter ___ his favorite breakfast.",
-    "options": ["are", "were", "have been", "seem", "is"],
-    "correctAnswer": 4
-  },
-  {
-    "question": "The police ___ investigating the crime.",
-    "options": ["is", "was", "has been", "are", "be"],
-    "correctAnswer": 3
-  },
-  {
-    "question": "Unless you work hard, you ___ succeed.",
-    "options": ["will", "won't", "would", "wouldn't", "cannot"],
-    "correctAnswer": 1
-  },
-  {
-    "question": "He is superior ___ me in knowledge.",
-    "options": ["than", "from", "over", "to", "against"],
-    "correctAnswer": 3
-  },
-  {
-    "question": "I prefer reading ___ watching television.",
-    "options": ["than", "to", "over", "more than", "rather than"],
-    "correctAnswer": 1
-  },
-  {
-    "question": "We look forward ___ from you.",
-    "options": ["to hear", "hearing", "hear", "to hearing", "heard"],
-    "correctAnswer": 3
-  },
-  {
-    "question": "It is essential that every student ___ the exam.",
-    "options": ["passes", "passed", "will pass", "pass", "to pass"],
-    "correctAnswer": 3
-  },
-  {
-    "question": "If it ___ rain, we shall cancel the match.",
-    "options": ["should", "would", "could", "might", "will"],
-    "correctAnswer": 0
-  },
-  {
-    "question": "We objected to ___ waiting.",
-    "options": ["keep", "kept", "be kept", "keeping", "being kept"],
-    "correctAnswer": 4
-  },
-  {
-    "question": "He died ___ overwork.",
-    "options": ["of", "from", "by", "with", "through"],
-    "correctAnswer": 1
-  },
-  {
-    "question": "He is used to ___ early.",
-    "options": ["get up", "got up", "getting up", "have got up", "gets up"],
+    "question": "We congratulated him ___ his success.",
+    "options": ["for", "at", "on", "in", "with"],
     "correctAnswer": 2
   },
   {
-    "question": "Let's go for a walk, ___?",
-    "options": ["will we", "shall we", "should we", "do we", "don't we"],
-    "correctAnswer": 1
+    "question": "Neither of the combatants ___ able to defeat the other.",
+    "options": ["were", "are", "have been", "was", "seem"],
+    "correctAnswer": 3
   },
   {
-    "question": "I wish I ___ harder when I was at school.",
-    "options": ["worked", "would work", "had worked", "have worked", "work"],
-    "correctAnswer": 2
-  },
-  {
-    "question": "To ___ with, the evidence is inconclusive.",
-    "options": ["start", "begin", "commence", "initiate", "conclude"],
-    "correctAnswer": 1
-  },
-  {
-    "question": "The furniture ___ to be delivered today.",
-    "options": ["is", "are", "were", "have", "be"],
+    "question": "The idiom 'To cut the Gordian knot' means:",
+    "options": ["To solve a difficult problem boldly", "To create a problem", "To tie a knot", "To run away", "To fight with a sword"],
     "correctAnswer": 0
   },
   {
-    "question": "Mathematics ___ my favorite subject.",
-    "options": ["are", "were", "have been", "seem", "is"],
-    "correctAnswer": 4
+    "question": "He is the ___ of the three brothers.",
+    "options": ["older", "oldest", "elder", "eldest", "more old"],
+    "correctAnswer": 3
   },
   {
-    "question": "One must keep ___ promises.",
-    "options": ["his", "her", "their", "your", "one's"],
-    "correctAnswer": 4
+    "question": "I prefer death ___ dishonor.",
+    "options": ["than", "from", "to", "rather", "over"],
+    "correctAnswer": 2
   },
   {
-    "question": "Between you and ___, I think he is lying.",
+    "question": "One word substitution: 'A remedy for all diseases.'",
+    "options": ["Antidote", "Panacea", "Antibiotic", "Vaccine", "Narcotic"],
+    "correctAnswer": 1
+  },
+  {
+    "question": "No sooner did he see the police ___ he ran away.",
+    "options": ["when", "then", "than", "before", "after"],
+    "correctAnswer": 2
+  },
+  {
+    "question": "Identify the incorrect part: 'He discussed about the matter with his boss.'",
+    "options": ["He", "discussed about", "the matter", "with his", "boss"],
+    "correctAnswer": 1
+  },
+  {
+    "question": "She ordered as if she ___ my mistress.",
+    "options": ["is", "was", "were", "has been", "would be"],
+    "correctAnswer": 2
+  },
+  {
+    "question": "He is blind ___ his son's faults.",
+    "options": ["of", "in", "with", "to", "for"],
+    "correctAnswer": 3
+  },
+  {
+    "question": "My sister has read pages ___ pages of the Bible.",
+    "options": ["after", "by", "upon", "with", "to"],
+    "correctAnswer": 0
+  },
+  {
+    "question": "The ship, with its crew, ___ lost.",
+    "options": ["were", "are", "have been", "was", "be"],
+    "correctAnswer": 3
+  },
+  {
+    "question": "Choose the synonym of 'Laconic'.",
+    "options": ["Talkative", "Verbose", "Concise", "Loud", "Silent"],
+    "correctAnswer": 2
+  },
+  {
+    "question": "He prevented me ___ going there.",
+    "options": ["to", "from", "for", "against", "by"],
+    "correctAnswer": 1
+  },
+  {
+    "question": "Identify the correct sentence.",
+    "options": ["One must do his duty.", "One must do one's duty.", "One must do their duty.", "One must do her duty.", "One must do its duty."],
+    "correctAnswer": 1
+  },
+  {
+    "question": "Walking along the road, a car hit him. (Choose the correction)",
+    "options": ["Walking along the road, he was hit by a car.", "As he was walking along the road, a car hit him.", "While walking along the road, a car hit him.", "Both A and B", "No correction needed"],
+    "correctAnswer": 3
+  },
+  {
+    "question": "This is the same book ___ I wanted.",
+    "options": ["which", "that", "who", "whom", "whose"],
+    "correctAnswer": 1
+  },
+  {
+    "question": "I cannot cope ___ this pressure.",
+    "options": ["up with", "up", "with", "in", "for"],
+    "correctAnswer": 2
+  },
+  {
+    "question": "The director and producer ___ arrived.",
+    "options": ["have", "are", "were", "has", "had"],
+    "correctAnswer": 3
+  },
+  {
+    "question": "The director and the producer ___ arrived.",
+    "options": ["has", "is", "was", "have", "had"],
+    "correctAnswer": 3
+  },
+  {
+    "question": "Which word is an adverb?",
+    "options": ["Fast", "Hard", "Well", "All of these", "None of these"],
+    "correctAnswer": 3
+  },
+  {
+    "question": "He has no house to live ___.",
+    "options": ["in", "at", "on", "into", "with"],
+    "correctAnswer": 0
+  },
+  {
+    "question": "Five miles ___ not a long distance.",
+    "options": ["are", "were", "is", "have been", "am"],
+    "correctAnswer": 2
+  },
+  {
+    "question": "Let you and ___ go there.",
     "options": ["I", "me", "myself", "mine", "we"],
     "correctAnswer": 1
   },
   {
-    "question": "Who is the ___ of the two sisters?",
-    "options": ["eldest", "older", "oldest", "elder", "most old"],
-    "correctAnswer": 3
-  },
-  {
-    "question": "He ran fast ___ he missed the train.",
-    "options": ["so", "but", "and", "therefore", "unless"],
-    "correctAnswer": 1
-  },
-  {
-    "question": "I cannot help ___ at his joke.",
-    "options": ["laugh", "to laugh", "laughed", "laughing", "having laughed"],
-    "correctAnswer": 3
-  },
-  {
-    "question": "The wages of sin ___ death.",
-    "options": ["is", "are", "were", "have been", "be"],
-    "correctAnswer": 0
-  },
-  {
-    "question": "Five hundred dollars ___ a large sum.",
-    "options": ["are", "were", "seem", "have been", "is"],
-    "correctAnswer": 4
-  },
-  {
-    "question": "Neither the manager nor the employees ___ aware of the changes.",
-    "options": ["was", "is", "has been", "are", "be"],
-    "correctAnswer": 3
-  },
-  {
-    "question": "He admitted to ___ the money.",
-    "options": ["steal", "stole", "stealing", "have stolen", "stolen"],
+    "question": "She availed herself ___ the opportunity.",
+    "options": ["with", "for", "of", "to", "in"],
     "correctAnswer": 2
   },
   {
-    "question": "Everything falls, ___?",
-    "options": ["doesn't it", "don't they", "didn't it", "isn't it", "aren't they"],
-    "correctAnswer": 0
+    "question": "The cattle ___ grazing in the field.",
+    "options": ["is", "was", "has been", "are", "be"],
+    "correctAnswer": 3
+  },
+  {
+    "question": "Identify the error: 'The population of Tokyo is greater than Delhi.'",
+    "options": ["The population", "of Tokyo", "is greater", "than", "Delhi"],
+    "correctAnswer": 4
+  },
+  {
+    "question": "I suggest that you ___ the meeting.",
+    "options": ["attends", "attended", "attend", "attending", "will attend"],
+    "correctAnswer": 2
+  },
+  {
+    "question": "We should abide ___ the rules.",
+    "options": ["with", "to", "by", "on", "in"],
+    "correctAnswer": 2
+  },
+  {
+    "question": "The man ___ you met is my uncle.",
+    "options": ["who", "whom", "whose", "which", "what"],
+    "correctAnswer": 1
+  },
+  {
+    "question": "Hardly had the sun risen ___ the birds started chirping.",
+    "options": ["than", "then", "when", "after", "while"],
+    "correctAnswer": 2
+  },
+  {
+    "question": "One of the boys ___ missing.",
+    "options": ["are", "were", "have been", "is", "am"],
+    "correctAnswer": 3
+  },
+  {
+    "question": "He is senior ___ me by two years.",
+    "options": ["than", "from", "to", "against", "over"],
+    "correctAnswer": 2
+  },
+  {
+    "question": "___ knowledge is a dangerous thing.",
+    "options": ["Little", "A little", "The little", "Few", "A few"],
+    "correctAnswer": 1
   }
 ]
-
-
-

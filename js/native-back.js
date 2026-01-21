@@ -95,6 +95,10 @@ function attachBackButtonHandler() {
 '/initials/english-tests/test4/test4.html': '/initials/english-tests/english-tests.html',
 '/initials/english-tests/test5/test5.html': '/initials/english-tests/english-tests.html',
 '/initials/english-tests/test6/test6.html': '/initials/english-tests/english-tests.html',
+'/initials/english-tests/test7/test7.html': '/initials/english-tests/english-tests.html',
+'/initials/english-tests/test8/test8.html': '/initials/english-tests/english-tests.html',
+'/initials/english-tests/test9/test9.html': '/initials/english-tests/english-tests.html',
+'/initials/english-tests/test10/test10.html': '/initials/english-tests/english-tests.html',
 
 // Individual physics tests (Must go back to the hub inside the folder)
 '/initials/physics-tests/test1/test1.html': '/initials/physics-tests/physics-tests.html',

@@ -50,203 +50,203 @@
     "correctAnswer": 1
   },
   {
-    "question": "Identify the correct article: He is ___ honest man.",
-    "options": ["a", "an", "the", "some", "no article"],
+    "question": "The CEO, along with his board members, ___ arriving shortly.",
+    "options": ["are", "is", "were", "have been", "will"],
     "correctAnswer": 1
   },
   {
-    "question": "If she ___ more time, she would travel the world.",
-    "options": ["has", "have", "had", "will have", "having"],
+    "question": "Choose the word synonymous with 'Obsequious'.",
+    "options": ["Domineering", "Servile", "Honest", "Arrogant", "Clumsy"],
+    "correctAnswer": 1
+  },
+  {
+    "question": "It is essential that every student ___ their ID card.",
+    "options": ["brings", "bring", "bringing", "brought", "to bring"],
+    "correctAnswer": 1
+  },
+  {
+    "question": "Choose the correct passive voice: 'Who taught you French?'",
+    "options": ["By whom were you taught French?", "By whom was you taught French?", "Who was taught you French?", "French was taught to you by whom?", "By whom you were taught French?"],
+    "correctAnswer": 0
+  },
+  {
+    "question": "He is the man ___ I think stole my phone.",
+    "options": ["who", "whom", "which", "whose", "that"],
+    "correctAnswer": 0
+  },
+  {
+    "question": "The antonym of 'Mitigate' is:",
+    "options": ["Alleviate", "Aggravate", "Soothe", "Calm", "Reduce"],
+    "correctAnswer": 1
+  },
+  {
+    "question": "Neither the manager nor the employees ___ aware of the new policy.",
+    "options": ["was", "is", "were", "has been", "are being"],
     "correctAnswer": 2
   },
   {
-    "question": "Neither the teacher nor the students ___ present.",
-    "options": ["was", "is", "were", "has been", "am"],
+    "question": "I am not accustomed ___ in such a noisy environment.",
+    "options": ["to work", "to working", "working", "for working", "with working"],
+    "correctAnswer": 1
+  },
+  {
+    "question": "Identify the correct sentence.",
+    "options": ["I have visited the Taj Mahal last year.", "I visited the Taj Mahal last year.", "I was visited the Taj Mahal last year.", "I had visited the Taj Mahal last year.", "I visit the Taj Mahal last year."],
+    "correctAnswer": 1
+  },
+  {
+    "question": "The phrase 'A white elephant' refers to:",
+    "options": ["A rare item", "A useful possession", "A costly but useless possession", "A sacred animal", "A heavy burden"],
     "correctAnswer": 2
   },
   {
-    "question": "The book, ___ was on the table, is mine.",
-    "options": ["who", "whom", "whose", "which", "that"],
+    "question": "Unless you ___ hard, you will not succeed.",
+    "options": ["do not work", "work", "will work", "did not work", "won't work"],
+    "correctAnswer": 1
+  },
+  {
+    "question": "She ___ the letter before I arrived.",
+    "options": ["wrote", "has written", "had written", "was writing", "writes"],
+    "correctAnswer": 2
+  },
+  {
+    "question": "One who hates mankind is called a:",
+    "options": ["Philanthropist", "Misogynist", "Misanthrope", "Altruist", "Stoic"],
+    "correctAnswer": 2
+  },
+  {
+    "question": "We must conform ___ the rules of the institution.",
+    "options": ["with", "to", "by", "for", "on"],
+    "correctAnswer": 1
+  },
+  {
+    "question": "Choose the correct sentence arrangement: A: punished B: was C: he D: misconduct E: for",
+    "options": ["CBAED", "CBADE", "CBDEA", "ABCDE", "BCDAE"],
+    "correctAnswer": 0
+  },
+  {
+    "question": "The news ___ too good to be true.",
+    "options": ["are", "is", "were", "have been", "seem"],
+    "correctAnswer": 1
+  },
+  {
+    "question": "Identify the error: 'Each of the girls have done their homework.'",
+    "options": ["Each", "of the girls", "have", "done", "their"],
+    "correctAnswer": 2
+  },
+  {
+    "question": "He is ___ MP from this constituency.",
+    "options": ["a", "an", "the", "no article", "one"],
+    "correctAnswer": 1
+  },
+  {
+    "question": "The meeting was called ___ due to bad weather.",
+    "options": ["of", "off", "out", "in", "away"],
+    "correctAnswer": 1
+  },
+  {
+    "question": "Which word is correctly spelt?",
+    "options": ["Embarasment", "Embarassment", "Embarrasment", "Embarrassment", "Emmbarrassment"],
     "correctAnswer": 3
   },
   {
-    "question": "I look forward to ___ you soon.",
-    "options": ["see", "seeing", "saw", "be seeing", "seen"],
+    "question": "If I ___ the answer, I would tell you.",
+    "options": ["know", "knew", "known", "have known", "had known"],
     "correctAnswer": 1
   },
   {
-    "question": "Which sentence uses the correct parallel structure?",
-    "options": ["I like hiking, swimming, and to run.", "I like hiking, to swim, and running.", "I like to hike, swimming, and run.", "I like hiking, swimming, and running.", "I like hike, swim, and run."],
-    "correctAnswer": 3
-  },
-  {
-    "question": "Choose the correctly spelled word.",
-    "options": ["Accomodate", "Acommodate", "Accommodate", "Accomodat", "Acomodate"],
-    "correctAnswer": 2
-  },
-  {
-    "question": "He works ___ than his brother.",
-    "options": ["hard", "harder", "hardest", "more hard", "most hard"],
+    "question": "She prevented me ___ entering the house.",
+    "options": ["to", "from", "for", "with", "by"],
     "correctAnswer": 1
   },
   {
-    "question": "Scarcely had I entered the room ___ the lights went out.",
-    "options": ["then", "than", "when", "that", "while"],
+    "question": "Complete the idiom: 'Don't judge a book by its ___.'",
+    "options": ["contents", "author", "cover", "pages", "title"],
     "correctAnswer": 2
   },
   {
-    "question": "Lest he ___ fail, he worked very hard.",
-    "options": ["should", "would", "might", "can", "will"],
+    "question": "The committee ___ issued its report.",
+    "options": ["has", "have", "are", "were", "having"],
     "correctAnswer": 0
   },
   {
-    "question": "The report was ___ exhaustive that it covered every detail.",
-    "options": ["too", "such", "very", "so", "much"],
-    "correctAnswer": 3
-  },
-  {
-    "question": "We had better ___ now if we want to catch the train.",
-    "options": ["leaving", "left", "to leave", "leave", "be leaving"],
-    "correctAnswer": 3
-  },
-  {
-    "question": "He behaves as if he ___ a king.",
-    "options": ["was", "is", "were", "be", "has been"],
-    "correctAnswer": 2
-  },
-  {
-    "question": "You ___ better not be late tomorrow.",
-    "options": ["should", "must", "had", "would", "ought"],
-    "correctAnswer": 2
-  },
-  {
-    "question": "Which of these is a prepositional phrase?",
-    "options": ["Under the bridge", "He ran fast", "The red car", "She cried", "Because he was tired"],
+    "question": "Choose the correct indirect speech: She said, 'Where are you going?'",
+    "options": ["She asked where I was going.", "She asked where was I going.", "She asked where am I going.", "She asked where I am going.", "She said where I was going."],
     "correctAnswer": 0
   },
   {
-    "question": "I would rather stay home than ___ out tonight.",
-    "options": ["go", "going", "to go", "went", "gone"],
+    "question": "He died ___ cancer.",
+    "options": ["from", "of", "with", "by", "in"],
+    "correctAnswer": 1
+  },
+  {
+    "question": "He died ___ overwork.",
+    "options": ["from", "of", "with", "by", "in"],
     "correctAnswer": 0
   },
   {
-    "question": "The news ___ very distressing.",
-    "options": ["are", "is", "were", "be", "being"],
+    "question": "Which sentence indicates a habitual action in the past?",
+    "options": ["I went to school.", "I used to go to school.", "I had gone to school.", "I was going to school.", "I have gone to school."],
     "correctAnswer": 1
   },
   {
-    "question": "Identify the intransitive verb in the following options.",
-    "options": ["Eat", "Buy", "Sleep", "Make", "Give"],
-    "correctAnswer": 2
-  },
-  {
-    "question": "Each of the candidates ___ to fill out a form.",
-    "options": ["have", "has", "are", "were", "having"],
+    "question": "The synonym of 'Lethargic' is:",
+    "options": ["Energetic", "Sluggish", "Enthusiastic", "Vibrant", "Quick"],
     "correctAnswer": 1
   },
   {
-    "question": "The phenomena ___ observed during the eclipse.",
-    "options": ["was", "is", "were", "has been", "be"],
-    "correctAnswer": 2
-  },
-  {
-    "question": "The police ___ searching for the suspect.",
-    "options": ["is", "was", "are", "has", "be"],
-    "correctAnswer": 2
-  },
-  {
-    "question": "He has been ill ___ Monday.",
-    "options": ["for", "since", "from", "on", "by"],
+    "question": "Bread and milk ___ his only food.",
+    "options": ["are", "is", "were", "have been", "be"],
     "correctAnswer": 1
   },
   {
-    "question": "Wait here ___ I return.",
-    "options": ["unless", "until", "though", "since", "if"],
+    "question": "I differ ___ you on this point.",
+    "options": ["from", "with", "to", "against", "for"],
     "correctAnswer": 1
   },
   {
-    "question": "No sooner had he arrived ___ he started complaining.",
-    "options": ["when", "then", "that", "than", "while"],
-    "correctAnswer": 3
-  },
-  {
-    "question": "The climate of Italy is like ___ of Greece.",
-    "options": ["that", "these", "this", "those", "such"],
-    "correctAnswer": 0
-  },
-  {
-    "question": "Choose the word with the correct prefix for 'Fortune'.",
-    "options": ["Infortune", "Unfortune", "Misfortune", "Disfortune", "Nonfortune"],
-    "correctAnswer": 2
-  },
-  {
-    "question": "I saw him ___ the street.",
-    "options": ["cross", "crossed", "acrossing", "be crossing", "to cross"],
-    "correctAnswer": 0
-  },
-  {
-    "question": "She is addicted ___ social media.",
-    "options": ["to", "on", "with", "at", "for"],
-    "correctAnswer": 0
-  },
-  {
-    "question": "The synonym of 'Benevolent' is:",
-    "options": ["Cruel", "Kind", "Greedy", "Strong", "Fast"],
-    "correctAnswer": 1
-  },
-  {
-    "question": "He is superior ___ me in rank.",
+    "question": "This cloth is inferior ___ that one.",
     "options": ["than", "to", "from", "over", "by"],
     "correctAnswer": 1
   },
   {
-    "question": "The word 'Alumnus' refers to:",
-    "options": ["Male graduate", "Female graduate", "Group of graduates", "School building", "Current student"],
+    "question": "Either you or he ___ mistaken.",
+    "options": ["is", "are", "am", "were", "have been"],
     "correctAnswer": 0
   },
   {
-    "question": "Which tense is used for a permanent truth?",
-    "options": ["Present continuous", "Past simple", "Present perfect", "Present simple", "Future simple"],
+    "question": "Make hay while the sun ___.",
+    "options": ["shines", "shone", "is shining", "will shine", "has shone"],
+    "correctAnswer": 0
+  },
+  {
+    "question": "He is the ___ of the two brothers.",
+    "options": ["smartest", "smarter", "smart", "more smart", "most smart"],
+    "correctAnswer": 1
+  },
+  {
+    "question": "She has been ill ___ Monday.",
+    "options": ["for", "since", "from", "on", "in"],
+    "correctAnswer": 1
+  },
+  {
+    "question": "You had better ___ a doctor.",
+    "options": ["to consult", "consult", "consulted", "consulting", "have consulted"],
+    "correctAnswer": 1
+  },
+  {
+    "question": "The police ___ looking into the matter.",
+    "options": ["is", "are", "was", "has", "will"],
+    "correctAnswer": 1
+  },
+  {
+    "question": "Identify the incorrect part: 'Two-thirds of the city are in ruins.'",
+    "options": ["Two-thirds", "of the", "city", "are", "in ruins"],
     "correctAnswer": 3
   },
   {
-    "question": "Identify the correctly punctuated sentence.",
-    "options": ["Wait, dont go.", "Wait! Don't go.", "Wait don't go!", "Wait? don't go.", "Wait. dont go!"],
-    "correctAnswer": 1
-  },
-  {
-    "question": "What is the plural of 'Criterion'?",
-    "options": ["Criterions", "Criterias", "Criteria", "Criteriones", "Criteri"],
-    "correctAnswer": 2
-  },
-  {
-    "question": "I prefer tea ___ coffee.",
-    "options": ["than", "to", "over", "instead", "against"],
-    "correctAnswer": 1
-  },
-  {
-    "question": "Which of these is a collective noun?",
-    "options": ["Boy", "Water", "Fleet", "Happiness", "Stone"],
-    "correctAnswer": 2
-  },
-  {
-    "question": "The child died ___ cholera.",
-    "options": ["by", "of", "with", "from", "for"],
-    "correctAnswer": 1
-  },
-  {
-    "question": "He ___ the office before I arrived.",
-    "options": ["leaves", "has left", "had left", "was leaving", "will leave"],
-    "correctAnswer": 2
-  },
-  {
-    "question": "One should keep ___ promise.",
-    "options": ["his", "their", "her", "one's", "our"],
-    "correctAnswer": 3
-  },
-  {
-    "question": "He is afraid ___ dogs.",
-    "options": ["with", "of", "at", "from", "by"],
+    "question": "One word substitution: 'A place where birds are kept.'",
+    "options": ["Apiary", "Aviary", "Zoo", "Aquarium", "Sanctuary"],
     "correctAnswer": 1
   }
 ]
