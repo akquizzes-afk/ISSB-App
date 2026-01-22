@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Verbal Tests - Psychological Assessment</title>
+    <title>Physics Tests - Psychological Assessment</title>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
     <script src="https://cdn.jsdelivr.net/npm/canvas-confetti@1.5.1/dist/confetti.browser.min.js"></script>
 <style>
@@ -769,7 +769,7 @@
             <div class="app-icon">
                 <i class="fas fa-comment-alt"></i>
             </div>
-            <div class="header-title">Verbal Tests</div>
+            <div class="header-title">Physics Tests</div>
         </div>
     </div>
 
@@ -779,13 +779,13 @@
             <div class="card">
                 <div class="card-header">
                     <i class="fas fa-info-circle"></i>
-                    <h2>Verbal Tests Instructions</h2>
+                    <h2>Physics Tests Instructions</h2>
                 </div>
                 <div class="card-body">
                     <div class="instructions-list">
                         <div class="instruction-item">
                             <div class="instruction-number">1</div>
-                            <div class="instruction-text">This test contains 84 multiple-choice questions to assess your verbal reasoning skills.</div>
+                            <div class="instruction-text">This test contains 84 multiple-choice questions to assess your physics reasoning skills.</div>
                         </div>
                         <div class="instruction-item">
                             <div class="instruction-number">2</div>
@@ -818,7 +818,7 @@
                     </div>
                     <button id="startTestBtn" class="btn">
                         <i class="fas fa-play-circle"></i>
-                        Start Verbal Test
+                        Start Physics Test
                     </button>
                 </div>
             </div>
@@ -829,7 +829,7 @@
             <div class="card">
                 <div class="card-header">
                     <i class="fas fa-comment-alt"></i>
-                    <h2>Verbal Test</h2>
+                    <h2>Physics Test</h2>
                 </div>
                 <div class="card-body">
                     <div class="question-display" id="currentQuestion">Loading question...</div>
@@ -874,7 +874,7 @@
                     </div>
                     
                     <h2 class="completion-title" id="completionTitle">Test Completed! 🎉</h2>
-                    <p class="completion-subtitle" id="completionSubtitle">You have successfully completed the Verbal Test</p>
+                    <p class="completion-subtitle" id="completionSubtitle">You have successfully completed the Physics Test</p>
                     
                     <!-- Results will be inserted here by JavaScript -->
                     <div id="resultsContainer"></div>
@@ -905,7 +905,7 @@
             totalQuestions: 84,
             timeLimit: 30 * 60 * 1000, // 30 minutes in milliseconds
             jsonFile: 'test1.json', // Will be in same folder as HTML file
-            title: 'Verbal Test',
+            title: 'Physics Test',
             passingPercentage: 50 // 50% required to pass
         };
 
@@ -1011,7 +1011,7 @@
                     for (let i = 0; i < TEST_CONFIG.totalQuestions; i++) {
                         const hasFiveOptions = Math.random() > 0.5;
                         sampleQuestions.push({
-                            question: `Sample Verbal Question ${i + 1}: Choose the word that best completes the sentence?`,
+                            question: `Sample Physics Question ${i + 1}: Choose the word that best completes the sentence?`,
                             options: hasFiveOptions 
                                 ? ['Option A', 'Option B', 'Option C', 'Option D', 'Option E']
                                 : ['Option A', 'Option B', 'Option C', 'Option D'],
@@ -1291,7 +1291,7 @@
                 // Update completion view
                 if (results.passed) {
                     completionTitle.textContent = 'Congratulations!';
-                    completionSubtitle.textContent = 'You passed the Verbal Test';
+                    completionSubtitle.textContent = 'You passed the Physics Test';
                     completionIcon.innerHTML = '<i class="fas fa-trophy"></i>';
                     
                     // Show confetti
@@ -1354,7 +1354,7 @@
                 
                 // Reset completion view
                 completionTitle.textContent = 'Test Completed! 🎉';
-                completionSubtitle.textContent = 'You have successfully completed the Verbal Test';
+                completionSubtitle.textContent = 'You have successfully completed the Physics Test';
                 completionIcon.innerHTML = '<i class="fas fa-trophy"></i>';
                 
                 // Clear results
@@ -1365,7 +1365,7 @@
             });
             
             homeBtn.addEventListener('click', function() {
-                window.location.href = 'verbal-tests.html';
+                window.location.href = 'physics-tests.html';
             });
             
             prevBtn.addEventListener('click', prevQuestion);
@@ -1392,7 +1392,7 @@
         });
     </script>
     <script>
-    window.currentPage = 'initials/verbal-tests/test1/test1.html';
+    window.currentPage = 'initials/physics-tests/test1/test1.html';
 </script>
 </body>
 </html>

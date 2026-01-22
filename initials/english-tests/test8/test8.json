@@ -1,253 +1,255 @@
 [
   {
-    "question": "He suggested ___ me that I should go.",
-    "options": ["to", "for", "with", "at", "by"],
-    "correctAnswer": 0
-  },
-  {
-    "question": "Identify the error: 'Please return back the book.'",
-    "options": ["Please", "return", "back", "the book", "No error"],
-    "correctAnswer": 2
-  },
-  {
-    "question": "The synonym of 'Candid' is:",
-    "options": ["Frank", "Secretive", "Rude", "Dishonest", "Biased"],
-    "correctAnswer": 0
-  },
-  {
-    "question": "She is sitting ___ the shade of the tree.",
-    "options": ["under", "in", "below", "beneath", "at"],
-    "correctAnswer": 1
-  },
-  {
-    "question": "Neither of the two boys ___ done it.",
-    "options": ["have", "has", "are", "were", "having"],
-    "correctAnswer": 1
-  },
-  {
-    "question": "Choose the correct sentence.",
-    "options": ["I and he are friends.", "He and I are friends.", "I and he is friends.", "He and I am friends.", "Me and him are friends."],
-    "correctAnswer": 1
-  },
-  {
-    "question": "A number of students ___ present.",
-    "options": ["is", "was", "has been", "are", "had"],
+    "question": "Only by working hard ___ succeed in this competitive field.",
+    "options": ["will you", "you will", "you can", "can you", "you might"],
     "correctAnswer": 3
   },
   {
-    "question": "The number of students ___ increasing.",
-    "options": ["are", "were", "have been", "is", "had"],
-    "correctAnswer": 3
-  },
-  {
-    "question": "___ knowledge is dangerous.",
-    "options": ["A little", "Little", "The little", "Few", "A few"],
-    "correctAnswer": 0
-  },
-  {
-    "question": "He died ___ cholera.",
-    "options": ["from", "of", "with", "by", "in"],
+    "question": "He is not only a good painter ___ a talented musician.",
+    "options": ["and also", "but also", "but as well", "as well as", "and too"],
     "correctAnswer": 1
   },
   {
-    "question": "He died ___ loss of blood.",
-    "options": ["of", "from", "with", "by", "in"],
-    "correctAnswer": 1
-  },
-  {
-    "question": "One word substitution: 'Murder of a king.'",
-    "options": ["Regicide", "Homicide", "Patricide", "Suicide", "Fratricide"],
-    "correctAnswer": 0
-  },
-  {
-    "question": "He is addicted ___ smoking.",
-    "options": ["with", "of", "to", "for", "in"],
+    "question": "It is essential that every student ___ their own laptop.",
+    "options": ["brings", "brought", "bring", "will bring", "bringing"],
     "correctAnswer": 2
   },
   {
-    "question": "Identify the incorrect part: 'I am hearing a noise.'",
-    "options": ["I", "am hearing", "a", "noise", "No error"],
-    "correctAnswer": 1
-  },
-  {
-    "question": "She resembles ___ her mother.",
-    "options": ["with", "to", "of", "by", "No preposition needed"],
+    "question": "She acts as though she ___ the owner of the company.",
+    "options": ["is", "was", "has been", "be", "were"],
     "correctAnswer": 4
   },
   {
-    "question": "The antonym of 'Optimist' is:",
-    "options": ["Pessimist", "Realist", "Idealist", "Cynic", "Skeptic"],
+    "question": "Had I known the truth, I ___ acted differently.",
+    "options": ["would have", "will have", "would", "had", "did"],
     "correctAnswer": 0
   },
   {
-    "question": "Divide the apple ___ the two brothers.",
-    "options": ["among", "between", "with", "to", "for"],
-    "correctAnswer": 1
-  },
-  {
-    "question": "Divide the apple ___ the three brothers.",
-    "options": ["between", "among", "with", "to", "for"],
-    "correctAnswer": 1
-  },
-  {
-    "question": "Identify the correct spelling.",
-    "options": ["Lieutenant", "Leutenant", "Lieutenent", "Leiutenant", "Liutenant"],
+    "question": "Not until the rain stopped ___ leave the shelter.",
+    "options": ["did we", "we did", "we could", "could we", "we can"],
     "correctAnswer": 0
   },
   {
-    "question": "He prefers walking ___ swimming.",
-    "options": ["than", "over", "to", "from", "for"],
+    "question": "The higher you climb, ___ the air becomes.",
+    "options": ["cooler", "the cooler", "coolest", "the coolest", "more cool"],
+    "correctAnswer": 1
+  },
+  {
+    "question": "Neither the manager nor the employees ___ aware of the changes.",
+    "options": ["is", "was", "were", "has been", "are"],
     "correctAnswer": 2
   },
   {
-    "question": "Suppose if it rains, what shall we do? (Identify error)",
-    "options": ["Suppose", "if", "it rains", "what shall", "we do"],
-    "correctAnswer": 1
+    "question": "The committee ___ divided on the issue of budget allocation.",
+    "options": ["is", "was", "has been", "were", "be"],
+    "correctAnswer": 3
   },
   {
-    "question": "He is angry ___ me.",
-    "options": ["at", "on", "with", "for", "to"],
+    "question": "I would rather you ___ tomorrow instead of today.",
+    "options": ["come", "will come", "came", "have come", "coming"],
     "correctAnswer": 2
   },
   {
-    "question": "He is angry ___ my behavior.",
-    "options": ["with", "at", "on", "for", "to"],
+    "question": "Scarcely had we stepped out ___ it started raining.",
+    "options": ["than", "then", "after", "while", "when"],
+    "correctAnswer": 4
+  },
+  {
+    "question": "To ___ the truth, he was not present at the scene.",
+    "options": ["tell", "say", "speak", "state", "utter"],
+    "correctAnswer": 0
+  },
+  {
+    "question": "She is one of those people who ___ always complaining.",
+    "options": ["is", "was", "has been", "are", "be"],
+    "correctAnswer": 3
+  },
+  {
+    "question": "Whatever ___ happen, I will support you.",
+    "options": ["may", "can", "might", "will", "could"],
+    "correctAnswer": 0
+  },
+  {
+    "question": "Little ___ that he was being watched.",
+    "options": ["he knew", "did he know", "he knows", "does he know", "he known"],
     "correctAnswer": 1
   },
   {
-    "question": "___ his riches, he is sad.",
-    "options": ["Although", "Despite", "However", "Because", "Since"],
+    "question": "It is high time we ___ the project.",
+    "options": ["finish", "will finish", "finished", "have finished", "are finishing"],
+    "correctAnswer": 2
+  },
+  {
+    "question": "If I ___ you, I would accept the offer.",
+    "options": ["am", "was", "be", "were", "have been"],
+    "correctAnswer": 3
+  },
+  {
+    "question": "The number of applicants ___ increasing every year.",
+    "options": ["are", "were", "have been", "seem", "is"],
+    "correctAnswer": 4
+  },
+  {
+    "question": "Either you or he ___ responsible for the error.",
+    "options": ["are", "is", "am", "were", "have been"],
     "correctAnswer": 1
   },
   {
-    "question": "The boy ___ stole the watch was caught.",
-    "options": ["whom", "who", "which", "whose", "that"],
+    "question": "The jury ___ finally reached a unanimous verdict.",
+    "options": ["has", "have", "are", "were", "be"],
+    "correctAnswer": 0
+  },
+  {
+    "question": "Unless you ___ harder, you will not pass.",
+    "options": ["will work", "did not work", "do not work", "work", "worked"],
+    "correctAnswer": 3
+  },
+  {
+    "question": "___ knowledge is a dangerous thing.",
+    "options": ["Little", "A little", "The little", "Few", "A few"],
     "correctAnswer": 1
+  },
+  {
+    "question": "He treats me as if I ___ his servant.",
+    "options": ["am", "was", "have been", "will be", "were"],
+    "correctAnswer": 4
+  },
+  {
+    "question": "Suppose ___ you lose your job, what will you do?",
+    "options": ["if", "that", "whether", "in case", "(No word needed)"],
+    "correctAnswer": 4
+  },
+  {
+    "question": "Not only ___ the game, but he also broke the record.",
+    "options": ["did he win", "he won", "he did win", "won he", "he wins"],
+    "correctAnswer": 0
+  },
+  {
+    "question": "More than one student ___ absent today.",
+    "options": ["are", "was", "were", "have been", "be"],
+    "correctAnswer": 1
+  },
+  {
+    "question": "Hardly had I reached the station ___ the train left.",
+    "options": ["than", "then", "when", "after", "before"],
+    "correctAnswer": 2
+  },
+  {
+    "question": "Many a man ___ tried to climb this mountain.",
+    "options": ["have", "are", "were", "has", "having"],
+    "correctAnswer": 3
+  },
+  {
+    "question": "The captain, along with the players, ___ practicing.",
+    "options": ["are", "were", "have been", "be", "is"],
+    "correctAnswer": 4
+  },
+  {
+    "question": "Lest you ___ fall, hold the railing.",
+    "options": ["should", "would", "could", "might", "may"],
+    "correctAnswer": 0
+  },
+  {
+    "question": "The furniture in this room ___ old.",
+    "options": ["are", "is", "were", "have been", "seem"],
+    "correctAnswer": 1
+  },
+  {
+    "question": "We look forward to ___ from you.",
+    "options": ["hear", "heard", "hearing", "have heard", "be hearing"],
+    "correctAnswer": 2
+  },
+  {
+    "question": "Identify the error: 'Ten miles are a long distance.'",
+    "options": ["Ten", "miles", "are", "a long", "distance"],
+    "correctAnswer": 2
+  },
+  {
+    "question": "Choose the correct sentence.",
+    "options": ["I, you, and he are friends.", "You, he, and I are friends.", "He, I, and you are friends.", "You, I, and he are friends.", "I, he, and you are friends."],
+    "correctAnswer": 1
+  },
+  {
+    "question": "If it ___, we shall stay at home.",
+    "options": ["rain", "rained", "rains", "will rain", "raining"],
+    "correctAnswer": 2
+  },
+  {
+    "question": "Bread and butter ___ his only food.",
+    "options": ["are", "were", "have been", "is", "be"],
+    "correctAnswer": 3
+  },
+  {
+    "question": "The rich ___ not always happy.",
+    "options": ["is", "was", "has been", "excludes", "are"],
+    "correctAnswer": 4
+  },
+  {
+    "question": "Identify the incorrect part: 'He has return back the book.'",
+    "options": ["return back", "He has", "the book", "No error", "return"],
+    "correctAnswer": 0
+  },
+  {
+    "question": "He demanded that the letter ___ written immediately.",
+    "options": ["is", "be", "was", "has been", "will be"],
+    "correctAnswer": 1
+  },
+  {
+    "question": "___ you work hard, you cannot succeed.",
+    "options": ["If", "Until", "Unless", "When", "As"],
+    "correctAnswer": 2
+  },
+  {
+    "question": "Identify the error: 'One of the boy is missing.'",
+    "options": ["One", "of the", "boy", "is", "missing"],
+    "correctAnswer": 2
+  },
+  {
+    "question": "Physics ___ a difficult subject for many.",
+    "options": ["are", "were", "have", "is", "seem"],
+    "correctAnswer": 3
+  },
+  {
+    "question": "Five hours ___ too long to wait.",
+    "options": ["are", "were", "have been", "seem", "is"],
+    "correctAnswer": 4
+  },
+  {
+    "question": "He died ___ overeating.",
+    "options": ["from", "of", "by", "with", "in"],
+    "correctAnswer": 0
+  },
+  {
+    "question": "The police ___ investigating the matter.",
+    "options": ["is", "are", "was", "has been", "will"],
+    "correctAnswer": 1
+  },
+  {
+    "question": "I prefer coffee ___ tea.",
+    "options": ["than", "over", "to", "from", "rather"],
+    "correctAnswer": 2
   },
   {
     "question": "One should keep ___ promises.",
-    "options": ["his", "her", "one's", "their", "its"],
-    "correctAnswer": 2
-  },
-  {
-    "question": "I doubt ___ he will pass.",
-    "options": ["that", "if", "whether", "what", "which"],
-    "correctAnswer": 1
-  },
-  {
-    "question": "I do not doubt ___ he will pass.",
-    "options": ["if", "whether", "that", "what", "which"],
-    "correctAnswer": 2
-  },
-  {
-    "question": "The cattle ___ in the field.",
-    "options": ["is", "are", "was", "has", "had"],
-    "correctAnswer": 1
-  },
-  {
-    "question": "Physics ___ a difficult subject.",
-    "options": ["are", "were", "is", "have", "seem"],
-    "correctAnswer": 2
-  },
-  {
-    "question": "She placed the book ___ the table.",
-    "options": ["in", "at", "on", "to", "with"],
-    "correctAnswer": 2
-  },
-  {
-    "question": "The cat jumped ___ the table.",
-    "options": ["on", "upon", "in", "at", "by"],
-    "correctAnswer": 1
-  },
-  {
-    "question": "Identify the error: 'One of my friend is a doctor.'",
-    "options": ["One", "of my", "friend", "is", "a doctor"],
-    "correctAnswer": 2
-  },
-  {
-    "question": "He is ___ M.A. in English.",
-    "options": ["a", "an", "the", "one", "no article"],
-    "correctAnswer": 1
-  },
-  {
-    "question": "Copper is ___ useful metal.",
-    "options": ["an", "a", "the", "some", "any"],
-    "correctAnswer": 1
-  },
-  {
-    "question": "Choose the synonym of 'Diligence'.",
-    "options": ["Laziness", "Industry", "Indifference", "Lethargy", "Apathy"],
-    "correctAnswer": 1
-  },
-  {
-    "question": "She has been working ___ morning.",
-    "options": ["for", "from", "since", "until", "by"],
-    "correctAnswer": 2
-  },
-  {
-    "question": "He will retire ___ a month.",
-    "options": ["in", "on", "at", "by", "for"],
-    "correctAnswer": 0
-  },
-  {
-    "question": "Do not look down ___ the poor.",
-    "options": ["at", "on", "upon", "for", "by"],
-    "correctAnswer": 2
-  },
-  {
-    "question": "We should abide ___ the decision.",
-    "options": ["with", "to", "by", "in", "on"],
-    "correctAnswer": 2
-  },
-  {
-    "question": "The police ___ investigating.",
-    "options": ["is", "was", "has", "are", "had"],
+    "options": ["his", "her", "their", "one's", "its"],
     "correctAnswer": 3
   },
   {
-    "question": "Mathematics ___ my favorite subject.",
-    "options": ["are", "were", "is", "have", "seem"],
-    "correctAnswer": 2
+    "question": "I suggest that he ___ the meeting.",
+    "options": ["attends", "attended", "will attend", "attending", "attend"],
+    "correctAnswer": 4
   },
   {
-    "question": "Ten kilometers ___ a long way.",
-    "options": ["are", "were", "is", "have", "seem"],
-    "correctAnswer": 2
-  },
-  {
-    "question": "A pair of shoes ___ bought.",
-    "options": ["were", "are", "have", "was", "had"],
+    "question": "Identify the error: 'She is my cousin sister.'",
+    "options": ["She is", "my", "cousin", "sister", "No error"],
     "correctAnswer": 3
   },
   {
-    "question": "My spectacles ___ missing.",
-    "options": ["is", "was", "has", "are", "had"],
-    "correctAnswer": 3
-  },
-  {
-    "question": "Identify the correct sentence.",
-    "options": ["The gold is a precious metal.", "Gold is a precious metal.", "A gold is a precious metal.", "An gold is a precious metal.", "Gold are a precious metal."],
-    "correctAnswer": 1
-  },
-  {
-    "question": "He has no taste ___ music.",
-    "options": ["of", "in", "for", "to", "with"],
-    "correctAnswer": 2
-  },
-  {
-    "question": "Beware ___ dogs.",
-    "options": ["from", "of", "with", "to", "by"],
-    "correctAnswer": 1
-  },
-  {
-    "question": "He is good ___ English.",
-    "options": ["in", "on", "at", "with", "for"],
-    "correctAnswer": 2
-  },
-  {
-    "question": "Choose the antonym of 'Acquit'.",
-    "options": ["Convict", "Release", "Free", "Pardon", "Absolve"],
-    "correctAnswer": 0
+    "question": "He is senior ___ me.",
+    "options": ["than", "from", "against", "over", "to"],
+    "correctAnswer": 4
   }
 ]
+
+
 
