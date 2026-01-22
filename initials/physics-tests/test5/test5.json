@@ -1,0 +1,252 @@
+[
+  {
+    "question": "Which of the following physical quantities is a vector?",
+    "options": ["Angular momentum", "Electric potential", "Heat", "Time"],
+    "correctAnswer": 0
+  },
+  {
+    "question": "The dimensions of surface tension are:",
+    "options": ["$[M T^{-2}]$","$[M L T^{-2}]$","$[M L^{-1} T^{-2}]$","$[M L^0 T^{-1}]$"],
+    "correctAnswer": 0
+  },
+  {
+    "question": "A car accelerates from rest at $2$ m/s$^2$ for $10$ seconds. The total distance covered is:",
+    "options": ["100 m", "200 m", "50 m", "150 m"],
+    "correctAnswer": 0
+  },
+  {
+    "question": "The angle of projection for which the horizontal range of a projectile is equal to its maximum height is:",
+    "options": ["$\\tan^{-1}(4)$", "$\\tan^{-1}(2)$", "$\\tan^{-1}(1)$", "$45^\\circ$"],
+    "correctAnswer": 0
+  },
+  {
+    "question": "A force of $10$ N acts on a body of mass $5$ kg for $2$ seconds. The change in momentum is:",
+    "options": ["20 kg m/s", "10 kg m/s", "5 kg m/s", "40 kg m/s"],
+    "correctAnswer": 0
+  },
+  {
+    "question": "Which of the following is an example of a perfectly inelastic collision?",
+    "options": ["A bullet embedded in a block", "Two billiard balls colliding", "Electron-proton scattering", "Bouncing of a rubber ball"],
+    "correctAnswer": 0
+  },
+  {
+    "question": "The value of gravitational acceleration $g$ is maximum at:",
+    "options": ["The poles", "The equator", "The center of the Earth", "Mount Everest"],
+    "correctAnswer": 0
+  },
+  {
+    "question": "The Bernoulli equation is a statement of the conservation of:",
+    "options": ["Energy", "Mass", "Linear momentum", "Angular momentum"],
+    "correctAnswer": 0
+  },
+  {
+    "question": "In a transverse wave, the particles of the medium vibrate:",
+    "options": ["Perpendicular to the wave direction", "Parallel to the wave direction", "In a circular path", "They do not vibrate"],
+    "correctAnswer": 0
+  },
+  {
+    "question": "The absolute zero temperature is defined as:",
+    "options": ["$-273.15^\\circ$C", "$0^\\circ$C", "$273.15$ K", "$-459^\\circ$C"],
+    "correctAnswer": 0
+  },
+  {
+    "question": "The electric potential at a point on the equatorial line of an electric dipole is:",
+    "options": ["Zero", "Maximum", "Infinite", "Negative"],
+    "correctAnswer": 0
+  },
+  {
+    "question": "The resistance of a semiconductor _________ as the temperature increases.",
+    "options": ["Decreases", "Increases", "Remains constant", "First increases then decreases"],
+    "correctAnswer": 0
+  },
+  {
+    "question": "A ray of light enters from glass to air. The critical angle is least for which color?",
+    "options": ["Violet", "Red", "Yellow", "Green"],
+    "correctAnswer": 0
+  },
+  {
+    "question": "The work done in pulling a spring of spring constant $k$ by a distance $x$ from its equilibrium position is:",
+    "options": ["$kx^2$", "$\\frac{1}{2}kx^2$", "$\\frac{1}{2}kx$", "$2kx^2$"],
+    "correctAnswer": 1
+  },
+  {
+    "question": "A convex lens of focal length $20$ cm is placed in contact with a concave lens of focal length $40$ cm. The power of the combination is:",
+    "options": ["$+5$ D", "$+2.5$ D", "$-2.5$ D", "$+7.5$ D"],
+    "correctAnswer": 1
+  },
+  {
+    "question": "The ratio of the speed of sound in Hydrogen to that in Oxygen at the same temperature is:",
+    "options": ["$1:4$", "$4:1$", "$1:16$", "$16:1$"],
+    "correctAnswer": 1
+  },
+  {
+    "question": "The r.m.s. velocity of a gas is $v$. If the absolute temperature is tripled and the volume is doubled, the new r.m.s. velocity is:",
+    "options": ["$3v$", "$\\sqrt{3}v$", "$2v$", "$v/\\sqrt{3}$"],
+    "correctAnswer": 1
+  },
+  {
+    "question": "A charge $Q$ is divided into two parts $q$ and $Q-q$. For the electrostatic force between them to be maximum, the ratio $Q/q$ should be:",
+    "options": ["1", "2", "0.5", "4"],
+    "correctAnswer": 1
+  },
+  {
+    "question": "Two parallel wires carrying currents in the same direction _________ each other.",
+    "options": ["Repel", "Attract", "Do not affect", "Rotate"],
+    "correctAnswer": 1
+  },
+  {
+    "question": "The energy of an electron in the $n^{th}$ orbit of a Hydrogen-like atom is proportional to:",
+    "options": ["$Z/n^2$", "$Z^2/n^2$", "$Z/n$", "$Z^2/n$"],
+    "correctAnswer": 1
+  },
+  {
+    "question": "In a nuclear reactor, control rods are usually made of:",
+    "options": ["Uranium", "Cadmium", "Graphite", "Plutonium"],
+    "correctAnswer": 1
+  },
+  {
+    "question": "Which of the following is not an electromagnetic wave?",
+    "options": ["X-ray", "Beta-ray", "Gamma-ray", "Micro-wave"],
+    "correctAnswer": 1
+  },
+  {
+    "question": "The SI unit of magnetic induction is:",
+    "options": ["Weber", "Tesla", "Oersted", "Gauss"],
+    "correctAnswer": 1
+  },
+  {
+    "question": "The magnifying power of a simple microscope can be increased if the focal length of the lens is:",
+    "options": ["Increased", "Decreased", "Kept constant", "Doubled"],
+    "correctAnswer": 1
+  },
+  {
+    "question": "The wavelength of a $100$ eV electron is approximately:",
+    "options": ["$1.2$ Å", "$12$ Å", "$0.12$ Å", "$120$ Å"],
+    "correctAnswer": 1
+  },
+  {
+    "question": "A body is thrown vertically upwards. What is the direction of its acceleration during its upward journey?",
+    "options": ["Upwards", "Downwards", "Zero", "Horizontal"],
+    "correctAnswer": 1
+  },
+  {
+    "question": "The time period of a simple pendulum on a freely falling lift is:",
+    "options": ["Zero", "Finite", "Infinite", "Same as on the ground"],
+    "correctAnswer": 2
+  },
+  {
+    "question": "The weight of an object at the center of the Earth is:",
+    "options": ["Infinite", "Same as on the surface", "Zero", "Twice the surface weight"],
+    "correctAnswer": 2
+  },
+  {
+    "question": "Hydraulic brakes work on the principle of:",
+    "options": ["Archimedes' principle", "Bernoulli's principle", "Pascal's law", "Newton's law"],
+    "correctAnswer": 2
+  },
+  {
+    "question": "The color of light that travels fastest in glass is:",
+    "options": ["Blue", "Green", "Red", "Violet"],
+    "correctAnswer": 2
+  },
+  {
+    "question": "A capacitor blocks _________ but allows _________ to pass through.",
+    "options": ["AC, DC", "High frequency, Low frequency", "DC, AC", "Low voltage, High voltage"],
+    "correctAnswer": 2
+  },
+  {
+    "question": "The material of the wire of a fuse should have:",
+    "options": ["High melting point", "High resistance", "Low melting point", "Low resistance"],
+    "correctAnswer": 2
+  },
+  {
+    "question": "The working of an optical fiber is based on:",
+    "options": ["Total internal reflection", "Scattering", "Total internal reflection", "Diffraction"],
+    "correctAnswer": 2
+  },
+  {
+    "question": "The de-Broglie wavelength of a particle is $\\lambda$. If its momentum is doubled, the new wavelength is:",
+    "options": ["$2\\lambda$", "$4\\lambda$", "$\\lambda/2$", "$\\lambda/4$"],
+    "correctAnswer": 2
+  },
+  {
+    "question": "In a p-n junction diode, the width of the depletion layer _________ under forward bias.",
+    "options": ["Increases", "Remains same", "Decreases", "Becomes zero"],
+    "correctAnswer": 2
+  },
+  {
+    "question": "The frequency of AC mains in most countries (including Pakistan) is:",
+    "options": ["$100$ Hz", "$60$ Hz", "$50$ Hz", "$10$ Hz"],
+    "correctAnswer": 2
+  },
+  {
+    "question": "Which of the following gates is an 'All or Nothing' gate (Output is 1 only if all inputs are 1)?",
+    "options": ["OR", "NOR", "AND", "NAND"],
+    "correctAnswer": 2
+  },
+  {
+    "question": "The binding energy per nucleon is highest for:",
+    "options": ["Uranium", "Helium", "Iron", "Hydrogen"],
+    "correctAnswer": 2
+  },
+  {
+    "question": "If a body is moving with a constant velocity, its acceleration is:",
+    "options": ["Increasing", "Decreasing", "Zero", "Constant but non-zero"],
+    "correctAnswer": 2
+  },
+  {
+    "question": "The escape velocity of a body from Earth depends on its mass $m$ as:",
+    "options": ["$m^1$", "$m^2$", "$m^{-1}$", "$m^0$"],
+    "correctAnswer": 3
+  },
+  {
+    "question": "The torque acting on a body is the rate of change of its:",
+    "options": ["Linear momentum", "Kinetic energy", "Mass", "Angular momentum"],
+    "correctAnswer": 3
+  },
+  {
+    "question": "A geostationary satellite has an orbital period of:",
+    "options": ["12 hours", "84 minutes", "90 minutes", "24 hours"],
+    "correctAnswer": 3
+  },
+  {
+    "question": "The unit of viscosity is:",
+    "options": ["Newton/m", "Pascal-second", "Joule/m", "Poiseuille"],
+    "correctAnswer": 3
+  },
+  {
+    "question": "Which law of thermodynamics defines the concept of temperature?",
+    "options": ["First law", "Second law", "Third law", "Zeroth law"],
+    "correctAnswer": 3
+  },
+  {
+    "question": "The electric field inside a hollow spherical conductor is:",
+    "options": ["$\\\\frac{1}{r^2}$", "Infinite", "Constant", "Zero"],
+    "correctAnswer": 3
+  },
+  {
+    "question": "A galvanometer can be converted into a voltmeter by connecting a _________ in _________.",
+    "options": ["Low resistance, parallel", "Low resistance, series", "High resistance, parallel", "High resistance, series"],
+    "correctAnswer": 3
+  },
+  {
+    "question": "The magnetic field at a point on the axis of a long solenoid is:",
+    "options": ["Zero", "$\\\\mu_0 I / 2$", "$\\\\mu_0 N I / L$", "$\\\\mu_0 n I$"],
+    "correctAnswer": 3
+  },
+  {
+    "question": "Which of the following is used as a lubricant in heavy machinery?",
+    "options": ["Oil", "Water", "Grease", "Graphite"],
+    "correctAnswer": 3
+  },
+  {
+    "question": "The speed of light in water (refractive index $4/3$) is:",
+    "options": ["$3 \\\\times 10^8$ m/s", "$2 \\\\times 10^8$ m/s", "$4 \\\\times 10^8$ m/s", "$2.25 \\\\times 10^8$ m/s"],
+    "correctAnswer": 3
+  },
+  {
+    "question": "The primary cause of the Greenhouse effect is:",
+    "options": ["Nitrogen", "Oxygen", "Argon", "Carbon dioxide"],
+    "correctAnswer": 3
+  }
+]

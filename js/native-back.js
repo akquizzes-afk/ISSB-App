@@ -106,6 +106,11 @@ function attachBackButtonHandler() {
 '/initials/physics-tests/test3/test3.html': '/initials/physics-tests/physics-tests.html',
 '/initials/physics-tests/test4/test4.html': '/initials/physics-tests/physics-tests.html',
 '/initials/physics-tests/test5/test5.html': '/initials/physics-tests/physics-tests.html',
+'/initials/physics-tests/test6/test6.html': '/initials/physics-tests/physics-tests.html',
+'/initials/physics-tests/test7/test7.html': '/initials/physics-tests/physics-tests.html',
+'/initials/physics-tests/test8/test8.html': '/initials/physics-tests/physics-tests.html',
+'/initials/physics-tests/test9/test9.html': '/initials/physics-tests/physics-tests.html',
+'/initials/physics-tests/test10/test10.html': '/initials/physics-tests/physics-tests.html',
     // Coming Soon page
     '/coming-soon.html': '/initials/initial-tests.html'
 };

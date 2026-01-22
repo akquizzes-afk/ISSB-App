@@ -1,0 +1,253 @@
+[
+  {
+    "question": "Which of the following is a dimensionless quantity?",
+    "options": ["Strain", "Stress", "Specific heat", "Quantity of heat"],
+    "correctAnswer": 0
+  },
+  {
+    "question": "A body starts from rest and moves with a constant acceleration. The ratio of distance covered by the body in $n^{th}$ second to that covered in $n$ seconds is:",
+    "options": ["$\\frac{2n-1}{n^2}$", "$\\frac{n^2}{2n-1}$", "$\\frac{2n-1}{n}$", "$\\frac{n}{2n-1}$"],
+    "correctAnswer": 0
+  },
+  {
+    "question": "The angle between $\\vec{A} = \\hat{i} + \\hat{j}$ and $\\vec{B} = \\hat{i} - \\hat{j}$ is:",
+    "options": ["$45^\\circ$", "$90^\\circ$", "$0^\\circ$", "$180^\\circ$"],
+    "correctAnswer": 1
+  },
+  {
+    "question": "If the momentum of a body is doubled, its kinetic energy becomes:",
+    "options": ["Twice", "Half", "Four times", "Eight times"],
+    "correctAnswer": 2
+  },
+  {
+    "question": "Newton's second law of motion gives a measure of:",
+    "options": ["Acceleration", "Force", "Momentum", "Angular momentum"],
+    "correctAnswer": 1
+  },
+  {
+    "question": "A balloon is filled with hydrogen. For most efficient lifting, the balloon should be at:",
+    "options": ["High altitude and low temperature", "Low altitude and high temperature", "Low altitude and low temperature", "High altitude and high temperature"],
+    "correctAnswer": 1
+  },
+  {
+    "question": "The time period of a simple pendulum is $T$. If its length is increased by 4 times, the new time period will be:",
+    "options": ["$T$", "$2T$", "$4T$", "$T/2$"],
+    "correctAnswer": 1
+  },
+  {
+    "question": "Bernoulli's theorem is based on the principle of conservation of:",
+    "options": ["Mass", "Momentum", "Energy", "Angular momentum"],
+    "correctAnswer": 2
+  },
+  {
+    "question": "The speed of sound in a gas is $v$. If the pressure of the gas is doubled at constant temperature, the speed of sound will be:",
+    "options": ["$v$", "$2v$", "$v/2$", "$4v$"],
+    "correctAnswer": 0
+  },
+  {
+    "question": "In an isothermal process, which of the following remains constant?",
+    "options": ["Pressure", "Volume", "Temperature", "Internal energy"],
+    "correctAnswer": 2
+  },
+  {
+    "question": "A convex lens is dipped in a liquid whose refractive index is equal to the refractive index of the lens. Then its focal length will:",
+    "options": ["Become zero", "Become infinite", "Remain unchanged", "Decrease"],
+    "correctAnswer": 1
+  },
+  {
+    "question": "The resistance of an ideal ammeter is:",
+    "options": ["Zero", "Very low", "Very high", "Infinite"],
+    "correctAnswer": 0
+  },
+  {
+    "question": "Which of the following electromagnetic waves has the shortest wavelength?",
+    "options": ["Radio waves", "Microwaves", "X-rays", "Gamma rays"],
+    "correctAnswer": 3
+  },
+  {
+    "question": "The unit of electric flux is:",
+    "options": ["V m", "N/C", "V/m", "Weber"],
+    "correctAnswer": 0
+  },
+  {
+    "question": "A wire of resistance $R$ is cut into $n$ equal parts. These parts are then connected in parallel. The equivalent resistance of the combination is:",
+    "options": ["$nR$", "$R/n$", "$n^2 R$", "$R/n^2$"],
+    "correctAnswer": 3
+  },
+  {
+    "question": "Which logic gate is known as a universal gate?",
+    "options": ["AND", "OR", "NAND", "NOT"],
+    "correctAnswer": 2
+  },
+  {
+    "question": "The mass of a photon at rest is:",
+    "options": ["Zero", "$h\\nu / c^2$", "$h / \\lambda c$", "Infinite"],
+    "correctAnswer": 0
+  },
+  {
+    "question": "In which of the following states of matter is the speed of sound maximum?",
+    "options": ["Air", "Water", "Steel", "Vacuum"],
+    "correctAnswer": 2
+  },
+  {
+    "question": "A force of 5 N acts on a body for 2 seconds. The change in momentum is:",
+    "options": ["10 kg m/s", "2.5 kg m/s", "5 kg m/s", "20 kg m/s"],
+    "correctAnswer": 0
+  },
+  {
+    "question": "The escape velocity from the Earth is 11.2 km/s. If the mass of the planet is the same but the radius is 1/4th of the Earth, the escape velocity will be:",
+    "options": ["11.2 km/s", "22.4 km/s", "5.6 km/s", "44.8 km/s"],
+    "correctAnswer": 1
+  },
+  {
+    "question": "The magnetic field inside a long straight current-carrying solenoid is:",
+    "options": ["Zero", "Uniform", "Decreasing towards the ends", "Increasing towards the ends"],
+    "correctAnswer": 1
+  },
+  {
+    "question": "Which mirror is used as a rear-view mirror in vehicles?",
+    "options": ["Plane mirror", "Concave mirror", "Convex mirror", "Parabolic mirror"],
+    "correctAnswer": 2
+  },
+  {
+    "question": "One Kilowatt-hour is equal to:",
+    "options": ["$3.6 \\times 10^3$ J", "$3.6 \\times 10^4$ J", "$3.6 \\times 10^5$ J", "$3.6 \\times 10^6$ J"],
+    "correctAnswer": 3
+  },
+  {
+    "question": "The process of emission of electrons from a metal surface when light falls on it is called:",
+    "options": ["Thermionic emission", "Photoelectric emission", "Secondary emission", "Field emission"],
+    "correctAnswer": 1
+  },
+  {
+    "question": "If the temperature of a hot body is doubled, the power radiated by it increases by a factor of:",
+    "options": ["2", "4", "8", "16"],
+    "correctAnswer": 3
+  },
+  {
+    "question": "The core of an electromagnet is made of:",
+    "options": ["Soft iron", "Steel", "Copper", "Aluminum"],
+    "correctAnswer": 0
+  },
+  {
+    "question": "Surface tension of a liquid decreases with:",
+    "options": ["Decrease in temperature", "Increase in temperature", "Increase in surface area", "Decrease in surface area"],
+    "correctAnswer": 1
+  },
+  {
+    "question": "Two charges are placed at a distance $d$ apart. If a glass slab is placed between them, the force between the charges will:",
+    "options": ["Increase", "Decrease", "Remain same", "Become zero"],
+    "correctAnswer": 1
+  },
+  {
+    "question": "The energy stored in a capacitor of capacitance $C$ and potential $V$ is:",
+    "options": ["$CV$", "$\\frac{1}{2} CV^2$", "$\\frac{1}{2} C^2 V$", "$CV^2$"],
+    "correctAnswer": 1
+  },
+  {
+    "question": "The refractive index of water is 1.33. The speed of light in water is approximately:",
+    "options": ["$3 \\times 10^8$ m/s", "$2.25 \\times 10^8$ m/s", "$4 \\times 10^8$ m/s", "$1.5 \\times 10^8$ m/s"],
+    "correctAnswer": 1
+  },
+  {
+    "question": "A transformer works on the principle of:",
+    "options": ["Self induction", "Mutual induction", "Eddy currents", "Seebeck effect"],
+    "correctAnswer": 1
+  },
+  {
+    "question": "Which of the following transitions in a hydrogen atom emits a photon of the highest frequency?",
+    "options": ["$n=2$ to $n=1$", "$n=3$ to $n=2$", "$n=4$ to $n=3$", "$n=5$ to $n=4$"],
+    "correctAnswer": 0
+  },
+  {
+    "question": "The work done in moving a charge of 2 C across two points having a potential difference of 10 V is:",
+    "options": ["5 J", "20 J", "12 J", "0.2 J"],
+    "correctAnswer": 1
+  },
+  {
+    "question": "When a light ray travels from an optically denser medium to a rarer medium, it bends:",
+    "options": ["Towards the normal", "Away from the normal", "Not at all", "Back into the same medium"],
+    "correctAnswer": 1
+  },
+  {
+    "question": "The mass defect in a nuclear reaction is $0.01$ g. The energy released is:",
+    "options": ["$9 \\times 10^{11}$ J", "$9 \\times 10^{13}$ J", "$3 \\times 10^8$ J", "$1 \\times 10^{10}$ J"],
+    "correctAnswer": 0
+  },
+  {
+    "question": "Pascal is the unit for:",
+    "options": ["Force", "Energy", "Pressure", "Viscosity"],
+    "correctAnswer": 2
+  },
+  {
+    "question": "The frequency of direct current (DC) is:",
+    "options": ["50 Hz", "60 Hz", "Zero", "Infinite"],
+    "correctAnswer": 2
+  },
+  {
+    "question": "In a semiconductor, the forbidden energy gap is of the order of:",
+    "options": ["1 eV", "10 eV", "0.1 eV", "100 eV"],
+    "correctAnswer": 0
+  },
+  {
+    "question": "A person cannot see objects clearly beyond 2 meters. The defect of vision is:",
+    "options": ["Hypermetropia", "Myopia", "Presbyopia", "Astigmatism"],
+    "correctAnswer": 1
+  },
+  {
+    "question": "The time period of a satellite orbiting very close to the Earth's surface is approximately:",
+    "options": ["42 minutes", "84 minutes", "24 hours", "12 hours"],
+    "correctAnswer": 1
+  },
+  {
+    "question": "The work done by a centripetal force is always:",
+    "options": ["Positive", "Negative", "Zero", "Infinite"],
+    "correctAnswer": 2
+  },
+  {
+    "question": "Which of the following has the highest ionizing power?",
+    "options": ["Alpha particles", "Beta particles", "Gamma rays", "Neutrons"],
+    "correctAnswer": 0
+  },
+  {
+    "question": "The phenomenon of total internal reflection occurs when the angle of incidence is:",
+    "options": ["Less than critical angle", "Equal to critical angle", "Greater than critical angle", "Zero"],
+    "correctAnswer": 2
+  },
+  {
+    "question": "The SI unit of magnetic dipole moment is:",
+    "options": ["A m", "A m$^2$", "T m", "T/m"],
+    "correctAnswer": 1
+  },
+  {
+    "question": "If the distance between two charges is doubled, the electrostatic force between them:",
+    "options": ["Doubles", "Halves", "Becomes four times", "Becomes one-fourth"],
+    "correctAnswer": 3
+  },
+  {
+    "question": "A cycle of Carnot engine works between $27^\\circ$C and $127^\\circ$C. Its efficiency is:",
+    "options": ["25%", "75%", "50%", "33%"],
+    "correctAnswer": 0
+  },
+  {
+    "question": "Modulation is the process of:",
+    "options": ["Generating low frequency waves", "Combining audio signals with a carrier wave", "Separating audio signals from a carrier wave", "Amplifying a signal"],
+    "correctAnswer": 1
+  },
+  {
+    "question": "The depletion layer in a p-n junction contains:",
+    "options": ["Electrons only", "Holes only", "Immobile ions", "Protons only"],
+    "correctAnswer": 2
+  },
+  {
+    "question": "Water has maximum density at:",
+    "options": ["$0^\\circ$C", "$4^\\circ$C", "$-4^\\circ$C", "$100^\\circ$C"],
+    "correctAnswer": 1
+  },
+  {
+    "question": "If the net force on an object is zero, its acceleration is:",
+    "options": ["Zero", "Constant but non-zero", "Variable", "Infinite"],
+    "correctAnswer": 0
+  }
+]
+

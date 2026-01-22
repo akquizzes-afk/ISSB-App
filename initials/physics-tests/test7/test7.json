@@ -1,0 +1,253 @@
+[
+  {
+    "question": "Which of the following physical constants is dimensionless?",
+    "options": ["Relative permeability", "Gravitational constant", "Planck's constant", "Boltzmann constant"],
+    "correctAnswer": 0
+  },
+  {
+    "question": "The magnitude of the cross product of two unit vectors $\\hat{i}$ and $\\hat{j}$ is:",
+    "options": ["1", "0", "-1", "$\\sqrt{2}$"],
+    "correctAnswer": 0
+  },
+  {
+    "question": "A force of 10 N acts on a body and the body remains at rest. The work done by the force is:",
+    "options": ["0 J", "10 J", "1 J", "Indeterminate"],
+    "correctAnswer": 0
+  },
+  {
+    "question": "The excess pressure inside a soap bubble of radius $R$ and surface tension $T$ is:",
+    "options": ["$4T/R$", "$2T/R$", "$T/R$", "$8T/R$"],
+    "correctAnswer": 0
+  },
+  {
+    "question": "According to the kinetic theory of gases, the absolute temperature of a gas is proportional to:",
+    "options": ["Average translational kinetic energy", "Average velocity", "Average potential energy", "Total volume"],
+    "correctAnswer": 0
+  },
+  {
+    "question": "The total electric flux through a closed surface depends only on:",
+    "options": ["Net charge enclosed", "Shape of the surface", "Size of the surface", "Permittivity of the medium only"],
+    "correctAnswer": 0
+  },
+  {
+    "question": "The magnetic field inside a long ideal toroid is:",
+    "options": ["Constant", "Zero", "Varying as $1/r^2$", "Varying as $r$"],
+    "correctAnswer": 0
+  },
+  {
+    "question": "In Bohr's model of the hydrogen atom, the radius of the first orbit is $a_0$. The radius of the third orbit is:",
+    "options": ["$9a_0$", "$3a_0$", "$a_0/3$", "$a_0/9$"],
+    "correctAnswer": 0
+  },
+  {
+    "question": "If the temperature of air increases, the speed of sound:",
+    "options": ["Increases", "Decreases", "Remains constant", "First increases then decreases"],
+    "correctAnswer": 0
+  },
+  {
+    "question": "A wire of resistance $R$ is cut into three equal pieces. The resistance of each piece is:",
+    "options": ["$R/3$", "$3R$", "$R/9$", "$R$"],
+    "correctAnswer": 0
+  },
+  {
+    "question": "The minimum frequency of incident light required to eject electrons from a metal surface is called:",
+    "options": ["Threshold frequency", "Cut-off frequency", "Resonant frequency", "Atomic frequency"],
+    "correctAnswer": 0
+  },
+  {
+    "question": "The logic gate that produces a '1' output only when both inputs are '1' is:",
+    "options": ["AND", "OR", "NAND", "XOR"],
+    "correctAnswer": 0
+  },
+  {
+    "question": "At what temperature does water reach its maximum density?",
+    "options": ["$4^\\circ$C", "$0^\\circ$C", "$100^\\circ$C", "$-4^\\circ$C"],
+    "correctAnswer": 0
+  },
+  {
+    "question": "Two masses of 1 kg and 4 kg are moving with equal kinetic energies. The ratio of their linear momenta is:",
+    "options": ["1:4", "1:2", "4:1", "1:16"],
+    "correctAnswer": 1
+  },
+  {
+    "question": "A disc of mass $M$ and radius $R$ is rolling without slipping. The ratio of its rotational kinetic energy to its total kinetic energy is:",
+    "options": ["1:2", "1:3", "2:3", "1:1"],
+    "correctAnswer": 1
+  },
+  {
+    "question": "The amount of heat required to raise the temperature of 1 kg of a substance by $1$ K is called:",
+    "options": ["Heat capacity", "Specific heat capacity", "Latent heat", "Molar heat"],
+    "correctAnswer": 1
+  },
+  {
+    "question": "An observer moves towards a stationary source of sound. The apparent frequency heard by the observer:",
+    "options": ["Decreases", "Increases", "Remains same", "Becomes zero"],
+    "correctAnswer": 1
+  },
+  {
+    "question": "The electric potential at the surface of a solid charged conductor of radius $R$ is $V$. The potential at the center is:",
+    "options": ["Zero", "$V$", "$V/2$", "$2V$"],
+    "correctAnswer": 1
+  },
+  {
+    "question": "If the current in a conductor is doubled, the drift velocity of electrons will:",
+    "options": ["Remain same", "Double", "Half", "Quadruple"],
+    "correctAnswer": 1
+  },
+  {
+    "question": "The unit of mutual inductance is:",
+    "options": ["Tesla", "Henry", "Weber", "Farad"],
+    "correctAnswer": 1
+  },
+  {
+    "question": "For total internal reflection to occur, light must travel from:",
+    "options": ["Rarer to denser medium", "Denser to rarer medium", "Vacuum to air", "Water to glass"],
+    "correctAnswer": 1
+  },
+  {
+    "question": "The half-life of a radioactive sample is 10 years. In 20 years, what percentage of the sample will decay?",
+    "options": ["50%", "75%", "25%", "100%"],
+    "correctAnswer": 1
+  },
+  {
+    "question": "In forward bias, the width of the depletion layer in a p-n junction:",
+    "options": ["Increases", "Decreases", "Remains same", "Becomes infinite"],
+    "correctAnswer": 1
+  },
+  {
+    "question": "The escape velocity from the moon is ________ than the escape velocity from the earth.",
+    "options": ["Greater", "Smaller", "Equal", "Twice"],
+    "correctAnswer": 1
+  },
+  {
+    "question": "The ratio of longitudinal stress to longitudinal strain is:",
+    "options": ["Bulk modulus", "Young's modulus", "Modulus of rigidity", "Poisson's ratio"],
+    "correctAnswer": 1
+  },
+  {
+    "question": "The angle between two vectors $\\vec{A}$ and $\\vec{B}$ is $\\theta$. The magnitude of their resultant is maximum when $\\theta$ is:",
+    "options": ["$90^\\circ$", "$180^\\circ$", "$0^\\circ$", "$45^\\circ$"],
+    "correctAnswer": 2
+  },
+  {
+    "question": "The maximum velocity with which a car can safely take a turn on a banked road of radius $r$ and angle $\\theta$ (ignoring friction) is:",
+    "options": ["$\\sqrt{gr \\cos \\theta}$", "$\\sqrt{gr \\sin \\theta}$", "$\\sqrt{gr \\tan \\theta}$", "$\\sqrt{gr}$"],
+    "correctAnswer": 2
+  },
+  {
+    "question": "According to Newton's law of gravitation, the force between two bodies is inversely proportional to:",
+    "options": ["Sum of masses", "Product of masses", "Square of distance", "Distance"],
+    "correctAnswer": 2
+  },
+  {
+    "question": "Which law of thermodynamics leads to the definition of entropy?",
+    "options": ["First Law", "Third Law", "Second Law", "Zeroth Law"],
+    "correctAnswer": 2
+  },
+  {
+    "question": "Two tuning forks of frequencies 256 Hz and 260 Hz are sounded together. The number of beats heard per second is:",
+    "options": ["2", "258", "4", "516"],
+    "correctAnswer": 2
+  },
+  {
+    "question": "The energy stored in a capacitor of capacitance $C$ and charge $Q$ is:",
+    "options": ["$QV^2/2$", "$CV/2$", "$Q^2/2C$", "$Q/2C$"],
+    "correctAnswer": 2
+  },
+  {
+    "question": "To convert a galvanometer into an ammeter, we connect a:",
+    "options": ["High resistance in series", "High resistance in parallel", "Low resistance in parallel", "Low resistance in series"],
+    "correctAnswer": 2
+  },
+  {
+    "question": "The core of a transformer is laminated to reduce:",
+    "options": ["Hysteresis loss", "Copper loss", "Eddy current loss", "Flux leakage"],
+    "correctAnswer": 2
+  },
+  {
+    "question": "The tangent of the Brewster angle is equal to the ________ of the medium.",
+    "options": ["Critical angle", "Focal length", "Refractive index", "Polarizing angle"],
+    "correctAnswer": 2
+  },
+  {
+    "question": "The de-Broglie wavelength of a particle is inversely proportional to its:",
+    "options": ["Mass only", "Velocity only", "Momentum", "Energy"],
+    "correctAnswer": 2
+  },
+  {
+    "question": "The binding energy per nucleon is maximum for which element?",
+    "options": ["Uranium", "Helium", "Iron", "Hydrogen"],
+    "correctAnswer": 2
+  },
+  {
+    "question": "If the frequency of input AC is 50 Hz, the frequency of output in a full-wave rectifier is:",
+    "options": ["25 Hz", "50 Hz", "100 Hz", "200 Hz"],
+    "correctAnswer": 2
+  },
+  {
+    "question": "The area under a force-time graph gives the change in:",
+    "options": ["Kinetic energy", "Acceleration", "Momentum", "Displacement"],
+    "correctAnswer": 2
+  },
+  {
+    "question": "A body is thrown vertically upwards with velocity $u$. The maximum height reached is:",
+    "options": ["$u/g$", "$u^2/g$", "$u/2g$", "$u^2/2g$"],
+    "correctAnswer": 3
+  },
+  {
+    "question": "In an AC circuit containing only a pure inductor, the phase difference between voltage and current is:",
+    "options": ["$0^\\circ$", "$180^\\circ$", "$45^\\circ$", "$90^\\circ$"],
+    "correctAnswer": 3
+  },
+  {
+    "question": "The specific heat of water is approximately:",
+    "options": ["$1000$ J/kg K", "$2100$ J/kg K", "$500$ J/kg K", "$4186$ J/kg K"],
+    "correctAnswer": 3
+  },
+  {
+    "question": "The resolving power of a telescope can be increased by increasing the:",
+    "options": ["Focal length of eyepiece", "Length of telescope", "Focal length of objective", "Aperture of objective"],
+    "correctAnswer": 3
+  },
+  {
+    "question": "X-rays are produced when fast-moving electrons strike a:",
+    "options": ["Liquid", "Gas", "Insulator", "Target of high atomic number"],
+    "correctAnswer": 3
+  },
+  {
+    "question": "The main source of energy in stars is:",
+    "options": ["Chemical combustion", "Nuclear fission", "Gravitational collapse", "Nuclear fusion"],
+    "correctAnswer": 3
+  },
+  {
+    "question": "If the distance between two point charges is tripled, the electrostatic force between them becomes:",
+    "options": ["3 times", "9 times", "1/3", "1/9"],
+    "correctAnswer": 3
+  },
+  {
+    "question": "The SI unit of magnetic dipole moment is:",
+    "options": ["Tesla", "Ampere-meter", "Weber", "Ampere-meter$^2$"],
+    "correctAnswer": 3
+  },
+  {
+    "question": "The SI unit of the coefficient of viscosity is:",
+    "options": ["Pascal", "Newton", "Poise", "Pascal-second"],
+    "correctAnswer": 3
+  },
+  {
+    "question": "In a common emitter transistor amplifier, the phase difference between input and output signal is:",
+    "options": ["$0^\\circ$", "$90^\\circ$", "$45^\\circ$", "$180^\\circ$"],
+    "correctAnswer": 3
+  },
+  {
+    "question": "Arrange in increasing order of frequency: Radio waves, Microwaves, Infrared, Visible light.",
+    "options": ["Visible, IR, Micro, Radio", "Radio, Visible, IR, Micro", "Micro, Radio, IR, Visible", "Radio, Micro, IR, Visible"],
+    "correctAnswer": 3
+  },
+  {
+    "question": "The unit of the universal gravitational constant $G$ is:",
+    "options": ["N m/kg", "N m$^2$/kg", "m$^2$/kg s", "N m$^2$/kg$^2$"],
+    "correctAnswer": 3
+  }
+]
+

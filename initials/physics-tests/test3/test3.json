@@ -1,0 +1,252 @@
+[
+  {
+    "question": "The dimensions of the ratio of angular momentum to linear momentum are:",
+    "options": ["$[M^0 L^1 T^0]$","$[M^1 L^1 T^0]$","$[M^0 L^1 T^{-1}]$","$[M^0 L^2 T^0]$"],
+    "correctAnswer": 0
+  },
+  {
+    "question": "A particle moves along a circle of radius $R$ with a constant angular speed $\\omega$. Its displacement in time $t$ is given by:",
+    "options": ["$R \\omega t$","$2R \\sin(\\omega t / 2)$","$R \\sin(\\omega t)$","$2R \\cos(\\omega t / 2)$"],
+    "correctAnswer": 1
+  },
+  {
+    "question": "If the error in the measurement of the radius of a sphere is 2%, then the error in the determination of its volume will be:",
+    "options": ["2%","4%","6%","8%"],
+    "correctAnswer": 2
+  },
+  {
+    "question": "A block of mass 10 kg is moving on a rough horizontal surface with a constant velocity of 2 m/s. If the coefficient of friction is 0.5, the horizontal force applied is:",
+    "options": ["5 N","20 N","10 N","49 N"],
+    "correctAnswer": 3
+  },
+  {
+    "question": "Two vectors $\\vec{P}$ and $\\vec{Q}$ are such that $\\vec{P} + \\vec{Q} = \\vec{R}$ and $P^2 + Q^2 = R^2$. The angle between $\\vec{P}$ and $\\vec{Q}$ is:",
+    "options": ["$90^\\circ$","$0^\\circ$","$180^\\circ$","$45^\\circ$"],
+    "correctAnswer": 0
+  },
+  {
+    "question": "The work done by a force $\\vec{F} = (x\\hat{i} + y\\hat{j})$ in moving a particle from $(0,0)$ to $(a,a)$ is:",
+    "options": ["$a^2/2$","$a^2$","$2a^2$","$0$"],
+    "correctAnswer": 1
+  },
+  {
+    "question": "A satellite is orbiting the earth in a circular orbit of radius $r$. Its period of revolution $T$ varies as:",
+    "options": ["$T \\propto r$","$T \\propto r^2$","$T \\propto r^{3/2}$","$T \\propto r^{1/2}$"],
+    "correctAnswer": 2
+  },
+  {
+    "question": "The escape velocity on the surface of the moon is less than that on the earth's surface because:",
+    "options": ["The moon is not a planet","The moon has no atmosphere","The moon is cooler than the earth","The moon's mass and radius are smaller"],
+    "correctAnswer": 3
+  },
+  {
+    "question": "A liquid rises to a height of 10 cm in a capillary tube. If the radius of the tube is halved, the liquid will rise to a height of:",
+    "options": ["20 cm","10 cm","5 cm","40 cm"],
+    "correctAnswer": 0
+  },
+  {
+    "question": "The First Law of Thermodynamics is a specific statement of:",
+    "options": ["Conservation of momentum","Conservation of energy","Conservation of mass","The law of heat exchange"],
+    "correctAnswer": 1
+  },
+  {
+    "question": "The efficiency of a Carnot engine working between $127^\\circ C$ and $27^\\circ C$ is:",
+    "options": ["20%","25%","33%","50%"],
+    "correctAnswer": 1
+  },
+  {
+    "question": "A particle executing SHM has a maximum velocity $v_m$ and maximum acceleration $a_m$. Its time period is:",
+    "options": ["$2\\pi (v_m / a_m)$","$2\\pi (a_m / v_m)$","$v_m / a_m$","$a_m / v_m$"],
+    "correctAnswer": 0
+  },
+  {
+    "question": "The intensity of a sound wave is increased by a factor of 100. The increase in the intensity level in decibels (dB) is:",
+    "options": ["10 dB","20 dB","100 dB","2 dB"],
+    "correctAnswer": 1
+  },
+  {
+    "question": "An electric dipole consists of two opposite charges of $2 \\times 10^{-6}$ C separated by a distance of 0.01 m. The maximum torque it can experience in an electric field of $10^5$ N/C is:",
+    "options": ["$2 \\times 10^{-3}$ N m","$2 \\times 10^{-1}$ N m","$2 \\times 10^{-2}$ N m","$2$ N m"],
+    "correctAnswer": 2
+  },
+  {
+    "question": "Three capacitors of $2 \\mu F, 3 \\mu F$ and $6 \\mu F$ are joined in series. The equivalent capacitance is:",
+    "options": ["$11 \\mu F$","$1 \\mu F$","$1.2 \\mu F$","$6 \\mu F$"],
+    "correctAnswer": 1
+  },
+  {
+    "question": "The drift velocity $v_d$ of electrons in a metal wire depends on the applied electric field $E$ as:",
+    "options": ["$v_d \\propto E$","$v_d \\propto \\sqrt{E}$","$v_d \\propto E^2$","$v_d \\propto 1/E$"],
+    "correctAnswer": 0
+  },
+  {
+    "question": "A potentiometer is an ideal device for measuring potential difference because:",
+    "options": ["It uses a long wire","It has sensitive galvanometer","It does not draw any current from the circuit at balance","It measures EMF directly"],
+    "correctAnswer": 2
+  },
+  {
+    "question": "The magnetic field at the center of a circular coil of radius $r$ carrying current $I$ is $B$. If the radius is doubled and the current is halved, the new magnetic field will be:",
+    "options": ["$B/2$","$B/4$","$B$","$2B$"],
+    "correctAnswer": 1
+  },
+  {
+    "question": "In a cyclotron, the time taken by a particle to complete a semi-circle in a 'dee' is independent of:",
+    "options": ["Magnetic field","Charge of the particle","Mass of the particle","Speed of the particle"],
+    "correctAnswer": 3
+  },
+  {
+    "question": "The magnetic susceptibility of a paramagnetic substance at $-73^\\circ C$ is $0.0060$. Its value at $-173^\\circ C$ will be:",
+    "options": ["$0.0120$","$0.0030$","$0.0180$","$0.0060$"],
+    "correctAnswer": 0
+  },
+  {
+    "question": "The peak value of an alternating current is 5 A. Its r.m.s value is:",
+    "options": ["5 A","$5/\\sqrt{2}$ A","$5\\sqrt{2}$ A","2.5 A"],
+    "correctAnswer": 1
+  },
+  {
+    "question": "Lenz's law is a consequence of the law of conservation of:",
+    "options": ["Charge","Momentum","Energy","Mass"],
+    "correctAnswer": 2
+  },
+  {
+    "question": "In an LCR series circuit at resonance, the phase difference between current and voltage is:",
+    "options": ["$\\pi/2$","$\\pi$","$0$","$\\pi/4$"],
+    "correctAnswer": 2
+  },
+  {
+    "question": "Which of the following has the maximum refractive index?",
+    "options": ["Glass","Water","Iron","Diamond"],
+    "correctAnswer": 3
+  },
+  {
+    "question": "A point object is placed at a distance of 30 cm from a convex mirror of focal length 30 cm. The image is formed at:",
+    "options": ["15 cm behind the mirror","30 cm behind the mirror","Infinity","15 cm in front of the mirror"],
+    "correctAnswer": 0
+  },
+  {
+    "question": "The magnifying power of an astronomical telescope in normal adjustment is 10 and the length of the telescope is 110 cm. The focal length of the objective is:",
+    "options": ["10 cm","100 cm","11 cm","110 cm"],
+    "correctAnswer": 1
+  },
+  {
+    "question": "The wavefront due to a point source at a very large distance is:",
+    "options": ["Spherical","Cylindrical","Plane","Circular"],
+    "correctAnswer": 2
+  },
+  {
+    "question": "In Young's double slit experiment, if the distance between the slits is doubled and the distance between the slits and the screen is halved, the fringe width will be:",
+    "options": ["Doubled","Halved","Unchanged","One-fourth"],
+    "correctAnswer": 3
+  },
+  {
+    "question": "The threshold frequency for a metal is $10^{15}$ Hz. Light of wavelength $4000$ Å falls on it. The photoelectric emission will:",
+    "options": ["Take place","Not take place","Depends on intensity","Depends on exposure time"],
+    "correctAnswer": 1
+  },
+  {
+    "question": "The de-Broglie wavelength of a particle of mass $m$ and kinetic energy $K$ is:",
+    "options": ["$h / \\sqrt{2mK}$","$h / 2mK$","$\\sqrt{2mK} / h$","$h\\sqrt{2mK}$"],
+    "correctAnswer": 0
+  },
+  {
+    "question": "The radius of the $n^{th}$ orbit in Bohr's model of hydrogen atom is proportional to:",
+    "options": ["$n$","$n^2$","$1/n$","$1/n^2$"],
+    "correctAnswer": 1
+  },
+  {
+    "question": "One milligram of matter converted into energy will give:",
+    "options": ["$9 \\times 10^{10}$ J","$9 \\times 10^{13}$ J","$9 \\times 10^{7}$ J","$9 \\times 10^{15}$ J"],
+    "correctAnswer": 0
+  },
+  {
+    "question": "The half-life of a radioactive substance is 4 months. Three-fourth of the substance will decay in:",
+    "options": ["3 months","4 months","8 months","12 months"],
+    "correctAnswer": 2
+  },
+  {
+    "question": "In an n-type semiconductor, the majority charge carriers are:",
+    "options": ["Holes","Protons","Neutrons","Electrons"],
+    "correctAnswer": 3
+  },
+  {
+    "question": "For a transistor, the relationship between $\\alpha$ and $\\beta$ is:",
+    "options": ["$\\beta = \\alpha / (1 - \\alpha)$","$\\alpha = \\beta / (1 - \\beta)$","$\\alpha \\beta = 1$","$\\beta = \\alpha / (1 + \\alpha)$"],
+    "correctAnswer": 0
+  },
+  {
+    "question": "A Zener diode is used as a:",
+    "options": ["Rectifier","Amplifier","Voltage regulator","Oscillator"],
+    "correctAnswer": 2
+  },
+  {
+    "question": "The Boolean expression for the NAND gate is:",
+    "options": ["$Y = A + B$","$Y = A \\cdot B$","$Y = \\overline{A + B}$","$Y = \\overline{A \\cdot B}$"],
+    "correctAnswer": 3
+  },
+  {
+    "question": "The sky appears blue due to:",
+    "options": ["Refraction of light","Reflection of light","Scattering of light","Dispersion of light"],
+    "correctAnswer": 2
+  },
+  {
+    "question": "If a soap bubble is charged, its radius:",
+    "options": ["Decreases","Increases","Remains same","May increase or decrease"],
+    "correctAnswer": 1
+  },
+  {
+    "question": "Specific resistance of a wire depends on its:",
+    "options": ["Length","Cross-sectional area","Material","Mass"],
+    "correctAnswer": 2
+  },
+  {
+    "question": "The force of attraction between two parallel current-carrying wires is due to:",
+    "options": ["Electrostatic force","Magnetic force","Gravitational force","Nuclear force"],
+    "correctAnswer": 1
+  },
+  {
+    "question": "A step-down transformer increases:",
+    "options": ["Voltage","Current","Power","Frequency"],
+    "correctAnswer": 1
+  },
+  {
+    "question": "The electromagnetic waves used in radar are:",
+    "options": ["Infrared rays","Ultraviolet rays","Microwaves","X-rays"],
+    "correctAnswer": 2
+  },
+  {
+    "question": "Two lenses of power $+12$ D and $-2$ D are put in contact. The combined focal length of the combination is:",
+    "options": ["10 cm","12.5 cm","16.6 cm","8.33 cm"],
+    "correctAnswer": 0
+  },
+  {
+    "question": "A simple microscope has a focal length of 5 cm. Its maximum magnifying power is:",
+    "options": ["5","6","4","25"],
+    "correctAnswer": 1
+  },
+  {
+    "question": "Binding energy of a nucleus is a measure of its:",
+    "options": ["Mass","Size","Stability","Charge"],
+    "correctAnswer": 2
+  },
+  {
+    "question": "The energy of an electron in the first excited state of Hydrogen atom is:",
+    "options": ["$-13.6$ eV","$-3.4$ eV","$-1.51$ eV","$0$ eV"],
+    "correctAnswer": 1
+  },
+  {
+    "question": "The logic gate which reverses the input signal is:",
+    "options": ["AND gate","OR gate","NOT gate","NOR gate"],
+    "correctAnswer": 2
+  },
+  {
+    "question": "The escape velocity of a body from the earth depends on:",
+    "options": ["The mass of the body","The location from where it is projected","The direction of projection","The radius of the earth"],
+    "correctAnswer": 3
+  },
+  {
+    "question": "Which of the following represents the correct graph between the volume $V$ and temperature $T$ (in Kelvin) for an ideal gas at constant pressure?",
+    "options": ["A straight line passing through origin","A parabola","A hyperbola","A circle"],
+    "correctAnswer": 0
+  }
+]

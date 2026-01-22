@@ -1,0 +1,252 @@
+[
+  {
+    "question": "The dimensional formula for torque is:",
+    "options": ["$[ML^2T^{-2}]$","$[MLT^{-2}]$","$[ML^2T^{-1}]$","$[ML^{-1}T^{-2}]$"],
+    "correctAnswer": 0
+  },
+  {
+    "question": "A force of $100$ N acts on a body of mass $20$ kg. The acceleration of the body is:",
+    "options": ["$2000$ m/s$^2$","$5$ m/s$^2$","$0.2$ m/s$^2$","$50$ m/s$^2$"],
+    "correctAnswer": 1
+  },
+  {
+    "question": "The area under a velocity-time graph represents:",
+    "options": ["Acceleration","Momentum","Displacement","Speed"],
+    "correctAnswer": 2
+  },
+  {
+    "question": "The power of a lens is measured in:",
+    "options": ["Watts","Candela","Lumens","Diopters"],
+    "correctAnswer": 3
+  },
+  {
+    "question": "Work done by a centripetal force is always:",
+    "options": ["Zero","Positive","Negative","Infinite"],
+    "correctAnswer": 0
+  },
+  {
+    "question": "The value of escape velocity from the surface of Earth is approximately:",
+    "options": ["$9.8$ km/s","$11.2$ km/s","$8$ km/s","$24$ km/s"],
+    "correctAnswer": 1
+  },
+  {
+    "question": "According to the Ideal Gas Law ($PV = nRT$), if pressure and volume are doubled, the absolute temperature becomes:",
+    "options": ["Doubled","Remains same","Four times","Eight times"],
+    "correctAnswer": 2
+  },
+  {
+    "question": "The time period of a simple pendulum depends on:",
+    "options": ["Mass of the bob","Amplitude of oscillation","Material of the bob","Length of the pendulum"],
+    "correctAnswer": 3
+  },
+  {
+    "question": "The speed of light in vacuum is exactly:",
+    "options": ["$299,792,458$ m/s","$3 \\times 10^7$ m/s","$150,000$ km/s","$3 \\times 10^9$ m/s"],
+    "correctAnswer": 0
+  },
+  {
+    "question": "An alpha particle consists of:",
+    "options": ["One proton and one neutron","Two protons and two neutrons","Two protons only","Four neutrons"],
+    "correctAnswer": 1
+  },
+  {
+    "question": "The SI unit of magnetic flux is:",
+    "options": ["Tesla","Henry","Weber","Farad"],
+    "correctAnswer": 2
+  },
+  {
+    "question": "Which logic gate is known as an 'Inverter'?",
+    "options": ["AND","OR","NAND","NOT"],
+    "correctAnswer": 3
+  },
+  {
+    "question": "The work function of a metal is the minimum energy required to:",
+    "options": ["Eject an electron from the surface","Excite an atom","Ionize the metal","Heat the metal"],
+    "correctAnswer": 0
+  },
+  {
+    "question": "Three resistors of $3 \\Omega$ each are connected in parallel. Their equivalent resistance is:",
+    "options": ["$9 \\Omega$","$1 \\Omega$","$0.33 \\Omega$","$6 \\Omega$"],
+    "correctAnswer": 1
+  },
+  {
+    "question": "Lenz's Law is a consequence of the law of conservation of:",
+    "options": ["Charge","Mass","Energy","Momentum"],
+    "correctAnswer": 2
+  },
+  {
+    "question": "A photon of frequency $\\nu$ has energy $E$. A photon of frequency $2\\nu$ will have energy:",
+    "options": ["$E/2$","$E$","$4E$","$2E$"],
+    "correctAnswer": 3
+  },
+  {
+    "question": "The ratio of stress to strain within the elastic limit is called:",
+    "options": ["Modulus of Elasticity","Poisson's Ratio","Surface Tension","Viscosity"],
+    "correctAnswer": 0
+  },
+  {
+    "question": "A geostationary satellite completes one revolution around the Earth in:",
+    "options": ["$90$ minutes","$24$ hours","$12$ hours","$28$ days"],
+    "correctAnswer": 1
+  },
+  {
+    "question": "Which of the following colors of white light deviates the most through a glass prism?",
+    "options": ["Red","Yellow","Violet","Green"],
+    "correctAnswer": 2
+  },
+  {
+    "question": "The capacitance of a capacitor is not affected by:",
+    "options": ["Area of plates","Distance between plates","Dielectric medium","Charge on the plates"],
+    "correctAnswer": 3
+  },
+  {
+    "question": "A body is dropped from a tower. The distance fallen in $3$ seconds is (take $g = 10$ m/s$^2$):",
+    "options": ["$45$ m","$30$ m","$90$ m","$15$ m"],
+    "correctAnswer": 0
+  },
+  {
+    "question": "The r.m.s. velocity of gas molecules is $v$ at $T$ Kelvin. At $4T$ Kelvin, the r.m.s. velocity will be:",
+    "options": ["$4v$","$2v$","$v/2$","$v$"],
+    "correctAnswer": 1
+  },
+  {
+    "question": "The process by which heat is transmitted through a vacuum is:",
+    "options": ["Conduction","Convection","Radiation","Absorption"],
+    "correctAnswer": 2
+  },
+  {
+    "question": "The threshold wavelength for a metal is $5000$ Å. Photoelectric emission will occur if the incident light has a wavelength of:",
+    "options": ["$6000$ Å","$5500$ Å","$7000$ Å","$4000$ Å"],
+    "correctAnswer": 3
+  },
+  {
+    "question": "The magnetic field at the center of a current-carrying circular loop is:",
+    "options": ["Inversely proportional to the radius","Directly proportional to the radius","Zero","Independent of the current"],
+    "correctAnswer": 0
+  },
+  {
+    "question": "A step-down transformer decreases the:",
+    "options": ["Frequency","Voltage","Current","Power"],
+    "correctAnswer": 1
+  },
+  {
+    "question": "The energy stored in a spring of constant $k$ stretched by $x$ is:",
+    "options": ["$kx$","$kx^2$","$\\frac{1}{2}kx^2$","$2kx^2$"],
+    "correctAnswer": 2
+  },
+  {
+    "question": "The mass defect in a nucleus is converted into:",
+    "options": ["Potential Energy","Kinetic Energy","Heat Energy","Binding Energy"],
+    "correctAnswer": 3
+  },
+  {
+    "question": "Which of the following is a non-conservative force?",
+    "options": ["Frictional Force","Gravitational Force","Electrostatic Force","Magnetic Force"],
+    "correctAnswer": 0
+  },
+  {
+    "question": "If the length of a conductor is doubled and its area is halved, its resistance becomes:",
+    "options": ["Double","Four times","Half","Eight times"],
+    "correctAnswer": 1
+  },
+  {
+    "question": "The magnifying power of a telescope can be increased by:",
+    "options": ["Increasing eye-piece focal length","Decreasing objective focal length","Increasing objective focal length","Decreasing objective diameter"],
+    "correctAnswer": 2
+  },
+  {
+    "question": "The half-life of a radioactive sample is $10$ days. After $20$ days, the fraction remaining is:",
+    "options": ["$1/2$","$1/3$","$0$","$1/4$"],
+    "correctAnswer": 3
+  },
+  {
+    "question": "The weight of an object at the center of the Earth is:",
+    "options": ["Zero","Infinite","Same as surface","Variable"],
+    "correctAnswer": 0
+  },
+  {
+    "question": "An intrinsic semiconductor at absolute zero temperature behaves as a/an:",
+    "options": ["Conductor","Insulator","Superconductor","Metal"],
+    "correctAnswer": 1
+  },
+  {
+    "question": "In an adiabatic process, the relation between $P$ and $V$ is:",
+    "options": ["$PV = const$","$P/V = const$","$PV^{\\gamma} = const$","$P^{\\gamma}V = const$"],
+    "correctAnswer": 2
+  },
+  {
+    "question": "Which of the following rays has the highest penetrating power?",
+    "options": ["Alpha rays","Beta rays","X-rays","Gamma rays"],
+    "correctAnswer": 3
+  },
+  {
+    "question": "The SI unit of electric field intensity is:",
+    "options": ["N/C","V m","C/N","J/C"],
+    "correctAnswer": 0
+  },
+  {
+    "question": "The color of an star is an indication of its:",
+    "options": ["Distance","Temperature","Mass","Size"],
+    "correctAnswer": 1
+  },
+  {
+    "question": "The working of a rocket is based on the principle of conservation of:",
+    "options": ["Mass","Energy","Linear Momentum","Angular Momentum"],
+    "correctAnswer": 2
+  },
+  {
+    "question": "What is the frequency of a photon with energy $3.3 \\times 10^{-19}$ J? (Take $h = 6.6 \\times 10^{-34}$ J s):",
+    "options": ["$2 \\times 10^{14}$ Hz","$5 \\times 10^{15}$ Hz","$1 \\times 10^{14}$ Hz","$5 \\times 10^{14}$ Hz"],
+    "correctAnswer": 3
+  },
+  {
+    "question": "A simple microscope has a focal length of $5$ cm. Its magnifying power for least distance of distinct vision ($25$ cm) is:",
+    "options": ["$6$","$5$","$4$","$25$"],
+    "correctAnswer": 0
+  },
+  {
+    "question": "The angle between the magnetic meridian and the geographic meridian at a place is called:",
+    "options": ["Angle of Dip","Magnetic Declination","Angle of Inclination","Latitude"],
+    "correctAnswer": 1
+  },
+  {
+    "question": "The energy of an electron in the $n^{th}$ orbit of Hydrogen atom is given by:",
+    "options": ["$-13.6/n$ eV","$-13.6 \\times n^2$ eV","$-13.6/n^2$ eV","$13.6/n^2$ eV"],
+    "correctAnswer": 2
+  },
+  {
+    "question": "Which of the following parameters remains constant in a uniform circular motion?",
+    "options": ["Velocity","Acceleration","Force","Kinetic Energy"],
+    "correctAnswer": 3
+  },
+  {
+    "question": "The time period of a satellite orbiting just above the earth's surface is approximately:",
+    "options": ["$84$ minutes","$24$ hours","$42$ minutes","$90$ seconds"],
+    "correctAnswer": 0
+  },
+  {
+    "question": "Water has maximum density at a temperature of:",
+    "options": ["$0^\\circ$C","$4^\\circ$C","$100^\\circ$C","$-4^\\circ$C"],
+    "correctAnswer": 1
+  },
+  {
+    "question": "The resistance of an ideal voltmeter is:",
+    "options": ["Zero","Low","Infinite","Very High"],
+    "correctAnswer": 2
+  },
+  {
+    "question": "The de-Broglie wavelength of a particle is inversely proportional to its:",
+    "options": ["Mass","Velocity","Energy","Momentum"],
+    "correctAnswer": 3
+  },
+  {
+    "question": "In a p-type semiconductor, the majority charge carriers are:",
+    "options": ["Electrons","Holes","Ions","Protons"],
+    "correctAnswer": 1
+  },
+  {
+    "question": "The unit of self-inductance is:",
+    "options": ["Weber","Tesla","Farad","Henry"],
+    "correctAnswer": 3
+  }
+]

@@ -1,0 +1,253 @@
+[
+  {
+    "question": "Which of the following is the unit of power?",
+    "options": ["Joule", "Newton", "Pascal", "Watt"],
+    "correctAnswer": 3
+  },
+  {
+    "question": "A body moves from rest with a constant acceleration of $5$ m/s$^2$. The distance covered in $4$ seconds is:",
+    "options": ["20 m", "80 m", "10 m", "40 m"],
+    "correctAnswer": 3
+  },
+  {
+    "question": "The moment of inertia of a solid sphere of mass $M$ and radius $R$ about its diameter is:",
+    "options": ["$MR^2$", "$\\frac{2}{3}MR^2$", "$\\frac{1}{2}MR^2$", "$\\frac{2}{5}MR^2$"],
+    "correctAnswer": 3
+  },
+  {
+    "question": "The escape velocity on Earth is $11.2$ km/s. What would be the escape velocity on a planet with the same radius but four times the mass of Earth?",
+    "options": ["11.2 km/s", "5.6 km/s", "44.8 km/s", "22.4 km/s"],
+    "correctAnswer": 3
+  },
+  {
+    "question": "If the temperature of a gas is increased from $27^\\circ$C to $927^\\circ$C, the r.m.s. velocity of its molecules becomes:",
+    "options": ["Half", "Double", "Triple", "Four times"],
+    "correctAnswer": 1
+  },
+  {
+    "question": "The time period of a satellite orbiting very close to the earth's surface is approximately:",
+    "options": ["24 hours", "84 minutes", "42 minutes", "1.4 hours"],
+    "correctAnswer": 1
+  },
+  {
+    "question": "A particle executing SHM has maximum speed $v$ and maximum acceleration $a$. The amplitude of oscillation is:",
+    "options": ["$a/v^2$", "$v^2/a$", "$v/a$", "$a/v$"],
+    "correctAnswer": 1
+  },
+  {
+    "question": "Which of the following properties of sound is affected by change in temperature?",
+    "options": ["Amplitude", "Wavelength", "Frequency", "Phase"],
+    "correctAnswer": 1
+  },
+  {
+    "question": "In a Young's double slit experiment, if the distance between the slits is halved and the distance between the slits and the screen is doubled, the fringe width becomes:",
+    "options": ["Unchanged", "Half", "Four times", "Double"],
+    "correctAnswer": 2
+  },
+  {
+    "question": "An object is placed at the focus of a concave mirror. The image is formed at:",
+    "options": ["The focus", "The center of curvature", "Infinity", "Between F and C"],
+    "correctAnswer": 2
+  },
+  {
+    "question": "The stopping potential in a photoelectric effect experiment depends on:",
+    "options": ["Intensity of incident light", "Distance of source", "Frequency of incident light", "Surface area of metal"],
+    "correctAnswer": 2
+  },
+  {
+    "question": "A nuclear reactor works on the principle of:",
+    "options": ["Controlled nuclear fusion", "Uncontrolled nuclear fission", "Controlled nuclear fission", "Spontaneous radioactivity"],
+    "correctAnswer": 2
+  },
+  {
+    "question": "The dimensional formula for Impulse is same as that of:",
+    "options": ["Linear Momentum", "Force", "Pressure", "Torque"],
+    "correctAnswer": 0
+  },
+  {
+    "question": "A bullet is fired vertically upwards. At the highest point of its path:",
+    "options": ["Its velocity is zero and acceleration is $g$ downwards", "Its velocity is zero and acceleration is zero", "Its velocity is $g$ and acceleration is zero", "Its velocity is $g$ and acceleration is $g$"],
+    "correctAnswer": 0
+  },
+  {
+    "question": "Water rises to a height $h$ in a capillary tube. If the tube is taken to the moon, the height of the water column will be:",
+    "options": ["$6h$", "$h/6$", "$h$", "Zero"],
+    "correctAnswer": 0
+  },
+  {
+    "question": "The work done in rotating a dipole of dipole moment $p$ in an electric field $E$ from stable equilibrium to unstable equilibrium is:",
+    "options": ["$2pE$", "$pE$", "Zero", "$-2pE$"],
+    "correctAnswer": 0
+  },
+  {
+    "question": "Which of the following is a scalar quantity?",
+    "options": ["Electric Field", "Magnetic Field", "Acceleration", "Electric Potential"],
+    "correctAnswer": 3
+  },
+  {
+    "question": "The resistance of a conductor increases with:",
+    "options": ["Decrease in length", "Increase in area", "Decrease in temperature", "Increase in temperature"],
+    "correctAnswer": 3
+  },
+  {
+    "question": "A step-up transformer converts:",
+    "options": ["High voltage low current into low voltage high current", "AC into DC", "DC into AC", "Low voltage high current into high voltage low current"],
+    "correctAnswer": 3
+  },
+  {
+    "question": "The mass of an alpha particle is approximately how many times the mass of a proton?",
+    "options": ["2 times", "1 time", "3 times", "4 times"],
+    "correctAnswer": 3
+  },
+  {
+    "question": "In a p-type semiconductor, the minority charge carriers are:",
+    "options": ["Holes", "Electrons", "Protons", "Ions"],
+    "correctAnswer": 1
+  },
+  {
+    "question": "The ratio of magnetic field at the center of a circular coil to that on its axis at a distance equal to its radius is:",
+    "options": ["$2:1$", "$2\\sqrt{2}:1$", "$\\sqrt{2}:1$","$1:2$"],
+    "correctAnswer": 1
+  },
+  {
+    "question": "The de-Broglie wavelength of an electron moving with velocity $c/100$ is approximately:",
+    "options": ["2.4 Å", "0.24 Å", "24 Å", "240 Å"],
+    "correctAnswer": 1
+  },
+  {
+    "question": "If the Earth's radius shrinks by 1% while its mass remains same, the value of $g$ on its surface will:",
+    "options": ["Decrease by 2%", "Increase by 2%", "Increase by 1%", "Remain same"],
+    "correctAnswer": 1
+  },
+  {
+    "question": "Which of the following electromagnetic waves is used for satellite communication?",
+    "options": ["Infrared", "Microwaves", "Ultraviolet", "Visible light"],
+    "correctAnswer": 1
+  },
+  {
+    "question": "The work function of a metal is $2.5$ eV. The threshold frequency is:",
+    "options": ["$6 \\times 10^{14}$ Hz", "$6 \\times 10^{13}$ Hz", "$2.5 \\times 10^{15}$ Hz", "$4 \\times 10^{14}$ Hz"],
+    "correctAnswer": 0
+  },
+  {
+    "question": "The focal length of a plane mirror is:",
+    "options": ["Infinite", "Zero", "25 cm", "-25 cm"],
+    "correctAnswer": 0
+  },
+  {
+    "question": "The velocity of light is maximum in:",
+    "options": ["Vacuum", "Glass", "Water", "Diamond"],
+    "correctAnswer": 0
+  },
+  {
+    "question": "Lenz's law provides a method to find the:",
+    "options": ["Direction of induced current", "Magnitude of induced EMF", "Direction of magnetic field", "Value of resistance"],
+    "correctAnswer": 0
+  },
+  {
+    "question": "Which of the following is used as a moderator in a nuclear reactor?",
+    "options": ["Heavy water", "Uranium", "Cadmium", "Boron"],
+    "correctAnswer": 0
+  },
+  {
+    "question": "The frequency of a wave is 50 Hz. Its time period is:",
+    "options": ["0.02 s", "0.2 s", "2 s", "50 s"],
+    "correctAnswer": 0
+  },
+  {
+    "question": "The energy of a photon of wavelength $4000$ Å is approximately:",
+    "options": ["3.1 eV", "2.1 eV", "1.1 eV", "4.1 eV"],
+    "correctAnswer": 0
+  },
+  {
+    "question": "A force of 10 N acts on a body of mass 2 kg. The acceleration produced is:",
+    "options": ["20 m/s$^2$", "5 m/s$^2$", "0.2 m/s$^2$", "2 m/s$^2$"],
+    "correctAnswer": 1
+  },
+  {
+    "question": "The boiling point of water on the Kelvin scale is:",
+    "options": ["273 K", "373 K", "100 K", "0 K"],
+    "correctAnswer": 1
+  },
+  {
+    "question": "The speed of sound in vacuum is:",
+    "options": ["332 m/s", "0 m/s", "$3 \\times 10^8$ m/s", "1400 m/s"],
+    "correctAnswer": 1
+  },
+  {
+    "question": "The power of a concave lens of focal length 20 cm is:",
+    "options": ["+5 D", "-5 D", "+0.05 D", "-0.05 D"],
+    "correctAnswer": 1
+  },
+  {
+    "question": "The charge on an electron is:",
+    "options": ["$1.6 \\times 10^{-19}$ C", "$-1.6 \\times 10^{-19}$ C", "$9.1 \\times 10^{-31}$ C", "$-1.6 \\times 10^{19}$ C"],
+    "correctAnswer": 1
+  },
+  {
+    "question": "A logic gate which gives output '0' only when both inputs are '1' is:",
+    "options": ["AND", "NAND", "OR", "NOR"],
+    "correctAnswer": 1
+  },
+  {
+    "question": "In an adiabatic process, the work done is at the expense of:",
+    "options": ["External heat", "Internal energy", "Atmospheric pressure", "Potential energy"],
+    "correctAnswer": 1
+  },
+  {
+    "question": "The phenomenon of splitting of white light into its constituent colors is called:",
+    "options": ["Refraction", "Dispersion", "Diffraction", "Interference"],
+    "correctAnswer": 1
+  },
+  {
+    "question": "The unit of magnetic flux is:",
+    "options": ["Tesla", "Henry", "Weber", "Farad"],
+    "correctAnswer": 2
+  },
+  {
+    "question": "What is the angle of dip at the magnetic equator?",
+    "options": ["$90^\\circ$", "$45^\\circ$", "$0^\\circ$", "$180^\\circ$"],
+    "correctAnswer": 2
+  },
+  {
+    "question": "For a telescope, to have high resolving power, the objective should have:",
+    "options": ["Small focal length", "Small aperture", "Large aperture", "Large focal length"],
+    "correctAnswer": 2
+  },
+  {
+    "question": "The binding energy of a nucleus is equivalent to its:",
+    "options": ["Total mass", "Atomic number", "Mass defect", "Kinetic energy"],
+    "correctAnswer": 2
+  },
+  {
+    "question": "The logic gate that performs the addition operation is:",
+    "options": ["AND gate", "NOT gate", "OR gate", "NAND gate"],
+    "correctAnswer": 2
+  },
+  {
+    "question": "The conductivity of a superconductor is:",
+    "options": ["Zero", "Very small", "Infinite", "Variable"],
+    "correctAnswer": 2
+  },
+  {
+    "question": "The ratio of specific heat at constant pressure ($C_p$) to specific heat at constant volume ($C_v$) for a monoatomic gas is:",
+    "options": ["1.40", "1.33", "1.67", "1.50"],
+    "correctAnswer": 2
+  },
+  {
+    "question": "A charge $q$ is moving with velocity $v$ in a magnetic field $B$. The force experienced is zero if the angle between $v$ and $B$ is:",
+    "options": ["$90^\\circ$", "$45^\\circ$", "$0^\\circ$", "$60^\\circ$"],
+    "correctAnswer": 2
+  },
+  {
+    "question": "The energy stored in an inductor of self-inductance $L$ carrying current $I$ is:",
+    "options": ["$LI$", "$LI^2$", "Zero", "$\\frac{1}{2}LI^2$"],
+    "correctAnswer": 3
+  },
+  {
+    "question": "What is the relationship between wavelength $\\lambda$ and frequency $f$ for a wave moving with velocity $v$?",
+    "options": ["$f = \\lambda v$", "$v = f / \\lambda$", "$\\lambda = f v$", "$v = f \\lambda$"],
+    "correctAnswer": 3
+  }
+]
+

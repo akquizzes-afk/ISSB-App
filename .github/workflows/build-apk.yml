@@ -9,8 +9,8 @@ jobs:
     runs-on: ubuntu-latest
     
     env:
-      APP_VERSION_NAME: "2.0"
-      APP_VERSION_CODE: 5
+      APP_VERSION_NAME: "3.0"
+      APP_VERSION_CODE: 6
 
     steps:
     - name: Checkout code
@@ -33,6 +33,7 @@ jobs:
         mv *.html www/
         mv *.css www/
         mv opi www/
+        mv cdn_modules www/
         mv initials www/
         mv mat www/
         mv images www/

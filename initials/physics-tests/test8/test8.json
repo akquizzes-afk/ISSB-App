@@ -1,0 +1,255 @@
+[
+  {
+    "question": "The dimensions of the Universal Gravitational Constant $G$ are:",
+    "options": ["$[M^{-1} L^3 T^{-2}]$","$[M^1 L^3 T^{-2}]$","$[M^{-1} L^2 T^{-2}]$","$[M^0 L^3 T^{-2}]$"],
+    "correctAnswer": 0
+  },
+  {
+    "question": "Which of the following is not a vector quantity?",
+    "options": ["Electric potential","Electric field","Linear momentum","Torque"],
+    "correctAnswer": 0
+  },
+  {
+    "question": "A particle moves with a velocity $\\vec{v} = (3\\hat{i} + 4\\hat{j})$ m/s. The magnitude of its velocity is:",
+    "options": ["5 m/s","7 m/s","1 m/s","25 m/s"],
+    "correctAnswer": 0
+  },
+  {
+    "question": "If the length of a simple pendulum is increased by 44%, the percentage increase in its time period is:",
+    "options": ["20%","44%","12%","22%"],
+    "correctAnswer": 0
+  },
+  {
+    "question": "The work-energy theorem states that the change in kinetic energy of a particle is equal to the work done by:",
+    "options": ["The net force","Conservative forces only","Non-conservative forces only","Internal forces only"],
+    "correctAnswer": 0
+  },
+  {
+    "question": "A bomb of mass 9 kg explodes into two pieces of masses 3 kg and 6 kg. The velocity of the 3 kg piece is 16 m/s. The kinetic energy of the 6 kg piece is:",
+    "options": ["192 J","96 J","384 J","48 J"],
+    "correctAnswer": 0
+  },
+  {
+    "question": "The escape velocity of a body from the Earth depends on:",
+    "options": ["Mass of the Earth","Mass of the body","Direction of projection","Height of projection only"],
+    "correctAnswer": 0
+  },
+  {
+    "question": "In an isothermal expansion of an ideal gas, the internal energy of the gas:",
+    "options": ["Remains constant","Increases","Decreases","First increases then decreases"],
+    "correctAnswer": 0
+  },
+  {
+    "question": "The value of $\\gamma$ ($C_p / C_v$) for a diatomic gas like Oxygen is:",
+    "options": ["1.40","1.67","1.33","1.00"],
+    "correctAnswer": 0
+  },
+  {
+    "question": "In a stationary wave, the distance between a node and its adjacent antinode is:",
+    "options": ["$\\lambda/4$","$\\lambda/2$","$\\lambda$","$2\\lambda$"],
+    "correctAnswer": 0
+  },
+  {
+    "question": "The electric potential inside a hollow charged spherical conductor of radius $R$ is:",
+    "options": ["Constant and non-zero","Zero","Inversely proportional to $r$","Directly proportional to $r$"],
+    "correctAnswer": 0
+  },
+  {
+    "question": "The resistance of a carbon resistor is $47 \\pm 4.7 \\, k\\Omega$. The color of the third band is:",
+    "options": ["Orange","Yellow","Violet","Gold"],
+    "correctAnswer": 0
+  },
+  {
+    "question": "A transformer is used to:",
+    "options": ["Change the voltage of AC","Change the voltage of DC","Convert AC to DC","Convert DC to AC"],
+    "correctAnswer": 0
+  },
+  {
+    "question": "The magnitude of the force between two point charges in vacuum is $F$. If the distance between them is doubled, the force becomes:",
+    "options": ["$4F$","$F/4$","$2F$","$F/2$"],
+    "correctAnswer": 1
+  },
+  {
+    "question": "Which of the following rays is not deflected by a magnetic field?",
+    "options": ["Alpha rays","Gamma rays","Beta rays","Cathode rays"],
+    "correctAnswer": 1
+  },
+  {
+    "question": "The resolving power of a microscope can be increased by:",
+    "options": ["Using light of larger wavelength","Using light of smaller wavelength","Increasing the focal length of objective","Decreasing the diameter of objective"],
+    "correctAnswer": 1
+  },
+  {
+    "question": "The threshold frequency for a certain metal is $10^{15}$ Hz. If light of frequency $2 \\times 10^{15}$ Hz falls on it, the maximum kinetic energy of the photoelectrons is:",
+    "options": ["$h \\times 10^{15}$ J","$h \\times 10^{15}$ J","$h \\times 2 \\times 10^{15}$ J","$h \\times 0.5 \\times 10^{15}$ J"],
+    "correctAnswer": 1
+  },
+  {
+    "question": "In a p-n junction diode, the barrier potential is due to:",
+    "options": ["Free electrons","Fixed ions in depletion layer","Holes","Majority carriers"],
+    "correctAnswer": 1
+  },
+  {
+    "question": "The half-life of a radioactive substance is 3 hours. After 9 hours, the fraction of the substance that remains is:",
+    "options": ["$1/4$","$1/8$","$1/16$","$1/3$"],
+    "correctAnswer": 1
+  },
+  {
+    "question": "A wire of resistance $R$ is stretched to triple its length. Its new resistance is:",
+    "options": ["$3R$","$9R$","$R/9$","$R/3$"],
+    "correctAnswer": 1
+  },
+  {
+    "question": "The angle of dip at the magnetic poles of the Earth is:",
+    "options": ["$0^\\circ$","$90^\\circ$","$45^\\circ$","$180^\\circ$"],
+    "correctAnswer": 1
+  },
+  {
+    "question": "What is the frequency of a signal with a time period of 2 ms?",
+    "options": ["50 Hz","500 Hz","5 kHz","2 kHz"],
+    "correctAnswer": 1
+  },
+  {
+    "question": "The surface tension of a liquid decreases with:",
+    "options": ["Decrease in temperature","Increase in temperature","Increase in surface area","Addition of salt"],
+    "correctAnswer": 1
+  },
+  {
+    "question": "In an adiabatic process, which of the following remains constant?",
+    "options": ["Temperature","Total Heat","Pressure","Volume"],
+    "correctAnswer": 1
+  },
+  {
+    "question": "A body of mass 2 kg is moving with a velocity of 5 m/s. Its momentum is:",
+    "options": ["2.5 kg m/s","10 kg m/s","25 kg m/s","7 kg m/s"],
+    "correctAnswer": 1
+  },
+  {
+    "question": "Which of the following is the most elastic material?",
+    "options": ["Rubber","Steel","Glass","Plastic"],
+    "correctAnswer": 1
+  },
+  {
+    "question": "The magnetic field at a point distance $r$ from a long straight wire carrying current $I$ is $B$. If the current is doubled and distance is halved, the new magnetic field is:",
+    "options": ["$B$","$2B$","$4B$","$B/4$"],
+    "correctAnswer": 2
+  },
+  {
+    "question": "A lens has a power of $+5.0$ D. Its focal length is:",
+    "options": ["50 cm","5 cm","20 cm","25 cm"],
+    "correctAnswer": 2
+  },
+  {
+    "question": "In Young's Double Slit Experiment, the fringe width $\\beta$ is given by:",
+    "options": ["$d/D\\lambda$","$D/d\\lambda$","$D\\lambda/d$","$d\\lambda/D$"],
+    "correctAnswer": 2
+  },
+  {
+    "question": "The de-Broglie wavelength of a thermal neutron at temperature $T$ is proportional to:",
+    "options": ["$T$","$T^{1/2}$","$T^{-1/2}$","$T^{-1}$"],
+    "correctAnswer": 2
+  },
+  {
+    "question": "The binding energy of a nucleus is equal to:",
+    "options": ["Mass of nucleons","Mass of nucleus","$\\Delta m \\cdot c^2$","$\\Delta m / c^2$"],
+    "correctAnswer": 2
+  },
+  {
+    "question": "For a common emitter amplifier, the current gain $\\beta$ is 50. If the base current changes by $20 \\, \\mu A$, the collector current changes by:",
+    "options": ["10 mA","0.1 mA","1 mA","2.5 mA"],
+    "correctAnswer": 2
+  },
+  {
+    "question": "Which of the following logic gates gives an output of 0 when both inputs are 1?",
+    "options": ["AND","OR","NAND","NOT"],
+    "correctAnswer": 2
+  },
+  {
+    "question": "The energy of an electron in the ground state of Hydrogen atom is $-13.6$ eV. The energy in the second excited state ($n=3$) is:",
+    "options": ["$-3.4$ eV","$-6.8$ eV","$-1.51$ eV","$-0.85$ eV"],
+    "correctAnswer": 2
+  },
+  {
+    "question": "The specific heat capacity of water is approximately:",
+    "options": ["1000 J/kg K","2100 J/kg K","4186 J/kg K","500 J/kg K"],
+    "correctAnswer": 2
+  },
+  {
+    "question": "A car accelerates from 10 m/s to 20 m/s in 5 seconds. The acceleration is:",
+    "options": ["5 m/s$^2$","3 m/s$^2$","2 m/s$^2$","4 m/s$^2$"],
+    "correctAnswer": 2
+  },
+  {
+    "question": "The units of electric flux are:",
+    "options": ["N/C","V/m","V m","C/m"],
+    "correctAnswer": 2
+  },
+  {
+    "question": "In a nuclear fission reaction, energy is released because:",
+    "options": ["Mass of products > Mass of reactants","Kinetic energy is created","Binding energy per nucleon increases","Total nucleons increase"],
+    "correctAnswer": 2
+  },
+  {
+    "question": "What is the angle between velocity and acceleration in a uniform circular motion?",
+    "options": ["$0^\\circ$","$180^\\circ$","$45^\\circ$","$90^\\circ$"],
+    "correctAnswer": 3
+  },
+  {
+    "question": "The escape velocity of Earth is 11.2 km/s. If a body is thrown with twice this velocity, its velocity at infinity is:",
+    "options": ["11.2 km/s","22.4 km/s","15.8 km/s","19.4 km/s"],
+    "correctAnswer": 3
+  },
+  {
+    "question": "In an AC circuit, the power factor is zero when the circuit is:",
+    "options": ["Purely resistive","Inductive-Resistive","Capacitive-Resistive","Purely Inductive"],
+    "correctAnswer": 3
+  },
+  {
+    "question": "The critical angle for a glass-air interface (refractive index of glass = 1.5) is approximately:",
+    "options": ["$30^\\circ$","$45^\\circ$","$60^\\circ$","$42^\\circ$"],
+    "correctAnswer": 3
+  },
+  {
+    "question": "The time period of a simple pendulum inside a lift falling freely is:",
+    "options": ["Zero","Finite","Same as ground","Infinite"],
+    "correctAnswer": 3
+  },
+  {
+    "question": "Which of the following has the shortest wavelength?",
+    "options": ["Visible light","Microwaves","X-rays","Gamma rays"],
+    "correctAnswer": 3
+  },
+  {
+    "question": "The drift velocity of electrons in a copper wire is of the order of:",
+    "options": ["$10^8$ m/s","$10^6$ m/s","$10^2$ m/s","$10^{-4}$ m/s"],
+    "correctAnswer": 3
+  },
+  {
+    "question": "If the kinetic energy of a particle is increased by 300%, its momentum increases by:",
+    "options": ["300%","200%","150%","100%"],
+    "correctAnswer": 3
+  },
+  {
+    "question": "A ray of light traveling from denser to rarer medium with angle of incidence equal to critical angle will have an angle of refraction of:",
+    "options": ["$0^\\circ$","$45^\\circ$","$60^\\circ$","$90^\\circ$"],
+    "correctAnswer": 3
+  },
+  {
+    "question": "The work done in an isothermal process is $W = nRT \\ln(V_2/V_1)$. If $V_2 = 2V_1$, the work done is:",
+    "options": ["$nRT$","$nRT \\ln 10$","$nRT/2$","$nRT \\ln 2$"],
+    "correctAnswer": 3
+  },
+  {
+    "question": "The pressure of a gas at constant volume is doubled. The absolute temperature of the gas will:",
+    "options": ["Remain same","Decrease","Be halved","Double"],
+    "correctAnswer": 3
+  },
+  {
+    "question": "The logic gate which reverses the input signal is:",
+    "options": ["AND","OR","NAND","NOT"],
+    "correctAnswer": 3
+  }
+]
+
+
+
