@@ -1,0 +1,552 @@
+[
+  {
+    "question": "The speed of light $c$, gravitational constant $G$, and Planck's constant $h$ are taken as fundamental units. The dimensional formula for time in this new system is:",
+    "options": [
+      "$[G^{1/2} h^{1/2} c^{-5/2}]$",
+      "$[G^{-1/2} h^{1/2} c^{1/2}]$",
+      "$[G^{1/2} h^{1/2} c^{-3/2}]$",
+      "$[G^{-1/2} h^{-1/2} c^{5/2}]$"
+    ],
+    "correctAnswer": 0,
+    "explanation": "To find the dimensional formula for time $T$, we express it as $T = k G^a h^b c^d$. By substituting the dimensions $[G] = M^{-1}L^3T^{-2}$, $[h] = ML^2T^{-1}$, and $[c] = LT^{-1}$, we set up equations for the exponents of $M$, $L$, and $T$. Solving these yields $a=1/2, b=1/2, d=-5/2$."
+  },
+  {
+    "question": "A particle moves in the $xy$-plane with a constant acceleration $g$ in the negative $y$-direction. Its equation of motion is $y = ax - bx^2$, where $a$ and $b$ are constants. The velocity of the particle at the origin is:",
+    "options": [
+      "$\\sqrt{\\frac{g(1+a^2)}{2b}}$",
+      "$\\sqrt{\\frac{g}{2b}}$",
+      "$\\sqrt{\\frac{g(1+b^2)}{2a}}$",
+      "$\\sqrt{\\frac{ga^2}{2b}}$"
+    ],
+    "correctAnswer": 0,
+    "explanation": "The given trajectory $y = ax - bx^2$ is a parabola representing projectile motion. Comparing this to the standard trajectory equation $y = x\\tan\\theta - \\frac{gx^2}{2u^2\\cos^2\\theta}$, we get $\\tan\\theta = a$ and $b = \\frac{g}{2u^2\\cos^2\\theta}$. Solving for velocity $u$ at the origin gives $u = \\sqrt{\\frac{g(1+a^2)}{2b}}$."
+  },
+  {
+    "question": "A small block is shot into each of the four tracks as shown below. Each track rises to the same height. The speed with which the block enters the track is the same in all cases. In which case is the normal force maximum at the highest point?",
+    "options": [
+      "Circular track of radius $R$",
+      "Parabolic track $y=kx^2$",
+      "Elliptical track",
+      "The normal force is the same for all"
+    ],
+    "correctAnswer": 1,
+    "explanation": "At the highest point, the normal force $N$ is determined by $mg - N = \\frac{mv^2}{R}$, where $R$ is the radius of curvature. For $N$ to be maximum, $R$ must be minimum. A parabolic track $y=kx^2$ typically provides the sharpest curve (smallest $R$) at the peak compared to a circular track."
+  },
+  {
+    "question": "A massive uniform rigid circular disc is introduced on a frictionless horizontal plane. A horizontal force $F$ is applied tangentially to the highest point. The acceleration of the center of mass is $a$. If the disc were rolling without slipping on a rough surface with the same force, the acceleration would be:",
+    "options": [
+      "$a$",
+      "$2a/3$",
+      "$a/2$",
+      "$4a/3$"
+    ],
+    "correctAnswer": 1,
+    "explanation": "On a frictionless plane, $F = ma$. For rolling without slipping on a rough surface, the equations are $F + f = ma'$ and $(F - f)R = I\\alpha$. Using $I = \\frac{1}{2}mR^2$ and $a' = R\\alpha$, we find that $a' = \\frac{4F}{3m}$. Since $a = F/m$, then $a'$ effectively becomes $2a/3$."
+  },
+  {
+    "question": "A planet of mass $m$ moves around the sun of mass $M$ in an elliptical orbit. The maximum and minimum distances from the sun are $r_1$ and $r_2$ respectively. The time period of the planet is proportional to:",
+    "options": [
+      "$(r_1+r_2)^{3/2}$",
+      "$(r_1+r_2)^{3}$",
+      "$(r_1-r_2)^{3/2}$",
+      "$r_1^{3/2} + r_2^{3/2}$"
+    ],
+    "correctAnswer": 0,
+    "explanation": "According to Kepler's Third Law, the square of the time period $T$ is proportional to the cube of the semi-major axis $a$ ($T^2 \\propto a^3$). In an elliptical orbit, the major axis $2a$ is equal to the sum of the maximum and minimum distances ($r_1 + r_2$). Thus, $T \\propto (r_1 + r_2)^{3/2}$."
+  },
+  {
+    "question": "In a Young's double slit experiment, the intensity at a point where the path difference is $\\lambda/6$ ($\\lambda$ being the wavelength of light used) is $I$. If $I_0$ denotes the maximum intensity, $I/I_0$ is equal to:",
+    "options": [
+      "$1/2$",
+      "$\\sqrt{3}/2$",
+      "$3/4$",
+      "$1/4$"
+    ],
+    "correctAnswer": 2,
+    "explanation": "The phase difference $\\phi$ is $\\frac{2\\pi}{\\lambda} \\times \\text{path difference}$. For a path difference of $\\lambda/6$, $\\phi = \\pi/3$ ($60^\\circ$). The intensity $I$ is given by $I = I_0 \\cos^2(\\phi/2)$. Substituting $\\phi = 60^\\circ$ gives $I = I_0 \\cos^2(30^\\circ) = I_0 (\\sqrt{3}/2)^2 = 3/4 I_0$."
+  },
+  {
+    "question": "The density of a core of a star is $\\rho$. If the star collapses such that its radius reduces to $1/10$ of its initial value, the new density $\\rho'$ (assuming uniform mass distribution) is:",
+    "options": [
+      "$10\\rho$",
+      "$100\\rho$",
+      "$1000\\rho$",
+      "$10000\\rho$"
+    ],
+    "correctAnswer": 2,
+    "explanation": "Density $\\rho$ is inversely proportional to the cube of the radius $R^3$ for a fixed mass. If the radius $R$ becomes $R/10$, the volume decreases by a factor of $(1/10)^3 = 1/1000$. Therefore, the density increases by $1000$ times to $1000\\rho$."
+  },
+  {
+    "question": "Two vectors $\\vec{A}$ and $\\vec{B}$ are such that $|\\vec{A} + \\vec{B}| = |\\vec{A} - \\vec{B}|$. The angle between the two vectors is:",
+    "options": [
+      "$0^\\circ$",
+      "$45^\\circ$",
+      "$90^\\circ$",
+      "$180^\\circ$"
+    ],
+    "correctAnswer": 2,
+    "explanation": "The condition $|\\vec{A} + \\vec{B}| = |\\vec{A} - \\vec{B}|$ implies that the magnitude of the sum and difference are equal. Squaring both sides gives $A^2 + B^2 + 2AB\\cos\\theta = A^2 + B^2 - 2AB\\cos\\theta$, leading to $4AB\\cos\\theta = 0$. This occurs when $\\cos\\theta = 0$, meaning the angle $\\theta$ is $90^\\circ$."
+  },
+  {
+    "question": "A car moves on a circular track of radius $R$. The speed of the car is increasing at a rate $dv/dt = a$. The total acceleration of the car at an instant when its speed is $v$ is:",
+    "options": [
+      "$v^2/R$",
+      "$\\sqrt{a^2 + (v^2/R)^2}$",
+      "$a$",
+      "$a + v^2/R$"
+    ],
+    "correctAnswer": 1,
+    "explanation": "The car has two components of acceleration: tangential acceleration $a_t = a$ and centripetal acceleration $a_c = v^2/R$. Since these components are perpendicular, the total acceleration is the square root of the sum of their squares: $\\sqrt{a^2 + (v^2/R)^2}$."
+  },
+  {
+    "question": "A thermodynamic system is taken from state $A$ to $B$ along $ACB$ and is brought back to $A$ along $BDA$. The work done by the system during the cycle $ACBDA$ is 10 J. The heat given to the system along $ACB$ is 50 J and the work done by the system along $ACB$ is 20 J. The heat absorbed/released along $BDA$ is:",
+    "options": [
+      "-40 J",
+      "40 J",
+      "-30 J",
+      "30 J"
+    ],
+    "correctAnswer": 0,
+    "explanation": "For a closed cycle, the total change in internal energy $\\Delta U = 0$, meaning $Q_{total} = W_{total}$. Given $W_{cycle} = 10 \\text{ J}$, then $Q_{ACB} + Q_{BDA} = 10 \\text{ J}$. With $Q_{ACB} = 50 \\text{ J}$, we solve $50 + Q_{BDA} = 10$ to find $Q_{BDA} = -40 \\text{ J}$."
+  },
+  {
+    "question": "Which of the following functions represents a stationary wave?",
+    "options": [
+      "$A\\sin(kx - \\omega t)$",
+      "$A\\sin(kx)\\cos(\\omega t)$",
+      "$A\\exp(i(kx - \\omega t))$",
+      "$A\\cos(kx + \\omega t)$"
+    ],
+    "correctAnswer": 1,
+    "explanation": "A stationary (standing) wave is represented by a function where the space and time variables are separated into product form, such as $A\\sin(kx)\\cos(\\omega t)$. Traveling waves are represented by functions of $(kx \\pm \\omega t)$."
+  },
+  {
+    "question": "The work function of a substance is 4.0 eV. The longest wavelength of light that can cause photoelectron emission from this substance is approximately:",
+    "options": [
+      "540 nm",
+      "400 nm",
+      "310 nm",
+      "220 nm"
+    ],
+    "correctAnswer": 2,
+    "explanation": "The maximum wavelength $\\lambda$ is given by $hc/\\phi$, where $\\phi$ is the work function. Using $hc \\approx 1240 \\text{ eV}\\cdot\\text{nm}$, the wavelength is $1240 / 4.0 = 310 \\text{ nm}$."
+  },
+  {
+    "question": "If an electron drops from the $n=4$ orbital to the $n=2$ orbital in a Hydrogen atom, the wavelength of the emitted radiation is (where $R$ is Rydberg constant):",
+    "options": [
+      "$16/3R$",
+      "$16/5R$",
+      "$3/16R$",
+      "$5/16R$"
+    ],
+    "correctAnswer": 0,
+    "explanation": "Using the Rydberg formula $1/\\lambda = R(1/n_1^2 - 1/n_2^2)$ with $n_1=2$ and $n_2=4$, we get $1/\\lambda = R(1/4 - 1/16) = R(3/16)$. Thus, $\\lambda = 16/3R$."
+  },
+  {
+    "question": "In a p-n junction diode, the thickness of the depletion layer is of the order of:",
+    "options": [
+      "1 cm",
+      "1 mm",
+      "$10^{-6}$ m",
+      "$10^{-10}$ m"
+    ],
+    "correctAnswer": 2,
+    "explanation": "The depletion layer in a typical p-n junction is very thin, generally in the range of micrometers ($10^{-6}$ m)."
+  },
+  {
+    "question": "A charged particle is released from rest in a region of steady and uniform electric and magnetic fields which are parallel to each other. The particle will move in a:",
+    "options": [
+      "Circle",
+      "Helix",
+      "Straight line",
+      "Cycloid"
+    ],
+    "correctAnswer": 2,
+    "explanation": "The electric field $E$ accelerates the particle from rest along its direction. Since the particle's velocity remains parallel to the magnetic field $B$, the magnetic force $F = q(\\vec{v} \\times \\vec{B})$ is zero. The particle thus continues in a straight line."
+  },
+  {
+    "question": "The magnetic flux linked with a coil is $\\Phi = 5t^2 + 3t + 16$. The induced EMF in the coil at $t = 4$ s is:",
+    "options": [
+      "43 V",
+      "40 V",
+      "23 V",
+      "10 V"
+    ],
+    "correctAnswer": 0,
+    "explanation": "Induced EMF is $e = |d\\Phi/dt|$. Differentiating the expression gives $e = 10t + 3$. At $t = 4$, $e = 10(4) + 3 = 43 \\text{ V}$."
+  },
+  {
+    "question": "A step-up transformer has a turns ratio of 1:10. A resistance of $20 \\Omega$ is connected across the secondary. The equivalent resistance as seen by the primary is:",
+    "options": [
+      "$200 \\Omega$",
+      "$2 \\Omega$",
+      "$0.2 \\Omega$",
+      "$20 \\Omega$"
+    ],
+    "correctAnswer": 2,
+    "explanation": "The resistance reflected to the primary is $R_p = R_s / K^2$, where $K$ is the turns ratio $N_s/N_p$. Here $K = 10$, so $R_p = 20 / 10^2 = 20 / 100 = 0.2 \\Omega$."
+  },
+  {
+    "question": "For a given material, the Young's modulus is 2.4 times its modulus of rigidity. What is its Poisson's ratio?",
+    "options": [
+      "0.2",
+      "0.5",
+      "1.2",
+      "0.4"
+    ],
+    "correctAnswer": 0,
+    "explanation": "Using the relation $Y = 2\\eta(1 + \\sigma)$, where $Y$ is Young's modulus and $\\eta$ is rigidity modulus. Given $Y = 2.4\\eta$, we have $2.4 = 2(1 + \\sigma)$, leading to $1.2 = 1 + \\sigma$ and $\\sigma = 0.2$."
+  },
+  {
+    "question": "The r.m.s. velocity of gas molecules is $200$ m/s at $27^\\circ$C. At $127^\\circ$C, the r.m.s. velocity would be:",
+    "options": [
+      "$231$ m/s",
+      "$266$ m/s",
+      "$400$ m/s",
+      "$800$ m/s"
+    ],
+    "correctAnswer": 0,
+    "explanation": "RMS velocity is proportional to $\\sqrt{T}$ where $T$ is in Kelvin. $T_1 = 300\\text{ K}$ and $T_2 = 400\\text{ K}$. Thus $v_2 = v_1 \\sqrt{400/300} = 200 \\times \\sqrt{4/3} \\approx 231 \\text{ m/s}$."
+  },
+  {
+    "question": "An object is placed at a distance of $10$ cm from a convex lens of focal length $15$ cm. The image formed is:",
+    "options": [
+      "Real, inverted and enlarged",
+      "Virtual, erect and enlarged",
+      "Real, inverted and diminished",
+      "Virtual, erect and diminished"
+    ],
+    "correctAnswer": 1,
+    "explanation": "When an object is placed within the focal length of a convex lens ($u < f$), it forms a virtual, erect, and magnified image."
+  },
+  {
+    "question": "In a nuclear reactor, the function of the moderator is to:",
+    "options": [
+      "Absorb neutrons",
+      "Accelerate neutrons",
+      "Slow down neutrons",
+      "Control the reaction rate"
+    ],
+    "correctAnswer": 2,
+    "explanation": "A moderator is used to reduce the kinetic energy of fast neutrons, slowing them down to increase the likelihood of sustaining a fission chain reaction."
+  },
+  {
+    "question": "A solid sphere and a hollow sphere of the same mass and radius are released from the top of an inclined plane. Which one will reach the bottom first?",
+    "options": [
+      "Solid sphere",
+      "Hollow sphere",
+      "Both reach at the same time",
+      "Depends on the angle of inclination"
+    ],
+    "correctAnswer": 0,
+    "explanation": "Acceleration is $a = \\frac{g\\sin\\theta}{1 + I/mR^2}$. A solid sphere has a lower moment of inertia ($I = 0.4 mR^2$) than a hollow sphere ($I = 0.67 mR^2$), resulting in greater acceleration and reaching the bottom first."
+  },
+  {
+    "question": "The ratio of the speed of sound in nitrogen gas to that in helium gas at the same temperature is:",
+    "options": [
+      "$\\sqrt{2/7}$",
+      "$\\sqrt{1/7}$",
+      "$\\sqrt{3/5}$",
+      "$\\sqrt{6/35}$"
+    ],
+    "correctAnswer": 3,
+    "explanation": "The speed of sound is $v = \\sqrt{\\gamma RT/M}$. For Nitrogen, $\\gamma = 7/5$ and $M=28$; for Helium, $\\gamma = 5/3$ and $M=4$. The ratio $\\sqrt{(7/5 \\times 1/28) / (5/3 \\times 1/4)}$ simplifies to $\\sqrt{6/35}$."
+  },
+  {
+    "question": "A capacitor of capacitance $C$ is charged to a potential $V$ and then connected in parallel with an uncharged capacitor of capacitance $2C$. The final potential difference across each capacitor is:",
+    "options": [
+      "$V/3$",
+      "$V/2$",
+      "$2V/3$",
+      "$V$"
+    ],
+    "correctAnswer": 0,
+    "explanation": "Total charge $Q = CV$ is distributed over total capacitance $C + 2C = 3C$. The common potential is $V' = Q/C_{total} = CV/3C = V/3$."
+  },
+  {
+    "question": "The Brewster angle for a glass-air interface (refractive index of glass $= 1.5$) is:",
+    "options": [
+      "$33.7^\\circ$",
+      "$41.8^\\circ$",
+      "$56.3^\\circ$",
+      "$60^\\circ$"
+    ],
+    "correctAnswer": 2,
+    "explanation": "Brewster's angle is given by $\\tan\\theta = n$. For $n = 1.5$, $\\theta = \\tan^{-1}(1.5) \\approx 56.3^\\circ$."
+  },
+  {
+    "question": "If the earth stops rotating about its axis, the value of $g$ at the equator will:",
+    "options": [
+      "Increase",
+      "Decrease",
+      "Remain same",
+      "Become zero"
+    ],
+    "correctAnswer": 0,
+    "explanation": "Gravity at the equator is $g_{eff} = g - \\omega^2 R$. If rotation stops, $\\omega = 0$, so $g_{eff}$ increases to its maximum value $g$."
+  },
+  {
+    "question": "A radioactive element has a half-life of 10 days. The fraction of the element that will remain after 30 days is:",
+    "options": [
+      "$1/3$",
+      "$1/6$",
+      "$1/8$",
+      "$1/9$"
+    ],
+    "correctAnswer": 2,
+    "explanation": "Thirty days corresponds to 3 half-lives ($30/10$). The remaining fraction is $(1/2)^3 = 1/8$."
+  },
+  {
+    "question": "The resolving power of a telescope can be increased by:",
+    "options": [
+      "Increasing the focal length of the eye-piece",
+      "Increasing the diameter of the objective",
+      "Decreasing the focal length of the objective",
+      "Increasing the length of the telescope"
+    ],
+    "correctAnswer": 1,
+    "explanation": "Resolving power is proportional to the diameter of the objective lens. A larger aperture reduces diffraction and allows the telescope to see finer detail."
+  },
+  {
+    "question": "A current $I$ flows through a long straight wire. The magnetic field at a distance $r$ from the wire is $B$. The magnetic field at a distance $r/2$ is:",
+    "options": [
+      "$B/2$",
+      "$B$",
+      "$2B$",
+      "$4B$"
+    ],
+    "correctAnswer": 2,
+    "explanation": "Magnetic field $B$ is inversely proportional to distance $r$ ($B \\propto 1/r$). If distance is halved to $r/2$, the field strength doubles to $2B$."
+  },
+  {
+    "question": "In an adiabatic process, the state of a gas is changed from $(P_1, V_1, T_1)$ to $(P_2, V_2, T_2)$. Which of the following is correct?",
+    "options": [
+      "$T_1 V_1^{\\gamma-1} = T_2 V_2^{\\gamma-1}$",
+      "$P_1 V_1 = P_2 V_2$",
+      "$T_1 P_1^{\\gamma} = T_2 P_2^{\\gamma}$",
+      "$T_1 V_1^{\\gamma} = T_2 V_2^{\\gamma}$"
+    ],
+    "correctAnswer": 0,
+    "explanation": "For an adiabatic process, the relationship between temperature and volume is $TV^{\\gamma-1} = \\text{constant}$."
+  },
+  {
+    "question": "The binding energy per nucleon is maximum for:",
+    "options": [
+      "$^4$He",
+      "$^{56}$Fe",
+      "$^{235}$U",
+      "$^{16}$O"
+    ],
+    "correctAnswer": 1,
+    "explanation": "The binding energy per nucleon curve peaks at Iron-56, making it the most stable nucleus."
+  },
+  {
+    "question": "The drift velocity of electrons in a conductor is of the order of:",
+    "options": [
+      "$10^{8}$ m/s",
+      "$10^{6}$ m/s",
+      "$10^{-4}$ m/s",
+      "$10^{-10}$ m/s"
+    ],
+    "correctAnswer": 2,
+    "explanation": "Electrons drift very slowly through a wire, typically at speeds around $10^{-4}$ meters per second."
+  },
+  {
+    "question": "A force $\\vec{F} = (2\\hat{i} + 3\\hat{j}) $ N acts on a particle and displaces it from $(0,0)$ to $(2,2)$ m. The work done is:",
+    "options": [
+      "5 J",
+      "10 J",
+      "13 J",
+      "15 J"
+    ],
+    "correctAnswer": 1,
+    "explanation": "Work is the dot product $\\vec{F} \\cdot \\vec{d}$. Here $\\vec{d} = 2\\hat{i} + 2\\hat{j}$. $W = (2 \\times 2) + (3 \\times 2) = 4 + 6 = 10 \\text{ J}$."
+  },
+  {
+    "question": "A convex mirror has a focal length $f$. A real object is placed at a distance $f$ in front of it. The image is formed at:",
+    "options": [
+      "Infinity",
+      "$f/2$",
+      "$f$",
+      "$2f$"
+    ],
+    "correctAnswer": 1,
+    "explanation": "Using the mirror formula $1/v + 1/u = 1/f$ with $f > 0$ and $u = -f$. $1/v = 1/f - (-1/f) = 2/f$, so $v = f/2$."
+  },
+  {
+    "question": "The energy of a photon of frequency $\\nu$ is $h\\nu$. The momentum of this photon is:",
+    "options": [
+      "$h\\nu/c$",
+      "$h\\nu c$",
+      "$h/\\nu c$",
+      "$h\\nu/c^2$"
+    ],
+    "correctAnswer": 0,
+    "explanation": "Momentum $p$ is $E/c$. Since $E = h\\nu$, then $p = h\\nu/c$."
+  },
+  {
+    "question": "A wire of resistance $10 \\Omega$ is stretched to twice its length. The new resistance is:",
+    "options": [
+      "$10 \\Omega$",
+      "$20 \\Omega$",
+      "$40 \\Omega$",
+      "$5 \\Omega$"
+    ],
+    "correctAnswer": 2,
+    "explanation": "Stretching a wire to twice its length ($L' = 2L$) causes its cross-sectional area to halve ($A' = A/2$) because volume is constant. Since $R = \\rho L/A$, the resistance increases by a factor of 4 to $40 \\Omega$."
+  },
+  {
+    "question": "The time period of a simple pendulum inside a lift falling freely under gravity is:",
+    "options": [
+      "Zero",
+      "Infinite",
+      "Same as on ground",
+      "Finite but different"
+    ],
+    "correctAnswer": 1,
+    "explanation": "Inside a freely falling lift, effective gravity is zero. Since $T = 2\\pi \\sqrt{L/g_{eff}}$, the time period becomes infinite."
+  },
+  {
+    "question": "In a transistor, the base region is:",
+    "options": [
+      "Heavily doped and thick",
+      "Lightly doped and thick",
+      "Heavily doped and thin",
+      "Lightly doped and thin"
+    ],
+    "correctAnswer": 3,
+    "explanation": "The base is made thin and lightly doped to minimize the recombination of charge carriers as they move from the emitter to the collector."
+  },
+  {
+    "question": "Two waves of same frequency and intensity $I_0$ interfere. The ratio of maximum to minimum intensity is:",
+    "options": [
+      "1",
+      "4",
+      "Infinite",
+      "Depends on phase"
+    ],
+    "correctAnswer": 2,
+    "explanation": "For two identical sources, $I_{max} = 4I_0$ and $I_{min} = 0$. The ratio $4I_0 / 0$ is infinite."
+  },
+  {
+    "question": "Which of the following is a non-conservative force?",
+    "options": [
+      "Electrostatic force",
+      "Gravitational force",
+      "Viscous force",
+      "Magnetic force"
+    ],
+    "correctAnswer": 2,
+    "explanation": "Viscous force is non-conservative because the work done depends on the path taken and results in energy dissipation as heat."
+  },
+  {
+    "question": "The capacitance of a spherical conductor of radius $R$ is:",
+    "options": [
+      "$R$",
+      "$4\\pi \\epsilon_0 R$",
+      "$4\\pi \\epsilon_0 R^2$",
+      "$\\epsilon_0/R$"
+    ],
+    "correctAnswer": 1,
+    "explanation": "The potential $V$ of a spherical conductor is $Q/(4\\pi \\epsilon_0 R)$. Capacitance $C = Q/V = 4\\pi \\epsilon_0 R$."
+  },
+  {
+    "question": "If the intensity of light is doubled in a photoelectric effect experiment, the maximum kinetic energy of emitted photoelectrons will:",
+    "options": [
+      "Double",
+      "Half",
+      "Remain same",
+      "Quadruple"
+    ],
+    "correctAnswer": 2,
+    "explanation": "Maximum kinetic energy depends only on the frequency of incident light ($K_{max} = h\\nu - \\phi$) and is independent of intensity."
+  },
+  {
+    "question": "A solenoid of length $L$ and $N$ turns carries a current $I$. The magnetic field inside the solenoid is:",
+    "options": [
+      "$\\mu_0 NI$",
+      "$\\mu_0 NI/L$",
+      "$\\mu_0 I/NL$",
+      "$\\mu_0 NL/I$"
+    ],
+    "correctAnswer": 1,
+    "explanation": "The magnetic field inside an ideal solenoid is $B = \\mu_0 n I$, where $n = N/L$ is the number of turns per unit length."
+  },
+  {
+    "question": "The escape velocity from the surface of a planet of mass $M$ and radius $R$ is:",
+    "options": [
+      "$\\sqrt{GM/R}$",
+      "$\\sqrt{2GM/R}$",
+      "$2GM/R$",
+      "$\\sqrt{GM/R^2}$"
+    ],
+    "correctAnswer": 1,
+    "explanation": "Escape velocity is the minimum speed needed to break free from gravitational attraction, given by $v_e = \\sqrt{2GM/R}$."
+  },
+  {
+    "question": "The unit of self-inductance is:",
+    "options": [
+      "Weber",
+      "Tesla",
+      "Henry",
+      "Farad"
+    ],
+    "correctAnswer": 2,
+    "explanation": "Self-inductance is measured in Henry (H)."
+  },
+  {
+    "question": "A prism has a refractive index $\\sqrt{2}$ and an angle of $60^\\circ$. The angle of minimum deviation is:",
+    "options": [
+      "$30^\\circ$",
+      "$45^\\circ$",
+      "$15^\\circ$",
+      "$60^\\circ$"
+    ],
+    "correctAnswer": 0,
+    "explanation": "Using the prism formula $n = \\frac{\\sin((A + \\delta_m)/2)}{\\sin(A/2)}$ with $n=\\sqrt{2}$ and $A=60^\\circ$. $\\sin((60 + \\delta_m)/2) = \\sqrt{2} \\sin(30^\\circ) = 1/\\sqrt{2}$, which means $(60 + \\delta_m)/2 = 45^\\circ$, so $\\delta_m = 30^\\circ$."
+  },
+  {
+    "question": "What is the equivalent focal length of two thin lenses of focal lengths $f_1$ and $f_2$ in contact?",
+    "options": [
+      "$f_1 + f_2$",
+      "$f_1 f_2 / (f_1 + f_2)$",
+      "$f_1 f_2 / (f_2 - f_1)$",
+      "$\\sqrt{f_1 f_2}$"
+    ],
+    "correctAnswer": 1,
+    "explanation": "The equivalent power is $1/F = 1/f_1 + 1/f_2$. Solving for $F$ gives $F = f_1 f_2 / (f_1 + f_2)$."
+  },
+  {
+    "question": "The de-Broglie wavelength of an electron accelerated through a potential difference of $100$ V is approximately:",
+    "options": [
+      "$12.27$ Å",
+      "$1.227$ Å",
+      "$0.1227$ Å",
+      "$122.7$ Å"
+    ],
+    "correctAnswer": 1,
+    "explanation": "The wavelength for an electron is $\\lambda \\approx \\frac{12.27}{\\sqrt{V}}$ Å. For $V=100$, $\\lambda \\approx 1.227$ Å."
+  },
+  {
+    "question": "The gate which gives a high output only when all its inputs are low is:",
+    "options": [
+      "AND",
+      "OR",
+      "NOR",
+      "NAND"
+    ],
+    "correctAnswer": 2,
+    "explanation": "A NOR gate outputs a 1 (high) only if both inputs are 0 (low)."
+  },
+  {
+    "question": "The pressure $P$ of an ideal gas and its mean kinetic energy per unit volume $E$ are related as:",
+    "options": [
+      "$P = E$",
+      "$P = 2E/3$",
+      "$P = 3E/2$",
+      "$P = E/2$"
+    ],
+    "correctAnswer": 1,
+    "explanation": "The kinetic theory of gases gives $P = \\frac{2}{3} (\\frac{1}{2} \\rho v^2)$, where $E$ is the kinetic energy per unit volume. Thus, $P = 2E/3$."
+  }
+]

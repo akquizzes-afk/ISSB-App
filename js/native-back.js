@@ -55,63 +55,18 @@ function attachBackButtonHandler() {
     '/initials/physics-tests/physics-tests.html': '/initials/initial-tests.html',
     
     // Individual academic tests (Must go back to the hub inside the folder)
-    '/initials/academic-tests/test1/test1.html': '/initials/academic-tests/academic-tests.html',
-    '/initials/academic-tests/test2/test2.html': '/initials/academic-tests/academic-tests.html',
-    '/initials/academic-tests/test3/test3.html': '/initials/academic-tests/academic-tests.html',
-    '/initials/academic-tests/test4/test4.html': '/initials/academic-tests/academic-tests.html',
-    '/initials/academic-tests/test5/test5.html': '/initials/academic-tests/academic-tests.html',
-    '/initials/academic-tests/test6/test6.html': '/initials/academic-tests/academic-tests.html',
-    '/initials/academic-tests/test7/test7.html': '/initials/academic-tests/academic-tests.html',
-    '/initials/academic-tests/test8/test8.html': '/initials/academic-tests/academic-tests.html',
-    '/initials/academic-tests/test9/test9.html': '/initials/academic-tests/academic-tests.html',
-    '/initials/academic-tests/test10/test10.html': '/initials/academic-tests/academic-tests.html',
-    '/initials/academic-tests/test11/test11.html': '/initials/academic-tests/academic-tests.html',
-    '/initials/academic-tests/test12/test12.html': '/initials/academic-tests/academic-tests.html',
-    '/initials/academic-tests/test13/test13.html': '/initials/academic-tests/academic-tests.html',
-        '/initials/academic-tests/test14/test14.html': '/initials/academic-tests/academic-tests.html',
-    '/initials/academic-tests/test15/test15.html': '/initials/academic-tests/academic-tests.html',
-    '/initials/academic-tests/test16/test16.html': '/initials/academic-tests/academic-tests.html',
-    '/initials/academic-tests/test17/test17.html': '/initials/academic-tests/academic-tests.html',
-        '/initials/academic-tests/test18/test18.html': '/initials/academic-tests/academic-tests.html',
-    '/initials/academic-tests/test19/test19.html': '/initials/academic-tests/academic-tests.html',
-    '/initials/academic-tests/test20/test20.html': '/initials/academic-tests/academic-tests.html',
-    
+    '/initials/academic-tests/test-engine.html': '/initials/academic-tests/academic-tests.html',
+ 
     // Individual verbal tests (Must go back to the hub inside the folder)
-    '/initials/verbal-tests/test1/test1.html': '/initials/verbal-tests/verbal-tests.html',
-    '/initials/verbal-tests/test2/test2.html': '/initials/verbal-tests/verbal-tests.html',
-    '/initials/verbal-tests/test3/test3.html': '/initials/verbal-tests/verbal-tests.html',
-    '/initials/verbal-tests/test4/test4.html': '/initials/verbal-tests/verbal-tests.html',
-    '/initials/verbal-tests/test5/test5.html': '/initials/verbal-tests/verbal-tests.html',
-    '/initials/verbal-tests/test6/test6.html': '/initials/verbal-tests/verbal-tests.html',
-        '/initials/verbal-tests/test7/test7.html': '/initials/verbal-tests/verbal-tests.html',
-    '/initials/verbal-tests/test8/test8.html': '/initials/verbal-tests/verbal-tests.html',
-    '/initials/verbal-tests/test9/test9.html': '/initials/verbal-tests/verbal-tests.html',
-    '/initials/verbal-tests/test10/test10.html': '/initials/verbal-tests/verbal-tests.html',
-    
+    '/initials/verbal-tests/test-engine.html': '/initials/verbal-tests/verbal-tests.html',
+
     // Individual english tests (Must go back to the hub inside the folder)
-'/initials/english-tests/test1/test1.html': '/initials/english-tests/english-tests.html',
-'/initials/english-tests/test2/test2.html': '/initials/english-tests/english-tests.html',
-'/initials/english-tests/test3/test3.html': '/initials/english-tests/english-tests.html',
-'/initials/english-tests/test4/test4.html': '/initials/english-tests/english-tests.html',
-'/initials/english-tests/test5/test5.html': '/initials/english-tests/english-tests.html',
-'/initials/english-tests/test6/test6.html': '/initials/english-tests/english-tests.html',
-'/initials/english-tests/test7/test7.html': '/initials/english-tests/english-tests.html',
-'/initials/english-tests/test8/test8.html': '/initials/english-tests/english-tests.html',
-'/initials/english-tests/test9/test9.html': '/initials/english-tests/english-tests.html',
-'/initials/english-tests/test10/test10.html': '/initials/english-tests/english-tests.html',
+'/initials/english-tests/test-engine.html': '/initials/english-tests/english-tests.html',
 
 // Individual physics tests (Must go back to the hub inside the folder)
-'/initials/physics-tests/test1/test1.html': '/initials/physics-tests/physics-tests.html',
-'/initials/physics-tests/test2/test2.html': '/initials/physics-tests/physics-tests.html',
-'/initials/physics-tests/test3/test3.html': '/initials/physics-tests/physics-tests.html',
-'/initials/physics-tests/test4/test4.html': '/initials/physics-tests/physics-tests.html',
-'/initials/physics-tests/test5/test5.html': '/initials/physics-tests/physics-tests.html',
-'/initials/physics-tests/test6/test6.html': '/initials/physics-tests/physics-tests.html',
-'/initials/physics-tests/test7/test7.html': '/initials/physics-tests/physics-tests.html',
-'/initials/physics-tests/test8/test8.html': '/initials/physics-tests/physics-tests.html',
-'/initials/physics-tests/test9/test9.html': '/initials/physics-tests/physics-tests.html',
-'/initials/physics-tests/test10/test10.html': '/initials/physics-tests/physics-tests.html',
-    // Coming Soon page
+'/initials/physics-tests/test-engine.html': '/initials/physics-tests/physics-tests.html',
+
+   // Coming Soon page
     '/coming-soon.html': '/initials/initial-tests.html'
 };
 
