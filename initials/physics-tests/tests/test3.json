@@ -1,252 +1,553 @@
 [
   {
     "question": "The dimensions of the ratio of angular momentum to linear momentum are:",
-    "options": ["$[M^0 L^1 T^0]$","$[M^1 L^1 T^0]$","$[M^0 L^1 T^{-1}]$","$[M^0 L^2 T^0]$"],
-    "correctAnswer": 0
+    "options": [
+      "$[M^0 L^1 T^0]$",
+      "$[M^1 L^1 T^0]$",
+      "$[M^0 L^1 T^{-1}]$",
+      "$[M^0 L^2 T^0]$"
+    ],
+    "correctAnswer": 0,
+    "explanation": "Angular momentum $L = mvr$ has dimensions $[ML^2T^{-1}]$. Linear momentum $p = mv$ has dimensions $[MLT^{-1}]$. The ratio $L/p = r$, which is a length with dimension $[L]$ or $[M^0 L^1 T^0]$."
   },
   {
     "question": "A particle moves along a circle of radius $R$ with a constant angular speed $\\omega$. Its displacement in time $t$ is given by:",
-    "options": ["$R \\omega t$","$2R \\sin(\\omega t / 2)$","$R \\sin(\\omega t)$","$2R \\cos(\\omega t / 2)$"],
-    "correctAnswer": 1
+    "options": [
+      "$R \\omega t$",
+      "$2R \\sin(\\omega t / 2)$",
+      "$R \\sin(\\omega t)$",
+      "$2R \\cos(\\omega t / 2)$"
+    ],
+    "correctAnswer": 1,
+    "explanation": "In time $t$, the particle sweeps an angle $\\theta = \\omega t$. The displacement is the straight-line distance (chord length) between the initial and final positions. Using geometry, the chord length is $2R \\sin(\\theta/2)$, which becomes $2R \\sin(\\omega t / 2)$."
   },
   {
     "question": "If the error in the measurement of the radius of a sphere is 2%, then the error in the determination of its volume will be:",
-    "options": ["2%","4%","6%","8%"],
-    "correctAnswer": 2
+    "options": [
+      "2%",
+      "4%",
+      "6%",
+      "8%"
+    ],
+    "correctAnswer": 2,
+    "explanation": "The volume of a sphere is $V = \\frac{4}{3}\\pi r^3$. The percentage error in volume is approximately 3 times the percentage error in radius: $\\frac{\\Delta V}{V} \\% = 3 \\times \\frac{\\Delta r}{r} \\% = 3 \\times 2\\% = 6\\%$."
   },
   {
     "question": "A block of mass 10 kg is moving on a rough horizontal surface with a constant velocity of 2 m/s. If the coefficient of friction is 0.5, the horizontal force applied is:",
-    "options": ["5 N","20 N","10 N","49 N"],
-    "correctAnswer": 3
+    "options": [
+      "5 N",
+      "20 N",
+      "10 N",
+      "49 N"
+    ],
+    "correctAnswer": 3,
+    "explanation": "Since the velocity is constant, the net force is zero. The applied force must balance the frictional force. $F_{app} = f_k = \\mu N = \\mu mg = 0.5 \\times 10 \\times 9.8 = 49$ N."
   },
   {
     "question": "Two vectors $\\vec{P}$ and $\\vec{Q}$ are such that $\\vec{P} + \\vec{Q} = \\vec{R}$ and $P^2 + Q^2 = R^2$. The angle between $\\vec{P}$ and $\\vec{Q}$ is:",
-    "options": ["$90^\\circ$","$0^\\circ$","$180^\\circ$","$45^\\circ$"],
-    "correctAnswer": 0
+    "options": [
+      "$90^\\circ$",
+      "$0^\\circ$",
+      "$180^\\circ$",
+      "$45^\\circ$"
+    ],
+    "correctAnswer": 0,
+    "explanation": "The magnitude of the resultant vector is given by $R^2 = P^2 + Q^2 + 2PQ\\cos\\theta$. Given $R^2 = P^2 + Q^2$, we have $2PQ\\cos\\theta = 0$. Since magnitudes are non-zero, $\\cos\\theta = 0$, implying $\\theta = 90^\\circ$."
   },
   {
     "question": "The work done by a force $\\vec{F} = (x\\hat{i} + y\\hat{j})$ in moving a particle from $(0,0)$ to $(a,a)$ is:",
-    "options": ["$a^2/2$","$a^2$","$2a^2$","$0$"],
-    "correctAnswer": 1
+    "options": [
+      "$a^2/2$",
+      "$a^2$",
+      "$2a^2$",
+      "$0$"
+    ],
+    "correctAnswer": 1,
+    "explanation": "Work $W = \\int \\vec{F} \\cdot d\\vec{r} = \\int_0^a x dx + \\int_0^a y dy = [\\frac{x^2}{2}]_0^a + [\\frac{y^2}{2}]_0^a = \\frac{a^2}{2} + \\frac{a^2}{2} = a^2$."
   },
   {
     "question": "A satellite is orbiting the earth in a circular orbit of radius $r$. Its period of revolution $T$ varies as:",
-    "options": ["$T \\propto r$","$T \\propto r^2$","$T \\propto r^{3/2}$","$T \\propto r^{1/2}$"],
-    "correctAnswer": 2
+    "options": [
+      "$T \\propto r$",
+      "$T \\propto r^2$",
+      "$T \\propto r^{3/2}$",
+      "$T \\propto r^{1/2}$"
+    ],
+    "correctAnswer": 2,
+    "explanation": "According to Kepler's Third Law (derived from gravitational force providing centripetal force), $T^2 \\propto r^3$, which means $T \\propto r^{3/2}$."
   },
   {
     "question": "The escape velocity on the surface of the moon is less than that on the earth's surface because:",
-    "options": ["The moon is not a planet","The moon has no atmosphere","The moon is cooler than the earth","The moon's mass and radius are smaller"],
-    "correctAnswer": 3
+    "options": [
+      "The moon is not a planet",
+      "The moon has no atmosphere",
+      "The moon is cooler than the earth",
+      "The moon's mass and radius are smaller"
+    ],
+    "correctAnswer": 3,
+    "explanation": "Escape velocity $v_e = \\sqrt{2GM/R}$. Although the Moon has a smaller radius (which would tend to increase $v_e$), its mass is much smaller than Earth's. The ratio $M/R$ is significantly lower for the Moon, resulting in a lower escape velocity."
   },
   {
     "question": "A liquid rises to a height of 10 cm in a capillary tube. If the radius of the tube is halved, the liquid will rise to a height of:",
-    "options": ["20 cm","10 cm","5 cm","40 cm"],
-    "correctAnswer": 0
+    "options": [
+      "20 cm",
+      "10 cm",
+      "5 cm",
+      "40 cm"
+    ],
+    "correctAnswer": 0,
+    "explanation": "Capillary rise $h$ is inversely proportional to the radius $r$ ($h \\propto 1/r$). If the radius is halved ($r \\to r/2$), the height doubles. New height $= 2 \\times 10 = 20$ cm."
   },
   {
     "question": "The First Law of Thermodynamics is a specific statement of:",
-    "options": ["Conservation of momentum","Conservation of energy","Conservation of mass","The law of heat exchange"],
-    "correctAnswer": 1
+    "options": [
+      "Conservation of momentum",
+      "Conservation of energy",
+      "Conservation of mass",
+      "The law of heat exchange"
+    ],
+    "correctAnswer": 1,
+    "explanation": "The First Law of Thermodynamics ($Q = \\Delta U + W$) states that heat energy supplied to a system is converted into internal energy and work done, essentially restating the principle of conservation of energy."
   },
   {
     "question": "The efficiency of a Carnot engine working between $127^\\circ C$ and $27^\\circ C$ is:",
-    "options": ["20%","25%","33%","50%"],
-    "correctAnswer": 1
+    "options": [
+      "20%",
+      "25%",
+      "33%",
+      "50%"
+    ],
+    "correctAnswer": 1,
+    "explanation": "Efficiency $\\eta = 1 - T_2/T_1$. Convert to Kelvin: $T_1 = 127 + 273 = 400$ K, $T_2 = 27 + 273 = 300$ K. $\\eta = 1 - 300/400 = 1 - 0.75 = 0.25$ or 25%."
   },
   {
     "question": "A particle executing SHM has a maximum velocity $v_m$ and maximum acceleration $a_m$. Its time period is:",
-    "options": ["$2\\pi (v_m / a_m)$","$2\\pi (a_m / v_m)$","$v_m / a_m$","$a_m / v_m$"],
-    "correctAnswer": 0
+    "options": [
+      "$2\\pi (v_m / a_m)$",
+      "$2\\pi (a_m / v_m)$",
+      "$v_m / a_m$",
+      "$a_m / v_m$"
+    ],
+    "correctAnswer": 0,
+    "explanation": "Maximum velocity $v_m = A\\omega$ and maximum acceleration $a_m = A\\omega^2$. Dividing gives $v_m/a_m = 1/\\omega$. Since period $T = 2\\pi/\\omega$, substituting $1/\\omega$ gives $T = 2\\pi(v_m/a_m)$."
   },
   {
     "question": "The intensity of a sound wave is increased by a factor of 100. The increase in the intensity level in decibels (dB) is:",
-    "options": ["10 dB","20 dB","100 dB","2 dB"],
-    "correctAnswer": 1
+    "options": [
+      "10 dB",
+      "20 dB",
+      "100 dB",
+      "2 dB"
+    ],
+    "correctAnswer": 1,
+    "explanation": "The change in intensity level is $\\Delta L = 10 \\log_{10}(I_2/I_1)$. With $I_2/I_1 = 100$, $\\Delta L = 10 \\log_{10}(100) = 10 \\times 2 = 20$ dB."
   },
   {
     "question": "An electric dipole consists of two opposite charges of $2 \\times 10^{-6}$ C separated by a distance of 0.01 m. The maximum torque it can experience in an electric field of $10^5$ N/C is:",
-    "options": ["$2 \\times 10^{-3}$ N m","$2 \\times 10^{-1}$ N m","$2 \\times 10^{-2}$ N m","$2$ N m"],
-    "correctAnswer": 2
+    "options": [
+      "$2 \\times 10^{-3}$ N m",
+      "$2 \\times 10^{-1}$ N m",
+      "$2 \\times 10^{-2}$ N m",
+      "$2$ N m"
+    ],
+    "correctAnswer": 0,
+    "explanation": "Dipole moment $p = qd = (2 \\times 10^{-6})(0.01) = 2 \\times 10^{-8}$ Cm. Maximum torque $\\tau = pE = (2 \\times 10^{-8})(10^5) = 2 \\times 10^{-3}$ Nm. (Note: The original file marked option 2, but calculation confirms option 0 is correct)."
   },
   {
     "question": "Three capacitors of $2 \\mu F, 3 \\mu F$ and $6 \\mu F$ are joined in series. The equivalent capacitance is:",
-    "options": ["$11 \\mu F$","$1 \\mu F$","$1.2 \\mu F$","$6 \\mu F$"],
-    "correctAnswer": 1
+    "options": [
+      "$11 \\mu F$",
+      "$1 \\mu F$",
+      "$1.2 \\mu F$",
+      "$6 \\mu F$"
+    ],
+    "correctAnswer": 1,
+    "explanation": "For series combination: $1/C_{eq} = 1/2 + 1/3 + 1/6$. Common denominator is 6: $1/C_{eq} = (3 + 2 + 1)/6 = 6/6 = 1$. Thus $C_{eq} = 1 \\mu F$."
   },
   {
     "question": "The drift velocity $v_d$ of electrons in a metal wire depends on the applied electric field $E$ as:",
-    "options": ["$v_d \\propto E$","$v_d \\propto \\sqrt{E}$","$v_d \\propto E^2$","$v_d \\propto 1/E$"],
-    "correctAnswer": 0
+    "options": [
+      "$v_d \\propto E$",
+      "$v_d \\propto \\sqrt{E}$",
+      "$v_d \\propto E^2$",
+      "$v_d \\propto 1/E$"
+    ],
+    "correctAnswer": 0,
+    "explanation": "Drift velocity is given by $v_d = \\mu E$, where $\\mu$ is mobility. Thus, drift velocity is directly proportional to the electric field."
   },
   {
     "question": "A potentiometer is an ideal device for measuring potential difference because:",
-    "options": ["It uses a long wire","It has sensitive galvanometer","It does not draw any current from the circuit at balance","It measures EMF directly"],
-    "correctAnswer": 2
+    "options": [
+      "It uses a long wire",
+      "It has sensitive galvanometer",
+      "It does not draw any current from the circuit at balance",
+      "It measures EMF directly"
+    ],
+    "correctAnswer": 2,
+    "explanation": "At the null point (balance point), no current flows through the galvanometer from the source being measured. This means the potentiometer measures the actual EMF without internal voltage drops, acting like an ideal voltmeter with infinite resistance."
   },
   {
     "question": "The magnetic field at the center of a circular coil of radius $r$ carrying current $I$ is $B$. If the radius is doubled and the current is halved, the new magnetic field will be:",
-    "options": ["$B/2$","$B/4$","$B$","$2B$"],
-    "correctAnswer": 1
+    "options": [
+      "$B/2$",
+      "$B/4$",
+      "$B$",
+      "$2B$"
+    ],
+    "correctAnswer": 1,
+    "explanation": "Magnetic field $B = \\frac{\\mu_0 I}{2r}$. New field $B' = \\frac{\\mu_0 (I/2)}{2(2r)} = \\frac{1}{4} \\frac{\\mu_0 I}{2r} = B/4$."
   },
   {
     "question": "In a cyclotron, the time taken by a particle to complete a semi-circle in a 'dee' is independent of:",
-    "options": ["Magnetic field","Charge of the particle","Mass of the particle","Speed of the particle"],
-    "correctAnswer": 3
+    "options": [
+      "Magnetic field",
+      "Charge of the particle",
+      "Mass of the particle",
+      "Speed of the particle"
+    ],
+    "correctAnswer": 3,
+    "explanation": "The time period is $T = \\frac{2\\pi m}{qB}$. The time for a semicircle is $T/2 = \\frac{\\pi m}{qB}$. This expression does not contain speed $v$ or radius $r$, making it independent of speed."
   },
   {
     "question": "The magnetic susceptibility of a paramagnetic substance at $-73^\\circ C$ is $0.0060$. Its value at $-173^\\circ C$ will be:",
-    "options": ["$0.0120$","$0.0030$","$0.0180$","$0.0060$"],
-    "correctAnswer": 0
+    "options": [
+      "$0.0120$",
+      "$0.0030$",
+      "$0.0180$",
+      "$0.0060$"
+    ],
+    "correctAnswer": 0,
+    "explanation": "According to Curie's Law, susceptibility $\\chi \\propto 1/T$. $T_1 = 273 - 73 = 200$ K, $T_2 = 273 - 173 = 100$ K. Since temperature is halved, susceptibility doubles. $\\chi_2 = 2 \\times 0.0060 = 0.0120$."
   },
   {
     "question": "The peak value of an alternating current is 5 A. Its r.m.s value is:",
-    "options": ["5 A","$5/\\sqrt{2}$ A","$5\\sqrt{2}$ A","2.5 A"],
-    "correctAnswer": 1
+    "options": [
+      "5 A",
+      "$5/\\sqrt{2}$ A",
+      "$5\\sqrt{2}$ A",
+      "2.5 A"
+    ],
+    "correctAnswer": 1,
+    "explanation": "Root Mean Square (RMS) current is related to peak current $I_0$ by $I_{rms} = I_0 / \\sqrt{2}$. Here $I_{rms} = 5/\\sqrt{2}$ A."
   },
   {
     "question": "Lenz's law is a consequence of the law of conservation of:",
-    "options": ["Charge","Momentum","Energy","Mass"],
-    "correctAnswer": 2
+    "options": [
+      "Charge",
+      "Momentum",
+      "Energy",
+      "Mass"
+    ],
+    "correctAnswer": 2,
+    "explanation": "Lenz's law states that the induced EMF opposes the change causing it. The mechanical work done against this opposing force is converted into electrical energy, satisfying the conservation of energy."
   },
   {
     "question": "In an LCR series circuit at resonance, the phase difference between current and voltage is:",
-    "options": ["$\\pi/2$","$\\pi$","$0$","$\\pi/4$"],
-    "correctAnswer": 2
+    "options": [
+      "$\\pi/2$",
+      "$\\pi$",
+      "$0$",
+      "$\\pi/4$"
+    ],
+    "correctAnswer": 2,
+    "explanation": "At resonance, the inductive reactance cancels the capacitive reactance ($X_L = X_C$), making the circuit purely resistive. In a resistive circuit, voltage and current are in phase (phase difference is 0)."
   },
   {
     "question": "Which of the following has the maximum refractive index?",
-    "options": ["Glass","Water","Iron","Diamond"],
-    "correctAnswer": 3
+    "options": [
+      "Glass",
+      "Water",
+      "Iron",
+      "Diamond"
+    ],
+    "correctAnswer": 3,
+    "explanation": "Diamond has a very high refractive index (approximately 2.42), which is higher than glass (~1.5) or water (1.33)."
   },
   {
     "question": "A point object is placed at a distance of 30 cm from a convex mirror of focal length 30 cm. The image is formed at:",
-    "options": ["15 cm behind the mirror","30 cm behind the mirror","Infinity","15 cm in front of the mirror"],
-    "correctAnswer": 0
+    "options": [
+      "15 cm behind the mirror",
+      "30 cm behind the mirror",
+      "Infinity",
+      "15 cm in front of the mirror"
+    ],
+    "correctAnswer": 0,
+    "explanation": "Using mirror formula $1/f = 1/v + 1/u$. For convex mirror $f=+30$, object $u=-30$. $1/30 = 1/v - 1/30 \\implies 1/v = 2/30 = 1/15$. Thus $v = +15$ cm. Positive sign indicates a virtual image behind the mirror."
   },
   {
     "question": "The magnifying power of an astronomical telescope in normal adjustment is 10 and the length of the telescope is 110 cm. The focal length of the objective is:",
-    "options": ["10 cm","100 cm","11 cm","110 cm"],
-    "correctAnswer": 1
+    "options": [
+      "10 cm",
+      "100 cm",
+      "11 cm",
+      "110 cm"
+    ],
+    "correctAnswer": 1,
+    "explanation": "Magnification $m = f_o/f_e = 10 \\implies f_o = 10f_e$. Length $L = f_o + f_e = 110$. Substituting, $10f_e + f_e = 110 \\implies 11f_e = 110 \\implies f_e = 10$. Thus $f_o = 100$ cm."
   },
   {
     "question": "The wavefront due to a point source at a very large distance is:",
-    "options": ["Spherical","Cylindrical","Plane","Circular"],
-    "correctAnswer": 2
+    "options": [
+      "Spherical",
+      "Cylindrical",
+      "Plane",
+      "Circular"
+    ],
+    "correctAnswer": 2,
+    "explanation": "Wavefronts from a point source are spherical. As the distance increases, the radius of curvature increases, and a small portion of the wavefront effectively becomes planar."
   },
   {
     "question": "In Young's double slit experiment, if the distance between the slits is doubled and the distance between the slits and the screen is halved, the fringe width will be:",
-    "options": ["Doubled","Halved","Unchanged","One-fourth"],
-    "correctAnswer": 3
+    "options": [
+      "Doubled",
+      "Halved",
+      "Unchanged",
+      "One-fourth"
+    ],
+    "correctAnswer": 3,
+    "explanation": "Fringe width $\\beta = \\frac{\\lambda D}{d}$. New width $\\beta' = \\frac{\\lambda (D/2)}{2d} = \\frac{1}{4} \\frac{\\lambda D}{d} = \\beta/4$."
   },
   {
     "question": "The threshold frequency for a metal is $10^{15}$ Hz. Light of wavelength $4000$ Å falls on it. The photoelectric emission will:",
-    "options": ["Take place","Not take place","Depends on intensity","Depends on exposure time"],
-    "correctAnswer": 1
+    "options": [
+      "Take place",
+      "Not take place",
+      "Depends on intensity",
+      "Depends on exposure time"
+    ],
+    "correctAnswer": 1,
+    "explanation": "Frequency of incident light $\\nu = c/\\lambda = (3 \\times 10^8) / (4 \\times 10^{-7}) = 0.75 \\times 10^{15}$ Hz. Since incident frequency ($0.75 \\times 10^{15}$ Hz) is less than threshold frequency ($10^{15}$ Hz), no emission occurs."
   },
   {
     "question": "The de-Broglie wavelength of a particle of mass $m$ and kinetic energy $K$ is:",
-    "options": ["$h / \\sqrt{2mK}$","$h / 2mK$","$\\sqrt{2mK} / h$","$h\\sqrt{2mK}$"],
-    "correctAnswer": 0
+    "options": [
+      "$h / \\sqrt{2mK}$",
+      "$h / 2mK$",
+      "$\\sqrt{2mK} / h$",
+      "$h\\sqrt{2mK}$"
+    ],
+    "correctAnswer": 0,
+    "explanation": "Wavelength $\\lambda = h/p$. Since kinetic energy $K = p^2/2m$, momentum $p = \\sqrt{2mK}$. Therefore, $\\lambda = h/\\sqrt{2mK}$."
   },
   {
     "question": "The radius of the $n^{th}$ orbit in Bohr's model of hydrogen atom is proportional to:",
-    "options": ["$n$","$n^2$","$1/n$","$1/n^2$"],
-    "correctAnswer": 1
+    "options": [
+      "$n$",
+      "$n^2$",
+      "$1/n$",
+      "$1/n^2$"
+    ],
+    "correctAnswer": 1,
+    "explanation": "According to Bohr's theory, the radius is given by $r_n = \\frac{n^2 h^2 \\epsilon_0}{\\pi m e^2}$, meaning $r_n \\propto n^2$."
   },
   {
     "question": "One milligram of matter converted into energy will give:",
-    "options": ["$9 \\times 10^{10}$ J","$9 \\times 10^{13}$ J","$9 \\times 10^{7}$ J","$9 \\times 10^{15}$ J"],
-    "correctAnswer": 0
+    "options": [
+      "$9 \\times 10^{10}$ J",
+      "$9 \\times 10^{13}$ J",
+      "$9 \\times 10^{7}$ J",
+      "$9 \\times 10^{15}$ J"
+    ],
+    "correctAnswer": 0,
+    "explanation": "Mass $m = 1$ mg $= 10^{-6}$ kg. Energy $E = mc^2 = 10^{-6} \\times (3 \\times 10^8)^2 = 10^{-6} \\times 9 \\times 10^{16} = 9 \\times 10^{10}$ J."
   },
   {
     "question": "The half-life of a radioactive substance is 4 months. Three-fourth of the substance will decay in:",
-    "options": ["3 months","4 months","8 months","12 months"],
-    "correctAnswer": 2
+    "options": [
+      "3 months",
+      "4 months",
+      "8 months",
+      "12 months"
+    ],
+    "correctAnswer": 2,
+    "explanation": "If 3/4 decays, 1/4 remains. Since $1/4 = (1/2)^2$, 2 half-lives have passed. Time $= 2 \\times 4 = 8$ months."
   },
   {
     "question": "In an n-type semiconductor, the majority charge carriers are:",
-    "options": ["Holes","Protons","Neutrons","Electrons"],
-    "correctAnswer": 3
+    "options": [
+      "Holes",
+      "Protons",
+      "Neutrons",
+      "Electrons"
+    ],
+    "correctAnswer": 3,
+    "explanation": "In n-type semiconductors, pentavalent impurities donate extra electrons, making electrons the majority charge carriers."
   },
   {
     "question": "For a transistor, the relationship between $\\alpha$ and $\\beta$ is:",
-    "options": ["$\\beta = \\alpha / (1 - \\alpha)$","$\\alpha = \\beta / (1 - \\beta)$","$\\alpha \\beta = 1$","$\\beta = \\alpha / (1 + \\alpha)$"],
-    "correctAnswer": 0
+    "options": [
+      "$\\beta = \\alpha / (1 - \\alpha)$",
+      "$\\alpha = \\beta / (1 - \\beta)$",
+      "$\\alpha \\beta = 1$",
+      "$\\beta = \\alpha / (1 + \\alpha)$"
+    ],
+    "correctAnswer": 0,
+    "explanation": "Current gain $\\alpha = I_C/I_E$ and $\\beta = I_C/I_B$. Since $I_E = I_B + I_C$, substitution yields $\\beta = \\frac{\\alpha}{1-\\alpha}$."
   },
   {
     "question": "A Zener diode is used as a:",
-    "options": ["Rectifier","Amplifier","Voltage regulator","Oscillator"],
-    "correctAnswer": 2
+    "options": [
+      "Rectifier",
+      "Amplifier",
+      "Voltage regulator",
+      "Oscillator"
+    ],
+    "correctAnswer": 2,
+    "explanation": "Zener diodes are designed to operate in the breakdown region where voltage remains nearly constant despite changes in current, making them ideal for voltage regulation."
   },
   {
     "question": "The Boolean expression for the NAND gate is:",
-    "options": ["$Y = A + B$","$Y = A \\cdot B$","$Y = \\overline{A + B}$","$Y = \\overline{A \\cdot B}$"],
-    "correctAnswer": 3
+    "options": [
+      "$Y = A + B$",
+      "$Y = A \\cdot B$",
+      "$Y = \\overline{A + B}$",
+      "$Y = \\overline{A \\cdot B}$"
+    ],
+    "correctAnswer": 3,
+    "explanation": "A NAND gate is a NOT-AND gate. The output is the inverse of the AND product: $Y = \\overline{A \\cdot B}$."
   },
   {
     "question": "The sky appears blue due to:",
-    "options": ["Refraction of light","Reflection of light","Scattering of light","Dispersion of light"],
-    "correctAnswer": 2
+    "options": [
+      "Refraction of light",
+      "Reflection of light",
+      "Scattering of light",
+      "Dispersion of light"
+    ],
+    "correctAnswer": 2,
+    "explanation": "Rayleigh scattering causes shorter wavelengths (blue) to scatter more strongly than longer wavelengths (red) by atmospheric particles, making the sky appear blue."
   },
   {
     "question": "If a soap bubble is charged, its radius:",
-    "options": ["Decreases","Increases","Remains same","May increase or decrease"],
-    "correctAnswer": 1
+    "options": [
+      "Decreases",
+      "Increases",
+      "Remains same",
+      "May increase or decrease"
+    ],
+    "correctAnswer": 1,
+    "explanation": "Like charges on the surface of the bubble repel each other. This outward electrostatic pressure adds to the internal pressure, causing the bubble to expand and its radius to increase."
   },
   {
     "question": "Specific resistance of a wire depends on its:",
-    "options": ["Length","Cross-sectional area","Material","Mass"],
-    "correctAnswer": 2
+    "options": [
+      "Length",
+      "Cross-sectional area",
+      "Material",
+      "Mass"
+    ],
+    "correctAnswer": 2,
+    "explanation": "Specific resistance (resistivity) is an intrinsic property of the material and temperature, independent of the wire's dimensions."
   },
   {
     "question": "The force of attraction between two parallel current-carrying wires is due to:",
-    "options": ["Electrostatic force","Magnetic force","Gravitational force","Nuclear force"],
-    "correctAnswer": 1
+    "options": [
+      "Electrostatic force",
+      "Magnetic force",
+      "Gravitational force",
+      "Nuclear force"
+    ],
+    "correctAnswer": 1,
+    "explanation": "Moving charges in the wires create magnetic fields. The magnetic field of one wire exerts a Lorentz force on the moving charges in the other wire."
   },
   {
     "question": "A step-down transformer increases:",
-    "options": ["Voltage","Current","Power","Frequency"],
-    "correctAnswer": 1
+    "options": [
+      "Voltage",
+      "Current",
+      "Power",
+      "Frequency"
+    ],
+    "correctAnswer": 1,
+    "explanation": "A step-down transformer decreases voltage ($V_s < V_p$). Assuming ideal power conservation ($V_p I_p = V_s I_s$), the current in the secondary coil increases ($I_s > I_p$)."
   },
   {
     "question": "The electromagnetic waves used in radar are:",
-    "options": ["Infrared rays","Ultraviolet rays","Microwaves","X-rays"],
-    "correctAnswer": 2
+    "options": [
+      "Infrared rays",
+      "Ultraviolet rays",
+      "Microwaves",
+      "X-rays"
+    ],
+    "correctAnswer": 2,
+    "explanation": "Microwaves are used in RADAR because they have short wavelengths suitable for detecting small objects and can penetrate clouds and rain."
   },
   {
     "question": "Two lenses of power $+12$ D and $-2$ D are put in contact. The combined focal length of the combination is:",
-    "options": ["10 cm","12.5 cm","16.6 cm","8.33 cm"],
-    "correctAnswer": 0
+    "options": [
+      "10 cm",
+      "12.5 cm",
+      "16.6 cm",
+      "8.33 cm"
+    ],
+    "correctAnswer": 0,
+    "explanation": "Combined power $P = P_1 + P_2 = 12 - 2 = 10$ D. Focal length $f = 100/P = 100/10 = 10$ cm."
   },
   {
     "question": "A simple microscope has a focal length of 5 cm. Its maximum magnifying power is:",
-    "options": ["5","6","4","25"],
-    "correctAnswer": 1
+    "options": [
+      "5",
+      "6",
+      "4",
+      "25"
+    ],
+    "correctAnswer": 1,
+    "explanation": "Maximum magnification for a simple microscope (at near point of distinct vision $D=25$ cm) is $m = 1 + D/f = 1 + 25/5 = 6$."
   },
   {
     "question": "Binding energy of a nucleus is a measure of its:",
-    "options": ["Mass","Size","Stability","Charge"],
-    "correctAnswer": 2
+    "options": [
+      "Mass",
+      "Size",
+      "Stability",
+      "Charge"
+    ],
+    "correctAnswer": 2,
+    "explanation": "Higher binding energy per nucleon indicates that the nucleus is more tightly bound and therefore more stable."
   },
   {
     "question": "The energy of an electron in the first excited state of Hydrogen atom is:",
-    "options": ["$-13.6$ eV","$-3.4$ eV","$-1.51$ eV","$0$ eV"],
-    "correctAnswer": 1
+    "options": [
+      "$-13.6$ eV",
+      "$-3.4$ eV",
+      "$-1.51$ eV",
+      "$0$ eV"
+    ],
+    "correctAnswer": 1,
+    "explanation": "Energy levels are given by $E_n = -13.6/n^2$ eV. The first excited state corresponds to $n=2$. $E_2 = -13.6/2^2 = -13.6/4 = -3.4$ eV."
   },
   {
     "question": "The logic gate which reverses the input signal is:",
-    "options": ["AND gate","OR gate","NOT gate","NOR gate"],
-    "correctAnswer": 2
+    "options": [
+      "AND gate",
+      "OR gate",
+      "NOT gate",
+      "NOR gate"
+    ],
+    "correctAnswer": 2,
+    "explanation": "A NOT gate is an inverter; it produces a high output for a low input and vice versa, effectively reversing the signal."
   },
   {
     "question": "The escape velocity of a body from the earth depends on:",
-    "options": ["The mass of the body","The location from where it is projected","The direction of projection","The radius of the earth"],
-    "correctAnswer": 3
+    "options": [
+      "The mass of the body",
+      "The location from where it is projected",
+      "The direction of projection",
+      "The radius of the earth"
+    ],
+    "correctAnswer": 3,
+    "explanation": "Escape velocity $v_e = \\sqrt{2GM/R}$. It depends on the mass $M$ and radius $R$ of the planet (Earth), but not on the mass of the projectile or the angle of projection."
   },
   {
     "question": "Which of the following represents the correct graph between the volume $V$ and temperature $T$ (in Kelvin) for an ideal gas at constant pressure?",
-    "options": ["A straight line passing through origin","A parabola","A hyperbola","A circle"],
-    "correctAnswer": 0
+    "options": [
+      "A straight line passing through origin",
+      "A parabola",
+      "A hyperbola",
+      "A circle"
+    ],
+    "correctAnswer": 0,
+    "explanation": "According to Charles's Law, at constant pressure, volume is directly proportional to absolute temperature ($V \\propto T$). This relationship describes a straight line passing through the origin."
   }
 ]
+

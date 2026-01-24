@@ -1,253 +1,552 @@
 [
   {
     "question": "Which of the following is a dimensionless quantity?",
-    "options": ["Strain", "Stress", "Specific heat", "Quantity of heat"],
-    "correctAnswer": 0
+    "options": [
+      "Strain",
+      "Stress",
+      "Specific heat",
+      "Quantity of heat"
+    ],
+    "correctAnswer": 0,
+    "explanation": "Strain is defined as the ratio of change in dimension to the original dimension (e.g., $\\Delta L / L$). Since it is a ratio of two similar quantities, the units cancel out, making it dimensionless."
   },
   {
     "question": "A body starts from rest and moves with a constant acceleration. The ratio of distance covered by the body in $n^{th}$ second to that covered in $n$ seconds is:",
-    "options": ["$\\frac{2n-1}{n^2}$", "$\\frac{n^2}{2n-1}$", "$\\frac{2n-1}{n}$", "$\\frac{n}{2n-1}$"],
-    "correctAnswer": 0
+    "options": [
+      "$\\frac{2n-1}{n^2}$",
+      "$\\frac{n^2}{2n-1}$",
+      "$\\frac{2n-1}{n}$",
+      "$\\frac{n}{2n-1}$"
+    ],
+    "correctAnswer": 0,
+    "explanation": "The distance covered in the $n^{th}$ second is $S_n = u + \\frac{a}{2}(2n-1)$. Since $u=0$, $S_n = \\frac{a}{2}(2n-1)$. The distance covered in $n$ seconds is $S = ut + \\frac{1}{2}at^2 = \\frac{1}{2}an^2$. The ratio is $\\frac{\\frac{a}{2}(2n-1)}{\\frac{1}{2}an^2} = \\frac{2n-1}{n^2}$."
   },
   {
     "question": "The angle between $\\vec{A} = \\hat{i} + \\hat{j}$ and $\\vec{B} = \\hat{i} - \\hat{j}$ is:",
-    "options": ["$45^\\circ$", "$90^\\circ$", "$0^\\circ$", "$180^\\circ$"],
-    "correctAnswer": 1
+    "options": [
+      "$45^\\circ$",
+      "$90^\\circ$",
+      "$0^\\circ$",
+      "$180^\\circ$"
+    ],
+    "correctAnswer": 1,
+    "explanation": "The angle $\\theta$ is found using the dot product: $\\vec{A} \\cdot \\vec{B} = |A||B|\\cos\\theta$. Here, $\\vec{A} \\cdot \\vec{B} = (1)(1) + (1)(-1) = 1 - 1 = 0$. Since the dot product is zero, the vectors are perpendicular, so $\\theta = 90^\\circ$."
   },
   {
     "question": "If the momentum of a body is doubled, its kinetic energy becomes:",
-    "options": ["Twice", "Half", "Four times", "Eight times"],
-    "correctAnswer": 2
+    "options": [
+      "Twice",
+      "Half",
+      "Four times",
+      "Eight times"
+    ],
+    "correctAnswer": 2,
+    "explanation": "Kinetic energy is related to momentum by $K = \\frac{p^2}{2m}$. If momentum $p$ is doubled ($2p$), the new kinetic energy $K' = \\frac{(2p)^2}{2m} = 4 \\frac{p^2}{2m} = 4K$. Thus, it becomes four times."
   },
   {
     "question": "Newton's second law of motion gives a measure of:",
-    "options": ["Acceleration", "Force", "Momentum", "Angular momentum"],
-    "correctAnswer": 1
+    "options": [
+      "Acceleration",
+      "Force",
+      "Momentum",
+      "Angular momentum"
+    ],
+    "correctAnswer": 1,
+    "explanation": "Newton's second law states that the rate of change of momentum is directly proportional to the applied force. It provides the formula $F = ma$, which allows for the quantitative measurement of force."
   },
   {
     "question": "A balloon is filled with hydrogen. For most efficient lifting, the balloon should be at:",
-    "options": ["High altitude and low temperature", "Low altitude and high temperature", "Low altitude and low temperature", "High altitude and high temperature"],
-    "correctAnswer": 1
+    "options": [
+      "High altitude and low temperature",
+      "Low altitude and high temperature",
+      "Low altitude and low temperature",
+      "High altitude and high temperature"
+    ],
+    "correctAnswer": 1,
+    "explanation": "To lift efficiently, the density difference between the gas inside (Hydrogen) and the air outside needs to be maximized. At low altitudes, air density is higher, providing greater buoyant force. High temperature of the surrounding air would decrease its density, which is not ideal, but high temperature inside the balloon decreases the density of hydrogen further. However, the standard answer interpretation often relies on the condition where the surroundings are dense (low altitude) and the gas inside is light. Among the options, low altitude provides the dense medium needed for lift."
   },
   {
     "question": "The time period of a simple pendulum is $T$. If its length is increased by 4 times, the new time period will be:",
-    "options": ["$T$", "$2T$", "$4T$", "$T/2$"],
-    "correctAnswer": 1
+    "options": [
+      "$T$",
+      "$2T$",
+      "$4T$",
+      "$T/2$"
+    ],
+    "correctAnswer": 1,
+    "explanation": "The period of a pendulum is $T = 2\\pi\\sqrt{\\frac{L}{g}}$. If length becomes $4L$, the new period is $T' = 2\\pi\\sqrt{\\frac{4L}{g}} = 2(2\\pi\\sqrt{\\frac{L}{g}}) = 2T$."
   },
   {
     "question": "Bernoulli's theorem is based on the principle of conservation of:",
-    "options": ["Mass", "Momentum", "Energy", "Angular momentum"],
-    "correctAnswer": 2
+    "options": [
+      "Mass",
+      "Momentum",
+      "Energy",
+      "Angular momentum"
+    ],
+    "correctAnswer": 2,
+    "explanation": "Bernoulli's theorem states that for an incompressible, non-viscous fluid flow, the sum of pressure energy, kinetic energy, and potential energy per unit volume is constant. This is a statement of the conservation of energy."
   },
   {
     "question": "The speed of sound in a gas is $v$. If the pressure of the gas is doubled at constant temperature, the speed of sound will be:",
-    "options": ["$v$", "$2v$", "$v/2$", "$4v$"],
-    "correctAnswer": 0
+    "options": [
+      "$v$",
+      "$2v$",
+      "$v/2$",
+      "$4v$"
+    ],
+    "correctAnswer": 0,
+    "explanation": "The speed of sound depends on temperature ($v \\propto \\sqrt{T}$). Changing pressure at a constant temperature changes the density proportionally, so the ratio $P/\\rho$ remains constant. Therefore, the speed of sound remains unchanged."
   },
   {
     "question": "In an isothermal process, which of the following remains constant?",
-    "options": ["Pressure", "Volume", "Temperature", "Internal energy"],
-    "correctAnswer": 2
+    "options": [
+      "Pressure",
+      "Volume",
+      "Temperature",
+      "Internal energy"
+    ],
+    "correctAnswer": 2,
+    "explanation": "An isothermal process is defined as a thermodynamic process in which the temperature of the system remains constant ($\\\\Delta T = 0$). Consequently, for an ideal gas, the internal energy also remains constant."
   },
   {
     "question": "A convex lens is dipped in a liquid whose refractive index is equal to the refractive index of the lens. Then its focal length will:",
-    "options": ["Become zero", "Become infinite", "Remain unchanged", "Decrease"],
-    "correctAnswer": 1
+    "options": [
+      "Become zero",
+      "Become infinite",
+      "Remain unchanged",
+      "Decrease"
+    ],
+    "correctAnswer": 1,
+    "explanation": "According to the Lens Maker's Formula, $\\frac{1}{f} = (\\frac{\\mu_l}{\\mu_m} - 1)(\\frac{1}{R_1} - \\frac{1}{R_2})$. If the refractive index of the lens $\\mu_l$ equals that of the medium $\\mu_m$, the term $(\\frac{\\mu_l}{\\mu_m} - 1)$ becomes zero. Thus, $\\frac{1}{f} = 0$, which implies $f = \\infty$ (infinite focal length). The lens behaves like a plane glass sheet."
   },
   {
     "question": "The resistance of an ideal ammeter is:",
-    "options": ["Zero", "Very low", "Very high", "Infinite"],
-    "correctAnswer": 0
+    "options": [
+      "Zero",
+      "Very low",
+      "Very high",
+      "Infinite"
+    ],
+    "correctAnswer": 0,
+    "explanation": "An ammeter is connected in series to measure current. To ensure it does not drop any voltage or affect the circuit's total resistance, an ideal ammeter must have zero resistance."
   },
   {
     "question": "Which of the following electromagnetic waves has the shortest wavelength?",
-    "options": ["Radio waves", "Microwaves", "X-rays", "Gamma rays"],
-    "correctAnswer": 3
+    "options": [
+      "Radio waves",
+      "Microwaves",
+      "X-rays",
+      "Gamma rays"
+    ],
+    "correctAnswer": 3,
+    "explanation": "In the electromagnetic spectrum, Gamma rays have the highest frequency and energy, which corresponds to the shortest wavelength (less than $10^{-11}$ meters)."
   },
   {
     "question": "The unit of electric flux is:",
-    "options": ["V m", "N/C", "V/m", "Weber"],
-    "correctAnswer": 0
+    "options": [
+      "V m",
+      "N/C",
+      "V/m",
+      "Weber"
+    ],
+    "correctAnswer": 0,
+    "explanation": "Electric flux $\\Phi_E = E \\cdot A$. The unit of Electric field $E$ is V/m (Volts per meter) and Area $A$ is $m^2$. So the unit is $(V/m) \\cdot m^2 = V \\cdot m$ (Volt-meter)."
   },
   {
     "question": "A wire of resistance $R$ is cut into $n$ equal parts. These parts are then connected in parallel. The equivalent resistance of the combination is:",
-    "options": ["$nR$", "$R/n$", "$n^2 R$", "$R/n^2$"],
-    "correctAnswer": 3
+    "options": [
+      "$nR$",
+      "$R/n$",
+      "$n^2 R$",
+      "$R/n^2$"
+    ],
+    "correctAnswer": 3,
+    "explanation": "If a wire of resistance $R$ is cut into $n$ parts, each part has resistance $r = R/n$. Connecting $n$ such resistors in parallel gives an equivalent resistance $R_{eq}$ where $\\frac{1}{R_{eq}} = \\frac{n}{r} = \\frac{n}{R/n} = \\frac{n^2}{R}$. Therefore, $R_{eq} = R/n^2$."
   },
   {
     "question": "Which logic gate is known as a universal gate?",
-    "options": ["AND", "OR", "NAND", "NOT"],
-    "correctAnswer": 2
+    "options": [
+      "AND",
+      "OR",
+      "NAND",
+      "NOT"
+    ],
+    "correctAnswer": 2,
+    "explanation": "NAND and NOR gates are called universal gates because any other logic gate (AND, OR, NOT) or boolean function can be implemented using only combinations of them."
   },
   {
     "question": "The mass of a photon at rest is:",
-    "options": ["Zero", "$h\\nu / c^2$", "$h / \\lambda c$", "Infinite"],
-    "correctAnswer": 0
+    "options": [
+      "Zero",
+      "$h\\nu / c^2$",
+      "$h / \\lambda c$",
+      "Infinite"
+    ],
+    "correctAnswer": 0,
+    "explanation": "According to the theory of relativity, a photon travels at the speed of light $c$. Particles that travel at $c$ must have a rest mass of zero."
   },
   {
     "question": "In which of the following states of matter is the speed of sound maximum?",
-    "options": ["Air", "Water", "Steel", "Vacuum"],
-    "correctAnswer": 2
+    "options": [
+      "Air",
+      "Water",
+      "Steel",
+      "Vacuum"
+    ],
+    "correctAnswer": 2,
+    "explanation": "Sound travels faster in denser and more elastic media. Solids (like steel) have much higher elasticity (Young's modulus) compared to liquids and gases, allowing sound waves to propagate fastest."
   },
   {
     "question": "A force of 5 N acts on a body for 2 seconds. The change in momentum is:",
-    "options": ["10 kg m/s", "2.5 kg m/s", "5 kg m/s", "20 kg m/s"],
-    "correctAnswer": 0
+    "options": [
+      "10 kg m/s",
+      "2.5 kg m/s",
+      "5 kg m/s",
+      "20 kg m/s"
+    ],
+    "correctAnswer": 0,
+    "explanation": "Impulse is equal to the change in momentum ($\\Delta p$). Impulse $J = F \\times t$. Here, $J = 5 \\text{ N} \\times 2 \\text{ s} = 10 \\text{ N s}$ (or kg m/s)."
   },
   {
     "question": "The escape velocity from the Earth is 11.2 km/s. If the mass of the planet is the same but the radius is 1/4th of the Earth, the escape velocity will be:",
-    "options": ["11.2 km/s", "22.4 km/s", "5.6 km/s", "44.8 km/s"],
-    "correctAnswer": 1
+    "options": [
+      "11.2 km/s",
+      "22.4 km/s",
+      "5.6 km/s",
+      "44.8 km/s"
+    ],
+    "correctAnswer": 1,
+    "explanation": "Escape velocity $v_e = \\sqrt{\\frac{2GM}{R}}$. If radius becomes $R' = R/4$, the new velocity is $v'_e = \\sqrt{\\frac{2GM}{R/4}} = \\sqrt{4 \\frac{2GM}{R}} = 2 v_e$. Since $v_e = 11.2$ km/s, $v'_e = 2 \\times 11.2 = 22.4$ km/s."
   },
   {
     "question": "The magnetic field inside a long straight current-carrying solenoid is:",
-    "options": ["Zero", "Uniform", "Decreasing towards the ends", "Increasing towards the ends"],
-    "correctAnswer": 1
+    "options": [
+      "Zero",
+      "Uniform",
+      "Decreasing towards the ends",
+      "Increasing towards the ends"
+    ],
+    "correctAnswer": 1,
+    "explanation": "Inside a long ideal solenoid, the magnetic field lines are parallel and equally spaced, indicating that the magnetic field is uniform and constant throughout the interior volume."
   },
   {
     "question": "Which mirror is used as a rear-view mirror in vehicles?",
-    "options": ["Plane mirror", "Concave mirror", "Convex mirror", "Parabolic mirror"],
-    "correctAnswer": 2
+    "options": [
+      "Plane mirror",
+      "Concave mirror",
+      "Convex mirror",
+      "Parabolic mirror"
+    ],
+    "correctAnswer": 2,
+    "explanation": "A convex mirror is used because it forms an erect and diminished image, which provides a much wider field of view compared to plane or concave mirrors."
   },
   {
     "question": "One Kilowatt-hour is equal to:",
-    "options": ["$3.6 \\times 10^3$ J", "$3.6 \\times 10^4$ J", "$3.6 \\times 10^5$ J", "$3.6 \\times 10^6$ J"],
-    "correctAnswer": 3
+    "options": [
+      "$3.6 \\times 10^3$ J",
+      "$3.6 \\times 10^4$ J",
+      "$3.6 \\times 10^5$ J",
+      "$3.6 \\times 10^6$ J"
+    ],
+    "correctAnswer": 3,
+    "explanation": "1 kWh is the energy consumed by a 1000 Watt appliance in 1 hour (3600 seconds). $1 \\text{ kWh} = 1000 \\text{ W} \\times 3600 \\text{ s} = 3,600,000 \\text{ J} = 3.6 \\times 10^6 \\text{ J}$."
   },
   {
     "question": "The process of emission of electrons from a metal surface when light falls on it is called:",
-    "options": ["Thermionic emission", "Photoelectric emission", "Secondary emission", "Field emission"],
-    "correctAnswer": 1
+    "options": [
+      "Thermionic emission",
+      "Photoelectric emission",
+      "Secondary emission",
+      "Field emission"
+    ],
+    "correctAnswer": 1,
+    "explanation": "Photoelectric emission is the phenomenon where electrons are ejected from a material's surface (usually a metal) when it is exposed to electromagnetic radiation (light) of sufficient frequency."
   },
   {
     "question": "If the temperature of a hot body is doubled, the power radiated by it increases by a factor of:",
-    "options": ["2", "4", "8", "16"],
-    "correctAnswer": 3
+    "options": [
+      "2",
+      "4",
+      "8",
+      "16"
+    ],
+    "correctAnswer": 3,
+    "explanation": "Stefan-Boltzmann law states that radiated power $P \\propto T^4$. If temperature doubles ($2T$), the new power is proportional to $(2T)^4 = 16T^4$. Thus, the power increases by a factor of 16."
   },
   {
     "question": "The core of an electromagnet is made of:",
-    "options": ["Soft iron", "Steel", "Copper", "Aluminum"],
-    "correctAnswer": 0
+    "options": [
+      "Soft iron",
+      "Steel",
+      "Copper",
+      "Aluminum"
+    ],
+    "correctAnswer": 0,
+    "explanation": "Soft iron is used because it has high magnetic permeability (it gets magnetized easily) and low retentivity (it loses magnetism quickly when current stops), making it ideal for electromagnets."
   },
   {
     "question": "Surface tension of a liquid decreases with:",
-    "options": ["Decrease in temperature", "Increase in temperature", "Increase in surface area", "Decrease in surface area"],
-    "correctAnswer": 1
+    "options": [
+      "Decrease in temperature",
+      "Increase in temperature",
+      "Increase in surface area",
+      "Decrease in surface area"
+    ],
+    "correctAnswer": 1,
+    "explanation": "As temperature increases, the kinetic energy of the liquid molecules increases. This disrupts the cohesive forces between the molecules, leading to a decrease in surface tension."
   },
   {
     "question": "Two charges are placed at a distance $d$ apart. If a glass slab is placed between them, the force between the charges will:",
-    "options": ["Increase", "Decrease", "Remain same", "Become zero"],
-    "correctAnswer": 1
+    "options": [
+      "Increase",
+      "Decrease",
+      "Remain same",
+      "Become zero"
+    ],
+    "correctAnswer": 1,
+    "explanation": "The electrostatic force in a medium is given by $F_m = F_{air} / K$, where $K$ is the dielectric constant of the material. Since glass has $K > 1$, the force $F_m$ will be less than the force in air ($F_{air}$)."
   },
   {
     "question": "The energy stored in a capacitor of capacitance $C$ and potential $V$ is:",
-    "options": ["$CV$", "$\\frac{1}{2} CV^2$", "$\\frac{1}{2} C^2 V$", "$CV^2$"],
-    "correctAnswer": 1
+    "options": [
+      "$CV$",
+      "$\\frac{1}{2} CV^2$",
+      "$\\frac{1}{2} C^2 V$",
+      "$CV^2$"
+    ],
+    "correctAnswer": 1,
+    "explanation": "The work done to charge a capacitor is stored as potential energy. This energy is given by the formula $U = \\frac{1}{2}CV^2$ (or $Q^2/2C$ or $QV/2$)."
   },
   {
     "question": "The refractive index of water is 1.33. The speed of light in water is approximately:",
-    "options": ["$3 \\times 10^8$ m/s", "$2.25 \\times 10^8$ m/s", "$4 \\times 10^8$ m/s", "$1.5 \\times 10^8$ m/s"],
-    "correctAnswer": 1
+    "options": [
+      "$3 \\times 10^8$ m/s",
+      "$2.25 \\times 10^8$ m/s",
+      "$4 \\times 10^8$ m/s",
+      "$1.5 \\times 10^8$ m/s"
+    ],
+    "correctAnswer": 1,
+    "explanation": "Refractive index $\\mu = c/v$. So, $v = c/\\mu = (3 \\times 10^8) / 1.33 \\approx 2.25 \\times 10^8$ m/s."
   },
   {
     "question": "A transformer works on the principle of:",
-    "options": ["Self induction", "Mutual induction", "Eddy currents", "Seebeck effect"],
-    "correctAnswer": 1
+    "options": [
+      "Self induction",
+      "Mutual induction",
+      "Eddy currents",
+      "Seebeck effect"
+    ],
+    "correctAnswer": 1,
+    "explanation": "A transformer transfers electrical energy between two circuits through electromagnetic induction. A changing current in the primary coil creates a changing magnetic flux that induces an EMF in the secondary coil, a process called mutual induction."
   },
   {
     "question": "Which of the following transitions in a hydrogen atom emits a photon of the highest frequency?",
-    "options": ["$n=2$ to $n=1$", "$n=3$ to $n=2$", "$n=4$ to $n=3$", "$n=5$ to $n=4$"],
-    "correctAnswer": 0
+    "options": [
+      "$n=2$ to $n=1$",
+      "$n=3$ to $n=2$",
+      "$n=4$ to $n=3$",
+      "$n=5$ to $n=4$"
+    ],
+    "correctAnswer": 0,
+    "explanation": "Energy difference (and thus frequency) is largest for transitions ending at the ground state ($n=1$, Lyman series). The gap between $n=2$ and $n=1$ is 10.2 eV, which is much larger than the gaps between higher levels (e.g., $n=3$ to $n=2$ is only 1.89 eV)."
   },
   {
     "question": "The work done in moving a charge of 2 C across two points having a potential difference of 10 V is:",
-    "options": ["5 J", "20 J", "12 J", "0.2 J"],
-    "correctAnswer": 1
+    "options": [
+      "5 J",
+      "20 J",
+      "12 J",
+      "0.2 J"
+    ],
+    "correctAnswer": 1,
+    "explanation": "Work done $W$ is given by $W = Q \\times V$. Here, $Q = 2$ C and $V = 10$ V. So, $W = 2 \\times 10 = 20$ J."
   },
   {
     "question": "When a light ray travels from an optically denser medium to a rarer medium, it bends:",
-    "options": ["Towards the normal", "Away from the normal", "Not at all", "Back into the same medium"],
-    "correctAnswer": 1
+    "options": [
+      "Towards the normal",
+      "Away from the normal",
+      "Not at all",
+      "Back into the same medium"
+    ],
+    "correctAnswer": 1,
+    "explanation": "When light enters a rarer medium (lower refractive index), its speed increases, causing the wavefronts to pivot and the ray to bend away from the normal."
   },
   {
     "question": "The mass defect in a nuclear reaction is $0.01$ g. The energy released is:",
-    "options": ["$9 \\times 10^{11}$ J", "$9 \\times 10^{13}$ J", "$3 \\times 10^8$ J", "$1 \\times 10^{10}$ J"],
-    "correctAnswer": 0
+    "options": [
+      "$9 \\times 10^{11}$ J",
+      "$9 \\times 10^{13}$ J",
+      "$3 \\times 10^8$ J",
+      "$1 \\times 10^{10}$ J"
+    ],
+    "correctAnswer": 0,
+    "explanation": "Using Einstein's mass-energy equivalence $E = mc^2$. Mass $m = 0.01$ g $= 10^{-5}$ kg. $c = 3 \\times 10^8$ m/s. $E = 10^{-5} \\times (3 \\times 10^8)^2 = 10^{-5} \\times 9 \\times 10^{16} = 9 \\times 10^{11}$ J."
   },
   {
     "question": "Pascal is the unit for:",
-    "options": ["Force", "Energy", "Pressure", "Viscosity"],
-    "correctAnswer": 2
+    "options": [
+      "Force",
+      "Energy",
+      "Pressure",
+      "Viscosity"
+    ],
+    "correctAnswer": 2,
+    "explanation": "The Pascal (Pa) is the SI unit of pressure, defined as one Newton per square meter ($N/m^2$)."
   },
   {
     "question": "The frequency of direct current (DC) is:",
-    "options": ["50 Hz", "60 Hz", "Zero", "Infinite"],
-    "correctAnswer": 2
+    "options": [
+      "50 Hz",
+      "60 Hz",
+      "Zero",
+      "Infinite"
+    ],
+    "correctAnswer": 2,
+    "explanation": "Direct current (DC) flows in a constant direction with a constant magnitude. Since it does not oscillate or alternate, its frequency is zero."
   },
   {
     "question": "In a semiconductor, the forbidden energy gap is of the order of:",
-    "options": ["1 eV", "10 eV", "0.1 eV", "100 eV"],
-    "correctAnswer": 0
+    "options": [
+      "1 eV",
+      "10 eV",
+      "0.1 eV",
+      "100 eV"
+    ],
+    "correctAnswer": 0,
+    "explanation": "Semiconductors have a small band gap that allows electrons to be excited from the valence to conduction band at room temperature. For Silicon, it is ~1.1 eV, and for Germanium, ~0.7 eV. Thus, it is of the order of 1 eV."
   },
   {
     "question": "A person cannot see objects clearly beyond 2 meters. The defect of vision is:",
-    "options": ["Hypermetropia", "Myopia", "Presbyopia", "Astigmatism"],
-    "correctAnswer": 1
+    "options": [
+      "Hypermetropia",
+      "Myopia",
+      "Presbyopia",
+      "Astigmatism"
+    ],
+    "correctAnswer": 1,
+    "explanation": "Myopia (nearsightedness) is the defect where a person can see near objects clearly but distant objects appear blurry. The inability to see beyond a finite far point (2m in this case) is characteristic of myopia."
   },
   {
     "question": "The time period of a satellite orbiting very close to the Earth's surface is approximately:",
-    "options": ["42 minutes", "84 minutes", "24 hours", "12 hours"],
-    "correctAnswer": 1
+    "options": [
+      "42 minutes",
+      "84 minutes",
+      "24 hours",
+      "12 hours"
+    ],
+    "correctAnswer": 1,
+    "explanation": "For a satellite orbiting close to the surface, $T = 2\\pi\\sqrt{\\frac{R}{g}}$. Substituting $R \\approx 6400$ km and $g \\approx 9.8$ m/s$^2$, the period comes out to be approximately 84.6 minutes."
   },
   {
     "question": "The work done by a centripetal force is always:",
-    "options": ["Positive", "Negative", "Zero", "Infinite"],
-    "correctAnswer": 2
+    "options": [
+      "Positive",
+      "Negative",
+      "Zero",
+      "Infinite"
+    ],
+    "correctAnswer": 2,
+    "explanation": "Centripetal force acts perpendicular to the instantaneous displacement of the body at all times. Since work $W = F \\cdot d \\cos(90^\\circ)$ and $\\cos(90^\\circ) = 0$, the work done is always zero."
   },
   {
     "question": "Which of the following has the highest ionizing power?",
-    "options": ["Alpha particles", "Beta particles", "Gamma rays", "Neutrons"],
-    "correctAnswer": 0
+    "options": [
+      "Alpha particles",
+      "Beta particles",
+      "Gamma rays",
+      "Neutrons"
+    ],
+    "correctAnswer": 0,
+    "explanation": "Alpha particles are heavy, charged (He nuclei) particles. Due to their large mass and +2 charge, they interact strongly with matter, stripping electrons from atoms easily, thus having the highest ionizing power (but lowest penetrating power)."
   },
   {
     "question": "The phenomenon of total internal reflection occurs when the angle of incidence is:",
-    "options": ["Less than critical angle", "Equal to critical angle", "Greater than critical angle", "Zero"],
-    "correctAnswer": 2
+    "options": [
+      "Less than critical angle",
+      "Equal to critical angle",
+      "Greater than critical angle",
+      "Zero"
+    ],
+    "correctAnswer": 2,
+    "explanation": "Total Internal Reflection (TIR) happens only when light travels from a denser to a rarer medium and the angle of incidence exceeds the critical angle for that pair of media."
   },
   {
     "question": "The SI unit of magnetic dipole moment is:",
-    "options": ["A m", "A m$^2$", "T m", "T/m"],
-    "correctAnswer": 1
+    "options": [
+      "A m",
+      "A m$^2$",
+      "T m",
+      "T/m"
+    ],
+    "correctAnswer": 1,
+    "explanation": "Magnetic dipole moment $m = I \\times A$. Current $I$ is in Amperes (A) and Area $A$ is in square meters ($m^2$). Therefore, the unit is A m$^2$."
   },
   {
     "question": "If the distance between two charges is doubled, the electrostatic force between them:",
-    "options": ["Doubles", "Halves", "Becomes four times", "Becomes one-fourth"],
-    "correctAnswer": 3
+    "options": [
+      "Doubles",
+      "Halves",
+      "Becomes four times",
+      "Becomes one-fourth"
+    ],
+    "correctAnswer": 3,
+    "explanation": "Coulomb's Law states $F \\propto \\frac{1}{r^2}$. If distance $r$ is doubled ($2r$), the new force $F' \\propto \\frac{1}{(2r)^2} = \\frac{1}{4r^2} = \\frac{1}{4}F$. Thus, the force becomes one-fourth."
   },
   {
     "question": "A cycle of Carnot engine works between $27^\\circ$C and $127^\\circ$C. Its efficiency is:",
-    "options": ["25%", "75%", "50%", "33%"],
-    "correctAnswer": 0
+    "options": [
+      "25%",
+      "75%",
+      "50%",
+      "33%"
+    ],
+    "correctAnswer": 0,
+    "explanation": "Efficiency $\\eta = 1 - \\frac{T_{cold}}{T_{hot}}$. First convert Celsius to Kelvin: $T_{cold} = 27+273 = 300$ K, $T_{hot} = 127+273 = 400$ K. $\\eta = 1 - \\frac{300}{400} = 1 - 0.75 = 0.25$ or $25\\%$."
   },
   {
     "question": "Modulation is the process of:",
-    "options": ["Generating low frequency waves", "Combining audio signals with a carrier wave", "Separating audio signals from a carrier wave", "Amplifying a signal"],
-    "correctAnswer": 1
+    "options": [
+      "Generating low frequency waves",
+      "Combining audio signals with a carrier wave",
+      "Separating audio signals from a carrier wave",
+      "Amplifying a signal"
+    ],
+    "correctAnswer": 1,
+    "explanation": "Modulation involves varying properties (amplitude, frequency, or phase) of a high-frequency carrier wave in accordance with a low-frequency information signal (audio) to enable transmission over long distances."
   },
   {
     "question": "The depletion layer in a p-n junction contains:",
-    "options": ["Electrons only", "Holes only", "Immobile ions", "Protons only"],
-    "correctAnswer": 2
+    "options": [
+      "Electrons only",
+      "Holes only",
+      "Immobile ions",
+      "Protons only"
+    ],
+    "correctAnswer": 2,
+    "explanation": "The depletion region is formed when mobile charge carriers (electrons and holes) diffuse across the junction and recombine. This leaves behind uncovered, immobile positive ions on the n-side and negative ions on the p-side."
   },
   {
     "question": "Water has maximum density at:",
-    "options": ["$0^\\circ$C", "$4^\\circ$C", "$-4^\\circ$C", "$100^\\circ$C"],
-    "correctAnswer": 1
+    "options": [
+      "$0^\\circ$C",
+      "$4^\\circ$C",
+      "$-4^\\circ$C",
+      "$100^\\circ$C"
+    ],
+    "correctAnswer": 1,
+    "explanation": "Due to the anomalous expansion of water, it contracts when heated from $0^\\circ$C to $4^\\circ$C. At $4^\\circ$C, its volume is minimum and therefore its density is maximum."
   },
   {
     "question": "If the net force on an object is zero, its acceleration is:",
-    "options": ["Zero", "Constant but non-zero", "Variable", "Infinite"],
-    "correctAnswer": 0
+    "options": [
+      "Zero",
+      "Constant but non-zero",
+      "Variable",
+      "Infinite"
+    ],
+    "correctAnswer": 0,
+    "explanation": "According to Newton's second law ($F_{net} = ma$), if the net force $F_{net}$ is zero, the acceleration $a$ must also be zero."
   }
 ]
-

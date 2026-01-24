@@ -1,252 +1,553 @@
 [
   {
     "question": "Which of the following is the dimension of the coefficient of self-inductance?",
-    "options": ["$[ML^2T^{-2}A^{-2}]$","$[MLT^{-2}A^{-1}]$","$[ML^2T^{-1}A^{-2}]$","$[ML^2T^{-2}A^{-1}]$"],
-    "correctAnswer": 0
+    "options": [
+      "$[ML^2T^{-2}A^{-2}]$",
+      "$[MLT^{-2}A^{-1}]$",
+      "$[ML^2T^{-1}A^{-2}]$",
+      "$[ML^2T^{-2}A^{-1}]$"
+    ],
+    "correctAnswer": 0,
+    "explanation": "Self-inductance $L$ is defined by the energy relation $U = \\frac{1}{2}LI^2$. Rearranging for $L$ gives $L = \\frac{2U}{I^2}$. The dimension of energy $U$ is $[ML^2T^{-2}]$ and current $I$ is $[A]$. Therefore, the dimension of $L$ is $[ML^2T^{-2}] / [A^2] = [ML^2T^{-2}A^{-2}]$."
   },
   {
     "question": "A body is projected with a velocity $u$ at an angle of $60^\\circ$ with the horizontal. Its velocity at the maximum height is:",
-    "options": ["$u/2$","$u$","$u\\sqrt{3}/2$","Zero"],
-    "correctAnswer": 0
+    "options": [
+      "$u/2$",
+      "$u$",
+      "$u\\sqrt{3}/2$",
+      "Zero"
+    ],
+    "correctAnswer": 0,
+    "explanation": "At the maximum height of projectile motion, the vertical component of velocity is zero ($v_y = 0$). The horizontal component remains constant throughout the flight, given by $v_x = u\\cos\\theta$. For $\\theta = 60^\\circ$, $v_{top} = u\\cos(60^\\circ) = u(1/2) = u/2$."
   },
   {
     "question": "The time period of a simple pendulum is $T$. If its mass is doubled and length is halved, the new time period is:",
-    "options": ["$T/\\sqrt{2}$","$T$","$\\sqrt{2}T$","$2T$"],
-    "correctAnswer": 0
+    "options": [
+      "$T/\\sqrt{2}$",
+      "$T$",
+      "$\\sqrt{2}T$",
+      "$2T$"
+    ],
+    "correctAnswer": 0,
+    "explanation": "The time period of a simple pendulum is given by $T = 2\\pi\\sqrt{\\frac{l}{g}}$. It is independent of the mass of the bob. If the length $l$ is halved ($l' = l/2$), the new time period is $T' = 2\\pi\\sqrt{\\frac{l/2}{g}} = \\frac{1}{\\sqrt{2}} \\left( 2\\pi\\sqrt{\\frac{l}{g}} \\right) = \\frac{T}{\\sqrt{2}}$."
   },
   {
     "question": "The energy stored in a 10 $\\mu F$ capacitor charged to 100 V is:",
-    "options": ["0.05 J","0.5 J","5 J","50 J"],
-    "correctAnswer": 0
+    "options": [
+      "0.05 J",
+      "0.5 J",
+      "5 J",
+      "50 J"
+    ],
+    "correctAnswer": 0,
+    "explanation": "The energy stored in a capacitor is calculated using $E = \\frac{1}{2}CV^2$. Substituting the values $C = 10 \\times 10^{-6}$ F and $V = 100$ V: $E = 0.5 \\times 10^{-5} \\times (10^2)^2 = 0.5 \\times 10^{-5} \\times 10^4 = 0.5 \\times 10^{-1} = 0.05$ J."
   },
   {
     "question": "Which of the following colors of light has the highest frequency?",
-    "options": ["Violet","Blue","Green","Red"],
-    "correctAnswer": 0
+    "options": [
+      "Violet",
+      "Blue",
+      "Green",
+      "Red"
+    ],
+    "correctAnswer": 0,
+    "explanation": "In the visible light spectrum (VIBGYOR), violet light has the shortest wavelength ($\\lambda$) and, since frequency $f = c/\\lambda$, it has the highest frequency. Red light has the longest wavelength and lowest frequency."
   },
   {
     "question": "The escape velocity of a body from the earth depends on:",
-    "options": ["The radius of the earth","The mass of the body","The direction of projection","None of these"],
-    "correctAnswer": 0
+    "options": [
+      "The radius of the earth",
+      "The mass of the body",
+      "The direction of projection",
+      "None of these"
+    ],
+    "correctAnswer": 0,
+    "explanation": "The escape velocity is given by the formula $v_e = \\sqrt{\\frac{2GM}{R}}$, where $M$ is the mass of the planet and $R$ is its radius. It does not depend on the mass of the projected body or the direction of projection."
   },
   {
     "question": "In a p-n junction diode, the thickness of the depletion layer is approximately:",
-    "options": ["$10^{-6}$ m","$10^{-3}$ m","$10^{-10}$ m","$1$ mm"],
-    "correctAnswer": 0
+    "options": [
+      "$10^{-6}$ m",
+      "$10^{-3}$ m",
+      "$10^{-10}$ m",
+      "$1$ mm"
+    ],
+    "correctAnswer": 0,
+    "explanation": "The depletion region is formed by the diffusion of carriers across the junction, creating a region devoid of free charge carriers. Its width is typically in the order of microns (micrometers), i.e., $10^{-6}$ m."
   },
   {
     "question": "The unit of electric potential is equivalent to:",
-    "options": ["J/C","C/J","N/C","J m"],
-    "correctAnswer": 0
+    "options": [
+      "J/C",
+      "C/J",
+      "N/C",
+      "J m"
+    ],
+    "correctAnswer": 0,
+    "explanation": "Electric potential $V$ is defined as the work done per unit charge, $V = W/q$. The unit of work is the Joule (J) and charge is the Coulomb (C), so the unit is J/C (which is defined as the Volt)."
   },
   {
     "question": "According to the First Law of Thermodynamics, in an adiabatic process:",
-    "options": ["$dU = -dW$","$dQ = dU$","$dU = dW$","$dQ = dW$"],
-    "correctAnswer": 0
+    "options": [
+      "$dU = -dW$",
+      "$dQ = dU$",
+      "$dU = dW$",
+      "$dQ = dW$"
+    ],
+    "correctAnswer": 0,
+    "explanation": "The First Law of Thermodynamics states $dQ = dU + dW$. In an adiabatic process, there is no heat exchange with the surroundings, so $dQ = 0$. This implies $0 = dU + dW$, or $dU = -dW$ (change in internal energy is equal to the negative of work done)."
   },
   {
     "question": "The de-Broglie wavelength of an electron moving with speed $v$ is $\\lambda$. If the speed becomes $v/4$, the wavelength becomes:",
-    "options": ["$4\\lambda$","$2\\lambda$","$\\lambda/2$","$\\lambda/4$"],
-    "correctAnswer": 0
+    "options": [
+      "$4\\lambda$",
+      "$2\\lambda$",
+      "$\\lambda/2$",
+      "$\\lambda/4$"
+    ],
+    "correctAnswer": 0,
+    "explanation": "The de-Broglie wavelength is inversely proportional to momentum (and speed): $\\lambda = \\frac{h}{mv}$. If the speed $v$ is reduced to $v/4$, the denominator decreases by a factor of 4, causing the wavelength to increase by a factor of 4. $\\lambda' = \\frac{h}{m(v/4)} = 4\\frac{h}{mv} = 4\\lambda$."
   },
   {
     "question": "Which of the following is a non-conservative force?",
-    "options": ["Viscous force","Magnetic force","Electrostatic force","Gravitational force"],
-    "correctAnswer": 0
+    "options": [
+      "Viscous force",
+      "Magnetic force",
+      "Electrostatic force",
+      "Gravitational force"
+    ],
+    "correctAnswer": 0,
+    "explanation": "A non-conservative force is one where the work done depends on the path taken and mechanical energy is dissipated (usually as heat). Viscous force (fluid friction) dissipates energy, making it non-conservative. Gravitational and electrostatic forces are conservative."
   },
   {
     "question": "The focal length of a convex lens is 20 cm. Its power is:",
-    "options": ["+5 D","-5 D","+0.05 D","+20 D"],
-    "correctAnswer": 0
+    "options": [
+      "+5 D",
+      "-5 D",
+      "+0.05 D",
+      "+20 D"
+    ],
+    "correctAnswer": 0,
+    "explanation": "The power of a lens in Diopters (D) is calculated as $P = \\frac{100}{f(\\text{cm})}$. For a convex lens, focal length is positive. $P = \\frac{100}{20} = +5$ D."
   },
   {
     "question": "A force $\\vec{F} = (2\\hat{i} + 4\\hat{j})$ N acts on a body of mass 2 kg. The magnitude of acceleration is:",
-    "options": ["10 m/s$^2$","$\\sqrt{5}$ m/s$^2$","5 m/s$^2$","2 m/s$^2$"],
-    "correctAnswer": 1
+    "options": [
+      "10 m/s$^2$",
+      "$\\sqrt{5}$ m/s$^2$",
+      "5 m/s$^2$",
+      "2 m/s$^2$"
+    ],
+    "correctAnswer": 1,
+    "explanation": "First, find the magnitude of the force: $|F| = \\sqrt{2^2 + 4^2} = \\sqrt{4+16} = \\sqrt{20} = 2\\sqrt{5}$ N. Newton's second law states $F=ma$, so $a = F/m = (2\\sqrt{5})/2 = \\sqrt{5}$ m/s$^2$."
   },
   {
     "question": "In a nuclear reaction, the mass defect is $0.02$ amu. The energy released is approximately:",
-    "options": ["931 MeV","18.6 MeV","1.86 MeV","0.931 MeV"],
-    "correctAnswer": 1
+    "options": [
+      "931 MeV",
+      "18.6 MeV",
+      "1.86 MeV",
+      "0.931 MeV"
+    ],
+    "correctAnswer": 1,
+    "explanation": "The energy equivalent of 1 atomic mass unit (amu) is approximately 931 MeV. Therefore, for a mass defect of 0.02 amu, the energy released is $0.02 \\times 931$ MeV $\\approx 18.6$ MeV."
   },
   {
     "question": "An ideal heat engine works between temperatures 600 K and 300 K. Its efficiency is:",
-    "options": ["25%","50%","75%","100%"],
-    "correctAnswer": 1
+    "options": [
+      "25%",
+      "50%",
+      "75%",
+      "100%"
+    ],
+    "correctAnswer": 1,
+    "explanation": "The efficiency $\\eta$ of a Carnot engine is given by $\\eta = 1 - \\frac{T_{sink}}{T_{source}}$. Here $T_{source} = 600$ K and $T_{sink} = 300$ K. $\\eta = 1 - \\frac{300}{600} = 1 - 0.5 = 0.5$. Expressed as a percentage, $\\eta = 50\\%$."
   },
   {
     "question": "The resistance of an ideal ammeter is:",
-    "options": ["Infinite","Zero","Very High","Variable"],
-    "correctAnswer": 1
+    "options": [
+      "Infinite",
+      "Zero",
+      "Very High",
+      "Variable"
+    ],
+    "correctAnswer": 1,
+    "explanation": "An ammeter is connected in series to measure current. To ensure it does not alter the current in the circuit by adding resistance, an ideal ammeter is assumed to have zero resistance."
   },
   {
     "question": "Which logic gate gives output 0 only when both inputs are 0?",
-    "options": ["AND","OR","NAND","NOR"],
-    "correctAnswer": 1
+    "options": [
+      "AND",
+      "OR",
+      "NAND",
+      "NOR"
+    ],
+    "correctAnswer": 1,
+    "explanation": "An OR gate produces a high output (1) if at least one of its inputs is high (1). It produces a low output (0) if and only if all of its inputs are low (0). Truth table for OR: 0+0=0, 0+1=1, 1+0=1, 1+1=1."
   },
   {
     "question": "The specific resistance of a wire depends on its:",
-    "options": ["Length","Material","Area of cross-section","Mass"],
-    "correctAnswer": 1
+    "options": [
+      "Length",
+      "Material",
+      "Area of cross-section",
+      "Mass"
+    ],
+    "correctAnswer": 1,
+    "explanation": "Specific resistance (or resistivity) is an intrinsic property of the material and its temperature. It does not depend on the dimensions (length, area, mass) of the specific wire, unlike resistance."
   },
   {
     "question": "If the temperature of a black body is doubled, the rate of radiated energy becomes:",
-    "options": ["2 times","16 times","4 times","8 times"],
-    "correctAnswer": 1
+    "options": [
+      "2 times",
+      "16 times",
+      "4 times",
+      "8 times"
+    ],
+    "correctAnswer": 1,
+    "explanation": "According to Stefan-Boltzmann Law, the power radiated is proportional to the fourth power of the absolute temperature ($P \\propto T^4$). If the temperature is doubled ($2T$), the new power is proportional to $(2T)^4 = 16T^4$. Thus, the rate increases by 16 times."
   },
   {
     "question": "A convex mirror always forms an image which is:",
-    "options": ["Real and enlarged","Virtual and diminished","Real and diminished","Virtual and enlarged"],
-    "correctAnswer": 1
+    "options": [
+      "Real and enlarged",
+      "Virtual and diminished",
+      "Real and diminished",
+      "Virtual and enlarged"
+    ],
+    "correctAnswer": 1,
+    "explanation": "A convex mirror is a diverging mirror. Regardless of the object's position, it always forms a virtual, erect, and diminished image located behind the mirror."
   },
   {
     "question": "The half-life of a radioactive element is 1600 years. After 6400 years, the fraction remaining is:",
-    "options": ["$1/8$","$1/16$","$1/4$","$1/32$"],
-    "correctAnswer": 1
+    "options": [
+      "$1/8$",
+      "$1/16$",
+      "$1/4$",
+      "$1/32$"
+    ],
+    "correctAnswer": 1,
+    "explanation": "The number of half-lives passed is $n = \\frac{\\text{Total Time}}{\\text{Half-life}} = \\frac{6400}{1600} = 4$. The fraction of the substance remaining is given by $(1/2)^n = (1/2)^4 = 1/16$."
   },
   {
     "question": "One Horsepower (hp) is equal to:",
-    "options": ["1000 W","746 W","500 W","746 kW"],
-    "correctAnswer": 1
+    "options": [
+      "1000 W",
+      "746 W",
+      "500 W",
+      "746 kW"
+    ],
+    "correctAnswer": 1,
+    "explanation": "The horsepower (hp) is a unit of power in the imperial system. One mechanical horsepower is defined as approximately 746 Watts."
   },
   {
     "question": "The speed of sound is maximum in:",
-    "options": ["Air","Steel","Water","Vacuum"],
-    "correctAnswer": 1
+    "options": [
+      "Air",
+      "Steel",
+      "Water",
+      "Vacuum"
+    ],
+    "correctAnswer": 1,
+    "explanation": "Sound requires a medium to propagate. Its speed depends on the elasticity and density of the medium ($v = \\sqrt{E/\\rho}$). Solids (like steel) generally have much higher elasticity than liquids or gases, resulting in the highest speed of sound."
   },
   {
     "question": "The ratio of magnetic field at the center of a circular current loop of radius $R$ to that at a distance $R$ from the center on its axis is:",
-    "options": ["$2:1$","$2\\sqrt{2}:1$","$\\sqrt{2}:1$","$1:2$"],
-    "correctAnswer": 1
+    "options": [
+      "$2:1$",
+      "$2\\sqrt{2}:1$",
+      "$\\sqrt{2}:1$",
+      "$1:2$"
+    ],
+    "correctAnswer": 1,
+    "explanation": "Field at center $B_c = \\frac{\\mu_0 I}{2R}$. Field on axis at distance $x=R$ is $B_a = \\frac{\\mu_0 I R^2}{2(R^2 + R^2)^{3/2}} = \\frac{\\mu_0 I}{4\\sqrt{2}R}$. The ratio $B_c : B_a$ is $\\frac{\\mu_0 I}{2R} : \\frac{\\mu_0 I}{4\\sqrt{2}R} = 1 : \\frac{1}{2\\sqrt{2}} = 2\\sqrt{2} : 1$."
   },
   {
     "question": "Which of the following behaves as a universal gate?",
-    "options": ["OR","NOR","NOT","AND"],
-    "correctAnswer": 1
+    "options": [
+      "OR",
+      "NOR",
+      "NOT",
+      "AND"
+    ],
+    "correctAnswer": 1,
+    "explanation": "A universal gate is one that can be used to construct all other logic gates (AND, OR, NOT). NAND and NOR are the two universal gates. In the given options, NOR is the correct answer."
   },
   {
     "question": "The slope of the stress-strain graph within the elastic limit represents:",
-    "options": ["Poisson's ratio","Bulk Modulus","Young's Modulus","Elastic limit"],
-    "correctAnswer": 2
+    "options": [
+      "Poisson's ratio",
+      "Bulk Modulus",
+      "Young's Modulus",
+      "Elastic limit"
+    ],
+    "correctAnswer": 2,
+    "explanation": "Hooke's Law states that stress is proportional to strain within the elastic limit. The constant of proportionality (slope of the stress vs. strain graph) is the Modulus of Elasticity (Young's Modulus for longitudinal stress/strain)."
   },
   {
     "question": "The magnetic flux linked with a coil of $N$ turns and area $A$ in a magnetic field $B$ is maximum when the angle between $B$ and the area vector is:",
-    "options": ["$90^\\circ$","$45^\\circ$","$0^\\circ$","$180^\\circ$"],
-    "correctAnswer": 2
+    "options": [
+      "$90^\\circ$",
+      "$45^\\circ$",
+      "$0^\\circ$",
+      "$180^\\circ$"
+    ],
+    "correctAnswer": 2,
+    "explanation": "Magnetic flux is defined as $\\Phi = \\vec{B} \\cdot \\vec{A} = BA\\cos\\theta$, where $\\theta$ is the angle between the magnetic field vector and the area vector (normal to the surface). The flux is maximum when $\\cos\\theta = 1$, which corresponds to $\\theta = 0^\\circ$."
   },
   {
     "question": "In a Young's Double Slit Experiment, if the slit width is doubled, the fringe width will:",
-    "options": ["Increase","Decrease","Remain unchanged","Be zero"],
-    "correctAnswer": 2
+    "options": [
+      "Increase",
+      "Decrease",
+      "Remain unchanged",
+      "Be zero"
+    ],
+    "correctAnswer": 2,
+    "explanation": "The fringe width $\\beta$ is given by $\\beta = \\frac{\\lambda D}{d}$, where $d$ is the separation between the slits. The term 'slit width' typically refers to the aperture size ($a$) of the individual slits, not the separation ($d$). Changing the slit width $a$ affects the intensity and the diffraction envelope but does not change the fringe width $\\beta$ of the interference pattern."
   },
   {
     "question": "Which of the following is used in the core of a transformer?",
-    "options": ["Steel","Copper","Soft Iron","Aluminum"],
-    "correctAnswer": 2
+    "options": [
+      "Steel",
+      "Copper",
+      "Soft Iron",
+      "Aluminum"
+    ],
+    "correctAnswer": 2,
+    "explanation": "Soft iron is used for transformer cores because it has high magnetic permeability and low retentivity (low hysteresis loss). This allows it to be easily magnetized and demagnetized, minimizing energy loss."
   },
   {
     "question": "The total energy of an electron in the $n=2$ orbit of Hydrogen atom is:",
-    "options": ["$-13.6$ eV","$-1.51$ eV","$-3.4$ eV","$-0.85$ eV"],
-    "correctAnswer": 2
+    "options": [
+      "$-13.6$ eV",
+      "$-1.51$ eV",
+      "$-3.4$ eV",
+      "$-0.85$ eV"
+    ],
+    "correctAnswer": 2,
+    "explanation": "The energy of an electron in the $n$-th orbit of a hydrogen atom is given by $E_n = -\\frac{13.6}{n^2}$ eV. For $n=2$, $E_2 = -\\frac{13.6}{2^2} = -\\frac{13.6}{4} = -3.4$ eV."
   },
   {
     "question": "At the magnetic equator of the earth, the angle of dip is:",
-    "options": ["$90^\\circ$","$45^\\circ$","$0^\\circ$","$180^\\circ$"],
-    "correctAnswer": 2
+    "options": [
+      "$90^\\circ$",
+      "$45^\\circ$",
+      "$0^\\circ$",
+      "$180^\\circ$"
+    ],
+    "correctAnswer": 2,
+    "explanation": "The angle of dip (magnetic inclination) is the angle the Earth's magnetic field makes with the horizontal. At the magnetic equator, the magnetic field lines are parallel to the Earth's surface, so the angle of dip is $0^\\circ$."
   },
   {
     "question": "The work done by the conservative force in a closed path is:",
-    "options": ["Positive","Negative","Zero","Infinite"],
-    "correctAnswer": 2
+    "options": [
+      "Positive",
+      "Negative",
+      "Zero",
+      "Infinite"
+    ],
+    "correctAnswer": 2,
+    "explanation": "A defining property of a conservative force (like gravity or electrostatic force) is that the total work done in moving a particle around any closed path is zero."
   },
   {
     "question": "For a common emitter transistor, the relation between current gains $\\alpha$ and $\\beta$ is:",
-    "options": ["$\\alpha = \\beta / (1 - \\beta)$","$\\beta = \\alpha / (1 + \\alpha)$","$\\beta = \\alpha / (1 - \\alpha)$","$\\alpha \\beta = 1$"],
-    "correctAnswer": 2
+    "options": [
+      "$\\alpha = \\beta / (1 - \\beta)$",
+      "$\\beta = \\alpha / (1 + \\alpha)$",
+      "$\\beta = \\alpha / (1 - \\alpha)$",
+      "$\\alpha \\beta = 1$"
+    ],
+    "correctAnswer": 2,
+    "explanation": "The current gain $\\alpha$ (common base) is $I_C/I_E$ and $\\beta$ (common emitter) is $I_C/I_B$. Since $I_E = I_B + I_C$, we can derive the relationship $\\beta = \\frac{\\alpha}{1 - \\alpha}$."
   },
   {
     "question": "What is the frequency of light having a wavelength of 600 nm in vacuum?",
-    "options": ["$5 \\times 10^{15}$ Hz","$2 \\times 10^{14}$ Hz","$5 \\times 10^{14}$ Hz","$5 \\times 10^{13}$ Hz"],
-    "correctAnswer": 2
+    "options": [
+      "$5 \\times 10^{15}$ Hz",
+      "$2 \\times 10^{14}$ Hz",
+      "$5 \\times 10^{14}$ Hz",
+      "$5 \\times 10^{13}$ Hz"
+    ],
+    "correctAnswer": 2,
+    "explanation": "Frequency $f$ is related to wavelength $\\lambda$ and speed of light $c$ by $f = c/\\lambda$. Using $c = 3 \\times 10^8$ m/s and $\\lambda = 600 \\times 10^{-9}$ m: $f = \\frac{3 \\times 10^8}{6 \\times 10^{-7}} = 0.5 \\times 10^{15} = 5 \\times 10^{14}$ Hz."
   },
   {
     "question": "The SI unit of magnetic dipole moment is:",
-    "options": ["A/m","A m","A m$^2$","T m"],
-    "correctAnswer": 2
+    "options": [
+      "A/m",
+      "A m",
+      "A m$^2$",
+      "T m"
+    ],
+    "correctAnswer": 2,
+    "explanation": "The magnetic dipole moment $M$ of a current loop is given by $M = NIA$, where $N$ is turns, $I$ is current (Amperes), and $A$ is area (square meters). Thus, the unit is A m$^2$."
   },
   {
     "question": "A capacitor of $20 \\mu F$ is connected to 200 V AC source. The capacitive reactance at 50 Hz is approximately:",
-    "options": ["318 $\\Omega$","100 $\\Omega$","159 $\\Omega$","50 $\\Omega$"],
-    "correctAnswer": 2
+    "options": [
+      "318 $\\Omega$",
+      "100 $\\Omega$",
+      "159 $\\Omega$",
+      "50 $\\Omega$"
+    ],
+    "correctAnswer": 2,
+    "explanation": "Capacitive reactance is $X_C = \\frac{1}{2\\pi f C}$. Substituting $f = 50$ and $C = 20 \\times 10^{-6}$: $X_C = \\frac{1}{2 \\times 3.14159 \\times 50 \\times 20 \\times 10^{-6}} = \\frac{1}{0.00628} \\approx 159 \\Omega$."
   },
   {
     "question": "The value of gravitational acceleration $g$ at a height $R$ (radius of earth) above the surface is:",
-    "options": ["$g/2$","$g$","$g/4$","$g/9$"],
-    "correctAnswer": 2
+    "options": [
+      "$g/2$",
+      "$g$",
+      "$g/4$",
+      "$g/9$"
+    ],
+    "correctAnswer": 2,
+    "explanation": "Gravity at height $h$ is given by $g' = g \\left(\\frac{R}{R+h}\\right)^2$. If $h=R$, then $g' = g \\left(\\frac{R}{2R}\\right)^2 = g \\left(\\frac{1}{2}\\right)^2 = g/4$."
   },
   {
     "question": "The working of an optical fiber is based on:",
-    "options": ["Refraction","Diffraction","Scattering","Total internal reflection"],
-    "correctAnswer": 3
+    "options": [
+      "Refraction",
+      "Diffraction",
+      "Scattering",
+      "Total internal reflection"
+    ],
+    "correctAnswer": 3,
+    "explanation": "Optical fibers transmit light signals with minimal loss by trapping the light inside the core. This is achieved through Total Internal Reflection, which occurs when light strikes the core-cladding interface at an angle greater than the critical angle."
   },
   {
     "question": "The r.m.s. speed of a gas molecule is $v$. If the temperature is quadrupled, the new r.m.s. speed is:",
-    "options": ["$v$","$v/2$","$4v$","$2v$"],
-    "correctAnswer": 3
+    "options": [
+      "$v$",
+      "$v/2$",
+      "$4v$",
+      "$2v$"
+    ],
+    "correctAnswer": 3,
+    "explanation": "The root mean square speed ($v_{rms}$) is proportional to the square root of the absolute temperature ($v_{rms} \\propto \\sqrt{T}$). If $T$ becomes $4T$, the speed becomes $\\sqrt{4T} = 2\\sqrt{T}$, which is 2 times the original speed."
   },
   {
     "question": "The unit of surface tension is:",
-    "options": ["N m","N/m$^2$","J m","N/m"],
-    "correctAnswer": 3
+    "options": [
+      "N m",
+      "N/m$^2$",
+      "J m",
+      "N/m"
+    ],
+    "correctAnswer": 3,
+    "explanation": "Surface tension is defined as the force acting per unit length along a line drawn on the liquid surface. Therefore, its SI unit is Newtons per meter (N/m)."
   },
   {
     "question": "In an LCR series circuit, resonance occurs when:",
-    "options": ["$R = L$","$X_L + X_C = R$","$X_L = 0$","$X_L = X_C$"],
-    "correctAnswer": 3
+    "options": [
+      "$R = L$",
+      "$X_L + X_C = R$",
+      "$X_L = 0$",
+      "$X_L = X_C$"
+    ],
+    "correctAnswer": 3,
+    "explanation": "Resonance in a series LCR circuit occurs when the inductive reactance equals the capacitive reactance ($X_L = X_C$). This condition minimizes the impedance (making it purely resistive) and maximizes the current."
   },
   {
     "question": "The binding energy per nucleon is maximum for:",
-    "options": ["$^4$He","$^{238}$U","$^{16}$O","$^{56}$Fe"],
-    "correctAnswer": 3
+    "options": [
+      "$^4$He",
+      "$^{238}$U",
+      "$^{16}$O",
+      "$^{56}$Fe"
+    ],
+    "correctAnswer": 3,
+    "explanation": "The curve of binding energy per nucleon vs. mass number shows a peak around mass number 56. Iron-56 ($^{56}$Fe) has the highest binding energy per nucleon, making it the most stable nucleus."
   },
   {
     "question": "A lens of power +2 D and another of power -1 D are in contact. The focal length of the combination is:",
-    "options": ["50 cm","200 cm","25 cm","100 cm"],
-    "correctAnswer": 3
+    "options": [
+      "50 cm",
+      "200 cm",
+      "25 cm",
+      "100 cm"
+    ],
+    "correctAnswer": 3,
+    "explanation": "The power of a combination of lenses in contact is the sum of their individual powers: $P_{eq} = P_1 + P_2 = 2 + (-1) = +1$ D. The focal length is $f = 100/P_{eq} = 100/1 = 100$ cm."
   },
   {
     "question": "The gate which gives a high output only when all its inputs are low is:",
-    "options": ["AND","OR","NAND","NOR"],
-    "correctAnswer": 3
+    "options": [
+      "AND",
+      "OR",
+      "NAND",
+      "NOR"
+    ],
+    "correctAnswer": 3,
+    "explanation": "A NOR gate (NOT-OR) outputs true (1) only if both inputs are false (0). If any input is 1, the OR part is 1, and the NOT part makes the final output 0."
   },
   {
     "question": "Which of the following is a fundamental unit?",
-    "options": ["Newton","Joule","Watt","Kelvin"],
-    "correctAnswer": 3
+    "options": [
+      "Newton",
+      "Joule",
+      "Watt",
+      "Kelvin"
+    ],
+    "correctAnswer": 3,
+    "explanation": "In the SI system, there are 7 base (fundamental) units: Meter, Kilogram, Second, Ampere, Kelvin, Mole, and Candela. Newton, Joule, and Watt are derived units."
   },
   {
     "question": "The drift velocity of electrons in a wire is proportional to:",
-    "options": ["$E^2$","$1/E$","$\\sqrt{E}$","$E$"],
-    "correctAnswer": 3
+    "options": [
+      "$E^2$",
+      "$1/E$",
+      "$\\sqrt{E}$",
+      "$E$"
+    ],
+    "correctAnswer": 3,
+    "explanation": "Drift velocity is given by $v_d = \\mu E$ (where $\\mu$ is mobility) or derived as $v_d = \\frac{eE\\tau}{m}$. In both forms, drift velocity is directly proportional to the applied electric field $E$."
   },
   {
     "question": "If the momentum of a body is increased by 100%, its kinetic energy increases by:",
-    "options": ["100%","200%","400%","300%"],
-    "correctAnswer": 3
+    "options": [
+      "100%",
+      "200%",
+      "400%",
+      "300%"
+    ],
+    "correctAnswer": 3,
+    "explanation": "Kinetic energy $K = \\frac{p^2}{2m}$. If momentum $p$ increases by 100%, it becomes $2p$. The new kinetic energy $K' = \\frac{(2p)^2}{2m} = 4 \\frac{p^2}{2m} = 4K$. The increase is $K' - K = 3K$, which is a 300% increase."
   },
   {
     "question": "The specific heat of water is:",
-    "options": ["$1$ cal/g $^\\circ$C","$1$ J/kg K","$4200$ cal/g $^\\circ$C","$4200$ J/kg K"],
-    "correctAnswer": 3
+    "options": [
+      "$1$ cal/g $^\\circ$C",
+      "$1$ J/kg K",
+      "$4200$ cal/g $^\\circ$C",
+      "$4200$ J/kg K"
+    ],
+    "correctAnswer": 3,
+    "explanation": "The specific heat capacity of water is approximately $4186$ J/kg K, which is commonly approximated as $4200$ J/kg K. (Note: $1$ cal/g $^\\circ$C is also correct, but $4200$ J/kg K is the standard SI value option provided here)."
   },
   {
     "question": "A body is in neutral equilibrium if, after being slightly displaced, it:",
-    "options": ["Returns to its original position","Moves further away","Topples over","Stays in its new position"],
-    "correctAnswer": 3
+    "options": [
+      "Returns to its original position",
+      "Moves further away",
+      "Topples over",
+      "Stays in its new position"
+    ],
+    "correctAnswer": 3,
+    "explanation": "In neutral equilibrium, a slight displacement does not change the body's potential energy or the forces acting on it in a way that restores or disrupts the position. It simply remains at rest in the new position (e.g., a ball on a flat surface)."
   },
   {
     "question": "The magnetic field produced at the center of a circular coil of $n$ turns is how many times the field due to a single turn?",
-    "options": ["$1/n$","$n^2$","$\\sqrt{n}$","$n$"],
-    "correctAnswer": 3
+    "options": [
+      "$1/n$",
+      "$n^2$",
+      "$\\sqrt{n}$",
+      "$n$"
+    ],
+    "correctAnswer": 3,
+    "explanation": "The magnetic field at the center of a single turn is $B = \\frac{\\mu_0 I}{2R}$. For a coil with $n$ turns, the fields from each turn add up, so $B_{total} = n \\left(\\frac{\\mu_0 I}{2R}\\right)$. Thus, the field is $n$ times that of a single turn."
   }
 ]
+

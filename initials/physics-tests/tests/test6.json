@@ -1,252 +1,553 @@
 [
   {
     "question": "The dimensional formula for torque is:",
-    "options": ["$[ML^2T^{-2}]$","$[MLT^{-2}]$","$[ML^2T^{-1}]$","$[ML^{-1}T^{-2}]$"],
-    "correctAnswer": 0
+    "options": [
+      "$[ML^2T^{-2}]$",
+      "$[MLT^{-2}]$",
+      "$[ML^2T^{-1}]$",
+      "$[ML^{-1}T^{-2}]$"
+    ],
+    "correctAnswer": 0,
+    "explanation": "Torque is defined as force times perpendicular distance ($\\\\tau = r \\\\times F$). The dimension of force is $[MLT^{-2}]$ and distance is $[L]$. Thus, torque has dimensions $[MLT^{-2}][L] = [ML^2T^{-2}]$."
   },
   {
     "question": "A force of $100$ N acts on a body of mass $20$ kg. The acceleration of the body is:",
-    "options": ["$2000$ m/s$^2$","$5$ m/s$^2$","$0.2$ m/s$^2$","$50$ m/s$^2$"],
-    "correctAnswer": 1
+    "options": [
+      "$2000$ m/s$^2$",
+      "$5$ m/s$^2$",
+      "$0.2$ m/s$^2$",
+      "$50$ m/s$^2$"
+    ],
+    "correctAnswer": 1,
+    "explanation": "Using Newton's second law, $F = ma$. Acceleration $a = F/m = 100/20 = 5$ m/s$^2$."
   },
   {
     "question": "The area under a velocity-time graph represents:",
-    "options": ["Acceleration","Momentum","Displacement","Speed"],
-    "correctAnswer": 2
+    "options": [
+      "Acceleration",
+      "Momentum",
+      "Displacement",
+      "Speed"
+    ],
+    "correctAnswer": 2,
+    "explanation": "The integral of velocity with respect to time (which corresponds to the area under the v-t graph) gives the change in position, or displacement ($S = \\\\int v \\\\, dt$)."
   },
   {
     "question": "The power of a lens is measured in:",
-    "options": ["Watts","Candela","Lumens","Diopters"],
-    "correctAnswer": 3
+    "options": [
+      "Watts",
+      "Candela",
+      "Lumens",
+      "Diopters"
+    ],
+    "correctAnswer": 3,
+    "explanation": "The unit of optical power of a lens is the Diopter (D), which is the reciprocal of the focal length measured in meters ($P = 1/f$)."
   },
   {
     "question": "Work done by a centripetal force is always:",
-    "options": ["Zero","Positive","Negative","Infinite"],
-    "correctAnswer": 0
+    "options": [
+      "Zero",
+      "Positive",
+      "Negative",
+      "Infinite"
+    ],
+    "correctAnswer": 0,
+    "explanation": "Centripetal force always acts perpendicular to the instantaneous displacement of the object. Since work $W = F \\\\cdot d \\\\cos \\\\theta$ and $\\\\theta = 90^\\\\circ$, the work done is zero."
   },
   {
     "question": "The value of escape velocity from the surface of Earth is approximately:",
-    "options": ["$9.8$ km/s","$11.2$ km/s","$8$ km/s","$24$ km/s"],
-    "correctAnswer": 1
+    "options": [
+      "$9.8$ km/s",
+      "$11.2$ km/s",
+      "$8$ km/s",
+      "$24$ km/s"
+    ],
+    "correctAnswer": 1,
+    "explanation": "Escape velocity is given by $v_e = \\\\sqrt{2gR}$. Substituting Earth's values ($g \\\\approx 9.8$ m/s$^2$, $R \\\\approx 6400$ km), we get approximately $11.2$ km/s."
   },
   {
     "question": "According to the Ideal Gas Law ($PV = nRT$), if pressure and volume are doubled, the absolute temperature becomes:",
-    "options": ["Doubled","Remains same","Four times","Eight times"],
-    "correctAnswer": 2
+    "options": [
+      "Doubled",
+      "Remains same",
+      "Four times",
+      "Eight times"
+    ],
+    "correctAnswer": 2,
+    "explanation": "From $PV = nRT$, temperature $T = PV/nR$. If $P$ becomes $2P$ and $V$ becomes $2V$, the new temperature $T' = (2P)(2V)/nR = 4(PV/nR) = 4T$."
   },
   {
     "question": "The time period of a simple pendulum depends on:",
-    "options": ["Mass of the bob","Amplitude of oscillation","Material of the bob","Length of the pendulum"],
-    "correctAnswer": 3
+    "options": [
+      "Mass of the bob",
+      "Amplitude of oscillation",
+      "Material of the bob",
+      "Length of the pendulum"
+    ],
+    "correctAnswer": 3,
+    "explanation": "The time period is $T = 2\\\\pi\\\\sqrt{L/g}$. It depends on the length $L$ and gravity $g$, but is independent of the mass or material of the bob (for small amplitudes)."
   },
   {
     "question": "The speed of light in vacuum is exactly:",
-    "options": ["$299,792,458$ m/s","$3 \\times 10^7$ m/s","$150,000$ km/s","$3 \\times 10^9$ m/s"],
-    "correctAnswer": 0
+    "options": [
+      "$299,792,458$ m/s",
+      "$3 \\\\times 10^7$ m/s",
+      "$150,000$ km/s",
+      "$3 \\\\times 10^9$ m/s"
+    ],
+    "correctAnswer": 0,
+    "explanation": "The speed of light in vacuum ($c$) is defined exactly as $299,792,458$ meters per second in the SI system."
   },
   {
     "question": "An alpha particle consists of:",
-    "options": ["One proton and one neutron","Two protons and two neutrons","Two protons only","Four neutrons"],
-    "correctAnswer": 1
+    "options": [
+      "One proton and one neutron",
+      "Two protons and two neutrons",
+      "Two protons only",
+      "Four neutrons"
+    ],
+    "correctAnswer": 1,
+    "explanation": "An alpha particle is essentially a helium nucleus ($^4_2$He), which contains 2 protons and 2 neutrons."
   },
   {
     "question": "The SI unit of magnetic flux is:",
-    "options": ["Tesla","Henry","Weber","Farad"],
-    "correctAnswer": 2
+    "options": [
+      "Tesla",
+      "Henry",
+      "Weber",
+      "Farad"
+    ],
+    "correctAnswer": 2,
+    "explanation": "Magnetic flux is measured in Webers (Wb). One Weber is equal to one Tesla square meter ($T \\\\cdot m^2$)."
   },
   {
     "question": "Which logic gate is known as an 'Inverter'?",
-    "options": ["AND","OR","NAND","NOT"],
-    "correctAnswer": 3
+    "options": [
+      "AND",
+      "OR",
+      "NAND",
+      "NOT"
+    ],
+    "correctAnswer": 3,
+    "explanation": "A NOT gate is called an inverter because it reverses the input state; a high input becomes a low output and vice versa."
   },
   {
     "question": "The work function of a metal is the minimum energy required to:",
-    "options": ["Eject an electron from the surface","Excite an atom","Ionize the metal","Heat the metal"],
-    "correctAnswer": 0
+    "options": [
+      "Eject an electron from the surface",
+      "Excite an atom",
+      "Ionize the metal",
+      "Heat the metal"
+    ],
+    "correctAnswer": 0,
+    "explanation": "Work function is defined as the minimum amount of energy needed to remove the most loosely bound electron from the surface of a metal at absolute zero temperature."
   },
   {
-    "question": "Three resistors of $3 \\Omega$ each are connected in parallel. Their equivalent resistance is:",
-    "options": ["$9 \\Omega$","$1 \\Omega$","$0.33 \\Omega$","$6 \\Omega$"],
-    "correctAnswer": 1
+    "question": "Three resistors of $3 \\\\Omega$ each are connected in parallel. Their equivalent resistance is:",
+    "options": [
+      "$9 \\\\Omega$",
+      "$1 \\\\Omega$",
+      "$0.33 \\\\Omega$",
+      "$6 \\\\Omega$"
+    ],
+    "correctAnswer": 1,
+    "explanation": "For identical resistors in parallel, $R_{eq} = R/n$. Here $R=3\\\\Omega$ and $n=3$, so $R_{eq} = 3/3 = 1 \\\\Omega$."
   },
   {
     "question": "Lenz's Law is a consequence of the law of conservation of:",
-    "options": ["Charge","Mass","Energy","Momentum"],
-    "correctAnswer": 2
+    "options": [
+      "Charge",
+      "Mass",
+      "Energy",
+      "Momentum"
+    ],
+    "correctAnswer": 2,
+    "explanation": "Lenz's law states that the induced current opposes the change in magnetic flux. The work done against this opposition appears as electrical energy, consistent with the conservation of energy."
   },
   {
-    "question": "A photon of frequency $\\nu$ has energy $E$. A photon of frequency $2\\nu$ will have energy:",
-    "options": ["$E/2$","$E$","$4E$","$2E$"],
-    "correctAnswer": 3
+    "question": "A photon of frequency $\\\\nu$ has energy $E$. A photon of frequency $2\\\\nu$ will have energy:",
+    "options": [
+      "$E/2$",
+      "$E$",
+      "$4E$",
+      "$2E$"
+    ],
+    "correctAnswer": 3,
+    "explanation": "Energy of a photon is $E = h\\\\nu$. If frequency becomes $2\\\\nu$, energy becomes $E' = h(2\\\\nu) = 2(h\\\\nu) = 2E$."
   },
   {
     "question": "The ratio of stress to strain within the elastic limit is called:",
-    "options": ["Modulus of Elasticity","Poisson's Ratio","Surface Tension","Viscosity"],
-    "correctAnswer": 0
+    "options": [
+      "Modulus of Elasticity",
+      "Poisson's Ratio",
+      "Surface Tension",
+      "Viscosity"
+    ],
+    "correctAnswer": 0,
+    "explanation": "According to Hooke's Law, stress is proportional to strain. The constant of proportionality is the Modulus of Elasticity."
   },
   {
     "question": "A geostationary satellite completes one revolution around the Earth in:",
-    "options": ["$90$ minutes","$24$ hours","$12$ hours","$28$ days"],
-    "correctAnswer": 1
+    "options": [
+      "$90$ minutes",
+      "$24$ hours",
+      "$12$ hours",
+      "$28$ days"
+    ],
+    "correctAnswer": 1,
+    "explanation": "A geostationary satellite orbits with the same period as the Earth's rotation to remain fixed relative to the ground, which is 24 hours."
   },
   {
     "question": "Which of the following colors of white light deviates the most through a glass prism?",
-    "options": ["Red","Yellow","Violet","Green"],
-    "correctAnswer": 2
+    "options": [
+      "Red",
+      "Yellow",
+      "Violet",
+      "Green"
+    ],
+    "correctAnswer": 2,
+    "explanation": "The refractive index of glass is highest for violet light (shortest wavelength) and lowest for red light. Therefore, violet light bends (deviates) the most."
   },
   {
     "question": "The capacitance of a capacitor is not affected by:",
-    "options": ["Area of plates","Distance between plates","Dielectric medium","Charge on the plates"],
-    "correctAnswer": 3
+    "options": [
+      "Area of plates",
+      "Distance between plates",
+      "Dielectric medium",
+      "Charge on the plates"
+    ],
+    "correctAnswer": 3,
+    "explanation": "Capacitance is a geometric property determined by $C = \\\\epsilon A / d$. It depends on plate area, distance, and the dielectric, but is independent of the charge $Q$ stored on it (since $Q=CV$, increasing $Q$ increases $V$, keeping $C$ constant)."
   },
   {
     "question": "A body is dropped from a tower. The distance fallen in $3$ seconds is (take $g = 10$ m/s$^2$):",
-    "options": ["$45$ m","$30$ m","$90$ m","$15$ m"],
-    "correctAnswer": 0
+    "options": [
+      "$45$ m",
+      "$30$ m",
+      "$90$ m",
+      "$15$ m"
+    ],
+    "correctAnswer": 0,
+    "explanation": "Using $s = ut + \\\\frac{1}{2}gt^2$ with $u=0$: $s = \\\\frac{1}{2}(10)(3)^2 = 5 \\\\times 9 = 45$ m."
   },
   {
     "question": "The r.m.s. velocity of gas molecules is $v$ at $T$ Kelvin. At $4T$ Kelvin, the r.m.s. velocity will be:",
-    "options": ["$4v$","$2v$","$v/2$","$v$"],
-    "correctAnswer": 1
+    "options": [
+      "$4v$",
+      "$2v$",
+      "$v/2$",
+      "$v$"
+    ],
+    "correctAnswer": 1,
+    "explanation": "RMS velocity $v_{rms} \\\\propto \\\\sqrt{T}$. If $T$ becomes $4T$, the velocity becomes $\\\\sqrt{4T} = 2\\\\sqrt{T} = 2v$."
   },
   {
     "question": "The process by which heat is transmitted through a vacuum is:",
-    "options": ["Conduction","Convection","Radiation","Absorption"],
-    "correctAnswer": 2
+    "options": [
+      "Conduction",
+      "Convection",
+      "Radiation",
+      "Absorption"
+    ],
+    "correctAnswer": 2,
+    "explanation": "Conduction and convection require a material medium. Radiation involves electromagnetic waves (infrared) which can travel through a vacuum."
   },
   {
     "question": "The threshold wavelength for a metal is $5000$ Å. Photoelectric emission will occur if the incident light has a wavelength of:",
-    "options": ["$6000$ Å","$5500$ Å","$7000$ Å","$4000$ Å"],
-    "correctAnswer": 3
+    "options": [
+      "$6000$ Å",
+      "$5500$ Å",
+      "$7000$ Å",
+      "$4000$ Å"
+    ],
+    "correctAnswer": 3,
+    "explanation": "Photoelectric emission occurs only if the incident wavelength is less than or equal to the threshold wavelength ($\\lambda \\\\le \\\\lambda_0$). Here, only 4000 Å is less than 5000 Å."
   },
   {
     "question": "The magnetic field at the center of a current-carrying circular loop is:",
-    "options": ["Inversely proportional to the radius","Directly proportional to the radius","Zero","Independent of the current"],
-    "correctAnswer": 0
+    "options": [
+      "Inversely proportional to the radius",
+      "Directly proportional to the radius",
+      "Zero",
+      "Independent of the current"
+    ],
+    "correctAnswer": 0,
+    "explanation": "The magnetic field at the center is $B = \\\\frac{\\\\mu_0 I}{2R}$. It is inversely proportional to the radius $R$."
   },
   {
     "question": "A step-down transformer decreases the:",
-    "options": ["Frequency","Voltage","Current","Power"],
-    "correctAnswer": 1
+    "options": [
+      "Frequency",
+      "Voltage",
+      "Current",
+      "Power"
+    ],
+    "correctAnswer": 1,
+    "explanation": "A step-down transformer is designed to reduce the voltage level from the primary to the secondary winding ($V_s < V_p$)."
   },
   {
     "question": "The energy stored in a spring of constant $k$ stretched by $x$ is:",
-    "options": ["$kx$","$kx^2$","$\\frac{1}{2}kx^2$","$2kx^2$"],
-    "correctAnswer": 2
+    "options": [
+      "$kx$",
+      "$kx^2$",
+      "$\\\\frac{1}{2}kx^2$",
+      "$2kx^2$"
+    ],
+    "correctAnswer": 2,
+    "explanation": "The elastic potential energy stored in a spring is given by the formula $U = \\\\frac{1}{2}kx^2$."
   },
   {
     "question": "The mass defect in a nucleus is converted into:",
-    "options": ["Potential Energy","Kinetic Energy","Heat Energy","Binding Energy"],
-    "correctAnswer": 3
+    "options": [
+      "Potential Energy",
+      "Kinetic Energy",
+      "Heat Energy",
+      "Binding Energy"
+    ],
+    "correctAnswer": 3,
+    "explanation": "The mass defect (difference between mass of nucleons and nucleus) is converted into binding energy ($E = \\\\Delta mc^2$) which holds the nucleus together."
   },
   {
     "question": "Which of the following is a non-conservative force?",
-    "options": ["Frictional Force","Gravitational Force","Electrostatic Force","Magnetic Force"],
-    "correctAnswer": 0
+    "options": [
+      "Frictional Force",
+      "Gravitational Force",
+      "Electrostatic Force",
+      "Magnetic Force"
+    ],
+    "correctAnswer": 0,
+    "explanation": "Frictional force dissipates mechanical energy as heat, and the work done depends on the path taken, making it non-conservative."
   },
   {
     "question": "If the length of a conductor is doubled and its area is halved, its resistance becomes:",
-    "options": ["Double","Four times","Half","Eight times"],
-    "correctAnswer": 1
+    "options": [
+      "Double",
+      "Four times",
+      "Half",
+      "Eight times"
+    ],
+    "correctAnswer": 1,
+    "explanation": "Resistance $R = \\\\rho L/A$. If $L' = 2L$ and $A' = A/2$, then $R' = \\\\rho (2L)/(A/2) = 4 (\\\\rho L/A) = 4R$."
   },
   {
     "question": "The magnifying power of a telescope can be increased by:",
-    "options": ["Increasing eye-piece focal length","Decreasing objective focal length","Increasing objective focal length","Decreasing objective diameter"],
-    "correctAnswer": 2
+    "options": [
+      "Increasing eye-piece focal length",
+      "Decreasing objective focal length",
+      "Increasing objective focal length",
+      "Decreasing objective diameter"
+    ],
+    "correctAnswer": 2,
+    "explanation": "Magnifying power of a telescope is $M = f_o / f_e$. To increase $M$, one must increase the focal length of the objective ($f_o$) or decrease the focal length of the eyepiece ($f_e$)."
   },
   {
     "question": "The half-life of a radioactive sample is $10$ days. After $20$ days, the fraction remaining is:",
-    "options": ["$1/2$","$1/3$","$0$","$1/4$"],
-    "correctAnswer": 3
+    "options": [
+      "$1/2$",
+      "$1/3$",
+      "$0$",
+      "$1/4$"
+    ],
+    "correctAnswer": 3,
+    "explanation": "20 days corresponds to 2 half-lives ($20/10$). The remaining fraction is $(1/2)^2 = 1/4$."
   },
   {
     "question": "The weight of an object at the center of the Earth is:",
-    "options": ["Zero","Infinite","Same as surface","Variable"],
-    "correctAnswer": 0
+    "options": [
+      "Zero",
+      "Infinite",
+      "Same as surface",
+      "Variable"
+    ],
+    "correctAnswer": 0,
+    "explanation": "At the center of the Earth, the gravitational force from all directions cancels out, resulting in zero net gravity ($g=0$) and thus zero weight."
   },
   {
     "question": "An intrinsic semiconductor at absolute zero temperature behaves as a/an:",
-    "options": ["Conductor","Insulator","Superconductor","Metal"],
-    "correctAnswer": 1
+    "options": [
+      "Conductor",
+      "Insulator",
+      "Superconductor",
+      "Metal"
+    ],
+    "correctAnswer": 1,
+    "explanation": "At absolute zero, electrons in the valence band do not have enough thermal energy to cross the band gap into the conduction band. Thus, no charge carriers are available, and it behaves as a perfect insulator."
   },
   {
     "question": "In an adiabatic process, the relation between $P$ and $V$ is:",
-    "options": ["$PV = const$","$P/V = const$","$PV^{\\gamma} = const$","$P^{\\gamma}V = const$"],
-    "correctAnswer": 2
+    "options": [
+      "$PV = const$",
+      "$P/V = const$",
+      "$PV^{\\\\gamma} = const$",
+      "$P^{\\\\gamma}V = const$"
+    ],
+    "correctAnswer": 2,
+    "explanation": "For a reversible adiabatic process of an ideal gas, the relationship is Poisson's equation: $PV^{\\\\gamma} = \\\\text{constant}$, where $\\\\gamma$ is the adiabatic index."
   },
   {
     "question": "Which of the following rays has the highest penetrating power?",
-    "options": ["Alpha rays","Beta rays","X-rays","Gamma rays"],
-    "correctAnswer": 3
+    "options": [
+      "Alpha rays",
+      "Beta rays",
+      "X-rays",
+      "Gamma rays"
+    ],
+    "correctAnswer": 3,
+    "explanation": "Gamma rays are high-energy photons with no mass or charge, allowing them to penetrate matter much more deeply than Alpha or Beta particles."
   },
   {
     "question": "The SI unit of electric field intensity is:",
-    "options": ["N/C","V m","C/N","J/C"],
-    "correctAnswer": 0
+    "options": [
+      "N/C",
+      "V m",
+      "C/N",
+      "J/C"
+    ],
+    "correctAnswer": 0,
+    "explanation": "Electric field intensity is force per unit charge ($E = F/q$), so its unit is Newtons per Coulomb (N/C). It is also equivalent to Volts per meter (V/m)."
   },
   {
     "question": "The color of an star is an indication of its:",
-    "options": ["Distance","Temperature","Mass","Size"],
-    "correctAnswer": 1
+    "options": [
+      "Distance",
+      "Temperature",
+      "Mass",
+      "Size"
+    ],
+    "correctAnswer": 1,
+    "explanation": "According to Wien's Displacement Law, the color (peak wavelength) of a star depends on its surface temperature. Hotter stars appear blue, while cooler stars appear red."
   },
   {
     "question": "The working of a rocket is based on the principle of conservation of:",
-    "options": ["Mass","Energy","Linear Momentum","Angular Momentum"],
-    "correctAnswer": 2
+    "options": [
+      "Mass",
+      "Energy",
+      "Linear Momentum",
+      "Angular Momentum"
+    ],
+    "correctAnswer": 2,
+    "explanation": "Rocket propulsion works on Newton's third law and the conservation of linear momentum. The momentum of the exhaust gases moving backward equals the momentum of the rocket moving forward."
   },
   {
-    "question": "What is the frequency of a photon with energy $3.3 \\times 10^{-19}$ J? (Take $h = 6.6 \\times 10^{-34}$ J s):",
-    "options": ["$2 \\times 10^{14}$ Hz","$5 \\times 10^{15}$ Hz","$1 \\times 10^{14}$ Hz","$5 \\times 10^{14}$ Hz"],
-    "correctAnswer": 3
+    "question": "What is the frequency of a photon with energy $3.3 \\\\times 10^{-19}$ J? (Take $h = 6.6 \\\\times 10^{-34}$ J s):",
+    "options": [
+      "$2 \\\\times 10^{14}$ Hz",
+      "$5 \\\\times 10^{15}$ Hz",
+      "$1 \\\\times 10^{14}$ Hz",
+      "$5 \\\\times 10^{14}$ Hz"
+    ],
+    "correctAnswer": 3,
+    "explanation": "Frequency $f = E/h = (3.3 \\\\times 10^{-19}) / (6.6 \\\\times 10^{-34}) = 0.5 \\\\times 10^{15} = 5 \\\\times 10^{14}$ Hz."
   },
   {
     "question": "A simple microscope has a focal length of $5$ cm. Its magnifying power for least distance of distinct vision ($25$ cm) is:",
-    "options": ["$6$","$5$","$4$","$25$"],
-    "correctAnswer": 0
+    "options": [
+      "$6$",
+      "$5$",
+      "$4$",
+      "$25$"
+    ],
+    "correctAnswer": 0,
+    "explanation": "Magnifying power $M = 1 + D/f$. Here $D=25$ cm and $f=5$ cm. $M = 1 + 25/5 = 1 + 5 = 6$."
   },
   {
     "question": "The angle between the magnetic meridian and the geographic meridian at a place is called:",
-    "options": ["Angle of Dip","Magnetic Declination","Angle of Inclination","Latitude"],
-    "correctAnswer": 1
+    "options": [
+      "Angle of Dip",
+      "Magnetic Declination",
+      "Angle of Inclination",
+      "Latitude"
+    ],
+    "correctAnswer": 1,
+    "explanation": "Magnetic declination is the angle between the magnetic north (direction of compass needle) and true geographic north."
   },
   {
     "question": "The energy of an electron in the $n^{th}$ orbit of Hydrogen atom is given by:",
-    "options": ["$-13.6/n$ eV","$-13.6 \\times n^2$ eV","$-13.6/n^2$ eV","$13.6/n^2$ eV"],
-    "correctAnswer": 2
+    "options": [
+      "$-13.6/n$ eV",
+      "$-13.6 \\\\times n^2$ eV",
+      "$-13.6/n^2$ eV",
+      "$13.6/n^2$ eV"
+    ],
+    "correctAnswer": 2,
+    "explanation": "The energy levels of a hydrogen atom are quantized and given by the Bohr formula $E_n = -13.6/n^2$ eV."
   },
   {
     "question": "Which of the following parameters remains constant in a uniform circular motion?",
-    "options": ["Velocity","Acceleration","Force","Kinetic Energy"],
-    "correctAnswer": 3
+    "options": [
+      "Velocity",
+      "Acceleration",
+      "Force",
+      "Kinetic Energy"
+    ],
+    "correctAnswer": 3,
+    "explanation": "In uniform circular motion, speed is constant, though velocity changes direction. Since Kinetic Energy ($K = \\\\frac{1}{2}mv^2$) depends only on speed (scalar), it remains constant. Velocity, acceleration, and force are vectors that change direction."
   },
   {
     "question": "The time period of a satellite orbiting just above the earth's surface is approximately:",
-    "options": ["$84$ minutes","$24$ hours","$42$ minutes","$90$ seconds"],
-    "correctAnswer": 0
+    "options": [
+      "$84$ minutes",
+      "$24$ hours",
+      "$42$ minutes",
+      "$90$ seconds"
+    ],
+    "correctAnswer": 0,
+    "explanation": "For a low Earth orbit satellite, the orbital period is derived from $T = 2\\\\pi\\\\sqrt{R/g}$, which calculates to approximately 84.4 minutes."
   },
   {
     "question": "Water has maximum density at a temperature of:",
-    "options": ["$0^\\circ$C","$4^\\circ$C","$100^\\circ$C","$-4^\\circ$C"],
-    "correctAnswer": 1
+    "options": [
+      "$0^\\\\circ$C",
+      "$4^\\\\circ$C",
+      "$100^\\\\circ$C",
+      "$-4^\\\\circ$C"
+    ],
+    "correctAnswer": 1,
+    "explanation": "Water exhibits anomalous expansion. As it cools, it contracts until $4^\\\\circ$C. Below this temperature, it expands. Thus, the density is highest at $4^\\\\circ$C."
   },
   {
     "question": "The resistance of an ideal voltmeter is:",
-    "options": ["Zero","Low","Infinite","Very High"],
-    "correctAnswer": 2
+    "options": [
+      "Zero",
+      "Low",
+      "Infinite",
+      "Very High"
+    ],
+    "correctAnswer": 2,
+    "explanation": "A voltmeter is connected in parallel. To ensure it does not draw any current from the circuit (which would alter the voltage being measured), an ideal voltmeter must have infinite resistance."
   },
   {
     "question": "The de-Broglie wavelength of a particle is inversely proportional to its:",
-    "options": ["Mass","Velocity","Energy","Momentum"],
-    "correctAnswer": 3
+    "options": [
+      "Mass",
+      "Velocity",
+      "Energy",
+      "Momentum"
+    ],
+    "correctAnswer": 3,
+    "explanation": "According to the de-Broglie equation, $\\\\lambda = h/p$. Therefore, wavelength is inversely proportional to momentum ($p$)."
   },
   {
     "question": "In a p-type semiconductor, the majority charge carriers are:",
-    "options": ["Electrons","Holes","Ions","Protons"],
-    "correctAnswer": 1
+    "options": [
+      "Electrons",
+      "Holes",
+      "Ions",
+      "Protons"
+    ],
+    "correctAnswer": 1,
+    "explanation": "P-type semiconductors are doped with trivalent impurities, creating 'holes' (electron vacancies) which act as the primary (majority) charge carriers."
   },
   {
     "question": "The unit of self-inductance is:",
-    "options": ["Weber","Tesla","Farad","Henry"],
-    "correctAnswer": 3
+    "options": [
+      "Weber",
+      "Tesla",
+      "Farad",
+      "Henry"
+    ],
+    "correctAnswer": 3,
+    "explanation": "The SI unit of inductance (both self and mutual) is the Henry (H), named after Joseph Henry."
   }
 ]
+

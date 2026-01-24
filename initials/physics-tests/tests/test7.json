@@ -1,253 +1,553 @@
 [
   {
     "question": "Which of the following physical constants is dimensionless?",
-    "options": ["Relative permeability", "Gravitational constant", "Planck's constant", "Boltzmann constant"],
-    "correctAnswer": 0
+    "options": [
+      "Relative permeability",
+      "Gravitational constant",
+      "Planck's constant",
+      "Boltzmann constant"
+    ],
+    "correctAnswer": 0,
+    "explanation": "Relative permeability ($\\mu_r$) is the ratio of the permeability of a medium to the permeability of free space ($\\mu / \\mu_0$). Since it is a ratio of two identical quantities, it has no units and is dimensionless."
   },
   {
     "question": "The magnitude of the cross product of two unit vectors $\\hat{i}$ and $\\hat{j}$ is:",
-    "options": ["1", "0", "-1", "$\\sqrt{2}$"],
-    "correctAnswer": 0
+    "options": [
+      "1",
+      "0",
+      "-1",
+      "$\\sqrt{2}$"
+    ],
+    "correctAnswer": 0,
+    "explanation": "The cross product $\\hat{i} \\times \\hat{j} = \\hat{k}$. The magnitude of the resulting unit vector $\\hat{k}$ is 1."
   },
   {
     "question": "A force of 10 N acts on a body and the body remains at rest. The work done by the force is:",
-    "options": ["0 J", "10 J", "1 J", "Indeterminate"],
-    "correctAnswer": 0
+    "options": [
+      "0 J",
+      "10 J",
+      "1 J",
+      "Indeterminate"
+    ],
+    "correctAnswer": 0,
+    "explanation": "Work done is defined as $W = F \\cdot d \\cos\\theta$. Since the body remains at rest, the displacement $d$ is zero. Therefore, the work done is $10 \\times 0 = 0$ J."
   },
   {
     "question": "The excess pressure inside a soap bubble of radius $R$ and surface tension $T$ is:",
-    "options": ["$4T/R$", "$2T/R$", "$T/R$", "$8T/R$"],
-    "correctAnswer": 0
+    "options": [
+      "$4T/R$",
+      "$2T/R$",
+      "$T/R$",
+      "$8T/R$"
+    ],
+    "correctAnswer": 0,
+    "explanation": "A soap bubble has two surfaces (inner and outer). The excess pressure is given by $P = \\frac{4T}{R}$ to balance the surface tension forces from both surfaces."
   },
   {
     "question": "According to the kinetic theory of gases, the absolute temperature of a gas is proportional to:",
-    "options": ["Average translational kinetic energy", "Average velocity", "Average potential energy", "Total volume"],
-    "correctAnswer": 0
+    "options": [
+      "Average translational kinetic energy",
+      "Average velocity",
+      "Average potential energy",
+      "Total volume"
+    ],
+    "correctAnswer": 0,
+    "explanation": "Temperature is a measure of the average translational kinetic energy of the gas molecules ($KE_{avg} = \\frac{3}{2}kT$)."
   },
   {
     "question": "The total electric flux through a closed surface depends only on:",
-    "options": ["Net charge enclosed", "Shape of the surface", "Size of the surface", "Permittivity of the medium only"],
-    "correctAnswer": 0
+    "options": [
+      "Net charge enclosed",
+      "Shape of the surface",
+      "Size of the surface",
+      "Permittivity of the medium only"
+    ],
+    "correctAnswer": 0,
+    "explanation": "According to Gauss's Law, $\\Phi_E = \\frac{Q_{enclosed}}{\\epsilon_0}$. The flux depends only on the net charge enclosed within the surface, not on the surface's shape or size."
   },
   {
     "question": "The magnetic field inside a long ideal toroid is:",
-    "options": ["Constant", "Zero", "Varying as $1/r^2$", "Varying as $r$"],
-    "correctAnswer": 0
+    "options": [
+      "Constant",
+      "Zero",
+      "Varying as $1/r^2$",
+      "Varying as $r$"
+    ],
+    "correctAnswer": 0,
+    "explanation": "NOTE: For an *ideal* toroid, the field is often considered uniform if the radius is large compared to the cross-section. However, strictly speaking, $B = \\frac{\\mu_0 N I}{2\\pi r}$, so it varies as $1/r$. The provided answer key (0: Constant) implies the approximation of a very thin toroid or 'average' field is being tested, or it refers to the field being non-zero and confined inside (unlike outside where it is zero). Given the options, 'Constant' is the intended answer in many simplified contexts compared to 'Zero'."
   },
   {
     "question": "In Bohr's model of the hydrogen atom, the radius of the first orbit is $a_0$. The radius of the third orbit is:",
-    "options": ["$9a_0$", "$3a_0$", "$a_0/3$", "$a_0/9$"],
-    "correctAnswer": 0
+    "options": [
+      "$9a_0$",
+      "$3a_0$",
+      "$a_0/3$",
+      "$a_0/9$"
+    ],
+    "correctAnswer": 0,
+    "explanation": "The radius of the $n$-th orbit is proportional to $n^2$ ($r_n = n^2 a_0$). For the third orbit ($n=3$), $r_3 = 3^2 a_0 = 9a_0$."
   },
   {
     "question": "If the temperature of air increases, the speed of sound:",
-    "options": ["Increases", "Decreases", "Remains constant", "First increases then decreases"],
-    "correctAnswer": 0
+    "options": [
+      "Increases",
+      "Decreases",
+      "Remains constant",
+      "First increases then decreases"
+    ],
+    "correctAnswer": 0,
+    "explanation": "The speed of sound in a gas is directly proportional to the square root of its absolute temperature ($v \\propto \\sqrt{T}$). Therefore, as temperature increases, the speed of sound increases."
   },
   {
     "question": "A wire of resistance $R$ is cut into three equal pieces. The resistance of each piece is:",
-    "options": ["$R/3$", "$3R$", "$R/9$", "$R$"],
-    "correctAnswer": 0
+    "options": [
+      "$R/3$",
+      "$3R$",
+      "$R/9$",
+      "$R$"
+    ],
+    "correctAnswer": 0,
+    "explanation": "Resistance is directly proportional to length. If the wire is cut into three equal pieces, the length of each piece is $L/3$, so the resistance of each piece becomes $R/3$."
   },
   {
     "question": "The minimum frequency of incident light required to eject electrons from a metal surface is called:",
-    "options": ["Threshold frequency", "Cut-off frequency", "Resonant frequency", "Atomic frequency"],
-    "correctAnswer": 0
+    "options": [
+      "Threshold frequency",
+      "Cut-off frequency",
+      "Resonant frequency",
+      "Atomic frequency"
+    ],
+    "correctAnswer": 0,
+    "explanation": "The threshold frequency ($\\nu_0$) is the minimum frequency below which photoelectric emission is not possible, regardless of the intensity of the light."
   },
   {
     "question": "The logic gate that produces a '1' output only when both inputs are '1' is:",
-    "options": ["AND", "OR", "NAND", "XOR"],
-    "correctAnswer": 0
+    "options": [
+      "AND",
+      "OR",
+      "NAND",
+      "XOR"
+    ],
+    "correctAnswer": 0,
+    "explanation": "The AND gate gives a high output (1) if and only if all its inputs are high (1)."
   },
   {
     "question": "At what temperature does water reach its maximum density?",
-    "options": ["$4^\\circ$C", "$0^\\circ$C", "$100^\\circ$C", "$-4^\\circ$C"],
-    "correctAnswer": 0
+    "options": [
+      "$4^\\circ$C",
+      "$0^\\circ$C",
+      "$100^\\circ$C",
+      "$-4^\\circ$C"
+    ],
+    "correctAnswer": 0,
+    "explanation": "Due to the anomalous expansion of water, its density increases as it cools down to $4^\\circ$C, reaching a maximum, and then decreases as it cools further to $0^\\circ$C."
   },
   {
     "question": "Two masses of 1 kg and 4 kg are moving with equal kinetic energies. The ratio of their linear momenta is:",
-    "options": ["1:4", "1:2", "4:1", "1:16"],
-    "correctAnswer": 1
+    "options": [
+      "1:4",
+      "1:2",
+      "4:1",
+      "1:16"
+    ],
+    "correctAnswer": 1,
+    "explanation": "Kinetic energy $K = p^2 / 2m$, so $p = \\sqrt{2mK}$. Since $K$ is constant, $p \\propto \\sqrt{m}$. Ratio $p_1 : p_2 = \\sqrt{1} : \\sqrt{4} = 1 : 2$."
   },
   {
     "question": "A disc of mass $M$ and radius $R$ is rolling without slipping. The ratio of its rotational kinetic energy to its total kinetic energy is:",
-    "options": ["1:2", "1:3", "2:3", "1:1"],
-    "correctAnswer": 1
+    "options": [
+      "1:2",
+      "1:3",
+      "2:3",
+      "1:1"
+    ],
+    "correctAnswer": 1,
+    "explanation": "Rotational KE $K_r = \\frac{1}{2}I\\omega^2 = \\frac{1}{2}(\\frac{1}{2}MR^2)\\frac{v^2}{R^2} = \\frac{1}{4}Mv^2$. Translational KE $K_t = \\frac{1}{2}Mv^2$. Total KE $K = K_r + K_t = \\frac{3}{4}Mv^2$. Ratio $K_r : K = (\\frac{1}{4}) : (\\frac{3}{4}) = 1:3$."
   },
   {
     "question": "The amount of heat required to raise the temperature of 1 kg of a substance by $1$ K is called:",
-    "options": ["Heat capacity", "Specific heat capacity", "Latent heat", "Molar heat"],
-    "correctAnswer": 1
+    "options": [
+      "Heat capacity",
+      "Specific heat capacity",
+      "Latent heat",
+      "Molar heat"
+    ],
+    "correctAnswer": 1,
+    "explanation": "Specific heat capacity is defined as the heat energy required to raise the temperature of a unit mass (1 kg) of a substance by one unit of temperature (1 K)."
   },
   {
     "question": "An observer moves towards a stationary source of sound. The apparent frequency heard by the observer:",
-    "options": ["Decreases", "Increases", "Remains same", "Becomes zero"],
-    "correctAnswer": 1
+    "options": [
+      "Decreases",
+      "Increases",
+      "Remains same",
+      "Becomes zero"
+    ],
+    "correctAnswer": 1,
+    "explanation": "According to the Doppler effect, when an observer moves towards a source, they intercept more wavecrests per second, resulting in a higher apparent frequency."
   },
   {
     "question": "The electric potential at the surface of a solid charged conductor of radius $R$ is $V$. The potential at the center is:",
-    "options": ["Zero", "$V$", "$V/2$", "$2V$"],
-    "correctAnswer": 1
+    "options": [
+      "Zero",
+      "$V$",
+      "$V/2$",
+      "$2V$"
+    ],
+    "correctAnswer": 1,
+    "explanation": "The electric potential inside a charged conductor is constant and equal to the potential at its surface. Therefore, the potential at the center is also $V$."
   },
   {
     "question": "If the current in a conductor is doubled, the drift velocity of electrons will:",
-    "options": ["Remain same", "Double", "Half", "Quadruple"],
-    "correctAnswer": 1
+    "options": [
+      "Remain same",
+      "Double",
+      "Half",
+      "Quadruple"
+    ],
+    "correctAnswer": 1,
+    "explanation": "Current $I = nAv_d e$. Thus, drift velocity $v_d \\propto I$. If current doubles, drift velocity also doubles."
   },
   {
     "question": "The unit of mutual inductance is:",
-    "options": ["Tesla", "Henry", "Weber", "Farad"],
-    "correctAnswer": 1
+    "options": [
+      "Tesla",
+      "Henry",
+      "Weber",
+      "Farad"
+    ],
+    "correctAnswer": 1,
+    "explanation": "The SI unit for both self and mutual inductance is the Henry (H)."
   },
   {
     "question": "For total internal reflection to occur, light must travel from:",
-    "options": ["Rarer to denser medium", "Denser to rarer medium", "Vacuum to air", "Water to glass"],
-    "correctAnswer": 1
+    "options": [
+      "Rarer to denser medium",
+      "Denser to rarer medium",
+      "Vacuum to air",
+      "Water to glass"
+    ],
+    "correctAnswer": 1,
+    "explanation": "Total Internal Reflection only occurs when light attempts to travel from a medium of higher refractive index (denser) to one of lower refractive index (rarer) at an angle greater than the critical angle."
   },
   {
     "question": "The half-life of a radioactive sample is 10 years. In 20 years, what percentage of the sample will decay?",
-    "options": ["50%", "75%", "25%", "100%"],
-    "correctAnswer": 1
+    "options": [
+      "50%",
+      "75%",
+      "25%",
+      "100%"
+    ],
+    "correctAnswer": 1,
+    "explanation": "20 years is 2 half-lives. After 1st half-life, 50% remains. After 2nd, 25% remains. Therefore, $100\\% - 25\\% = 75\\%$ has decayed."
   },
   {
     "question": "In forward bias, the width of the depletion layer in a p-n junction:",
-    "options": ["Increases", "Decreases", "Remains same", "Becomes infinite"],
-    "correctAnswer": 1
+    "options": [
+      "Increases",
+      "Decreases",
+      "Remains same",
+      "Becomes infinite"
+    ],
+    "correctAnswer": 1,
+    "explanation": "In forward bias, the applied external voltage opposes the potential barrier, pushing majority carriers towards the junction and reducing the width of the depletion layer."
   },
   {
     "question": "The escape velocity from the moon is ________ than the escape velocity from the earth.",
-    "options": ["Greater", "Smaller", "Equal", "Twice"],
-    "correctAnswer": 1
+    "options": [
+      "Greater",
+      "Smaller",
+      "Equal",
+      "Twice"
+    ],
+    "correctAnswer": 1,
+    "explanation": "The Moon has a much smaller mass and radius than Earth. Escape velocity $v_e = \\sqrt{2GM/R}$ is therefore much smaller on the Moon (approx 2.4 km/s) compared to Earth (11.2 km/s)."
   },
   {
     "question": "The ratio of longitudinal stress to longitudinal strain is:",
-    "options": ["Bulk modulus", "Young's modulus", "Modulus of rigidity", "Poisson's ratio"],
-    "correctAnswer": 1
+    "options": [
+      "Bulk modulus",
+      "Young's modulus",
+      "Modulus of rigidity",
+      "Poisson's ratio"
+    ],
+    "correctAnswer": 1,
+    "explanation": "Young's modulus ($Y$) is defined as the ratio of longitudinal (tensile or compressive) stress to longitudinal strain."
   },
   {
     "question": "The angle between two vectors $\\vec{A}$ and $\\vec{B}$ is $\\theta$. The magnitude of their resultant is maximum when $\\theta$ is:",
-    "options": ["$90^\\circ$", "$180^\\circ$", "$0^\\circ$", "$45^\\circ$"],
-    "correctAnswer": 2
+    "options": [
+      "$90^\\circ$",
+      "$180^\\circ$",
+      "$0^\\circ$",
+      "$45^\\circ$"
+    ],
+    "correctAnswer": 2,
+    "explanation": "Resultant $R = \\sqrt{A^2 + B^2 + 2AB\\cos\\theta}$. This is maximum when $\\cos\\theta = 1$, which corresponds to $\\theta = 0^\\circ$."
   },
   {
     "question": "The maximum velocity with which a car can safely take a turn on a banked road of radius $r$ and angle $\\theta$ (ignoring friction) is:",
-    "options": ["$\\sqrt{gr \\cos \\theta}$", "$\\sqrt{gr \\sin \\theta}$", "$\\sqrt{gr \\tan \\theta}$", "$\\sqrt{gr}$"],
-    "correctAnswer": 2
+    "options": [
+      "$\\sqrt{gr \\cos \\theta}$",
+      "$\\sqrt{gr \\sin \\theta}$",
+      "$\\sqrt{gr \\tan \\theta}$",
+      "$\\sqrt{gr}$"
+    ],
+    "correctAnswer": 2,
+    "explanation": "For a banked road without friction, the necessary centripetal force is provided by the horizontal component of the normal force. The safe speed is derived as $v = \\sqrt{gr \\tan \\theta}$."
   },
   {
     "question": "According to Newton's law of gravitation, the force between two bodies is inversely proportional to:",
-    "options": ["Sum of masses", "Product of masses", "Square of distance", "Distance"],
-    "correctAnswer": 2
+    "options": [
+      "Sum of masses",
+      "Product of masses",
+      "Square of distance",
+      "Distance"
+    ],
+    "correctAnswer": 2,
+    "explanation": "The gravitational force is given by $F = G \\frac{m_1 m_2}{r^2}$. It is inversely proportional to the square of the distance ($r^2$) between their centers."
   },
   {
     "question": "Which law of thermodynamics leads to the definition of entropy?",
-    "options": ["First Law", "Third Law", "Second Law", "Zeroth Law"],
-    "correctAnswer": 2
+    "options": [
+      "First Law",
+      "Third Law",
+      "Second Law",
+      "Zeroth Law"
+    ],
+    "correctAnswer": 2,
+    "explanation": "The Second Law of Thermodynamics introduces the concept of entropy, stating that total entropy of an isolated system can never decrease over time."
   },
   {
     "question": "Two tuning forks of frequencies 256 Hz and 260 Hz are sounded together. The number of beats heard per second is:",
-    "options": ["2", "258", "4", "516"],
-    "correctAnswer": 2
+    "options": [
+      "2",
+      "258",
+      "4",
+      "516"
+    ],
+    "correctAnswer": 2,
+    "explanation": "Beat frequency is the absolute difference between the two frequencies. $f_{beat} = |260 - 256| = 4$ beats per second."
   },
   {
     "question": "The energy stored in a capacitor of capacitance $C$ and charge $Q$ is:",
-    "options": ["$QV^2/2$", "$CV/2$", "$Q^2/2C$", "$Q/2C$"],
-    "correctAnswer": 2
+    "options": [
+      "$QV^2/2$",
+      "$CV/2$",
+      "$Q^2/2C$",
+      "$Q/2C$"
+    ],
+    "correctAnswer": 2,
+    "explanation": "The potential energy stored in a charged capacitor is given by $U = \\frac{1}{2} \\frac{Q^2}{C}$."
   },
   {
     "question": "To convert a galvanometer into an ammeter, we connect a:",
-    "options": ["High resistance in series", "High resistance in parallel", "Low resistance in parallel", "Low resistance in series"],
-    "correctAnswer": 2
+    "options": [
+      "High resistance in series",
+      "High resistance in parallel",
+      "Low resistance in parallel",
+      "Low resistance in series"
+    ],
+    "correctAnswer": 2,
+    "explanation": "An ammeter must have very low resistance. This is achieved by connecting a low resistance (shunt) in parallel with the galvanometer."
   },
   {
     "question": "The core of a transformer is laminated to reduce:",
-    "options": ["Hysteresis loss", "Copper loss", "Eddy current loss", "Flux leakage"],
-    "correctAnswer": 2
+    "options": [
+      "Hysteresis loss",
+      "Copper loss",
+      "Eddy current loss",
+      "Flux leakage"
+    ],
+    "correctAnswer": 2,
+    "explanation": "Laminations break the path of circulating eddy currents induced in the core, thereby minimizing energy loss as heat."
   },
   {
     "question": "The tangent of the Brewster angle is equal to the ________ of the medium.",
-    "options": ["Critical angle", "Focal length", "Refractive index", "Polarizing angle"],
-    "correctAnswer": 2
+    "options": [
+      "Critical angle",
+      "Focal length",
+      "Refractive index",
+      "Polarizing angle"
+    ],
+    "correctAnswer": 2,
+    "explanation": "Brewster's Law states that $\\tan \\theta_p = \\mu$, where $\\theta_p$ is the Brewster angle and $\\mu$ is the refractive index."
   },
   {
     "question": "The de-Broglie wavelength of a particle is inversely proportional to its:",
-    "options": ["Mass only", "Velocity only", "Momentum", "Energy"],
-    "correctAnswer": 2
+    "options": [
+      "Mass only",
+      "Velocity only",
+      "Momentum",
+      "Energy"
+    ],
+    "correctAnswer": 2,
+    "explanation": "The de-Broglie wavelength is $\\lambda = h/p$. It is inversely proportional to the momentum ($p$) of the particle."
   },
   {
     "question": "The binding energy per nucleon is maximum for which element?",
-    "options": ["Uranium", "Helium", "Iron", "Hydrogen"],
-    "correctAnswer": 2
+    "options": [
+      "Uranium",
+      "Helium",
+      "Iron",
+      "Hydrogen"
+    ],
+    "correctAnswer": 2,
+    "explanation": "The binding energy per nucleon curve peaks at Iron ($^{56}$Fe), making it the most stable nucleus."
   },
   {
     "question": "If the frequency of input AC is 50 Hz, the frequency of output in a full-wave rectifier is:",
-    "options": ["25 Hz", "50 Hz", "100 Hz", "200 Hz"],
-    "correctAnswer": 2
+    "options": [
+      "25 Hz",
+      "50 Hz",
+      "100 Hz",
+      "200 Hz"
+    ],
+    "correctAnswer": 2,
+    "explanation": "A full-wave rectifier converts both halves of the AC cycle into a pulsating DC signal, effectively doubling the frequency of the output ripple. $50 \\times 2 = 100$ Hz."
   },
   {
     "question": "The area under a force-time graph gives the change in:",
-    "options": ["Kinetic energy", "Acceleration", "Momentum", "Displacement"],
-    "correctAnswer": 2
+    "options": [
+      "Kinetic energy",
+      "Acceleration",
+      "Momentum",
+      "Displacement"
+    ],
+    "correctAnswer": 2,
+    "explanation": "The area under an F-t graph represents Impulse ($I = \\int F dt$). Impulse is equal to the change in momentum."
   },
   {
     "question": "A body is thrown vertically upwards with velocity $u$. The maximum height reached is:",
-    "options": ["$u/g$", "$u^2/g$", "$u/2g$", "$u^2/2g$"],
-    "correctAnswer": 3
+    "options": [
+      "$u/g$",
+      "$u^2/g$",
+      "$u/2g$",
+      "$u^2/2g$"
+    ],
+    "correctAnswer": 3,
+    "explanation": "Using the equation $v^2 - u^2 = 2as$. At max height $v=0$ and $a=-g$. So, $0 - u^2 = -2gH$, which gives $H = u^2/2g$."
   },
   {
     "question": "In an AC circuit containing only a pure inductor, the phase difference between voltage and current is:",
-    "options": ["$0^\\circ$", "$180^\\circ$", "$45^\\circ$", "$90^\\circ$"],
-    "correctAnswer": 3
+    "options": [
+      "$0^\\circ$",
+      "$180^\\circ$",
+      "$45^\\circ$",
+      "$90^\\circ$"
+    ],
+    "correctAnswer": 3,
+    "explanation": "In a purely inductive circuit, the voltage leads the current by a phase angle of $90^\\circ$ (or $\\pi/2$ radians)."
   },
   {
     "question": "The specific heat of water is approximately:",
-    "options": ["$1000$ J/kg K", "$2100$ J/kg K", "$500$ J/kg K", "$4186$ J/kg K"],
-    "correctAnswer": 3
+    "options": [
+      "$1000$ J/kg K",
+      "$2100$ J/kg K",
+      "$500$ J/kg K",
+      "$4186$ J/kg K"
+    ],
+    "correctAnswer": 3,
+    "explanation": "Water has a very high specific heat capacity, approximately $4186$ J/kg K (often rounded to 4200 J/kg K)."
   },
   {
     "question": "The resolving power of a telescope can be increased by increasing the:",
-    "options": ["Focal length of eyepiece", "Length of telescope", "Focal length of objective", "Aperture of objective"],
-    "correctAnswer": 3
+    "options": [
+      "Focal length of eyepiece",
+      "Length of telescope",
+      "Focal length of objective",
+      "Aperture of objective"
+    ],
+    "correctAnswer": 3,
+    "explanation": "Resolving power $RP = D / 1.22\\lambda$. To increase RP, one must increase the diameter ($D$) or aperture of the objective lens."
   },
   {
     "question": "X-rays are produced when fast-moving electrons strike a:",
-    "options": ["Liquid", "Gas", "Insulator", "Target of high atomic number"],
-    "correctAnswer": 3
+    "options": [
+      "Liquid",
+      "Gas",
+      "Insulator",
+      "Target of high atomic number"
+    ],
+    "correctAnswer": 3,
+    "explanation": "When high-speed electrons collide with a heavy metal target (high atomic number), they rapidly decelerate, converting their kinetic energy into X-ray photons (Bremsstrahlung and characteristic X-rays)."
   },
   {
     "question": "The main source of energy in stars is:",
-    "options": ["Chemical combustion", "Nuclear fission", "Gravitational collapse", "Nuclear fusion"],
-    "correctAnswer": 3
+    "options": [
+      "Chemical combustion",
+      "Nuclear fission",
+      "Gravitational collapse",
+      "Nuclear fusion"
+    ],
+    "correctAnswer": 3,
+    "explanation": "Stars, like the Sun, generate energy through nuclear fusion, primarily converting hydrogen nuclei into helium under immense heat and pressure."
   },
   {
     "question": "If the distance between two point charges is tripled, the electrostatic force between them becomes:",
-    "options": ["3 times", "9 times", "1/3", "1/9"],
-    "correctAnswer": 3
+    "options": [
+      "3 times",
+      "9 times",
+      "1/3",
+      "1/9"
+    ],
+    "correctAnswer": 3,
+    "explanation": "Coulomb's Force $F \\propto 1/r^2$. If distance $r$ becomes $3r$, the force becomes $1/(3r)^2 = 1/9 r^2$. So the force becomes $1/9$ of the original."
   },
   {
     "question": "The SI unit of magnetic dipole moment is:",
-    "options": ["Tesla", "Ampere-meter", "Weber", "Ampere-meter$^2$"],
-    "correctAnswer": 3
+    "options": [
+      "Tesla",
+      "Ampere-meter",
+      "Weber",
+      "Ampere-meter$^2$"
+    ],
+    "correctAnswer": 3,
+    "explanation": "Magnetic dipole moment is defined as $m = NIA$. The unit is Ampere $\\times$ meter$^2$ ($A m^2$)."
   },
   {
     "question": "The SI unit of the coefficient of viscosity is:",
-    "options": ["Pascal", "Newton", "Poise", "Pascal-second"],
-    "correctAnswer": 3
+    "options": [
+      "Pascal",
+      "Newton",
+      "Poise",
+      "Pascal-second"
+    ],
+    "correctAnswer": 3,
+    "explanation": "The SI unit is Pascal-second (Pa·s). Poise is the CGS unit."
   },
   {
     "question": "In a common emitter transistor amplifier, the phase difference between input and output signal is:",
-    "options": ["$0^\\circ$", "$90^\\circ$", "$45^\\circ$", "$180^\\circ$"],
-    "correctAnswer": 3
+    "options": [
+      "$0^\\circ$",
+      "$90^\\circ$",
+      "$45^\\circ$",
+      "$180^\\circ$"
+    ],
+    "correctAnswer": 3,
+    "explanation": "A common emitter amplifier introduces a $180^\\circ$ phase shift (inversion) between the input and output signals."
   },
   {
     "question": "Arrange in increasing order of frequency: Radio waves, Microwaves, Infrared, Visible light.",
-    "options": ["Visible, IR, Micro, Radio", "Radio, Visible, IR, Micro", "Micro, Radio, IR, Visible", "Radio, Micro, IR, Visible"],
-    "correctAnswer": 3
+    "options": [
+      "Visible, IR, Micro, Radio",
+      "Radio, Visible, IR, Micro",
+      "Micro, Radio, IR, Visible",
+      "Radio, Micro, IR, Visible"
+    ],
+    "correctAnswer": 3,
+    "explanation": "The electromagnetic spectrum in order of increasing frequency (decreasing wavelength) is: Radio waves, Microwaves, Infrared, Visible light, Ultraviolet, X-rays, Gamma rays."
   },
   {
     "question": "The unit of the universal gravitational constant $G$ is:",
-    "options": ["N m/kg", "N m$^2$/kg", "m$^2$/kg s", "N m$^2$/kg$^2$"],
-    "correctAnswer": 3
+    "options": [
+      "N m/kg",
+      "N m$^2$/kg",
+      "m$^2$/kg s",
+      "N m$^2$/kg$^2$"
+    ],
+    "correctAnswer": 3,
+    "explanation": "From $F = G \\frac{m_1 m_2}{r^2}$, we get $G = \\frac{F r^2}{m_1 m_2}$. The units are $\\frac{N \\cdot m^2}{kg \\cdot kg} = N m^2/kg^2$."
   }
 ]
 

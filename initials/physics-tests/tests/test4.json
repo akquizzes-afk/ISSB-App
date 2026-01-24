@@ -1,253 +1,552 @@
 [
   {
     "question": "Which of the following is the unit of power?",
-    "options": ["Joule", "Newton", "Pascal", "Watt"],
-    "correctAnswer": 3
+    "options": [
+      "Joule",
+      "Newton",
+      "Pascal",
+      "Watt"
+    ],
+    "correctAnswer": 3,
+    "explanation": "Power is defined as the rate of doing work or transferring energy. Its SI unit is the Watt (W), which is equivalent to one Joule per second."
   },
   {
     "question": "A body moves from rest with a constant acceleration of $5$ m/s$^2$. The distance covered in $4$ seconds is:",
-    "options": ["20 m", "80 m", "10 m", "40 m"],
-    "correctAnswer": 3
+    "options": [
+      "20 m",
+      "80 m",
+      "10 m",
+      "40 m"
+    ],
+    "correctAnswer": 3,
+    "explanation": "Using the equation of motion $s = ut + \\frac{1}{2}at^2$, where $u=0$ (starts from rest), $a=5$ m/s$^2$, and $t=4$ s: $s = 0 + \\frac{1}{2}(5)(4^2) = \\frac{1}{2} \\times 5 \\times 16 = 40$ m."
   },
   {
     "question": "The moment of inertia of a solid sphere of mass $M$ and radius $R$ about its diameter is:",
-    "options": ["$MR^2$", "$\\frac{2}{3}MR^2$", "$\\frac{1}{2}MR^2$", "$\\frac{2}{5}MR^2$"],
-    "correctAnswer": 3
+    "options": [
+      "$MR^2$",
+      "$\\frac{2}{3}MR^2$",
+      "$\\frac{1}{2}MR^2$",
+      "$\\frac{2}{5}MR^2$"
+    ],
+    "correctAnswer": 3,
+    "explanation": "For a solid sphere, the moment of inertia about an axis passing through its center (diameter) is given by $I = \\frac{2}{5}MR^2$."
   },
   {
     "question": "The escape velocity on Earth is $11.2$ km/s. What would be the escape velocity on a planet with the same radius but four times the mass of Earth?",
-    "options": ["11.2 km/s", "5.6 km/s", "44.8 km/s", "22.4 km/s"],
-    "correctAnswer": 3
+    "options": [
+      "11.2 km/s",
+      "5.6 km/s",
+      "44.8 km/s",
+      "22.4 km/s"
+    ],
+    "correctAnswer": 3,
+    "explanation": "Escape velocity is $v_e = \\sqrt{2GM/R}$. If the mass becomes $4M$ and radius $R$ stays the same, the new escape velocity $v'_e = \\sqrt{2G(4M)/R} = \\sqrt{4} \\times \\sqrt{2GM/R} = 2v_e$. Thus, $v'_e = 2 \\times 11.2 = 22.4$ km/s."
   },
   {
     "question": "If the temperature of a gas is increased from $27^\\circ$C to $927^\\circ$C, the r.m.s. velocity of its molecules becomes:",
-    "options": ["Half", "Double", "Triple", "Four times"],
-    "correctAnswer": 1
+    "options": [
+      "Half",
+      "Double",
+      "Triple",
+      "Four times"
+    ],
+    "correctAnswer": 1,
+    "explanation": "RMS velocity is proportional to $\\sqrt{T}$ (where T is in Kelvin). $T_1 = 27 + 273 = 300$ K. $T_2 = 927 + 273 = 1200$ K. The ratio is $\\sqrt{1200/300} = \\sqrt{4} = 2$. So, the velocity doubles."
   },
   {
     "question": "The time period of a satellite orbiting very close to the earth's surface is approximately:",
-    "options": ["24 hours", "84 minutes", "42 minutes", "1.4 hours"],
-    "correctAnswer": 1
+    "options": [
+      "24 hours",
+      "84 minutes",
+      "42 minutes",
+      "1.4 hours"
+    ],
+    "correctAnswer": 1,
+    "explanation": "For a low Earth orbit, the time period $T = 2\\pi\\sqrt{R/g}$. Substituting Earth's radius and gravity, $T \\approx 84$ minutes."
   },
   {
     "question": "A particle executing SHM has maximum speed $v$ and maximum acceleration $a$. The amplitude of oscillation is:",
-    "options": ["$a/v^2$", "$v^2/a$", "$v/a$", "$a/v$"],
-    "correctAnswer": 1
+    "options": [
+      "$a/v^2$",
+      "$v^2/a$",
+      "$v/a$",
+      "$a/v$"
+    ],
+    "correctAnswer": 1,
+    "explanation": "Maximum speed $v_{max} = A\\omega$. Maximum acceleration $a_{max} = A\\omega^2$. Dividing the square of velocity by acceleration: $v_{max}^2 / a_{max} = (A\\omega)^2 / (A\\omega^2) = A^2\\omega^2 / A\\omega^2 = A$."
   },
   {
     "question": "Which of the following properties of sound is affected by change in temperature?",
-    "options": ["Amplitude", "Wavelength", "Frequency", "Phase"],
-    "correctAnswer": 1
+    "options": [
+      "Amplitude",
+      "Wavelength",
+      "Frequency",
+      "Phase"
+    ],
+    "correctAnswer": 1,
+    "explanation": "The speed of sound depends on temperature ($v \\propto \\sqrt{T}$). Since frequency depends on the source and remains constant, a change in speed causes a change in wavelength ($\\lambda = v/f$)."
   },
   {
     "question": "In a Young's double slit experiment, if the distance between the slits is halved and the distance between the slits and the screen is doubled, the fringe width becomes:",
-    "options": ["Unchanged", "Half", "Four times", "Double"],
-    "correctAnswer": 2
+    "options": [
+      "Unchanged",
+      "Half",
+      "Four times",
+      "Double"
+    ],
+    "correctAnswer": 2,
+    "explanation": "Fringe width $\\beta = \\frac{\\lambda D}{d}$. If $d$ becomes $d/2$ and $D$ becomes $2D$, then $\\beta' = \\frac{\\lambda (2D)}{(d/2)} = 4 \\frac{\\lambda D}{d} = 4\\beta$."
   },
   {
     "question": "An object is placed at the focus of a concave mirror. The image is formed at:",
-    "options": ["The focus", "The center of curvature", "Infinity", "Between F and C"],
-    "correctAnswer": 2
+    "options": [
+      "The focus",
+      "The center of curvature",
+      "Infinity",
+      "Between F and C"
+    ],
+    "correctAnswer": 2,
+    "explanation": "Light rays coming from the focus become parallel to the principal axis after reflection from a concave mirror, forming an image at infinity."
   },
   {
     "question": "The stopping potential in a photoelectric effect experiment depends on:",
-    "options": ["Intensity of incident light", "Distance of source", "Frequency of incident light", "Surface area of metal"],
-    "correctAnswer": 2
+    "options": [
+      "Intensity of incident light",
+      "Distance of source",
+      "Frequency of incident light",
+      "Surface area of metal"
+    ],
+    "correctAnswer": 2,
+    "explanation": "According to Einstein's photoelectric equation, $K_{max} = eV_s = h\\nu - \\Phi$. The stopping potential $V_s$ is linearly dependent on the frequency $\\nu$ of the incident light."
   },
   {
     "question": "A nuclear reactor works on the principle of:",
-    "options": ["Controlled nuclear fusion", "Uncontrolled nuclear fission", "Controlled nuclear fission", "Spontaneous radioactivity"],
-    "correctAnswer": 2
+    "options": [
+      "Controlled nuclear fusion",
+      "Uncontrolled nuclear fission",
+      "Controlled nuclear fission",
+      "Spontaneous radioactivity"
+    ],
+    "correctAnswer": 2,
+    "explanation": "Nuclear reactors generate energy through a controlled chain reaction of nuclear fission, typically using Uranium-235."
   },
   {
     "question": "The dimensional formula for Impulse is same as that of:",
-    "options": ["Linear Momentum", "Force", "Pressure", "Torque"],
-    "correctAnswer": 0
+    "options": [
+      "Linear Momentum",
+      "Force",
+      "Pressure",
+      "Torque"
+    ],
+    "correctAnswer": 0,
+    "explanation": "Impulse is defined as Force $\\times$ Time ($F \\Delta t$), which is equal to the change in momentum ($\\Delta p$). Therefore, impulse and momentum share the same dimensions $[MLT^{-1}]$."
   },
   {
     "question": "A bullet is fired vertically upwards. At the highest point of its path:",
-    "options": ["Its velocity is zero and acceleration is $g$ downwards", "Its velocity is zero and acceleration is zero", "Its velocity is $g$ and acceleration is zero", "Its velocity is $g$ and acceleration is $g$"],
-    "correctAnswer": 0
+    "options": [
+      "Its velocity is zero and acceleration is $g$ downwards",
+      "Its velocity is zero and acceleration is zero",
+      "Its velocity is $g$ and acceleration is zero",
+      "Its velocity is $g$ and acceleration is $g$"
+    ],
+    "correctAnswer": 0,
+    "explanation": "At the maximum height, the bullet momentarily comes to rest, so its velocity is zero. However, gravity continues to act on it, so the acceleration remains $g$ downwards."
   },
   {
     "question": "Water rises to a height $h$ in a capillary tube. If the tube is taken to the moon, the height of the water column will be:",
-    "options": ["$6h$", "$h/6$", "$h$", "Zero"],
-    "correctAnswer": 0
+    "options": [
+      "$6h$",
+      "$h/6$",
+      "$h$",
+      "Zero"
+    ],
+    "correctAnswer": 0,
+    "explanation": "Capillary rise $h = \\frac{2T\\cos\\theta}{r\\rho g}$. Thus, $h$ is inversely proportional to gravity ($h \\propto 1/g$). Gravity on the moon is roughly $1/6$th of Earth's gravity ($g/6$), so the height will increase by a factor of 6 ($6h$)."
   },
   {
     "question": "The work done in rotating a dipole of dipole moment $p$ in an electric field $E$ from stable equilibrium to unstable equilibrium is:",
-    "options": ["$2pE$", "$pE$", "Zero", "$-2pE$"],
-    "correctAnswer": 0
+    "options": [
+      "$2pE$",
+      "$pE$",
+      "Zero",
+      "$-2pE$"
+    ],
+    "correctAnswer": 0,
+    "explanation": "Stable equilibrium is at $\\theta_1 = 0^\\circ$ and unstable equilibrium is at $\\theta_2 = 180^\\circ$. Work done $W = pE(\\cos\\theta_1 - \\cos\\theta_2) = pE(\\cos 0^\\circ - \\cos 180^\\circ) = pE(1 - (-1)) = 2pE$."
   },
   {
     "question": "Which of the following is a scalar quantity?",
-    "options": ["Electric Field", "Magnetic Field", "Acceleration", "Electric Potential"],
-    "correctAnswer": 3
+    "options": [
+      "Electric Field",
+      "Magnetic Field",
+      "Acceleration",
+      "Electric Potential"
+    ],
+    "correctAnswer": 3,
+    "explanation": "Electric potential is defined as work done per unit charge. Since work is a scalar quantity, potential is also a scalar. Fields and acceleration have both magnitude and direction, making them vectors."
   },
   {
     "question": "The resistance of a conductor increases with:",
-    "options": ["Decrease in length", "Increase in area", "Decrease in temperature", "Increase in temperature"],
-    "correctAnswer": 3
+    "options": [
+      "Decrease in length",
+      "Increase in area",
+      "Decrease in temperature",
+      "Increase in temperature"
+    ],
+    "correctAnswer": 3,
+    "explanation": "For metallic conductors, an increase in temperature increases the vibration of lattice ions, which hinders the flow of electrons, thereby increasing resistance ($R_t = R_0(1 + \\alpha \\Delta T)$)."
   },
   {
     "question": "A step-up transformer converts:",
-    "options": ["High voltage low current into low voltage high current", "AC into DC", "DC into AC", "Low voltage high current into high voltage low current"],
-    "correctAnswer": 3
+    "options": [
+      "High voltage low current into low voltage high current",
+      "AC into DC",
+      "DC into AC",
+      "Low voltage high current into high voltage low current"
+    ],
+    "correctAnswer": 3,
+    "explanation": "A step-up transformer increases voltage ($V_s > V_p$). According to the conservation of power ($V_p I_p \\approx V_s I_s$), an increase in voltage results in a decrease in current."
   },
   {
     "question": "The mass of an alpha particle is approximately how many times the mass of a proton?",
-    "options": ["2 times", "1 time", "3 times", "4 times"],
-    "correctAnswer": 3
+    "options": [
+      "2 times",
+      "1 time",
+      "3 times",
+      "4 times"
+    ],
+    "correctAnswer": 3,
+    "explanation": "An alpha particle consists of 2 protons and 2 neutrons. Since protons and neutrons have approximately the same mass, the total mass is roughly 4 times the mass of a single proton."
   },
   {
     "question": "In a p-type semiconductor, the minority charge carriers are:",
-    "options": ["Holes", "Electrons", "Protons", "Ions"],
-    "correctAnswer": 1
+    "options": [
+      "Holes",
+      "Electrons",
+      "Protons",
+      "Ions"
+    ],
+    "correctAnswer": 1,
+    "explanation": "In p-type semiconductors, holes are the majority carriers (created by acceptor impurities), while electrons are the minority carriers (generated thermally)."
   },
   {
     "question": "The ratio of magnetic field at the center of a circular coil to that on its axis at a distance equal to its radius is:",
-    "options": ["$2:1$", "$2\\sqrt{2}:1$", "$\\sqrt{2}:1$","$1:2$"],
-    "correctAnswer": 1
+    "options": [
+      "$2:1$",
+      "$2\\sqrt{2}:1$",
+      "$\\sqrt{2}:1$",
+      "$1:2$"
+    ],
+    "correctAnswer": 1,
+    "explanation": "Field at center $B_c = \\frac{\\mu_0 I}{2R}$. Field at axis distance $x=R$ is $B_a = \\frac{\\mu_0 I R^2}{2(R^2+R^2)^{3/2}} = \\frac{\\mu_0 I}{4\\sqrt{2}R}$. The ratio is $B_c/B_a = \\frac{1/2}{1/4\\sqrt{2}} = 2\\sqrt{2}$."
   },
   {
     "question": "The de-Broglie wavelength of an electron moving with velocity $c/100$ is approximately:",
-    "options": ["2.4 Å", "0.24 Å", "24 Å", "240 Å"],
-    "correctAnswer": 1
+    "options": [
+      "2.4 Å",
+      "0.24 Å",
+      "24 Å",
+      "240 Å"
+    ],
+    "correctAnswer": 1,
+    "explanation": "Using $\\lambda = h/mv$. $v = 3 \\times 10^6$ m/s. Mass of electron $m = 9.1 \\times 10^{-31}$ kg. $h = 6.63 \\times 10^{-34}$. $\\lambda = \\frac{6.63 \\times 10^{-34}}{9.1 \\times 10^{-31} \\times 3 \\times 10^6} \\approx 0.24$ Å."
   },
   {
     "question": "If the Earth's radius shrinks by 1% while its mass remains same, the value of $g$ on its surface will:",
-    "options": ["Decrease by 2%", "Increase by 2%", "Increase by 1%", "Remain same"],
-    "correctAnswer": 1
+    "options": [
+      "Decrease by 2%",
+      "Increase by 2%",
+      "Increase by 1%",
+      "Remain same"
+    ],
+    "correctAnswer": 1,
+    "explanation": "Gravity $g = GM/R^2$. Taking logarithms and differentiating: $\\frac{\\Delta g}{g} = -2 \\frac{\\Delta R}{R}$. If $\\frac{\\Delta R}{R} = -1\\%$, then $\\frac{\\Delta g}{g} = -2(-1\\%) = +2\\%$. So $g$ increases by 2%."
   },
   {
     "question": "Which of the following electromagnetic waves is used for satellite communication?",
-    "options": ["Infrared", "Microwaves", "Ultraviolet", "Visible light"],
-    "correctAnswer": 1
+    "options": [
+      "Infrared",
+      "Microwaves",
+      "Ultraviolet",
+      "Visible light"
+    ],
+    "correctAnswer": 1,
+    "explanation": "Microwaves can penetrate the Earth's ionosphere, making them suitable for communication between ground stations and satellites in space."
   },
   {
     "question": "The work function of a metal is $2.5$ eV. The threshold frequency is:",
-    "options": ["$6 \\times 10^{14}$ Hz", "$6 \\times 10^{13}$ Hz", "$2.5 \\times 10^{15}$ Hz", "$4 \\times 10^{14}$ Hz"],
-    "correctAnswer": 0
+    "options": [
+      "$6 \\times 10^{14}$ Hz",
+      "$6 \\times 10^{13}$ Hz",
+      "$2.5 \\times 10^{15}$ Hz",
+      "$4 \\times 10^{14}$ Hz"
+    ],
+    "correctAnswer": 0,
+    "explanation": "Threshold frequency $\\nu_0 = \\Phi / h$. $\\Phi = 2.5 \\text{ eV} = 2.5 \\times 1.6 \\times 10^{-19}$ J. $\\nu_0 = \\frac{4 \\times 10^{-19}}{6.63 \\times 10^{-34}} \\approx 6 \\times 10^{14}$ Hz."
   },
   {
     "question": "The focal length of a plane mirror is:",
-    "options": ["Infinite", "Zero", "25 cm", "-25 cm"],
-    "correctAnswer": 0
+    "options": [
+      "Infinite",
+      "Zero",
+      "25 cm",
+      "-25 cm"
+    ],
+    "correctAnswer": 0,
+    "explanation": "A plane mirror can be considered a spherical mirror with an infinitely large radius of curvature. Since $f = R/2$, the focal length is infinite."
   },
   {
     "question": "The velocity of light is maximum in:",
-    "options": ["Vacuum", "Glass", "Water", "Diamond"],
-    "correctAnswer": 0
+    "options": [
+      "Vacuum",
+      "Glass",
+      "Water",
+      "Diamond"
+    ],
+    "correctAnswer": 0,
+    "explanation": "Light travels fastest in a vacuum ($c \\approx 3 \\times 10^8$ m/s). In any other medium, the speed is reduced by the refractive index ($v = c/n$), and since $n > 1$ for all material media, speed is lower than in vacuum."
   },
   {
     "question": "Lenz's law provides a method to find the:",
-    "options": ["Direction of induced current", "Magnitude of induced EMF", "Direction of magnetic field", "Value of resistance"],
-    "correctAnswer": 0
+    "options": [
+      "Direction of induced current",
+      "Magnitude of induced EMF",
+      "Direction of magnetic field",
+      "Value of resistance"
+    ],
+    "correctAnswer": 0,
+    "explanation": "Lenz's law states that the direction of the induced current is such that it opposes the change in magnetic flux that produced it. It is used to determine the direction."
   },
   {
     "question": "Which of the following is used as a moderator in a nuclear reactor?",
-    "options": ["Heavy water", "Uranium", "Cadmium", "Boron"],
-    "correctAnswer": 0
+    "options": [
+      "Heavy water",
+      "Uranium",
+      "Cadmium",
+      "Boron"
+    ],
+    "correctAnswer": 0,
+    "explanation": "A moderator slows down fast neutrons to thermal energies to sustain the fission reaction. Heavy water ($D_2O$) and graphite are common moderators."
   },
   {
     "question": "The frequency of a wave is 50 Hz. Its time period is:",
-    "options": ["0.02 s", "0.2 s", "2 s", "50 s"],
-    "correctAnswer": 0
+    "options": [
+      "0.02 s",
+      "0.2 s",
+      "2 s",
+      "50 s"
+    ],
+    "correctAnswer": 0,
+    "explanation": "Time period $T$ is the reciprocal of frequency $f$. $T = 1/f = 1/50 = 0.02$ s."
   },
   {
     "question": "The energy of a photon of wavelength $4000$ Å is approximately:",
-    "options": ["3.1 eV", "2.1 eV", "1.1 eV", "4.1 eV"],
-    "correctAnswer": 0
+    "options": [
+      "3.1 eV",
+      "2.1 eV",
+      "1.1 eV",
+      "4.1 eV"
+    ],
+    "correctAnswer": 0,
+    "explanation": "Energy $E = 12400 / \\lambda$ (in Angstroms) eV. $E = 12400 / 4000 = 3.1$ eV."
   },
   {
     "question": "A force of 10 N acts on a body of mass 2 kg. The acceleration produced is:",
-    "options": ["20 m/s$^2$", "5 m/s$^2$", "0.2 m/s$^2$", "2 m/s$^2$"],
-    "correctAnswer": 1
+    "options": [
+      "20 m/s$^2$",
+      "5 m/s$^2$",
+      "0.2 m/s$^2$",
+      "2 m/s$^2$"
+    ],
+    "correctAnswer": 1,
+    "explanation": "According to Newton's second law, $F = ma$. Therefore, $a = F/m = 10/2 = 5$ m/s$^2$."
   },
   {
     "question": "The boiling point of water on the Kelvin scale is:",
-    "options": ["273 K", "373 K", "100 K", "0 K"],
-    "correctAnswer": 1
+    "options": [
+      "273 K",
+      "373 K",
+      "100 K",
+      "0 K"
+    ],
+    "correctAnswer": 1,
+    "explanation": "The boiling point of water is $100^\\circ$C. In Kelvin, $K = ^\\circ C + 273 = 100 + 273 = 373$ K."
   },
   {
     "question": "The speed of sound in vacuum is:",
-    "options": ["332 m/s", "0 m/s", "$3 \\times 10^8$ m/s", "1400 m/s"],
-    "correctAnswer": 1
+    "options": [
+      "332 m/s",
+      "0 m/s",
+      "$3 \\times 10^8$ m/s",
+      "1400 m/s"
+    ],
+    "correctAnswer": 1,
+    "explanation": "Sound is a mechanical wave that requires a material medium for propagation. It cannot travel through a vacuum, so its speed is 0 m/s."
   },
   {
     "question": "The power of a concave lens of focal length 20 cm is:",
-    "options": ["+5 D", "-5 D", "+0.05 D", "-0.05 D"],
-    "correctAnswer": 1
+    "options": [
+      "+5 D",
+      "-5 D",
+      "+0.05 D",
+      "-0.05 D"
+    ],
+    "correctAnswer": 1,
+    "explanation": "Focal length of a concave lens is negative ($f = -20$ cm = $-0.2$ m). Power $P = 1/f = 1/(-0.2) = -5$ Diopters."
   },
   {
     "question": "The charge on an electron is:",
-    "options": ["$1.6 \\times 10^{-19}$ C", "$-1.6 \\times 10^{-19}$ C", "$9.1 \\times 10^{-31}$ C", "$-1.6 \\times 10^{19}$ C"],
-    "correctAnswer": 1
+    "options": [
+      "$1.6 \\times 10^{-19}$ C",
+      "$-1.6 \\times 10^{-19}$ C",
+      "$9.1 \\times 10^{-31}$ C",
+      "$-1.6 \\times 10^{19}$ C"
+    ],
+    "correctAnswer": 1,
+    "explanation": "The elementary charge is approximately $1.6 \\times 10^{-19}$ C. Since electrons are negatively charged, the charge is $-1.6 \\times 10^{-19}$ C."
   },
   {
     "question": "A logic gate which gives output '0' only when both inputs are '1' is:",
-    "options": ["AND", "NAND", "OR", "NOR"],
-    "correctAnswer": 1
+    "options": [
+      "AND",
+      "NAND",
+      "OR",
+      "NOR"
+    ],
+    "correctAnswer": 1,
+    "explanation": "A NAND gate is the inverse of an AND gate. An AND gate outputs '1' only when both inputs are '1'. Therefore, a NAND gate outputs '0' only when both inputs are '1'."
   },
   {
     "question": "In an adiabatic process, the work done is at the expense of:",
-    "options": ["External heat", "Internal energy", "Atmospheric pressure", "Potential energy"],
-    "correctAnswer": 1
+    "options": [
+      "External heat",
+      "Internal energy",
+      "Atmospheric pressure",
+      "Potential energy"
+    ],
+    "correctAnswer": 1,
+    "explanation": "In an adiabatic process, there is no heat exchange ($Q=0$). From the First Law of Thermodynamics ($Q = \\Delta U + W$), $0 = \\Delta U + W$, or $W = -\\Delta U$. Work is done by decreasing the internal energy."
   },
   {
     "question": "The phenomenon of splitting of white light into its constituent colors is called:",
-    "options": ["Refraction", "Dispersion", "Diffraction", "Interference"],
-    "correctAnswer": 1
+    "options": [
+      "Refraction",
+      "Dispersion",
+      "Diffraction",
+      "Interference"
+    ],
+    "correctAnswer": 1,
+    "explanation": "Dispersion is the separation of white light into its spectrum colors because the refractive index (and speed) depends on the wavelength of light."
   },
   {
     "question": "The unit of magnetic flux is:",
-    "options": ["Tesla", "Henry", "Weber", "Farad"],
-    "correctAnswer": 2
+    "options": [
+      "Tesla",
+      "Henry",
+      "Weber",
+      "Farad"
+    ],
+    "correctAnswer": 2,
+    "explanation": "The SI unit of magnetic flux is the Weber (Wb). Tesla is the unit of magnetic field intensity (flux density)."
   },
   {
     "question": "What is the angle of dip at the magnetic equator?",
-    "options": ["$90^\\circ$", "$45^\\circ$", "$0^\\circ$", "$180^\\circ$"],
-    "correctAnswer": 2
+    "options": [
+      "$90^\\circ$",
+      "$45^\\circ$",
+      "$0^\\circ$",
+      "$180^\\circ$"
+    ],
+    "correctAnswer": 2,
+    "explanation": "At the magnetic equator, the Earth's magnetic field lines run parallel to the surface. Therefore, the angle of dip (inclination) is $0^\\circ$."
   },
   {
     "question": "For a telescope, to have high resolving power, the objective should have:",
-    "options": ["Small focal length", "Small aperture", "Large aperture", "Large focal length"],
-    "correctAnswer": 2
+    "options": [
+      "Small focal length",
+      "Small aperture",
+      "Large aperture",
+      "Large focal length"
+    ],
+    "correctAnswer": 2,
+    "explanation": "Resolving power of a telescope is $D / 1.22\\lambda$. To maximize this, the diameter of the aperture $D$ (objective lens) needs to be large."
   },
   {
     "question": "The binding energy of a nucleus is equivalent to its:",
-    "options": ["Total mass", "Atomic number", "Mass defect", "Kinetic energy"],
-    "correctAnswer": 2
+    "options": [
+      "Total mass",
+      "Atomic number",
+      "Mass defect",
+      "Kinetic energy"
+    ],
+    "correctAnswer": 2,
+    "explanation": "Binding energy arises from the mass defect ($\\\\Delta m$), which is the difference between the mass of the constituent nucleons and the actual mass of the nucleus, converted to energy via $E = \\Delta mc^2$."
   },
   {
     "question": "The logic gate that performs the addition operation is:",
-    "options": ["AND gate", "NOT gate", "OR gate", "NAND gate"],
-    "correctAnswer": 2
+    "options": [
+      "AND gate",
+      "NOT gate",
+      "OR gate",
+      "NAND gate"
+    ],
+    "correctAnswer": 2,
+    "explanation": "The OR gate corresponds to the boolean addition operation. If A or B is true (1), the output is true (1)."
   },
   {
     "question": "The conductivity of a superconductor is:",
-    "options": ["Zero", "Very small", "Infinite", "Variable"],
-    "correctAnswer": 2
+    "options": [
+      "Zero",
+      "Very small",
+      "Infinite",
+      "Variable"
+    ],
+    "correctAnswer": 2,
+    "explanation": "Superconductors are materials that exhibit zero electrical resistance below a critical temperature. Since conductivity is the reciprocal of resistivity ($\\sigma = 1/\\rho$), zero resistance implies infinite conductivity."
   },
   {
     "question": "The ratio of specific heat at constant pressure ($C_p$) to specific heat at constant volume ($C_v$) for a monoatomic gas is:",
-    "options": ["1.40", "1.33", "1.67", "1.50"],
-    "correctAnswer": 2
+    "options": [
+      "1.40",
+      "1.33",
+      "1.67",
+      "1.50"
+    ],
+    "correctAnswer": 2,
+    "explanation": "For a monoatomic gas, $\\gamma = C_p/C_v = 5/3 \\approx 1.67$."
   },
   {
     "question": "A charge $q$ is moving with velocity $v$ in a magnetic field $B$. The force experienced is zero if the angle between $v$ and $B$ is:",
-    "options": ["$90^\\circ$", "$45^\\circ$", "$0^\\circ$", "$60^\\circ$"],
-    "correctAnswer": 2
+    "options": [
+      "$90^\\circ$",
+      "$45^\\circ$",
+      "$0^\\circ$",
+      "$60^\\circ$"
+    ],
+    "correctAnswer": 2,
+    "explanation": "The magnetic force is $F = qvB\\sin\\theta$. If the angle $\\theta = 0^\\circ$ (velocity is parallel to the field), $\\sin\\theta = 0$, so the force is zero."
   },
   {
     "question": "The energy stored in an inductor of self-inductance $L$ carrying current $I$ is:",
-    "options": ["$LI$", "$LI^2$", "Zero", "$\\frac{1}{2}LI^2$"],
-    "correctAnswer": 3
+    "options": [
+      "$LI$",
+      "$LI^2$",
+      "Zero",
+      "$\\frac{1}{2}LI^2$"
+    ],
+    "correctAnswer": 3,
+    "explanation": "The energy stored in the magnetic field of an inductor is given by the formula $U = \\frac{1}{2}LI^2$."
   },
   {
     "question": "What is the relationship between wavelength $\\lambda$ and frequency $f$ for a wave moving with velocity $v$?",
-    "options": ["$f = \\lambda v$", "$v = f / \\lambda$", "$\\lambda = f v$", "$v = f \\lambda$"],
-    "correctAnswer": 3
+    "options": [
+      "$f = \\lambda v$",
+      "$v = f / \\lambda$",
+      "$\\lambda = f v$",
+      "$v = f \\lambda$"
+    ],
+    "correctAnswer": 3,
+    "explanation": "The wave speed equation relates velocity, frequency, and wavelength: Velocity equals frequency times wavelength ($v = f\\lambda$)."
   }
 ]
-
