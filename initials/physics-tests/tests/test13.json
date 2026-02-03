@@ -1,0 +1,553 @@
+[
+  {
+    "question": "A straight wire of length $0.5$ m carries a current of $2$ A in a uniform magnetic field of $0.1$ T. If the wire is perpendicular to the field, the force acting on it is:",
+    "options": [
+      "$0.01$ N",
+      "$0.1$ N",
+      "$0.5$ N",
+      "$0.2$ N"
+    ],
+    "correctAnswer": 1,
+    "explanation": "Force $F = I L B \\sin(\\theta)$. Here $\\theta = 90^\\circ$. $F = 2 \\times 0.5 \\times 0.1 \\times 1 = 0.1$ N."
+  },
+  {
+    "question": "An electron enters a magnetic field of $10^{-2}$ T with a velocity of $10^7$ m/s perpendicular to the field. The radius of the circular path described by the electron is (mass of electron = $9.1 \\times 10^{-31}$ kg):",
+    "options": [
+      "$0.56$ cm",
+      "$5.6$ mm",
+      "$5.6$ cm",
+      "$0.56$ m"
+    ],
+    "correctAnswer": 1,
+    "explanation": "$r = mv / (qB) = (9.1 \\times 10^{-31} \\times 10^7) / (1.6 \\times 10^{-19} \\times 10^{-2}) \\approx 0.0056$ m $= 5.6$ mm."
+  },
+  {
+    "question": "Which of the following particles will experience the maximum magnetic force when projected with the same velocity perpendicular to a magnetic field?",
+    "options": [
+      "Electron",
+      "Proton",
+      "Alpha particle",
+      "Neutron"
+    ],
+    "correctAnswer": 2,
+    "explanation": "Magnetic force $F = qvB$. The alpha particle has charge $+2e$, while the proton has $+e$ and the electron has $-e$. The neutron has $0$ charge. Thus, the alpha particle experiences the greatest force."
+  },
+  {
+    "question": "A solenoid of length $0.1$ m has $500$ turns. If a current of $2$ A flows through it, the magnetic field at its center is roughly ($\\mu_0 = 4\\pi \\times 10^{-7}$ T m/A):",
+    "options": [
+      "$6.28 \\times 10^{-3}$ T",
+      "$1.26 \\times 10^{-2}$ T",
+      "$3.14 \\times 10^{-3}$ T",
+      "$1.26 \\times 10^{-3}$ T"
+    ],
+    "correctAnswer": 1,
+    "explanation": "$B = \\mu_0 n I = \\mu_0 (N/L) I = (4\\pi \\times 10^{-7}) \\times (500/0.1) \\times 2 = 4\\pi \\times 10^{-7} \\times 5000 \\times 2 \\approx 1.26 \\times 10^{-2}$ T."
+  },
+  {
+    "question": "A charged particle moves through a magnetic field. The effect of the field is to change the particle's:",
+    "options": [
+      "Speed",
+      "Kinetic energy",
+      "Velocity",
+      "Mass"
+    ],
+    "correctAnswer": 2,
+    "explanation": "The magnetic force acts perpendicular to the velocity, so it changes the direction of motion (velocity) but does no work, leaving speed and kinetic energy constant."
+  },
+  {
+    "question": "The torque on a current carrying coil of $50$ turns, area $0.05 \\text{ m}^2$, carrying current $2$ A in a magnetic field of $0.2$ T when the plane of the coil makes an angle of $0^\\circ$ with the field is:",
+    "options": [
+      "0 Nm",
+      "2 Nm",
+      "5 Nm",
+      "1 Nm"
+    ],
+    "correctAnswer": 3,
+    "explanation": "Torque $\\tau = NIAB \\cos(\\alpha)$. Here, $\\alpha$ is the angle between the plane and the field. $\\alpha = 0^\\circ$, so $\\cos(0)=1$. $\\tau = 50 \\times 2 \\times 0.05 \\times 0.2 \\times 1 = 1$ Nm."
+  },
+  {
+    "question": "Two parallel wires carrying currents in the same direction will:",
+    "options": [
+      "Attract each other",
+      "Repel each other",
+      "Neither attract nor repel",
+      "Rotate"
+    ],
+    "correctAnswer": 0,
+    "explanation": "According to Ampere's Law, parallel conductors carrying currents in the same direction attract each other due to the interaction of their magnetic fields."
+  },
+  {
+    "question": "What is the force per unit length between two long parallel wires carrying currents of $10$ A and $5$ A separated by $0.1$ m?",
+    "options": [
+      "$10^{-3}$ N/m",
+      "$10^{-4}$ N/m",
+      "$2 \\times 10^{-4}$ N/m",
+      "$10^{-5}$ N/m"
+    ],
+    "correctAnswer": 1,
+    "explanation": "$F/L = \\mu_0 I_1 I_2 / (2\\pi r) = (4\\pi \\times 10^{-7} \\times 10 \\times 5) / (2\\pi \\times 0.1) = (2 \\times 10^{-7} \\times 50) / 0.1 = 100 \\times 10^{-7} / 0.1 = 10^{-4}$ N/m."
+  },
+  {
+    "question": "A galvanometer has a resistance of $50 \\Omega$ and gives full-scale deflection for $10$ mA. To convert it into an ammeter of range $10$ A, the required shunt resistance is approximately:",
+    "options": [
+      "$5 \\Omega$",
+      "$0.5 \\Omega$",
+      "$0.05 \\Omega$",
+      "$50 \\Omega$"
+    ],
+    "correctAnswer": 2,
+    "explanation": "Shunt $S = I_g R_g / (I - I_g) = (0.01 \\times 50) / (10 - 0.01) \\approx 0.5 / 10 = 0.05 \\Omega$."
+  },
+  {
+    "question": "To convert a galvanometer into a voltmeter, one must connect a:",
+    "options": [
+      "Low resistance in parallel",
+      "High resistance in parallel",
+      "Low resistance in series",
+      "High resistance in series"
+    ],
+    "correctAnswer": 3,
+    "explanation": "To measure potential difference without drawing significant current, a high resistance must be connected in series with the galvanometer coil."
+  },
+  {
+    "question": "A $2$ m wire carries a current of $5$ A directed along the positive x-axis. A magnetic field $B = (2\\hat{i} + 3\\hat{k})$ T acts on it. The magnitude of the force on the wire is:",
+    "options": [
+      "$30$ N",
+      "$20$ N",
+      "$10$ N",
+      "$50$ N"
+    ],
+    "correctAnswer": 0,
+    "explanation": "Force $\\vec{F} = I \\vec{L} \\times \\vec{B} = 5(2\\hat{i}) \\times (2\\hat{i} + 3\\hat{k}) = 10(\\hat{i} \\times 2\\hat{i}) + 15(\\hat{i} \\times \\hat{k})$. Since $\\hat{i} \\times \\hat{i} = 0$ and $\\hat{i} \\times \\hat{k} = -\\hat{j}$, magnitude is $|-30\\hat{j}| = 30$ N."
+  },
+  {
+    "question": "The sensitivity of a moving coil galvanometer can be increased by:",
+    "options": [
+      "Increasing the number of turns",
+      "Decreasing the area of the coil",
+      "Using a weaker magnet",
+      "Increasing the restoring torque"
+    ],
+    "correctAnswer": 0,
+    "explanation": "Sensitivity is proportional to $(BAN)/C$. Increasing the number of turns ($N$), Area ($A$), or Field ($B$) increases sensitivity. Increasing restoring torque ($C$) decreases it."
+  },
+  {
+    "question": "An electron moving with velocity $\\vec{v}$ enters a region where both electric field $\\vec{E}$ and magnetic field $\\vec{B}$ exist. If the net force on the electron is zero, then:",
+    "options": [
+      "$\\vec{v} = \\vec{B} \\times \\vec{E}$",
+      "$\\vec{v} = \\vec{E} \\times \\vec{B} / B^2$",
+      "$\\vec{v} = \\vec{E} \\cdot \\vec{B}$",
+      "$\\vec{v}$ must be parallel to $\\vec{B}$"
+    ],
+    "correctAnswer": 1,
+    "explanation": "For zero net force (Lorentz force), $qE + q(\\vec{v} \\times \\vec{B}) = 0$, so $\\vec{E} = -(\\vec{v} \\times \\vec{B}) = \\vec{B} \\times \\vec{v}$. For velocity selector condition, magnitude $v = E/B$ and direction perpendicular, leading to $\\vec{v} = (\\vec{E} \\times \\vec{B}) / B^2$."
+  },
+  {
+    "question": "The magnetic flux density at a point distance $r$ from a long straight wire carrying current $I$ is proportional to:",
+    "options": [
+      "$r$",
+      "$r^2$",
+      "$1/r$",
+      "$1/r^2$"
+    ],
+    "correctAnswer": 2,
+    "explanation": "According to Ampere's Law, $B = \\mu_0 I / (2\\pi r)$, so $B$ is inversely proportional to $r$ ($B \\propto 1/r$)."
+  },
+  {
+    "question": "A charged particle is moving in a uniform magnetic field in a circular path. If the speed of the particle is doubled, the radius of the circle will:",
+    "options": [
+      "Remain same",
+      "Be halved",
+      "Be doubled",
+      "Become four times"
+    ],
+    "correctAnswer": 2,
+    "explanation": "Radius $r = mv/qB$. If $v$ doubles (becomes $2v$), $r$ also doubles (becomes $2r$), as $r$ is directly proportional to $v$."
+  },
+  {
+    "question": "Tesla is the unit of:",
+    "options": [
+      "Magnetic Flux",
+      "Magnetic Induction (Flux Density)",
+      "Magnetic Intensity",
+      "Permeability"
+    ],
+    "correctAnswer": 1,
+    "explanation": "Tesla (T) is the SI unit of Magnetic Induction or Magnetic Flux Density ($B$). It is defined as $1 \\text{ N}/(\\text{A} \\cdot \\text{m})$."
+  },
+  {
+    "question": "The value of permeability of free space $\\mu_0$ is:",
+    "options": [
+      "$4\\pi \\times 10^{-7}$ Wb/Am",
+      "$9 \\times 10^9$ Nm$^2$/C$^2$",
+      "$8.85 \\times 10^{-12}$ F/m",
+      "$1.6 \\times 10^{-19}$ C"
+    ],
+    "correctAnswer": 0,
+    "explanation": "$\\mu_0$ is the magnetic constant, approximately $1.257 \\times 10^{-6}$ T m/A or $4\\pi \\times 10^{-7}$ Wb/Am."
+  },
+  {
+    "question": "Which of the following is correct for the Lorentz force?",
+    "options": [
+      "$\\vec{F} = q(\\vec{v} \\times \\vec{B})$",
+      "$\\vec{F} = q\\vec{E} + q(\\vec{v} \\times \\vec{B})$",
+      "$\\vec{F} = q\\vec{E} + q(\\vec{B} \\times \\vec{v})$",
+      "$\\vec{F} = q\\vec{E} \\cdot (\\vec{v} \\times \\vec{B})$"
+    ],
+    "correctAnswer": 1,
+    "explanation": "Lorentz force is the sum of electric and magnetic forces: $\\vec{F} = \\vec{F}_e + \\vec{F}_m = q\\vec{E} + q(\\vec{v} \\times \\vec{B})$."
+  },
+  {
+    "question": "A rectangular coil of area $A$ and number of turns $N$ is placed in a magnetic field $B$. If current $I$ flows through it, the maximum torque is:",
+    "options": [
+      "$NIAB \\sin \\theta$",
+      "$NIAB \\cos \\theta$",
+      "$NIAB$",
+      "Zero"
+    ],
+    "correctAnswer": 2,
+    "explanation": "Torque $\\tau = NIAB \\cos \\alpha$. Maximum torque occurs when the plane is parallel to the field ($\\alpha = 0^\\circ$, $\\cos 0 = 1$), so $\\tau_{max} = NIAB$."
+  },
+  {
+    "question": "If an electron moves in a straight line through a region of space, we can conclude that:",
+    "options": [
+      "Electric field is zero",
+      "Magnetic field is zero",
+      "Both fields are zero",
+      "Net force is zero"
+    ],
+    "correctAnswer": 3,
+    "explanation": "An electron moves in a straight line if there is no net deflecting force. This could mean no fields exist, or balanced electric and magnetic forces (velocity selector)."
+  },
+  {
+    "question": "The restoring torque in a moving coil galvanometer is provided by:",
+    "options": [
+      "The magnetic field",
+      "Gravity",
+      "The suspension spring/strip",
+      "The coil current"
+    ],
+    "correctAnswer": 2,
+    "explanation": "The suspension wire or hairspring provides a mechanical restoring torque $\\tau = C \\theta$ that opposes the magnetic deflecting torque."
+  },
+  {
+    "question": "A proton moves with a speed of $3 \\times 10^6$ m/s at an angle of $30^\\circ$ with a magnetic field of $0.4$ T. The force on the proton is:",
+    "options": [
+      "$9.6 \\times 10^{-14}$ N",
+      "$1.92 \\times 10^{-13}$ N",
+      "$1.6 \\times 10^{-19}$ N",
+      "$3.84 \\times 10^{-14}$ N"
+    ],
+    "correctAnswer": 0,
+    "explanation": "$F = qvB \\sin \\theta = (1.6 \\times 10^{-19})(3 \\times 10^6)(0.4) \\sin 30^\\circ = (1.92 \\times 10^{-13})(0.5) = 9.6 \\times 10^{-14}$ N."
+  },
+  {
+    "question": "Ampere's Circuital Law is mathematically expressed as:",
+    "options": [
+      "$\\oint \\vec{B} \\cdot d\\vec{l} = \\mu_0 I$",
+      "$\\oint \\vec{E} \\cdot d\\vec{A} = Q/\\epsilon_0$",
+      "$\\oint \\vec{B} \\cdot d\\vec{A} = 0$",
+      "$\\vec{F} = q(\\vec{v} \\times \\vec{B})$"
+    ],
+    "correctAnswer": 0,
+    "explanation": "Ampere's Law states that the line integral of magnetic field $B$ around a closed path is equal to $\\mu_0$ times the current enclosed."
+  },
+  {
+    "question": "To increase the range of a voltmeter, we need to connect:",
+    "options": [
+      "A lower resistance in series",
+      "A higher resistance in series",
+      "A lower resistance in parallel",
+      "A higher resistance in parallel"
+    ],
+    "correctAnswer": 1,
+    "explanation": "$V = I_g (R_g + R_x)$. To measure a larger voltage $V$, the series resistance $R_x$ must be increased."
+  },
+  {
+    "question": "A particle with charge $q$ and mass $m$ is accelerated through a potential difference $V$ and enters a magnetic field $B$ perpendicularly. Its radius of curvature $r$ is:",
+    "options": [
+      "$\\frac{1}{B} \\sqrt{\\frac{2mV}{q}}$",
+      "$\\frac{B}{q} \\sqrt{2mV}$",
+      "$\\frac{1}{B} \\sqrt{\\frac{mV}{q}}$",
+      "$\\frac{qB}{m} V$"
+    ],
+    "correctAnswer": 0,
+    "explanation": "$v = \\sqrt{2qV/m}$. Radius $r = mv/qB$. Substituting $v$: $r = \\frac{m}{qB} \\sqrt{\\frac{2qV}{m}} = \\frac{1}{B} \\sqrt{\\frac{m^2 \\cdot 2qV}{q^2 m}} = \\frac{1}{B} \\sqrt{\\frac{2mV}{q}}$."
+  },
+  {
+    "question": "Magnetic field lines inside a current carrying long solenoid are:",
+    "options": [
+      "Circular",
+      "Parabolic",
+      "Parallel to axis",
+      "Radial"
+    ],
+    "correctAnswer": 2,
+    "explanation": "Inside a long ideal solenoid, the magnetic field is uniform and directed parallel to the axis of the solenoid."
+  },
+  {
+    "question": "A $10$ eV electron is moving in a circular orbit of radius $10$ cm in a magnetic field. If the kinetic energy is doubled, the radius becomes:",
+    "options": [
+      "$20$ cm",
+      "$14.1$ cm",
+      "$10$ cm",
+      "$5$ cm"
+    ],
+    "correctAnswer": 1,
+    "explanation": "$r \\propto v \\propto \\sqrt{KE}$. If KE doubles, $v$ becomes $\\sqrt{2}v$. Thus $r$ becomes $\\sqrt{2}r = 1.414 \\times 10 = 14.1$ cm."
+  },
+  {
+    "question": "Two alpha particles have the ratio of their velocities as 3:2 on entering a magnetic field. If they move in different circular paths, the ratio of the radii of their paths is:",
+    "options": [
+      "2:3",
+      "3:2",
+      "9:4",
+      "4:9"
+    ],
+    "correctAnswer": 1,
+    "explanation": "Since charge and mass are same (both alpha particles) and B is same, $r \\propto v$. Ratio $r_1/r_2 = v_1/v_2 = 3:2$."
+  },
+  {
+    "question": "One Weber is equal to:",
+    "options": [
+      "$10^4$ Maxwell",
+      "$10^{-4}$ T m$^2$",
+      "$1$ T m$^2$",
+      "$10^8$ Gauss"
+    ],
+    "correctAnswer": 2,
+    "explanation": "Magnetic Flux $\\Phi = B \\cdot A$. The unit is Weber (Wb). $1 \\text{ Wb} = 1 \\text{ Tesla} \\times 1 \\text{ meter}^2$."
+  },
+  {
+    "question": "A wire of length $L$ carries current $I$ and is bent into a circle. The magnitude of the magnetic moment is:",
+    "options": [
+      "$IL^2 / 4\\pi$",
+      "$IL^2 / \\pi$",
+      "$IL / 4\\pi$",
+      "$IL^2 / 2\\pi$"
+    ],
+    "correctAnswer": 0,
+    "explanation": "Circumference $2\\pi r = L \\implies r = L/2\\pi$. Area $A = \\pi r^2 = \\pi (L^2 / 4\\pi^2) = L^2 / 4\\pi$. Magnetic moment $M = IA = IL^2 / 4\\pi$."
+  },
+  {
+    "question": "The force between two parallel wires is attractive if currents are in the same direction and repulsive if opposite. This is a consequence of:",
+    "options": [
+      "Lenz's Law",
+      "Newton's Law of Gravitation",
+      "Lorentz Force Law",
+      "Kirchhoff's Law"
+    ],
+    "correctAnswer": 2,
+    "explanation": "The magnetic field from one wire exerts a Lorentz force ($F = I \\vec{L} \\times \\vec{B}$) on the moving charges in the second wire."
+  },
+  {
+    "question": "If a charged particle is moving parallel to a magnetic field, the magnetic force acting on it is:",
+    "options": [
+      "Maximum",
+      "Zero",
+      "$qvB$",
+      "$qvB/2$"
+    ],
+    "correctAnswer": 1,
+    "explanation": "$F = qvB \\sin \\theta$. If moving parallel, $\\theta = 0^\\circ$, so $\\sin 0 = 0$. The force is zero."
+  },
+  {
+    "question": "A current carrying loop is placed in a uniform magnetic field. The net magnetic force on the loop is:",
+    "options": [
+      "Always zero",
+      "Depends on orientation",
+      "Non-zero",
+      "Infinite"
+    ],
+    "correctAnswer": 0,
+    "explanation": "In a uniform magnetic field, the vector sum of forces on a closed current loop is always zero, although there may be a net torque."
+  },
+  {
+    "question": "A galvanometer can be used as a voltmeter by connecting:",
+    "options": [
+      "High resistance in series",
+      "Low resistance in series",
+      "High resistance in parallel",
+      "Low resistance in parallel"
+    ],
+    "correctAnswer": 0,
+    "explanation": "To limit current and drop potential primarily across the external resistor, a high resistance (multiplier) is added in series."
+  },
+  {
+    "question": "The dimension of magnetic field $B$ is:",
+    "options": [
+      "$[M L^0 T^{-2} A^{-1}]$",
+      "$[M L T^{-2} A^{-1}]$",
+      "$[M L^0 T^{-2} A^{-2}]$",
+      "$[M L^2 T^{-2} A^{-1}]$"
+    ],
+    "correctAnswer": 0,
+    "explanation": "From $F = IlB$, $B = F / (Il)$. Dimensions: $[MLT^{-2}] / ([A][L]) = [M L^0 T^{-2} A^{-1}]$."
+  },
+  {
+    "question": "A proton and an electron enter the same magnetic field with the same kinetic energy. Which one has the larger radius of path?",
+    "options": [
+      "Electron",
+      "Proton",
+      "Both have equal radii",
+      "Depends on field direction"
+    ],
+    "correctAnswer": 1,
+    "explanation": "$r = \\sqrt{2mK} / qB$. Since $K$ and $q$ (magnitude) are same, $r \\propto \\sqrt{m}$. Proton mass is much larger than electron, so proton has larger radius."
+  },
+  {
+    "question": "What is the magnetic field at a distance of $0.5$ m from a long straight wire carrying a current of $10$ A?",
+    "options": [
+      "$4 \\times 10^{-6}$ T",
+      "$2 \\times 10^{-6}$ T",
+      "$8 \\times 10^{-6}$ T",
+      "$10^{-5}$ T"
+    ],
+    "correctAnswer": 0,
+    "explanation": "$B = \\mu_0 I / (2\\pi r) = (4\\pi \\times 10^{-7} \\times 10) / (2\\pi \\times 0.5) = (2 \\times 10^{-7} \\times 10) / 0.5 = 20 \\times 10^{-7} / 0.5 = 40 \\times 10^{-7} = 4 \\times 10^{-6}$ T."
+  },
+  {
+    "question": "In a velocity selector, the condition for a charged particle to pass undeflected is:",
+    "options": [
+      "$v = E/B$",
+      "$v = B/E$",
+      "$v = E^2/B$",
+      "$v = \\sqrt{E/B}$"
+    ],
+    "correctAnswer": 0,
+    "explanation": "Electric force must balance magnetic force: $qE = qvB \\implies v = E/B$."
+  },
+  {
+    "question": "A circular coil of radius $0.1$ m has $100$ turns and carries a current of $1$ A. The magnetic field at its center is:",
+    "options": [
+      "$3.14 \\times 10^{-4}$ T",
+      "$6.28 \\times 10^{-4}$ T",
+      "$1.25 \\times 10^{-3}$ T",
+      "$6.28 \\times 10^{-5}$ T"
+    ],
+    "correctAnswer": 1,
+    "explanation": "$B = \\mu_0 N I / (2r) = (4\\pi \\times 10^{-7} \\times 100 \\times 1) / (2 \\times 0.1) = (4\\pi \\times 10^{-5}) / 0.2 = 20\\pi \\times 10^{-5} \\approx 6.28 \\times 10^{-4}$ T."
+  },
+  {
+    "question": "The resistance of an ideal ammeter is:",
+    "options": [
+      "Infinite",
+      "Very high",
+      "Zero",
+      "100 Ohms"
+    ],
+    "correctAnswer": 2,
+    "explanation": "An ideal ammeter must not impede the current it is measuring, so it should effectively have zero internal resistance."
+  },
+  {
+    "question": "If a proton moves perpendicular to a uniform magnetic field of $0.1$ T with a speed of $2 \\times 10^7$ m/s, the acceleration of the proton is ($m_p = 1.67 \\times 10^{-27}$ kg):",
+    "options": [
+      "$1.9 \\times 10^{14} \\text{ m/s}^2$",
+      "$3.8 \\times 10^{14} \\text{ m/s}^2$",
+      "$5 \\times 10^{13} \\text{ m/s}^2$",
+      "$1.9 \\times 10^{13} \\text{ m/s}^2$"
+    ],
+    "correctAnswer": 0,
+    "explanation": "$F = qvB$. $a = F/m = qvB/m = (1.6 \\times 10^{-19} \\times 2 \\times 10^7 \\times 0.1) / 1.67 \\times 10^{-27} \\approx (3.2 \\times 10^{-13}) / 1.67 \\times 10^{-27} \\approx 1.9 \\times 10^{14} \\text{ m/s}^2$."
+  },
+  {
+    "question": "Two parallel beams of electrons moving in the same direction will:",
+    "options": [
+      "Repel each other",
+      "Attract each other",
+      "Neither attract nor repel",
+      "Cancel each other"
+    ],
+    "correctAnswer": 1,
+    "explanation": "Moving electrons constitute current. Currents in the same direction attract magnetically. However, electrostatic repulsion is much stronger. But in the context of purely magnetic effects (Ampere's law), they attract. (Note: In vacuum, electrostatic repulsion dominates, but textbooks often focus on the 'current' aspect implying attraction or ask specifically about magnetic force. Given standard textbook options, 'Attract' refers to the magnetic component, but 'Repel' is physically true due to electrostatic dominance. In wire conductors, electrostatic is cancelled by lattice, so attraction holds. For free beams, repulsion dominates. However, standard 'magnetic' questions imply attraction like wires. Let's assume standard 'current' context). Correction: For *free* electron beams, electrostatic repulsion > magnetic attraction. But if treated as currents in wires, they attract. If the question implies magnetic interaction, it's attraction. If physical reality of free beams, it's repulsion. Let's select 'Attract' based on the 'currents in same direction' rule common in magnetism chapters, but note the nuance."
+  },
+  {
+    "question": "A charged particle moves in a circle of radius $r$ in a magnetic field $B$. The time period of revolution is independent of:",
+    "options": [
+      "Magnetic field",
+      "Charge",
+      "Velocity",
+      "Mass"
+    ],
+    "correctAnswer": 2,
+    "explanation": "$T = 2\\pi m / (qB)$. The velocity $v$ cancels out from the radius formula, making the time period independent of the speed of the particle (Cyclotron principle)."
+  },
+  {
+    "question": "The magnetic force on a current carrying conductor is given by:",
+    "options": [
+      "$\\vec{F} = I(\\vec{L} \\cdot \\vec{B})$",
+      "$\\vec{F} = I(\\vec{L} \\times \\vec{B})$",
+      "$\\vec{F} = I(\\vec{B} \\times \\vec{L})$",
+      "$\\vec{F} = ILB$"
+    ],
+    "correctAnswer": 1,
+    "explanation": "The vector form of the force on a current carrying wire is $\\vec{F} = I(\\vec{L} \\times \\vec{B})$."
+  },
+  {
+    "question": "To increase the current sensitivity of a moving coil galvanometer, one should:",
+    "options": [
+      "Decrease the number of turns",
+      "Decrease the magnetic field",
+      "Increase the torsional constant of the spring",
+      "Decrease the torsional constant of the spring"
+    ],
+    "correctAnswer": 3,
+    "explanation": "Current sensitivity $S_i = BAN / C$. To increase $S_i$, $C$ (torsional couple per unit twist) should be decreased."
+  },
+  {
+    "question": "Which of the following creates a magnetic field?",
+    "options": [
+      "A stationary charge",
+      "A moving charge",
+      "A neutral particle",
+      "An electric dipole"
+    ],
+    "correctAnswer": 1,
+    "explanation": "A stationary charge creates only an electric field. A moving charge creates both electric and magnetic fields."
+  },
+  {
+    "question": "The path of a charged particle entering a magnetic field at an angle of $45^\\circ$ to the field is:",
+    "options": [
+      "Circular",
+      "Straight line",
+      "Helical",
+      "Parabolic"
+    ],
+    "correctAnswer": 2,
+    "explanation": "The velocity has both parallel and perpendicular components. Parallel component moves it forward, perpendicular component makes it circle. Result is a helix."
+  },
+  {
+    "question": "Two long parallel wires carrying equal currents in opposite directions are placed $2$ m apart. The magnetic field at the midpoint between them is:",
+    "options": [
+      "Zero",
+      "Twice the field of one wire",
+      "Half the field of one wire",
+      "Infinite"
+    ],
+    "correctAnswer": 1,
+    "explanation": "If currents are opposite, the fields at the center add up (same direction). $B_{net} = B_1 + B_2 = 2B_1$."
+  },
+  {
+    "question": "What is the magnetic field required to bend a beam of electrons of energy $2000$ eV into a circle of radius $10$ cm?",
+    "options": [
+      "$1.5 \\times 10^{-3}$ T",
+      "$3.0 \\times 10^{-3}$ T",
+      "$4.5 \\times 10^{-3}$ T",
+      "$6.0 \\times 10^{-3}$ T"
+    ],
+    "correctAnswer": 0,
+    "explanation": "$v = \\sqrt{2K/m}$. $B = mv/qr = \\sqrt{2mK}/qr$. $K=2000 \\text{ eV} = 3.2 \\times 10^{-16}$ J. $B = \\sqrt{2 \\cdot 9.1 \\times 10^{-31} \\cdot 3.2 \\times 10^{-16}} / (1.6 \\times 10^{-19} \\cdot 0.1) \\approx 1.5 \\times 10^{-3}$ T."
+  },
+  {
+    "question": "A straight wire carries a current vertically upwards. A point $P$ lies to the east of the wire. The direction of the magnetic field at $P$ is:",
+    "options": [
+      "East",
+      "West",
+      "North",
+      "South"
+    ],
+    "correctAnswer": 2,
+    "explanation": "Using the Right Hand Grip Rule: Thumb points up (current). Fingers curl around. To the East of the wire, the fingers point North."
+  }
+]
+

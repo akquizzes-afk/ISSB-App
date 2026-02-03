@@ -1,0 +1,553 @@
+[
+  {
+    "question": "The nucleus of an atom consists of protons and neutrons, which are collectively known as:",
+    "options": [
+      "Leptons",
+      "Mesons",
+      "Nucleons",
+      "Positrons"
+    ],
+    "correctAnswer": 2,
+    "explanation": "Nucleons is the generic term for both protons and neutrons that reside within the atomic nucleus."
+  },
+  {
+    "question": "Atoms of the same element having the same atomic number but different mass numbers are called:",
+    "options": [
+      "Isobars",
+      "Isotopes",
+      "Isotones",
+      "Isomers"
+    ],
+    "correctAnswer": 1,
+    "explanation": "Isotopes have the same number of protons ($Z$) but a different number of neutrons ($N$), resulting in different mass numbers ($A$)."
+  },
+  {
+    "question": "One atomic mass unit (amu) is defined as 1/12th of the mass of:",
+    "options": [
+      "Hydrogen-1",
+      "Oxygen-16",
+      "Carbon-12",
+      "Helium-4"
+    ],
+    "correctAnswer": 2,
+    "explanation": "The standard reference for atomic mass is the Carbon-12 isotope, where 1 amu is exactly $1/12$ of its mass."
+  },
+  {
+    "question": "The mass of a nucleus is always ______ the sum of the individual masses of its constituent protons and neutrons.",
+    "options": [
+      "Greater than",
+      "Equal to",
+      "Less than",
+      "Twice"
+    ],
+    "correctAnswer": 2,
+    "explanation": "This difference is known as the mass defect ($\\Delta m$), which is converted into binding energy to hold the nucleus together."
+  },
+  {
+    "question": "The energy equivalent to 1 amu is approximately:",
+    "options": [
+      "0.511 MeV",
+      "1.02 MeV",
+      "931.5 MeV",
+      "13.6 eV"
+    ],
+    "correctAnswer": 2,
+    "explanation": "Using $E = mc^2$, where $m = 1.66 \\times 10^{-27}$ kg, the energy is approximately $931.5$ MeV."
+  },
+  {
+    "question": "The binding energy per nucleon is maximum for which element?",
+    "options": [
+      "Uranium",
+      "Hydrogen",
+      "Iron",
+      "Helium"
+    ],
+    "correctAnswer": 2,
+    "explanation": "Iron ($Fe-56$) has the highest binding energy per nucleon (approx 8.8 MeV), making it the most stable nucleus."
+  },
+  {
+    "question": "The spontaneous emission of radiation from unstable nuclei is called:",
+    "options": [
+      "Radioactivity",
+      "Ionization",
+      "Fluorescence",
+      "Thermionic emission"
+    ],
+    "correctAnswer": 0,
+    "explanation": "Radioactivity is a natural, spontaneous process by which unstable nuclei lose energy by emitting particles or rays."
+  },
+  {
+    "question": "Which of the following radiations has the highest ionizing power?",
+    "options": [
+      "Beta particles",
+      "Gamma rays",
+      "Alpha particles",
+      "X-rays"
+    ],
+    "correctAnswer": 2,
+    "explanation": "Alpha particles are heavy and carry a $+2e$ charge, making them highly effective at ionizing the atoms they encounter."
+  },
+  {
+    "question": "Which of the following radiations has the highest penetrating power?",
+    "options": [
+      "Alpha particles",
+      "Beta particles",
+      "Gamma rays",
+      "Neutrons"
+    ],
+    "correctAnswer": 2,
+    "explanation": "Gamma rays are neutral electromagnetic waves with no mass, allowing them to pass through materials that stop alpha and beta particles."
+  },
+  {
+    "question": "A radioactive decay where the mass number decreases by 4 and the atomic number decreases by 2 is:",
+    "options": [
+      "Beta decay",
+      "Gamma decay",
+      "Alpha decay",
+      "Electron capture"
+    ],
+    "correctAnswer": 2,
+    "explanation": "An alpha particle is a Helium nucleus ($^4_2He$), so emitting one reduces $A$ by 4 and $Z$ by 2."
+  },
+  {
+    "question": "In negative beta ($\\beta^-$) decay, a neutron inside the nucleus transforms into:",
+    "options": [
+      "A proton and an electron",
+      "A proton and a positron",
+      "An alpha particle",
+      "A gamma ray"
+    ],
+    "correctAnswer": 0,
+    "explanation": "During $\\beta^-$ decay, a neutron converts to a proton, an electron (the beta particle), and an antineutrino."
+  },
+  {
+    "question": "The decay constant $\\lambda$ is related to the half-life $T_{1/2}$ by the formula:",
+    "options": [
+      "$T_{1/2} = 0.693 / \\lambda$",
+      "$T_{1/2} = \\lambda / 0.693$",
+      "$T_{1/2} = 1 / \\lambda$",
+      "$T_{1/2} = 0.693 \\lambda$"
+    ],
+    "correctAnswer": 0,
+    "explanation": "The half-life is inversely proportional to the decay constant: $T_{1/2} = \\ln(2) / \\lambda \\approx 0.693 / \\lambda$."
+  },
+  {
+    "question": "If the half-life of a radioactive substance is 10 days, what fraction of the original sample remains after 30 days?",
+    "options": [
+      "1/2",
+      "1/4",
+      "1/8",
+      "1/16"
+    ],
+    "correctAnswer": 2,
+    "explanation": "30 days is 3 half-lives ($n=3$). Fraction remaining $= (1/2)^n = (1/2)^3 = 1/8$."
+  },
+  {
+    "question": "The SI unit of radioactivity is:",
+    "options": [
+      "Curie",
+      "Becquerel",
+      "Rutherford",
+      "Roentgen"
+    ],
+    "correctAnswer": 1,
+    "explanation": "The Becquerel (Bq) is defined as 1 disintegration per second. Curie is an older, larger unit."
+  },
+  {
+    "question": "The splitting of a heavy nucleus into two lighter nuclei with the release of energy is called:",
+    "options": [
+      "Nuclear fusion",
+      "Nuclear fission",
+      "Radioactive decay",
+      "Pair production"
+    ],
+    "correctAnswer": 1,
+    "explanation": "Fission occurs when a heavy nucleus (like Uranium-235) becomes unstable and splits into smaller fragments."
+  },
+  {
+    "question": "In a nuclear reactor, the purpose of a moderator is to:",
+    "options": [
+      "Absorb neutrons",
+      "Speed up neutrons",
+      "Slow down neutrons",
+      "Produce more neutrons"
+    ],
+    "correctAnswer": 2,
+    "explanation": "Moderators (like heavy water or graphite) slow down fast neutrons to thermal speeds, increasing the probability of further fission."
+  },
+  {
+    "question": "Control rods in a nuclear reactor are made of materials like:",
+    "options": [
+      "Uranium",
+      "Cadmium or Boron",
+      "Graphite",
+      "Heavy water"
+    ],
+    "correctAnswer": 1,
+    "explanation": "Cadmium and Boron have a high affinity for absorbing neutrons, allowing them to regulate the chain reaction rate."
+  },
+  {
+    "question": "The energy source of the Sun and stars is:",
+    "options": [
+      "Nuclear fission",
+      "Chemical combustion",
+      "Nuclear fusion",
+      "Gravitational collapse"
+    ],
+    "correctAnswer": 2,
+    "explanation": "In the core of stars, Hydrogen nuclei fuse to form Helium under extreme temperature and pressure, releasing vast energy."
+  },
+  {
+    "question": "Which of the following is required for a nuclear fusion reaction to occur?",
+    "options": [
+      "Critical mass",
+      "Low temperature",
+      "Extremely high temperature",
+      "A moderator"
+    ],
+    "correctAnswer": 2,
+    "explanation": "Fusion requires overcoming the strong electrostatic repulsion between nuclei, which only happens at temperatures of millions of degrees."
+  },
+  {
+    "question": "The minimum mass of fissionable material required to sustain a chain reaction is called:",
+    "options": [
+      "Atomic mass",
+      "Molar mass",
+      "Critical mass",
+      "Threshold mass"
+    ],
+    "correctAnswer": 2,
+    "explanation": "Critical mass ensures that at least one neutron from each fission event goes on to trigger another fission event."
+  },
+  {
+    "question": "Radioactive dating using Carbon-14 is suitable for determining the age of:",
+    "options": [
+      "Rocks and minerals",
+      "Ancient organic remains",
+      "The Earth",
+      "Metals"
+    ],
+    "correctAnswer": 1,
+    "explanation": "Carbon-14 dating is used for biological samples (wood, bone) because C-14 is incorporated into living tissues."
+  },
+  {
+    "question": "The detector that uses the principle of ionization and avalanche effect in a gas is:",
+    "options": [
+      "Wilson Cloud Chamber",
+      "Bubble Chamber",
+      "Geiger-Muller (GM) Counter",
+      "Solid State Detector"
+    ],
+    "correctAnswer": 2,
+    "explanation": "A GM counter detects radiation when the particles ionize gas in a tube, causing a large electrical pulse (avalanche)."
+  },
+  {
+    "question": "In a Wilson Cloud Chamber, the track of an alpha particle is usually:",
+    "options": [
+      "Thin and curved",
+      "Straight, thick, and continuous",
+      "Broken and erratic",
+      "Invisible"
+    ],
+    "correctAnswer": 1,
+    "explanation": "Alpha particles are highly ionizing, producing a high density of ions that form thick, straight tracks of condensation."
+  },
+  {
+    "question": "The biological damage caused by radiation depends on:",
+    "options": [
+      "Type of radiation",
+      "Energy of radiation",
+      "Duration of exposure",
+      "All of the above"
+    ],
+    "correctAnswer": 3,
+    "explanation": "Radiation damage is a factor of the dose, the dose rate, the type of radiation (quality factor), and the tissue sensitivity."
+  },
+  {
+    "question": "A dose of 1 Gray (Gy) is equivalent to the absorption of:",
+    "options": [
+      "1 Joule of energy per kg",
+      "1 erg of energy per g",
+      "1 calorie per kg",
+      "100 Rads"
+    ],
+    "correctAnswer": 0,
+    "explanation": "The Gray (Gy) is the SI unit of absorbed dose, defined as 1 J/kg. $1 \\text{ Gy} = 100 \\text{ Rads}$."
+  },
+  {
+    "question": "Radio-isotopes like Iodine-131 are used in medicine for the treatment of:",
+    "options": [
+      "Bone fractures",
+      "Thyroid disorders",
+      "Diabetes",
+      "Anemia"
+    ],
+    "correctAnswer": 1,
+    "explanation": "The thyroid gland selectively absorbs iodine; hence I-131 is used to diagnose and treat thyroid-related conditions."
+  },
+  {
+    "question": "The amount of energy released per nucleon is generally greater in ______ than in ______.",
+    "options": [
+      "Fission, Fusion",
+      "Fusion, Fission",
+      "Combustion, Fission",
+      "Beta decay, Alpha decay"
+    ],
+    "correctAnswer": 1,
+    "explanation": "Although a single fission event releases more total energy than a single fusion event, fusion releases more energy *per unit mass* or *per nucleon*."
+  },
+  {
+    "question": "Gamma radiation is emitted from a nucleus when it:",
+    "options": [
+      "Loses a proton",
+      "Loses a neutron",
+      "Transition from an excited state to a lower energy state",
+      "Captures an electron"
+    ],
+    "correctAnswer": 2,
+    "explanation": "Gamma rays are high-energy photons emitted when a nucleus returns to stability from an excited state, with no change in $Z$ or $A$."
+  },
+  {
+    "question": "The mass of a neutron is approximately:",
+    "options": [
+      "1.00727 amu",
+      "1.00866 amu",
+      "0.00055 amu",
+      "4.00260 amu"
+    ],
+    "correctAnswer": 1,
+    "explanation": "A neutron is slightly heavier than a proton (1.00727 amu)."
+  },
+  {
+    "question": "What happens to the mass number of a nucleus during beta minus ($\\beta^-$) decay?",
+    "options": [
+      "Decreases by 1",
+      "Increases by 1",
+      "Remains the same",
+      "Decreases by 2"
+    ],
+    "correctAnswer": 2,
+    "explanation": "During beta decay, a nucleon changes type (neutron to proton), but the total count of nucleons ($A$) stays the same."
+  },
+  {
+    "question": "The force that holds the nucleons together in a nucleus is:",
+    "options": [
+      "Gravitational force",
+      "Electrostatic force",
+      "Strong nuclear force",
+      "Magnetic force"
+    ],
+    "correctAnswer": 2,
+    "explanation": "The strong nuclear force is a short-range, powerful attractive force that overcomes the electrostatic repulsion between protons."
+  },
+  {
+    "question": "A radioactive sample has an initial activity of 400 Bq. If its half-life is 2 hours, what will be its activity after 6 hours?",
+    "options": [
+      "200 Bq",
+      "100 Bq",
+      "50 Bq",
+      "25 Bq"
+    ],
+    "correctAnswer": 2,
+    "explanation": "6 hours is 3 half-lives. Activity decreases as $A = A_0 / 2^n = 400 / 2^3 = 400 / 8 = 50$ Bq."
+  },
+  {
+    "question": "The binding energy of a Helium nucleus ($^4_2He$) is approx 28.3 MeV. What is its binding energy per nucleon?",
+    "options": [
+      "28.3 MeV",
+      "14.15 MeV",
+      "7.07 MeV",
+      "9.43 MeV"
+    ],
+    "correctAnswer": 2,
+    "explanation": "B.E. per nucleon $= 28.3 / A$. For Helium, $A=4$. So, $28.3 / 4 = 7.07$ MeV."
+  },
+  {
+    "question": "Which particles are emitted in a P-P (Proton-Proton) chain reaction in the Sun?",
+    "options": [
+      "Electrons",
+      "Positrons and Neutrinos",
+      "Alpha particles only",
+      "Antineutrinos"
+    ],
+    "correctAnswer": 1,
+    "explanation": "The fusion of protons into Helium-4 in the Sun involves the conversion of protons to neutrons, emitting positrons and neutrinos."
+  },
+  {
+    "question": "In nuclear fission of $U-235$, the average number of neutrons produced per fission is about:",
+    "options": [
+      "1",
+      "2 to 3",
+      "10",
+      "0"
+    ],
+    "correctAnswer": 1,
+    "explanation": "Each fission of U-235 typically releases 2 or 3 fast neutrons, which can then trigger a chain reaction."
+  },
+  {
+    "question": "The half-life of Radium is 1600 years. Its mean life (average life) is approximately:",
+    "options": [
+      "1600 years",
+      "1100 years",
+      "2300 years",
+      "3200 years"
+    ],
+    "correctAnswer": 2,
+    "explanation": "Mean life $\\tau = T_{1/2} / 0.693 = 1600 / 0.693 \\approx 2308$ years."
+  },
+  {
+    "question": "Cobalt-60 is widely used in industry and medicine because it is a strong emitter of:",
+    "options": [
+      "Alpha particles",
+      "Beta particles",
+      "Gamma rays",
+      "Neutrons"
+    ],
+    "correctAnswer": 2,
+    "explanation": "Co-60 emits high-energy gamma rays used for cancer radiotherapy and industrial radiography."
+  },
+  {
+    "question": "The quench gas used in a GM counter (like Bromine) is intended to:",
+    "options": [
+      "Increase ionization",
+      "Prevent secondary discharges",
+      "Slow down the particles",
+      "Clean the tube"
+    ],
+    "correctAnswer": 1,
+    "explanation": "Quenching prevents the positive ions from producing spurious secondary electrons when they hit the cathode."
+  },
+  {
+    "question": "What is the mass defect of a nucleus if its binding energy is 18.6 MeV?",
+    "options": [
+      "0.01 amu",
+      "0.02 amu",
+      "0.186 amu",
+      "0.5 amu"
+    ],
+    "correctAnswer": 1,
+    "explanation": "$\\Delta m = B.E / 931.5 = 18.6 / 931.5 \\approx 0.02$ amu."
+  },
+  {
+    "question": "Nuclear forces are:",
+    "options": [
+      "Charge dependent",
+      "Long range",
+      "Charge independent",
+      "Weak"
+    ],
+    "correctAnswer": 2,
+    "explanation": "Nuclear forces act the same between $p-p$, $n-n$, and $p-n$ pairs; they do not depend on the electric charge."
+  },
+  {
+    "question": "The process of fusion is not possible at room temperature because of:",
+    "options": [
+      "Nuclear repulsion",
+      "Coulomb repulsion",
+      "Gravitational repulsion",
+      "Magnetic repulsion"
+    ],
+    "correctAnswer": 1,
+    "explanation": "Positive nuclei repel each other electrically; they must have high kinetic energy (from heat) to get close enough for the nuclear force to take over."
+  },
+  {
+    "question": "A moderator in a nuclear reactor should ideally have:",
+    "options": [
+      "High atomic mass",
+      "Low atomic mass",
+      "High neutron absorption",
+      "High radioactivity"
+    ],
+    "correctAnswer": 1,
+    "explanation": "Light nuclei (like Hydrogen or Carbon) are best at slowing down neutrons through elastic collisions."
+  },
+  {
+    "question": "The radiation that is least deflected in a magnetic field is:",
+    "options": [
+      "Alpha",
+      "Beta",
+      "Gamma",
+      "Protons"
+    ],
+    "correctAnswer": 2,
+    "explanation": "Gamma rays are uncharged and are not deflected at all. Alpha and Beta are deflected in opposite directions."
+  },
+  {
+    "question": "The time constant (mean life) of a radioactive element is the time in which the number of atoms reduces to:",
+    "options": [
+      "50% of original",
+      "37% of original",
+      "Zero",
+      "10% of original"
+    ],
+    "correctAnswer": 1,
+    "explanation": "In one mean life ($t = 1/\\lambda$), $N = N_0 e^{-1} \\approx 0.368 N_0$ or $37\\%$."
+  },
+  {
+    "question": "The energy released in the fission of one $U-235$ nucleus is about:",
+    "options": [
+      "200 eV",
+      "200 keV",
+      "200 MeV",
+      "200 GeV"
+    ],
+    "correctAnswer": 2,
+    "explanation": "The average energy released per fission of a Uranium-235 nucleus is approximately $200$ MeV."
+  },
+  {
+    "question": "Which of the following is an example of a thermonuclear reaction?",
+    "options": [
+      "Fission of Uranium",
+      "Alpha decay of Radium",
+      "Fusion of Hydrogen in the Sun",
+      "Operation of a GM counter"
+    ],
+    "correctAnswer": 2,
+    "explanation": "Fusion reactions that require extremely high temperatures to initiate are called thermonuclear reactions."
+  },
+  {
+    "question": "The relationship between the mass number $A$ and the radius $R$ of a nucleus is:",
+    "options": [
+      "$R \\propto A$",
+      "$R \\propto A^{1/2}$",
+      "$R \\propto A^{1/3}$",
+      "$R \\propto 1/A$"
+    ],
+    "correctAnswer": 2,
+    "explanation": "The nuclear radius $R = R_0 A^{1/3}$, where $R_0 \\approx 1.2 \\times 10^{-15}$ m."
+  },
+  {
+    "question": "If a nucleus emits a gamma ray, its atomic number $Z$:",
+    "options": [
+      "Increases by 1",
+      "Decreases by 1",
+      "Remains the same",
+      "Decreases by 2"
+    ],
+    "correctAnswer": 2,
+    "explanation": "Gamma emission only changes the energy state of the nucleus, not the number of protons or neutrons."
+  },
+  {
+    "question": "The material used as a coolant in many nuclear reactors is:",
+    "options": [
+      "Heavy water or Liquid Sodium",
+      "Cadmium",
+      "Graphite",
+      "Boron"
+    ],
+    "correctAnswer": 0,
+    "explanation": "Coolants carry away the heat produced in the core to generate steam for electricity. Liquid sodium and water are common choices."
+  },
+  {
+    "question": "The binding energy per nucleon curve shows that energy can be released by:",
+    "options": [
+      "Fission of light nuclei only",
+      "Fusion of heavy nuclei only",
+      "Both fission of heavy and fusion of light nuclei",
+      "Beta decay only"
+    ],
+    "correctAnswer": 2,
+    "explanation": "Since intermediate nuclei are most stable, splitting heavy ones (fission) or joining light ones (fusion) both lead toward the more stable state, releasing energy."
+  }
+]
+

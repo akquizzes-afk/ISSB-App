@@ -1,0 +1,553 @@
+[
+  {
+    "question": "A semiconductor formed by doping a pure silicon crystal with pentavalent impurity atoms (like Arsenic) is called:",
+    "options": [
+      "Intrinsic semiconductor",
+      "P-type semiconductor",
+      "N-type semiconductor",
+      "Superconductor"
+    ],
+    "correctAnswer": 2,
+    "explanation": "Pentavalent impurities add free electrons to the crystal structure, creating an N-type (Negative-type) semiconductor where electrons are the majority carriers."
+  },
+  {
+    "question": "In a P-N junction diode under reverse bias, the width of the depletion region:",
+    "options": [
+      "Decreases",
+      "Increases",
+      "Remains constant",
+      "Becomes zero"
+    ],
+    "correctAnswer": 1,
+    "explanation": "Reverse bias pulls majority carriers away from the junction, widening the depletion region and increasing the potential barrier."
+  },
+  {
+    "question": "The process of converting alternating current (AC) into direct current (DC) is known as:",
+    "options": [
+      "Amplification",
+      "Modulation",
+      "Rectification",
+      "Oscillation"
+    ],
+    "correctAnswer": 2,
+    "explanation": "Rectification is the process used by diodes to convert bidirectional AC into unidirectional DC."
+  },
+  {
+    "question": "In a full-wave bridge rectifier, how many diodes are used?",
+    "options": [
+      "One",
+      "Two",
+      "Three",
+      "Four"
+    ],
+    "correctAnswer": 3,
+    "explanation": "A bridge rectifier circuit utilizes four diodes arranged in a bridge configuration to rectify both halves of the AC cycle."
+  },
+  {
+    "question": "The current gain $\\beta$ of a transistor in Common Emitter (CE) configuration is defined as:",
+    "options": [
+      "$I_C / I_E$",
+      "$I_C / I_B$",
+      "$I_B / I_C$",
+      "$I_E / I_B$"
+    ],
+    "correctAnswer": 1,
+    "explanation": "The current gain $\\beta$ (beta) is the ratio of collector current ($I_C$) to base current ($I_B$). $\\beta = I_C / I_B$."
+  },
+  {
+    "question": "For a transistor to act as an amplifier, the Emitter-Base junction must be ______ and the Collector-Base junction must be ______.",
+    "options": [
+      "Forward biased, Forward biased",
+      "Reverse biased, Reverse biased",
+      "Forward biased, Reverse biased",
+      "Reverse biased, Forward biased"
+    ],
+    "correctAnswer": 2,
+    "explanation": "The active region operation required for amplification needs the input (EB) junction to be forward biased and the output (CB) junction to be reverse biased."
+  },
+  {
+    "question": "In an NPN transistor, the current flows from:",
+    "options": [
+      "Emitter to Collector inside the transistor",
+      "Collector to Emitter inside the transistor",
+      "Base to Emitter only",
+      "Collector to Base only"
+    ],
+    "correctAnswer": 1,
+    "explanation": "Conventional current flows from Collector to Emitter (opposite to electron flow which is Emitter to Collector)."
+  },
+  {
+    "question": "The voltage gain of an inverting operational amplifier is given by:",
+    "options": [
+      "$1 + R_f / R_{in}$",
+      "$- R_f / R_{in}$",
+      "$R_{in} / R_f$",
+      "$- R_{in} / R_f$"
+    ],
+    "correctAnswer": 1,
+    "explanation": "For an inverting op-amp, Gain $A_v = V_{out}/V_{in} = - R_f / R_{in}$, where $R_f$ is feedback resistance and $R_{in}$ is input resistance."
+  },
+  {
+    "question": "Which logic gate produces a HIGH output only when both its inputs are HIGH?",
+    "options": [
+      "OR gate",
+      "NAND gate",
+      "AND gate",
+      "NOR gate"
+    ],
+    "correctAnswer": 2,
+    "explanation": "The AND gate follows the logic $Y = A \\cdot B$. Output is 1 only if $A=1$ AND $B=1$."
+  },
+  {
+    "question": "The open-loop gain of an ideal operational amplifier is:",
+    "options": [
+      "Zero",
+      "One",
+      "Infinite",
+      "100"
+    ],
+    "correctAnswer": 2,
+    "explanation": "An ideal Op-Amp has infinite open-loop gain, infinite input impedance, and zero output impedance."
+  },
+  {
+    "question": "If the base current in a transistor is $50 \\mu A$ and the collector current is $5$ mA, the value of $\\beta$ is:",
+    "options": [
+      "100",
+      "50",
+      "10",
+      "250"
+    ],
+    "correctAnswer": 0,
+    "explanation": "$\\beta = I_C / I_B = 5 \\times 10^{-3} / (50 \\times 10^{-6}) = 5000 / 50 = 100$."
+  },
+  {
+    "question": "A photodiode is always operated in:",
+    "options": [
+      "Forward bias",
+      "Reverse bias",
+      "Unbiased condition",
+      "Saturation region"
+    ],
+    "correctAnswer": 1,
+    "explanation": "Photodiodes are operated in reverse bias so that the light-generated minority carrier current (photocurrent) can be detected against a small dark current."
+  },
+  {
+    "question": "The phase difference between input and output voltages of a Common Emitter amplifier is:",
+    "options": [
+      "$0^\\circ$",
+      "$90^\\circ$",
+      "$180^\\circ$",
+      "$270^\\circ$"
+    ],
+    "correctAnswer": 2,
+    "explanation": "A Common Emitter amplifier produces a $180^\\circ$ phase shift (phase reversal) between the input signal and the amplified output signal."
+  },
+  {
+    "question": "Which component is used as a voltage regulator?",
+    "options": [
+      "Light Emitting Diode (LED)",
+      "Zener Diode",
+      "Photodiode",
+      "Solar Cell"
+    ],
+    "correctAnswer": 1,
+    "explanation": "A Zener diode is designed to operate in the breakdown region, maintaining a constant voltage across its terminals despite changes in current."
+  },
+  {
+    "question": "The Boolean expression for a NAND gate is:",
+    "options": [
+      "$Y = A + B$",
+      "$Y = A \\cdot B$",
+      "$Y = \\overline{A \\cdot B}$",
+      "$Y = \\overline{A + B}$"
+    ],
+    "correctAnswer": 2,
+    "explanation": "NAND is NOT-AND. The expression is the complement of the AND product: $Y = \\overline{A \\cdot B}$."
+  },
+  {
+    "question": "In a transistor, the most heavily doped region is the:",
+    "options": [
+      "Base",
+      "Collector",
+      "Emitter",
+      "All are equally doped"
+    ],
+    "correctAnswer": 2,
+    "explanation": "The Emitter is heavily doped to supply a large number of charge carriers (electrons or holes) into the base."
+  },
+  {
+    "question": "The potential barrier for a Silicon P-N junction at room temperature is approximately:",
+    "options": [
+      "0.3 V",
+      "0.7 V",
+      "1.1 V",
+      "0.1 V"
+    ],
+    "correctAnswer": 1,
+    "explanation": "The typical knee voltage or potential barrier for Silicon diodes is $0.7$ V (for Germanium, it is $0.3$ V)."
+  },
+  {
+    "question": "An operational amplifier connected as a Comparator compares:",
+    "options": [
+      "Two output currents",
+      "Input voltage with a reference voltage",
+      "Output voltage with supply voltage",
+      "Input impedance with output impedance"
+    ],
+    "correctAnswer": 1,
+    "explanation": "A comparator uses the high open-loop gain to switch the output to $+V_{sat}$ or $-V_{sat}$ depending on whether $V_{in}$ is greater or less than $V_{ref}$."
+  },
+  {
+    "question": "The ripple factor of a full-wave rectifier is ______ than that of a half-wave rectifier.",
+    "options": [
+      "Less",
+      "More",
+      "Equal",
+      "Zero"
+    ],
+    "correctAnswer": 0,
+    "explanation": "Full-wave rectifiers produce a smoother DC output with less AC ripple compared to half-wave rectifiers."
+  },
+  {
+    "question": "A transistor has $\\alpha = 0.98$. The value of $\\beta$ is:",
+    "options": [
+      "49",
+      "98",
+      "100",
+      "0.02"
+    ],
+    "correctAnswer": 0,
+    "explanation": "$\\beta = \\alpha / (1 - \\alpha) = 0.98 / (1 - 0.98) = 0.98 / 0.02 = 49$."
+  },
+  {
+    "question": "Which of the following gates is known as a Universal Gate?",
+    "options": [
+      "AND",
+      "OR",
+      "NOR",
+      "XOR"
+    ],
+    "correctAnswer": 2,
+    "explanation": "NAND and NOR gates are universal gates because any other logic gate (AND, OR, NOT) can be constructed using only them."
+  },
+  {
+    "question": "In an Op-Amp, the concept of 'Virtual Ground' arises when:",
+    "options": [
+      "The non-inverting terminal is grounded",
+      "The inverting terminal is grounded",
+      "The output is grounded",
+      "Feedback is removed"
+    ],
+    "correctAnswer": 0,
+    "explanation": "If the non-inverting terminal is grounded ($0$ V), the high gain implies the voltage difference between inputs is nearly zero, making the inverting terminal virtually at ground potential."
+  },
+  {
+    "question": "The output of an OR gate is LOW when:",
+    "options": [
+      "Both inputs are HIGH",
+      "One input is HIGH",
+      "Both inputs are LOW",
+      "Input A is LOW, B is HIGH"
+    ],
+    "correctAnswer": 2,
+    "explanation": "An OR gate produces a LOW ($0$) output only if ALL its inputs are LOW ($0$)."
+  },
+  {
+    "question": "The majority charge carriers in an NPN transistor are:",
+    "options": [
+      "Holes",
+      "Electrons",
+      "Protons",
+      "Ions"
+    ],
+    "correctAnswer": 1,
+    "explanation": "In NPN transistors, the Emitter and Collector are N-type, meaning electrons are the majority carriers responsible for current flow."
+  },
+  {
+    "question": "A non-inverting amplifier has $R_f = 100 \\text{ k}\\Omega$ and $R_{in} = 10 \\text{ k}\\Omega$. Its gain is:",
+    "options": [
+      "10",
+      "11",
+      "-10",
+      "100"
+    ],
+    "correctAnswer": 1,
+    "explanation": "Gain $A = 1 + R_f / R_{in} = 1 + 100/10 = 1 + 10 = 11$."
+  },
+  {
+    "question": "Forward biasing a P-N junction diode:",
+    "options": [
+      "Increases the potential barrier",
+      "Decreases the potential barrier",
+      "Does not affect the potential barrier",
+      "Destroys the junction"
+    ],
+    "correctAnswer": 1,
+    "explanation": "The external forward voltage opposes the internal barrier potential, reducing the width of the depletion region and lowering the barrier."
+  },
+  {
+    "question": "The logic gate represented by the Boolean expression $Y = A \\oplus B$ is:",
+    "options": [
+      "NAND",
+      "NOR",
+      "XOR",
+      "XNOR"
+    ],
+    "correctAnswer": 2,
+    "explanation": "The symbol $\\oplus$ represents the Exclusive-OR (XOR) operation."
+  },
+  {
+    "question": "In a transistor amplifier circuit, the capacitor used to block DC but pass AC signal is called:",
+    "options": [
+      "Filter capacitor",
+      "Bypass capacitor",
+      "Coupling capacitor",
+      "Smoothing capacitor"
+    ],
+    "correctAnswer": 2,
+    "explanation": "Coupling capacitors connect stages of amplifiers, allowing the AC signal to pass while isolating the DC bias voltages of each stage."
+  },
+  {
+    "question": "When an LED emits light, the recombination of electron-hole pairs releases energy in the form of:",
+    "options": [
+      "Heat",
+      "Photons",
+      "Sound",
+      "Mechanical energy"
+    ],
+    "correctAnswer": 1,
+    "explanation": "In direct bandgap semiconductors (like GaAs), recombination releases energy as photons of light."
+  },
+  {
+    "question": "If $I_E = 10$ mA and $I_B = 0.1$ mA, then collector current $I_C$ is:",
+    "options": [
+      "10.1 mA",
+      "9.9 mA",
+      "10 mA",
+      "0.1 mA"
+    ],
+    "correctAnswer": 1,
+    "explanation": "$I_E = I_B + I_C \\implies I_C = I_E - I_B = 10 - 0.1 = 9.9$ mA."
+  },
+  {
+    "question": "The input impedance of an ideal Op-Amp is:",
+    "options": [
+      "Zero",
+      "Infinite",
+      "Low",
+      "$100 \\Omega$"
+    ],
+    "correctAnswer": 1,
+    "explanation": "An ideal Op-Amp draws no current at its input terminals, implying infinite input impedance."
+  },
+  {
+    "question": "Which of the following is used to convert light energy into electrical energy?",
+    "options": [
+      "LED",
+      "Photodiode",
+      "Solar Cell",
+      "Zener Diode"
+    ],
+    "correctAnswer": 2,
+    "explanation": "A solar cell (photovoltaic cell) is a specialized P-N junction designed to convert solar radiation directly into electricity."
+  },
+  {
+    "question": "The logic expression $Y = \\overline{A+B}$ corresponds to:",
+    "options": [
+      "NAND gate",
+      "NOR gate",
+      "XOR gate",
+      "AND gate"
+    ],
+    "correctAnswer": 1,
+    "explanation": "This is the 'NOT-OR' operation, which is the definition of a NOR gate."
+  },
+  {
+    "question": "In a voltage divider bias circuit for a transistor, the purpose of the emitter resistor $R_E$ is to:",
+    "options": [
+      "Increase gain",
+      "Provide thermal stability",
+      "Increase output voltage",
+      "Reduce input impedance"
+    ],
+    "correctAnswer": 1,
+    "explanation": "$R_E$ provides negative feedback that stabilizes the operating point (Q-point) against temperature variations (thermal runaway)."
+  },
+  {
+    "question": "The rectification efficiency of a half-wave rectifier is approximately:",
+    "options": [
+      "40.6%",
+      "81.2%",
+      "50%",
+      "100%"
+    ],
+    "correctAnswer": 0,
+    "explanation": "The maximum theoretical efficiency of a half-wave rectifier is $40.6\\%$, while for a full-wave rectifier it is $81.2\\%$."
+  },
+  {
+    "question": "If the inputs to a NAND gate are $A=1, B=1$, the output $Y$ is:",
+    "options": [
+      "1",
+      "0",
+      "High",
+      "Undefined"
+    ],
+    "correctAnswer": 1,
+    "explanation": "NAND is inverse of AND. $1 \\cdot 1 = 1$. Inverting this gives $0$."
+  },
+  {
+    "question": "The 'dark current' in a photodiode is due to:",
+    "options": [
+      "Majority carriers",
+      "Minority carriers",
+      "Photons",
+      "External bias only"
+    ],
+    "correctAnswer": 1,
+    "explanation": "Dark current is the small reverse leakage current that flows even in the absence of light, caused by thermally generated minority carriers."
+  },
+  {
+    "question": "An operational amplifier basically amplifies:",
+    "options": [
+      "The sum of input voltages",
+      "The difference of input voltages",
+      "The product of input voltages",
+      "The ratio of input voltages"
+    ],
+    "correctAnswer": 1,
+    "explanation": "An Op-Amp is a differential amplifier; it amplifies the voltage difference ($V_+ - V_-$) between its non-inverting and inverting terminals."
+  },
+  {
+    "question": "For a transistor, the relation between $\\alpha$ and $\\beta$ is:",
+    "options": [
+      "$\\beta = \\alpha / (1 + \\alpha)$",
+      "$\\alpha = \\beta / (1 - \\beta)$",
+      "$\\beta = \\alpha / (1 - \\alpha)$",
+      "$\\alpha \\beta = 1$"
+    ],
+    "correctAnswer": 2,
+    "explanation": "Since $I_C = \\beta I_B$ and $I_C = \\alpha I_E$, substituting $I_E = I_B + I_C$ leads to the relation $\\beta = \\alpha / (1 - \\alpha)$."
+  },
+  {
+    "question": "A NOT gate is also known as:",
+    "options": [
+      "Adder",
+      "Inverter",
+      "Multiplier",
+      "Comparator"
+    ],
+    "correctAnswer": 1,
+    "explanation": "A NOT gate inverts the input signal ($0 \\to 1$, $1 \\to 0$)."
+  },
+  {
+    "question": "When a P-N junction is reverse biased, the current flowing is mainly due to:",
+    "options": [
+      "Diffusion of majority carriers",
+      "Drift of minority carriers",
+      "Both drift and diffusion",
+      "External resistance"
+    ],
+    "correctAnswer": 1,
+    "explanation": "In reverse bias, the small saturation current ($I_s$) is caused by the drift of minority charge carriers across the junction."
+  },
+  {
+    "question": "The output of a comparator is HIGH when:",
+    "options": [
+      "$V_+ < V_-$",
+      "$V_+ > V_-$",
+      "$V_+ = V_-$",
+      "Always"
+    ],
+    "correctAnswer": 1,
+    "explanation": "If the voltage at the non-inverting input ($V_+$) is greater than the inverting input ($V_-$), the output swings to positive saturation (HIGH)."
+  },
+  {
+    "question": "The region in a transistor with the least doping concentration is:",
+    "options": [
+      "Emitter",
+      "Base",
+      "Collector",
+      "Depletion region"
+    ],
+    "correctAnswer": 1,
+    "explanation": "The Base is made very thin and lightly doped to allow most charge carriers from the Emitter to pass through to the Collector without recombining."
+  },
+  {
+    "question": "The voltage gain of a buffer (voltage follower) amplifier is:",
+    "options": [
+      "Zero",
+      "Infinity",
+      "Unity (1)",
+      "Depends on $R_f$"
+    ],
+    "correctAnswer": 2,
+    "explanation": "A voltage follower (non-inverting amp with direct feedback) has a gain of $1$, meaning $V_{out} = V_{in}$. It is used for impedance matching."
+  },
+  {
+    "question": "In a bridge rectifier, the PIV (Peak Inverse Voltage) rating of each diode should be at least:",
+    "options": [
+      "$V_m$",
+      "$2 V_m$",
+      "$V_m / 2$",
+      "$4 V_m$"
+    ],
+    "correctAnswer": 0,
+    "explanation": "In a bridge rectifier, two diodes conduct at a time, and the reverse voltage across the non-conducting diodes is equal to the peak secondary voltage $V_m$ (unlike center-tapped which is $2V_m$)."
+  },
+  {
+    "question": "Which of the following is true for an ideal Op-Amp?",
+    "options": [
+      "Output impedance is infinite",
+      "Bandwidth is zero",
+      "Input impedance is infinite",
+      "Open loop gain is low"
+    ],
+    "correctAnswer": 2,
+    "explanation": "Key characteristics of an ideal Op-Amp: Infinite $Z_{in}$, Zero $Z_{out}$, Infinite Gain, Infinite Bandwidth."
+  },
+  {
+    "question": "Logic gates are essentially:",
+    "options": [
+      "Analog circuits",
+      "Digital circuits",
+      "Hybrid circuits",
+      "Mechanical switches"
+    ],
+    "correctAnswer": 1,
+    "explanation": "Logic gates process binary signals (0s and 1s), making them the building blocks of digital circuits."
+  },
+  {
+    "question": "The leakage current in a silicon diode doubles for every ______ rise in temperature.",
+    "options": [
+      "$1^\\circ$ C",
+      "$10^\\circ$ C",
+      "$5^\\circ$ C",
+      "$20^\\circ$ C"
+    ],
+    "correctAnswer": 1,
+    "explanation": "A rule of thumb for semiconductors is that reverse leakage current approximately doubles for every $10^\\circ$ C increase in temperature."
+  },
+  {
+    "question": "If an Op-Amp has an input bias current of $1 \\mu A$ and feedback resistor of $1 \\text{ M}\\Omega$, the output offset voltage due to this current is:",
+    "options": [
+      "1 V",
+      "1 mV",
+      "0.1 V",
+      "10 V"
+    ],
+    "correctAnswer": 0,
+    "explanation": "$V_{offset} = I_b R_f = 10^{-6} \\text{ A} \\times 10^6 \\Omega = 1$ V."
+  },
+  {
+    "question": "A transistor connected in Common Base configuration has:",
+    "options": [
+      "High input impedance",
+      "Low input impedance",
+      "High current gain",
+      "Phase reversal"
+    ],
+    "correctAnswer": 1,
+    "explanation": "Common Base configuration has very low input impedance and high output impedance, with a current gain less than unity ($\\\\alpha < 1$)."
+  }
+]
+

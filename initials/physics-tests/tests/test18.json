@@ -1,0 +1,552 @@
+[
+  {
+    "question": "The frame of reference in which Newton's first law of motion holds true is called:",
+    "options": [
+      "Non-inertial frame",
+      "Accelerated frame",
+      "Inertial frame",
+      "Rotating frame"
+    ],
+    "correctAnswer": 2,
+    "explanation": "An inertial frame of reference is one that is either at rest or moving with a constant velocity; in such frames, Newton's laws are valid."
+  },
+  {
+    "question": "According to the first postulate of Special Relativity, the laws of physics are the same in all:",
+    "options": [
+      "Accelerated frames",
+      "Inertial frames",
+      "Non-inertial frames",
+      "Rotating frames"
+    ],
+    "correctAnswer": 1,
+    "explanation": "Einstein's first postulate states that the fundamental laws of physics do not change for any observer in an inertial frame of reference."
+  },
+  {
+    "question": "The speed of light in vacuum is a universal constant 'c' independent of the motion of the source or observer. This is:",
+    "options": [
+      "Newton's First Law",
+      "Planck's Law",
+      "Einstein's Second Postulate",
+      "Heisenberg's Principle"
+    ],
+    "correctAnswer": 2,
+    "explanation": "The second postulate of special relativity establishes that the speed of light is absolute and remains $3 \\times 10^8$ m/s for all inertial observers."
+  },
+  {
+    "question": "The phenomenon where the time interval between two events appears longer to an observer in motion relative to the events is called:",
+    "options": [
+      "Time Contraction",
+      "Time Dilation",
+      "Length Expansion",
+      "Mass Increase"
+    ],
+    "correctAnswer": 1,
+    "explanation": "Time dilation occurs because time passes slower in a moving frame relative to a stationary observer, expressed by $t = t_0 / \\sqrt{1 - v^2/c^2}$."
+  },
+  {
+    "question": "An object of length $L_0$ at rest appears to have a length $L$ when moving at velocity $v$. The relation is:",
+    "options": [
+      "$L = L_0 / \\sqrt{1 - v^2/c^2}$",
+      "$L = L_0 \\sqrt{1 - v^2/c^2}$",
+      "$L = L_0 (1 - v^2/c^2)$",
+      "$L = L_0 \\sqrt{1 + v^2/c^2}$"
+    ],
+    "correctAnswer": 1,
+    "explanation": "Length contraction states that the length of an object measured by an observer in relative motion is shorter than its proper length $L_0$."
+  },
+  {
+    "question": "The energy of a photon of frequency $f$ is given by:",
+    "options": [
+      "$E = h/f$",
+      "$E = hf^2$",
+      "$E = hf$",
+      "$E = f/h$"
+    ],
+    "correctAnswer": 2,
+    "explanation": "Planck's equation states that energy is quantized and proportional to frequency, where $h$ is Planck's constant ($6.63 \\times 10^{-34}$ J·s)."
+  },
+  {
+    "question": "In the photoelectric effect, the maximum kinetic energy of emitted electrons depends on:",
+    "options": [
+      "Intensity of light",
+      "Frequency of light",
+      "Time of exposure",
+      "Area of the metal"
+    ],
+    "correctAnswer": 1,
+    "explanation": "According to Einstein's photoelectric equation, $K.E_{max} = hf - \\Phi$. Kinetic energy increases with frequency but is independent of intensity."
+  },
+  {
+    "question": "The minimum frequency required to eject an electron from a metal surface is called:",
+    "options": [
+      "Critical frequency",
+      "Resonant frequency",
+      "Threshold frequency",
+      "Stopping frequency"
+    ],
+    "correctAnswer": 2,
+    "explanation": "Threshold frequency ($f_0$) is the minimum frequency below which no photoelectrons are emitted, regardless of the light intensity."
+  },
+  {
+    "question": "Which of the following phenomena proves the particle nature of light?",
+    "options": [
+      "Interference",
+      "Diffraction",
+      "Polarization",
+      "Compton Effect"
+    ],
+    "correctAnswer": 3,
+    "explanation": "While interference and diffraction prove the wave nature, the Compton Effect (scattering of X-rays by electrons) confirms that light behaves like particles (photons)."
+  },
+  {
+    "question": "The Compton shift $\\Delta \\lambda$ is maximum when the scattering angle $\\theta$ is:",
+    "options": [
+      "$0^\\circ$",
+      "$90^\\circ$",
+      "$180^\\circ$",
+      "$45^\\circ$"
+    ],
+    "correctAnswer": 2,
+    "explanation": "The shift $\\Delta \\lambda = (h/m_0c)(1 - \\cos\\theta)$. It is maximum when $\\cos(180^\\circ) = -1$, resulting in a shift of $2h/m_0c$."
+  },
+  {
+    "question": "Pair production can only occur if the energy of the incident photon is at least:",
+    "options": [
+      "0.51 MeV",
+      "1.02 MeV",
+      "2.04 MeV",
+      "931 MeV"
+    ],
+    "correctAnswer": 1,
+    "explanation": "The rest mass energy of an electron and a positron is 0.51 MeV each. To create both, the photon must have at least $0.51 + 0.51 = 1.02$ MeV."
+  },
+  {
+    "question": "The process in which a particle and its antiparticle meet and convert their mass into energy is called:",
+    "options": [
+      "Pair Production",
+      "Photoelectric Effect",
+      "Annihilation",
+      "Compton Scattering"
+    ],
+    "correctAnswer": 2,
+    "explanation": "Annihilation is the inverse of pair production, where matter and antimatter (like electron and positron) destroy each other to produce two gamma-ray photons."
+  },
+  {
+    "question": "According to De Broglie, the wavelength $\\lambda$ associated with a particle of mass $m$ moving with velocity $v$ is:",
+    "options": [
+      "$\\lambda = h/mv$",
+      "$\\lambda = mv/h$",
+      "$\\lambda = hmv$",
+      "$\\lambda = h/m^2v$"
+    ],
+    "correctAnswer": 0,
+    "explanation": "De Broglie hypothesis assigns a wave nature to matter with wavelength inversely proportional to its momentum ($p=mv$)."
+  },
+  {
+    "question": "Heisenberg's Uncertainty Principle states that it is impossible to measure simultaneously with infinite precision both:",
+    "options": [
+      "Mass and Velocity",
+      "Position and Momentum",
+      "Energy and Mass",
+      "Force and Time"
+    ],
+    "correctAnswer": 1,
+    "explanation": "The principle $\\Delta x \\cdot \\Delta p \\approx h$ states that the more precisely one property is known, the less precisely the other can be known."
+  },
+  {
+    "question": "The rest mass of a photon is:",
+    "options": [
+      "Infinite",
+      "Zero",
+      "$9.1 \\times 10^{-31}$ kg",
+      "Variable"
+    ],
+    "correctAnswer": 1,
+    "explanation": "A photon always moves at the speed of light; if it were at rest, it would have no mass and no existence. Its rest mass is zero."
+  },
+  {
+    "question": "What is the momentum of a photon with wavelength $500$ nm? ($h = 6.63 \\times 10^{-34}$ J·s):",
+    "options": [
+      "$1.32 \\times 10^{-27}$ kg m/s",
+      "$3.31 \\times 10^{-27}$ kg m/s",
+      "$1.32 \\times 10^{-25}$ kg m/s",
+      "$6.63 \\times 10^{-34}$ kg m/s"
+    ],
+    "correctAnswer": 0,
+    "explanation": "$p = h/\\lambda = (6.63 \\times 10^{-34}) / (500 \\times 10^{-9}) = 1.326 \\times 10^{-27}$ kg m/s."
+  },
+  {
+    "question": "As the temperature of a black body increases, the wavelength at which the maximum intensity occurs:",
+    "options": [
+      "Increases",
+      "Decreases",
+      "Remains the same",
+      "Becomes zero"
+    ],
+    "correctAnswer": 1,
+    "explanation": "According to Wien's Displacement Law ($\\lambda_{max} T = \\text{constant}$), peak wavelength is inversely proportional to temperature."
+  },
+  {
+    "question": "The stopping potential in a photoelectric experiment is $3.0$ V. The maximum kinetic energy of the photoelectrons is:",
+    "options": [
+      "3.0 eV",
+      "1.5 eV",
+      "6.0 eV",
+      "0.3 eV"
+    ],
+    "correctAnswer": 0,
+    "explanation": "$K.E_{max} = eV_0$. If $V_0 = 3.0$ V, then the energy is $3.0$ electron-volts (eV)."
+  },
+  {
+    "question": "A particle of mass $m$ is moving at $0.6c$. Its relativistic mass is:",
+    "options": [
+      "$1.25 m_0$",
+      "$0.8 m_0$",
+      "$1.66 m_0$",
+      "$1.33 m_0$"
+    ],
+    "correctAnswer": 0,
+    "explanation": "$m = m_0 / \\sqrt{1 - (0.6)^2} = m_0 / \\sqrt{1 - 0.36} = m_0 / \\sqrt{0.64} = m_0 / 0.8 = 1.25 m_0$."
+  },
+  {
+    "question": "The energy of a photon in eV for light of wavelength $4000$ Å is approximately:",
+    "options": [
+      "1.24 eV",
+      "3.1 eV",
+      "4.5 eV",
+      "2.0 eV"
+    ],
+    "correctAnswer": 1,
+    "explanation": "$E = 12400 / \\lambda(\\text{Å}) = 12400 / 4000 = 3.1$ eV."
+  },
+  {
+    "question": "Black body radiation was successfully explained by Max Planck by assuming that energy is:",
+    "options": [
+      "Continuous",
+      "Wave-like",
+      "Quantized",
+      "Infinite"
+    ],
+    "correctAnswer": 2,
+    "explanation": "Planck proposed that electromagnetic energy is emitted or absorbed in discrete packets called 'quanta'."
+  },
+  {
+    "question": "Which of the following has the smallest De Broglie wavelength if all move with the same velocity?",
+    "options": [
+      "Electron",
+      "Proton",
+      "Alpha particle",
+      "Neutron"
+    ],
+    "correctAnswer": 2,
+    "explanation": "$\\lambda = h/mv$. Since velocity is same, $\\lambda \\propto 1/m$. The alpha particle is the most massive of the four, so it has the smallest wavelength."
+  },
+  {
+    "question": "If the uncertainty in position of an electron is zero, the uncertainty in its momentum is:",
+    "options": [
+      "Zero",
+      "Finite",
+      "Infinite",
+      "Negligible"
+    ],
+    "correctAnswer": 2,
+    "explanation": "According to $\\Delta x \\cdot \\Delta p \\approx h$, if $\\Delta x = 0$, then $\\Delta p = h/0 = \\infty$."
+  },
+  {
+    "question": "The work function of a metal is $2.0$ eV. If light of $5.0$ eV falls on it, the stopping potential is:",
+    "options": [
+      "2.0 V",
+      "5.0 V",
+      "3.0 V",
+      "7.0 V"
+    ],
+    "correctAnswer": 2,
+    "explanation": "$eV_0 = hf - \\Phi = 5.0 - 2.0 = 3.0$ eV. Therefore, $V_0 = 3.0$ V."
+  },
+  {
+    "question": "The relativistic addition of two velocities $v_1$ and $v_2$ is given by:",
+    "options": [
+      "$v = v_1 + v_2$",
+      "$v = (v_1 + v_2) / (1 + v_1v_2/c^2)$",
+      "$v = (v_1 + v_2) / (1 - v_1v_2/c^2)$",
+      "$v = \\sqrt{v_1^2 + v_2^2}$"
+    ],
+    "correctAnswer": 1,
+    "explanation": "The Lorentz velocity transformation ensures that the sum of two velocities never exceeds the speed of light $c$."
+  },
+  {
+    "question": "Photons are electrically:",
+    "options": [
+      "Positive",
+      "Negative",
+      "Neutral",
+      "Ionized"
+    ],
+    "correctAnswer": 2,
+    "explanation": "Photons have no charge and are not deflected by electric or magnetic fields."
+  },
+  {
+    "question": "The wavelength shift in Compton Effect depends only on:",
+    "options": [
+      "Incident wavelength",
+      "Target material",
+      "Scattering angle",
+      "Intensity of X-rays"
+    ],
+    "correctAnswer": 2,
+    "explanation": "$\\Delta \\lambda$ is independent of the target material and incident frequency; it depends purely on the angle of scattering $\\theta$."
+  },
+  {
+    "question": "The energy equivalent to $1$ atomic mass unit (amu) is:",
+    "options": [
+      "0.511 MeV",
+      "931 MeV",
+      "1.02 MeV",
+      "1.6 \\times 10^{-19} J"
+    ],
+    "correctAnswer": 1,
+    "explanation": "Using $E=mc^2$ for $1.66 \\times 10^{-27}$ kg gives approximately $931.5$ MeV."
+  },
+  {
+    "question": "Wave-particle duality was confirmed for electrons by the experiment of:",
+    "options": [
+      "Davisson and Germer",
+      "Michelson and Morley",
+      "Compton",
+      "Einstein"
+    ],
+    "correctAnswer": 0,
+    "explanation": "Davisson and Germer observed electron diffraction by a nickel crystal, proving that electrons exhibit wave properties."
+  },
+  {
+    "question": "In pair production, the excess energy ($hf - 1.02$ MeV) is converted into:",
+    "options": [
+      "A third photon",
+      "Heat",
+      "Kinetic energy of the pair",
+      "Potential energy"
+    ],
+    "correctAnswer": 2,
+    "explanation": "Any energy above the threshold is shared between the created electron and positron as kinetic energy."
+  },
+  {
+    "question": "An electron is accelerated through a potential difference of $100$ V. Its De Broglie wavelength is approx:",
+    "options": [
+      "1.23 Å",
+      "12.3 Å",
+      "0.123 Å",
+      "1.23 nm"
+    ],
+    "correctAnswer": 0,
+    "explanation": "$\\lambda = \\sqrt{150/V}$ Å $\\approx 12.27 / \\sqrt{100} = 1.227$ Å."
+  },
+  {
+    "question": "The mass of an object moving at the speed of light would be:",
+    "options": [
+      "Zero",
+      "Same as rest mass",
+      "Infinite",
+      "Twice the rest mass"
+    ],
+    "correctAnswer": 2,
+    "explanation": "As $v \\to c$, the denominator $\\sqrt{1-v^2/c^2} \\to 0$, making the relativistic mass $m \\to \\infty$."
+  },
+  {
+    "question": "Which of the following is the Einstein's Mass-Energy relation?",
+    "options": [
+      "$E = mc$",
+      "$E = m/c^2$",
+      "$E = mc^2$",
+      "$E = hf$"
+    ],
+    "correctAnswer": 2,
+    "explanation": "The most famous equation in physics relates mass and energy as interchangeable forms."
+  },
+  {
+    "question": "The slope of the graph between maximum K.E of photoelectrons and frequency $f$ gives:",
+    "options": [
+      "Work function",
+      "Planck's constant",
+      "Charge of electron",
+      "Threshold frequency"
+    ],
+    "correctAnswer": 1,
+    "explanation": "From $K.E = hf - \\Phi$, the equation is of the form $y = mx + c$, where the slope $m$ is Planck's constant $h$."
+  },
+  {
+    "question": "Compton wavelength of an electron is approximately:",
+    "options": [
+      "$2.43 \\times 10^{-12}$ m",
+      "$2.43 \\times 10^{-10}$ m",
+      "$1.21 \\times 10^{-12}$ m",
+      "$6.63 \\times 10^{-34}$ m"
+    ],
+    "correctAnswer": 0,
+    "explanation": "$\\\\lambda_c = h/m_0c = (6.63 \\times 10^{-34}) / (9.1 \\times 10^{-31} \\times 3 \\times 10^8) \\approx 2.43 \\text{ pm}$."
+  },
+  {
+    "question": "A photon of frequency $f$ has momentum $p$. The relationship is:",
+    "options": [
+      "$p = hf/c$",
+      "$p = h/f$",
+      "$p = hcf$",
+      "$p = hf^2$"
+    ],
+    "correctAnswer": 0,
+    "explanation": "$p = E/c = hf/c$."
+  },
+  {
+    "question": "In the Michelson-Morley experiment, the expected fringe shift due to 'ether wind' was:",
+    "options": [
+      "Observed as predicted",
+      "Not observed (Null result)",
+      "Twice as large",
+      "Variable"
+    ],
+    "correctAnswer": 1,
+    "explanation": "The null result proved that the 'ether' does not exist and the speed of light is the same in all directions."
+  },
+  {
+    "question": "The photoelectric current is proportional to:",
+    "options": [
+      "Frequency of light",
+      "Intensity of light",
+      "Work function",
+      "Stopping potential"
+    ],
+    "correctAnswer": 1,
+    "explanation": "The number of electrons ejected (current) depends on the number of incident photons (intensity), provided $f > f_0$."
+  },
+  {
+    "question": "Which transition in the black body radiation spectrum corresponds to the 'Ultraviolet Catastrophe' in classical physics?",
+    "options": [
+      "Long wavelengths",
+      "Visible region",
+      "Short wavelengths",
+      "Infrared region"
+    ],
+    "correctAnswer": 2,
+    "explanation": "Classical theory predicted that intensity would become infinite at short wavelengths (UV), which contradicted experimental data."
+  },
+  {
+    "question": "The total energy of a relativistic particle is:",
+    "options": [
+      "$K.E + m_0c^2$",
+      "$m_0c^2$",
+      "$1/2 mv^2$",
+      "$mc^2 - m_0c^2$"
+    ],
+    "correctAnswer": 0,
+    "explanation": "Total energy $E$ is the sum of rest mass energy and kinetic energy."
+  },
+  {
+    "question": "Uncertainty principle is applicable to:",
+    "options": [
+      "Macroscopic objects",
+      "Microscopic particles",
+      "Planets",
+      "Only stationary objects"
+    ],
+    "correctAnswer": 1,
+    "explanation": "While theoretically true for all, the uncertainty is only significant for tiny masses like electrons ($h$ is very small)."
+  },
+  {
+    "question": "The wavelength of a $1$ kg ball moving at $10$ m/s is of the order of:",
+    "options": [
+      "$10^{-34}$ m",
+      "$10^{-10}$ m",
+      "$10^{-20}$ m",
+      "$10^{-5}$ m"
+    ],
+    "correctAnswer": 0,
+    "explanation": "$\\lambda = h/mv = 6.63 \\times 10^{-34} / (1 \\times 10) = 6.63 \\times 10^{-35}$ m."
+  },
+  {
+    "question": "If the speed of a particle is $0.99c$, its time dilation factor $\\gamma$ is approx:",
+    "options": [
+      "7",
+      "1.4",
+      "10",
+      "2"
+    ],
+    "correctAnswer": 0,
+    "explanation": "$\\\\gamma = 1 / \\sqrt{1 - (0.99)^2} \\approx 1 / \\sqrt{0.02} \\approx 1 / 0.14 \\approx 7$."
+  },
+  {
+    "question": "An electron and a positron annihilate. The minimum number of photons produced is:",
+    "options": [
+      "1",
+      "2",
+      "3",
+      "4"
+    ],
+    "correctAnswer": 1,
+    "explanation": "To conserve both energy and momentum, at least two photons moving in opposite directions must be produced."
+  },
+  {
+    "question": "What is the frequency of a photon whose energy is $6.63 \\times 10^{-19}$ J?",
+    "options": [
+      "$10^{14}$ Hz",
+      "$10^{15}$ Hz",
+      "$10^{16}$ Hz",
+      "$1.6 \\times 10^{19}$ Hz"
+    ],
+    "correctAnswer": 1,
+    "explanation": "$f = E/h = (6.63 \\times 10^{-19}) / (6.63 \\times 10^{-34}) = 10^{15}$ Hz."
+  },
+  {
+    "question": "As frequency increases, the stopping potential in the photoelectric effect:",
+    "options": [
+      "Decreases",
+      "Remains constant",
+      "Increases",
+      "Becomes zero"
+    ],
+    "correctAnswer": 2,
+    "explanation": "$V_0 = (h/e)f - (\\Phi/e)$. Higher frequency means higher $K.E_{max}$, requiring higher stopping potential."
+  },
+  {
+    "question": "A beam of light is equivalent to a stream of particles called:",
+    "options": [
+      "Electrons",
+      "Photons",
+      "Protons",
+      "Neutrinos"
+    ],
+    "correctAnswer": 1,
+    "explanation": "Light is composed of discrete packets of energy called photons."
+  },
+  {
+    "question": "Which postulate of Special Relativity invalidates the concept of absolute time?",
+    "options": [
+      "First Postulate",
+      "Second Postulate",
+      "Both together",
+      "None"
+    ],
+    "correctAnswer": 2,
+    "explanation": "The consistency of the speed of light combined with the relativity of frames requires that time and space depend on the observer's motion."
+  },
+  {
+    "question": "The De Broglie wavelength of an electron in the first Bohr orbit of hydrogen is equal to:",
+    "options": [
+      "Radius of the orbit",
+      "Circumference of the orbit",
+      "Diameter of the orbit",
+      "Zero"
+    ],
+    "correctAnswer": 1,
+    "explanation": "Bohr's quantization condition $mvr = nh/2\\pi$ is equivalent to saying that the circumference $2\\pi r$ must be an integer multiple of the De Broglie wavelength."
+  },
+  {
+    "question": "The mass of a particle at rest is $m_0$. Its kinetic energy when moving at velocity $v$ is:",
+    "options": [
+      "$1/2 m_0 v^2$",
+      "$(m - m_0)c^2$",
+      "$mc^2$",
+      "$m_0 c^2$"
+    ],
+    "correctAnswer": 1,
+    "explanation": "In relativistic mechanics, $K.E = E_{total} - E_{rest} = mc^2 - m_0c^2$."
+  }
+]

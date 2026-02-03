@@ -1,0 +1,553 @@
+[
+  {
+    "question": "The phenomenon of producing an induced emf in a circuit due to a change in magnetic flux through it is called:",
+    "options": [
+      "Electrostatic Induction",
+      "Electromagnetic Induction",
+      "Mutual Induction",
+      "Self Induction"
+    ],
+    "correctAnswer": 1,
+    "explanation": "Electromagnetic induction is the process where a changing magnetic field creates an electric field (and thus emf) in a conductor."
+  },
+  {
+    "question": "A coil of 100 turns has a magnetic flux changing from 0.5 Wb to 0 in 0.1 seconds. The induced emf is:",
+    "options": [
+      "5 V",
+      "50 V",
+      "500 V",
+      "0.5 V"
+    ],
+    "correctAnswer": 2,
+    "explanation": "$E = N |\\Delta \\Phi / \\Delta t| = 100 \\times |(0 - 0.5) / 0.1| = 100 \\times 5 = 500$ V."
+  },
+  {
+    "question": "Lenz's Law is a consequence of the law of conservation of:",
+    "options": [
+      "Charge",
+      "Momentum",
+      "Energy",
+      "Mass"
+    ],
+    "correctAnswer": 2,
+    "explanation": "Lenz's Law states that the direction of induced current opposes the change causing it. The mechanical work done against this opposition is converted into electrical energy, satisfying conservation of energy."
+  },
+  {
+    "question": "A metal rod of length 1 m moves with a velocity of 2 m/s perpendicular to a uniform magnetic field of 0.5 T. The induced emf across its ends is:",
+    "options": [
+      "1.0 V",
+      "0.5 V",
+      "2.0 V",
+      "0.25 V"
+    ],
+    "correctAnswer": 0,
+    "explanation": "Motional emf $E = vBL = 2 \\times 0.5 \\times 1 = 1.0$ V."
+  },
+  {
+    "question": "The SI unit of mutual inductance is:",
+    "options": [
+      "Weber",
+      "Tesla",
+      "Farad",
+      "Henry"
+    ],
+    "correctAnswer": 3,
+    "explanation": "Mutual inductance ($M$) is measured in Henrys (H), defined as induced emf per unit rate of change of current."
+  },
+  {
+    "question": "If the current in the primary coil changes at a rate of 2 A/s and the mutual inductance between primary and secondary is 0.5 H, the induced emf in the secondary is:",
+    "options": [
+      "1.0 V",
+      "0.5 V",
+      "2.0 V",
+      "4.0 V"
+    ],
+    "correctAnswer": 0,
+    "explanation": "$E_s = M (\\Delta I_p / \\Delta t) = 0.5 \\times 2 = 1.0$ V."
+  },
+  {
+    "question": "Self-inductance of a coil depends on:",
+    "options": [
+      "Current through it",
+      "Geometry and magnetic permeability of the core",
+      "Voltage applied",
+      "Time"
+    ],
+    "correctAnswer": 1,
+    "explanation": "Self-inductance $L = \\mu_0 N^2 A / l$. It depends on physical dimensions (Area $A$, Length $l$, Turns $N$) and the medium's permeability."
+  },
+  {
+    "question": "Energy stored in an inductor of inductance $L$ carrying current $I$ is given by:",
+    "options": [
+      "$LI^2$",
+      "$1/2 L^2 I$",
+      "$1/2 LI^2$",
+      "$1/2 LI$"
+    ],
+    "correctAnswer": 2,
+    "explanation": "The energy stored in the magnetic field of an inductor is $U_m = \\frac{1}{2} LI^2$."
+  },
+  {
+    "question": "An AC generator converts:",
+    "options": [
+      "Electrical energy into mechanical energy",
+      "Heat energy into electrical energy",
+      "Chemical energy into electrical energy",
+      "Mechanical energy into electrical energy"
+    ],
+    "correctAnswer": 3,
+    "explanation": "An AC generator uses mechanical work (rotation of a coil in a magnetic field) to produce electrical energy via electromagnetic induction."
+  },
+  {
+    "question": "The back emf in a DC motor is maximum when:",
+    "options": [
+      "The motor has just started",
+      "The motor is running at maximum speed",
+      "The motor is stationary",
+      "The load is maximum"
+    ],
+    "correctAnswer": 1,
+    "explanation": "Back emf $E_b$ is proportional to angular velocity $\\omega$. Therefore, it is maximum when the motor reaches its maximum speed."
+  },
+  {
+    "question": "A step-up transformer has a turns ratio of 1:10. If the input voltage is 20 V, the output voltage is:",
+    "options": [
+      "2 V",
+      "20 V",
+      "200 V",
+      "100 V"
+    ],
+    "correctAnswer": 2,
+    "explanation": "$V_s/V_p = N_s/N_p$. Here $N_s/N_p = 10/1 = 10$. So $V_s = 10 \\times V_p = 10 \\times 20 = 200$ V."
+  },
+  {
+    "question": "In an ideal transformer, if the voltage is stepped up, the current is:",
+    "options": [
+      "Stepped up",
+      "Stepped down",
+      "Remains constant",
+      "Becomes zero"
+    ],
+    "correctAnswer": 1,
+    "explanation": "For an ideal transformer, Power In = Power Out ($V_p I_p = V_s I_s$). If voltage increases ($V_s > V_p$), current must decrease ($I_s < I_p$).Inversely proportional."
+  },
+  {
+    "question": "Eddy currents are produced when:",
+    "options": [
+      "A metal is kept in a steady magnetic field",
+      "A metal is kept in a varying magnetic field",
+      "A steady current flows through a wire",
+      "Two coils are placed far apart"
+    ],
+    "correctAnswer": 1,
+    "explanation": "Eddy currents are circulating currents induced in bulk conductors when they are exposed to a changing magnetic field."
+  },
+  {
+    "question": "To reduce eddy current losses in a transformer, the core is:",
+    "options": [
+      "Made of solid iron",
+      "Made of copper",
+      "Laminated",
+      "Removed"
+    ],
+    "correctAnswer": 2,
+    "explanation": "Laminating the core (using thin sheets insulated from each other) increases resistance to the path of eddy currents, thereby reducing energy loss."
+  },
+  {
+    "question": "The induced emf in a coil rotating in a magnetic field is sinusoidal. The peak value depends on:",
+    "options": [
+      "Number of turns ($N$)",
+      "Area ($A$) and Magnetic field ($B$)",
+      "Angular velocity ($\\omega$)",
+      "All of the above"
+    ],
+    "correctAnswer": 3,
+    "explanation": "The formula for maximum emf is $\\epsilon_{max} = NAB\\omega$. It depends on all these factors."
+  },
+  {
+    "question": "A solenoid of length 0.5 m and cross-sectional area $2 \\times 10^{-4}$ m$^2$ has 1000 turns. Its self-inductance is ($\\mu_0 = 4\\pi \\times 10^{-7}$):",
+    "options": [
+      "$5.0 \\times 10^{-4}$ H",
+      "$2.5 \\times 10^{-4}$ H",
+      "$1.0 \\times 10^{-3}$ H",
+      "$4\\pi \\times 10^{-5}$ H"
+    ],
+    "correctAnswer": 0,
+    "explanation": "$L = \\mu_0 N^2 A / l = (4\\pi \\times 10^{-7} \\times (10^3)^2 \\times 2 \\times 10^{-4}) / 0.5 = (4\\pi \\times 10^{-7} \\times 10^6 \\times 2 \\times 10^{-4}) / 0.5 = (8\\pi \\times 10^{-5}) / 0.5 = 16\\pi \\times 10^{-5} \\approx 50 \\times 10^{-5} = 5.0 \\times 10^{-4}$ H."
+  },
+  {
+    "question": "If the rate of change of current in a circuit is 1 A/s and the induced emf is 2 V, the self-inductance is:",
+    "options": [
+      "0.5 H",
+      "1 H",
+      "2 H",
+      "4 H"
+    ],
+    "correctAnswer": 2,
+    "explanation": "$L = |E / (\\Delta I / \\Delta t)| = 2 / 1 = 2$ H."
+  },
+  {
+    "question": "Which of the following laws states that the magnitude of induced emf is directly proportional to the rate of change of magnetic flux?",
+    "options": [
+      "Lenz's Law",
+      "Faraday's Law",
+      "Ampere's Law",
+      "Gauss's Law"
+    ],
+    "correctAnswer": 1,
+    "explanation": "This is the statement of Faraday's Law of Electromagnetic Induction."
+  },
+  {
+    "question": "A transformer works on the principle of:",
+    "options": [
+      "Self Induction",
+      "Mutual Induction",
+      "Eddy Currents",
+      "Static Electricity"
+    ],
+    "correctAnswer": 1,
+    "explanation": "A transformer transfers energy between two coils via the magnetic flux generated by one coil linking with the other (Mutual Induction)."
+  },
+  {
+    "question": "The direction of induced current is such that it opposes the cause producing it. This is:",
+    "options": [
+      "Faraday's Law",
+      "Ohm's Law",
+      "Lenz's Law",
+      "Fleming's Left Hand Rule"
+    ],
+    "correctAnswer": 2,
+    "explanation": "Lenz's law specifically deals with the *direction* of the induced current and its opposition to the change in flux."
+  },
+  {
+    "question": "An inductor of 2 H carries a current of 5 A. The energy stored in it is:",
+    "options": [
+      "5 J",
+      "10 J",
+      "25 J",
+      "50 J"
+    ],
+    "correctAnswer": 2,
+    "explanation": "$U = 1/2 LI^2 = 0.5 \\times 2 \\times 5^2 = 25$ J."
+  },
+  {
+    "question": "Energy density in a magnetic field $B$ is given by:",
+    "options": [
+      "$B^2 / \\mu_0$",
+      "$B^2 / 2\\mu_0$",
+      "$\\mu_0 B^2 / 2$",
+      "$B / 2\\mu_0$"
+    ],
+    "correctAnswer": 1,
+    "explanation": "Energy density (energy per unit volume) in a magnetic field is $u_m = \\frac{B^2}{2\\mu_0}$."
+  },
+  {
+    "question": "In a DC motor, the back emf acts to:",
+    "options": [
+      "Increase the armature current",
+      "Oppose the applied voltage",
+      "Aid the applied voltage",
+      "Stop the motor immediately"
+    ],
+    "correctAnswer": 1,
+    "explanation": "Back emf opposes the applied voltage $V$, reducing the net voltage across the armature ($I = (V - E_b)/R$)."
+  },
+  {
+    "question": "If a step-down transformer converts 220 V to 22 V, the turns ratio $N_p/N_s$ is:",
+    "options": [
+      "1:10",
+      "10:1",
+      "1:1",
+      "2:1"
+    ],
+    "correctAnswer": 1,
+    "explanation": "$N_p/N_s = V_p/V_s = 220/22 = 10$. Ratio is 10:1."
+  },
+  {
+    "question": "The core of a transformer is made of soft iron to reduce:",
+    "options": [
+      "Eddy current loss",
+      "Hysteresis loss",
+      "Copper loss",
+      "Flux leakage"
+    ],
+    "correctAnswer": 1,
+    "explanation": "Soft iron has a narrow hysteresis loop, which minimizes the energy lost during the repeated magnetization and demagnetization cycles (Hysteresis loss)."
+  },
+  {
+    "question": "If the rotation speed of a generator is doubled, the peak induced emf will:",
+    "options": [
+      "Remain same",
+      "Be halved",
+      "Double",
+      "Quadruple"
+    ],
+    "correctAnswer": 2,
+    "explanation": "$E_{max} = NAB\\omega$. Since $E \\propto \\omega$, doubling the speed ($\\omega$) doubles the induced emf."
+  },
+  {
+    "question": "A conducting loop is placed in a uniform magnetic field. If the loop is rotated about its diameter, an emf is induced because:",
+    "options": [
+      "The area of the loop changes",
+      "The magnetic field changes",
+      "The orientation of the loop relative to the field changes",
+      "The loop shape changes"
+    ],
+    "correctAnswer": 2,
+    "explanation": "Flux $\\Phi = BA \\cos \\theta$. Rotating the loop changes $\\theta$ (the angle between area vector and field), causing flux change and induction."
+  },
+  {
+    "question": "A straight wire of length $L$ falls with velocity $v$ perpendicular to a horizontal magnetic field $B$. The potential difference induced across its ends is:",
+    "options": [
+      "Zero",
+      "$vBL$",
+      "$vB/L$",
+      "$BL/v$"
+    ],
+    "correctAnswer": 1,
+    "explanation": "This is a standard case of motional emf: $\\epsilon = vBL$."
+  },
+  {
+    "question": "Mutual inductance between two coils is 4 H. If current in one coil changes from 3 A to 2 A in 0.1 s, the emf induced in the other coil is:",
+    "options": [
+      "40 V",
+      "4 V",
+      "10 V",
+      "0.4 V"
+    ],
+    "correctAnswer": 0,
+    "explanation": "$E = -M (\\Delta I / \\Delta t) = -4 \\times (2 - 3) / 0.1 = -4 \\times (-1) / 0.1 = 40$ V."
+  },
+  {
+    "question": "Which of the following is NOT a unit of magnetic flux?",
+    "options": [
+      "Weber",
+      "Tesla-meter$^2$",
+      "Volt-second",
+      "Tesla"
+    ],
+    "correctAnswer": 3,
+    "explanation": "Tesla is the unit of magnetic field strength ($B$), not flux ($\\Phi$). Flux is $B \\times A$, so T-m$^2$ is valid. Since $E = \\Delta \\Phi / t$, Volt-second is also valid."
+  },
+  {
+    "question": "The efficiency of a practical transformer is usually:",
+    "options": [
+      "100%",
+      "50%",
+      "Less than 100%",
+      "Zero"
+    ],
+    "correctAnswer": 2,
+    "explanation": "Practical transformers have losses (copper, iron, flux leakage), so efficiency is always less than 100%, typically 90-99%."
+  },
+  {
+    "question": "If coil A is brought near coil B carrying current, the direction of induced current in B depends on:",
+    "options": [
+      "Only the speed of movement",
+      "Only the magnitude of current in A",
+      "Whether the current in A is increasing or decreasing/approaching or receding",
+      "Only the resistance of B"
+    ],
+    "correctAnswer": 2,
+    "explanation": "According to Lenz's law, the direction depends on the *nature* of the change (flux increasing or decreasing) to oppose it."
+  },
+  {
+    "question": "A 100% efficient transformer has a primary voltage of 220 V and current 2 A. If the secondary voltage is 440 V, the secondary current is:",
+    "options": [
+      "4 A",
+      "1 A",
+      "2 A",
+      "0.5 A"
+    ],
+    "correctAnswer": 1,
+    "explanation": "$V_p I_p = V_s I_s$. $220 \\times 2 = 440 \\times I_s$. $440 = 440 I_s$, so $I_s = 1$ A."
+  },
+  {
+    "question": "The coefficient of mutual inductance is equal to the EMF induced in secondary coil when the rate of change of current in primary coil is:",
+    "options": [
+      "Unity",
+      "Zero",
+      "Infinite",
+      "Maximum"
+    ],
+    "correctAnswer": 0,
+    "explanation": "From $E = M (dI/dt)$, if $dI/dt = 1$ A/s, then $E = M$. Mutual inductance is numerically the emf induced for unit rate of change of current."
+  },
+  {
+    "question": "In an inductor, the current lags behind the voltage by phase angle:",
+    "options": [
+      "$\\pi/4$",
+      "$\\pi/2$",
+      "$\\pi$",
+      "Zero"
+    ],
+    "correctAnswer": 1,
+    "explanation": "In a pure inductive circuit, the induced back emf opposes current change, causing current to lag voltage by $90^\\circ$ or $\\pi/2$."
+  },
+  {
+    "question": "A solenoid with an iron core has a self-inductance compared to an air-core solenoid that is:",
+    "options": [
+      "Less",
+      "Same",
+      "Much larger",
+      "Zero"
+    ],
+    "correctAnswer": 2,
+    "explanation": "Iron has a high relative permeability ($\\mu_r$), which multiplies the inductance ($L = \\mu_r L_0$). Thus, inductance increases significantly."
+  },
+  {
+    "question": "The commutator in a DC generator acts as a:",
+    "options": [
+      "Amplifier",
+      "Rectifier",
+      "Resistor",
+      "Inductor"
+    ],
+    "correctAnswer": 1,
+    "explanation": "A commutator (split ring) reverses the connections to the external circuit every half cycle, converting the internal AC to external unidirectional DC (Rectification)."
+  },
+  {
+    "question": "A square coil of side 10 cm has 10 turns. It rotates in a magnetic field of 0.1 T with a speed of 300 rad/s. The maximum induced emf is:",
+    "options": [
+      "3 V",
+      "30 V",
+      "0.3 V",
+      "300 V"
+    ],
+    "correctAnswer": 0,
+    "explanation": "$Area = 0.1 \\times 0.1 = 0.01$ m$^2$. $E_{max} = NAB\\omega = 10 \\times 0.01 \\times 0.1 \\times 300 = 0.1 \\times 0.1 \\times 300 = 0.01 \\times 300 = 3$ V."
+  },
+  {
+    "question": "Induced emf does NOT depend on:",
+    "options": [
+      "Resistance of the coil",
+      "Rate of change of flux",
+      "Number of turns",
+      "Area of the coil"
+    ],
+    "correctAnswer": 0,
+    "explanation": "Induced *emf* depends on $N d\\Phi/dt$. The *current* depends on resistance ($I=E/R$), but the emf itself is independent of the coil's resistance."
+  },
+  {
+    "question": "A transformer is used to light a 120 W, 24 V lamp from a 240 V AC mains. The current in the mains is:",
+    "options": [
+      "0.5 A",
+      "5 A",
+      "2 A",
+      "0.2 A"
+    ],
+    "correctAnswer": 0,
+    "explanation": "Power is conserved (ideal case). $P_{in} = P_{out} = 120$ W. $V_p I_p = 120$. $240 \\times I_p = 120$. $I_p = 120/240 = 0.5$ A."
+  },
+  {
+    "question": "When a magnet is moved quickly towards a coil, the induced emf is 'e'. If the magnet is moved slowly, the induced emf will be:",
+    "options": [
+      "Greater than e",
+      "Less than e",
+      "Equal to e",
+      "Zero"
+    ],
+    "correctAnswer": 1,
+    "explanation": "Emf is proportional to the rate of change of flux ($d\\Phi/dt$). Moving slowly means a smaller rate of change, so induced emf is less."
+  },
+  {
+    "question": "The dimension of inductance is:",
+    "options": [
+      "$[M L^2 T^{-2} A^{-2}]$",
+      "$[M L^2 T^{-2} A^{-1}]$",
+      "$[M L T^{-2} A^{-2}]$",
+      "$[M L^2 T^{-1} A^{-2}]$"
+    ],
+    "correctAnswer": 0,
+    "explanation": "$Energy = 1/2 LI^2$. $L = 2E/I^2$. Dimensions: $[ML^2T^{-2}] / [A^2] = [ML^2T^{-2}A^{-2}]$."
+  },
+  {
+    "question": "Two coils are placed close to each other. The mutual inductance between them depends on:",
+    "options": [
+      "The material of wires",
+      "The currents in the coils",
+      "Their relative orientation and separation",
+      "The resistance of the coils"
+    ],
+    "correctAnswer": 2,
+    "explanation": "Mutual inductance depends heavily on flux linkage, which is determined by how close the coils are and how they are oriented (coupling coefficient)."
+  },
+  {
+    "question": "A coil has an area of 0.05 m$^2$ and 50 turns. The magnetic field perpendicular to the coil changes from 0.1 T to 0.3 T in 0.05 s. The induced emf is:",
+    "options": [
+      "10 V",
+      "20 V",
+      "2 V",
+      "0.2 V"
+    ],
+    "correctAnswer": 0,
+    "explanation": "$E = N A (dB/dt) = 50 \\times 0.05 \\times (0.3 - 0.1) / 0.05 = 50 \\times 0.2 = 10$ V."
+  },
+  {
+    "question": "In an AC generator, the current changes direction:",
+    "options": [
+      "Once per revolution",
+      "Twice per revolution",
+      "Four times per revolution",
+      "Never"
+    ],
+    "correctAnswer": 1,
+    "explanation": "In one complete rotation ($360^\\circ$), the coil passes the vertical position twice, reversing the direction of current flow each time (every $180^\\circ$)."
+  },
+  {
+    "question": "The primary winding of a transformer has 500 turns and secondary has 5000 turns. If primary is connected to 220 V DC battery, the secondary voltage is:",
+    "options": [
+      "2200 V",
+      "22 V",
+      "Zero",
+      "220 V"
+    ],
+    "correctAnswer": 2,
+    "explanation": "Transformers work only with changing flux (AC). A DC battery provides constant current, so flux is constant, $d\\Phi/dt = 0$, and induced voltage is zero."
+  },
+  {
+    "question": "Which quantity remains unchanged in an ideal transformer?",
+    "options": [
+      "Current",
+      "Voltage",
+      "Power",
+      "Frequency"
+    ],
+    "correctAnswer": 2,
+    "explanation": "An ideal transformer transfers energy without loss, so Input Power = Output Power. (Frequency also remains unchanged, but Power is the primary conserved quantity in efficiency contexts)."
+  },
+  {
+    "question": "Self-induction is also known as:",
+    "options": [
+      "Electrical Stiffness",
+      "Electrical Inertia",
+      "Electrical Friction",
+      "Electrical Capacity"
+    ],
+    "correctAnswer": 1,
+    "explanation": "Inductance opposes changes in current, similar to how mass (inertia) opposes changes in velocity. Hence, it is called electrical inertia."
+  },
+  {
+    "question": "A plane coil of 10 turns is tightly wound. If the radius is doubled, the self-inductance (assuming solenoid approximation holds) roughly:",
+    "options": [
+      "Doubles",
+      "Halves",
+      "Quadruples",
+      "Remains same"
+    ],
+    "correctAnswer": 2,
+    "explanation": "$L \\propto Area \\propto r^2$. If radius is doubled, area becomes 4 times, so inductance quadruples."
+  },
+  {
+    "question": "The magnitude of induced emf is maximum when the plane of the coil is at an angle of ____ to the magnetic field.",
+    "options": [
+      "$0^\\circ$",
+      "$90^\\circ$",
+      "$45^\\circ$",
+      "$180^\\circ$"
+    ],
+    "correctAnswer": 0,
+    "explanation": "Induced emf $E = NAB\\omega \\sin(\\omega t)$. The angle in formula is $\\omega t$ (angle between normal and field). When plane is parallel to field (angle $0^\\circ$ with field, normal is $90^\\circ$), flux change is max. Wait, re-read. If plane is parallel to field, flux is zero but rate of change is max. Let's trace formula: $\\Phi = BA \\cos \\theta$ ($\\\\theta$ is angle between NORMAL and field). Emf is proportional to $\\sin \\theta$. Max emf when $\\sin \\theta = 1$, so $\\theta = 90^\\circ$. This means NORMAL is perpendicular to field -> Plane is PARALLEL ($0^\\circ$) to field. Correct answer logic: Angle of *plane* with field is $0^\\circ$."
+  }
+]
+

@@ -1,0 +1,552 @@
+[
+  {
+    "question": "The flow of charge through any cross-sectional area of a conductor per unit time is known as:",
+    "options": [
+      "Electric Potential",
+      "Electric Current",
+      "Electric Field",
+      "Resistance"
+    ],
+    "correctAnswer": 1,
+    "explanation": "Electric current ($I$) is defined as the rate of flow of charge: $I = \\Delta Q / \\Delta t$. Its unit is the Ampere."
+  },
+  {
+    "question": "The steady flow of current where magnitude and direction do not change with time is called:",
+    "options": [
+      "Direct Current (DC)",
+      "Alternating Current (AC)",
+      "Eddy Current",
+      "Displacement Current"
+    ],
+    "correctAnswer": 0,
+    "explanation": "Direct Current (DC) is characterized by a unidirectional flow of electric charge with constant magnitude."
+  },
+  {
+    "question": "Drift velocity of electrons in a conductor is of the order of:",
+    "options": [
+      "$10^6$ m/s",
+      "$10^{-3}$ m/s",
+      "$3 \\times 10^8$ m/s",
+      "$10^3$ m/s"
+    ],
+    "correctAnswer": 1,
+    "explanation": "Drift velocity is very small, typically a few millimeters per second ($10^{-3}$ to $10^{-4}$ m/s), unlike the thermal velocity which is very high."
+  },
+  {
+    "question": "Ohm's Law is valid only if:",
+    "options": [
+      "Temperature and physical state of the conductor change",
+      "Voltage remains constant",
+      "Current remains constant",
+      "Temperature and physical state of the conductor remain constant"
+    ],
+    "correctAnswer": 3,
+    "explanation": "Ohm's Law ($V=IR$) holds true only when the physical conditions like temperature and dimensions of the conductor remain unchanged."
+  },
+  {
+    "question": "Which of the following is a non-Ohmic conductor?",
+    "options": [
+      "Filament bulb",
+      "Copper wire",
+      "Silver wire",
+      "Aluminum rod"
+    ],
+    "correctAnswer": 0,
+    "explanation": "A filament bulb is non-Ohmic because its resistance increases significantly as it heats up, causing the V-I graph to deviate from a straight line."
+  },
+  {
+    "question": "The resistance of a conductor depends on:",
+    "options": [
+      "Length only",
+      "Area of cross-section only",
+      "Dimensions and nature of material",
+      "Color of the material"
+    ],
+    "correctAnswer": 2,
+    "explanation": "Resistance is given by $R = \\rho L/A$. It depends on the length ($L$), area ($A$), and resistivity ($\\rho$, nature of material)."
+  },
+  {
+    "question": "The reciprocal of resistivity is called:",
+    "options": [
+      "Conductance",
+      "Resistance",
+      "Impedance",
+      "Conductivity"
+    ],
+    "correctAnswer": 3,
+    "explanation": "Conductivity ($\\sigma$) is the inverse of resistivity ($\\rho$). $\\sigma = 1/\\rho$. Its unit is $(\\Omega \\cdot m)^{-1}$."
+  },
+  {
+    "question": "If the length of a wire is doubled and its cross-sectional area is halved, its resistance becomes:",
+    "options": [
+      "Double",
+      "Four times",
+      "Half",
+      "One-fourth"
+    ],
+    "correctAnswer": 1,
+    "explanation": "$R = \\rho L/A$. New resistance $R' = \\rho (2L)/(A/2) = 4 (\\rho L/A) = 4R$."
+  },
+  {
+    "question": "The temperature coefficient of resistance ($\\alpha$) is defined as the fractional change in resistance per:",
+    "options": [
+      "Unit time",
+      "Unit change in potential",
+      "Kelvin change in temperature",
+      "Unit length"
+    ],
+    "correctAnswer": 2,
+    "explanation": "$\\alpha = \\frac{\\Delta R}{R_0 \\Delta T}$. It represents the change in resistance per unit original resistance per degree change in temperature."
+  },
+  {
+    "question": "Materials that have negative temperature coefficient of resistance are typically:",
+    "options": [
+      "Metals",
+      "Insulators",
+      "Semiconductors",
+      "Superconductors"
+    ],
+    "correctAnswer": 2,
+    "explanation": "In semiconductors (like Si, Ge), resistance decreases as temperature increases because more charge carriers are freed, leading to a negative $\\alpha$."
+  },
+  {
+    "question": "In the color code for carbon resistors, the first two bands represent:",
+    "options": [
+      "Multiplier",
+      "Tolerance",
+      "Significant figures",
+      "Power rating"
+    ],
+    "correctAnswer": 2,
+    "explanation": "The first two color bands indicate the first two significant digits of the resistance value."
+  },
+  {
+    "question": "A resistor has color bands Red, Red, Red, Gold. Its resistance is:",
+    "options": [
+      "$2200 \\Omega \\pm 5\\%$",
+      "$220 \\Omega \\pm 10\\%$",
+      "$22 k\\Omega \\pm 5\\%$",
+      "$2.2 k\\Omega \\pm 10\\%$"
+    ],
+    "correctAnswer": 0,
+    "explanation": "Red=2, Red=2 (Digits: 22). Third band Red = $10^2$ (Multiplier). Gold = $\\pm 5\\%$. Value: $22 \\times 100 = 2200 \\Omega$."
+  },
+  {
+    "question": "The tolerance represented by a silver band is:",
+    "options": [
+      "$5\\%$",
+      "$20\\%$",
+      "$1\\%$",
+      "$10\\%$"
+    ],
+    "correctAnswer": 3,
+    "explanation": "Gold represents $\\pm 5\\%$, Silver represents $\\pm 10\\%$, and no fourth band represents $\\pm 20\\%$ tolerance."
+  },
+  {
+    "question": "Three resistors of $2 \\Omega$, $3 \\Omega$, and $6 \\Omega$ are connected in parallel. The equivalent resistance is:",
+    "options": [
+      "$11 \\Omega$",
+      "$1 \\Omega$",
+      "$0.5 \\Omega$",
+      "$6 \\Omega$"
+    ],
+    "correctAnswer": 1,
+    "explanation": "$\\frac{1}{R_{eq}} = \\frac{1}{2} + \\frac{1}{3} + \\frac{1}{6} = \\frac{3+2+1}{6} = \\frac{6}{6} = 1$. Thus $R_{eq} = 1 \\Omega$."
+  },
+  {
+    "question": "In a series circuit, the quantity that remains the same across all components is:",
+    "options": [
+      "Current",
+      "Voltage",
+      "Power",
+      "Heat"
+    ],
+    "correctAnswer": 0,
+    "explanation": "In a series circuit, there is only one path for charge to flow, so the current ($I$) is the same through every component."
+  },
+  {
+    "question": "The electrical energy dissipated as heat in a resistor is given by Joule's Law as:",
+    "options": [
+      "$W = I^2 R t$",
+      "$W = V^2 R t$",
+      "$W = I R^2 t$",
+      "$W = V I / t$"
+    ],
+    "correctAnswer": 0,
+    "explanation": "Joule's heating effect formula is $H = W = I^2 R t$, derived from $W = VIt$ using $V=IR$."
+  },
+  {
+    "question": "Electromotive force (EMF) is defined as the:",
+    "options": [
+      "Force exerted by the battery on electrons",
+      "Work done by non-electrostatic forces per unit charge",
+      "Maximum current drawn from a battery",
+      "Internal resistance of the cell"
+    ],
+    "correctAnswer": 1,
+    "explanation": "EMF ($E$) is the energy supplied per unit charge by the source (battery) to move charge through the complete circuit. It is not a force in Newtons."
+  },
+  {
+    "question": "The terminal potential difference ($V_t$) of a cell is equal to its EMF ($E$) when:",
+    "options": [
+      "The circuit is closed and current flows",
+      "The internal resistance is infinite",
+      "The circuit is open (no current flows)",
+      "The external resistance is zero"
+    ],
+    "correctAnswer": 2,
+    "explanation": "$V_t = E - Ir$. If the circuit is open, current $I = 0$, so $V_t = E$."
+  },
+  {
+    "question": "Kirchhoff's Current Law (KCL) is based on the principle of conservation of:",
+    "options": [
+      "Energy",
+      "Momentum",
+      "Mass",
+      "Charge"
+    ],
+    "correctAnswer": 3,
+    "explanation": "KCL states $\\sum I_{in} = \\sum I_{out}$, which implies that charge cannot accumulate at a node, reflecting conservation of charge."
+  },
+  {
+    "question": "Kirchhoff's Voltage Law (KVL) states that the algebraic sum of voltage changes in a closed loop is:",
+    "options": [
+      "Zero",
+      "Equal to the current",
+      "Infinite",
+      "Equal to total resistance"
+    ],
+    "correctAnswer": 0,
+    "explanation": "KVL states $\\sum V = 0$ in a closed loop, which is a manifestation of the conservation of energy."
+  },
+  {
+    "question": "A Wheatstone bridge is said to be balanced when:",
+    "options": [
+      "Current flows through the galvanometer",
+      "No current flows through the galvanometer",
+      "Voltage across all resistors is equal",
+      "All resistance values are equal"
+    ],
+    "correctAnswer": 1,
+    "explanation": "The bridge is balanced when the potential at the galvanometer terminals is equal, resulting in zero current through the galvanometer ($I_g = 0$)."
+  },
+  {
+    "question": "The condition for a balanced Wheatstone bridge with resistors $R_1, R_2, R_3, R_4$ is:",
+    "options": [
+      "$R_1 + R_2 = R_3 + R_4$",
+      "$R_1 R_3 = R_2 R_4$",
+      "$R_1 / R_2 = R_3 / R_4$",
+      "$R_1 - R_2 = R_3 - R_4$"
+    ],
+    "correctAnswer": 2,
+    "explanation": "For a balanced bridge, the ratio of resistances in opposite arms (or adjacent arms depending on notation) must be equal: $R_1/R_2 = R_3/R_4$."
+  },
+  {
+    "question": "A potentiometer is superior to a voltmeter for measuring EMF because:",
+    "options": [
+      "It draws no current from the source at the balance point",
+      "It is cheaper",
+      "It is smaller in size",
+      "It has low internal resistance"
+    ],
+    "correctAnswer": 0,
+    "explanation": "A voltmeter draws some current to deflect its needle, slightly lowering the voltage. A potentiometer measures at a null point (zero current), giving the true EMF."
+  },
+  {
+    "question": "The principle of a potentiometer is based on the fact that for a uniform wire, potential drop is proportional to:",
+    "options": [
+      "Area",
+      "Length",
+      "Temperature",
+      "Radius"
+    ],
+    "correctAnswer": 1,
+    "explanation": "For a uniform wire carrying constant current, $V \\propto L$. The potential drop across any segment is directly proportional to its length."
+  },
+  {
+    "question": "Power dissipated in a resistor is given by $P = V^2 / R$. If voltage is doubled, power becomes:",
+    "options": [
+      "Two times",
+      "Half",
+      "Four times",
+      "Eight times"
+    ],
+    "correctAnswer": 2,
+    "explanation": "$P \\propto V^2$. If $V$ becomes $2V$, then $P' = (2V)^2/R = 4 (V^2/R) = 4P$."
+  },
+  {
+    "question": "One Kilowatt-hour (kWh) is equal to:",
+    "options": [
+      "$3.6 \\times 10^5$ J",
+      "$3.6 \\times 10^3$ J",
+      "$3.6 \\times 10^4$ J",
+      "$3.6 \\times 10^6$ J"
+    ],
+    "correctAnswer": 3,
+    "explanation": "$1 \\text{ kWh} = 1000 \\text{ W} \\times 3600 \\text{ s} = 3,600,000 \\text{ J} = 3.6 \\times 10^6 \\text{ J}$."
+  },
+  {
+    "question": "The SI unit of conductance is:",
+    "options": [
+      "Siemens (S)",
+      "Ohm ($\\Omega$)",
+      "Volt (V)",
+      "Henry (H)"
+    ],
+    "correctAnswer": 0,
+    "explanation": "Conductance is the reciprocal of resistance ($G=1/R$). Its unit is Siemens ($S$) or Mho ($\\mho$)."
+  },
+  {
+    "question": "If two identical batteries of EMF $E$ are connected in parallel, the net EMF is:",
+    "options": [
+      "$2E$",
+      "$E$",
+      "$E/2$",
+      "Zero"
+    ],
+    "correctAnswer": 1,
+    "explanation": "In parallel combination of identical cells, the potential difference across the terminals remains the same as that of a single cell, which is $E$."
+  },
+  {
+    "question": "Maximum power is transferred from a source to a load when the load resistance ($R$) equals:",
+    "options": [
+      "Zero",
+      "Infinite",
+      "Internal resistance ($r$)",
+      "Half the internal resistance"
+    ],
+    "correctAnswer": 2,
+    "explanation": "According to the Maximum Power Transfer Theorem, power delivered is maximum when external load resistance equals the internal resistance of the source ($R=r$)."
+  },
+  {
+    "question": "A thermistor is a heat-sensitive resistor whose resistance:",
+    "options": [
+      "Always increases with temperature",
+      "Always remains constant",
+      "Usually decreases with temperature",
+      "Becomes zero at $0^{\\circ}$C"
+    ],
+    "correctAnswer": 2,
+    "explanation": "Thermistors (NTC type) typically have a negative temperature coefficient, meaning their resistance decreases rapidly as temperature rises."
+  },
+  {
+    "question": "The resistivity of a wire depends on:",
+    "options": [
+      "Its length",
+      "Its cross-sectional area",
+      "Its shape",
+      "The material and temperature"
+    ],
+    "correctAnswer": 3,
+    "explanation": "Resistivity ($\\rho$) is an intrinsic property of the material and changes with temperature, but does not depend on the wire's geometry ($L$ or $A$)."
+  },
+  {
+    "question": "An ideal voltmeter should have:",
+    "options": [
+      "Infinite resistance",
+      "Zero resistance",
+      "Very low resistance",
+      "Resistance equal to the circuit"
+    ],
+    "correctAnswer": 0,
+    "explanation": "An ideal voltmeter should draw no current from the circuit so as not to disturb the voltage being measured, which requires infinite resistance."
+  },
+  {
+    "question": "An ideal ammeter should have:",
+    "options": [
+      "Infinite resistance",
+      "Zero resistance",
+      "High resistance",
+      "100 $\\Omega$ resistance"
+    ],
+    "correctAnswer": 1,
+    "explanation": "An ammeter is connected in series. To prevent it from dropping voltage and affecting the circuit current, it should ideally have zero resistance."
+  },
+  {
+    "question": "Which effect of current is utilized in an electric iron?",
+    "options": [
+      "Magnetic effect",
+      "Chemical effect",
+      "Heating effect",
+      "Nuclear effect"
+    ],
+    "correctAnswer": 2,
+    "explanation": "An electric iron works on the principle of Joule heating, where electrical energy is converted into heat energy as current passes through a high-resistance element."
+  },
+  {
+    "question": "The graphical relation between voltage ($V$) and current ($I$) for an Ohmic conductor is a:",
+    "options": [
+      "Curve",
+      "Circle",
+      "Parabola",
+      "Straight line passing through origin"
+    ],
+    "correctAnswer": 3,
+    "explanation": "For Ohmic conductors, $V \\propto I$, so the graph is a straight line with a constant slope ($R$)."
+  },
+  {
+    "question": "Internal resistance of a cell is caused by:",
+    "options": [
+      "The electrolyte and electrodes",
+      "The outer casing",
+      "The connecting wires",
+      "The external load"
+    ],
+    "correctAnswer": 0,
+    "explanation": "Internal resistance arises from the resistance offered by the electrolyte and electrodes to the flow of ions inside the cell."
+  },
+  {
+    "question": "If a wire is stretched to double its length, its new resistance will be:",
+    "options": [
+      "2 times",
+      "4 times",
+      "8 times",
+      "Same"
+    ],
+    "correctAnswer": 1,
+    "explanation": "When stretched, volume ($AL$) is constant. If $L$ doubles, $A$ halves. $R' = \\rho (2L)/(A/2) = 4 (\\rho L/A) = 4R$."
+  },
+  {
+    "question": "The unit of electromotive force (EMF) is:",
+    "options": [
+      "Newton",
+      "Joule",
+      "Volt",
+      "Ampere"
+    ],
+    "correctAnswer": 2,
+    "explanation": "Despite the name 'force', EMF is a potential difference (energy per unit charge) and is measured in Volts."
+  },
+  {
+    "question": "Specific resistance is another name for:",
+    "options": [
+      "Conductance",
+      "Resistivity",
+      "Conductivity",
+      "Resistance"
+    ],
+    "correctAnswer": 1,
+    "explanation": "Specific resistance is the older term for resistivity ($\\rho$), defined as the resistance of a unit cube of material."
+  },
+  {
+    "question": "Current flowing from positive to negative terminal outside the source is called:",
+    "options": [
+      "Electronic current",
+      "Conventional current",
+      "Proton current",
+      "Neutron current"
+    ],
+    "correctAnswer": 1,
+    "explanation": "Conventional current is defined as the flow of positive charge (High to Low potential), opposite to actual electron flow."
+  },
+  {
+    "question": "When resistors are connected in parallel, the equivalent resistance is always:",
+    "options": [
+      "Greater than the largest resistor",
+      "Equal to the sum of resistors",
+      "Less than the smallest resistor",
+      "Average of the resistors"
+    ],
+    "correctAnswer": 2,
+    "explanation": "Adding paths in parallel reduces the overall opposition to current, making the total resistance lower than any individual branch."
+  },
+  {
+    "question": "In a potentiometer experiment, the balancing length is $l$. If the length of the potentiometer wire is doubled, the new balancing length will:",
+    "options": [
+      "Halve",
+      "Remain same",
+      "Double",
+      "Become four times"
+    ],
+    "correctAnswer": 2,
+    "explanation": "If the wire length is doubled (assuming same source voltage), the potential gradient ($V/L$) halves. To balance the same EMF, the length required must double."
+  },
+  {
+    "question": "The commercial unit of electrical energy is:",
+    "options": [
+      "Watt",
+      "Kilowatt",
+      "Joule",
+      "Kilowatt-hour (kWh)"
+    ],
+    "correctAnswer": 3,
+    "explanation": "Electricity bills are calculated in 'units', where 1 unit = 1 kWh."
+  },
+  {
+    "question": "Ohm's Law is NOT applicable to:",
+    "options": [
+      "Diodes",
+      "Resistors",
+      "Metallic conductors",
+      "Silver"
+    ],
+    "correctAnswer": 0,
+    "explanation": "Diodes are semiconductor devices with non-linear V-I characteristics; they do not obey $V=IR$ in a linear fashion."
+  },
+  {
+    "question": "A $100$ W, $200$ V bulb is connected to a $100$ V supply. The power consumed will be:",
+    "options": [
+      "100 W",
+      "50 W",
+      "25 W",
+      "200 W"
+    ],
+    "correctAnswer": 2,
+    "explanation": "$R = V^2/P = 200^2/100 = 400 \\Omega$. At $100$ V, $P' = V'^2/R = 100^2/400 = 10000/400 = 25$ W."
+  },
+  {
+    "question": "The algebraic sum of currents meeting at a junction is zero. This is:",
+    "options": [
+      "Kirchhoff's 1st Law",
+      "Kirchhoff's 2nd Law",
+      "Faraday's Law",
+      "Ampere's Law"
+    ],
+    "correctAnswer": 0,
+    "explanation": "Kirchhoff's 1st Law (Current Law) states $\\sum I = 0$ at any node."
+  },
+  {
+    "question": "Conductivity of a superconductor at critical temperature is:",
+    "options": [
+      "Zero",
+      "Infinite",
+      "Small",
+      "Unity"
+    ],
+    "correctAnswer": 1,
+    "explanation": "At the critical temperature, resistance drops to zero. Since conductivity $\\sigma = 1/R$, it becomes infinite."
+  },
+  {
+    "question": "If $2$ A current flows through a $10 \\Omega$ resistor for $5$ seconds, the heat generated is:",
+    "options": [
+      "100 J",
+      "50 J",
+      "200 J",
+      "20 J"
+    ],
+    "correctAnswer": 2,
+    "explanation": "$H = I^2 R t = (2^2) \\times 10 \\times 5 = 4 \\times 50 = 200$ J."
+  },
+  {
+    "question": "The terminal potential difference of a battery is greater than its EMF when:",
+    "options": [
+      "It is being discharged",
+      "It is open circuit",
+      "It is being charged",
+      "Never"
+    ],
+    "correctAnswer": 2,
+    "explanation": "During charging, current is forced into the positive terminal. $V = E + Ir$, making the terminal voltage greater than the EMF."
+  },
+  {
+    "question": "Rheostat can be used as:",
+    "options": [
+      "Variable resistor only",
+      "Potential divider only",
+      "Switch",
+      "Both variable resistor and potential divider"
+    ],
+    "correctAnswer": 3,
+    "explanation": "A rheostat has three terminals. Using two makes it a variable resistor; using all three makes it a potential divider."
+  }
+]

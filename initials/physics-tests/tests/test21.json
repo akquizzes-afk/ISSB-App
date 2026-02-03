@@ -1,0 +1,553 @@
+[
+  {
+    "question": "Two point charges $+4q$ and $+q$ are placed 30 cm apart. At what point on the line joining them is the electric field intensity zero?",
+    "options": [
+      "10 cm from $+q$",
+      "20 cm from $+q$",
+      "15 cm from $+4q$",
+      "10 cm from $+4q$"
+    ],
+    "correctAnswer": 0,
+    "explanation": "For the field to be zero, $E_1 = E_2$. So, $k(4q)/x^2 = kq/(30-x)^2$. Taking square roots: $2/x = 1/(30-x)$. $60 - 2x = x \\implies 3x = 60 \\implies x = 20$ cm from $+4q$, which is $10$ cm from $+q$."
+  },
+  {
+    "question": "A dielectric slab is introduced between the plates of an isolated charged capacitor. Which of the following quantities remains unchanged?",
+    "options": [
+      "Capacitance",
+      "Electric field",
+      "Charge",
+      "Potential energy"
+    ],
+    "correctAnswer": 2,
+    "explanation": "Since the capacitor is 'isolated' (disconnected from the battery), the charge $Q$ has no path to leave or enter, so it remains constant."
+  },
+  {
+    "question": "The resistance of a wire is $10 \\Omega$ at $0^\\circ$C and $15 \\Omega$ at $100^\\circ$C. The temperature coefficient of resistance is:",
+    "options": [
+      "$0.005 \\text{ K}^{-1}$",
+      "$0.05 \\text{ K}^{-1}$",
+      "$0.01 \\text{ K}^{-1}$",
+      "$0.001 \\text{ K}^{-1}$"
+    ],
+    "correctAnswer": 0,
+    "explanation": "$\\alpha = (R_t - R_0) / (R_0 \\Delta T) = (15 - 10) / (10 \\times 100) = 5 / 1000 = 0.005 \\text{ K}^{-1}$."
+  },
+  {
+    "question": "According to Kirchhoff's Second Law, the algebraic sum of products of current and resistance plus the algebraic sum of emfs in a closed loop is zero. This is a consequence of:",
+    "options": [
+      "Conservation of charge",
+      "Conservation of momentum",
+      "Conservation of energy",
+      "Conservation of mass"
+    ],
+    "correctAnswer": 2,
+    "explanation": "Kirchhoff's Voltage Law (Loop Rule) is essentially an application of the law of conservation of energy to an electric circuit."
+  },
+  {
+    "question": "A charged particle moves in a region where an electric field $E$ and magnetic field $B$ are perpendicular to each other. The particle moves undeflected. Its velocity must be:",
+    "options": [
+      "$E \\times B$",
+      "$B/E$",
+      "$E/B$",
+      "$\\sqrt{E/B}$"
+    ],
+    "correctAnswer": 2,
+    "explanation": "In a velocity selector, the electric force $qE$ balances the magnetic force $qvB$. Thus, $v = E/B$."
+  },
+  {
+    "question": "The magnetic moment of a circular loop of radius $r$ carrying current $I$ is $M$. If the radius is doubled and current is halved, the new magnetic moment is:",
+    "options": [
+      "$M$",
+      "$2M$",
+      "$4M$",
+      "$M/2$"
+    ],
+    "correctAnswer": 1,
+    "explanation": "$M = IA = I(\\pi r^2)$. New moment $M' = (I/2) \\times \\pi(2r)^2 = (I/2) \\times 4\\pi r^2 = 2 I\\pi r^2 = 2M$."
+  },
+  {
+    "question": "A toroid has $N$ turns and carrying current $I$. The magnetic field inside the core of the toroid is given by:",
+    "options": [
+      "$\\mu_0 n I$ where $n=N/(2\\pi r)$",
+      "$\\mu_0 N I$",
+      "$\\mu_0 I / (2\\pi r)$",
+      "Zero"
+    ],
+    "correctAnswer": 0,
+    "explanation": "For a toroid, the field is uniform inside the coil and given by $B = \\mu_0 n I$, where $n$ is the number of turns per unit length (circumference $2\\pi r$)."
+  },
+  {
+    "question": "Lenz's law determines the ______ of the induced emf.",
+    "options": [
+      "Magnitude",
+      "Direction",
+      "Phase",
+      "Frequency"
+    ],
+    "correctAnswer": 1,
+    "explanation": "Lenz's law specifically provides the direction of the induced emf and current, ensuring they oppose the change in flux."
+  },
+  {
+    "question": "A coil of self-inductance $2$ H carries a current that decreases from $4$ A to $0$ A in $0.1$ s. The average induced emf is:",
+    "options": [
+      "80 V",
+      "40 V",
+      "20 V",
+      "8 V"
+    ],
+    "correctAnswer": 0,
+    "explanation": "$E = -L (dI/dt) = -2 \\times (0 - 4) / 0.1 = 8 / 0.1 = 80$ V."
+  },
+  {
+    "question": "In a transformer, the energy is transferred from the primary to the secondary through:",
+    "options": [
+      "Electric field",
+      "Magnetic flux",
+      "Conduction",
+      "Heating"
+    ],
+    "correctAnswer": 1,
+    "explanation": "Transformers work on the principle of mutual induction, where the varying magnetic flux of the primary links with the secondary."
+  },
+  {
+    "question": "The peak value of an AC current is $10$ A. Its value after $1/600$ s starting from zero (frequency $50$ Hz) is:",
+    "options": [
+      "5 A",
+      "7.07 A",
+      "8.66 A",
+      "10 A"
+    ],
+    "correctAnswer": 0,
+    "explanation": "$I = I_0 \\sin(\\omega t) = 10 \\sin(2\\pi \\times 50 \\times 1/600) = 10 \\sin(\\pi/6) = 10 \\times 0.5 = 5$ A."
+  },
+  {
+    "question": "A pure capacitor connected to an AC source has a power factor of:",
+    "options": [
+      "1",
+      "0",
+      "0.5",
+      "0.707"
+    ],
+    "correctAnswer": 1,
+    "explanation": "In a pure capacitor, the phase difference $\\phi$ is $90^\\circ$. Power factor $= \\cos(90^\\circ) = 0$."
+  },
+  {
+    "question": "The area of the hysteresis loop for a material is a measure of:",
+    "options": [
+      "Retentivity",
+      "Coercivity",
+      "Energy loss per cycle",
+      "Permeability"
+    ],
+    "correctAnswer": 2,
+    "explanation": "The area enclosed by the hysteresis curve represents the magnetic energy dissipated as heat per unit volume per cycle."
+  },
+  {
+    "question": "Semiconductors have a ______ temperature coefficient of resistance.",
+    "options": [
+      "Positive",
+      "Zero",
+      "Negative",
+      "Infinite"
+    ],
+    "correctAnswer": 2,
+    "explanation": "As temperature increases, more covalent bonds break in semiconductors, increasing the number of carriers and decreasing resistance."
+  },
+  {
+    "question": "In a full-wave rectifier, if the input frequency is $50$ Hz, the output ripple frequency is:",
+    "options": [
+      "25 Hz",
+      "50 Hz",
+      "100 Hz",
+      "200 Hz"
+    ],
+    "correctAnswer": 2,
+    "explanation": "In full-wave rectification, both halves of the cycle are moved to the same side, doubling the frequency of the pulses."
+  },
+  {
+    "question": "The Boolean expression for an XNOR gate is:",
+    "options": [
+      "$A \\cdot B + \\bar{A} \\cdot \\bar{B}$",
+      "$A \\cdot \\bar{B} + \\bar{A} \\cdot B$",
+      "$\\overline{A+B}$",
+      "$\\overline{A \\cdot B}$"
+    ],
+    "correctAnswer": 0,
+    "explanation": "XNOR is the complement of XOR. It gives a HIGH output when both inputs are the same ($1,1$ or $0,0$)."
+  },
+  {
+    "question": "A transistor is said to be in 'saturation' when:",
+    "options": [
+      "Both junctions are forward biased",
+      "Both junctions are reverse biased",
+      "EB is forward and CB is reverse biased",
+      "EB is reverse and CB is forward biased"
+    ],
+    "correctAnswer": 0,
+    "explanation": "In saturation, the transistor acts as a closed switch, and current is at its maximum limit."
+  },
+  {
+    "question": "According to the principle of Special Relativity, which of the following is absolute?",
+    "options": [
+      "Time",
+      "Mass",
+      "Speed of light in vacuum",
+      "Length"
+    ],
+    "correctAnswer": 2,
+    "explanation": "The second postulate states that the speed of light is the same for all observers, regardless of their motion."
+  },
+  {
+    "question": "The momentum of a photon is given by $p = h/\\lambda$. This implies that photons behave like particles with:",
+    "options": [
+      "Zero rest mass",
+      "Infinite mass",
+      "Charge $+e$",
+      "Imaginary mass"
+    ],
+    "correctAnswer": 0,
+    "explanation": "Photons have energy and momentum but no rest mass; they exist only while moving at speed $c$."
+  },
+  {
+    "question": "The De Broglie wavelength of an object of mass $1$ mg moving with velocity $10$ m/s is:",
+    "options": [
+      "$6.63 \\times 10^{-29}$ m",
+      "$6.63 \\times 10^{-32}$ m",
+      "$6.63 \\times 10^{-34}$ m",
+      "$6.63 \\times 10^{-26}$ m"
+    ],
+    "correctAnswer": 0,
+    "explanation": "$\\lambda = h/mv = 6.63 \\times 10^{-34} / (10^{-6} \\times 10) = 6.63 \\times 10^{-29}$ m."
+  },
+  {
+    "question": "In the Balmer series of Hydrogen, the longest wavelength corresponds to the transition:",
+    "options": [
+      "$n=2 \\to n=1$",
+      "$n=3 \\to n=2$",
+      "$n= \\infty \\to n=2$",
+      "$n=4 \\to n=2$"
+    ],
+    "correctAnswer": 1,
+    "explanation": "Longest wavelength means smallest energy transition. In Balmer series (ending at $n=2$), the smallest jump is from $n=3$ ($H_\\alpha$ line)."
+  },
+  {
+    "question": "Production of X-rays is the inverse process of:",
+    "options": [
+      "Compton effect",
+      "Photoelectric effect",
+      "Pair production",
+      "Annihilation"
+    ],
+    "correctAnswer": 1,
+    "explanation": "In the photoelectric effect, light produces electricity (electrons); in X-ray tubes, fast electrons produce light (X-rays)."
+  },
+  {
+    "question": "The radius of a nucleus with mass number $A$ is $R$. The volume of the nucleus is proportional to:",
+    "options": [
+      "$A^{1/3}$",
+      "$A^{2/3}$",
+      "$A$",
+      "$A^3$"
+    ],
+    "correctAnswer": 2,
+    "explanation": "Radius $R \\propto A^{1/3}$. Volume $V = (4/3)\\pi R^3 \\propto (A^{1/3})^3 = A$."
+  },
+  {
+    "question": "The binding energy per nucleon curve drops at high mass numbers because of:",
+    "options": [
+      "Increased strong force",
+      "Increased electrostatic repulsion between protons",
+      "Decreased neutron count",
+      "Gravitational effects"
+    ],
+    "correctAnswer": 1,
+    "explanation": "In very large nuclei, the range-limited strong nuclear force cannot fully offset the long-range electrostatic repulsion of the many protons."
+  },
+  {
+    "question": "A radioactive nucleus emits a positron. Its atomic number $Z$ will:",
+    "options": [
+      "Increase by 1",
+      "Decrease by 1",
+      "Remain same",
+      "Decrease by 2"
+    ],
+    "correctAnswer": 1,
+    "explanation": "In $\\beta^+$ decay, a proton converts into a neutron, reducing the atomic number $Z$ by 1 while keeping $A$ constant."
+  },
+  {
+    "question": "The torque experienced by an electric dipole of moment $\\vec{p}$ in a uniform electric field $\\vec{E}$ is:",
+    "options": [
+      "$\\vec{p} \\cdot \\vec{E}$",
+      "$\\vec{p} \\times \\vec{E}$",
+      "Zero",
+      "$pE \\cos\\theta$"
+    ],
+    "correctAnswer": 1,
+    "explanation": "Torque is a vector product $\\vec{\\tau} = \\vec{p} \\times \\vec{E}$, which tends to align the dipole with the field."
+  },
+  {
+    "question": "Two capacitors $2 \\mu F$ and $4 \\mu F$ are connected in series to a $60$ V battery. The potential difference across the $2 \\mu F$ capacitor is:",
+    "options": [
+      "20 V",
+      "30 V",
+      "40 V",
+      "60 V"
+    ],
+    "correctAnswer": 2,
+    "explanation": "In series, $V \\propto 1/C$. $V_1/V_2 = C_2/C_1 = 4/2 = 2$. $V_1 = 2V_2$. $V_1 + V_2 = 60 \\implies 3V_2 = 60 \\implies V_2 = 20$ V and $V_1 = 40$ V."
+  },
+  {
+    "question": "A wire of resistance $R$ is cut into three equal parts and these are connected in parallel. The new resistance is:",
+    "options": [
+      "$R/3$",
+      "$R/9$",
+      "$3R$",
+      "$9R$"
+    ],
+    "correctAnswer": 1,
+    "explanation": "Each part has resistance $R/3$. In parallel, $1/R_{eq} = 1/(R/3) + 1/(R/3) + 1/(R/3) = 9/R \\implies R_{eq} = R/9$."
+  },
+  {
+    "question": "Potentiometer measures potential difference more accurately than a voltmeter because:",
+    "options": [
+      "It has low resistance",
+      "It draws no current at null point",
+      "It is based on heating effect",
+      "It is portable"
+    ],
+    "correctAnswer": 1,
+    "explanation": "At the null point, the galvanometer shows no deflection, meaning the potentiometer does not load the circuit it is measuring."
+  },
+  {
+    "question": "A charged particle moves through a uniform magnetic field $B$. The work done by the magnetic force on the particle is:",
+    "options": [
+      "Positive",
+      "Negative",
+      "Always zero",
+      "Infinite"
+    ],
+    "correctAnswer": 2,
+    "explanation": "Since the magnetic force $\\vec{F} = q(\\vec{v} \\times \\vec{B})$ is always perpendicular to the velocity $\\vec{v}$, the work done $W = \\vec{F} \\cdot d\\vec{s}$ is always zero."
+  },
+  {
+    "question": "A galvanometer can be converted into a voltmeter by connecting a:",
+    "options": [
+      "High resistance in parallel",
+      "High resistance in series",
+      "Low resistance in series",
+      "Low resistance in parallel"
+    ],
+    "correctAnswer": 1,
+    "explanation": "A high resistance (multiplier) in series limits the current and allows the meter to measure large voltages."
+  },
+  {
+    "question": "Eddy currents are minimized in transformers by using:",
+    "options": [
+      "A solid iron core",
+      "Thick copper wires",
+      "Laminated core",
+      "High voltage"
+    ],
+    "correctAnswer": 2,
+    "explanation": "Laminations break the path of the circulating eddy currents, significantly reducing energy loss as heat."
+  },
+  {
+    "question": "The self-inductance of a solenoid is $L$. If the number of turns is doubled (keeping length same), the new inductance is:",
+    "options": [
+      "$2L$",
+      "$4L$",
+      "$L/2$",
+      "$L$"
+    ],
+    "correctAnswer": 1,
+    "explanation": "$L = \\mu_0 N^2 A / l$. If $N$ becomes $2N$, $L$ becomes $(2N)^2 = 4N^2$, i.e., $4L$."
+  },
+  {
+    "question": "In an AC circuit, the ratio of average power to apparent power is called:",
+    "options": [
+      "Form factor",
+      "Power factor",
+      "Quality factor",
+      "Reactance"
+    ],
+    "correctAnswer": 1,
+    "explanation": "Power factor $= P_{avg} / (V_{rms} I_{rms}) = \\cos\\phi$."
+  },
+  {
+    "question": "At resonance in a series RLC circuit, the phase difference between voltage and current is:",
+    "options": [
+      "$90^\\circ$",
+      "$0^\\circ$",
+      "$180^\\circ$",
+      "$45^\\circ$"
+    ],
+    "correctAnswer": 1,
+    "explanation": "At resonance, the circuit is purely resistive, so voltage and current are in phase."
+  },
+  {
+    "question": "Which of the following materials shows the Meissner effect?",
+    "options": [
+      "Iron at room temperature",
+      "Silicon at $0$ K",
+      "Mercury at $4.2$ K",
+      "Copper at $100$ K"
+    ],
+    "correctAnswer": 2,
+    "explanation": "The Meissner effect (expulsion of magnetic fields) is a characteristic of superconductors like Mercury below its critical temperature."
+  },
+  {
+    "question": "In the energy band diagram of an insulator, the forbidden gap is usually:",
+    "options": [
+      "Very small ($< 1$ eV)",
+      "Zero",
+      "Very large ($> 3$ eV)",
+      "Infinite"
+    ],
+    "correctAnswer": 2,
+    "explanation": "Insulators have a wide energy gap that prevents electrons from being thermally excited into the conduction band."
+  },
+  {
+    "question": "A Zener diode is used for:",
+    "options": [
+      "Amplification",
+      "Rectification",
+      "Voltage regulation",
+      "Oscillation"
+    ],
+    "correctAnswer": 2,
+    "explanation": "A Zener diode maintains a constant voltage when operated in its reverse breakdown region."
+  },
+  {
+    "question": "For an ideal Op-Amp, the output impedance is:",
+    "options": [
+      "Infinite",
+      "Zero",
+      "$1 \\text{ M}\\Omega$",
+      "$75 \\Omega$"
+    ],
+    "correctAnswer": 1,
+    "explanation": "An ideal Op-Amp has zero output impedance, meaning it can drive any load without loss of output voltage."
+  },
+  {
+    "question": "The output of an XOR gate is HIGH if the inputs are:",
+    "options": [
+      "$1,1$",
+      "$0,0$",
+      "$1,0$",
+      "None of these"
+    ],
+    "correctAnswer": 2,
+    "explanation": "XOR (Exclusive OR) gives a HIGH output only when the inputs are different."
+  },
+  {
+    "question": "A clock is moving at speed $0.8c$ relative to an observer. If $1$ hour passes on the moving clock, the observer measures:",
+    "options": [
+      "0.6 hours",
+      "1.67 hours",
+      "1 hour",
+      "2 hours"
+    ],
+    "correctAnswer": 1,
+    "explanation": "Time dilation: $t = t_0 / \\sqrt{1 - (0.8)^2} = 1 / 0.6 = 1.67$ hours."
+  },
+  {
+    "question": "The work function of a metal is $3$ eV. If light of wavelength $3000$ Å falls on it, the maximum K.E of photoelectrons is:",
+    "options": [
+      "1.14 eV",
+      "4.14 eV",
+      "7.14 eV",
+      "1.5 eV"
+    ],
+    "correctAnswer": 0,
+    "explanation": "Energy of photon $E = 12400 / 3000 = 4.133$ eV. $K.E_{max} = E - \\Phi = 4.14 - 3 = 1.14$ eV."
+  },
+  {
+    "question": "The wavelength of X-rays is of the same order as:",
+    "options": [
+      "Size of an atom",
+      "Size of a nucleus",
+      "Inter-atomic spacing in crystals",
+      "Thickness of paper"
+    ],
+    "correctAnswer": 2,
+    "explanation": "X-ray wavelengths ($\\\\sim 0.1$ nm) are comparable to inter-atomic distances, which is why they are used for crystal diffraction."
+  },
+  {
+    "question": "In the Hydrogen spectrum, transitions ending at $n=3$ form the:",
+    "options": [
+      "Balmer series",
+      "Paschen series",
+      "Brackett series",
+      "Lyman series"
+    ],
+    "correctAnswer": 1,
+    "explanation": "Paschen series corresponds to transitions to the $n=3$ level (Infrared region)."
+  },
+  {
+    "question": "Laser light is monochromatic because all the emitted photons have the same:",
+    "options": [
+      "Phase",
+      "Frequency",
+      "Direction",
+      "All of these"
+    ],
+    "correctAnswer": 1,
+    "explanation": "Monochromatic specifically refers to having a single frequency (or color)."
+  },
+  {
+    "question": "The mass defect per nucleon is called:",
+    "options": [
+      "Packing fraction",
+      "Binding energy",
+      "Decay constant",
+      "Mass number"
+    ],
+    "correctAnswer": 0,
+    "explanation": "Packing fraction is defined as (Mass of nucleus - Mass number) / Mass number."
+  },
+  {
+    "question": "Nuclear fusion is the principle behind the working of a:",
+    "options": [
+      "Nuclear reactor",
+      "Atom bomb",
+      "Hydrogen bomb",
+      "Cyclotron"
+    ],
+    "correctAnswer": 2,
+    "explanation": "A Hydrogen bomb uses nuclear fusion (uncontrolled), while a standard atom bomb uses fission."
+  },
+  {
+    "question": "The half-life of a radioactive substance is $T$. Its mean life is:",
+    "options": [
+      "$T / 0.693$",
+      "$0.693 T$",
+      "$T / 2$",
+      "$2T$"
+    ],
+    "correctAnswer": 0,
+    "explanation": "Mean life $\\tau = 1/\\lambda = T / \\ln(2) \\approx T / 0.693$."
+  },
+  {
+    "question": "The penetrating power of radiations in decreasing order is:",
+    "options": [
+      "$\\gamma > \\beta > \\alpha$",
+      "$\\alpha > \\beta > \\gamma$",
+      "$\\beta > \\gamma > \\alpha$",
+      "$\\gamma > \\alpha > \\beta$"
+    ],
+    "correctAnswer": 0,
+    "explanation": "Gamma rays are neutral and have the highest penetration; alpha particles are heavy and charged and have the least."
+  },
+  {
+    "question": "Heavy water is used as a moderator in nuclear reactors because it:",
+    "options": [
+      "Absorbs neutrons effectively",
+      "Slows down neutrons without absorbing them",
+      "Is very cheap",
+      "Is a good coolant"
+    ],
+    "correctAnswer": 1,
+    "explanation": "A good moderator must slow down fast neutrons to thermal speeds without capturing them, allowing the chain reaction to continue."
+  }
+]
+

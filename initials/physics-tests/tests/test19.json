@@ -1,0 +1,552 @@
+[
+  {
+    "question": "The spectral series of the hydrogen atom that lies in the visible region of the electromagnetic spectrum is:",
+    "options": [
+      "Lyman series",
+      "Balmer series",
+      "Paschen series",
+      "Brackett series"
+    ],
+    "correctAnswer": 1,
+    "explanation": "The Balmer series corresponds to electron transitions from higher orbits to the $n=2$ orbit, emitting radiation in the visible range."
+  },
+  {
+    "question": "According to Bohr's second postulate, the angular momentum of an electron in a stationary orbit is quantized as:",
+    "options": [
+      "$L = nh / 2\\pi$",
+      "$L = nh / \\pi$",
+      "$L = n^2h / 2\\pi$",
+      "$L = h / 2\\pi n$"
+    ],
+    "correctAnswer": 0,
+    "explanation": "Bohr postulated that angular momentum $mvr$ must be an integral multiple of $h/2\\pi$ ($L = n\\hbar$)."
+  },
+  {
+    "question": "The radius of the $n^{th}$ Bohr orbit of a hydrogen atom is proportional to:",
+    "options": [
+      "$n$",
+      "$1/n$",
+      "$n^2$",
+      "$1/n^2$"
+    ],
+    "correctAnswer": 2,
+    "explanation": "The derivation for Bohr's radius shows $r_n = n^2 r_1$, where $r_1$ is the Bohr radius ($0.053$ nm)."
+  },
+  {
+    "question": "The energy of an electron in the ground state of a hydrogen atom is:",
+    "options": [
+      "$0$ eV",
+      "$-13.6$ eV",
+      "$13.6$ eV",
+      "$-3.4$ eV"
+    ],
+    "correctAnswer": 1,
+    "explanation": "The ground state ($n=1$) energy is $-13.6$ eV. The negative sign indicates that the electron is bound to the nucleus."
+  },
+  {
+    "question": "The transition of an electron from any higher orbit to the $n=1$ orbit results in the:",
+    "options": [
+      "Lyman series",
+      "Balmer series",
+      "Paschen series",
+      "Pfund series"
+    ],
+    "correctAnswer": 0,
+    "explanation": "The Lyman series is produced by transitions to the ground state and lies in the ultraviolet region."
+  },
+  {
+    "question": "The Rydberg constant $R_H$ has a value approximately equal to:",
+    "options": [
+      "$1.097 \\times 10^7 \\text{ m}^{-1}$",
+      "$6.63 \\times 10^{-34} \\text{ m}^{-1}$",
+      "$1.097 \\times 10^{-7} \\text{ m}^{-1}$",
+      "$3 \\times 10^8 \\text{ m}^{-1}$"
+    ],
+    "correctAnswer": 0,
+    "explanation": "The Rydberg constant is a physical constant relating to the atomic spectra of elements."
+  },
+  {
+    "question": "X-rays are produced when high-speed electrons strike a target made of:",
+    "options": [
+      "Light metal like Aluminum",
+      "Heavy metal like Tungsten",
+      "Semiconductor like Silicon",
+      "Insulator like Rubber"
+    ],
+    "correctAnswer": 1,
+    "explanation": "High atomic number (heavy) metals are used as targets in X-ray tubes to ensure efficient production of X-rays via inner-shell transitions and Bremsstrahlung."
+  },
+  {
+    "question": "The continuous X-ray spectrum is produced due to:",
+    "options": [
+      "Inner shell transitions",
+      "Deceleration of high-speed electrons (Bremsstrahlung)",
+      "Valence electron transitions",
+      "Nuclear decay"
+    ],
+    "correctAnswer": 1,
+    "explanation": "Continuous X-rays result from the 'braking radiation' of electrons as they are slowed down by the Coulomb field of the target nuclei."
+  },
+  {
+    "question": "Characteristic X-rays ($K_\\alpha, K_\\beta$) are produced by:",
+    "options": [
+      "Outer shell electron transitions",
+      "Inner shell electron transitions",
+      "Proton transitions",
+      "Thermal agitation"
+    ],
+    "correctAnswer": 1,
+    "explanation": "When an electron is knocked out of an inner shell (like K-shell), an electron from a higher shell drops down, emitting a photon of 'characteristic' energy."
+  },
+  {
+    "question": "Moseley's Law states that the square root of the frequency of characteristic X-rays is proportional to:",
+    "options": [
+      "Atomic Mass ($A$)",
+      "Atomic Number ($Z$)",
+      "Mass Number",
+      "Neutron Number"
+    ],
+    "correctAnswer": 1,
+    "explanation": "Moseley found that $\\sqrt{f} = a(Z - b)$, proving that Atomic Number is the fundamental property of an element."
+  },
+  {
+    "question": "The word LASER stands for:",
+    "options": [
+      "Light Amplification by Spontaneous Emission of Radiation",
+      "Light Amplification by Stimulated Emission of Radiation",
+      "Light Absorption by Stimulated Emission of Radiation",
+      "Long Amplification by Stimulated Emission of Radiation"
+    ],
+    "correctAnswer": 1,
+    "explanation": "Laser is an acronym describing the physical process of light amplification via stimulated emission."
+  },
+  {
+    "question": "A state in which there are more atoms in an excited state than in the ground state is called:",
+    "options": [
+      "Ground state",
+      "Metastable state",
+      "Population Inversion",
+      "Equilibrium state"
+    ],
+    "correctAnswer": 2,
+    "explanation": "Population inversion is a prerequisite for laser action, where the majority of atoms are 'pumped' to a higher energy level."
+  },
+  {
+    "question": "The lifetime of an atom in a metastable state is approximately:",
+    "options": [
+      "$10^{-8}$ s",
+      "$10^{-3}$ s",
+      "$10^{-10}$ s",
+      "$1$ s"
+    ],
+    "correctAnswer": 1,
+    "explanation": "Ordinary excited states last $10^{-8}$ s, but metastable states are relatively long-lived ($10^{-3}$ s), allowing for population inversion."
+  },
+  {
+    "question": "In a Helium-Neon laser, the actual laser transition occurs in the atoms of:",
+    "options": [
+      "Helium",
+      "Neon",
+      "Both",
+      "The glass tube"
+    ],
+    "correctAnswer": 1,
+    "explanation": "Helium atoms are used to excite Neon atoms through collisions; the Neon atoms then undergo stimulated emission to produce the laser light."
+  },
+  {
+    "question": "What is the frequency of radiation emitted when an electron jumps from $n=2$ to $n=1$ in Hydrogen? ($R_H = 1.097 \\times 10^7 \\text{ m}^{-1}$):",
+    "options": [
+      "$2.46 \\times 10^{15}$ Hz",
+      "$3.29 \\times 10^{15}$ Hz",
+      "$1.02 \\times 10^{14}$ Hz",
+      "$4.57 \\times 10^{14}$ Hz"
+    ],
+    "correctAnswer": 0,
+    "explanation": "$1/\\lambda = R_H (1/1^2 - 1/2^2) = 0.75 R_H$. Then $f = c/\\lambda = 3 \\times 10^8 \\times 0.75 \\times 1.097 \\times 10^7 \\approx 2.46 \\times 10^{15}$ Hz."
+  },
+  {
+    "question": "The potential difference required to accelerate an electron to produce X-rays of wavelength $1$ Å is approx:",
+    "options": [
+      "12.4 kV",
+      "1.24 kV",
+      "124 kV",
+      "12.4 V"
+    ],
+    "correctAnswer": 0,
+    "explanation": "Using $V = 12400 / \\lambda(\\text{Å})$, for $1$ Å, $V = 12400$ Volts or $12.4$ kV."
+  },
+  {
+    "question": "Continuous X-rays are also known as:",
+    "options": [
+      "Characteristic radiation",
+      "Bremsstrahlung",
+      "Gamma rays",
+      "Cosmic rays"
+    ],
+    "correctAnswer": 1,
+    "explanation": "Bremsstrahlung is German for 'braking radiation', describing the loss of kinetic energy as radiation."
+  },
+  {
+    "question": "The ratio of the radii of the first and second Bohr orbits is:",
+    "options": [
+      "1:2",
+      "2:1",
+      "1:4",
+      "4:1"
+    ],
+    "correctAnswer": 2,
+    "explanation": "$r_n \\propto n^2$. For $n=1$ and $n=2$, the ratio is $1^2:2^2 = 1:4$."
+  },
+  {
+    "question": "The potential energy of an electron in the first orbit of Hydrogen is:",
+    "options": [
+      "$-13.6$ eV",
+      "$-27.2$ eV",
+      "$13.6$ eV",
+      "$27.2$ eV"
+    ],
+    "correctAnswer": 1,
+    "explanation": "Total energy $E = -13.6$ eV. Since $P.E = 2E$, then $P.E = 2 \\times (-13.6) = -27.2$ eV."
+  },
+  {
+    "question": "Which transition in Hydrogen will result in the emission of a photon with the highest frequency?",
+    "options": [
+      "$n=2 \\to n=1$",
+      "$n=3 \\to n=2$",
+      "$n=4 \\to n=3$",
+      "$n=5 \\to n=4$"
+    ],
+    "correctAnswer": 0,
+    "explanation": "The energy difference between levels decreases as $n$ increases. The jump from $n=2$ to $n=1$ has the largest energy gap among these, thus the highest frequency."
+  },
+  {
+    "question": "Which of the following properties is NOT characteristic of laser light?",
+    "options": [
+      "Monochromatic",
+      "Coherent",
+      "Divergent",
+      "Highly intense"
+    ],
+    "correctAnswer": 2,
+    "explanation": "Laser light is highly directional (low divergence), whereas regular light sources are highly divergent."
+  },
+  {
+    "question": "The ionization potential of the Hydrogen atom is:",
+    "options": [
+      "13.6 V",
+      "-13.6 V",
+      "0 V",
+      "3.4 V"
+    ],
+    "correctAnswer": 0,
+    "explanation": "The ionization energy is $13.6$ eV, so the potential required to provide this energy to a ground-state electron is $13.6$ V."
+  },
+  {
+    "question": "Holography is an application of lasers used for:",
+    "options": [
+      "2D photography",
+      "3D image recording",
+      "Cutting metals",
+      "Measuring distances"
+    ],
+    "correctAnswer": 1,
+    "explanation": "Holography uses laser interference patterns to record and reconstruct three-dimensional images."
+  },
+  {
+    "question": "The wavelength of $K_\\alpha$ X-rays for a target with atomic number $Z$ is roughly proportional to:",
+    "options": [
+      "$Z$",
+      "$Z^2$",
+      "$1/Z^2$",
+      "$1/Z$"
+    ],
+    "correctAnswer": 2,
+    "explanation": "According to Moseley's Law, $f \\propto (Z-1)^2$. Since $f \\propto 1/\\lambda$, then $\\lambda \\propto 1/(Z-1)^2 \\approx 1/Z^2$."
+  },
+  {
+    "question": "The energy of an electron in an atom is quantized because:",
+    "options": [
+      "Charge is quantized",
+      "Angular momentum is quantized",
+      "Mass is quantized",
+      "Speed is quantized"
+    ],
+    "correctAnswer": 1,
+    "explanation": "Bohr’s quantization of angular momentum leads directly to the existence of discrete, stable energy levels (quantized energy)."
+  },
+  {
+    "question": "Stimulated emission was first predicted by:",
+    "options": [
+      "Niels Bohr",
+      "Albert Einstein",
+      "Max Planck",
+      "Erwin Schrodinger"
+    ],
+    "correctAnswer": 1,
+    "explanation": "Einstein proposed the concept of stimulated emission in 1917, which eventually led to the development of the laser."
+  },
+  {
+    "question": "The speed of an electron in the first Bohr orbit of Hydrogen is approximately:",
+    "options": [
+      "$c/137$",
+      "$c/2$",
+      "$c$",
+      "$3 \\times 10^6$ m/s"
+    ],
+    "correctAnswer": 0,
+    "explanation": "The velocity of an electron in the ground state is approx $2.19 \\times 10^6$ m/s, which is $1/137$ the speed of light."
+  },
+  {
+    "question": "The maximum number of electrons in the L-shell is:",
+    "options": [
+      "2",
+      "8",
+      "18",
+      "32"
+    ],
+    "correctAnswer": 1,
+    "explanation": "According to the $2n^2$ rule, for L-shell ($n=2$), max electrons = $2(2^2) = 8$."
+  },
+  {
+    "question": "X-rays cannot be deflected by:",
+    "options": [
+      "Electric fields",
+      "Magnetic fields",
+      "Both A and B",
+      "Lenses"
+    ],
+    "correctAnswer": 2,
+    "explanation": "X-rays are electromagnetic waves (photons) and carry no charge; therefore, they are not affected by electric or magnetic fields."
+  },
+  {
+    "question": "The fine structure constant has a value of approximately:",
+    "options": [
+      "1/137",
+      "137",
+      "1.097",
+      "6.63"
+    ],
+    "correctAnswer": 0,
+    "explanation": "The fine structure constant is a dimensionless constant characterizing the strength of the electromagnetic interaction."
+  },
+  {
+    "question": "In X-ray production, if the voltage $V$ is increased, the minimum wavelength $\\lambda_{min}$ will:",
+    "options": [
+      "Increase",
+      "Decrease",
+      "Remain same",
+      "Become zero"
+    ],
+    "correctAnswer": 1,
+    "explanation": "$\\lambda_{min} = hc / eV$. Wavelength is inversely proportional to voltage."
+  },
+  {
+    "question": "Paschen series lies in the:",
+    "options": [
+      "Ultraviolet region",
+      "Visible region",
+      "Infrared region",
+      "X-ray region"
+    ],
+    "correctAnswer": 2,
+    "explanation": "Transitions to $n=3$ result in Paschen series, which falls in the infrared part of the spectrum."
+  },
+  {
+    "question": "If an electron in Hydrogen jumps from $n=3$ to $n=2$, the wavelength of the emitted photon is approx:",
+    "options": [
+      "656 nm",
+      "486 nm",
+      "121 nm",
+      "102 nm"
+    ],
+    "correctAnswer": 0,
+    "explanation": "This corresponds to the $H_\\alpha$ line of the Balmer series, which has a wavelength of $656.3$ nm."
+  },
+  {
+    "question": "The existence of discrete energy levels in an atom was experimentally confirmed by:",
+    "options": [
+      "Davisson and Germer",
+      "Franck and Hertz",
+      "Michelson and Morley",
+      "Millikan"
+    ],
+    "correctAnswer": 1,
+    "explanation": "The Franck-Hertz experiment showed that atoms absorb energy only in specific amounts, confirming quantized energy levels."
+  },
+  {
+    "question": "CAT scan (Computed Axial Tomography) uses ______ for medical imaging.",
+    "options": [
+      "Laser",
+      "X-rays",
+      "Gamma rays",
+      "Microwaves"
+    ],
+    "correctAnswer": 1,
+    "explanation": "CAT scans utilize X-rays to produce cross-sectional 'slices' of the human body."
+  },
+  {
+    "question": "Bohr's model is applicable to:",
+    "options": [
+      "All atoms",
+      "Hydrogen and hydrogen-like ions (He+, Li++)",
+      "Heavy atoms only",
+      "Molecules"
+    ],
+    "correctAnswer": 1,
+    "explanation": "Bohr's model works for single-electron systems where the interaction is strictly between one nucleus and one electron."
+  },
+  {
+    "question": "The energy of an electron in the second orbit ($n=2$) of Hydrogen is:",
+    "options": [
+      "-13.6 eV",
+      "-3.4 eV",
+      "-1.51 eV",
+      "13.6 eV"
+    ],
+    "correctAnswer": 1,
+    "explanation": "$E_n = -13.6 / n^2$. For $n=2$, $E = -13.6 / 4 = -3.4$ eV."
+  },
+  {
+    "question": "Absorption spectra are produced when light passes through a:",
+    "options": [
+      "Heated solid",
+      "Cool gas",
+      "Heated liquid",
+      "Vacuum"
+    ],
+    "correctAnswer": 1,
+    "explanation": "Cooler gases absorb specific frequencies from white light, resulting in dark lines on a continuous background."
+  },
+  {
+    "question": "The pumping mechanism in an optical laser is used to achieve:",
+    "options": [
+      "Spontaneous emission",
+      "Population inversion",
+      "Thermal equilibrium",
+      "Ionization"
+    ],
+    "correctAnswer": 1,
+    "explanation": "Pumping provides the energy required to lift atoms to excited states to maintain population inversion."
+  },
+  {
+    "question": "The energy of $K_\\alpha$ X-rays is the difference between energies of:",
+    "options": [
+      "L and K shells",
+      "M and K shells",
+      "M and L shells",
+      "Infinity and K shells"
+    ],
+    "correctAnswer": 0,
+    "explanation": "$K_\\alpha$ is produced when an electron falls from $n=2$ (L-shell) to $n=1$ (K-shell)."
+  },
+  {
+    "question": "The momentum of an electron in an orbit of radius $r$ is $p$. According to Bohr, $pr = $",
+    "options": [
+      "$nh/2\\pi$",
+      "$h/2\\pi$",
+      "$n^2h/2\\pi$",
+      "$nh$"
+    ],
+    "correctAnswer": 0,
+    "explanation": "Angular momentum $L = pr = nh/2\\pi$."
+  },
+  {
+    "question": "Continuous X-rays have a sharp cutoff wavelength $\\lambda_{min}$ which depends on:",
+    "options": [
+      "Target material",
+      "Filament current",
+      "Accelerating voltage",
+      "Temperature"
+    ],
+    "correctAnswer": 2,
+    "explanation": "The cutoff wavelength is determined solely by the maximum kinetic energy of the electrons ($eV$)."
+  },
+  {
+    "question": "In lasers, stimulated emission results in photons that are:",
+    "options": [
+      "In phase with the incident photon",
+      "Out of phase with the incident photon",
+      "Higher in energy",
+      "Random in direction"
+    ],
+    "correctAnswer": 0,
+    "explanation": "The emitted photon is identical to the incident photon in phase, frequency, and direction."
+  },
+  {
+    "question": "The wavelength of Balmer series lines lies in:",
+    "options": [
+      "400 - 700 nm",
+      "100 - 400 nm",
+      "700 - 1000 nm",
+      "Less than 10 nm"
+    ],
+    "correctAnswer": 0,
+    "explanation": "Balmer series is the visible series ($400$ to $700$ nm)."
+  },
+  {
+    "question": "Bohr's model could NOT explain:",
+    "options": [
+      "Quantized energy",
+      "Hydrogen spectra",
+      "Fine structure of spectral lines",
+      "Stability of atoms"
+    ],
+    "correctAnswer": 2,
+    "explanation": "Bohr's model was unable to account for the splitting of spectral lines into multiple finer lines (fine structure)."
+  },
+  {
+    "question": "The work done in removing an electron from the $n=2$ state of Hydrogen is:",
+    "options": [
+      "13.6 eV",
+      "3.4 eV",
+      "10.2 eV",
+      "1.51 eV"
+    ],
+    "correctAnswer": 1,
+    "explanation": "The binding energy at $n=2$ is $3.4$ eV, so $3.4$ eV of work is needed to remove it."
+  },
+  {
+    "question": "X-rays were discovered by:",
+    "options": [
+      "Marie Curie",
+      "W.C. Roentgen",
+      "J.J. Thomson",
+      "Ernest Rutherford"
+    ],
+    "correctAnswer": 1,
+    "explanation": "Roentgen discovered X-rays in 1895, for which he received the first Nobel Prize in Physics."
+  },
+  {
+    "question": "The laser beam is monochromatic because:",
+    "options": [
+      "It contains many frequencies",
+      "It has a single frequency",
+      "It is invisible",
+      "It is produced by Neon"
+    ],
+    "correctAnswer": 1,
+    "explanation": "Monochromatic means 'one color' or one specific frequency/wavelength."
+  },
+  {
+    "question": "The total energy of an electron in a Hydrogen atom is:",
+    "options": [
+      "Positive",
+      "Negative",
+      "Zero",
+      "Infinite"
+    ],
+    "correctAnswer": 1,
+    "explanation": "The energy is negative, indicating a bound system where the electron is trapped by the nucleus's potential well."
+  },
+  {
+    "question": "A photon of wavelength $0.1$ nm belongs to:",
+    "options": [
+      "Visible light",
+      "Ultraviolet",
+      "X-rays",
+      "Radio waves"
+    ],
+    "correctAnswer": 2,
+    "explanation": "Wavelengths around $0.1$ nm ($1$ Å) are typical for X-rays."
+  }
+]

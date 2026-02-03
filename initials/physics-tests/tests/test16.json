@@ -1,0 +1,553 @@
+[
+  {
+    "question": "Which of the following solids has a long-range order of arrangement of atoms?",
+    "options": [
+      "Amorphous solids",
+      "Crystalline solids",
+      "Polymers",
+      "Glass"
+    ],
+    "correctAnswer": 1,
+    "explanation": "Crystalline solids (like NaCl, diamond) possess a regular, repeating arrangement of atoms extending over large distances (long-range order)."
+  },
+  {
+    "question": "The smallest building block of a crystal lattice which, when repeated in three dimensions, generates the entire crystal is called:",
+    "options": [
+      "Lattice point",
+      "Basis",
+      "Unit cell",
+      "Crystal system"
+    ],
+    "correctAnswer": 2,
+    "explanation": "A unit cell is the fundamental building block or smallest repeating unit that defines the crystal structure."
+  },
+  {
+    "question": "If a force of $100$ N is applied to a wire of cross-sectional area $2 \\times 10^{-6} \\text{ m}^2$, the tensile stress is:",
+    "options": [
+      "$5 \\times 10^7 \\text{ Pa}$",
+      "$2 \\times 10^{-4} \\text{ Pa}$",
+      "$50 \\times 10^6 \\text{ Pa}$",
+      "$5 \\times 10^6 \\text{ Pa}$"
+    ],
+    "correctAnswer": 0,
+    "explanation": "Stress $\\sigma = F/A = 100 / (2 \\times 10^{-6}) = 50 \\times 10^6 = 5 \\times 10^7 \\text{ Pa}$."
+  },
+  {
+    "question": "The ratio of tensile stress to tensile strain is called:",
+    "options": [
+      "Bulk Modulus",
+      "Shear Modulus",
+      "Young's Modulus",
+      "Poisson's Ratio"
+    ],
+    "correctAnswer": 2,
+    "explanation": "Young's Modulus ($Y$) is defined as the ratio of tensile (or compressive) stress to tensile (or compressive) strain."
+  },
+  {
+    "question": "A material which can be drawn into wires is called:",
+    "options": [
+      "Brittle",
+      "Ductile",
+      "Amorphous",
+      "Elastic"
+    ],
+    "correctAnswer": 1,
+    "explanation": "Ductility is the property of a material that allows it to be stretched into a wire before breaking (large plastic deformation region)."
+  },
+  {
+    "question": "The energy band gap is maximum in:",
+    "options": [
+      "Conductors",
+      "Semiconductors",
+      "Superconductors",
+      "Insulators"
+    ],
+    "correctAnswer": 3,
+    "explanation": "Insulators have a large forbidden energy gap (typically $> 3$ eV) between the valence and conduction bands, preventing electron flow."
+  },
+  {
+    "question": "At $0$ K, the conduction band of a semiconductor is:",
+    "options": [
+      "Empty",
+      "Partially filled",
+      "Completely filled",
+      "Overlapping with valence band"
+    ],
+    "correctAnswer": 0,
+    "explanation": "At absolute zero, semiconductors behave as perfect insulators. All electrons are in the valence band, leaving the conduction band completely empty."
+  },
+  {
+    "question": "Superconductors exhibit perfect:",
+    "options": [
+      "Ferromagnetism",
+      "Paramagnetism",
+      "Diamagnetism",
+      "Antiferromagnetism"
+    ],
+    "correctAnswer": 2,
+    "explanation": "Below critical temperature, superconductors expel magnetic fields (Meissner effect), acting as perfect diamagnets."
+  },
+  {
+    "question": "The area under the stress-strain graph represents:",
+    "options": [
+      "Power",
+      "Force",
+      "Energy density",
+      "Work done"
+    ],
+    "correctAnswer": 2,
+    "explanation": "The area under the stress-strain curve gives the energy stored per unit volume (energy density, $U = 1/2 \\times \\text{stress} \\times \\text{strain}$)."
+  },
+  {
+    "question": "A substance that breaks just after the elastic limit is reached is called:",
+    "options": [
+      "Ductile",
+      "Plastic",
+      "Elastic",
+      "Brittle"
+    ],
+    "correctAnswer": 3,
+    "explanation": "Brittle materials (like glass) have very little plastic deformation region and fracture shortly after the elastic limit."
+  },
+  {
+    "question": "The SI unit of stress is the same as that of:",
+    "options": [
+      "Force",
+      "Energy",
+      "Pressure",
+      "Power"
+    ],
+    "correctAnswer": 2,
+    "explanation": "Stress is Force per unit Area ($N/m^2$), which is the same definition and unit (Pascal) as Pressure."
+  },
+  {
+    "question": "If the temperature of a semiconductor is increased, its conductivity:",
+    "options": [
+      "Decreases",
+      "Increases",
+      "Remains constant",
+      "Becomes zero"
+    ],
+    "correctAnswer": 1,
+    "explanation": "In semiconductors, higher temperature provides thermal energy to electrons to jump the gap, increasing the number of charge carriers and thus conductivity."
+  },
+  {
+    "question": "Which modulus of elasticity is associated with change in shape only?",
+    "options": [
+      "Shear modulus",
+      "Bulk modulus",
+      "Young's modulus",
+      "Elastic modulus"
+    ],
+    "correctAnswer": 0,
+    "explanation": "Shear modulus (Modulus of Rigidity) relates shear stress to shear strain, which corresponds to a change in shape without change in volume."
+  },
+  {
+    "question": "A wire of length $L$ is stretched by length $l$. The strain produced is:",
+    "options": [
+      "$L/l$",
+      "$l/L$",
+      "$L+l$",
+      "$l \\cdot L$"
+    ],
+    "correctAnswer": 1,
+    "explanation": "Tensile strain is defined as the change in length divided by the original length ($\\epsilon = \\Delta L / L = l/L$)."
+  },
+  {
+    "question": "The temperature at which a normal conductor becomes a superconductor is called:",
+    "options": [
+      "Curie temperature",
+      "Inversion temperature",
+      "Critical temperature",
+      "Absolute temperature"
+    ],
+    "correctAnswer": 2,
+    "explanation": "The critical temperature ($T_c$) is the specific temperature below which a material's electrical resistance drops to zero."
+  },
+  {
+    "question": "Hysteresis loss in a magnetic material is equivalent to:",
+    "options": [
+      "Electrical energy dissipated as heat",
+      "Magnetic energy stored",
+      "Mechanical work done",
+      "Chemical energy"
+    ],
+    "correctAnswer": 0,
+    "explanation": "The area of the hysteresis loop represents the energy dissipated as heat during a complete cycle of magnetization and demagnetization."
+  },
+  {
+    "question": "Soft magnetic materials have:",
+    "options": [
+      "Large hysteresis loop area",
+      "High retentivity and high coercivity",
+      "Low retentivity and low coercivity",
+      "High retentivity and low coercivity"
+    ],
+    "correctAnswer": 2,
+    "explanation": "Soft magnetic materials (like soft iron) are easily magnetized and demagnetized, meaning they have low retentivity, low coercivity, and a narrow hysteresis loop."
+  },
+  {
+    "question": "A steel wire of diameter $1$ mm can withstand a tension of $2$ kN. The ultimate tensile strength is approximately:",
+    "options": [
+      "$2.55 \\times 10^9 \\text{ Pa}$",
+      "$2.55 \\times 10^6 \\text{ Pa}$",
+      "$5.1 \\times 10^9 \\text{ Pa}$",
+      "$6.3 \\times 10^8 \\text{ Pa}$"
+    ],
+    "correctAnswer": 0,
+    "explanation": "Area $A = \\pi r^2 = \\pi (0.5 \\times 10^{-3})^2 \\approx 7.85 \\times 10^{-7} \\text{ m}^2$. Stress $= F/A = 2000 / (7.85 \\times 10^{-7}) \\approx 2.55 \\times 10^9 \\text{ Pa}$."
+  },
+  {
+    "question": "Glass is an example of:",
+    "options": [
+      "Crystalline solid",
+      "Amorphous solid",
+      "Ionic solid",
+      "Metallic solid"
+    ],
+    "correctAnswer": 1,
+    "explanation": "Glass lacks a long-range ordered structure and has no sharp melting point, characteristic of amorphous solids."
+  },
+  {
+    "question": "The valence band in a conductor is:",
+    "options": [
+      "Completely empty",
+      "Partially filled or overlapping with conduction band",
+      "Full with a large gap above it",
+      "Full with a small gap above it"
+    ],
+    "correctAnswer": 1,
+    "explanation": "In conductors, the valence band overlaps with the conduction band (or is only partially filled), allowing free movement of electrons."
+  },
+  {
+    "question": "Identify the polymer from the following:",
+    "options": [
+      "Copper",
+      "Quartz",
+      "Nylon",
+      "Diamond"
+    ],
+    "correctAnswer": 2,
+    "explanation": "Nylon is a synthetic polymer formed by long chains of repeating molecular units."
+  },
+  {
+    "question": "The strain energy stored in a wire extended by $x$ meters with force $F$ is:",
+    "options": [
+      "$Fx$",
+      "$1/2 Fx$",
+      "$Fx^2$",
+      "$1/2 Fx^2$"
+    ],
+    "correctAnswer": 1,
+    "explanation": "Work done in stretching a wire is stored as potential energy. $W = \\text{average force} \\times \\text{distance} = (F/2) \\times x = 1/2 Fx$."
+  },
+  {
+    "question": "Which substance has the highest elasticity?",
+    "options": [
+      "Rubber",
+      "Steel",
+      "Glass",
+      "Copper"
+    ],
+    "correctAnswer": 1,
+    "explanation": "Steel has a higher Young's Modulus than rubber, glass, or copper, meaning it requires more force to produce the same strain (it is stiffer)."
+  },
+  {
+    "question": "The reciprocal of Bulk modulus is called:",
+    "options": [
+      "Rigidity",
+      "Compressibility",
+      "Elasticity",
+      "Viscosity"
+    ],
+    "correctAnswer": 1,
+    "explanation": "Bulk modulus measures resistance to compression. Its inverse, Compressibility ($K = 1/B$), measures how easily a material can be compressed."
+  },
+  {
+    "question": "In a p-type semiconductor, the majority charge carriers are:",
+    "options": [
+      "Electrons",
+      "Holes",
+      "Protons",
+      "Neutrons"
+    ],
+    "correctAnswer": 1,
+    "explanation": "Doping with a trivalent impurity creates vacancies called 'holes', which act as the primary (majority) charge carriers."
+  },
+  {
+    "question": "Curie temperature is the point where:",
+    "options": [
+      "A conductor becomes a superconductor",
+      "A ferromagnetic substance becomes paramagnetic",
+      "A solid melts",
+      "A paramagnetic substance becomes diamagnetic"
+    ],
+    "correctAnswer": 1,
+    "explanation": "Above the Curie temperature, the thermal agitation disrupts the magnetic domains, turning a ferromagnetic material into a paramagnetic one."
+  },
+  {
+    "question": "A $2$ m long wire extends by $1$ mm under a load. The strain is:",
+    "options": [
+      "$5 \\times 10^{-4}$",
+      "$2 \\times 10^{-3}$",
+      "$10^{-3}$",
+      "$0.5$"
+    ],
+    "correctAnswer": 0,
+    "explanation": "Strain $\\epsilon = \\Delta L / L = 1 \\times 10^{-3} / 2 = 0.5 \\times 10^{-3} = 5 \\times 10^{-4}$."
+  },
+  {
+    "question": "The coercive force (coercivity) is the magnetic field required to:",
+    "options": [
+      "Magnetize the material to saturation",
+      "Demagnetize the material completely",
+      "Increase the retentivity",
+      "Heat the material"
+    ],
+    "correctAnswer": 1,
+    "explanation": "Coercivity is the reverse magnetic field needed to reduce the residual magnetism (retentivity) to zero."
+  },
+  {
+    "question": "Which of the following is not a crystalline solid?",
+    "options": [
+      "Sugar",
+      "Salt",
+      "Diamond",
+      "Plastic"
+    ],
+    "correctAnswer": 3,
+    "explanation": "Plastic is an amorphous solid or polymer, lacking the ordered internal structure of crystals like sugar, salt, or diamond."
+  },
+  {
+    "question": "The dimension of Young's Modulus is same as:",
+    "options": [
+      "Force",
+      "Strain",
+      "Pressure",
+      "Acceleration"
+    ],
+    "correctAnswer": 2,
+    "explanation": "Since Strain is dimensionless, the dimensions of Modulus ($Y = \\text{Stress}/\\text{Strain}$) are the same as Stress (or Pressure): $[ML^{-1}T^{-2}]$."
+  },
+  {
+    "question": "When a stress is applied to a body, the restoring force per unit area is called:",
+    "options": [
+      "Strain",
+      "Stress",
+      "Force",
+      "Pressure"
+    ],
+    "correctAnswer": 1,
+    "explanation": "This is the fundamental definition of Stress."
+  },
+  {
+    "question": "A hole in a semiconductor behaves like:",
+    "options": [
+      "A neutral particle",
+      "A negative charge with positive mass",
+      "A positive charge with effective mass",
+      "A positron"
+    ],
+    "correctAnswer": 2,
+    "explanation": "A hole is a vacancy of an electron that acts conceptually as a positive charge carrier with an effective mass."
+  },
+  {
+    "question": "If a material returns to its original shape after the removal of deforming force, it is said to be:",
+    "options": [
+      "Plastic",
+      "Elastic",
+      "Brittle",
+      "Ductile"
+    ],
+    "correctAnswer": 1,
+    "explanation": "Elasticity is the property of a material to regain its original configuration upon unloading."
+  },
+  {
+    "question": "The critical temperature for Mercury is:",
+    "options": [
+      "4.2 K",
+      "7.2 K",
+      "1.18 K",
+      "125 K"
+    ],
+    "correctAnswer": 0,
+    "explanation": "Mercury was the first superconductor discovered by Kamerlingh Onnes; its critical temperature is $4.2$ K."
+  },
+  {
+    "question": "In the stress-strain curve, the point up to which Hooke's Law is obeyed is:",
+    "options": [
+      "Yield point",
+      "Elastic limit",
+      "Proportional limit",
+      "Breaking point"
+    ],
+    "correctAnswer": 2,
+    "explanation": "Hooke's Law (Stress $\\propto$ Strain) is valid only up to the limit of proportionality."
+  },
+  {
+    "question": "Materials suitable for making permanent magnets should have:",
+    "options": [
+      "Low retentivity, low coercivity",
+      "High retentivity, high coercivity",
+      "High retentivity, low coercivity",
+      "Low retentivity, high coercivity"
+    ],
+    "correctAnswer": 1,
+    "explanation": "Permanent magnets need to retain strong magnetism (High Retentivity) and resist demagnetization (High Coercivity)."
+  },
+  {
+    "question": "The bonding in a Germanium crystal is:",
+    "options": [
+      "Ionic",
+      "Covalent",
+      "Metallic",
+      "Van der Waals"
+    ],
+    "correctAnswer": 1,
+    "explanation": "Semiconductors like Silicon and Germanium form crystal lattices through covalent bonding (sharing of valence electrons)."
+  },
+  {
+    "question": "A wire of resistance $R$ is stretched to double its length. Its new resistance will be:",
+    "options": [
+      "$2R$",
+      "$4R$",
+      "$R/2$",
+      "$R/4$"
+    ],
+    "correctAnswer": 1,
+    "explanation": "Volume is constant ($AL = A'L'$). If $L' = 2L$, then $A' = A/2$. $R' = \\rho L'/A' = \\rho (2L)/(A/2) = 4 (\\rho L/A) = 4R$."
+  },
+  {
+    "question": "Intrinsic semiconductors are:",
+    "options": [
+      "Doped",
+      "Pure",
+      "Good conductors",
+      "Positively charged"
+    ],
+    "correctAnswer": 1,
+    "explanation": "Intrinsic means pure; extrinsic refers to doped semiconductors."
+  },
+  {
+    "question": "The change in volume per unit volume is called:",
+    "options": [
+      "Shear strain",
+      "Tensile strain",
+      "Volumetric strain",
+      "Linear strain"
+    ],
+    "correctAnswer": 2,
+    "explanation": "Volumetric (or Bulk) strain is defined as $\\Delta V / V$."
+  },
+  {
+    "question": "Which of the following has the unit N m?",
+    "options": [
+      "Stress",
+      "Strain energy",
+      "Young's modulus",
+      "Strain"
+    ],
+    "correctAnswer": 1,
+    "explanation": "N m is Joule (Energy). Strain energy ($1/2 Fx$) has units of energy. Stress/Modulus are N/m$^2$. Strain is unitless."
+  },
+  {
+    "question": "The phenomenon of hysteresis is exhibited by:",
+    "options": [
+      "Ferromagnetic substances",
+      "Diamagnetic substances",
+      "Paramagnetic substances",
+      "Dielectrics only"
+    ],
+    "correctAnswer": 0,
+    "explanation": "Hysteresis (lagging of B behind H) is a characteristic property of ferromagnetic materials due to domain wall movement."
+  },
+  {
+    "question": "If the stress is $10^8 \\text{ N/m}^2$ and the strain is $10^{-3}$, Young's Modulus is:",
+    "options": [
+      "$10^5 \\text{ N/m}^2$",
+      "$10^{11} \\text{ N/m}^2$",
+      "$10^8 \\text{ N/m}^2$",
+      "$10^{-5} \\text{ N/m}^2$"
+    ],
+    "correctAnswer": 1,
+    "explanation": "$Y = \\text{Stress} / \\text{Strain} = 10^8 / 10^{-3} = 10^{11} \\text{ N/m}^2$."
+  },
+  {
+    "question": "The forbidden energy gap in Ge is approximately:",
+    "options": [
+      "1.1 eV",
+      "0.7 eV",
+      "6 eV",
+      "0.3 eV"
+    ],
+    "correctAnswer": 1,
+    "explanation": "Germanium has a band gap of approx $0.72$ eV (rounded to $0.7$ eV), while Silicon is approx $1.1$ eV."
+  },
+  {
+    "question": "A completely filled band is called:",
+    "options": [
+      "Conduction band",
+      "Valence band",
+      "Forbidden band",
+      "Fermi band"
+    ],
+    "correctAnswer": 1,
+    "explanation": "The band formed by the valence electrons is the Valence Band. At absolute zero, it is completely filled in insulators/semiconductors."
+  },
+  {
+    "question": "Meissner effect is observed in:",
+    "options": [
+      "Semiconductors",
+      "Superconductors",
+      "Insulators",
+      "Metals"
+    ],
+    "correctAnswer": 1,
+    "explanation": "The expulsion of magnetic flux from the interior of a superconductor below $T_c$ is known as the Meissner effect."
+  },
+  {
+    "question": "The maximum stress a material can withstand without breaking is called:",
+    "options": [
+      "Yield strength",
+      "Ultimate tensile strength",
+      "Elastic limit",
+      "Proportional limit"
+    ],
+    "correctAnswer": 1,
+    "explanation": "The Ultimate Tensile Strength (UTS) is the highest point on the stress-strain curve, representing the maximum load capability."
+  },
+  {
+    "question": "Which of the following affects the elasticity of a material?",
+    "options": [
+      "Hammering",
+      "Annealing",
+      "Temperature",
+      "All of the above"
+    ],
+    "correctAnswer": 3,
+    "explanation": "Mechanical treatment (hammering/rolling), heat treatment (annealing), and temperature changes all alter the crystal structure and thus elasticity."
+  },
+  {
+    "question": "A cable that supports a lift has a stress of $10^5$ Pa. If the cross-sectional area is doubled, the stress for the same load will be:",
+    "options": [
+      "$2 \\times 10^5$ Pa",
+      "$10^5$ Pa",
+      "$5 \\times 10^4$ Pa",
+      "$4 \\times 10^5$ Pa"
+    ],
+    "correctAnswer": 2,
+    "explanation": "Stress $\\sigma = F/A$. If $A$ doubles ($2A$), stress becomes $F/2A = \\sigma/2 = 0.5 \\times 10^5 = 5 \\times 10^4$ Pa."
+  },
+  {
+    "question": "High temperature superconductors are usually:",
+    "options": [
+      "Pure metals",
+      "Ceramic oxides",
+      "Polymers",
+      "Alloys of steel"
+    ],
+    "correctAnswer": 1,
+    "explanation": "High-$T_c$ superconductors (like YBCO) are typically complex ceramic copper oxides."
+  }
+]
+

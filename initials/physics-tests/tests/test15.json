@@ -1,0 +1,553 @@
+[
+  {
+    "question": "The time required for an AC waveform to complete one cycle is called its:",
+    "options": [
+      "Frequency",
+      "Time Period",
+      "Amplitude",
+      "Phase"
+    ],
+    "correctAnswer": 1,
+    "explanation": "The time period ($T$) is the duration of one complete cycle of the alternating quantity."
+  },
+  {
+    "question": "The RMS value of an AC current $I = I_0 \\sin(\\omega t)$ is given by:",
+    "options": [
+      "$I_0 / 2$",
+      "$I_0 / \\sqrt{2}$",
+      "$\\sqrt{2} I_0$",
+      "$2 I_0$"
+    ],
+    "correctAnswer": 1,
+    "explanation": "The Root Mean Square (RMS) value is the effective value, related to the peak value by $I_{rms} = I_0 / \\sqrt{2} \\approx 0.707 I_0$."
+  },
+  {
+    "question": "In a pure resistive AC circuit, the voltage and current are:",
+    "options": [
+      "In phase",
+      "Out of phase by $90^\\circ$",
+      "Out of phase by $180^\\circ$",
+      "Out of phase by $45^\\circ$"
+    ],
+    "correctAnswer": 0,
+    "explanation": "In a resistor, voltage and current rise and fall simultaneously, meaning the phase difference $\\phi = 0^\\circ$."
+  },
+  {
+    "question": "The inductive reactance $X_L$ is given by:",
+    "options": [
+      "$1 / (2\\pi f L)$",
+      "$2\\pi f L$",
+      "$2\\pi f / L$",
+      "$L / (2\\pi f)$"
+    ],
+    "correctAnswer": 1,
+    "explanation": "Inductive reactance is the opposition offered by an inductor, calculated as $X_L = \\omega L = 2\\pi f L$."
+  },
+  {
+    "question": "In a pure capacitive circuit, the current:",
+    "options": [
+      "Lags the voltage by $90^\\circ$",
+      "Leads the voltage by $90^\\circ$",
+      "Is in phase with the voltage",
+      "Leads the voltage by $45^\\circ$"
+    ],
+    "correctAnswer": 1,
+    "explanation": "In a capacitor, current leads the applied voltage by $\\pi/2$ or $90^\\circ$ (ICE - Current in Capacitance leads EMF)."
+  },
+  {
+    "question": "The power factor of a pure inductor is:",
+    "options": [
+      "1",
+      "0",
+      "0.5",
+      "Infinite"
+    ],
+    "correctAnswer": 1,
+    "explanation": "For a pure inductor, $\\phi = 90^\\circ$. Power factor $\\cos \\phi = \\cos 90^\\circ = 0$. No real power is consumed."
+  },
+  {
+    "question": "At resonance in a series RLC circuit, the impedance is:",
+    "options": [
+      "Minimum and equal to R",
+      "Maximum and equal to R",
+      "Zero",
+      "Infinite"
+    ],
+    "correctAnswer": 0,
+    "explanation": "At resonance, $X_L = X_C$, canceling each other out. The total impedance becomes purely resistive $Z = R$, which is the minimum possible value."
+  },
+  {
+    "question": "If the frequency of the AC source is doubled, the capacitive reactance will:",
+    "options": [
+      "Double",
+      "Halve",
+      "Become four times",
+      "Remain same"
+    ],
+    "correctAnswer": 1,
+    "explanation": "$X_C = 1 / (2\\pi f C)$. Since $X_C \\propto 1/f$, doubling the frequency halves the reactance."
+  },
+  {
+    "question": "A $100$ mH inductor is connected to a $50$ Hz AC supply. The inductive reactance is approx:",
+    "options": [
+      "$3.14 \\Omega$",
+      "$31.4 \\Omega$",
+      "$314 \\Omega$",
+      "$0.314 \\Omega$"
+    ],
+    "correctAnswer": 1,
+    "explanation": "$X_L = 2\\pi f L = 2 \\times 3.14 \\times 50 \\times 0.1 = 314 \\times 0.1 = 31.4 \\Omega$."
+  },
+  {
+    "question": "The mean or average value of AC over a complete cycle is:",
+    "options": [
+      "$I_0$",
+      "$I_0 / \\sqrt{2}$",
+      "Zero",
+      "$2I_0 / \\pi$"
+    ],
+    "correctAnswer": 2,
+    "explanation": "Since the positive half cycle exactly cancels the negative half cycle, the average value over one full period is zero."
+  },
+  {
+    "question": "A capacitor blocks:",
+    "options": [
+      "AC",
+      "DC",
+      "Both AC and DC",
+      "Neither AC nor DC"
+    ],
+    "correctAnswer": 1,
+    "explanation": "For DC ($f=0$), capacitive reactance $X_C = 1 / (2\\pi f C) = \\infty$. Thus, a capacitor blocks steady DC current."
+  },
+  {
+    "question": "In an RLC series circuit, if $X_L > X_C$, the circuit behaves as:",
+    "options": [
+      "Resistive",
+      "Capacitive",
+      "Inductive",
+      "Purely inductive"
+    ],
+    "correctAnswer": 2,
+    "explanation": "If inductive reactance dominates ($X_L > X_C$), the net reactance is inductive, and the voltage leads the current."
+  },
+  {
+    "question": "The resonant frequency of an RLC series circuit is given by:",
+    "options": [
+      "$1 / (2\\pi \\sqrt{LC})$",
+      "$1 / (\\sqrt{LC})$",
+      "$2\\pi \\sqrt{LC}$",
+      "$\\sqrt{LC} / 2\\pi$"
+    ],
+    "correctAnswer": 0,
+    "explanation": "Resonance occurs when $X_L = X_C$, i.e., $2\\pi f L = 1 / (2\\pi f C)$, solving for $f$ gives $f_r = 1 / (2\\pi \\sqrt{LC})$."
+  },
+  {
+    "question": "The power consumed in an AC circuit is given by $P = V_{rms} I_{rms} \\cos \\phi$. Here $\\cos \\phi$ is called:",
+    "options": [
+      "Form factor",
+      "Power factor",
+      "Quality factor",
+      "Peak factor"
+    ],
+    "correctAnswer": 1,
+    "explanation": "The term $\\cos \\phi$ is the power factor, representing the ratio of real power flowing to the load to the apparent power."
+  },
+  {
+    "question": "An AC voltage is given by $V = 200 \\sin(100\\pi t)$. The peak voltage is:",
+    "options": [
+      "100 V",
+      "200 V",
+      "314 V",
+      "141 V"
+    ],
+    "correctAnswer": 1,
+    "explanation": "Comparing with standard form $V = V_0 \\sin(\\omega t)$, the coefficient $V_0 = 200$ V."
+  },
+  {
+    "question": "In the above question ($V = 200 \\sin(100\\pi t)$), the frequency is:",
+    "options": [
+      "100 Hz",
+      "50 Hz",
+      "25 Hz",
+      "200 Hz"
+    ],
+    "correctAnswer": 1,
+    "explanation": "$\\omega = 2\\pi f = 100\\pi$. Solving for $f$: $2f = 100 \\implies f = 50$ Hz."
+  },
+  {
+    "question": "The unit of impedance is:",
+    "options": [
+      "Henry",
+      "Farad",
+      "Ohm",
+      "Hertz"
+    ],
+    "correctAnswer": 2,
+    "explanation": "Impedance ($Z$) is the total opposition to current flow in an AC circuit and is measured in Ohms ($\\Omega$)."
+  },
+  {
+    "question": "At very high frequencies, an inductor acts as:",
+    "options": [
+      "A short circuit",
+      "An open circuit",
+      "A resistor",
+      "A capacitor"
+    ],
+    "correctAnswer": 1,
+    "explanation": "Since $X_L = 2\\pi f L$, as $f \\to \\infty$, $X_L \\to \\infty$. An inductor blocks high-frequency signals, behaving like an open circuit."
+  },
+  {
+    "question": "Quality factor ($Q$) at resonance determines the:",
+    "options": [
+      "Power factor",
+      "Sharpness of resonance",
+      "Frequency",
+      "Voltage"
+    ],
+    "correctAnswer": 1,
+    "explanation": "A higher Q-factor indicates a narrower bandwidth and sharper resonance peak."
+  },
+  {
+    "question": "In a parallel RLC circuit at resonance, the impedance is:",
+    "options": [
+      "Minimum",
+      "Maximum",
+      "Zero",
+      "Equal to R"
+    ],
+    "correctAnswer": 1,
+    "explanation": "In parallel resonance (rejector circuit), the impedance is maximum (ideally infinite if $R=0$, practically $L/CR$), minimizing current from the source."
+  },
+  {
+    "question": "What is the phase difference between voltage and current in a circuit containing only an ideal inductor?",
+    "options": [
+      "$0^\\circ$",
+      "$90^\\circ$",
+      "$180^\\circ$",
+      "$45^\\circ$"
+    ],
+    "correctAnswer": 1,
+    "explanation": "In an ideal inductor, voltage leads current by $90^\\circ$ ($\\pi/2$ radians)."
+  },
+  {
+    "question": "If the RMS voltage is 220 V, the peak voltage is approximately:",
+    "options": [
+      "220 V",
+      "155 V",
+      "311 V",
+      "440 V"
+    ],
+    "correctAnswer": 2,
+    "explanation": "$V_0 = \\sqrt{2} V_{rms} = 1.414 \\times 220 \\approx 311$ V."
+  },
+  {
+    "question": "A choke coil is used to control current in an AC circuit because it:",
+    "options": [
+      "Has high resistance",
+      "Has low resistance and high inductance",
+      "Has high capacitance",
+      "Has zero inductance"
+    ],
+    "correctAnswer": 1,
+    "explanation": "A choke coil (inductor) offers high reactance ($X_L$) to limit current without consuming significant power (unlike a resistor), due to the $90^\\circ$ phase shift."
+  },
+  {
+    "question": "The frequency of domestic AC supply in Pakistan is typically:",
+    "options": [
+      "60 Hz",
+      "50 Hz",
+      "100 Hz",
+      "120 Hz"
+    ],
+    "correctAnswer": 1,
+    "explanation": "The standard frequency for AC power supply in Pakistan (and many other countries) is 50 Hz."
+  },
+  {
+    "question": "In a series RLC circuit, $R=10 \\Omega$, $X_L=20 \\Omega$, and $X_C=20 \\Omega$. The impedance of the circuit is:",
+    "options": [
+      "$50 \\Omega$",
+      "$40 \\Omega$",
+      "$10 \\Omega$",
+      "$0 \\Omega$"
+    ],
+    "correctAnswer": 2,
+    "explanation": "$Z = \\sqrt{R^2 + (X_L - X_C)^2}$. Since $X_L = X_C$, $Z = \\sqrt{R^2} = R = 10 \\Omega$ (Resonance)."
+  },
+  {
+    "question": "A transformer works on:",
+    "options": [
+      "AC only",
+      "DC only",
+      "Both AC and DC",
+      "Pulsating DC only"
+    ],
+    "correctAnswer": 0,
+    "explanation": "Transformers rely on changing magnetic flux to induce voltage, which requires an alternating current (AC)."
+  },
+  {
+    "question": "The reactance of a capacitor at $50$ Hz is $10 \\Omega$. If the frequency is increased to $100$ Hz, the new reactance is:",
+    "options": [
+      "$20 \\Omega$",
+      "$5 \\Omega$",
+      "$10 \\Omega$",
+      "$40 \\Omega$"
+    ],
+    "correctAnswer": 1,
+    "explanation": "$X_C \\propto 1/f$. If $f$ doubles, $X_C$ becomes half. $10 / 2 = 5 \\Omega$."
+  },
+  {
+    "question": "For a series RLC circuit, the condition for resonance is:",
+    "options": [
+      "$\\omega L = 1/(\\omega C)$",
+      "$\\omega L = \\omega C$",
+      "$\\omega = LC$",
+      "$R = \\omega L$"
+    ],
+    "correctAnswer": 0,
+    "explanation": "Resonance occurs when inductive reactance equals capacitive reactance: $X_L = X_C \\implies \\omega L = 1/(\\omega C)$."
+  },
+  {
+    "question": "In an AC circuit, the ratio of RMS voltage to impedance is:",
+    "options": [
+      "Peak current",
+      "RMS current",
+      "Average current",
+      "Instantaneous current"
+    ],
+    "correctAnswer": 1,
+    "explanation": "From Ohm's law for AC, $I_{rms} = V_{rms} / Z$."
+  },
+  {
+    "question": "Power is dissipated in an AC circuit across:",
+    "options": [
+      "Inductor only",
+      "Capacitor only",
+      "Resistor only",
+      "All components"
+    ],
+    "correctAnswer": 2,
+    "explanation": "Ideal inductors and capacitors store and release energy but do not dissipate it. Only the resistive component dissipates power as heat."
+  },
+  {
+    "question": "The phase angle between voltage and current in a series RLC circuit is given by:",
+    "options": [
+      "$\\tan^{-1} (R/X)$",
+      "$\\tan^{-1} ((X_L - X_C)/R)$",
+      "$\\tan^{-1} (R/(X_L - X_C))$",
+      "$\\cos^{-1} (X/R)$"
+    ],
+    "correctAnswer": 1,
+    "explanation": "From the impedance triangle, $\\tan \\phi = \\text{Net Reactance} / \\text{Resistance} = (X_L - X_C) / R$."
+  },
+  {
+    "question": "An alternating current can be measured by:",
+    "options": [
+      "Moving coil galvanometer",
+      "Hot wire ammeter",
+      "Tangent galvanometer",
+      "DC ammeter"
+    ],
+    "correctAnswer": 1,
+    "explanation": "A hot wire ammeter works on the heating effect ($I^2 R$), which is independent of current direction, making it suitable for AC measurement."
+  },
+  {
+    "question": "At resonance, the power factor of the circuit is:",
+    "options": [
+      "Zero",
+      "Unity (1)",
+      "0.5",
+      "Infinite"
+    ],
+    "correctAnswer": 1,
+    "explanation": "At resonance, the circuit is purely resistive ($Z=R$, $\\phi=0$). $\\cos 0 = 1$."
+  },
+  {
+    "question": "High frequency radio waves can be detected by:",
+    "options": [
+      "Resonant circuit",
+      "Transformer",
+      "Rectifier",
+      "Generator"
+    ],
+    "correctAnswer": 0,
+    "explanation": "A resonant LC circuit (tuning circuit) is used to select and detect specific frequencies from radio waves."
+  },
+  {
+    "question": "The peak value of 220 V AC is:",
+    "options": [
+      "220 V",
+      "311 V",
+      "156 V",
+      "440 V"
+    ],
+    "correctAnswer": 1,
+    "explanation": "Household voltage is specified in RMS. $V_0 = \\sqrt{2} \\times 220 \\approx 311$ V."
+  },
+  {
+    "question": "A $10 \\mu F$ capacitor is connected to a $50$ Hz AC source. Its reactance is:",
+    "options": [
+      "$318 \\Omega$",
+      "$31.8 \\Omega$",
+      "$3.18 \\Omega$",
+      "$3180 \\Omega$"
+    ],
+    "correctAnswer": 0,
+    "explanation": "$X_C = 1 / (2\\pi f C) = 1 / (2 \\times 3.14 \\times 50 \\times 10^{-5}) = 1 / (314 \\times 10^{-5}) = 10^5 / 314 \\approx 318 \\Omega$."
+  },
+  {
+    "question": "In a purely inductive circuit, the power consumed over a complete cycle is:",
+    "options": [
+      "$VI$",
+      "$VI/2$",
+      "Zero",
+      "Infinite"
+    ],
+    "correctAnswer": 2,
+    "explanation": "Since phase difference is $90^\\circ$, power factor is 0, so average power is zero."
+  },
+  {
+    "question": "Impedance of an RC series circuit is:",
+    "options": [
+      "$\\sqrt{R^2 + \\omega^2 C^2}$",
+      "$\\sqrt{R^2 + 1/(\\omega C)^2}$",
+      "$R + 1/\\omega C$",
+      "$\\sqrt{R^2 - 1/(\\omega C)^2}$"
+    ],
+    "correctAnswer": 1,
+    "explanation": "$Z = \\sqrt{R^2 + X_C^2} = \\sqrt{R^2 + (1/\\omega C)^2}$."
+  },
+  {
+    "question": "Which component stores energy in the form of an electric field?",
+    "options": [
+      "Inductor",
+      "Resistor",
+      "Capacitor",
+      "Generator"
+    ],
+    "correctAnswer": 2,
+    "explanation": "A capacitor stores potential energy in the electric field between its plates ($U = 1/2 CV^2$)."
+  },
+  {
+    "question": "Electromagnetic waves are produced by:",
+    "options": [
+      "Stationary charges",
+      "Constant currents",
+      "Accelerated charges",
+      "Magnets"
+    ],
+    "correctAnswer": 2,
+    "explanation": "Accelerating charges produce changing electric and magnetic fields, which propagate as electromagnetic waves."
+  },
+  {
+    "question": "If the phase difference between voltage and current is $\\pi/3$, the power factor is:",
+    "options": [
+      "0.5",
+      "0.866",
+      "1",
+      "0"
+    ],
+    "correctAnswer": 0,
+    "explanation": "Power factor $= \\cos(\\pi/3) = \\cos(60^\\circ) = 0.5$."
+  },
+  {
+    "question": "An ideal choke consumes:",
+    "options": [
+      "Maximum power",
+      "Zero power",
+      "50% power",
+      "Infinite power"
+    ],
+    "correctAnswer": 1,
+    "explanation": "An ideal choke is a pure inductor ($R=0$). Since power factor is zero, it consumes no real power."
+  },
+  {
+    "question": "Three-phase AC supply has a phase difference of ____ between any two phases.",
+    "options": [
+      "$90^\\circ$",
+      "$180^\\circ$",
+      "$120^\\circ$",
+      "$60^\\circ$"
+    ],
+    "correctAnswer": 2,
+    "explanation": "In a balanced three-phase system, the voltages are separated by $120^\\circ$ ($2\\pi/3$ rad)."
+  },
+  {
+    "question": "The velocity of electromagnetic waves in vacuum is given by:",
+    "options": [
+      "$1 / \\sqrt{\\mu_0 \\epsilon_0}$",
+      "$\\sqrt{\\mu_0 \\epsilon_0}$",
+      "$\\mu_0 / \\epsilon_0$",
+      "$\\sqrt{\\mu_0 / \\epsilon_0}$"
+    ],
+    "correctAnswer": 0,
+    "explanation": "This is Maxwell's formula for the speed of light: $c = 1 / \\sqrt{\\mu_0 \\epsilon_0}$."
+  },
+  {
+    "question": "At resonance frequency, the current in a series RLC circuit is:",
+    "options": [
+      "Minimum",
+      "Maximum",
+      "Zero",
+      "Infinite"
+    ],
+    "correctAnswer": 1,
+    "explanation": "At resonance, impedance is minimum ($Z=R$), so current ($I=V/Z$) is maximum."
+  },
+  {
+    "question": "Low power factor in a circuit results in:",
+    "options": [
+      "Large current for same power",
+      "Small current for same power",
+      "Less heat loss",
+      "High efficiency"
+    ],
+    "correctAnswer": 0,
+    "explanation": "$P = VI \\cos \\phi$. For constant $P$ and $V$, if $\\cos \\phi$ is low, current $I$ must be large. This increases transmission losses ($I^2 R$)."
+  },
+  {
+    "question": "The dimensions of $RC$ are same as:",
+    "options": [
+      "Velocity",
+      "Time",
+      "Force",
+      "Energy"
+    ],
+    "correctAnswer": 1,
+    "explanation": "$RC$ represents the time constant of a circuit, so it has dimensions of Time $[T]$."
+  },
+  {
+    "question": "In a step-up transformer, the output current is:",
+    "options": [
+      "Greater than input current",
+      "Less than input current",
+      "Equal to input current",
+      "Zero"
+    ],
+    "correctAnswer": 1,
+    "explanation": "If voltage is stepped up, current must be stepped down to conserve power ($V_p I_p \\approx V_s I_s$)."
+  },
+  {
+    "question": "The inductive reactance of a coil is $1000 \\Omega$. If its inductance and frequency are both doubled, the new reactance will be:",
+    "options": [
+      "$1000 \\Omega$",
+      "$2000 \\Omega$",
+      "$4000 \\Omega$",
+      "$500 \\Omega$"
+    ],
+    "correctAnswer": 2,
+    "explanation": "$X_L = 2\\pi f L$. If both $f$ and $L$ double, $X_L' = 2\\pi (2f) (2L) = 4 (2\\pi f L) = 4 \\times 1000 = 4000 \\Omega$."
+  },
+  {
+    "question": "The impedance of a circuit is $Z = 50 \\Omega$ and resistance $R = 25 \\Omega$. The power factor is:",
+    "options": [
+      "0.5",
+      "2",
+      "1",
+      "0"
+    ],
+    "correctAnswer": 0,
+    "explanation": "Power Factor $\\cos \\phi = R / Z = 25 / 50 = 0.5$."
+  }
+]
+

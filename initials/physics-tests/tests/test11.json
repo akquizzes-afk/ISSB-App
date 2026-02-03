@@ -1,0 +1,553 @@
+[
+  {
+    "question": "The electrostatic force between two point charges is directly proportional to the product of the magnitudes of charges and inversely proportional to the square of the distance between them. This statement is known as:",
+    "options": [
+      "Coulomb's Law",
+      "Gauss's Law",
+      "Ohm's Law",
+      "Ampere's Law"
+    ],
+    "correctAnswer": 0,
+    "explanation": "Coulomb's Law quantifies the electrostatic force. Mathematically, $F = k \\frac{q_1 q_2}{r^2}$, which states the force is directly proportional to the product of charges and inversely proportional to the square of the distance."
+  },
+  {
+    "question": "What is the value of the Coulomb constant $k$ in SI units?",
+    "options": [
+      "$8.85 \\times 10^{-12} \\text{ N m}^2 \\text{ C}^{-2}$",
+      "$9 \\times 10^9 \\text{ N m}^2 \\text{ C}^{-2}$",
+      "$1.6 \\times 10^{-19} \\text{ N m}^2 \\text{ C}^{-2}$",
+      "$6.67 \\times 10^{-11} \\text{ N m}^2 \\text{ C}^{-2}$"
+    ],
+    "correctAnswer": 1,
+    "explanation": "The Coulomb constant is given by $k = \\frac{1}{4\\pi\\epsilon_0}$. Substituting the value of $\\epsilon_0$, we get approximately $9 \\times 10^9 \\text{ N m}^2 \\text{ C}^{-2}$."
+  },
+  {
+    "question": "If the distance between two point charges is halved, the electrostatic force between them will:",
+    "options": [
+      "Remain the same",
+      "Double",
+      "Become four times",
+      "Become one-fourth"
+    ],
+    "correctAnswer": 2,
+    "explanation": "Coulomb's force follows an inverse square law ($F \\propto 1/r^2$). If distance $r$ becomes $r/2$, the new force is proportional to $1/(r/2)^2 = 4/r^2$, meaning the force becomes four times stronger."
+  },
+  {
+    "question": "The relative permittivity $\\epsilon_r$ of a dielectric medium is always:",
+    "options": [
+      "Less than 1",
+      "Equal to 0",
+      "Negative",
+      "Greater than 1"
+    ],
+    "correctAnswer": 3,
+    "explanation": "Relative permittivity (dielectric constant) is the ratio of the permittivity of a substance to the permittivity of free space. For any material medium, it is always greater than 1 (Vacuum = 1)."
+  },
+  {
+    "question": "The concept of electric field lines was introduced by:",
+    "options": [
+      "Michael Faraday",
+      "Charles Coulomb",
+      "Isaac Newton",
+      "Andre Ampere"
+    ],
+    "correctAnswer": 0,
+    "explanation": "Michael Faraday introduced the concept of electric field lines (or lines of force) to visualize the electric field around charges."
+  },
+  {
+    "question": "Electric field lines originate from ______ charges and terminate on ______ charges.",
+    "options": [
+      "Negative, Positive",
+      "Positive, Negative",
+      "Neutral, Positive",
+      "Positive, Neutral"
+    ],
+    "correctAnswer": 1,
+    "explanation": "By convention, electric field lines emanate from positive charges and end on negative charges. They show the direction of force on a positive test charge."
+  },
+  {
+    "question": "Which of the following is NOT a property of electric field lines?",
+    "options": [
+      "They originate from positive charges",
+      "They never cross each other",
+      "They form closed loops",
+      "They are closer where the field is strong"
+    ],
+    "correctAnswer": 2,
+    "explanation": "Electrostatic field lines do not form closed loops; they start on positive charges and end on negative charges. Magnetic field lines, however, do form closed loops."
+  },
+  {
+    "question": "The electric force per unit charge is known as:",
+    "options": [
+      "Electric Potential",
+      "Electric Flux",
+      "Coulomb Constant",
+      "Electric Field Intensity"
+    ],
+    "correctAnswer": 3,
+    "explanation": "Electric field intensity ($E$) is defined as the force experienced by a unit positive test charge placed at that point ($E = F/q_0$)."
+  },
+  {
+    "question": "The SI unit of electric field intensity is:",
+    "options": [
+      "Newton per Coulomb ($N/C$)",
+      "Joule per Coulomb ($J/C$)",
+      "Coulomb per Newton ($C/N$)",
+      "Volt per Coulomb ($V/C$)"
+    ],
+    "correctAnswer": 0,
+    "explanation": "Since $E = F/q$, the unit is Newton (force) divided by Coulomb (charge), which is $N/C$. Another equivalent unit is Volt per meter ($V/m$)."
+  },
+  {
+    "question": "In the process of Xerography (photocopying), the drum is coated with:",
+    "options": [
+      "Aluminum",
+      "Selenium",
+      "Copper",
+      "Silver"
+    ],
+    "correctAnswer": 1,
+    "explanation": "The drum in a photocopier is coated with Selenium, which is a photoconductor. It acts as an insulator in the dark and a conductor when exposed to light."
+  },
+  {
+    "question": "Electric flux $\\Phi$ through a surface area $A$ is given by the formula:",
+    "options": [
+      "$\\Phi = E / A$",
+      "$\\Phi = E \\times A$",
+      "$\\Phi = \\vec{E} \\cdot \\vec{A}$",
+      "$\\Phi = \\vec{E} \\times \\vec{A}$"
+    ],
+    "correctAnswer": 2,
+    "explanation": "Electric flux is the dot product of the electric field vector $\\vec{E}$ and the area vector $\\vec{A}$. It is a scalar quantity: $\\Phi = EA \\cos(\\theta)$."
+  },
+  {
+    "question": "Electric flux is maximum when the angle between the electric field lines and the vector area is:",
+    "options": [
+      "$90^\\circ$",
+      "$180^\\circ$",
+      "$45^\\circ$",
+      "$0^\\circ$"
+    ],
+    "correctAnswer": 3,
+    "explanation": "Flux $\\Phi = EA \\cos(\\theta)$. The value is maximum when $\\cos(\\theta) = 1$, which corresponds to $\\theta = 0^\\circ$ (field is parallel to the area vector/perpendicular to the surface)."
+  },
+  {
+    "question": "Gauss's Law states that the total electric flux through a closed surface is equal to:",
+    "options": [
+      "$\\frac{1}{\\epsilon_0} \\times$ (Total charge enclosed)",
+      "$\\epsilon_0 \\times$ (Total charge enclosed)",
+      "Total charge enclosed",
+      "Zero"
+    ],
+    "correctAnswer": 0,
+    "explanation": "Gauss's Law relates the net flux to the enclosed charge. The formula is $\\Phi_e = \\frac{Q}{\\epsilon_0}$."
+  },
+  {
+    "question": "The electric field intensity inside a hollow charged metal sphere is:",
+    "options": [
+      "Infinite",
+      "Zero",
+      "Uniform and maximum",
+      "Variable"
+    ],
+    "correctAnswer": 1,
+    "explanation": "According to Gauss's Law, since there is no charge enclosed within the hollow part of the conductor, the electric field intensity inside is zero."
+  },
+  {
+    "question": "The electric field intensity due to an infinite sheet of charge with surface charge density $\\sigma$ is:",
+    "options": [
+      "$\\sigma / \\epsilon_0$",
+      "$\\sigma / 2\\epsilon_0$",
+      "$2\\sigma / \\epsilon_0$",
+      "$\\sigma / 4\\epsilon_0$"
+    ],
+    "correctAnswer": 1,
+    "explanation": "By applying Gauss's Law to an infinite sheet, the field extends from both sides, leading to the derivation $E = \\frac{\\sigma}{2\\epsilon_0}$."
+  },
+  {
+    "question": "The electric field intensity between two oppositely charged parallel plates is:",
+    "options": [
+      "Zero",
+      "$\\sigma / 2\\epsilon_0$",
+      "$\\sigma / \\epsilon_0$",
+      "$2\\sigma / \\epsilon_0$"
+    ],
+    "correctAnswer": 2,
+    "explanation": "Between two oppositely charged plates, the fields add up: $E = \\frac{\\sigma}{2\\epsilon_0} + \\frac{\\sigma}{2\\epsilon_0} = \\frac{\\sigma}{\\epsilon_0}$."
+  },
+  {
+    "question": "The work done in bringing a unit positive charge from infinity to a point in an electric field is called:",
+    "options": [
+      "Electric Intensity",
+      "Capacitance",
+      "Electric Flux",
+      "Electric Potential"
+    ],
+    "correctAnswer": 3,
+    "explanation": "This is the standard definition of Electric Potential ($V$) at a point. It represents the potential energy per unit charge."
+  },
+  {
+    "question": "The relation between electric field intensity $E$ and potential gradient is given by:",
+    "options": [
+      "$E = - \\frac{\\Delta V}{\\Delta r}$",
+      "$E = \\frac{\\Delta V}{\\Delta r}$",
+      "$E = \\Delta V \\times \\Delta r$",
+      "$E = - \\frac{\\Delta r}{\\Delta V}$"
+    ],
+    "correctAnswer": 0,
+    "explanation": "The electric field is the negative gradient of the potential. The negative sign indicates that the field points in the direction of decreasing potential."
+  },
+  {
+    "question": "One Electron Volt (eV) is equal to:",
+    "options": [
+      "$1.6 \\times 10^{-19}$ J",
+      "$9.1 \\times 10^{-31}$ J",
+      "$1.6 \\times 10^{-27}$ J",
+      "$6.25 \\times 10^{18}$ J"
+    ],
+    "correctAnswer": 0,
+    "explanation": "An electron volt is the energy gained by an electron moving through 1 volt. $W = qV = (1.6 \\times 10^{-19} C)(1 V) = 1.6 \\times 10^{-19} J$."
+  },
+  {
+    "question": "Which of the following is a scalar quantity?",
+    "options": [
+      "Electric Field Intensity",
+      "Electric Potential",
+      "Electric Force",
+      "Dipole Moment"
+    ],
+    "correctAnswer": 1,
+    "explanation": "Electric Potential is work done per unit charge (Work is scalar, Charge is scalar), so it is a scalar quantity. The others are vectors."
+  },
+  {
+    "question": "The capacitance of a capacitor is defined as:",
+    "options": [
+      "$C = QV$",
+      "$C = V/Q$",
+      "$C = Q/V$",
+      "$C = Q^2/V$"
+    ],
+    "correctAnswer": 2,
+    "explanation": "Capacitance is the ability to store charge per unit voltage. The defining equation is $Q = CV$, which rearranges to $C = Q/V$."
+  },
+  {
+    "question": "The SI unit of capacitance is:",
+    "options": [
+      "Volt",
+      "Joule",
+      "Coulomb",
+      "Farad"
+    ],
+    "correctAnswer": 3,
+    "explanation": "The SI unit of capacitance is the Farad (F), named after Michael Faraday. 1 Farad = 1 Coulomb per Volt."
+  },
+  {
+    "question": "The capacitance of a parallel plate capacitor is given by:",
+    "options": [
+      "$C = \\frac{A \\epsilon_0}{d}$",
+      "$C = \\frac{d}{A \\epsilon_0}$",
+      "$C = A \\epsilon_0 d$",
+      "$C = \\frac{Q}{d}$"
+    ],
+    "correctAnswer": 0,
+    "explanation": "For a parallel plate capacitor with vacuum between plates, capacitance is proportional to area ($A$) and inversely proportional to separation ($d$). Formula: $C = \\frac{A \\epsilon_0}{d}$."
+  },
+  {
+    "question": "When a dielectric of constant $\\epsilon_r$ is placed between the plates of a capacitor, the capacitance:",
+    "options": [
+      "Decreases",
+      "Increases",
+      "Remains constant",
+      "Becomes zero"
+    ],
+    "correctAnswer": 1,
+    "explanation": "A dielectric material reduces the electric field, allowing more charge to be stored at the same voltage. The capacitance increases by a factor of $\\epsilon_r$ ($C' = \\epsilon_r C$)."
+  },
+  {
+    "question": "Two capacitors of capacitance $C$ are connected in parallel. The equivalent capacitance is:",
+    "options": [
+      "$C/2$",
+      "$C$",
+      "$2C$",
+      "$C^2$"
+    ],
+    "correctAnswer": 2,
+    "explanation": "In a parallel combination, capacitances add algebraically: $C_{eq} = C_1 + C_2 = C + C = 2C$."
+  },
+  {
+    "question": "Three capacitors of $3 \\mu F$ each are connected in series. The equivalent capacitance is:",
+    "options": [
+      "$9 \\mu F$",
+      "$6 \\mu F$",
+      "$3 \\mu F$",
+      "$1 \\mu F$"
+    ],
+    "correctAnswer": 3,
+    "explanation": "In series, the reciprocal of equivalent capacitance is the sum of reciprocals: $\\frac{1}{C_{eq}} = \\frac{1}{3} + \\frac{1}{3} + \\frac{1}{3} = 1$. Thus, $C_{eq} = 1 \\mu F$."
+  },
+  {
+    "question": "The energy stored in a capacitor is given by the formula:",
+    "options": [
+      "$U = \\frac{1}{2} CV^2$",
+      "$U = CV^2$",
+      "$U = \\frac{1}{2} C^2 V$",
+      "$U = \\frac{1}{2} QV^2$"
+    ],
+    "correctAnswer": 0,
+    "explanation": "The work done to charge a capacitor is stored as potential energy. $U = \\frac{1}{2} QV = \\frac{1}{2} (CV)V = \\frac{1}{2} CV^2$."
+  },
+  {
+    "question": "The term 'RC' in an RC circuit has the dimensions of:",
+    "options": [
+      "Force",
+      "Time",
+      "Current",
+      "Energy"
+    ],
+    "correctAnswer": 1,
+    "explanation": "The product of Resistance (Ohms) and Capacitance (Farads) is the Time Constant ($\\tau = RC$), which has the unit of Seconds (Time)."
+  },
+  {
+    "question": "During the charging of a capacitor, the charge on the capacitor reaches about 63% of its maximum value in:",
+    "options": [
+      "One time constant",
+      "Two time constants",
+      "Five time constants",
+      "Half a time constant"
+    ],
+    "correctAnswer": 0,
+    "explanation": "In one time constant ($t = RC$), the charge reaches $1 - e^{-1} \\approx 0.632$ or $63.2\\%$ of the equilibrium charge."
+  },
+  {
+    "question": "Which component in an inkjet printer controls the path of ink droplets to form characters?",
+    "options": [
+      "Print head nozzle",
+      "Charging electrode",
+      "Pump",
+      "Deflection plates"
+    ],
+    "correctAnswer": 3,
+    "explanation": "The deflection plates create an electric field that diverts the charged ink droplets to the correct position on the paper. Uncharged droplets go to the gutter."
+  },
+  {
+    "question": "In a capacitor, energy is stored in the:",
+    "options": [
+      "Electric field between plates",
+      "Metal plates",
+      "Connecting wires",
+      "Battery"
+    ],
+    "correctAnswer": 0,
+    "explanation": "The energy of a charged capacitor resides in the electric field established in the space (dielectric) between the plates."
+  },
+  {
+    "question": "What is the force on a proton placed in an electric field of $200$ N/C? (Charge of proton = $1.6 \\times 10^{-19}$ C)",
+    "options": [
+      "$1.6 \\times 10^{-19}$ N",
+      "$3.2 \\times 10^{-17}$ N",
+      "$8.0 \\times 10^{20}$ N",
+      "$3.2 \\times 10^{-19}$ N"
+    ],
+    "correctAnswer": 1,
+    "explanation": "Using $F = qE$: $F = (1.6 \\times 10^{-19}) \\times 200 = 320 \\times 10^{-19} = 3.2 \\times 10^{-17}$ N."
+  },
+  {
+    "question": "A capacitor blocks:",
+    "options": [
+      "Alternating Current (AC)",
+      "Changing Current",
+      "Direct Current (DC)",
+      "Both AC and DC"
+    ],
+    "correctAnswer": 2,
+    "explanation": "Once a capacitor is fully charged, no further current flows in a DC circuit. It effectively blocks steady DC (after the transient charging phase)."
+  },
+  {
+    "question": "Electric potential at a point due to a point charge $q$ at distance $r$ is:",
+    "options": [
+      "$V = k \\frac{q}{r^2}$",
+      "$V = k \\frac{q^2}{r}$",
+      "$V = k \\frac{q}{r^3}$",
+      "$V = k \\frac{q}{r}$"
+    ],
+    "correctAnswer": 3,
+    "explanation": "The formula for electric potential due to a point charge is $V = \\frac{1}{4\\pi\\epsilon_0} \\frac{q}{r} = k \\frac{q}{r}$. It is inversely proportional to distance $r$, not $r^2$."
+  },
+  {
+    "question": "The total flux through a closed surface depends on:",
+    "options": [
+      "The charge enclosed only",
+      "The shape of the surface",
+      "The size of the surface",
+      "The location of charge inside"
+    ],
+    "correctAnswer": 0,
+    "explanation": "Gauss's Law ($\\\\Phi = q/\\\\epsilon_0$) implies that the total flux depends only on the amount of charge enclosed, not on the geometry or size of the Gaussian surface."
+  },
+  {
+    "question": "If a unit positive charge is moved against the electric field, work is done:",
+    "options": [
+      "By the electric field",
+      "On the charge",
+      "By the charge",
+      "Zero"
+    ],
+    "correctAnswer": 1,
+    "explanation": "Moving a positive charge against the electric field (from low to high potential) requires external work to be done *on* the charge, increasing its potential energy."
+  },
+  {
+    "question": "Which of the following units is equivalent to $N \\cdot m^2 / C^2$?",
+    "options": [
+      "Farad",
+      "Henry",
+      "Unit of $k$ (Coulomb constant)",
+      "Weber"
+    ],
+    "correctAnswer": 2,
+    "explanation": "From Coulomb's Law $F = k q_1 q_2 / r^2$, solving for $k$ gives $k = F r^2 / (q_1 q_2)$. The units are Newton $\\cdot$ meter$^2$ / Coulomb$^2$."
+  },
+  {
+    "question": "The electric potential at infinite distance from a point charge is:",
+    "options": [
+      "Maximum",
+      "Unity",
+      "Infinite",
+      "Zero"
+    ],
+    "correctAnswer": 3,
+    "explanation": "By convention and mathematical limit ($V = kq/r$), as $r \\to \\infty$, the potential $V \\to 0$."
+  },
+  {
+    "question": "For a capacitor, the graph between charge $Q$ and voltage $V$ is a:",
+    "options": [
+      "Straight line",
+      "Parabola",
+      "Hyperbola",
+      "Circle"
+    ],
+    "correctAnswer": 0,
+    "explanation": "Since $Q = CV$ and $C$ is a constant for a given capacitor, the relationship between $Q$ and $V$ is linear, resulting in a straight line passing through the origin."
+  },
+  {
+    "question": "The electric field lines of a negative point charge:",
+    "options": [
+      "Radiate outwards",
+      "Radiate inwards",
+      "Are parallel lines",
+      "Form concentric circles"
+    ],
+    "correctAnswer": 1,
+    "explanation": "For a negative point charge, the electric field lines are directed radially inwards, towards the charge."
+  },
+  {
+    "question": "What is the net charge on a capacitor?",
+    "options": [
+      "$Q$",
+      "$2Q$",
+      "Zero",
+      "$Q/2$"
+    ],
+    "correctAnswer": 2,
+    "explanation": "A capacitor consists of two plates with equal and opposite charges ($+Q$ and $-Q$). The net charge of the entire device is $+Q + (-Q) = 0$."
+  },
+  {
+    "question": "Which law describes the force between static electric charges?",
+    "options": [
+      "Faraday's Law",
+      "Kirchhoff's Law",
+      "Lenz's Law",
+      "Coulomb's Law"
+    ],
+    "correctAnswer": 3,
+    "explanation": "Coulomb's Law is the fundamental law of electrostatics describing the force between two stationary point charges."
+  },
+  {
+    "question": "Energy density of an electric field is proportional to:",
+    "options": [
+      "$E^2$",
+      "$E$",
+      "$\\sqrt{E}$",
+      "$1/E$"
+    ],
+    "correctAnswer": 0,
+    "explanation": "The energy density (energy per unit volume) in an electric field is given by $u = \\frac{1}{2} \\epsilon_0 E^2$. Thus, it is proportional to the square of the electric field intensity."
+  },
+  {
+    "question": "A region where the electric field is zero is called:",
+    "options": [
+      "Equipotential region",
+      "Field-free region",
+      "High potential region",
+      "Conductive region"
+    ],
+    "correctAnswer": 1,
+    "explanation": "A region with no electric field ($E=0$) is often referred to as a field-free region. An example is the interior of a hollow charged conductor."
+  },
+  {
+    "question": "If the potential difference across a capacitor is doubled, the energy stored:",
+    "options": [
+      "Doubles",
+      "Halves",
+      "Quadruples",
+      "Remains same"
+    ],
+    "correctAnswer": 2,
+    "explanation": "Energy $U = \\frac{1}{2} CV^2$. If $V$ becomes $2V$, the new energy is proportional to $(2V)^2 = 4V^2$. Thus, the energy becomes four times (quadruples)."
+  },
+  {
+    "question": "The product of charge $q$ and separation $d$ between two opposite charges is called:",
+    "options": [
+      "Torque",
+      "Power",
+      "Force",
+      "Electric Dipole Moment"
+    ],
+    "correctAnswer": 3,
+    "explanation": "The electric dipole moment ($p$) is a vector quantity defined as the product of the magnitude of one of the charges and the vector distance between them: $p = qd$."
+  },
+  {
+    "question": "Which of the following materials would result in the highest capacitance if placed between plates?",
+    "options": [
+      "Water ($\\epsilon_r \\approx 80$)",
+      "Air ($\\epsilon_r \\approx 1$)",
+      "Paper ($\\epsilon_r \\approx 3$)",
+      "Mica ($\\epsilon_r \\approx 6$)"
+    ],
+    "correctAnswer": 0,
+    "explanation": "Capacitance is directly proportional to the relative permittivity ($\\epsilon_r$). Water has the highest dielectric constant (approx 80) among the options, theoretically providing the highest capacitance (though practically limited by conductivity)."
+  },
+  {
+    "question": "An equipotential surface is always ______ to the electric field lines.",
+    "options": [
+      "Perpendicular",
+      "Parallel",
+      "Antiparallel",
+      "Inclined at $45^\\circ$"
+    ],
+    "correctAnswer": 0,
+    "explanation": "Electric field lines point in the direction of maximum potential decrease. To have zero change in potential (equipotential), one must move perpendicular to the field lines."
+  },
+  {
+    "question": "Two parallel metal plates are $2$ mm apart and the potential difference between them is $100$ V. The electric field intensity is:",
+    "options": [
+      "$50$ N/C",
+      "$200$ N/C",
+      "$50,000$ N/C",
+      "$0.02$ N/C"
+    ],
+    "correctAnswer": 2,
+    "explanation": "$E = V/d$. Here $V=100$ V and $d=2$ mm $= 0.002$ m. $E = 100 / 0.002 = 50,000$ V/m (or N/C)."
+  },
+  {
+    "question": "The value of permittivity of free space $\\epsilon_0$ is:",
+    "options": [
+      "$1.6 \\times 10^{-19} \\text{ C}^2 \\text{ N}^{-1} \\text{ m}^{-2}$",
+      "$9 \\times 10^9 \\text{ C}^2 \\text{ N}^{-1} \\text{ m}^{-2}$",
+      "$6.67 \\times 10^{-11} \\text{ C}^2 \\text{ N}^{-1} \\text{ m}^{-2}$",
+      "$8.85 \\times 10^{-12} \\text{ C}^2 \\text{ N}^{-1} \\text{ m}^{-2}$"
+    ],
+    "correctAnswer": 3,
+    "explanation": "The permittivity of free space is a physical constant equal to approximately $8.854 \\times 10^{-12} \\text{ F/m}$ or $\\text{C}^2 \\text{ N}^{-1} \\text{ m}^{-2}$."
+  }
+]
+
